@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9E Sınıfı Film Stüdyosu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* --- CSS AYARLARI --- */
+        :root { --bg-main: #f4f6f8; --bg-card: #ffffff; --text-main: #2c3e50; --text-sec: #7f8c8d; --accent: #2980b9; --nav-bg: #ffffff; --border-color: #e0e0e0; }
+        [data-theme="dark"] { --bg-main: #141414; --bg-card: #1f1f1f; --text-main: #ffffff; --text-sec: #b3b3b3; --accent: #f39c12; --nav-bg: #0f0f0f; --border-color: #333; }
+        
+        body { margin: 0; font-family: 'Roboto', sans-serif; background-color: var(--bg-main); color: var(--text-main); transition: 0.3s; }
+        #app-container { display: flex; flex-direction: column; min-height: 100vh; }
+        
+        /* GİRİŞ EKRANI */
+        #login-overlay { 
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            z-index: 9999; display: flex; justify-content: center; align-items: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover; background-position: center;
+        }
+        .login-box { 
+            background: rgba(255, 255, 255, 0.95); padding: 3rem; border-radius: 20px; text-align: center; width: 300px; 
+            box-shadow: 0 15px 35px rgba(0,0,0,0.5); backdrop-filter: blur(5px);
+        }
+        .login-box h1 { margin: 0; color: #2c3e50; font-size: 2rem; margin-bottom:10px; }
+        .login-box input { padding: 12px; width: 90%; margin-bottom: 20px; border-radius: 10px; border: 1px solid #ccc; outline: none; }
+        .login-box button { padding: 12px; background: #2980b9; color: #fff; border: none; cursor: pointer; border-radius: 10px; width: 100%; font-weight: bold; transition:0.3s; }
+        .login-box button:hover { background: #1c6ea4; transform: scale(1.02); }
+        
+        /* NAVBAR */
+        .navbar { background: var(--nav-bg); padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .logo { font-size: 1.5rem; font-weight: 700; } .logo .highlight { color: var(--accent); }
+        .search-box { position: relative; width: 300px; }
+        .search-box input { width: 100%; background: var(--bg-main); border: 1px solid var(--border-color); padding: 12px 40px 12px 20px; color: var(--text-main); border-radius: 30px; outline: none; }
+        .search-box i { position: absolute; right: 20px; top: 12px; color: var(--text-sec); }
+        .icon-btn { background: none; border: none; color: var(--text-main); font-size: 1.3rem; margin-left: 15px; cursor: pointer; transition: 0.3s; }
+        
+        /* ETİKET BULUTU */
+        .tag-cloud { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding: 20px 30px; background: var(--bg-main); }
+        .tag-btn { background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-sec); padding: 8px 20px; border-radius: 20px; cursor: pointer; transition: 0.3s; font-size: 0.9rem; font-weight: 500; }
+        .tag-btn:hover, .tag-btn.active { background: var(--accent); color: white; border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+
+        /* KART TASARIMI */
+        .movie-grid { flex: 1; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 30px; padding: 30px; max-width: 1400px; margin: 0 auto; width: 100%; box-sizing: border-box; }
+        .movie-card { background: var(--bg-card); border-radius: 25px; overflow: hidden; transition: 0.3s; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid var(--border-color); display: flex; flex-direction: column; }
+        .movie-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
+        .poster-container { width: 100%; height: 330px; overflow: hidden; position: relative; cursor: pointer; flex-shrink: 0; }
+        .poster-container img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
+        .movie-card:hover .poster-container img { transform: scale(1.05); }
+        .play-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; opacity: 0; transition: 0.3s; }
+        .movie-card:hover .play-overlay { opacity: 1; } .play-icon { font-size: 4rem; color: #fff; }
+        
+        .card-info { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
+        .card-info h3 { margin: 0; font-size: 1.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 10px; font-weight: bold; }
+        
+        .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: auto; }
+        .tags span { background: var(--accent); color: #ffffff !important; font-size: 0.75rem; padding: 4px 10px; border-radius: 15px; font-weight: bold; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+        .watch-options { display: flex; gap: 10px; padding: 0 20px 20px 20px; }
+        .opt-btn { flex: 1; background: var(--bg-main); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px; cursor: pointer; border-radius: 12px; font-weight: 600; transition: 0.3s; }
+        .opt-btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+        /* MODAL */
+        .modal { display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.85); justify-content: center; align-items: center; padding: 20px; box-sizing: border-box; backdrop-filter: blur(5px); }
+        .modal-content { background: var(--bg-card); width: 100%; max-width: 900px; border-radius: 25px; position: relative; max-height: 90vh; overflow-y: auto; color: var(--text-main); }
+        .close-btn { position: absolute; top: 15px; right: 15px; width: 45px; height: 45px; background-color: #e74c3c; color: white; font-size: 26px; border-radius: 50%; text-align: center; line-height: 45px; cursor: pointer; z-index: 9999; }
+        .video-wrapper { position: relative; padding-bottom: 56.25%; height: 0; background: #000; border-radius: 25px 25px 0 0; overflow: hidden; }
+        .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+        .modal-info { padding: 30px; display: flex; flex-direction: column; }
+
+        /* --- YENİLENEN DEĞERLENDİR BUTONU (TEMA UYUMLU & SOLDA & PAPİRÜS) --- */
+        .eval-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--accent); /* Tema rengini kullan */
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            margin-top: 25px;
+            font-weight: 600;
+            font-size: 1rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            align-self: flex-start; /* Sola yasla */
+        }
+        .eval-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            filter: brightness(1.1); /* Hover'da biraz parlat */
+        }
+        /* ------------------------------------------------------------------ */
+
+        /* DUYURU */
+        #announcement-box { max-width: 450px !important; border-radius: 40px !important; text-align: center; background: var(--bg-card); border: 3px solid var(--accent); }
+        .announcement-inner { padding: 50px; display: flex; flex-direction: column; align-items: center; }
+        .announcement-icon { font-size: 5rem; color: var(--accent); margin-bottom: 30px; }
+
+        /* FOOTER */
+        footer { text-align: center; padding: 40px; background: var(--nav-bg); border-top: 1px solid var(--border-color); color: var(--text-sec); margin-top: auto; }
+
+        /* MOBİL */
+        @media (max-width: 768px) {
+            .navbar { flex-wrap: wrap; padding: 20px; } .logo { order: 1; flex: 1; } .nav-controls { order: 2; margin-left: 0; }
+            .search-box { order: 3; width: 100%; margin-top: 20px; } .search-box input { width: 100%; box-sizing: border-box; }
+            .movie-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 20px; padding: 20px; }
+            .poster-container { height: 240px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="login-overlay">
+        <div class="login-box">
+            <h1><i class="fas fa-play-circle" style="color: #2980b9;"></i> Boğaziçi Film Platformu</h1>
+            <p>Öğrenci Girişi</p>
+            <input type="password" id="password-input" placeholder="Şifre...">
+            <button onclick="checkPassword()">Giriş Yap</button>
+            <p id="error-msg" style="color:red; margin-top:10px; font-weight:bold;"></p>
+        </div>
+    </div>
+
+    <div id="app-container" style="display:none;">
+        <nav class="navbar">
+            <div class="logo">Boğaziçi <span class="highlight">Film Platformu</span></div>
+            <div class="search-box"><input type="text" id="search-input" placeholder="Film ara..." onkeyup="filterFilms()"><i class="fas fa-search"></i></div>
+            <div class="nav-controls">
+                <button onclick="openModal('announcement-modal')" class="icon-btn"><i class="fas fa-bell"></i></button>
+                <button onclick="toggleTheme()" class="icon-btn"><i class="fas fa-moon"></i></button>
+            </div>
+        </nav>
+
+        <div class="tag-cloud">
+            <button class="tag-btn active" onclick="filterGenre('all')">Tümü</button>
+            <button class="tag-btn" onclick="filterGenre('Bilim Kurgu')">Bilim Kurgu</button>
+            <button class="tag-btn" onclick="filterGenre('Tarih')">Tarih</button>
+            <button class="tag-btn" onclick="filterGenre('Dram')">Dram</button>
+            <button class="tag-btn" onclick="filterGenre('Aksiyon')">Aksiyon</button>
+            <button class="tag-btn" onclick="filterGenre('Belgesel')">Belgesel</button>
+            <button class="tag-btn" onclick="filterGenre('Animasyon')">Animasyon</button>
+        </div>
+
+        <div class="movie-grid" id="movie-grid"></div>
+        
+        <footer>
+            <div class="footer-content"><p>&copy; 2025 - Boğaziçi Koleji Sosyal Medya ve Bilişim Kulübü // Sadece eğitim amaçlı kullanılmak üzere kulübümüz tarafından tasarlanmıştır.</p></div>
+        </footer>
+    </div>
+
+    <div id="player-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('player-modal')">&times;</span>
+            <div class="video-wrapper"><iframe id="main-player" src="" allowfullscreen></iframe></div>
+            <div class="modal-info">
+                <h2 id="player-title"></h2>
+                <div id="player-tags" class="tags" style="margin-bottom:15px;"></div>
+                <p id="player-desc" style="line-height:1.6; font-size:1.1rem;"></p>
+                
+                <a id="eval-btn" href="#" target="_blank" class="eval-button">
+                    <i class="fas fa-scroll"></i> Değerlendir
+                </a>
+                </div>
+        </div>
+    </div>
+
+    <div id="announcement-modal" class="modal">
+        <div class="modal-content" id="announcement-box">
+            <span class="close-btn" onclick="closeModal('announcement-modal')" style="background:var(--accent); top:15px; right:15px; border:none; color:white;">&times;</span>
+            <div class="announcement-inner">
+                <i class="fas fa-bullhorn announcement-icon"></i>
+                <h3 style="font-size:1.8rem; margin-bottom:20px;">Duyurular</h3>
+                <p style="font-size:1.2rem; line-height:1.6;">Merhaba arkadaşlar, Sitede gözden kaçırdığımız eksiklikler, hatalar olabilir. Bunları Tarih öğretmeni Murat Mutlu'ya bildirirseniz kısa sürede çözülecektir. Sosyal Medya ve Bilişim Kulübü</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // --- AYARLAR ---
+        const SITE_SIFRESI = "1234";
+
+        // --- FİLM LİSTESİ ---
+        const filmler = [
+            // 1. FİLM
+            {
+                id: 1,
+                baslik: "The Martian (Marslı)",
+                tur: ["Bilim Kurgu", "Aksiyon"],
+                ozet: "Mars'taki bir görev sırasında öldü sanılarak geride bırakılan astronot Mark Watney, zekasını ve botanik bilgisini kullanarak sınırlı kaynaklarla hayatta kalma mücadelesi verir. Watney'nin yaşadığının öğrenilmesiyle birlikte NASA ve ekip arkadaşları, onu Dünya'ya geri getirmek için tüm riskleri göze aldıkları zorlu bir kurtarma operasyonu başlatır.",
+                poster: "https://upload.wikimedia.org/wikipedia/tr/7/7d/Marsl%C4%B1_-_afi%C5%9F.jpg", 
+                driveDublaj: "https://drive.google.com/file/d/1RKF2jzVQuvAZFKFQZWnFQRuVJVgJbLxq/preview",
+                driveAltyazi: "https://drive.google.com/file/d/1x21b8Z5JI_3s3O6h6j-lhGJQv01F4qH-/preview",
+                formLink: "https://forms.google.com"
+            },
+            
+            // 2. FİLM
+            {
+                id: 2,
+                baslik: "War Horse (Savaş Atı)",
+                tur: ["Savaş", "Doğa", "Tarih"],
+                ozet: "I. Dünya Savaşı'nın başlamasıyla çok sevdiği sahibi Albert'tan ayrılarak orduya satılan Joey adlı bir atın, savaşın acımasız cephelerinde farklı tarafların hayatlarına dokunduğu destansı yolculuğunu anlatır. Albert, sadık dostunu bulup eve getirmek umuduyla tehlikeli bir maceraya atılırken, Joey savaşın yıkımına rağmen cesaretin ve umudun simgesi haline gelir.",
+                poster: "https://upload.wikimedia.org/wikipedia/en/d/da/War-horse-poster.jpg", 
+                driveDublaj: "https://drive.google.com/file/d/1IYtbPkusrlDdzfefgHaMKL2e1lh_9Gmq/preview",
+                driveAltyazi: "https://drive.google.com/file/d/16Fi2G6oen-DXNLMdmKWOmkxi6xJjlAt8/preview",
+                formLink: "BURAYA_FORM_LINKI"
+            },
+            
+            // 3. FİLM
+            {
+                id: 3,
+                baslik: "Children of Men (Son Umut)",
+                tur: ["Aksiyon", "Bilim Kurgu" ],
+                ozet: "Küresel kısırlık krizi nedeniyle insanlığın soyunun tükenme noktasına geldiği kaotik bir yakın gelecekte, hayattan umudunu kesmiş bir adam, eski bağlantıları aracılığıyla insanlığın kaderini değiştirebilecek çok riskli bir görevi üstlenmek zorunda kalır. Anarşinin hüküm sürdüğü bir dünyada, koruması altındaki kişiyi güvenli bir bölgeye ulaştırmak için zamana ve tehlikelere karşı amansız bir mücadele verir.",
+                poster: "https://m.media-amazon.com/images/M/MV5BMDNkNmNiYzYtYWY0YS00NWEwLTgwMWUtYjM0M2E4Nzk3MzhmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", 
+                driveDublaj: "https://drive.google.com/file/d/1kJ25HUtrjy_mGJ-IU9dHNieUqZP6sb6l/preview",
+                driveAltyazi: "https://drive.google.com/file/d/1iIJrvhsCNNwdEXYM-FSkb9YpJ_lzBD3g/preview",
+                formLink: "BURAYA_FORM_LINKI"
+            },
+
+            // 4-20 ARASI BOŞ FİLMLER
+            { id: 4, baslik: "Les Choristes (Koro)", tur: ["Müzik", "Dram"], ozet: "İkinci Dünya Savaşı sonrası Fransa'da, etkiye tepki ilkesiyle yönetilen katı bir yatılı okula atanan gözetmen Clément Mathieu, baskı altındaki asi öğrencilere ulaşmak için müziğin birleştirici gücünü kullanmaya karar verir. Kurduğu koro sayesinde çocukların gizli yeteneklerini ortaya çıkarırken, okulun kasvetli duvarları arasında onlara umut aşılamaya ve hayatlarını değiştirmeye çalışır.", poster: "https://upload.wikimedia.org/wikipedia/tr/2/25/Chorus.jpg", driveDublaj: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", driveAltyazi: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", formLink: "" },
+            { id: 5, baslik: "Rain Man (Yağmur Adam)", tur: ["Dram"], ozet: "Babasının mirasının büyük kısmının, varlığından bile haberdar olmadığı otistik dahi kardeşi Raymond'a bırakıldığını öğrenen bencil Charlie, hakkını alabilmek için onu hastaneden çıkararak uzun bir yolculuğa sürükler. Başlangıçta sadece parayı hedefleyen bu zorunlu yol arkadaşlığı, zamanla iki kardeş arasında beklenmedik ve derin bir bağın kurulduğu dokunaklı bir serüvene dönüşür.", poster: "https://upload.wikimedia.org/wikipedia/en/b/b2/Rain_Man_poster.jpg", driveDublaj: "https://drive.google.com/file/d/107ovDbUJAb90HLfgU8y8oeYuSxTlKr-n/preview", driveAltyazi: "https://drive.google.com/file/d/1R9ppfdoab20fTUfBpWWsvh3cAAz2_UBP/preview", formLink: "" },
+            { id: 6, baslik: "Ender's Game (Uzay Oyunları)", tur: ["Bilim Kurgu"], ozet: "Uzaylı bir ırkın Dünya'ya saldırmasının ardından insanlığın geleceğini korumak isteyen ordu, üstün zekalı çocukları askeri bir okula toplayarak onları geleceğin komutanları olarak yetiştirmeye başlar. Bu çocuklardan biri olan Ender Wiggin, acımasız savaş simülasyonları ve zorlu eğitimler sırasında stratejik dehasını kanıtlayarak insanlığın son umudu olma yükünü omuzlarına alır.", poster: "https://upload.wikimedia.org/wikipedia/en/8/8c/Ender%27s_Game_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1T3uSugkt9E-U0Wlk7Qk96W143DBSIBIc/preview", driveAltyazi: "https://drive.google.com/file/d/1PcNjvkt6-uiYHDhwh5jj75PudxCwI9nK/preview", formLink: "" },
+            { id: 7, baslik: "World War Z (Dünya Savaşı Z)", tur: ["Bilim Kurgu", "Uluslararası İlişkiler"], ozet: "Gizemli bir virüsün insanları hızla saldırgan yaratıklara dönüştürerek medeniyetleri çöküşün eşiğine getirdiği bir dünyada, eski bir BM müfettişi olan Gerry Lane, ailesini ve insanlığı kurtarmak için göreve çağrılır. Salgının kaynağını bulmak ve yayılmayı durdurmak amacıyla zamana karşı amansız bir yarışa giren Lane, kaosun ortasında dünyanın farklı bölgelerine uzanan tehlikeli bir yolculuğa çıkar.", poster: "https://upload.wikimedia.org/wikipedia/id/d/dc/World_War_Z_poster.jpg", driveDublaj: "https://drive.google.com/file/d/191t4uONNOcpcha9B_knoCpcgoAS_od61/preview", driveAltyazi: "https://drive.google.com/file/d/11HEES_qb4-3T3Aw_mJc79_n1gdDMtzUV/preview", formLink: "" },
+            { id: 8, baslik: "Die Welle (Tehlikeli Oyun)", tur: ["11-12. Sınıflar!", "Politik Gerilim", "Psikolojik Dram"], ozet: "Lise öğretmeni Rainer Wenger, öğrencilerine otokrasinin günümüzde hala mümkün olduğunu kanıtlamak amacıyla disiplin ve birlik üzerine kurulu, Dalga adını verdikleri bir sosyal deney başlatır. Ancak sınıf içinde başlayan bu zararsız hareket, öğrencilerin aidiyet duygusuna kapılmasıyla kısa sürede okulun dışına taşan ve kontrolden çıkan tehlikeli bir fanatizme dönüşür.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/1f/Tehlikeli-oyun.jpg", driveDublaj: "https://drive.google.com/file/d/19ij7Zy3Dq1iHqM4FtVv77Q-0wHrSyqE8/preview", driveAltyazi: "https://drive.google.com/file/d/10XsFKVr1r5yyRT6HqpWuWxJXcGo2QY-g/preview", formLink: "" },
+            { id: 9, baslik: "Real Steel (Çelik Yumruklar)", tur: ["Bilim Kurgu", "Yapay Zeka"], ozet: "İnsan boksörlerin yerini dev robotların aldığı yakın bir gelecekte, eski bir dövüşçü olan Charlie, hurda parçalardan yaptığı robotlarla geçimini sağlamaya çalışan, tükenmişlik içindeki bir adamdır. Yıllardır görüşmediği oğluyla zoraki bir şekilde bir araya gelen Charlie, çöplükten kurtardıkları eski bir antrenman robotunu şampiyonluğa taşıyabilecek bir dövüşçüye dönüştürmek için son bir umutla mücadele eder.", poster: "https://upload.wikimedia.org/wikipedia/en/2/22/Real_Steel_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1V719BBIt6I-qoMPdQJmf7OmPy8omSU9d/preview", driveAltyazi: "https://drive.google.com/file/d/1B3np7_typC_AaYHigbyftAJWEWNp1lfZ/preview", formLink: "" },
+            { id: 10, baslik: "Karpuz Kabuğundan Gemiler Yapmak", tur: ["Dram", "Komedi"], ozet: "1960'lı yılların bir Anadolu kasabasında yaşayan sinema aşığı iki genç çırak, gündüzleri karpuzculuk ve berberlik yaparken geceleri kendi filmlerini çekebilmek için büyük bir tutkuyla çalışırlar. Çevrelerindeki imkansızlıklara ve küçümseyici bakışlara rağmen, derme çatma malzemelerle bir projeksiyon makinesi yapmaya çalışarak hayallerine tutunmanın saf ve dokunaklı hikayesini yazarlar.", poster: "https://upload.wikimedia.org/wikipedia/tr/8/82/Karpuzkabugu_afis.jpg", driveDublaj: "https://drive.google.com/file/d/10csQ8uNWkd1znZYRhP0jccNuoIhgYVj-/preview", driveAltyazi: "https://drive.google.com/file/d/10csQ8uNWkd1znZYRhP0jccNuoIhgYVj-/preview", formLink: "" },
+            { id: 11, baslik: "Elysium (Yeni Cennet)", tur: ["Bilim", "Aksiyon"], ozet: "2154 yılında dünya nüfusu yoksulluk ve hastalıkla boğuşurken, zenginler Elysium adındaki lüks ve teknolojik bir uzay istasyonunda her türlü hastalıktan arınmış ayrıcalıklı bir yaşam sürmektedir. Ölümcül bir radyasyona maruz kalarak sayılı günleri kalan Max, hayatını kurtarabilecek tek tedaviye ulaşmak için güçlü bir dış iskelet kuşanarak bu sıkı korunan istasyona girmeyi gerektiren tehlikeli bir göreve atılır.", poster: "https://upload.wikimedia.org/wikipedia/tr/f/f9/Elysium_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1-QEtCLIDDgqONEy4EVVTidk2bCdIY-Qz/view?usp=sharing", driveAltyazi: "https://drive.google.com/file/d/1Y6SIw4L5IoiIfuDhWpnvC81uUdVFETZc/preview", formLink: "" },
+            { id: 12, baslik: "Interstellar (Yıldızlararası)", tur: ["Bilim Kurgu", "Dram", "Aile"], ozet: "Kuraklık ve iklim krizinin Dünya'yı yaşanmaz hale getirdiği bir gelecekte, eski bir NASA pilotu olan Cooper, insanlığa yeni bir ev bulabilmek için ailesini geride bırakarak bir grup kaşifle birlikte yıldızlararası bir yolculuğa çıkar. Satürn yakınlarındaki bir solucan deliğinden geçen ekip, zamanın ve uzayın büküldüğü bilinmezlikler içinde insan soyunun devamını sağlamak için umut dolu ama tehlikeli bir arayışa girer.", poster: "https://upload.wikimedia.org/wikipedia/tr/b/bc/Interstellar_film_poster.jpg", driveDublaj: "", driveAltyazi: "https://drive.google.com/file/d/1aofZmcbV-nfIdCWXzV_FfTKkaoRdvgLR/preview", formLink: "" },
+            { id: 13, baslik: "The Matrix", tur: ["Bilim Kurgu", "Yapay Zeka", "Distopya"], ozet: "Gündüzleri sıradan bir yazılımcı, geceleri ise usta bir hacker olan Neo, yaşadığı dünyanın aslında insanlığı uyutmak için makineler tarafından yaratılmış sanal bir simülasyon olduğu gerçeğiyle yüzleşir. Morpheus liderliğindeki direnişçilere katılarak, hem kendi gerçek potansiyelini keşfetmek hem de insanlığı bu esaretten kurtarmak için fizik kurallarının esnediği bir savaşa dahil olur.", poster: "https://upload-wikimedia-org.translate.goog/wikipedia/en/d/db/The_Matrix.png?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc", driveDublaj: "https://drive.google.com/file/d/1phDLjuzE6-n6wfzHfaQA92L1Mb_4I8uB/preview", driveAltyazi: "https://drive.google.com/file/d/1phDLjuzE6-n6wfzHfaQA92L1Mb_4I8uB/preview", formLink: "" },
+            { id: 14, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 15, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 16, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 17, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 18, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 19, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 20, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" }
+        ];
+
+        // --- SİSTEM ---
+        document.addEventListener("DOMContentLoaded", () => {
+            initFilms(filmler);
+            if(localStorage.getItem('theme') === 'dark') document.body.setAttribute('data-theme', 'dark');
+            document.getElementById("password-input").addEventListener("keypress", (e) => { if(e.key === "Enter") checkPassword(); });
+        });
+
+        function checkPassword() {
+            if(document.getElementById("password-input").value === SITE_SIFRESI) {
+                document.getElementById("login-overlay").style.display = "none";
+                document.getElementById("app-container").style.display = "flex";
+            } else {
+                document.getElementById("error-msg").innerText = "Hatalı Şifre!";
+            }
+        }
+
+        function initFilms(data) {
+            const grid = document.getElementById("movie-grid");
+            grid.innerHTML = "";
+            data.forEach(film => {
+                let posterSrc = film.poster;
+                if(!film.poster || film.poster.includes("POSTER_LINKI")) {
+                    posterSrc = "https://via.placeholder.com/300x450?text=Resim+Yok";
+                }
+
+                const div = document.createElement("div");
+                div.className = "movie-card";
+                
+                let tagsHtml = '';
+                if (Array.isArray(film.tur)) {
+                    tagsHtml = film.tur.map(t => `<span>${t}</span>`).join('');
+                } else if(film.tur) {
+                    tagsHtml = `<span>${film.tur}</span>`;
+                }
+
+                div.innerHTML = `
+                    <div class="poster-container" onclick="openPlayer(${film.id}, 'dublaj')">
+                        <img src="${posterSrc}" onerror="this.src='https://via.placeholder.com/300x450?text=Hata'">
+                        <div class="play-overlay"><i class="fas fa-play-circle play-icon"></i></div>
+                    </div>
+                    <div class="card-info">
+                        <h3>${film.baslik}</h3>
+                        <div class="tags">${tagsHtml}</div>
+                    </div>
+                    <div class="watch-options">
+                        <button class="opt-btn" onclick="openPlayer(${film.id}, 'dublaj')">Dublaj</button>
+                        <button class="opt-btn" onclick="openPlayer(${film.id}, 'altyazi')">Altyazı</button>
+                    </div>`;
+                grid.appendChild(div);
+            });
+        }
+
+        function openPlayer(id, type) {
+            const film = filmler.find(f => f.id === id);
+            const modal = document.getElementById("player-modal");
+            document.getElementById("player-title").innerText = film.baslik;
+            document.getElementById("player-desc").innerText = film.ozet;
+            
+            let tagsHtml = '';
+            if (Array.isArray(film.tur)) {
+                tagsHtml = film.tur.map(t => `<span>${t}</span>`).join('');
+            } else if (film.tur) {
+                tagsHtml = `<span>${film.tur}</span>`;
+            }
+            document.getElementById("player-tags").innerHTML = tagsHtml;
+            
+            document.getElementById("eval-btn").href = film.formLink;
+            document.getElementById("main-player").src = (type === 'dublaj') ? film.driveDublaj : film.driveAltyazi;
+            modal.style.display = "flex";
+        }
+
+        function openModal(id) { document.getElementById(id).style.display = "flex"; }
+        function closeModal(id) { 
+            document.getElementById(id).style.display = "none"; 
+            if(id === 'player-modal') document.getElementById("main-player").src = "";
+        }
+        function toggleTheme() {
+            const body = document.body;
+            if(body.getAttribute('data-theme') === 'dark') {
+                body.removeAttribute('data-theme'); localStorage.setItem('theme', 'light');
+            } else {
+                body.setAttribute('data-theme', 'dark'); localStorage.setItem('theme', 'dark');
+            }
+        }
+        function filterFilms() {
+            const q = document.getElementById("search-input").value.toLowerCase();
+            initFilms(filmler.filter(f => f.baslik.toLowerCase().includes(q)));
+        }
+        
+        function filterGenre(genre) {
+            document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            if(genre === 'all') {
+                initFilms(filmler);
+            } else {
+                const filtered = filmler.filter(f => {
+                    if(Array.isArray(f.tur)) { return f.tur.includes(genre); } else { return f.tur === genre; }
+                });
+                initFilms(filtered);
+            }
+        }
+
+        window.onclick = function(e) {
+            if(e.target.classList.contains('modal')) {
+                e.target.style.display = "none";
+                if(event.target.id === 'player-modal') document.getElementById("main-player").src = "";
+            }
+        }
+    </script>
+</body>
+</html>
