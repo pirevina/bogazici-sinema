@@ -5,96 +5,244 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boğaziçi Koleji Film Platformu</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     
     <style>
         /* --- CSS AYARLARI --- */
-        :root { --bg-main: #f4f6f8; --bg-card: #ffffff; --text-main: #2c3e50; --text-sec: #7f8c8d; --accent: #2980b9; --nav-bg: #ffffff; --border-color: #e0e0e0; }
-        [data-theme="dark"] { --bg-main: #141414; --bg-card: #1f1f1f; --text-main: #ffffff; --text-sec: #b3b3b3; --accent: #f39c12; --nav-bg: #0f0f0f; --border-color: #333; }
+        :root { 
+            --bg-main: #f4f6f8; 
+            --bg-card: #ffffff; 
+            --text-main: #2c3e50; 
+            --text-sec: #7f8c8d; 
+            --accent: #2980b9; 
+            --nav-bg: rgba(255, 255, 255, 0.95); 
+            --border-color: #e0e0e0; 
+            --overlay-color: rgba(244, 246, 248, 0.85); 
+            --watched-color: #27ae60; 
+            --trailer-color: #c0392b; 
+        }
         
-        body { margin: 0; font-family: 'Roboto', sans-serif; background-color: var(--bg-main); color: var(--text-main); transition: 0.3s; }
+        [data-theme="dark"] { 
+            --bg-main: #141414; 
+            --bg-card: #1f1f1f; 
+            --text-main: #ffffff; 
+            --text-sec: #b3b3b3; 
+            --accent: #f39c12; 
+            --nav-bg: rgba(15, 15, 15, 0.95); 
+            --border-color: #333; 
+            --overlay-color: rgba(20, 20, 20, 0.85); 
+        }
+        
+        body { 
+            margin: 0; font-family: 'Roboto', sans-serif; 
+            background-color: var(--bg-main); 
+            color: var(--text-main); 
+            transition: 0.3s;
+            background-size: cover;
+            background-attachment: fixed; 
+            background-position: center;
+            background-repeat: no-repeat;
+            overflow-x: hidden; 
+        }
+
         #app-container { display: flex; flex-direction: column; min-height: 100vh; }
         
-        /* GİRİŞ EKRANI */
+        /* --- YÜKLENİYOR EKRANI --- */
+        #loader-screen {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #0f0f0f; 
+            z-index: 10000;
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            transition: opacity 0.5s ease-out;
+        }
+        .loader-icon {
+            font-size: 4rem; color: #f39c12; 
+            animation: spin 1.5s linear infinite;
+            margin-bottom: 20px;
+        }
+        .loader-text {
+            font-size: 1.2rem; font-weight: 500; color: #ffffff;
+            letter-spacing: 1px;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        @keyframes pulse { 0% { opacity: 0.5; } 50% { opacity: 1; } 100% { opacity: 0.5; } }
+
+        /* --- GİRİŞ EKRANI (ORİJİNAL ARKA PLAN + KARANLIK PANEL) --- */
         #login-overlay { 
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             z-index: 9999; display: flex; justify-content: center; align-items: center;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80');
+            /* ESKİ KARANLIK SİNEMA ARKA PLANI BURAYA GERİ GELDİ */
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1920&q=80');
             background-size: cover; background-position: center;
         }
+        
         .login-box { 
-            background: rgba(255, 255, 255, 0.95); padding: 3rem; border-radius: 20px; text-align: center; width: 300px; 
-            box-shadow: 0 15px 35px rgba(0,0,0,0.5); backdrop-filter: blur(5px);
+            /* KARANLIK BUZLU CAM (DARK GLASSMORPHISM) */
+            background: rgba(20, 20, 20, 0.75); 
+            backdrop-filter: blur(15px); 
+            -webkit-backdrop-filter: blur(15px);
+            padding: 3rem; 
+            border-radius: 20px; 
+            text-align: center; 
+            width: 320px; 
+            box-shadow: 0 15px 40px rgba(0,0,0,0.6); 
+            border: 1px solid rgba(255, 255, 255, 0.1); 
+            transition: transform 0.3s ease;
         }
-        .login-box h1 { margin: 0; color: #2c3e50; font-size: 2rem; margin-bottom:10px; }
-        .login-box input { padding: 12px; width: 90%; margin-bottom: 20px; border-radius: 10px; border: 1px solid #ccc; outline: none; }
-        .login-box button { padding: 12px; background: #2980b9; color: #fff; border: none; cursor: pointer; border-radius: 10px; width: 100%; font-weight: bold; transition:0.3s; }
-        .login-box button:hover { background: #1c6ea4; transform: scale(1.02); }
+        
+        .login-box:hover { transform: translateY(-5px); border-color: rgba(255,255,255,0.3); }
+
+        /* Harry Potter İkonu */
+        .hp-icon {
+            width: 70px; height: 70px; margin-bottom: 15px;
+            filter: invert(1) drop-shadow(0 0 5px rgba(255,255,255,0.5)); /* Beyaz yap ve parlat */
+            opacity: 0.9;
+        }
+
+        .login-box h1 { 
+            margin: 0; color: #ffffff; font-size: 1.5rem; margin-bottom: 5px; 
+            font-weight: 700; letter-spacing: 1px;
+        }
+        
+        .login-box p {
+            color: #b3b3b3; font-size: 0.9rem; margin-top: 5px; margin-bottom: 25px; 
+            text-transform: uppercase; letter-spacing: 2px;
+        }
+
+        .login-box input { 
+            padding: 12px; width: 100%; margin-bottom: 20px; 
+            border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); 
+            background: rgba(255,255,255,0.1); /* Şeffaf input */
+            outline: none; box-sizing: border-box;
+            font-size: 1rem; color: #fff; transition: 0.3s;
+            text-align: center; letter-spacing: 3px; font-weight: bold;
+        }
+        
+        .login-box input::placeholder { color: rgba(255,255,255,0.5); font-weight: normal; letter-spacing: 1px; font-size: 0.9rem; }
+        
+        .login-box input:focus {
+            background: rgba(255,255,255,0.2); border-color: var(--accent);
+            box-shadow: 0 0 15px rgba(41, 128, 185, 0.4);
+        }
+
+        .login-box button { 
+            padding: 12px; width: 100%; 
+            background: var(--accent);
+            color: #fff; border: none; cursor: pointer; 
+            border-radius: 8px; font-weight: 600; font-size: 1rem;
+            transition: 0.3s; text-transform: uppercase; letter-spacing: 1px;
+        }
+        
+        .login-box button:hover { 
+            background: #3498db;
+            box-shadow: 0 0 20px rgba(52, 152, 219, 0.6); /* Neon parlama efekti */
+        }
+        
+        /* ------------------------------------------- */
         
         /* NAVBAR */
-        .navbar { background: var(--nav-bg); padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .navbar { 
+            background: var(--nav-bg); padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 10px rgba(0,0,0,0.05); 
+            backdrop-filter: blur(10px); 
+        }
         .logo { font-size: 1.5rem; font-weight: 700; } .logo .highlight { color: var(--accent); }
         .search-box { position: relative; width: 300px; }
         .search-box input { width: 100%; background: var(--bg-main); border: 1px solid var(--border-color); padding: 12px 40px 12px 20px; color: var(--text-main); border-radius: 30px; outline: none; }
         .search-box i { position: absolute; right: 20px; top: 12px; color: var(--text-sec); }
-        .icon-btn { background: none; border: none; color: var(--text-main); font-size: 1.3rem; margin-left: 15px; cursor: pointer; transition: 0.3s; }
+        .icon-btn { background: none; border: none; color: var(--text-main); font-size: 1.3rem; margin-left: 10px; cursor: pointer; transition: 0.3s; }
+        .icon-btn:hover { color: var(--accent); transform: scale(1.1); }
         
         /* ETİKET BULUTU */
-        .tag-cloud { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding: 20px 30px; background: var(--bg-main); }
-        .tag-btn { background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-sec); padding: 8px 20px; border-radius: 20px; cursor: pointer; transition: 0.3s; font-size: 0.9rem; font-weight: 500; }
-        .tag-btn:hover, .tag-btn.active { background: var(--accent); color: white; border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .tag-cloud { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding: 20px 30px; background: transparent; }
+        .tag-btn { background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-sec); padding: 8px 20px; border-radius: 20px; cursor: pointer; transition: 0.3s; font-size: 0.9rem; font-weight: 500; opacity: 0.9; }
+        .tag-btn:hover, .tag-btn.active { background: var(--accent); color: white; border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); opacity: 1; }
 
         /* KART TASARIMI */
-        .movie-grid { flex: 1; display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 30px; padding: 30px; max-width: 1400px; margin: 0 auto; width: 100%; box-sizing: border-box; }
+        .movie-grid { flex: 1; display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 30px; padding: 30px; max-width: 1400px; margin: 0 auto; width: 100%; box-sizing: border-box; }
         .movie-card { background: var(--bg-card); border-radius: 25px; overflow: hidden; transition: 0.3s; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid var(--border-color); display: flex; flex-direction: column; }
         .movie-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
-        .poster-container { width: 100%; height: 330px; overflow: hidden; position: relative; cursor: pointer; flex-shrink: 0; }
+        .poster-container { width: 100%; height: 350px; overflow: hidden; position: relative; cursor: pointer; flex-shrink: 0; }
         .poster-container img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
         .movie-card:hover .poster-container img { transform: scale(1.05); }
         .play-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; opacity: 0; transition: 0.3s; }
         .movie-card:hover .play-overlay { opacity: 1; } .play-icon { font-size: 4rem; color: #fff; }
         
-        .card-info { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
+        /* İZLENDİ BUTONU */
+        .watched-badge {
+            position: absolute; top: 10px; left: 10px;
+            background: rgba(0,0,0,0.6); color: #fff;
+            width: 35px; height: 35px; border-radius: 50%;
+            display: flex; justify-content: center; align-items: center;
+            cursor: pointer; z-index: 10; transition: 0.3s;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        .watched-badge:hover { background: rgba(0,0,0,0.8); transform: scale(1.1); }
+        .watched-badge.active { background: var(--watched-color); border-color: var(--watched-color); }
+
+        .card-info { padding: 15px 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
         .card-info h3 { margin: 0; font-size: 1.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 10px; font-weight: bold; }
         
         .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: auto; }
         .tags span { background: var(--accent); color: #ffffff !important; font-size: 0.75rem; padding: 4px 10px; border-radius: 15px; font-weight: bold; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
 
-        .watch-options { display: flex; gap: 10px; padding: 0 20px 20px 20px; }
-        .opt-btn { flex: 1; background: var(--bg-main); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px; cursor: pointer; border-radius: 12px; font-weight: 600; transition: 0.3s; }
+        /* BUTON GRUBU */
+        .watch-options { display: flex; gap: 5px; padding: 0 15px 20px 15px; }
+        .opt-btn { 
+            flex: 1; background: var(--bg-main); color: var(--text-main); 
+            border: 1px solid var(--border-color); padding: 8px 5px; 
+            cursor: pointer; border-radius: 10px; font-weight: 600; 
+            font-size: 0.85rem; transition: 0.3s; white-space: nowrap;
+        }
         .opt-btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
+        
+        /* FRAGMAN BUTONU */
+        .trailer-btn { color: var(--trailer-color); border-color: var(--trailer-color); }
+        .trailer-btn:hover { background: var(--trailer-color) !important; color: white !important; border-color: var(--trailer-color) !important; }
 
         /* MODAL */
         .modal { display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.85); justify-content: center; align-items: center; padding: 20px; box-sizing: border-box; backdrop-filter: blur(5px); }
         .modal-content { background: var(--bg-card); width: 100%; max-width: 900px; border-radius: 25px; position: relative; max-height: 90vh; overflow-y: auto; color: var(--text-main); }
-        .close-btn { position: absolute; top: 15px; right: 15px; width: 45px; height: 45px; background-color: #e74c3c; color: white; font-size: 26px; border-radius: 50%; text-align: center; line-height: 45px; cursor: pointer; z-index: 9999; }
+        .close-btn { position: absolute; top: 15px; right: 15px; width: 45px; height: 45px; background-color: #e74c3c; color: white; font-size: 26px; border-radius: 50%; text-align: center; line-height: 45px; cursor: pointer; z-index: 9999; transition: 0.3s; }
+        .close-btn:hover { transform: rotate(90deg); background-color: #c0392b; }
         .video-wrapper { position: relative; padding-bottom: 56.25%; height: 0; background: #000; border-radius: 25px 25px 0 0; overflow: hidden; }
         .video-wrapper iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
         .modal-info { padding: 30px; display: flex; flex-direction: column; }
 
-        /* --- YENİLENEN DEĞERLENDİR BUTONU (TEMA UYUMLU & SOLDA & PAPİRÜS) --- */
+        /* KONTROL ALANI */
+        .controls-container {
+            display: flex; align-items: center; justify-content: space-between; 
+            flex-wrap: wrap; gap: 20px; margin-top: 25px; padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+        }
+        .left-controls { display: flex; align-items: center; gap: 15px; }
         .eval-button {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            background: var(--accent); /* Tema rengini kullan */
-            color: white;
-            padding: 12px 30px;
-            text-decoration: none;
-            border-radius: 30px;
-            margin-top: 25px;
-            font-weight: 600;
-            font-size: 1rem;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-            transition: all 0.3s ease;
-            align-self: flex-start; /* Sola yasla */
+            display: inline-flex; align-items: center; gap: 8px;
+            background: var(--accent); color: white; padding: 10px 25px;
+            text-decoration: none; border-radius: 30px; font-weight: 600; font-size: 0.95rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2); transition: all 0.3s ease;
         }
-        .eval-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
-            filter: brightness(1.1); /* Hover'da biraz parlat */
+        .eval-button:hover { transform: translateY(-2px); box-shadow: 0 6px 15px rgba(0,0,0,0.3); filter: brightness(1.1); }
+
+        .imdb-badge {
+            display: inline-flex; align-items: center;
+            background-color: #F5C518; color: #000;
+            padding: 4px 10px; border-radius: 5px;
+            font-weight: 900; font-family: 'Roboto', sans-serif; font-size: 1rem;
+            gap: 8px; line-height: 1; box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
-        /* ------------------------------------------------------------------ */
+        .imdb-label { font-size: 1rem; letter-spacing: 0.5px; }
+        .imdb-score { font-size: 1.1rem; }
+
+        .user-rating-box {
+            display: flex; align-items: center; gap: 10px;
+            background: var(--bg-main); padding: 8px 20px;
+            border-radius: 30px; border: 1px solid var(--border-color);
+        }
+        .rating-label { font-size: 0.9rem; font-weight: bold; color: var(--text-sec); text-transform: uppercase; letter-spacing: 1px;}
+        .stars { display: flex; gap: 5px; cursor: pointer; }
+        .stars i { font-size: 1.2rem; color: #ccc; transition: 0.2s; }
+        .stars i:hover, .stars i.hovered, .stars i.active { color: #f39c12; transform: scale(1.1); }
 
         /* DUYURU */
         #announcement-box { max-width: 450px !important; border-radius: 40px !important; text-align: center; background: var(--bg-card); border: 3px solid var(--accent); }
@@ -102,7 +250,7 @@
         .announcement-icon { font-size: 5rem; color: var(--accent); margin-bottom: 30px; }
 
         /* FOOTER */
-        footer { text-align: center; padding: 40px; background: var(--nav-bg); border-top: 1px solid var(--border-color); color: var(--text-sec); margin-top: auto; }
+        footer { text-align: center; padding: 40px; background: var(--nav-bg); border-top: 1px solid var(--border-color); color: var(--text-sec); margin-top: auto; backdrop-filter: blur(10px); }
 
         /* MOBİL */
         @media (max-width: 768px) {
@@ -110,26 +258,36 @@
             .search-box { order: 3; width: 100%; margin-top: 20px; } .search-box input { width: 100%; box-sizing: border-box; }
             .movie-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 20px; padding: 20px; }
             .poster-container { height: 240px; }
+            .controls-container { flex-direction: column; align-items: stretch; }
+            .left-controls, .user-rating-box { justify-content: center; }
+            .login-box { width: 85%; }
         }
     </style>
 </head>
 <body>
+    
+    <div id="loader-screen">
+        <i class="fas fa-film loader-icon"></i>
+        <div class="loader-text">Boğaziçi Sinema Platformu Hazırlanıyor...</div>
+    </div>
 
     <div id="login-overlay">
         <div class="login-box">
-            <h1><i class="fas fa-play-circle" style="color: #2980b9;"></i> Boğaziçi Film Platformu</h1>
-            <p>Öğrenci Girişi</p>
-            <input type="password" id="password-input" placeholder="Şifre...">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Deathly_Hallows_Sign.svg/512px-Deathly_Hallows_Sign.svg.png" class="hp-icon" alt="Deathly Hallows">
+            <h1><i class="fas fa-play-circle" style="color: #3498db;"></i> Sinema Platformu</h1>
+            <p>Boğaziçi Koleji</p>
+            <input type="password" id="password-input" placeholder="PAROLA">
             <button onclick="checkPassword()">Giriş Yap</button>
-            <p id="error-msg" style="color:red; margin-top:10px; font-weight:bold;"></p>
+            <p id="error-msg" style="color:#e74c3c; margin-top:15px; font-weight:bold; font-size:0.9rem;"></p>
         </div>
     </div>
 
     <div id="app-container" style="display:none;">
         <nav class="navbar">
-            <div class="logo">Boğaziçi <span class="highlight">Film Platformu</span></div>
+            <div class="logo">Boğaziçi Koleji <span class="highlight">Film Platformu</span></div>
             <div class="search-box"><input type="text" id="search-input" placeholder="Film ara..." onkeyup="filterFilms()"><i class="fas fa-search"></i></div>
             <div class="nav-controls">
+                <button onclick="luckyDip()" class="icon-btn" title="Şansıma Ne Çıkarsa"><i class="fas fa-dice"></i></button> 
                 <button onclick="openModal('announcement-modal')" class="icon-btn"><i class="fas fa-bell"></i></button>
                 <button onclick="toggleTheme()" class="icon-btn"><i class="fas fa-moon"></i></button>
             </div>
@@ -143,6 +301,7 @@
             <button class="tag-btn" onclick="filterGenre('Aksiyon')">Aksiyon</button>
             <button class="tag-btn" onclick="filterGenre('Belgesel')">Belgesel</button>
             <button class="tag-btn" onclick="filterGenre('Animasyon')">Animasyon</button>
+            <button class="tag-btn" onclick="filterGenre('Distopya')">Distopya</button>
         </div>
 
         <div class="movie-grid" id="movie-grid"></div>
@@ -155,16 +314,34 @@
     <div id="player-modal" class="modal">
         <div class="modal-content">
             <span class="close-btn" onclick="closeModal('player-modal')">&times;</span>
-            <div class="video-wrapper"><iframe id="main-player" src="" allowfullscreen></iframe></div>
+            <div class="video-wrapper"><iframe id="main-player" frameborder="0" allowfullscreen></iframe></div>
             <div class="modal-info">
                 <h2 id="player-title"></h2>
                 <div id="player-tags" class="tags" style="margin-bottom:15px;"></div>
                 <p id="player-desc" style="line-height:1.6; font-size:1.1rem;"></p>
                 
-                <a id="eval-btn" href="#" target="_blank" class="eval-button">
-                    <i class="fas fa-scroll"></i> Değerlendir
-                </a>
+                <div class="controls-container">
+                    <div class="left-controls">
+                        <a id="eval-btn" href="#" target="_blank" class="eval-button">
+                            <i class="fas fa-scroll"></i> Değerlendir
+                        </a>
+                        <div class="imdb-badge">
+                            <span class="imdb-label">IMDb:</span>
+                            <span class="imdb-score" id="player-imdb"></span>
+                        </div>
+                    </div>
+                    <div class="user-rating-box">
+                        <span class="rating-label">Senin Puanın:</span>
+                        <div class="stars" id="user-stars">
+                            <i class="fas fa-star" onclick="rateMovie(1)" onmouseover="hoverStar(1)" onmouseout="resetStars()"></i>
+                            <i class="fas fa-star" onclick="rateMovie(2)" onmouseover="hoverStar(2)" onmouseout="resetStars()"></i>
+                            <i class="fas fa-star" onclick="rateMovie(3)" onmouseover="hoverStar(3)" onmouseout="resetStars()"></i>
+                            <i class="fas fa-star" onclick="rateMovie(4)" onmouseover="hoverStar(4)" onmouseout="resetStars()"></i>
+                            <i class="fas fa-star" onclick="rateMovie(5)" onmouseover="hoverStar(5)" onmouseout="resetStars()"></i>
+                        </div>
+                    </div>
                 </div>
+            </div>
         </div>
     </div>
 
@@ -182,79 +359,147 @@
     <script>
         // --- AYARLAR ---
         const SITE_SIFRESI = "1234";
+        let currentMovieId = null; 
 
         // --- FİLM LİSTESİ ---
         const filmler = [
-            // 1. FİLM
-            {
-                id: 1,
-                baslik: "The Martian (Marslı)",
-                tur: ["Bilim Kurgu", "Aksiyon"],
-                ozet: "Mars'taki bir görev sırasında öldü sanılarak geride bırakılan astronot Mark Watney, zekasını ve botanik bilgisini kullanarak sınırlı kaynaklarla hayatta kalma mücadelesi verir. Watney'nin yaşadığının öğrenilmesiyle birlikte NASA ve ekip arkadaşları, onu Dünya'ya geri getirmek için tüm riskleri göze aldıkları zorlu bir kurtarma operasyonu başlatır.",
-                poster: "https://upload.wikimedia.org/wikipedia/tr/7/7d/Marsl%C4%B1_-_afi%C5%9F.jpg", 
-                driveDublaj: "https://drive.google.com/file/d/1RKF2jzVQuvAZFKFQZWnFQRuVJVgJbLxq/preview",
-                driveAltyazi: "https://drive.google.com/file/d/1x21b8Z5JI_3s3O6h6j-lhGJQv01F4qH-/preview",
-                formLink: "https://forms.google.com"
-            },
-            
-            // 2. FİLM
-            {
-                id: 2,
-                baslik: "War Horse (Savaş Atı)",
-                tur: ["Savaş", "Doğa", "Tarih"],
-                ozet: "I. Dünya Savaşı'nın başlamasıyla çok sevdiği sahibi Albert'tan ayrılarak orduya satılan Joey adlı bir atın, savaşın acımasız cephelerinde farklı tarafların hayatlarına dokunduğu destansı yolculuğunu anlatır. Albert, sadık dostunu bulup eve getirmek umuduyla tehlikeli bir maceraya atılırken, Joey savaşın yıkımına rağmen cesaretin ve umudun simgesi haline gelir.",
-                poster: "https://upload.wikimedia.org/wikipedia/en/d/da/War-horse-poster.jpg", 
-                driveDublaj: "https://drive.google.com/file/d/1IYtbPkusrlDdzfefgHaMKL2e1lh_9Gmq/preview",
-                driveAltyazi: "https://drive.google.com/file/d/16Fi2G6oen-DXNLMdmKWOmkxi6xJjlAt8/preview",
-                formLink: "BURAYA_FORM_LINKI"
-            },
-            
-            // 3. FİLM
-            {
-                id: 3,
-                baslik: "Children of Men (Son Umut)",
-                tur: ["Aksiyon", "Bilim Kurgu" ],
-                ozet: "Küresel kısırlık krizi nedeniyle insanlığın soyunun tükenme noktasına geldiği kaotik bir yakın gelecekte, hayattan umudunu kesmiş bir adam, eski bağlantıları aracılığıyla insanlığın kaderini değiştirebilecek çok riskli bir görevi üstlenmek zorunda kalır. Anarşinin hüküm sürdüğü bir dünyada, koruması altındaki kişiyi güvenli bir bölgeye ulaştırmak için zamana ve tehlikelere karşı amansız bir mücadele verir.",
-                poster: "https://m.media-amazon.com/images/M/MV5BMDNkNmNiYzYtYWY0YS00NWEwLTgwMWUtYjM0M2E4Nzk3MzhmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", 
-                driveDublaj: "https://drive.google.com/file/d/1kJ25HUtrjy_mGJ-IU9dHNieUqZP6sb6l/preview",
-                driveAltyazi: "https://drive.google.com/file/d/1iIJrvhsCNNwdEXYM-FSkb9YpJ_lzBD3g/preview",
-                formLink: "BURAYA_FORM_LINKI"
-            },
-
-            // 4-20 ARASI BOŞ FİLMLER
-            { id: 4, baslik: "Les Choristes (Koro)", tur: ["Müzik", "Dram"], ozet: "İkinci Dünya Savaşı sonrası Fransa'da, etkiye tepki ilkesiyle yönetilen katı bir yatılı okula atanan gözetmen Clément Mathieu, baskı altındaki asi öğrencilere ulaşmak için müziğin birleştirici gücünü kullanmaya karar verir. Kurduğu koro sayesinde çocukların gizli yeteneklerini ortaya çıkarırken, okulun kasvetli duvarları arasında onlara umut aşılamaya ve hayatlarını değiştirmeye çalışır.", poster: "https://upload.wikimedia.org/wikipedia/tr/2/25/Chorus.jpg", driveDublaj: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", driveAltyazi: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", formLink: "" },
-            { id: 5, baslik: "Rain Man (Yağmur Adam)", tur: ["Dram"], ozet: "Babasının mirasının büyük kısmının, varlığından bile haberdar olmadığı otistik dahi kardeşi Raymond'a bırakıldığını öğrenen bencil Charlie, hakkını alabilmek için onu hastaneden çıkararak uzun bir yolculuğa sürükler. Başlangıçta sadece parayı hedefleyen bu zorunlu yol arkadaşlığı, zamanla iki kardeş arasında beklenmedik ve derin bir bağın kurulduğu dokunaklı bir serüvene dönüşür.", poster: "https://upload.wikimedia.org/wikipedia/en/b/b2/Rain_Man_poster.jpg", driveDublaj: "https://drive.google.com/file/d/107ovDbUJAb90HLfgU8y8oeYuSxTlKr-n/preview", driveAltyazi: "https://drive.google.com/file/d/1R9ppfdoab20fTUfBpWWsvh3cAAz2_UBP/preview", formLink: "" },
-            { id: 6, baslik: "Ender's Game (Uzay Oyunları)", tur: ["Bilim Kurgu"], ozet: "Uzaylı bir ırkın Dünya'ya saldırmasının ardından insanlığın geleceğini korumak isteyen ordu, üstün zekalı çocukları askeri bir okula toplayarak onları geleceğin komutanları olarak yetiştirmeye başlar. Bu çocuklardan biri olan Ender Wiggin, acımasız savaş simülasyonları ve zorlu eğitimler sırasında stratejik dehasını kanıtlayarak insanlığın son umudu olma yükünü omuzlarına alır.", poster: "https://upload.wikimedia.org/wikipedia/en/8/8c/Ender%27s_Game_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1T3uSugkt9E-U0Wlk7Qk96W143DBSIBIc/preview", driveAltyazi: "https://drive.google.com/file/d/1PcNjvkt6-uiYHDhwh5jj75PudxCwI9nK/preview", formLink: "" },
-            { id: 7, baslik: "World War Z (Dünya Savaşı Z)", tur: ["Bilim Kurgu", "Uluslararası İlişkiler"], ozet: "Gizemli bir virüsün insanları hızla saldırgan yaratıklara dönüştürerek medeniyetleri çöküşün eşiğine getirdiği bir dünyada, eski bir BM müfettişi olan Gerry Lane, ailesini ve insanlığı kurtarmak için göreve çağrılır. Salgının kaynağını bulmak ve yayılmayı durdurmak amacıyla zamana karşı amansız bir yarışa giren Lane, kaosun ortasında dünyanın farklı bölgelerine uzanan tehlikeli bir yolculuğa çıkar.", poster: "https://upload.wikimedia.org/wikipedia/id/d/dc/World_War_Z_poster.jpg", driveDublaj: "https://drive.google.com/file/d/191t4uONNOcpcha9B_knoCpcgoAS_od61/preview", driveAltyazi: "https://drive.google.com/file/d/11HEES_qb4-3T3Aw_mJc79_n1gdDMtzUV/preview", formLink: "" },
-            { id: 8, baslik: "Die Welle (Tehlikeli Oyun)", tur: ["11-12. Sınıflar!", "Politik Gerilim", "Psikolojik Dram"], ozet: "Lise öğretmeni Rainer Wenger, öğrencilerine otokrasinin günümüzde hala mümkün olduğunu kanıtlamak amacıyla disiplin ve birlik üzerine kurulu, Dalga adını verdikleri bir sosyal deney başlatır. Ancak sınıf içinde başlayan bu zararsız hareket, öğrencilerin aidiyet duygusuna kapılmasıyla kısa sürede okulun dışına taşan ve kontrolden çıkan tehlikeli bir fanatizme dönüşür.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/1f/Tehlikeli-oyun.jpg", driveDublaj: "https://drive.google.com/file/d/19ij7Zy3Dq1iHqM4FtVv77Q-0wHrSyqE8/preview", driveAltyazi: "https://drive.google.com/file/d/10XsFKVr1r5yyRT6HqpWuWxJXcGo2QY-g/preview", formLink: "" },
-            { id: 9, baslik: "Real Steel (Çelik Yumruklar)", tur: ["Bilim Kurgu", "Yapay Zeka"], ozet: "İnsan boksörlerin yerini dev robotların aldığı yakın bir gelecekte, eski bir dövüşçü olan Charlie, hurda parçalardan yaptığı robotlarla geçimini sağlamaya çalışan, tükenmişlik içindeki bir adamdır. Yıllardır görüşmediği oğluyla zoraki bir şekilde bir araya gelen Charlie, çöplükten kurtardıkları eski bir antrenman robotunu şampiyonluğa taşıyabilecek bir dövüşçüye dönüştürmek için son bir umutla mücadele eder.", poster: "https://upload.wikimedia.org/wikipedia/en/2/22/Real_Steel_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1V719BBIt6I-qoMPdQJmf7OmPy8omSU9d/preview", driveAltyazi: "https://drive.google.com/file/d/1B3np7_typC_AaYHigbyftAJWEWNp1lfZ/preview", formLink: "" },
-            { id: 10, baslik: "Karpuz Kabuğundan Gemiler Yapmak", tur: ["Dram", "Komedi"], ozet: "1960'lı yılların bir Anadolu kasabasında yaşayan sinema aşığı iki genç çırak, gündüzleri karpuzculuk ve berberlik yaparken geceleri kendi filmlerini çekebilmek için büyük bir tutkuyla çalışırlar. Çevrelerindeki imkansızlıklara ve küçümseyici bakışlara rağmen, derme çatma malzemelerle bir projeksiyon makinesi yapmaya çalışarak hayallerine tutunmanın saf ve dokunaklı hikayesini yazarlar.", poster: "https://upload.wikimedia.org/wikipedia/tr/8/82/Karpuzkabugu_afis.jpg", driveDublaj: "https://drive.google.com/file/d/10csQ8uNWkd1znZYRhP0jccNuoIhgYVj-/preview", driveAltyazi: "https://drive.google.com/file/d/10csQ8uNWkd1znZYRhP0jccNuoIhgYVj-/preview", formLink: "" },
-            { id: 11, baslik: "Elysium (Yeni Cennet)", tur: ["Bilim", "Aksiyon"], ozet: "2154 yılında dünya nüfusu yoksulluk ve hastalıkla boğuşurken, zenginler Elysium adındaki lüks ve teknolojik bir uzay istasyonunda her türlü hastalıktan arınmış ayrıcalıklı bir yaşam sürmektedir. Ölümcül bir radyasyona maruz kalarak sayılı günleri kalan Max, hayatını kurtarabilecek tek tedaviye ulaşmak için güçlü bir dış iskelet kuşanarak bu sıkı korunan istasyona girmeyi gerektiren tehlikeli bir göreve atılır.", poster: "https://upload.wikimedia.org/wikipedia/tr/f/f9/Elysium_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1-QEtCLIDDgqONEy4EVVTidk2bCdIY-Qz/view?usp=sharing", driveAltyazi: "https://drive.google.com/file/d/1Y6SIw4L5IoiIfuDhWpnvC81uUdVFETZc/preview", formLink: "" },
-            { id: 12, baslik: "Interstellar (Yıldızlararası)", tur: ["Bilim Kurgu", "Dram", "Aile"], ozet: "Kuraklık ve iklim krizinin Dünya'yı yaşanmaz hale getirdiği bir gelecekte, eski bir NASA pilotu olan Cooper, insanlığa yeni bir ev bulabilmek için ailesini geride bırakarak bir grup kaşifle birlikte yıldızlararası bir yolculuğa çıkar. Satürn yakınlarındaki bir solucan deliğinden geçen ekip, zamanın ve uzayın büküldüğü bilinmezlikler içinde insan soyunun devamını sağlamak için umut dolu ama tehlikeli bir arayışa girer.", poster: "https://upload.wikimedia.org/wikipedia/tr/b/bc/Interstellar_film_poster.jpg", driveDublaj: "", driveAltyazi: "https://drive.google.com/file/d/1aofZmcbV-nfIdCWXzV_FfTKkaoRdvgLR/preview", formLink: "" },
-            { id: 13, baslik: "The Matrix", tur: ["Bilim Kurgu", "Yapay Zeka", "Distopya"], ozet: "Gündüzleri sıradan bir yazılımcı, geceleri ise usta bir hacker olan Neo, yaşadığı dünyanın aslında insanlığı uyutmak için makineler tarafından yaratılmış sanal bir simülasyon olduğu gerçeğiyle yüzleşir. Morpheus liderliğindeki direnişçilere katılarak, hem kendi gerçek potansiyelini keşfetmek hem de insanlığı bu esaretten kurtarmak için fizik kurallarının esnediği bir savaşa dahil olur.", poster: "https://upload-wikimedia-org.translate.goog/wikipedia/en/d/db/The_Matrix.png?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc", driveDublaj: "https://drive.google.com/file/d/1phDLjuzE6-n6wfzHfaQA92L1Mb_4I8uB/preview", driveAltyazi: "https://drive.google.com/file/d/1phDLjuzE6-n6wfzHfaQA92L1Mb_4I8uB/preview", formLink: "" },
-            { id: 14, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
-            { id: 15, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
-            { id: 16, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
-            { id: 17, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
-            { id: 18, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
-            { id: 19, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" },
-            { id: 20, baslik: "BURAYA FİLM ADI", tur: ["Tür"], ozet: "Özet", poster: "POSTER_LINKI", driveDublaj: "", driveAltyazi: "", formLink: "" }
+            { id: 1, baslik: "The Martian (Marslı)", tur: ["Bilim Kurgu", "Aksiyon"], imdb: 8.0, ozet: "Mars'taki bir görev sırasında öldü sanılarak geride bırakılan astronot Mark Watney, zekasını ve botanik bilgisini kullanarak sınırlı kaynaklarla hayatta kalma mücadelesi verir. Watney'nin yaşadığının öğrenilmesiyle birlikte NASA ve ekip arkadaşları, onu Dünya'ya geri getirmek için tüm riskleri göze aldıkları zorlu bir kurtarma operasyonu başlatır.", poster: "https://upload.wikimedia.org/wikipedia/tr/7/7d/Marsl%C4%B1_-_afi%C5%9F.jpg", driveDublaj: "https://drive.google.com/file/d/1RKF2jzVQuvAZFKFQZWnFQRuVJVgJbLxq/preview", driveAltyazi: "https://drive.google.com/file/d/1x21b8Z5JI_3s3O6h6j-lhGJQv01F4qH-/preview", formLink: "https://forms.google.com" },
+            { id: 2, baslik: "War Horse (Savaş Atı)", tur: ["Savaş", "Doğa", "Tarih"], imdb: 7.2, ozet: "I. Dünya Savaşı'nın başlamasıyla çok sevdiği sahibi Albert'tan ayrılarak orduya satılan Joey adlı bir atın, savaşın acımasız cephelerinde farklı tarafların hayatlarına dokunduğu destansı yolculuğunu anlatır. Albert, sadık dostunu bulup eve getirmek umuduyla tehlikeli bir maceraya atılırken, Joey savaşın yıkımına rağmen cesaretin ve umudun simgesi haline gelir.", poster: "https://upload.wikimedia.org/wikipedia/en/d/da/War-horse-poster.jpg", driveDublaj: "https://drive.google.com/file/d/1IYtbPkusrlDdzfefgHaMKL2e1lh_9Gmq/preview", driveAltyazi: "https://drive.google.com/file/d/16Fi2G6oen-DXNLMdmKWOmkxi6xJjlAt8/preview", formLink: "BURAYA_FORM_LINKI" },
+            { id: 3, baslik: "Children of Men (Son Umut)", tur: ["Aksiyon", "Bilim Kurgu" ], imdb: 7.9, ozet: "Küresel kısırlık krizi nedeniyle insanlığın soyunun tükenme noktasına geldiği kaotik bir yakın gelecekte, hayattan umudunu kesmiş bir adam, eski bağlantıları aracılığıyla insanlığın kaderini değiştirebilecek çok riskli bir görevi üstlenmek zorunda kalır. Anarşinin hüküm sürdüğü bir dünyada, koruması altındaki kişiyi güvenli bir bölgeye ulaştırmak için zamana ve tehlikelere karşı amansız bir mücadele verir.", poster: "https://m.media-amazon.com/images/M/MV5BMDNkNmNiYzYtYWY0YS00NWEwLTgwMWUtYjM0M2E4Nzk3MzhmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", driveDublaj: "https://drive.google.com/file/d/1kJ25HUtrjy_mGJ-IU9dHNieUqZP6sb6l/preview", driveAltyazi: "https://drive.google.com/file/d/1iIJrvhsCNNwdEXYM-FSkb9YpJ_lzBD3g/preview", formLink: "BURAYA_FORM_LINKI" },
+            { id: 4, baslik: "Les Choristes (Koro)", tur: ["Müzik", "Dram"], imdb: 7.9, ozet: "İkinci Dünya Savaşı sonrası Fransa'da, etkiye tepki ilkesiyle yönetilen katı bir yatılı okula atanan gözetmen Clément Mathieu, baskı altındaki asi öğrencilere ulaşmak için müziğin birleştirici gücünü kullanmaya karar verir. Kurduğu koro sayesinde çocukların gizli yeteneklerini ortaya çıkarırken, okulun kasvetli duvarları arasında onlara umut aşılamaya ve hayatlarını değiştirmeye çalışır.", poster: "https://upload.wikimedia.org/wikipedia/tr/2/25/Chorus.jpg", driveDublaj: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", driveAltyazi: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", formLink: "" },
+            { id: 5, baslik: "Rain Man (Yağmur Adam)", tur: ["Dram"], imdb: 8.0, ozet: "Babasının mirasının büyük kısmının, varlığından bile haberdar olmadığı otistik dahi kardeşi Raymond'a bırakıldığını öğrenen bencil Charlie, hakkını alabilmek için onu hastaneden çıkararak uzun bir yolculuğa sürükler. Başlangıçta sadece parayı hedefleyen bu zorunlu yol arkadaşlığı, zamanla iki kardeş arasında beklenmedik ve derin bir bağın kurulduğu dokunaklı bir serüvene dönüşür.", poster: "https://upload.wikimedia.org/wikipedia/en/b/b2/Rain_Man_poster.jpg", driveDublaj: "https://drive.google.com/file/d/107ovDbUJAb90HLfgU8y8oeYuSxTlKr-n/preview", driveAltyazi: "https://drive.google.com/file/d/1R9ppfdoab20fTUfBpWWsvh3cAAz2_UBP/preview", formLink: "" },
+            { id: 6, baslik: "Ender's Game (Uzay Oyunları)", tur: ["Bilim Kurgu"], imdb: 6.6, ozet: "Uzaylı bir ırkın Dünya'ya saldırmasının ardından insanlığın geleceğini korumak isteyen ordu, üstün zekalı çocukları askeri bir okula toplayarak onları geleceğin komutanları olarak yetiştirmeye başlar. Bu çocuklardan biri olan Ender Wiggin, acımasız savaş simülasyonları ve zorlu eğitimler sırasında stratejik dehasını kanıtlayarak insanlığın son umudu olma yükünü omuzlarına alır.", poster: "https://upload.wikimedia.org/wikipedia/en/8/8c/Ender%27s_Game_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1T3uSugkt9E-U0Wlk7Qk96W143DBSIBIc/preview", driveAltyazi: "https://drive.google.com/file/d/1PcNjvkt6-uiYHDhwh5jj75PudxCwI9nK/preview", formLink: "" },
+            { id: 7, baslik: "World War Z (Dünya Savaşı Z)", tur: ["Bilim Kurgu", "Distopya", "Uluslararası İlişkiler"], imdb: 7.0, ozet: "Gizemli bir virüsün insanları hızla saldırgan yaratıklara dönüştürerek medeniyetleri çöküşün eşiğine getirdiği bir dünyada, eski bir BM müfettişi olan Gerry Lane, ailesini ve insanlığı kurtarmak için göreve çağrılır. Salgının kaynağını bulmak ve yayılmayı durdurmak amacıyla zamana karşı amansız bir yarışa giren Lane, kaosun ortasında dünyanın farklı bölgelerine uzanan tehlikeli bir yolculuğa çıkar.", poster: "https://upload.wikimedia.org/wikipedia/id/d/dc/World_War_Z_poster.jpg", driveDublaj: "https://drive.google.com/file/d/191t4uONNOcpcha9B_knoCpcgoAS_od61/preview", driveAltyazi: "https://drive.google.com/file/d/11HEES_qb4-3T3Aw_mJc79_n1gdDMtzUV/preview", formLink: "" },
+            { id: 8, baslik: "Die Welle (Tehlikeli Oyun)", tur: ["11-12. Sınıflar!", "Politik Gerilim", "Psikolojik Dram"], imdb: 7.6, ozet: "Lise öğretmeni Rainer Wenger, öğrencilerine otokrasinin günümüzde hala mümkün olduğunu kanıtlamak amacıyla disiplin ve birlik üzerine kurulu, Dalga adını verdikleri bir sosyal deney başlatır. Ancak sınıf içinde başlayan bu zararsız hareket, öğrencilerin aidiyet duygusuna kapılmasıyla kısa sürede okulun dışına taşan ve kontrolden çıkan tehlikeli bir fanatizme dönüşür.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/1f/Tehlikeli-oyun.jpg", driveDublaj: "https://drive.google.com/file/d/19ij7Zy3Dq1iHqM4FtVv77Q-0wHrSyqE8/preview", driveAltyazi: "https://drive.google.com/file/d/10XsFKVr1r5yyRT6HqpWuWxJXcGo2QY-g/preview", formLink: "" },
+            { id: 9, baslik: "Real Steel (Çelik Yumruklar)", tur: ["Bilim Kurgu", "Yapay Zeka"], imdb: 7.1, ozet: "İnsan boksörlerin yerini dev robotların aldığı yakın bir gelecekte, eski bir dövüşçü olan Charlie, hurda parçalardan yaptığı robotlarla geçimini sağlamaya çalışan, tükenmişlik içindeki bir adamdır. Yıllardır görüşmediği oğluyla zoraki bir şekilde bir araya gelen Charlie, çöplükten kurtardıkları eski bir antrenman robotunu şampiyonluğa taşıyabilecek bir dövüşçüye dönüştürmek için son bir umutla mücadele eder.", poster: "https://upload.wikimedia.org/wikipedia/en/2/22/Real_Steel_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1V719BBIt6I-qoMPdQJmf7OmPy8omSU9d/preview", driveAltyazi: "https://drive.google.com/file/d/1B3np7_typC_AaYHigbyftAJWEWNp1lfZ/preview", formLink: "" },
+            { id: 10, baslik: "Karpuz Kabuğundan Gemiler Yapmak", tur: ["Dram", "Komedi"], imdb: 7.8, ozet: "1960'lı yılların bir Anadolu kasabasında yaşayan sinema aşığı iki genç çırak, gündüzleri karpuzculuk ve berberlik yaparken geceleri kendi filmlerini çekebilmek için büyük bir tutkuyla çalışırlar. Çevrelerindeki imkansızlıklara ve küçümseyici bakışlara rağmen, derme çatma malzemelerle bir projeksiyon makinesi yapmaya çalışarak hayallerine tutunmanın saf ve dokunaklı hikayesini yazarlar.", poster: "https://upload.wikimedia.org/wikipedia/tr/8/82/Karpuzkabugu_afis.jpg", driveDublaj: "https://drive.google.com/file/d/10csQ8uNWkd1znZYRhP0jccNuoIhgYVj-/preview", driveAltyazi: "https://drive.google.com/file/d/10csQ8uNWkd1znZYRhP0jccNuoIhgYVj-/preview", formLink: "" },
+            { id: 11, baslik: "Elysium (Yeni Cennet)", tur: ["Bilim", "Aksiyon", "Distopya"], imdb: 6.6, ozet: "2154 yılında dünya nüfusu yoksulluk ve hastalıkla boğuşurken, zenginler Elysium adındaki lüks ve teknolojik bir uzay istasyonunda her türlü hastalıktan arınmış ayrıcalıklı bir yaşam sürmektedir. Ölümcül bir radyasyona maruz kalarak sayılı günleri kalan Max, hayatını kurtarabilecek tek tedaviye ulaşmak için güçlü bir dış iskelet kuşanarak bu sıkı korunan istasyona girmeyi gerektiren tehlikeli bir göreve atılır.", poster: "https://upload.wikimedia.org/wikipedia/tr/f/f9/Elysium_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1-QEtCLIDDgqONEy4EVVTidk2bCdIY-Qz/view?usp=sharing", driveAltyazi: "https://drive.google.com/file/d/1Y6SIw4L5IoiIfuDhWpnvC81uUdVFETZc/preview", formLink: "" },
+            { id: 12, baslik: "Interstellar (Yıldızlararası)", tur: ["Bilim Kurgu", "Dram", "Aile"], imdb: 8.6, ozet: "Kuraklık ve iklim krizinin Dünya'yı yaşanmaz hale getirdiği bir gelecekte, eski bir NASA pilotu olan Cooper, insanlığa yeni bir ev bulabilmek için ailesini geride bırakarak bir grup kaşifle birlikte yıldızlararası bir yolculuğa çıkar. Satürn yakınlarındaki bir solucan deliğinden geçen ekip, zamanın ve uzayın büküldüğü bilinmezlikler içinde insan soyunun devamını sağlamak için umut dolu ama tehlikeli bir arayışa girer.", poster: "https://upload.wikimedia.org/wikipedia/tr/b/bc/Interstellar_film_poster.jpg", driveDublaj: "", driveAltyazi: "https://drive.google.com/file/d/1aofZmcbV-nfIdCWXzV_FfTKkaoRdvgLR/preview", formLink: "" },
+            { id: 13, baslik: "The Matrix", tur: ["Bilim Kurgu", "Yapay Zeka", "Distopya"], imdb: 8.7, ozet: "Gündüzleri sıradan bir yazılımcı, geceleri ise usta bir hacker olan Neo, yaşadığı dünyanın aslında insanlığı uyutmak için makineler tarafından yaratılmış sanal bir simülasyon olduğu gerçeğiyle yüzleşir. Morpheus liderliğindeki direnişçilere katılarak, hem kendi gerçek potansiyelini keşfetmek hem de insanlığı bu esaretten kurtarmak için fizik kurallarının esnediği bir savaşa dahil olur.", poster: "https://upload-wikimedia-org.translate.goog/wikipedia/en/d/db/The_Matrix.png?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc", driveDublaj: "https://drive.google.com/file/d/1phDLjuzE6-n6wfzHfaQA92L1Mb_4I8uB/preview", driveAltyazi: "https://drive.google.com/file/d/1phDLjuzE6-n6wfzHfaQA92L1Mb_4I8uB/preview", formLink: "" },
+            { id: 14, baslik: "Scent of a Woman", tur: ["Dram"], imdb: 8.0, ozet: "Paraya ihtiyacı olan kolej öğrencisi Charlie, Şükran Günü hafta sonunda görme engelli, karizmatik ama oldukça aksi bir emekli albay olan Frank Slade'e refakatçilik yapmayı kabul eder. Albay'ın sürpriz bir kararla ikiliyi New York'a sürüklediği bu lüks ve plansız yolculuk, Charlie için sadece bir iş olmaktan çıkıp hayatı, onuru ve tutkuyu sorguladığı unutulmaz bir hayat dersine dönüşür.", poster: "https://upload.wikimedia.org/wikipedia/en/9/91/Scent_of_a_Woman.jpg", driveDublaj: "https://drive.google.com/file/d/1jEioOUHhjWAEw1_c51MmctN7Ms_NYyW1/preview", driveAltyazi: "https://drive.google.com/file/d/1IYCBfalvCpRC_VsMtI8RnBNmvYhIPHU-/preview", formLink: "" },
+            { id: 15, baslik: "How centuries of sci-fi sparked spaceflight", tur: ["Belgesel", "Bilim Kurgu"], imdb: 7.5, ozet: "NASA ekonomisti Alex MacDonald, uzay yolculuğunun sadece bilim insanlarının ve mühendislerin başarısı olmadığını; bu fikrin yüzyıllar boyunca hikaye anlatıcıları ve bilim kurgu yazarları tarafından nesilden nesile aktarılan bir miras olduğunu anlatıyor. Ona göre hikayeler, sadece eğlence aracı değil, fikirleri zaman içinde taşıyan kapsüllerdir.", poster: "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:q64mvrkbhen2tyxcovdsnexq/bafkreifhxu2jwa2p3esbmk7kxp7hvgarozgby2q64ur3w34op3xfvbwoxi@jpeg", driveDublaj: "https://drive.google.com/file/d/1Qw1o8_HhZulApH5PEG6hDdpqCUceWeZ4/preview", driveAltyazi: "https://drive.google.com/file/d/1Qw1o8_HhZulApH5PEG6hDdpqCUceWeZ4/preview", formLink: "" },
+            { id: 16, baslik: "Tenkû no shiro Rapyuta (Gökteki Kale)", tur: ["Animasyon", "Doğa"], imdb: 8.0, ozet: "Hikaye, gizemli bir mavi kristal kolye sayesinde gökyüzünden süzülerek inen Sheeta adlı genç bir kızın, madenci çırağı olan cesur çocuk Pazu tarafından bulunmasıyla başlar. Sheeta'nın boynundaki bu gizemli taş, efsanevi bir teknolojiye sahip kayıp uçan ada Laputa'nın anahtarıdır. Bu nedenle Sheeta; hem gökyüzünün hakimi olmak isteyen hava korsanları (Dola ve çetesi) hem de taşın gücünü askeri amaçlarla kullanmak isteyen hükümet ajanları tarafından amansızca takip edilmektedir. Pazu ve Sheeta, peşlerindeki bu güçlerden kaçarken, hem Pazu'nun babasının gördüğünü iddia ettiği o efsanevi gökyüzü krallığını bulmak hem de Sheeta'nın geçmişindeki sırları çözmek için bulutların üzerinde geçen nefes kesici bir maceraya atılırlar.", poster: "https://www.kvmr.org/wp-content/uploads/2025/06/castle.png", driveDublaj: "https://drive.google.com/file/d/11XH6xGvFE3NZQNRilkt2bB1XvYr9dtup/preview", driveAltyazi: "https://drive.google.com/file/d/1HKP_cbS93a7tiB-UOWeuHuLFxVIg7NjM/preview", formLink: "" },
+            { id: 17, baslik: "A Beautiful Mind (Akıl Oyunları)", tur: ["Dram", "Biyografi"], imdb: 8.2, ozet: "Film, Nobel ödüllü matematikçi John Nash’in gerçek hayat hikayesinden esinlenmiştir. Princeton Üniversitesi’nde burslu okuyan, oldukça zeki ancak asosyal bir matematik dehası olan Nash, Oyun Teorisi üzerine matematik dünyasını sarsacak devrim niteliğinde bir teori geliştirir. Ancak bu parlak zeka, zamanla ürkütücü bir hastalığın, paranoid şizofreninin pençesine düşer. Nash, gerçeklik ile kendi zihninin yarattığı kurgusal dünya arasındaki çizgiyi ayırt etmekte zorlanmaya başlar. Film, Nash'in sadık eşi Alicia’nın desteğiyle hastalığı yenme mücadelesini, kaybettiği itibarını geri kazanma çabasını ve trajik ama ilham verici hayat yolculuğunu anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1XFUZIeOQ6X5FPbyKJyAfXh4bCOWKBFW0/preview", driveAltyazi: "https://drive.google.com/file/d/145As5ZrjZZx9nqN2iZTKFJqD8FYPCFX9/preview", formLink: "" },
+            { id: 18, baslik: " Avatar", tur: ["Bilim Kurgu", "Aksiyon"], imdb: 7.8, ozet: "Hikaye, 22. yüzyılda, insanlar için zehirli bir atmosfere sahip olan ancak çok değerli 'Unobtanium' madeni açısından zengin Pandora adlı uzak bir uyduda geçer. Belden aşağısı felçli olan eski deniz piyadesi Jake Sully, ölen ikiz kardeşinin yerine geçerek 'Avatar Programı'na dahil olur. Bu program sayesinde Jake, zihniyle kontrol ettiği, genetik mühendisliğiyle üretilmiş ve yerli halk Na'vi'lerin bedenine benzeyen bir Avatar'ı yönetir. Görevi, doğayla derin bir bağ kuran Na'vi halkının arasına sızmak ve insanların madeni çıkarması için onları ikna etmektir. Ancak Jake, Na'vi prensesi Neytiri ile tanışıp onların kültürünü ve Pandora'nın büyüleyici doğasını keşfettikçe, kendi ırkı (insanlar) ile korumayı öğrendiği bu yeni dünya arasında vicdani bir seçim yapmak zorunda kalır.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg", driveDublaj: "https://drive.google.com/file/d/1wWRhS_wjRwjw-9nyluxv5ZAR59k-w491/preview", driveAltyazi: "https://drive.google.com/file/d/1dVuIPy91dOU39C9NwLCf79Yk4VaJBEws/preview", formLink: "" },
+            { id: 19, baslik: "Coach Carter (Koç Carter)", tur: ["Biyografi", "Spor", "Dram"], imdb: 7.3, ozet: "Film, 1999 yılında Kaliforniya'daki Richmond Lisesi'nde geçer. Eski bir başarılı basketbol oyuncusu olan Ken Carter, mezun olduğu okula basketbol koçu olarak geri döner. Karşısında yetenekli ama disiplinsiz, kaba ve derslerinde başarısız bir takım bulur. Koç Carter, sadece maç kazanmayı değil, oyuncularının geleceğini de kurtarmayı hedefler. Takıma girmeleri için oyuncularına not ortalamalarını yüksek tutmalarını, derslere girmelerini ve kılık kıyafet kurallarına uymalarını şart koşan bir sözleşme imzalatır. Takım sahada harikalar yaratıp yenilgisiz bir seriye başladığında bile, oyuncuların akademik notları düşünce Carter radikal bir karar alır: Spor salonunun kapılarını kilitler (Lockout) ve notlar düzelene kadar maçlara çıkmayı yasaklar. Bu karar, hem velilerin hem de okul yönetiminin büyük tepkisini çeker.", poster: "https://upload.wikimedia.org/wikipedia/en/c/c3/Coach_Carter_poster.JPG", driveDublaj: "https://drive.google.com/file/d/1nK1Rg66UftS9RLdkpDs56opwOBSdtt7b/preview", driveAltyazi: "https://drive.google.com/file/d/1txiGcAIHhBUt1BtUs0Ng7tGxMuesA2kk/preview", formLink: "" },
+            { id: 20, baslik: "Freedom Writers (Özgürlük Yazarları)", tur: ["Biyografi", "Dram"], imdb: 7.5, ozet: "1994 yılında Los Angeles'ta geçen hikayede, genç ve idealist öğretmen Erin Gruwell, ırkçı çetelerin şiddeti, yoksulluk ve nefretle bölünmüş öğrencilerin olduğu bir liseye atanır. Sınıftaki öğrenciler (Latinler, Siyahiler, Asyalılar) birbirlerinden nefret etmekte ve okulu sadece zorunlu oldukları için 'vakit öldürdükleri' bir yer olarak görmektedirler. Okul yönetimi ve diğer öğretmenler bu öğrencilerden tamamen ümidi kesmiştir. Ancak Bayan Gruwell, onları kazanmak için klasik müfredatın dışına çıkar. Onlara birbirlerini anlamalarını sağlayacak günlükler tutturur, Anne Frank'in Hatıra Defteri gibi kendi hayatlarına dokunan kitaplar okutur ve en önemlisi seslerinin duyulmaya değer olduğunu hissettirir. Film, bu sınıfın sadece akademik olarak değil, insani olarak da birbirlerine kenetlenerek Özgürlük Yazarlarına dönüşme sürecini anlatır.", poster: "https://upload.wikimedia.org/wikipedia/tr/7/73/FWPoster.jpg", driveDublaj: "https://drive.google.com/file/d/1ruMt3oA_ZUOswfXyhCi_2Jnago-7ifzr/preview", driveAltyazi: "https://drive.google.com/file/d/1RfHw56Yr3ZVP9D3anJzk6XKM8RSNseP9/preview", formLink: "" },
+            { id: 21, baslik: "Gattaca", tur: ["Bilim Kurgu", "Distopya"], imdb: 7.8, ozet: "Genetik mühendisliğinin insanların sosyal statüsünü belirlediği yakın bir gelecekte, doğal yollarla doğan ve ‘kusurlu’ sayılan Vincent, astronot olma hayali kurar. Sistemin ayrımcılığını aşmak için, genetik olarak ‘kusursuz’ ama kaza sonucu engelli kalmış birinin DNA'sını ve kimliğini kullanarak sisteme sızar. Ancak şirkette işlenen bir cinayet soruşturması, Vincent'ın bu tehlikeli sırrını açığa çıkarmak üzeredir.", poster: "https://upload.wikimedia.org/wikipedia/tr/b/bb/Gataca_Movie_Poster_B.jpg", driveDublaj: "https://drive.google.com/file/d/1x-tbeq6I6Zj9ZVp6kii3tGpe3gLP3-eP/preview", driveAltyazi: "https://drive.google.com/file/d/1h_iG_Yvnh8jgckZ_saxcRTGiDK1-66NY/preview", formLink: "" },
+            { id: 22, baslik: "Good Will Hunting (Can Dostum)", tur: ["Dram", "Psikolojik"], imdb: 8.3, ozet: "MIT'de hademelik yapan Will Hunting, aslında dahi düzeyinde bir matematik ve genel kültür zekasına sahiptir, ancak sorunlu geçmişi nedeniyle potansiyelini gizler. Bir sokak kavgası sonrası hapse girmemek için bir matematik profesörüyle çalışmayı ve bir terapistten (Robin Williams) destek almayı kabul etmek zorunda kalır. Will, bu süreçte geçmiş travmalarıyla yüzleşmek, 'ait olduğu' hayat ile yetenekleri arasında bir seçim yapmak ve insanlara güvenmeyi öğrenmek zorundadır.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/17/Good_Will_Hunting_%28film%2C_1997%29.jpg", driveDublaj: "https://drive.google.com/file/d/1N7nKAWy05vL1bx3C64x0XY-lY0L-wiMe/preview", driveAltyazi: "https://drive.google.com/file/d/1N7nKAWy05vL1bx3C64x0XY-lY0L-wiMe/preview", formLink: "" },
+            { id: 23, baslik: "Spider-Man: Into the Spider-Verse (Örümcek-Adam: Örümcek Evreninde)", tur: ["Animasyon", "Aksiyon"], imdb: 8.4, ozet: "Brooklynli genç Miles Morales, radyoaktif bir örümcek tarafından ısırılıp süper güçler kazandıktan sonra kendini çoklu evren krizinin ortasında bulur. Tehlikeli bir deney sonucu farklı boyutlardan gelen diğer 'Örümcek' versiyonları (Peter B. Parker, Gwen Stacy vb.) Miles'ın dünyasına düşer. Miles, gerçekliği kurtarmak ve 'kendi' kahraman kimliğini bulmak için bu alışılmadık ekiple iş birliği yapmak zorundadır.", poster: "https://upload.wikimedia.org/wikipedia/en/f/fa/Spider-Man_Into_the_Spider-Verse_poster.png", driveDublaj: "https://drive.google.com/file/d/1wcnypHtNPO2bdemzGy77gakRrSD0roPv/preview", driveAltyazi: "https://drive.google.com/file/d/1HVRTjNxk0tlNT3lYY0YJUYEQ6wezmND3/preview", formLink: "" },
+            { id: 24, baslik: "Inside Out (Ters Yüz)", tur: ["Animasyon", "Komedi", "Aile"], imdb: 8.1, ozet: "Babasının işi nedeniyle San Francisco'ya taşınan 11 yaşındaki Riley'nin zihninin içinde geçen yaratıcı bir hikaye. Riley'nin duyguları —Neşe, Üzüntü, Öfke, Korku ve Tiksinti— onu bu zorlu değişime adapte etmeye çalışır. Ancak bir kaza sonucu Neşe ve Üzüntü'nün zihnin derinliklerinde kaybolmasıyla Kontrol Merkezi'nde işler karışır. İkili, Riley'nin benliğini kurtarmak ve duygusal dengesini sağlamak için zamana karşı bir yolculuğa çıkar.", poster: "https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1qHBR84WfG20U19uukUkrfaQr6RNkUPRN/preview", driveAltyazi: "https://drive.google.com/file/d/1RLv-2obe5-o51Fhyjv0INPmWTwgpI7yg/preview", formLink: "" },
+            { id: 25, baslik: "Koe no Katachi (A Silent Voice / Sesi Olmayan)", tur: ["Anime", "Dram", "Gençlik"], imdb: 8.1, ozet: "İlkokulda sınıfına yeni gelen işitme engelli Shoko'ya zorbalık yapan yaramaz Shoya, bu yüzden dışlanır ve yalnız bir gençliğe mahkum olur. Yıllar sonra lisede, geçmişteki hatalarının pişmanlığıyla yaşayan Shoya, hem Shoko'dan özür dilemek hem de kendi vicdanını temizlemek için onunla yeniden iletişime geçer. Hikaye, zorbalık, kefaret, affetme ve insanların birbirini gerçekten anlaması üzerine duygusal bir yolculuğu anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/3/32/A_Silent_Voice_Film_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/12Ny9MbFxU3ySzN6kDOWOS2ww0IQZs0XE/preview", driveAltyazi: "https://drive.google.com/file/d/12Ny9MbFxU3ySzN6kDOWOS2ww0IQZs0XE/preview", formLink: "" },
+            { id: 26, baslik: "WALL-E", tur: ["Animasyon", "Bilim Kurgu", "Aile"], imdb: 8.4, ozet: "İnsanlığın çevre kirliliği ve aşırı tüketim yüzünden terk ettiği, çöplerle kaplı bir gelecekte Dünya'da kalan son çalışan robot WALL-E, yüzyıllardır yalnız başına görevini yapmaktadır. Bu yalnızlık, gezegende yaşam belirtisi arayan gelişmiş keşif robotu EVE'in gelişiyle son bulur. WALL-E, EVE'in peşinden galaksiler arası bir maceraya atılırken, bu yolculuk insanlığın unuttuğu değerleri hatırlamasına yol açacaktır.", poster: "https://upload.wikimedia.org/wikipedia/en/4/4c/WALL-E_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1QSXgDf2sr4MKV3CyHiKOJXImQmeNRWZC/preview", driveAltyazi: "https://drive.google.com/file/d/1FQ-EUp_encMcz5vbDera1SKt3QFhWE1Z/preview", formLink: "" },
+            { id: 27, baslik: "The Boy Who Harnessed the Wind (Rüzgârı Dizginleyen Çocuk)", tur: ["Biyografi", "Dram"], imdb: 7.6, ozet: "Malawi'de yaşanan şiddetli kıtlık ve kuraklık nedeniyle ailesi okul taksitini ödeyemeyen 13 yaşındaki William Kamkwamba okuldan atılır. Ancak bilime olan merakı sayesinde kütüphaneye gizlice girerek çalışmaya devam eder. William, köyünü açlıktan kurtarmak için hurda malzemelerden elektrik üreten bir rüzgar türbini inşa etmeyi kafasına koyar; ancak önce babasını ve çevresindeki şüphecileri ikna etmek zorundadır.", poster: "https://upload.wikimedia.org/wikipedia/en/4/44/The_Boy_Who_Harnessed_the_Wind.jpg", driveDublaj: "https://drive.google.com/file/d/1ez5FH-Fj7b9XBnhTuPC5hqAXW13CywP8/preview", driveAltyazi: "https://drive.google.com/file/d/1lRYYJjXDiHBAUAjwbW6qTOlOJarehBzJ/preview", formLink: "" },
+            { id: 28, baslik: "Gladiator (Gladyatör)", tur: ["Tarih", "Dram", "Aksiyon"], imdb: 8.5, ozet: "Roma İmparatoru Marcus Aurelius, imparatorluğu oğlu Commodus yerine erdemli generali Maximus'a bırakmak ister. Bunu öğrenen Commodus, babasını öldürüp tahtı ele geçirir ve Maximus'un infaz emrini verir. İdamdan kurtulan ancak ailesini kaybedip köleliğe düşen Maximus, kimliğini gizleyerek bir gladyatör olur. İntikamını almak için arenadaki başarısını kullanarak Roma'ya, Kolezyum'a kadar yükselmesi ve halkın desteğini arkasına alması gerekecektir.", poster: "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png", driveDublaj: "https://drive.google.com/file/d/1QQ9nGJIEcQuxOzpRiBlnUcGw-XStVGw6/preview", driveAltyazi: "https://drive.google.com/file/d/162Hh_muQDR1Zg6KsQNNOXqSuUzGjv0g7/preview", formLink: "" },
+            { id: 39, baslik: "Kûsî jî dikarin bifirin (Kaplumbağalar da Uçar)", tur: ["Savaş", "Dram", "Tarih"], imdb: 8.0, ozet: "ABD'nin Irak işgali öncesinde, Türkiye-Irak sınırındaki bir mülteci kampında geçen hikaye, savaşı tüm çıplaklığıyla çocukların gözünden anlatır. 'Uydu' (Satellite) lakaplı Soran, mayın toplayarak geçimini sağlayan ve uydu anteni kurarak haber almaya çalışan çocukların lideridir. Kampa gelen travma içindeki Agrin, kahin yetenekleri olan kolsuz abisi ve yanlarındaki küçük çocukla tanışmaları, savaşın gölgesindeki hayatlarını derinden etkileyecektir.", poster: "https://upload.wikimedia.org/wikipedia/tr/a/a5/Turtles_Can_Fly_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1So6d_8Pc2EnDOcxpU5p15uFdi4BMaEy4/preview", driveAltyazi: "https://drive.google.com/file/d/1So6d_8Pc2EnDOcxpU5p15uFdi4BMaEy4/preview", formLink: "" },
+            { id: 30, baslik: "Sitaare Zameen Par (Yeryüzündeki Yıldızlar)", tur: ["Komedi", "Spor"], imdb: 8.3, ozet: "Agresif ve kendini beğenmiş bir basketbol koçu, karıştığı bir olay nedeniyle mahkeme tarafından kamu hizmeti cezasına çarptırılır. Cezası, zihinsel engelli (Down sendromlu) bireylerden oluşan bir basketbol takımını eğitmektir. Başlangıçta önyargılı ve isteksiz olan koç, takımın kendine has üyeleriyle zaman geçirdikçe 'normallik' kavramını sorgulamaya başlar. Bu süreç, sadece takımı şampiyonaya hazırlamakla kalmaz, koçun kendi insani değerlerini de yeniden keşfettiği eğlenceli ve duygusal bir yolculuğa dönüşür.", poster: "https://upload.wikimedia.org/wikipedia/en/4/44/Sitaare_Zameen_Par_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1KRv-7g8sd-vcm_--zbs4F7toUT3aThtv/preview", driveAltyazi: "https://drive.google.com/file/d/1NGE0BeNgI973BZJDMqJ6z6ky0kU8a2kI/preview", formLink: "" },
+            { id: 31, baslik: "Deneme", tur: ["Biyografi", "Dram"], ozet: "", poster: "", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 32, baslik: "Deneme", tur: ["Biyografi", "Dram"], ozet: "", poster: "", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 33, baslik: "Deneme", tur: ["Biyografi", "Dram"], ozet: "", poster: "", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 34, baslik: "Deneme", tur: ["Biyografi", "Dram"], ozet: "", poster: "", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 35, baslik: "Deneme", tur: ["Biyografi", "Dram"], ozet: "", poster: "", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 36, baslik: "Deneme", tur: ["Biyografi", "Dram"], ozet: "", poster: "", driveDublaj: "", driveAltyazi: "", formLink: "" }
         ];
 
         // --- SİSTEM ---
         document.addEventListener("DOMContentLoaded", () => {
             initFilms(filmler);
+            setSeasonalBackground(); 
             if(localStorage.getItem('theme') === 'dark') document.body.setAttribute('data-theme', 'dark');
+            
+            // "Beni Hatırla" Kontrolü
+            if(localStorage.getItem('isLoggedIn') === 'true') {
+                document.getElementById("login-overlay").style.display = "none";
+                document.getElementById("app-container").style.display = "flex";
+            }
+
             document.getElementById("password-input").addEventListener("keypress", (e) => { if(e.key === "Enter") checkPassword(); });
+            
+            // YÜKLENİYOR EKRANINI KAPAT (1. Yöntem: DOM Hazır olduğunda)
+            setTimeout(hideLoader, 1500); 
         });
+
+        // YÜKLENİYOR EKRANINI KAPAT (2. Yöntem: Her şey yüklendiğinde)
+        window.onload = function() {
+            hideLoader();
+            // Tarayıcının dönmesini durdurmak için
+            if (window.stop) window.stop();
+        };
+
+        // YÜKLENİYOR EKRANINI KAPAT (3. Yöntem: EMNİYET SİBOPU - Ne olursa olsun 4 sn sonra kapat)
+        setTimeout(hideLoader, 4000);
+
+        // Loader Kapatma Fonksiyonu (Tekrar tekrar kullanılabilir)
+        function hideLoader() {
+            const loader = document.getElementById('loader-screen');
+            if (loader) {
+                loader.style.opacity = '0';
+                setTimeout(() => { loader.style.display = 'none'; }, 800);
+            }
+        }
 
         function checkPassword() {
             if(document.getElementById("password-input").value === SITE_SIFRESI) {
+                // Şifre doğruysa "isLoggedIn" olarak kaydet
+                localStorage.setItem('isLoggedIn', 'true');
+                
                 document.getElementById("login-overlay").style.display = "none";
                 document.getElementById("app-container").style.display = "flex";
+                // Giriş yapınca mevsimsel arka planın görünmesini sağla
+                setSeasonalBackground(); 
             } else {
-                document.getElementById("error-msg").innerText = "Hatalı Şifre!";
+                document.getElementById("error-msg").innerText = "Şifre Yanlış!";
             }
+        }
+
+        // --- ŞANSIMA NE ÇIKARSA FONKSİYONU ---
+        function luckyDip() {
+            // Boş olmayan (Deneme olmayan) filmleri seç
+            const validFilms = filmler.filter(f => f.poster && f.poster.length > 5);
+            if(validFilms.length > 0) {
+                const randomFilm = validFilms[Math.floor(Math.random() * validFilms.length)];
+                openPlayer(randomFilm.id, 'dublaj');
+            }
+        }
+
+        // --- RASTGELE MEVSİM ARKA PLANI ---
+        function setSeasonalBackground() {
+            // Sadece app-container görünürse (giriş yapıldıysa) veya login ekranı yoksa bunu uygula
+            const month = new Date().getMonth(); 
+            let season = '';
+            if (month === 11 || month === 0 || month === 1) season = 'winter'; 
+            else if (month >= 2 && month <= 4) season = 'spring'; 
+            else if (month >= 5 && month <= 7) season = 'summer'; 
+            else season = 'autumn'; 
+
+            const backgroundImages = {
+                winter: [
+                    'https://images.unsplash.com/photo-1478719059408-592965723cbc?auto=format&fit=crop&w=1920&q=80', 
+                    'https://images.unsplash.com/photo-1517299321609-52687d1bc555?auto=format&fit=crop&w=1920&q=80', 
+                    'https://images.unsplash.com/photo-1548777123-e213912bc5d1?auto=format&fit=crop&w=1920&q=80'  
+                ],
+                spring: [
+                    'https://images.unsplash.com/photo-1490750967868-58cb75069ed6?auto=format&fit=crop&w=1920&q=80', 
+                    'https://images.unsplash.com/photo-1462275646964-a0e338679cde?auto=format&fit=crop&w=1920&q=80', 
+                    'https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=1920&q=80'  
+                ],
+                summer: [
+                    'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1920&q=80', 
+                    'https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=1920&q=80', 
+                    'https://images.unsplash.com/photo-1520645521318-f03a712f5029?auto=format&fit=crop&w=1920&q=80'  
+                ],
+                autumn: [
+                    'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80', 
+                    'https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?auto=format&fit=crop&w=1920&q=80', 
+                    'https://images.unsplash.com/photo-1508213271501-447be668c2d1?auto=format&fit=crop&w=1920&q=80'  
+                ]
+            };
+            const seasonImages = backgroundImages[season];
+            const randomImage = seasonImages[Math.floor(Math.random() * seasonImages.length)];
+            
+            // Eğer giriş yapılmamışsa body background'u değiştirme, login overlay hallediyor.
+            // Ama giriş yapıldıysa body background'u değiştir.
+            document.body.style.backgroundImage = `linear-gradient(var(--overlay-color), var(--overlay-color)), url('${randomImage}')`;
         }
 
         function initFilms(data) {
@@ -269,6 +514,9 @@
                 const div = document.createElement("div");
                 div.className = "movie-card";
                 
+                // İzlendi durumunu kontrol et
+                const isWatched = localStorage.getItem('watched_' + film.id) === 'true';
+
                 let tagsHtml = '';
                 if (Array.isArray(film.tur)) {
                     tagsHtml = film.tur.map(t => `<span>${t}</span>`).join('');
@@ -280,6 +528,9 @@
                     <div class="poster-container" onclick="openPlayer(${film.id}, 'dublaj')">
                         <img src="${posterSrc}" onerror="this.src='https://via.placeholder.com/300x450?text=Hata'">
                         <div class="play-overlay"><i class="fas fa-play-circle play-icon"></i></div>
+                        <div class="watched-badge ${isWatched ? 'active' : ''}" onclick="toggleWatched(${film.id}, event)" title="İzlendi Olarak İşaretle">
+                            <i class="fas fa-check"></i>
+                        </div>
                     </div>
                     <div class="card-info">
                         <h3>${film.baslik}</h3>
@@ -288,17 +539,40 @@
                     <div class="watch-options">
                         <button class="opt-btn" onclick="openPlayer(${film.id}, 'dublaj')">Dublaj</button>
                         <button class="opt-btn" onclick="openPlayer(${film.id}, 'altyazi')">Altyazı</button>
+                        <button class="opt-btn trailer-btn" onclick="openTrailer('${film.baslik}')"><i class="fab fa-youtube"></i> Fragman</button>
                     </div>`;
                 grid.appendChild(div);
             });
         }
 
+        // --- FRAGMAN AÇMA ---
+        function openTrailer(title) {
+            // YouTube arama linki oluştur ve yeni sekmede aç
+            const query = encodeURIComponent(title + " fragman türkçe altyazılı");
+            window.open(`https://www.youtube.com/results?search_query=${query}`, '_blank');
+        }
+
+        // --- İZLENDİ İŞARETLEME ---
+        function toggleWatched(id, event) {
+            event.stopPropagation(); // Karta tıklamayı engelle (Modal açılmasın)
+            const currentStatus = localStorage.getItem('watched_' + id) === 'true';
+            localStorage.setItem('watched_' + id, !currentStatus);
+            
+            // Görünümü güncelle (Sadece o butonu bulup class ekle/çıkar)
+            const btn = event.currentTarget;
+            if(!currentStatus) btn.classList.add('active');
+            else btn.classList.remove('active');
+        }
+
         function openPlayer(id, type) {
+            currentMovieId = id; 
             const film = filmler.find(f => f.id === id);
             const modal = document.getElementById("player-modal");
             document.getElementById("player-title").innerText = film.baslik;
             document.getElementById("player-desc").innerText = film.ozet;
             
+            document.getElementById("player-imdb").innerText = film.imdb ? film.imdb : "-";
+
             let tagsHtml = '';
             if (Array.isArray(film.tur)) {
                 tagsHtml = film.tur.map(t => `<span>${t}</span>`).join('');
@@ -309,13 +583,56 @@
             
             document.getElementById("eval-btn").href = film.formLink;
             document.getElementById("main-player").src = (type === 'dublaj') ? film.driveDublaj : film.driveAltyazi;
+            
+            updateUserStars(id);
+
             modal.style.display = "flex";
+        }
+
+        function rateMovie(score) {
+            if(!currentMovieId) return;
+            localStorage.setItem('vote_' + currentMovieId, score);
+            updateUserStars(currentMovieId);
+        }
+
+        function updateUserStars(id) {
+            const savedScore = localStorage.getItem('vote_' + id);
+            const stars = document.querySelectorAll("#user-stars i");
+            stars.forEach((star, index) => {
+                if (savedScore && index < savedScore) {
+                    star.classList.add("active");
+                } else {
+                    star.classList.remove("active");
+                }
+            });
+        }
+
+        function hoverStar(score) {
+            const stars = document.querySelectorAll("#user-stars i");
+            stars.forEach((star, index) => {
+                if (index < score) {
+                    star.classList.add("hovered");
+                } else {
+                    star.classList.remove("hovered");
+                }
+            });
+        }
+
+        function resetStars() {
+            const stars = document.querySelectorAll("#user-stars i");
+            stars.forEach(star => star.classList.remove("hovered"));
         }
 
         function openModal(id) { document.getElementById(id).style.display = "flex"; }
         function closeModal(id) { 
             document.getElementById(id).style.display = "none"; 
-            if(id === 'player-modal') document.getElementById("main-player").src = "";
+            if(id === 'player-modal') {
+                // Video oynamayı durdurmak için src'yi temizle ama "about:blank" yapma ki yine yükleniyor gibi durmasın
+                // En temizi iframe'i DOM'dan kaldırıp tekrar eklemektir ama şimdilik src boşaltma yeterli
+                const iframe = document.getElementById("main-player");
+                iframe.src = ""; 
+                currentMovieId = null;
+            }
         }
         function toggleTheme() {
             const body = document.body;
@@ -346,10 +663,13 @@
         window.onclick = function(e) {
             if(e.target.classList.contains('modal')) {
                 e.target.style.display = "none";
-                if(event.target.id === 'player-modal') document.getElementById("main-player").src = "";
+                if(event.target.id === 'player-modal') {
+                    const iframe = document.getElementById("main-player");
+                    iframe.src = "";
+                    currentMovieId = null;
+                }
             }
         }
     </script>
 </body>
-
 </html>
