@@ -206,54 +206,20 @@
         .tag-btn:hover, .tag-btn.active { background: var(--accent); color: white; border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); opacity: 1; }
         .tag-btn i { font-size: 0.95rem; }
 
-        /* --- KART TASARIMI (IPHONE & SAMSUNG İÇİN GÜÇLENDİRİLMİŞ) --- */
-        .movie-grid { 
-            flex: 1; 
-            display: grid; 
-            grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); 
-            gap: 20px; 
-            padding: 20px; 
-            max-width: 1400px; 
-            margin: 0 auto; 
-            width: 100%; 
-        }
-        
-        @media (min-width: 768px) {
-            .movie-grid { 
-                grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
-                gap: 30px; padding: 30px;
-            }
-        }
+        /* KART TASARIMI */
+        .movie-grid { flex: 1; display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 20px; padding: 20px; max-width: 1400px; margin: 0 auto; width: 100%; box-sizing: border-box; }
+        @media (min-width: 768px) { .movie-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 30px; padding: 30px; } }
 
-        .movie-card { 
-            background: var(--bg-card); 
-            border-radius: 25px; 
-            overflow: hidden; 
-            transition: 0.3s; 
-            position: relative; 
-            box-shadow: 0 10px 25px rgba(0,0,0,0.05); 
-            border: 1px solid var(--border-color); 
-            display: flex; 
-            flex-direction: column; 
-            /* İÇERİK SIĞMASI İÇİN SABİT YÜKSEKLİK YERİNE ESNEK YAPI */
-            height: 100%; 
-        }
+        .movie-card { background: var(--bg-card); border-radius: 25px; overflow: hidden; transition: 0.3s; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid var(--border-color); display: flex; flex-direction: column; height: 100%; }
         .movie-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
 
-        /* --- POSTER ALANI (KRİTİK DÜZELTME) --- */
+        /* IPHONE FIX: flex-shrink: 0 EKLENDİ */
         .poster-container { 
-            width: 100%; 
-            height: 240px; /* Mobil Varsayılan */
-            /* IPHONE İÇİN EZİLMEYİ ENGELLEYEN KOMUT: */
-            flex: 0 0 auto; 
-            overflow: hidden; 
-            position: relative; 
-            cursor: pointer; 
+            width: 100%; height: 240px; 
+            flex-shrink: 0; /* BU ÇOK ÖNEMLİ: Resmin ezilmesini engeller */
+            overflow: hidden; position: relative; cursor: pointer; 
         }
-        
-        @media (min-width: 768px) {
-            .poster-container { height: 330px; }
-        }
+        @media (min-width: 768px) { .poster-container { height: 330px; } }
 
         .poster-container img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
         .movie-card:hover .poster-container img { transform: scale(1.05); }
@@ -263,46 +229,16 @@
         .watched-badge:hover { background: rgba(0,0,0,0.8); transform: scale(1.1); }
         .watched-badge.active { background: var(--watched-color); border-color: var(--watched-color); }
         
-        /* --- KART BİLGİ ALANI --- */
-        .card-info { 
-            padding: 15px; 
-            flex: 1 1 auto; /* Gerektiğinde uza */
-            display: flex; 
-            flex-direction: column; 
-            justify-content: space-between; 
-        }
+        .card-info { padding: 15px; flex: 1 1 auto; display: flex; flex-direction: column; justify-content: space-between; }
         .card-info h3 { margin: 0; font-size: 1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 10px; font-weight: bold; }
         .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 15px; }
         .tags span { background: var(--accent); color: #ffffff !important; font-size: 0.7rem; padding: 3px 8px; border-radius: 10px; font-weight: bold; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         
-        /* --- BUTONLAR (SAMSUNG İÇİN SARMA AYARI) --- */
-        .watch-options { 
-            display: flex; 
-            gap: 8px; 
-            padding: 0 15px 15px 15px; 
-            margin-top: auto; 
-            flex: 0 0 auto; /* Yüksekliği koru, ezilme */
-            flex-wrap: wrap; /* Sığmazsa alt satıra geç */
-        }
-        .opt-btn { 
-            flex: 1; 
-            min-width: 60px; 
-            background: var(--bg-main); 
-            color: var(--text-main); 
-            border: 1px solid var(--border-color); 
-            padding: 8px 5px; 
-            cursor: pointer; 
-            border-radius: 10px; 
-            font-weight: 600; 
-            font-size: 0.8rem; 
-            transition: 0.3s; 
-            text-align: center;
-        }
-        .trailer-btn { flex-basis: 100%; margin-top: 2px; } /* Mobilde tam satır */
-        
-        @media (min-width: 768px) {
-            .trailer-btn { flex-basis: auto; margin-top: 0; }
-        }
+        /* SAMSUNG FIX: flex-wrap EKLENDİ */
+        .watch-options { display: flex; gap: 8px; padding: 0 15px 15px 15px; margin-top: auto; flex-shrink: 0; flex-wrap: wrap; }
+        .opt-btn { flex: 1; min-width: 60px; background: var(--bg-main); color: var(--text-main); border: 1px solid var(--border-color); padding: 8px 5px; cursor: pointer; border-radius: 10px; font-weight: 600; font-size: 0.8rem; transition: 0.3s; text-align: center; }
+        .trailer-btn { flex-basis: 100%; margin-top: 2px; }
+        @media (min-width: 768px) { .trailer-btn { flex-basis: auto; margin-top: 0; } }
 
         .dublaj-btn:hover, .dublaj-btn:active, .dublaj-btn:focus { background-color: var(--dublaj-color) !important; border-color: var(--dublaj-color) !important; color: #fff !important; }
         .altyazi-btn:hover, .altyazi-btn:active, .altyazi-btn:focus { background-color: var(--accent) !important; border-color: var(--accent) !important; color: #fff !important; }
@@ -353,7 +289,7 @@
         .announcement-icon { font-size: 5rem; color: var(--accent); margin-bottom: 30px; }
         footer { text-align: center; padding: 40px; background: var(--nav-bg); border-top: 1px solid var(--border-color); color: var(--text-sec); margin-top: auto; backdrop-filter: blur(10px); }
 
-        /* MOBİL DÜZELTMELER (EKSTRA) */
+        /* MOBİL DÜZELTMELER */
         @media (max-width: 768px) {
             .navbar { flex-wrap: wrap; padding: 20px; } .logo { order: 1; flex: 1; } .nav-controls { order: 2; margin-left: 0; }
             .search-box { order: 3; width: 100%; margin-top: 20px; } .search-box input { width: 100%; box-sizing: border-box; }
@@ -474,7 +410,15 @@
                 <p id="player-desc" style="line-height:1.6; font-size:1.1rem;"></p>
                 
                 <div class="controls-container">
-                    <div class="left-controls"></div>
+                    <div class="left-controls">
+                        <a id="eval-btn" href="#" target="_blank" class="eval-button">
+                            <i class="fas fa-scroll"></i> Değerlendir
+                        </a>
+                        <div class="imdb-badge">
+                            <span class="imdb-label">IMDb:</span>
+                            <span class="imdb-score" id="player-imdb"></span>
+                        </div>
+                    </div>
                     
                     <div class="user-rating-box">
                         <span class="rating-label">Senin Puanın:</span>
@@ -519,61 +463,49 @@
         const SITE_SIFRESI = "Murat1427";
         let currentMovieId = null; 
 
-        // --- MERKEZİ LİNK YÖNETİMİ ---
-        const TUR_LINKLERI = {
-            "Bilim Kurgu": "form-bilimkurgu.html",
-            "Dram": "form-dram.html",
-            "Tarih": "form-tarih.html",
-            "Aksiyon": "form-aksiyon.html",
-            "Belgesel": "form-belgesel.html",
-            "Animasyon": "form-animasyon.html",
-            "Distopya": "form-distopya.html",
-            "Genel": "form-genel.html" 
-        };
-
         // --- FİLM LİSTESİ ---
         const filmler = [
-            { id: 1, baslik: "The Martian (Marslı)", tur: ["Bilim Kurgu", "Aksiyon"], imdb: 8.0, ozet: "Mars'taki bir görev sırasında öldü sanılarak geride bırakılan astronot Mark Watney, zekasını ve botanik bilgisini kullanarak sınırlı kaynaklarla hayatta kalma mücadelesi verir.", poster: "https://upload.wikimedia.org/wikipedia/tr/7/7d/Marsl%C4%B1_-_afi%C5%9F.jpg", driveDublaj: "https://drive.google.com/file/d/1RKF2jzVQuvAZFKFQZWnFQRuVJVgJbLxq/preview", driveAltyazi: "https://drive.google.com/file/d/1x21b8Z5JI_3s3O6h6j-lhGJQv01F4qH-/preview" },
-            { id: 2, baslik: "War Horse (Savaş Atı)", tur: ["Savaş", "Doğa", "Tarih"], imdb: 7.2, ozet: "I. Dünya Savaşı'nın başlamasıyla çok sevdiği sahibi Albert'tan ayrılarak orduya satılan Joey adlı bir atın, savaşın acımasız cephelerinde farklı tarafların hayatlarına dokunduğu destansı yolculuğunu anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/d/da/War-horse-poster.jpg", driveDublaj: "https://drive.google.com/file/d/1IYtbPkusrlDdzfefgHaMKL2e1lh_9Gmq/preview", driveAltyazi: "https://drive.google.com/file/d/16Fi2G6oen-DXNLMdmKWOmkxi6xJjlAt8/preview" },
-            { id: 3, baslik: "Children of Men (Son Umut)", tur: ["Aksiyon", "Bilim Kurgu" ], imdb: 7.9, ozet: "Küresel kısırlık krizi nedeniyle insanlığın soyunun tükenme noktasına geldiği kaotik bir yakın gelecekte, hayattan umudunu kesmiş bir adam, insanlığın kaderini değiştirebilecek çok riskli bir görevi üstlenmek zorunda kalır.", poster: "https://m.media-amazon.com/images/M/MV5BMDNkNmNiYzYtYWY0YS00NWEwLTgwMWUtYjM0M2E4Nzk3MzhmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", driveDublaj: "https://drive.google.com/file/d/1kJ25HUtrjy_mGJ-IU9dHNieUqZP6sb6l/preview", driveAltyazi: "https://drive.google.com/file/d/1iIJrvhsCNNwdEXYM-FSkb9YpJ_lzBD3g/preview" },
-            { id: 4, baslik: "Les Choristes (Koro)", tur: ["Müzik", "Dram"], imdb: 7.9, ozet: "İkinci Dünya Savaşı sonrası Fransa'da, katı bir yatılı okula atanan gözetmen Clément Mathieu, müziğin birleştirici gücünü kullanarak öğrencilerin hayatlarını değiştirmeye çalışır.", poster: "https://upload.wikimedia.org/wikipedia/tr/2/25/Chorus.jpg", driveDublaj: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", driveAltyazi: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview" },
-            { id: 5, baslik: "Rain Man (Yağmur Adam)", tur: ["Dram"], imdb: 8.0, ozet: "Babasının mirasının büyük kısmının, varlığından bile haberdar olmadığı otistik dahi kardeşi Raymond'a bırakıldığını öğrenen Charlie'nin hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/b/b2/Rain_Man_poster.jpg", driveDublaj: "https://drive.google.com/file/d/107ovDbUJAb90HLfgU8y8oeYuSxTlKr-n/preview", driveAltyazi: "https://drive.google.com/file/d/1R9ppfdoab20fTUfBpWWsvh3cAAz2_UBP/preview" },
-            { id: 6, baslik: "Ender's Game (Uzay Oyunları)", tur: ["Bilim Kurgu"], imdb: 6.6, ozet: "Uzaylı bir ırkın Dünya'ya saldırmasının ardından insanlığın geleceğini korumak isteyen ordu, üstün zekalı çocukları askeri bir okula toplayarak onları geleceğin komutanları olarak yetiştirmeye başlar.", poster: "https://upload.wikimedia.org/wikipedia/en/8/8c/Ender%27s_Game_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1T3uSugkt9E-U0Wlk7Qk96W143DBSIBIc/preview", driveAltyazi: "https://drive.google.com/file/d/1PcNjvkt6-uiYHDhwh5jj75PudxCwI9nK/preview" },
-            { id: 7, baslik: "World War Z (Dünya Savaşı Z)", tur: ["Bilim Kurgu", "Distopya", "Uluslararası İlişkiler"], imdb: 7.0, ozet: "Gizemli bir virüsün insanları hızla saldırgan yaratıklara dönüştürerek medeniyetleri çöküşün eşiğine getirdiği bir dünyada, eski bir BM müfettişi olan Gerry Lane, ailesini ve insanlığı kurtarmak için göreve çağrılır.", poster: "https://upload.wikimedia.org/wikipedia/id/d/dc/World_War_Z_poster.jpg", driveDublaj: "https://drive.google.com/file/d/191t4uONNOcpcha9B_knoCpcgoAS_od61/preview", driveAltyazi: "https://drive.google.com/file/d/11HEES_qb4-3T3Aw_mJc79_n1gdDMtzUV/preview" },
-            { id: 8, baslik: "Die Welle (Tehlikeli Oyun)", tur: ["11-12. Sınıflar!", "Politik Gerilim", "Psikolojik Dram"], imdb: 7.6, ozet: "Lise öğretmeni Rainer Wenger, öğrencilerine otokrasinin günümüzde hala mümkün olduğunu kanıtlamak amacıyla disiplin ve birlik üzerine kurulu, Dalga adını verdikleri bir sosyal deney başlatır.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/1f/Tehlikeli-oyun.jpg", driveDublaj: "https://drive.google.com/file/d/19ij7Zy3Dq1iHqM4FtVv77Q-0wHrSyqE8/preview", driveAltyazi: "https://drive.google.com/file/d/10XsFKVr1r5yyRT6HqpWuWxJXcGo2QY-g/preview" },
-            { id: 9, baslik: "Real Steel (Çelik Yumruklar)", tur: ["Bilim Kurgu", "Yapay Zeka"], imdb: 7.1, ozet: "İnsan boksörlerin yerini dev robotların aldığı yakın bir gelecekte, eski bir dövüşçü olan Charlie, hurda parçalardan yaptığı robotlarla geçimini sağlamaya çalışan, tükenmişlik içindeki bir adamdır.", poster: "https://upload.wikimedia.org/wikipedia/en/2/22/Real_Steel_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1V719BBIt6I-qoMPdQJmf7OmPy8omSU9d/preview", driveAltyazi: "https://drive.google.com/file/d/1B3np7_typC_AaYHigbyftAJWEWNp1lfZ/preview" },
-            { id: 10, baslik: "Karpuz Kabuğundan Gemiler Yapmak", tur: ["Dram", "Komedi"], imdb: 7.8, ozet: "1960'lı yılların bir Anadolu kasabasında yaşayan sinema aşığı iki genç çırak, gündüzleri karpuzculuk ve berberlik yaparken geceleri kendi filmlerini çekebilmek için büyük bir tutkuyla çalışırlar.", poster: "https://upload.wikimedia.org/wikipedia/tr/8/82/Karpuzkabugu_afis.jpg", driveDublaj: "https://drive.google.com/file/d/10csQ8uNWkd1znZYRhP0jccNuoIhgYVj-/preview", driveAltyazi: "https://drive.google.com/file/d/10csQ8uNWkd1znZYRhP0jccNuoIhgYVj-/preview" },
-            { id: 11, baslik: "Elysium (Yeni Cennet)", tur: ["Bilim", "Aksiyon", "Distopya"], imdb: 6.6, ozet: "2154 yılında dünya nüfusu yoksulluk ve hastalıkla boğuşurken, zenginler Elysium adındaki lüks ve teknolojik bir uzay istasyonunda her türlü hastalıktan arınmış ayrıcalıklı bir yaşam sürmektedir.", poster: "https://upload.wikimedia.org/wikipedia/tr/f/f9/Elysium_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1-QEtCLIDDgqONEy4EVVTidk2bCdIY-Qz/view?usp=sharing", driveAltyazi: "https://drive.google.com/file/d/1Y6SIw4L5IoiIfuDhWpnvC81uUdVFETZc/preview" },
-            { id: 12, baslik: "Interstellar (Yıldızlararası)", tur: ["Bilim Kurgu", "Dram", "Aile"], imdb: 8.6, ozet: "Kuraklık ve iklim krizinin Dünya'yı yaşanmaz hale getirdiği bir gelecekte, eski bir NASA pilotu olan Cooper, insanlığa yeni bir ev bulabilmek için ailesini geride bırakarak bir grup kaşifle birlikte yıldızlararası bir yolculuğa çıkar.", poster: "https://upload.wikimedia.org/wikipedia/tr/b/bc/Interstellar_film_poster.jpg", driveDublaj: "", driveAltyazi: "https://drive.google.com/file/d/1aofZmcbV-nfIdCWXzV_FfTKkaoRdvgLR/preview" },
-            { id: 13, baslik: "The Matrix", tur: ["Bilim Kurgu", "Yapay Zeka", "Distopya"], imdb: 8.7, ozet: "Gündüzleri sıradan bir yazılımcı, geceleri ise usta bir hacker olan Neo, yaşadığı dünyanın aslında insanlığı uyutmak için makineler tarafından yaratılmış sanal bir simülasyon olduğu gerçeğiyle yüzleşir.", poster: "https://upload-wikimedia-org.translate.goog/wikipedia/en/d/db/The_Matrix.png?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc", driveDublaj: "https://drive.google.com/file/d/1phDLjuzE6-n6wfzHfaQA92L1Mb_4I8uB/preview", driveAltyazi: "https://drive.google.com/file/d/1phDLjuzE6-n6wfzHfaQA92L1Mb_4I8uB/preview" },
-            { id: 14, baslik: "Scent of a Woman", tur: ["Dram"], imdb: 8.0, ozet: "Paraya ihtiyacı olan kolej öğrencisi Charlie, Şükran Günü hafta sonunda görme engelli, karizmatik ama oldukça aksi bir emekli albay olan Frank Slade'e refakatçilik yapmayı kabul eder.", poster: "https://upload.wikimedia.org/wikipedia/en/9/91/Scent_of_a_Woman.jpg", driveDublaj: "https://drive.google.com/file/d/1jEioOUHhjWAEw1_c51MmctN7Ms_NYyW1/preview", driveAltyazi: "https://drive.google.com/file/d/1IYCBfalvCpRC_VsMtI8RnBNmvYhIPHU-/preview" },
-            { id: 15, baslik: "How centuries of sci-fi sparked spaceflight", tur: ["Belgesel", "Bilim Kurgu"], imdb: 7.5, ozet: "NASA ekonomisti Alex MacDonald, uzay yolculuğunun sadece bilim insanlarının ve mühendislerin başarısı olmadığını anlatıyor.", poster: "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:q64mvrkbhen2tyxcovdsnexq/bafkreifhxu2jwa2p3esbmk7kxp7hvgarozgby2q64ur3w34op3xfvbwoxi@jpeg", driveDublaj: "https://drive.google.com/file/d/1Qw1o8_HhZulApH5PEG6hDdpqCUceWeZ4/preview", driveAltyazi: "https://drive.google.com/file/d/1Qw1o8_HhZulApH5PEG6hDdpqCUceWeZ4/preview" },
-            { id: 16, baslik: "Tenkû no shiro Rapyuta (Gökteki Kale)", tur: ["Animasyon", "Doğa"], imdb: 8.0, ozet: "Hikaye, gizemli bir mavi kristal kolye sayesinde gökyüzünden süzülerek inen Sheeta adlı genç bir kızın, madenci çırağı olan cesur çocuk Pazu tarafından bulunmasıyla başlar.", poster: "https://www.kvmr.org/wp-content/uploads/2025/06/castle.png", driveDublaj: "https://drive.google.com/file/d/11XH6xGvFE3NZQNRilkt2bB1XvYr9dtup/preview", driveAltyazi: "https://drive.google.com/file/d/1HKP_cbS93a7tiB-UOWeuHuLFxVIg7NjM/preview" },
-            { id: 17, baslik: "A Beautiful Mind (Akıl Oyunları)", tur: ["Dram", "Biyografi"], imdb: 8.2, ozet: "Nobel ödüllü matematikçi John Nash’in gerçek hayat hikayesinden esinlenen film, Nash'in dâhilikten şizofreniye uzanan hayatını konu alır.", poster: "https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1XFUZIeOQ6X5FPbyKJyAfXh4bCOWKBFW0/preview", driveAltyazi: "https://drive.google.com/file/d/145As5ZrjZZx9nqN2iZTKFJqD8FYPCFX9/preview" },
-            { id: 18, baslik: " Avatar", tur: ["Bilim Kurgu", "Aksiyon"], imdb: 7.8, ozet: "22. yüzyılda Pandora uydusunda geçen filmde, felçli bir deniz piyadesi olan Jake Sully, Avatar programı aracılığıyla Pandora'nın yerlileri Na'vi halkının arasına sızar.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg", driveDublaj: "https://drive.google.com/file/d/1wWRhS_wjRwjw-9nyluxv5ZAR59k-w491/preview", driveAltyazi: "https://drive.google.com/file/d/1dVuIPy91dOU39C9NwLCf79Yk4VaJBEws/preview" },
-            { id: 19, baslik: "Coach Carter (Koç Carter)", tur: ["Biyografi", "Spor", "Dram"], imdb: 7.3, ozet: "Richmond Lisesi basketbol koçu Ken Carter, oyuncularının akademik başarılarını spor başarılarının önüne koyarak tartışmalı bir karar alır.", poster: "https://upload.wikimedia.org/wikipedia/en/c/c3/Coach_Carter_poster.JPG", driveDublaj: "https://drive.google.com/file/d/1nK1Rg66UftS9RLdkpDs56opwOBSdtt7b/preview", driveAltyazi: "https://drive.google.com/file/d/1txiGcAIHhBUt1BtUs0Ng7tGxMuesA2kk/preview" },
-            { id: 20, baslik: "Freedom Writers (Özgürlük Yazarları)", tur: ["Biyografi", "Dram"], imdb: 7.5, ozet: "Genç bir öğretmen, ırkçılık ve şiddetin hüküm sürdüğü bir lisede öğrencilerine günlük tutturarak hayatlarını değiştirmeye çalışır.", poster: "https://upload.wikimedia.org/wikipedia/tr/7/73/FWPoster.jpg", driveDublaj: "https://drive.google.com/file/d/1ruMt3oA_ZUOswfXyhCi_2Jnago-7ifzr/preview", driveAltyazi: "https://drive.google.com/file/d/1RfHw56Yr3ZVP9D3anJzk6XKM8RSNseP9/preview" },
-            { id: 21, baslik: "Gattaca", tur: ["Bilim Kurgu", "Distopya"], imdb: 7.8, ozet: "Genetik mühendisliğinin insanların kaderini belirlediği bir gelecekte, 'kusurlu' doğan bir adam astronot olma hayalini gerçekleştirmek için başkasının kimliğine bürünür.", poster: "https://upload.wikimedia.org/wikipedia/tr/b/bb/Gataca_Movie_Poster_B.jpg", driveDublaj: "https://drive.google.com/file/d/1x-tbeq6I6Zj9ZVp6kii3tGpe3gLP3-eP/preview", driveAltyazi: "https://drive.google.com/file/d/1h_iG_Yvnh8jgckZ_saxcRTGiDK1-66NY/preview" },
-			{ id: 22, baslik: "Good Will Hunting (Can Dostum)", tur: ["Dram", "Psikolojik"], imdb: 8.3, ozet: "MIT'de hademelik yapan bir matematik dâhisi, bir terapistin yardımıyla geçmişiyle yüzleşir ve geleceğini şekillendirir.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/17/Good_Will_Hunting_%28film%2C_1997%29.jpg", driveDublaj: "https://drive.google.com/file/d/1N7nKAWy05vL1bx3C64x0XY-lY0L-wiMe/preview", driveAltyazi: "https://drive.google.com/file/d/1N7nKAWy05vL1bx3C64x0XY-lY0L-wiMe/preview" },
-            { id: 23, baslik: "Spider-Man: Into the Spider-Verse", tur: ["Animasyon", "Aksiyon"], imdb: 8.4, ozet: "Genç Miles Morales, farklı evrenlerden gelen diğer Örümcek-Adamlarla bir araya gelerek dünyayı kurtarmaya çalışır.", poster: "https://upload.wikimedia.org/wikipedia/en/f/fa/Spider-Man_Into_the_Spider-Verse_poster.png", driveDublaj: "https://drive.google.com/file/d/1wcnypHtNPO2bdemzGy77gakRrSD0roPv/view?usp=sharing", driveAltyazi: "https://drive.google.com/file/d/1HVRTjNxk0tlNT3lYY0YJUYEQ6wezmND3/preview" },
-            { id: 24, baslik: "Inside Out (Ters Yüz)", tur: ["Animasyon", "Komedi", "Aile"], imdb: 8.1, ozet: "Genç bir kızın zihnindeki duyguların (Neşe, Üzüntü, Öfke vb.) maceralarını konu alan animasyon filmi.", poster: "https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1qHBR84WfG20U19uukUkrfaQr6RNkUPRN/preview", driveAltyazi: "https://drive.google.com/file/d/1RLv-2obe5-o51Fhyjv0INPmWTwgpI7yg/preview" },
-            { id: 25, baslik: "Koe no Katachi (A Silent Voice)", tur: ["Anime", "Dram", "Gençlik"], imdb: 8.1, ozet: "Eskiden zorbalık yaptığı işitme engelli bir kızla yeniden iletişim kurmaya çalışan bir gencin kefaret hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/3/32/A_Silent_Voice_Film_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/12Ny9MbFxU3ySzN6kDOWOS2ww0IQZs0XE/preview", driveAltyazi: "https://drive.google.com/file/d/12Ny9MbFxU3ySzN6kDOWOS2ww0IQZs0XE/preview" },
-            { id: 26, baslik: "WALL-E", tur: ["Animasyon", "Bilim Kurgu", "Aile"], imdb: 8.4, ozet: "Gelecekte terk edilmiş dünyada çöp toplayan robot WALL-E'nin uzay macerasını anlatan Pixar filmi.", poster: "https://upload.wikimedia.org/wikipedia/en/4/4c/WALL-E_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1QSXgDf2sr4MKV3CyHiKOJXImQmeNRWZC/preview", driveAltyazi: "https://drive.google.com/file/d/1FQ-EUp_encMcz5vbDera1SKt3QFhWE1Z/preview" },
-            { id: 27, baslik: "The Boy Who Harnessed the Wind", tur: ["Biyografi", "Dram"], imdb: 7.6, ozet: "Malawi'de yaşayan genç William Kamkwamba'nın, köyünü kıtlıktan kurtarmak için rüzgar türbini inşa etme hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/4/44/The_Boy_Who_Harnessed_the_Wind.jpg", driveDublaj: "https://drive.google.com/file/d/1ez5FH-Fj7b9XBnhTuPC5hqAXW13CywP8/preview", driveAltyazi: "https://drive.google.com/file/d/1lRYYJjXDiHBAUAjwbW6qTOlOJarehBzJ/preview" },
-            { id: 28, baslik: "Gladiator (Gladyatör)", tur: ["Tarih", "Dram", "Aksiyon"], imdb: 8.5, ozet: "İhanete uğrayan Romalı general Maximus'un, gladyatör olarak arenada yükselip intikam almasını konu alır.", poster: "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png", driveDublaj: "https://drive.google.com/file/d/1QQ9nGJIEcQuxOzpRiBlnUcGw-XStVGw6/preview", driveAltyazi: "https://drive.google.com/file/d/162Hh_muQDR1Zg6KsQNNOXqSuUzGjv0g7/preview" },
-            { id: 39, baslik: "Kûsî jî dikarin bifirin", tur: ["Savaş", "Dram", "Tarih"], imdb: 8.0, ozet: "Irak işgali öncesinde mülteci kampında yaşayan çocukların savaşın gölgesindeki hayatlarını anlatır.", poster: "https://upload.wikimedia.org/wikipedia/tr/a/a5/Turtles_Can_Fly_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1So6d_8Pc2EnDOcxpU5p15uFdi4BMaEy4/preview", driveAltyazi: "https://drive.google.com/file/d/1So6d_8Pc2EnDOcxpU5p15uFdi4BMaEy4/preview" },
-            { id: 30, baslik: "Sitaare Zameen Par", tur: ["Komedi", "Spor"], imdb: 8.3, ozet: "Zihinsel engelli bireylerden oluşan bir basketbol takımını çalıştıran koçun hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/4/44/Sitaare_Zameen_Par_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1KRv-7g8sd-vcm_--zbs4F7toUT3aThtv/preview", driveAltyazi: "https://drive.google.com/file/d/1NGE0BeNgI973BZJDMqJ6z6ky0kU8a2kI/preview" },
-            { id: 31, baslik: "Dangal", tur: ["Biyografi", "Spor", "Dram"], imdb: 8.3, ozet: "Eski güreşçi Mahavir Singh Phogat'ın kızlarını şampiyon güreşçi olarak yetiştirme mücadelesini anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/9/99/Dangal_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/11s3iIpcXMa6S4rnrbpVewULArpXziKlF/preview", driveAltyazi: "https://drive.google.com/file/d/11s3iIpcXMa6S4rnrbpVewULArpXziKlF/preview" },
-            { id: 32, baslik: "Eternals", tur: ["Bilim Kurgu", "Fantastik"], imdb: 6.3, ozet: "Dünyayı binlerce yıldır koruyan ölümsüz bir ırkın, insanlığı kadim düşmanlarına karşı korumak için yeniden bir araya gelişini anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/9/9b/Eternals_%28film%29_poster.jpeg", driveDublaj: "https://drive.google.com/file/d/1GDoJk-2O1J6vlCSA49_6QqCMWkf9b44L/preview", driveAltyazi: "https://drive.google.com/file/d/1kevuMthsWclcQdSNj8mxYZuDAsK5dwRY/preview" },
-            { id: 33, baslik: "Hidden Figures (Gizli Sayılar)", tur: ["Tarih", "Biyografi"], imdb: 7.8, ozet: "NASA'da çalışan üç dahi siyahi kadının, uzay yarışındaki kritik rollerini ve karşılaştıkları ayrımcılığı konu alır.", poster: "https://upload.wikimedia.org/wikipedia/en/4/4f/The_official_poster_for_the_film_Hidden_Figures%2C_2016.jpg", driveDublaj: "https://drive.google.com/file/d/1LGOsHL4GmRyqNDelOxO-JiY8bZUciW3O/preview", driveAltyazi: "https://drive.google.com/file/d/1XIWzeLme3rOtT-1pssSgiySJo2ULbIrk/preview" },
-            { id: 34, baslik: "I Am Legend (Ben Efsaneyim)", tur: ["Bilim Kurgu", "Gerilim"], imdb: 7.2, ozet: "İnsanlığı yok eden bir virüsten sağ kalan tek insan olan Robert Neville'in hayatta kalma mücadelesi.", poster: "https://upload.wikimedia.org/wikipedia/en/d/df/I_am_legend_teaser.jpg", driveDublaj: "https://drive.google.com/file/d/1oeD9suufLnEsrHWbK0DIIZhP272w3ISl/preview", driveAltyazi: "https://drive.google.com/file/d/10WvUAPSfk0p9MIMxViMRXLo5O5-mhH0u/preview" },
-            { id: 35, baslik: "Life of Pi (Pinin Yaşamı)", tur: ["Macera", "Fantastik"], imdb: 7.9, ozet: "Okyanusun ortasında bir filikada bengal kaplanıyla hayatta kalmaya çalışan Pi Patel'in büyüleyici hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/5/57/Life_of_Pi_2012_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1-taxYINEgU9kyI46xAUcL7dzx-zd-ejY/preview", driveAltyazi: "https://drive.google.com/file/d/1FcxgmfH2AtuQB_Fa-VPi-ZrA6d-HZ59V/preview" },
-            { id: 36, baslik: "October Sky (Ekim Düşü)", tur: ["Biyografi", "Dram"], imdb: 7.8, ozet: "Madenci kasabasında yaşayan bir gencin, Sputnik uydusunu gördükten sonra roket yapma hayalinin peşinden gitmesini anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/7/73/October_sky_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1K_ExMIMw64xLI6W_H59g5EWdxixBusmz/preview", driveAltyazi: "https://drive.google.com/file/d/1SCa5D2J4-ikEUCzSgxy7Q0CnRt40SQLS/preview" },
-            { id: 37, baslik: "Planet Earth I", tur: ["Belgesel", "Doğa"], ozet: "BBC tarafından hazırlanan, gezegenimizi daha önce hiç görülmemiş bir detay ve ölçekte gözler önüne serer.", poster: "https://m.media-amazon.com/images/I/71DxCxZ6tOL._SY445_.jpg", driveDublaj: "https://drive.google.com/file/d/1P7b9ocRYHNqBs6yZ5fRbZGwIq_Vlm5JZ/preview", driveAltyazi: "https://drive.google.com/file/d/1P7b9ocRYHNqBs6yZ5fRbZGwIq_Vlm5JZ/preview" },
-            { id: 38, baslik: "Planet Earth II", tur: ["Belgesel", "Doğa"], ozet: "İlk seriden on yıl sonra, teknolojinin gelişmesiyle birlikte çekilen bu yapım, izleyiciyi doğanın içine daha önce hiç olmadığı kadar yakından sokmayı hedefler.", poster: "https://cms.bbcearth.com/sites/default/files/2020-11/Planet%20Earth%20II%20tile_592x888px.png", driveDublaj: "https://drive.google.com/file/d/19NIdudgR01nv37D8TCck96cIU-4FuYQF/preview", driveAltyazi: "https://drive.google.com/file/d/19NIdudgR01nv37D8TCck96cIU-4FuYQF/preview" },
-            { id: 39, baslik: "Planet Earth III", tur: ["Belgesel", "Doğa"], ozet: "2023 yılında yayınlanan ve üçlemeyi tamamlayan bu yapım, doğanın güzelliğini ve dayanıklılığını merkeze alıyor.", poster: "https://m.media-amazon.com/images/I/91oRUQwOxCL._UF894,1000_QL80_.jpg", driveDublaj: "https://drive.google.com/file/d/1X9ajlUQhiR6J7BxVpW1fis9iTgb1X7bQ/preview", driveAltyazi: "https://drive.google.com/file/d/1X9ajlUQhiR6J7BxVpW1fis9iTgb1X7bQ/preview" },
-            { id: 40, baslik: "Stardust (Yıldız Tozu)", tur: ["Fantastik", "Macera"], ozet: "Genç Tristan Thorn, sevdiği kadına bir yıldız getirmek için büyülü krallığa geçer ancak yıldızın bir insan olduğunu öğrenir.", poster: "https://upload.wikimedia.org/wikipedia/en/6/6f/Stardust_promo_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1aUgksnqin4wld65U7L7TFS7DfrM5atFU/preview", driveAltyazi: "https://drive.google.com/file/d/1l0rioMYANWXUrWmoRmIx_hbjwBRA8JTy/preview" },
-            { id: 41, baslik: "Snow White and the Huntsman", tur: ["Fantastik", "Aksiyon"], ozet: "Kötü kraliçe tarafından avlanmak istenen Pamuk Prenses, kendisini öldürmekle görevlendirilen Avcı ile işbirliği yapar.", poster: "https://upload.wikimedia.org/wikipedia/en/8/8f/Snow_White_and_the_Huntsman_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1TjihRkvOOd3ENQ4fsNQUOkam_j9LYVzS/preview", driveAltyazi: "https://drive.google.com/file/d/1qi1_7aSed1w4o7BPwcx_1btV55sjFA8V/preview" }
+            { id: 1, baslik: "The Martian (Marslı)", tur: ["Bilim Kurgu", "Aksiyon"], imdb: 8.0, ozet: "Mars'taki bir görev sırasında öldü sanılarak geride bırakılan astronot Mark Watney, zekasını ve botanik bilgisini kullanarak sınırlı kaynaklarla hayatta kalma mücadelesi verir.", poster: "https://upload.wikimedia.org/wikipedia/tr/7/7d/Marsl%C4%B1_-_afi%C5%9F.jpg", driveDublaj: "https://drive.google.com/file/d/1RKF2jzVQuvAZFKFQZWnFQRuVJVgJbLxq/preview", driveAltyazi: "https://drive.google.com/file/d/1x21b8Z5JI_3s3O6h6j-lhGJQv01F4qH-/preview", formLink: "https://forms.google.com" },
+            { id: 2, baslik: "War Horse (Savaş Atı)", tur: ["Savaş", "Doğa", "Tarih"], imdb: 7.2, ozet: "I. Dünya Savaşı'nın başlamasıyla çok sevdiği sahibi Albert'tan ayrılarak orduya satılan Joey adlı bir atın, savaşın acımasız cephelerinde farklı tarafların hayatlarına dokunduğu destansı yolculuğunu anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/d/da/War-horse-poster.jpg", driveDublaj: "https://drive.google.com/file/d/1IYtbPkusrlDdzfefgHaMKL2e1lh_9Gmq/preview", driveAltyazi: "https://drive.google.com/file/d/16Fi2G6oen-DXNLMdmKWOmkxi6xJjlAt8/preview", formLink: "BURAYA_FORM_LINKI" },
+            { id: 3, baslik: "Children of Men (Son Umut)", tur: ["Aksiyon", "Bilim Kurgu" ], imdb: 7.9, ozet: "Küresel kısırlık krizi nedeniyle insanlığın soyunun tükenme noktasına geldiği kaotik bir yakın gelecekte, hayattan umudunu kesmiş bir adam, insanlığın kaderini değiştirebilecek çok riskli bir görevi üstlenmek zorunda kalır.", poster: "https://m.media-amazon.com/images/M/MV5BMDNkNmNiYzYtYWY0YS00NWEwLTgwMWUtYjM0M2E4Nzk3MzhmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", driveDublaj: "https://drive.google.com/file/d/1kJ25HUtrjy_mGJ-IU9dHNieUqZP6sb6l/preview", driveAltyazi: "https://drive.google.com/file/d/1iIJrvhsCNNwdEXYM-FSkb9YpJ_lzBD3g/preview", formLink: "BURAYA_FORM_LINKI" },
+            { id: 4, baslik: "Les Choristes (Koro)", tur: ["Müzik", "Dram"], imdb: 7.9, ozet: "İkinci Dünya Savaşı sonrası Fransa'da, katı bir yatılı okula atanan gözetmen Clément Mathieu, müziğin birleştirici gücünü kullanarak öğrencilerin hayatlarını değiştirmeye çalışır.", poster: "https://upload.wikimedia.org/wikipedia/tr/2/25/Chorus.jpg", driveDublaj: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", driveAltyazi: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", formLink: "" },
+            { id: 5, baslik: "Rain Man (Yağmur Adam)", tur: ["Dram"], imdb: 8.0, ozet: "Babasının mirasının büyük kısmının, varlığından bile haberdar olmadığı otistik dahi kardeşi Raymond'a bırakıldığını öğrenen Charlie'nin hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/b/b2/Rain_Man_poster.jpg", driveDublaj: "https://drive.google.com/file/d/107ovDbUJAb90HLfgU8y8oeYuSxTlKr-n/preview", driveAltyazi: "https://drive.google.com/file/d/1R9ppfdoab20fTUfBpWWsvh3cAAz2_UBP/preview", formLink: "" },
+            { id: 6, baslik: "Ender's Game (Uzay Oyunları)", tur: ["Bilim Kurgu"], imdb: 6.6, ozet: "Uzaylı bir ırkın Dünya'ya saldırmasının ardından insanlığın geleceğini korumak isteyen ordu, üstün zekalı çocukları askeri bir okula toplayarak onları geleceğin komutanları olarak yetiştirmeye başlar.", poster: "https://upload.wikimedia.org/wikipedia/en/8/8c/Ender%27s_Game_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1T3uSugkt9E-U0Wlk7Qk96W143DBSIBIc/preview", driveAltyazi: "https://drive.google.com/file/d/1PcNjvkt6-uiYHDhwh5jj75PudxCwI9nK/preview", formLink: "" },
+            { id: 7, baslik: "World War Z (Dünya Savaşı Z)", tur: ["Bilim Kurgu", "Distopya", "Uluslararası İlişkiler"], imdb: 7.0, ozet: "Gizemli bir virüsün insanları hızla saldırgan yaratıklara dönüştürerek medeniyetleri çöküşün eşiğine getirdiği bir dünyada, eski bir BM müfettişi olan Gerry Lane, ailesini ve insanlığı kurtarmak için göreve çağrılır.", poster: "https://upload.wikimedia.org/wikipedia/id/d/dc/World_War_Z_poster.jpg", driveDublaj: "https://drive.google.com/file/d/191t4uONNOcpcha9B_knoCpcgoAS_od61/preview", driveAltyazi: "https://drive.google.com/file/d/11HEES_qb4-3T3Aw_mJc79_n1gdDMtzUV/preview", formLink: "" },
+            { id: 8, baslik: "Die Welle (Tehlikeli Oyun)", tur: ["11-12. Sınıflar!", "Politik Gerilim", "Psikolojik Dram"], imdb: 7.6, ozet: "Lise öğretmeni Rainer Wenger, öğrencilerine otokrasinin günümüzde hala mümkün olduğunu kanıtlamak amacıyla disiplin ve birlik üzerine kurulu, Dalga adını verdikleri bir sosyal deney başlatır.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/1f/Tehlikeli-oyun.jpg", driveDublaj: "https://drive.google.com/file/d/19ij7Zy3Dq1iHqM4FtVv77Q-0wHrSyqE8/preview", driveAltyazi: "https://drive.google.com/file/d/10XsFKVr1r5yyRT6HqpWuWxJXcGo2QY-g/preview", formLink: "" },
+            { id: 9, baslik: "Real Steel (Çelik Yumruklar)", tur: ["Bilim Kurgu", "Yapay Zeka"], imdb: 7.1, ozet: "İnsan boksörlerin yerini dev robotların aldığı yakın bir gelecekte, eski bir dövüşçü olan Charlie, hurda parçalardan yaptığı robotlarla geçimini sağlamaya çalışan, tükenmişlik içindeki bir adamdır.", poster: "https://upload.wikimedia.org/wikipedia/en/2/22/Real_Steel_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1V719BBIt6I-qoMPdQJmf7OmPy8omSU9d/preview", driveAltyazi: "https://drive.google.com/file/d/1B3np7_typC_AaYHigbyftAJWEWNp1lfZ/preview", formLink: "" },
+            { id: 10, baslik: "Karpuz Kabuğundan Gemiler Yapmak", tur: ["Dram", "Komedi"], imdb: 7.8, ozet: "1960'lı yılların bir Anadolu kasabasında yaşayan sinema aşığı iki genç çırak, gündüzleri karpuzculuk ve berberlik yaparken geceleri kendi filmlerini çekebilmek için büyük bir tutkuyla çalışırlar.", poster: "https://upload.wikimedia.org/wikipedia/tr/8/82/Karpuzkabugu_afis.jpg", driveDublaj: "https://drive.google.com/file/d/10csQ8uNWkd1znZYRhP0jccNuoIhgYVj-/preview", driveAltyazi: "https://drive.google.com/file/d/10csQ8uNWkd1znZYRhP0jccNuoIhgYVj-/preview", formLink: "" },
+            { id: 11, baslik: "Elysium (Yeni Cennet)", tur: ["Bilim", "Aksiyon", "Distopya"], imdb: 6.6, ozet: "2154 yılında dünya nüfusu yoksulluk ve hastalıkla boğuşurken, zenginler Elysium adındaki lüks ve teknolojik bir uzay istasyonunda her türlü hastalıktan arınmış ayrıcalıklı bir yaşam sürmektedir.", poster: "https://upload.wikimedia.org/wikipedia/tr/f/f9/Elysium_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1-QEtCLIDDgqONEy4EVVTidk2bCdIY-Qz/view?usp=sharing", driveAltyazi: "https://drive.google.com/file/d/1Y6SIw4L5IoiIfuDhWpnvC81uUdVFETZc/preview", formLink: "" },
+            { id: 12, baslik: "Interstellar (Yıldızlararası)", tur: ["Bilim Kurgu", "Dram", "Aile"], imdb: 8.6, ozet: "Kuraklık ve iklim krizinin Dünya'yı yaşanmaz hale getirdiği bir gelecekte, eski bir NASA pilotu olan Cooper, insanlığa yeni bir ev bulabilmek için ailesini geride bırakarak bir grup kaşifle birlikte yıldızlararası bir yolculuğa çıkar.", poster: "https://upload.wikimedia.org/wikipedia/tr/b/bc/Interstellar_film_poster.jpg", driveDublaj: "", driveAltyazi: "https://drive.google.com/file/d/1aofZmcbV-nfIdCWXzV_FfTKkaoRdvgLR/preview", formLink: "" },
+            { id: 13, baslik: "The Matrix", tur: ["Bilim Kurgu", "Yapay Zeka", "Distopya"], imdb: 8.7, ozet: "Gündüzleri sıradan bir yazılımcı, geceleri ise usta bir hacker olan Neo, yaşadığı dünyanın aslında insanlığı uyutmak için makineler tarafından yaratılmış sanal bir simülasyon olduğu gerçeğiyle yüzleşir.", poster: "https://upload-wikimedia-org.translate.goog/wikipedia/en/d/db/The_Matrix.png?_x_tr_sl=en&_x_tr_tl=tr&_x_tr_hl=tr&_x_tr_pto=tc", driveDublaj: "https://drive.google.com/file/d/1phDLjuzE6-n6wfzHfaQA92L1Mb_4I8uB/preview", driveAltyazi: "https://drive.google.com/file/d/1phDLjuzE6-n6wfzHfaQA92L1Mb_4I8uB/preview", formLink: "" },
+            { id: 14, baslik: "Scent of a Woman", tur: ["Dram"], imdb: 8.0, ozet: "Paraya ihtiyacı olan kolej öğrencisi Charlie, Şükran Günü hafta sonunda görme engelli, karizmatik ama oldukça aksi bir emekli albay olan Frank Slade'e refakatçilik yapmayı kabul eder.", poster: "https://upload.wikimedia.org/wikipedia/en/9/91/Scent_of_a_Woman.jpg", driveDublaj: "https://drive.google.com/file/d/1jEioOUHhjWAEw1_c51MmctN7Ms_NYyW1/preview", driveAltyazi: "https://drive.google.com/file/d/1IYCBfalvCpRC_VsMtI8RnBNmvYhIPHU-/preview", formLink: "" },
+            { id: 15, baslik: "How centuries of sci-fi sparked spaceflight", tur: ["Belgesel", "Bilim Kurgu"], imdb: 7.5, ozet: "NASA ekonomisti Alex MacDonald, uzay yolculuğunun sadece bilim insanlarının ve mühendislerin başarısı olmadığını anlatıyor.", poster: "https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:q64mvrkbhen2tyxcovdsnexq/bafkreifhxu2jwa2p3esbmk7kxp7hvgarozgby2q64ur3w34op3xfvbwoxi@jpeg", driveDublaj: "https://drive.google.com/file/d/1Qw1o8_HhZulApH5PEG6hDdpqCUceWeZ4/preview", driveAltyazi: "https://drive.google.com/file/d/1Qw1o8_HhZulApH5PEG6hDdpqCUceWeZ4/preview", formLink: "" },
+            { id: 16, baslik: "Tenkû no shiro Rapyuta (Gökteki Kale)", tur: ["Animasyon", "Doğa"], imdb: 8.0, ozet: "Hikaye, gizemli bir mavi kristal kolye sayesinde gökyüzünden süzülerek inen Sheeta adlı genç bir kızın, madenci çırağı olan cesur çocuk Pazu tarafından bulunmasıyla başlar.", poster: "https://www.kvmr.org/wp-content/uploads/2025/06/castle.png", driveDublaj: "https://drive.google.com/file/d/11XH6xGvFE3NZQNRilkt2bB1XvYr9dtup/preview", driveAltyazi: "https://drive.google.com/file/d/1HKP_cbS93a7tiB-UOWeuHuLFxVIg7NjM/preview", formLink: "" },
+            { id: 17, baslik: "A Beautiful Mind (Akıl Oyunları)", tur: ["Dram", "Biyografi"], imdb: 8.2, ozet: "Nobel ödüllü matematikçi John Nash’in gerçek hayat hikayesinden esinlenen film, Nash'in dâhilikten şizofreniye uzanan hayatını konu alır.", poster: "https://upload.wikimedia.org/wikipedia/en/b/b8/A_Beautiful_Mind_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1XFUZIeOQ6X5FPbyKJyAfXh4bCOWKBFW0/preview", driveAltyazi: "https://drive.google.com/file/d/145As5ZrjZZx9nqN2iZTKFJqD8FYPCFX9/preview", formLink: "" },
+            { id: 18, baslik: " Avatar", tur: ["Bilim Kurgu", "Aksiyon"], imdb: 7.8, ozet: "22. yüzyılda Pandora uydusunda geçen filmde, felçli bir deniz piyadesi olan Jake Sully, Avatar programı aracılığıyla Pandora'nın yerlileri Na'vi halkının arasına sızar.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/12/Avatar-Film-Posteri.jpg", driveDublaj: "https://drive.google.com/file/d/1wWRhS_wjRwjw-9nyluxv5ZAR59k-w491/preview", driveAltyazi: "https://drive.google.com/file/d/1dVuIPy91dOU39C9NwLCf79Yk4VaJBEws/preview", formLink: "" },
+            { id: 19, baslik: "Coach Carter (Koç Carter)", tur: ["Biyografi", "Spor", "Dram"], imdb: 7.3, ozet: "Richmond Lisesi basketbol koçu Ken Carter, oyuncularının akademik başarılarını spor başarılarının önüne koyarak tartışmalı bir karar alır.", poster: "https://upload.wikimedia.org/wikipedia/en/c/c3/Coach_Carter_poster.JPG", driveDublaj: "https://drive.google.com/file/d/1nK1Rg66UftS9RLdkpDs56opwOBSdtt7b/preview", driveAltyazi: "https://drive.google.com/file/d/1txiGcAIHhBUt1BtUs0Ng7tGxMuesA2kk/preview", formLink: "" },
+            { id: 20, baslik: "Freedom Writers (Özgürlük Yazarları)", tur: ["Biyografi", "Dram"], imdb: 7.5, ozet: "Genç bir öğretmen, ırkçılık ve şiddetin hüküm sürdüğü bir lisede öğrencilerine günlük tutturarak hayatlarını değiştirmeye çalışır.", poster: "https://upload.wikimedia.org/wikipedia/tr/7/73/FWPoster.jpg", driveDublaj: "https://drive.google.com/file/d/1ruMt3oA_ZUOswfXyhCi_2Jnago-7ifzr/preview", driveAltyazi: "https://drive.google.com/file/d/1RfHw56Yr3ZVP9D3anJzk6XKM8RSNseP9/preview", formLink: "" },
+            { id: 21, baslik: "Gattaca", tur: ["Bilim Kurgu", "Distopya"], imdb: 7.8, ozet: "Genetik mühendisliğinin insanların kaderini belirlediği bir gelecekte, 'kusurlu' doğan bir adam astronot olma hayalini gerçekleştirmek için başkasının kimliğine bürünür.", poster: "https://upload.wikimedia.org/wikipedia/tr/b/bb/Gataca_Movie_Poster_B.jpg", driveDublaj: "https://drive.google.com/file/d/1x-tbeq6I6Zj9ZVp6kii3tGpe3gLP3-eP/preview", driveAltyazi: "https://drive.google.com/file/d/1h_iG_Yvnh8jgckZ_saxcRTGiDK1-66NY/preview", formLink: "" },
+			{ id: 22, baslik: "Good Will Hunting (Can Dostum)", tur: ["Dram", "Psikolojik"], imdb: 8.3, ozet: "MIT'de hademelik yapan bir matematik dâhisi, bir terapistin yardımıyla geçmişiyle yüzleşir ve geleceğini şekillendirir.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/17/Good_Will_Hunting_%28film%2C_1997%29.jpg", driveDublaj: "https://drive.google.com/file/d/1N7nKAWy05vL1bx3C64x0XY-lY0L-wiMe/preview", driveAltyazi: "https://drive.google.com/file/d/1N7nKAWy05vL1bx3C64x0XY-lY0L-wiMe/preview", formLink: "" },
+            { id: 23, baslik: "Spider-Man: Into the Spider-Verse", tur: ["Animasyon", "Aksiyon"], imdb: 8.4, ozet: "Genç Miles Morales, farklı evrenlerden gelen diğer Örümcek-Adamlarla bir araya gelerek dünyayı kurtarmaya çalışır.", poster: "https://upload.wikimedia.org/wikipedia/en/f/fa/Spider-Man_Into_the_Spider-Verse_poster.png", driveDublaj: "https://drive.google.com/file/d/1wcnypHtNPO2bdemzGy77gakRrSD0roPv/view?usp=sharing", driveAltyazi: "https://drive.google.com/file/d/1HVRTjNxk0tlNT3lYY0YJUYEQ6wezmND3/preview", formLink: "" },
+            { id: 24, baslik: "Inside Out (Ters Yüz)", tur: ["Animasyon", "Komedi", "Aile"], imdb: 8.1, ozet: "Genç bir kızın zihnindeki duyguların (Neşe, Üzüntü, Öfke vb.) maceralarını konu alan animasyon filmi.", poster: "https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1qHBR84WfG20U19uukUkrfaQr6RNkUPRN/preview", driveAltyazi: "https://drive.google.com/file/d/1RLv-2obe5-o51Fhyjv0INPmWTwgpI7yg/preview", formLink: "" },
+            { id: 25, baslik: "Koe no Katachi (A Silent Voice)", tur: ["Anime", "Dram", "Gençlik"], imdb: 8.1, ozet: "Eskiden zorbalık yaptığı işitme engelli bir kızla yeniden iletişim kurmaya çalışan bir gencin kefaret hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/3/32/A_Silent_Voice_Film_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/12Ny9MbFxU3ySzN6kDOWOS2ww0IQZs0XE/preview", driveAltyazi: "https://drive.google.com/file/d/12Ny9MbFxU3ySzN6kDOWOS2ww0IQZs0XE/preview", formLink: "" },
+            { id: 26, baslik: "WALL-E", tur: ["Animasyon", "Bilim Kurgu", "Aile"], imdb: 8.4, ozet: "Gelecekte terk edilmiş dünyada çöp toplayan robot WALL-E'nin uzay macerasını anlatan Pixar filmi.", poster: "https://upload.wikimedia.org/wikipedia/en/4/4c/WALL-E_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1QSXgDf2sr4MKV3CyHiKOJXImQmeNRWZC/preview", driveAltyazi: "https://drive.google.com/file/d/1FQ-EUp_encMcz5vbDera1SKt3QFhWE1Z/preview", formLink: "" },
+            { id: 27, baslik: "The Boy Who Harnessed the Wind", tur: ["Biyografi", "Dram"], imdb: 7.6, ozet: "Malawi'de yaşayan genç William Kamkwamba'nın, köyünü kıtlıktan kurtarmak için rüzgar türbini inşa etme hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/4/44/The_Boy_Who_Harnessed_the_Wind.jpg", driveDublaj: "https://drive.google.com/file/d/1ez5FH-Fj7b9XBnhTuPC5hqAXW13CywP8/preview", driveAltyazi: "https://drive.google.com/file/d/1lRYYJjXDiHBAUAjwbW6qTOlOJarehBzJ/preview", formLink: "" },
+            { id: 28, baslik: "Gladiator (Gladyatör)", tur: ["Tarih", "Dram", "Aksiyon"], imdb: 8.5, ozet: "İhanete uğrayan Romalı general Maximus'un, gladyatör olarak arenada yükselip intikam almasını konu alır.", poster: "https://upload.wikimedia.org/wikipedia/en/f/fb/Gladiator_%282000_film_poster%29.png", driveDublaj: "https://drive.google.com/file/d/1QQ9nGJIEcQuxOzpRiBlnUcGw-XStVGw6/preview", driveAltyazi: "https://drive.google.com/file/d/162Hh_muQDR1Zg6KsQNNOXqSuUzGjv0g7/preview", formLink: "" },
+            { id: 39, baslik: "Kûsî jî dikarin bifirin", tur: ["Savaş", "Dram", "Tarih"], imdb: 8.0, ozet: "Irak işgali öncesinde mülteci kampında yaşayan çocukların savaşın gölgesindeki hayatlarını anlatır.", poster: "https://upload.wikimedia.org/wikipedia/tr/a/a5/Turtles_Can_Fly_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1So6d_8Pc2EnDOcxpU5p15uFdi4BMaEy4/preview", driveAltyazi: "https://drive.google.com/file/d/1So6d_8Pc2EnDOcxpU5p15uFdi4BMaEy4/preview", formLink: "" },
+            { id: 30, baslik: "Sitaare Zameen Par", tur: ["Komedi", "Spor"], imdb: 8.3, ozet: "Zihinsel engelli bireylerden oluşan bir basketbol takımını çalıştıran koçun hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/4/44/Sitaare_Zameen_Par_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1KRv-7g8sd-vcm_--zbs4F7toUT3aThtv/preview", driveAltyazi: "https://drive.google.com/file/d/1NGE0BeNgI973BZJDMqJ6z6ky0kU8a2kI/preview", formLink: "" },
+            { id: 31, baslik: "Dangal", tur: ["Biyografi", "Spor", "Dram"], imdb: 8.3, ozet: "Eski güreşçi Mahavir Singh Phogat'ın kızlarını şampiyon güreşçi olarak yetiştirme mücadelesini anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/9/99/Dangal_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/11s3iIpcXMa6S4rnrbpVewULArpXziKlF/preview", driveAltyazi: "https://drive.google.com/file/d/11s3iIpcXMa6S4rnrbpVewULArpXziKlF/preview", formLink: "" },
+            { id: 32, baslik: "Eternals", tur: ["Bilim Kurgu", "Fantastik"], imdb: 6.3, ozet: "Dünyayı binlerce yıldır koruyan ölümsüz bir ırkın, insanlığı kadim düşmanlarına karşı korumak için yeniden bir araya gelişini anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/9/9b/Eternals_%28film%29_poster.jpeg", driveDublaj: "https://drive.google.com/file/d/1GDoJk-2O1J6vlCSA49_6QqCMWkf9b44L/preview", driveAltyazi: "https://drive.google.com/file/d/1kevuMthsWclcQdSNj8mxYZuDAsK5dwRY/preview", formLink: "" },
+            { id: 33, baslik: "Hidden Figures (Gizli Sayılar)", tur: ["Tarih", "Biyografi"], imdb: 7.8, ozet: "NASA'da çalışan üç dahi siyahi kadının, uzay yarışındaki kritik rollerini ve karşılaştıkları ayrımcılığı konu alır.", poster: "https://upload.wikimedia.org/wikipedia/en/4/4f/The_official_poster_for_the_film_Hidden_Figures%2C_2016.jpg", driveDublaj: "https://drive.google.com/file/d/1LGOsHL4GmRyqNDelOxO-JiY8bZUciW3O/preview", driveAltyazi: "https://drive.google.com/file/d/1XIWzeLme3rOtT-1pssSgiySJo2ULbIrk/preview", formLink: "" },
+            { id: 34, baslik: "I Am Legend (Ben Efsaneyim)", tur: ["Bilim Kurgu", "Gerilim"], imdb: 7.2, ozet: "İnsanlığı yok eden bir virüsten sağ kalan tek insan olan Robert Neville'in hayatta kalma mücadelesi.", poster: "https://upload.wikimedia.org/wikipedia/en/d/df/I_am_legend_teaser.jpg", driveDublaj: "https://drive.google.com/file/d/1oeD9suufLnEsrHWbK0DIIZhP272w3ISl/preview", driveAltyazi: "https://drive.google.com/file/d/10WvUAPSfk0p9MIMxViMRXLo5O5-mhH0u/preview", formLink: "" },
+            { id: 35, baslik: "Life of Pi (Pinin Yaşamı)", tur: ["Macera", "Fantastik"], imdb: 7.9, ozet: "Okyanusun ortasında bir filikada bengal kaplanıyla hayatta kalmaya çalışan Pi Patel'in büyüleyici hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/5/57/Life_of_Pi_2012_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1-taxYINEgU9kyI46xAUcL7dzx-zd-ejY/preview", driveAltyazi: "https://drive.google.com/file/d/1FcxgmfH2AtuQB_Fa-VPi-ZrA6d-HZ59V/preview", formLink: "" },
+            { id: 36, baslik: "October Sky (Ekim Düşü)", tur: ["Biyografi", "Dram"], imdb: 7.8, ozet: "Madenci kasabasında yaşayan bir gencin, Sputnik uydusunu gördükten sonra roket yapma hayalinin peşinden gitmesini anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/7/73/October_sky_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1K_ExMIMw64xLI6W_H59g5EWdxixBusmz/preview", driveAltyazi: "https://drive.google.com/file/d/1SCa5D2J4-ikEUCzSgxy7Q0CnRt40SQLS/preview", formLink: "" },
+            { id: 37, baslik: "Planet Earth I", tur: ["Belgesel", "Doğa"], ozet: "BBC tarafından hazırlanan, gezegenimizi daha önce hiç görülmemiş bir detay ve ölçekte gözler önüne serer.", poster: "https://m.media-amazon.com/images/I/71DxCxZ6tOL._SY445_.jpg", driveDublaj: "https://drive.google.com/file/d/1P7b9ocRYHNqBs6yZ5fRbZGwIq_Vlm5JZ/preview", driveAltyazi: "https://drive.google.com/file/d/1P7b9ocRYHNqBs6yZ5fRbZGwIq_Vlm5JZ/preview", formLink: "" },
+            { id: 38, baslik: "Planet Earth II", tur: ["Belgesel", "Doğa"], ozet: "İlk seriden on yıl sonra, teknolojinin gelişmesiyle birlikte çekilen bu yapım, izleyiciyi doğanın içine daha önce hiç olmadığı kadar yakından sokmayı hedefler.", poster: "https://cms.bbcearth.com/sites/default/files/2020-11/Planet%20Earth%20II%20tile_592x888px.png", driveDublaj: "https://drive.google.com/file/d/19NIdudgR01nv37D8TCck96cIU-4FuYQF/preview", driveAltyazi: "https://drive.google.com/file/d/19NIdudgR01nv37D8TCck96cIU-4FuYQF/preview", formLink: "" },
+            { id: 39, baslik: "Planet Earth III", tur: ["Belgesel", "Doğa"], ozet: "2023 yılında yayınlanan ve üçlemeyi tamamlayan bu yapım, doğanın güzelliğini ve dayanıklılığını merkeze alıyor.", poster: "https://m.media-amazon.com/images/I/91oRUQwOxCL._UF894,1000_QL80_.jpg", driveDublaj: "https://drive.google.com/file/d/1X9ajlUQhiR6J7BxVpW1fis9iTgb1X7bQ/preview", driveAltyazi: "https://drive.google.com/file/d/1X9ajlUQhiR6J7BxVpW1fis9iTgb1X7bQ/preview", formLink: "" },
+            { id: 40, baslik: "Stardust (Yıldız Tozu)", tur: ["Fantastik", "Macera"], ozet: "Genç Tristan Thorn, sevdiği kadına bir yıldız getirmek için büyülü krallığa geçer ancak yıldızın bir insan olduğunu öğrenir.", poster: "https://upload.wikimedia.org/wikipedia/en/6/6f/Stardust_promo_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1aUgksnqin4wld65U7L7TFS7DfrM5atFU/preview", driveAltyazi: "https://drive.google.com/file/d/1l0rioMYANWXUrWmoRmIx_hbjwBRA8JTy/preview", formLink: "" },
+            { id: 41, baslik: "Snow White and the Huntsman", tur: ["Fantastik", "Aksiyon"], ozet: "Kötü kraliçe tarafından avlanmak istenen Pamuk Prenses, kendisini öldürmekle görevlendirilen Avcı ile işbirliği yapar.", poster: "https://upload.wikimedia.org/wikipedia/en/8/8f/Snow_White_and_the_Huntsman_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1TjihRkvOOd3ENQ4fsNQUOkam_j9LYVzS/preview", driveAltyazi: "https://drive.google.com/file/d/1qi1_7aSed1w4o7BPwcx_1btV55sjFA8V/preview", formLink: "" }
         ];
 
         document.addEventListener("DOMContentLoaded", () => {
@@ -781,68 +713,22 @@
             updateProgress();
         }
 
-        // --- GÜNCELLENMİŞ VE DÜZELTİLMİŞ openPlayer FONKSİYONU ---
         function openPlayer(id, type) {
-            try {
-                currentMovieId = id; 
-                const film = filmler.find(f => f.id === id);
-                const modal = document.getElementById("player-modal");
-                document.getElementById("player-title").innerText = film.baslik;
-                document.getElementById("player-desc").innerText = film.ozet;
-                document.getElementById("player-imdb").innerText = film.imdb ? film.imdb : "-";
-                
-                let tagsHtml = '';
-                if (Array.isArray(film.tur)) { tagsHtml = film.tur.map(t => `<span>${t}</span>`).join(''); } 
-                else if (film.tur) { tagsHtml = `<span>${film.tur}</span>`; }
-                document.getElementById("player-tags").innerHTML = tagsHtml;
-                
-                // --- OTOMATİK FORM BUTONLARI (GARANTİ METODU) ---
-                // Modal içindeki sol kontrol alanını güvenli bir şekilde seçiyoruz
-                const leftControls = modal.querySelector(".left-controls");
-                
-                if (leftControls) {
-                    leftControls.innerHTML = ""; // İçini temizle
-
-                    // 1. ADIM: Filmin türlerine göre butonları oluştur
-                    let genres = [];
-                    if (Array.isArray(film.tur)) { genres = film.tur; } 
-                    else if (film.tur) { genres = [film.tur]; }
-                    else { genres = ["Genel"]; } // Tür yoksa Genel varsay
-
-                    genres.forEach(genre => {
-                        let cleanGenre = genre.trim();
-                        // Link sözlüğünden linki bul, yoksa genel forma yönlendir
-                        let targetLink = (TUR_LINKLERI && TUR_LINKLERI[cleanGenre]) ? TUR_LINKLERI[cleanGenre] : "form-genel.html";
-                        
-                        const btn = document.createElement("a");
-                        btn.href = targetLink;
-                        btn.target = "_blank";
-                        btn.className = "eval-button";
-                        btn.innerHTML = `<i class="fas fa-edit"></i> ${cleanGenre} Değerlendir`;
-                        btn.style.marginRight = "10px"; // Butonlar arası boşluk
-                        btn.style.marginBottom = "5px"; // Alt alta gelirse diye boşluk
-                        leftControls.appendChild(btn);
-                    });
-
-                    // 2. ADIM: IMDb Puanını Geri Ekle
-                    const imdbDiv = document.createElement("div");
-                    imdbDiv.className = "imdb-badge";
-                    imdbDiv.innerHTML = `<span class="imdb-label">IMDb:</span><span class="imdb-score">${film.imdb || "-"}</span>`;
-                    leftControls.appendChild(imdbDiv);
-                }
-
-                // ----------------------------------------------------
-
-                const iframe = document.getElementById("main-player");
-                iframe.src = (type === 'dublaj') ? film.driveDublaj : film.driveAltyazi;
-                updateUserStars(id);
-                modal.style.display = "flex";
-            } catch (error) {
-                console.error("Player açılırken hata oluştu:", error);
-                // Hata olsa bile en azından modalı açmayı dene
-                const modal = document.getElementById("player-modal");
-                if(modal) modal.style.display = "flex";
-            }
+            currentMovieId = id; 
+            const film = filmler.find(f => f.id === id);
+            const modal = document.getElementById("player-modal");
+            document.getElementById("player-title").innerText = film.baslik;
+            document.getElementById("player-desc").innerText = film.ozet;
+            document.getElementById("player-imdb").innerText = film.imdb ? film.imdb : "-";
+            let tagsHtml = '';
+            if (Array.isArray(film.tur)) { tagsHtml = film.tur.map(t => `<span>${t}</span>`).join(''); } 
+            else if (film.tur) { tagsHtml = `<span>${film.tur}</span>`; }
+            document.getElementById("player-tags").innerHTML = tagsHtml;
+            document.getElementById("eval-btn").href = film.formLink;
+            const iframe = document.getElementById("main-player");
+            iframe.src = (type === 'dublaj') ? film.driveDublaj : film.driveAltyazi;
+            updateUserStars(id);
+            modal.style.display = "flex";
         }
 
         function rateMovie(score) {
