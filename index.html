@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
     
     <style>
-        /* --- TEMEL AYARLAR (Kritik Düzeltme: Box Sizing) --- */
+        /* --- CSS AYARLARI --- */
         * { box-sizing: border-box; } 
 
         :root { 
@@ -206,11 +206,10 @@
         .tag-btn:hover, .tag-btn.active { background: var(--accent); color: white; border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); opacity: 1; }
         .tag-btn i { font-size: 0.95rem; }
 
-        /* --- KART TASARIMI (DÜZELTİLMİŞ VE SAĞLAMLAŞTIRILMIŞ) --- */
+        /* --- KART TASARIMI (IPHONE & SAMSUNG İÇİN GÜÇLENDİRİLMİŞ) --- */
         .movie-grid { 
             flex: 1; 
             display: grid; 
-            /* Mobilde daha dar kartlara izin ver (160px), böylece 2'li sıra olabilirler */
             grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); 
             gap: 20px; 
             padding: 20px; 
@@ -219,7 +218,6 @@
             width: 100%; 
         }
         
-        /* Tablet ve üstü için kartları biraz genişlet */
         @media (min-width: 768px) {
             .movie-grid { 
                 grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); 
@@ -237,21 +235,20 @@
             border: 1px solid var(--border-color); 
             display: flex; 
             flex-direction: column; 
-            /* Yükseklik içeriğe göre uzasın, sabit kalmasın */
-            height: auto; 
-            min-height: 100%; 
+            /* İÇERİK SIĞMASI İÇİN SABİT YÜKSEKLİK YERİNE ESNEK YAPI */
+            height: 100%; 
         }
         .movie-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
 
+        /* --- POSTER ALANI (KRİTİK DÜZELTME) --- */
         .poster-container { 
             width: 100%; 
-            /* Resim yüksekliği mobilde biraz daha kısa olabilir */
-            height: 250px; 
+            height: 240px; /* Mobil Varsayılan */
+            /* IPHONE İÇİN EZİLMEYİ ENGELLEYEN KOMUT: */
+            flex: 0 0 auto; 
             overflow: hidden; 
             position: relative; 
             cursor: pointer; 
-            /* Resmin ezilmesini önleyen sihirli kod: */
-            flex-shrink: 0; 
         }
         
         @media (min-width: 768px) {
@@ -266,9 +263,10 @@
         .watched-badge:hover { background: rgba(0,0,0,0.8); transform: scale(1.1); }
         .watched-badge.active { background: var(--watched-color); border-color: var(--watched-color); }
         
+        /* --- KART BİLGİ ALANI --- */
         .card-info { 
             padding: 15px; 
-            flex-grow: 1; 
+            flex: 1 1 auto; /* Gerektiğinde uza */
             display: flex; 
             flex-direction: column; 
             justify-content: space-between; 
@@ -277,17 +275,18 @@
         .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 15px; }
         .tags span { background: var(--accent); color: #ffffff !important; font-size: 0.7rem; padding: 3px 8px; border-radius: 10px; font-weight: bold; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         
+        /* --- BUTONLAR (SAMSUNG İÇİN SARMA AYARI) --- */
         .watch-options { 
             display: flex; 
             gap: 8px; 
             padding: 0 15px 15px 15px; 
             margin-top: auto; 
-            /* Butonlar sığmazsa alt satıra geçsin */
-            flex-wrap: wrap; 
+            flex: 0 0 auto; /* Yüksekliği koru, ezilme */
+            flex-wrap: wrap; /* Sığmazsa alt satıra geç */
         }
         .opt-btn { 
             flex: 1; 
-            min-width: 60px; /* Çok küçülmelerini engelle */
+            min-width: 60px; 
             background: var(--bg-main); 
             color: var(--text-main); 
             border: 1px solid var(--border-color); 
@@ -299,8 +298,7 @@
             transition: 0.3s; 
             text-align: center;
         }
-        /* Fragman butonu mobilde tam genişlik kaplasın */
-        .trailer-btn { flex-basis: 100%; margin-top: 2px; }
+        .trailer-btn { flex-basis: 100%; margin-top: 2px; } /* Mobilde tam satır */
         
         @media (min-width: 768px) {
             .trailer-btn { flex-basis: auto; margin-top: 0; }
@@ -355,15 +353,22 @@
         .announcement-icon { font-size: 5rem; color: var(--accent); margin-bottom: 30px; }
         footer { text-align: center; padding: 40px; background: var(--nav-bg); border-top: 1px solid var(--border-color); color: var(--text-sec); margin-top: auto; backdrop-filter: blur(10px); }
 
-        /* MOBİL DÜZELTMELER */
+        /* MOBİL DÜZELTMELER (EKSTRA) */
         @media (max-width: 768px) {
             .navbar { flex-wrap: wrap; padding: 20px; } .logo { order: 1; flex: 1; } .nav-controls { order: 2; margin-left: 0; }
             .search-box { order: 3; width: 100%; margin-top: 20px; } .search-box input { width: 100%; box-sizing: border-box; }
-            /* İstatistik Panelini Mobilde Düzenle */
+            .movie-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 20px; padding: 20px; }
+            .poster-container { height: 240px; }
+            .controls-container { flex-direction: column; align-items: stretch; }
+            .left-controls, .user-rating-box { justify-content: center; }
+            .login-box { width: 85%; }
+            .hero-section { height: 350px; padding: 20px; width: 90%; }
+            .hero-title { font-size: 2rem; max-width: 100%; }
+            .hero-desc { font-size: 1rem; max-width: 100%; -webkit-line-clamp: 4; }
+            .hero-overlay { padding: 20px; }
             .stats-container { flex-direction: column; text-align: center; gap: 20px; padding: 20px; width: 90%; }
             .user-level { justify-content: center; }
             .progress-area { width: 100%; margin: 0; }
-            /* Sorun Bildir Butonu */
             .report-btn { margin-left: 0; margin-top: 10px; width: 100%; justify-content: center; }
             .left-controls { justify-content: center; width: 100%; }
             .eval-button { width: 100%; justify-content: center; margin-bottom: 10px; margin-right: 0 !important; }
@@ -600,7 +605,7 @@
             }
         }
 
-        // --- TOAST BİLDİRİM FONKSİYONU (YUMUŞAK) ---
+        // --- TOAST BİLDİRİM FONKSİYONU ---
         function showToast(message, type = 'info') {
             const container = document.getElementById('toast-container');
             const toast = document.createElement('div');
@@ -612,7 +617,6 @@
             toast.innerHTML = `<i class="fas ${icon}"></i> <span>${message}</span>`;
             container.appendChild(toast);
             
-            // 3 saniye sonra yumuşakça kaldır
             setTimeout(() => {
                 toast.style.animation = 'softFadeOut 0.5s ease-in forwards';
                 setTimeout(() => { toast.remove(); }, 500);
@@ -626,7 +630,7 @@
                 document.getElementById("app-container").style.display = "flex";
                 setSeasonalBackground();
                 updateProgress();
-                showToast("Sisteme Başarıyla Giriş Yapıldı!", "success"); // Toast eklendi
+                showToast("Sisteme Başarıyla Giriş Yapıldı!", "success");
             } else {
                 const errorP = document.getElementById("error-msg");
                 errorP.innerText = "Şifre Yanlış!";
@@ -662,7 +666,7 @@
             if(validFilms.length > 0) {
                 const randomFilm = validFilms[Math.floor(Math.random() * validFilms.length)];
                 openPlayer(randomFilm.id, 'dublaj');
-                showToast("Şanslı Filminiz Seçildi!", "info"); // Toast eklendi
+                showToast("Şanslı Filminiz Seçildi!", "info");
             }
         }
 
@@ -674,9 +678,6 @@
                 document.getElementById("hero-desc").innerText = heroFilm.ozet;
                 const heroSection = document.getElementById("hero-section");
                 
-                // Hero resmi en başta olduğu için "lazy" OLMAMALI, "eager" (hemen) olmalı.
-                // CSS background olarak yüklediğimiz için tarayıcı bunu zaten önceliklendirir.
-                // Ancak preloading yapabilirdik ama JS içinde olduğundan gerek yok.
                 heroSection.style.display = "flex"; 
                 heroSection.style.backgroundImage = `url('${heroFilm.poster}')`;
                 
@@ -732,9 +733,11 @@
             data.forEach(film => {
                 let posterSrc = film.poster;
                 if(!film.poster || film.poster.includes("POSTER_LINKI")) { posterSrc = "https://via.placeholder.com/300x450?text=Resim+Yok"; }
+                
                 const div = document.createElement("div");
                 div.className = "movie-card";
                 const isWatched = localStorage.getItem('watched_' + film.id) === 'true';
+                
                 let tagsHtml = '';
                 if (Array.isArray(film.tur)) { tagsHtml = film.tur.map(t => `<span>${t}</span>`).join(''); } 
                 else if(film.tur) { tagsHtml = `<span>${film.tur}</span>`; }
