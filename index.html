@@ -13,6 +13,9 @@
     
     <style>
         /* --- CSS AYARLARI --- */
+        /* EN ÖNEMLİ DÜZELTME: Tüm elemanların kutu modelini düzeltir */
+        * { box-sizing: border-box; } 
+
         :root { 
             --bg-main: #f4f6f8; 
             --bg-card: #ffffff; 
@@ -65,7 +68,7 @@
             box-shadow: 0 2px 5px rgba(231, 76, 60, 0.4);
         }
 
-        /* TOAST BİLDİRİMLERİ */
+        /* YUMUŞAK TOAST BİLDİRİMLERİ */
         #toast-container {
             position: fixed; bottom: 30px; right: 30px; z-index: 10001;
             display: flex; flex-direction: column; gap: 15px;
@@ -192,16 +195,16 @@
         }
         .hero-btn:hover { background: var(--accent); color: white; transform: scale(1.05); }
 
-        /* ETİKET BULUTU & İKONLAR (GÜNCELLENDİ) */
+        /* ETİKET BULUTU */
         .tag-cloud { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding: 20px 30px; background: transparent; }
         .tag-btn { 
             background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-sec); 
             padding: 8px 20px; border-radius: 20px; cursor: pointer; transition: 0.3s; 
             font-size: 0.9rem; font-weight: 500; opacity: 0.9;
-            display: flex; align-items: center; gap: 8px; /* İkon ile yazı arası boşluk */
+            display: flex; align-items: center; gap: 8px;
         }
         .tag-btn:hover, .tag-btn.active { background: var(--accent); color: white; border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); opacity: 1; }
-        .tag-btn i { font-size: 0.95rem; } /* İkon boyutu */
+        .tag-btn i { font-size: 0.95rem; }
 
         /* KART TASARIMI */
         .movie-grid { flex: 1; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 30px; padding: 30px; max-width: 1400px; margin: 0 auto; width: 100%; box-sizing: border-box; }
@@ -256,7 +259,7 @@
         .announcement-icon { font-size: 5rem; color: var(--accent); margin-bottom: 30px; }
         footer { text-align: center; padding: 40px; background: var(--nav-bg); border-top: 1px solid var(--border-color); color: var(--text-sec); margin-top: auto; backdrop-filter: blur(10px); }
 
-        /* MOBİL */
+        /* MOBİL DÜZELTMELER */
         @media (max-width: 768px) {
             .navbar { flex-wrap: wrap; padding: 20px; } .logo { order: 1; flex: 1; } .nav-controls { order: 2; margin-left: 0; }
             .search-box { order: 3; width: 100%; margin-top: 20px; } .search-box input { width: 100%; box-sizing: border-box; }
@@ -269,8 +272,22 @@
             .hero-title { font-size: 2rem; max-width: 100%; }
             .hero-desc { font-size: 1rem; max-width: 100%; -webkit-line-clamp: 4; }
             .hero-overlay { padding: 20px; }
-            .stats-container { flex-direction: column; text-align: center; gap: 20px; }
-            .progress-area { width: 100%; margin: 0; }
+            
+            /* Mobilde İstatistik Çubuğu Düzeltmesi */
+            .stats-container { 
+                flex-direction: column; 
+                text-align: center; 
+                gap: 20px; 
+                padding: 20px; /* Padding azaltıldı */
+                width: 90%; /* Yanlardan pay bırakıldı */
+            }
+            .user-level { 
+                justify-content: center; /* Ortalandı */
+            }
+            .progress-area { 
+                width: 100%; 
+                margin: 0; 
+            }
         }
     </style>
 </head>
@@ -565,14 +582,19 @@
                 document.getElementById("hero-title").innerText = heroFilm.baslik;
                 document.getElementById("hero-desc").innerText = heroFilm.ozet;
                 const heroSection = document.getElementById("hero-section");
+                
+                // Hero resmi en başta olduğu için "lazy" OLMAMALI, "eager" (hemen) olmalı.
+                // CSS background olarak yüklediğimiz için tarayıcı bunu zaten önceliklendirir.
+                // Ancak preloading yapabilirdik ama JS içinde olduğundan gerek yok.
                 heroSection.style.display = "flex"; 
                 heroSection.style.backgroundImage = `url('${heroFilm.poster}')`;
+                
                 document.getElementById("hero-btn").onclick = function() {
                     openPlayer(heroFilm.id, 'dublaj');
                 };
             }
         }
-
+        
         function openSitemap() {
             const sitemapContainer = document.getElementById("sitemap-content");
             sitemapContainer.innerHTML = "";
@@ -619,9 +641,11 @@
             data.forEach(film => {
                 let posterSrc = film.poster;
                 if(!film.poster || film.poster.includes("POSTER_LINKI")) { posterSrc = "https://via.placeholder.com/300x450?text=Resim+Yok"; }
+                
                 const div = document.createElement("div");
                 div.className = "movie-card";
                 const isWatched = localStorage.getItem('watched_' + film.id) === 'true';
+                
                 let tagsHtml = '';
                 if (Array.isArray(film.tur)) { tagsHtml = film.tur.map(t => `<span>${t}</span>`).join(''); } 
                 else if(film.tur) { tagsHtml = `<span>${film.tur}</span>`; }
@@ -657,10 +681,10 @@
             const btn = event.currentTarget;
             if(!currentStatus) {
                 btn.classList.add('active');
-                showToast("İzlenenlere Eklendi", "success"); // Toast eklendi
+                showToast("İzlenenlere Eklendi", "success");
             } else {
                 btn.classList.remove('active');
-                showToast("İzlenenlerden Çıkarıldı", "info"); // Toast eklendi
+                showToast("İzlenenlerden Çıkarıldı", "info");
             }
             updateProgress();
         }
@@ -687,7 +711,7 @@
             if(!currentMovieId) return;
             localStorage.setItem('vote_' + currentMovieId, score);
             updateUserStars(currentMovieId);
-            showToast("Puanınız Kaydedildi!", "success"); // Toast eklendi
+            showToast("Puanınız Kaydedildi!", "success");
         }
 
         function updateUserStars(id) {
