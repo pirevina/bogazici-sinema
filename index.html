@@ -3,7 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="robots" content="noindex, nofollow"> 
+    
     <title>Boğaziçi Koleji Film Platformu (BETA)</title>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
     
@@ -21,7 +25,9 @@
             --watched-color: #27ae60; 
             --trailer-color: #c0392b; 
             --beta-color: #e74c3c;
-            --dublaj-color: #f1c40f; 
+            --dublaj-color: #f1c40f;
+            --progress-bg: #e0e0e0;
+            --progress-fill: linear-gradient(90deg, #2980b9, #2ecc71);
         }
         
         [data-theme="dark"] { 
@@ -32,7 +38,8 @@
             --accent: #f39c12; 
             --nav-bg: rgba(15, 15, 15, 0.95); 
             --border-color: #333; 
-            --overlay-color: rgba(20, 20, 20, 0.85); 
+            --overlay-color: rgba(20, 20, 20, 0.85);
+            --progress-bg: #333;
         }
         
         body { 
@@ -49,7 +56,7 @@
 
         #app-container { display: flex; flex-direction: column; min-height: 100vh; }
         
-        /* --- BETA ETİKETİ --- */
+        /* BETA TAG */
         .beta-tag {
             font-size: 0.6rem; color: #fff; background-color: var(--beta-color);
             padding: 2px 6px; border-radius: 4px; vertical-align: middle;
@@ -58,7 +65,30 @@
             box-shadow: 0 2px 5px rgba(231, 76, 60, 0.4);
         }
 
-        /* --- YÜKLENİYOR EKRANI --- */
+        /* TOAST BİLDİRİMLERİ */
+        #toast-container {
+            position: fixed; bottom: 30px; right: 30px; z-index: 10001;
+            display: flex; flex-direction: column; gap: 15px;
+        }
+        .toast {
+            background: var(--bg-card); color: var(--text-main);
+            padding: 15px 25px; border-radius: 12px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+            border-left: 5px solid var(--accent);
+            display: flex; align-items: center; gap: 15px;
+            min-width: 280px; max-width: 350px; font-weight: 500; font-size: 0.95rem;
+            opacity: 0; transform: translateY(20px); 
+            animation: softFadeIn 0.5s ease-out forwards;
+        }
+        .toast.success { border-left-color: var(--watched-color); }
+        .toast i { font-size: 1.4rem; }
+        .toast.success i { color: var(--watched-color); }
+        .toast.info i { color: var(--accent); }
+        
+        @keyframes softFadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes softFadeOut { from { opacity: 1; transform: translateY(0); } to { opacity: 0; transform: translateY(-20px); } }
+
+        /* LOADER */
         #loader-screen {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background: #0f0f0f; z-index: 10000;
@@ -70,7 +100,7 @@
         @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
         @keyframes pulse { 0% { opacity: 0.5; } 50% { opacity: 1; } 100% { opacity: 0.5; } }
 
-        /* --- GİRİŞ EKRANI --- */
+        /* LOGIN EKRANI */
         #login-overlay { 
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             z-index: 9999; display: flex; justify-content: center; align-items: center;
@@ -85,11 +115,9 @@
             transition: transform 0.3s ease;
         }
         .login-box:hover { transform: translateY(-5px); border-color: rgba(255,255,255,0.3); }
-
         .motto-container { position: absolute; top: 15px; left: 20px; display: flex; align-items: center; gap: 6px; }
         .motto-icon { font-size: 1rem; color: #f39c12; filter: drop-shadow(0 0 2px rgba(0,0,0,0.5)); }
         .motto-text { font-family: 'Playfair Display', serif; font-style: italic; font-size: 0.9rem; color: #f39c12; margin: 0; letter-spacing: 0.5px; text-transform: lowercase; font-weight: normal; }
-
         .login-box h1 { margin: 0; color: #ffffff; font-size: 1.4rem; margin-bottom: 5px; font-weight: 700; letter-spacing: 1px; margin-top: 35px; display: flex; justify-content: center; align-items: center; }
         .login-box p.school-name { color: #b3b3b3; font-size: 0.85rem; margin-top: 5px; margin-bottom: 25px; text-transform: uppercase; letter-spacing: 2px; }
         .login-box input { padding: 12px; width: 100%; margin-bottom: 20px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.1); outline: none; box-sizing: border-box; font-size: 1rem; color: #fff; transition: 0.3s; text-align: center; letter-spacing: 3px; font-weight: bold; }
@@ -108,17 +136,75 @@
         .icon-btn { background: none; border: none; color: var(--text-main); font-size: 1.3rem; margin-left: 10px; cursor: pointer; transition: 0.3s; }
         .icon-btn:hover { color: var(--accent); transform: scale(1.1); }
         
-        /* ETİKET BULUTU */
+        /* ISTATISTIK PANELİ */
+        .stats-container {
+            width: 95%; max-width: 1400px; margin: 20px auto 0 auto;
+            background: var(--bg-card); padding: 15px 30px;
+            border-radius: 20px; border: 1px solid var(--border-color);
+            display: flex; align-items: center; justify-content: space-between;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        .user-level { display: flex; align-items: center; gap: 15px; }
+        .level-badge {
+            font-size: 2rem; background: var(--bg-main);
+            width: 60px; height: 60px; border-radius: 50%;
+            display: flex; justify-content: center; align-items: center;
+            border: 2px solid var(--accent); color: var(--accent);
+        }
+        .level-info h4 { margin: 0; font-size: 0.9rem; color: var(--text-sec); text-transform: uppercase; }
+        .level-info h2 { margin: 5px 0 0 0; font-size: 1.4rem; color: var(--text-main); font-weight: 900; }
+        .progress-area { flex-grow: 1; margin: 0 40px; }
+        .progress-text { display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.9rem; font-weight: bold; color: var(--text-sec); }
+        .progress-track { width: 100%; height: 10px; background: var(--progress-bg); border-radius: 10px; overflow: hidden; }
+        .progress-bar { height: 100%; width: 0%; background: var(--progress-fill); transition: width 0.5s ease-out; }
+
+        /* HERO SECTION */
+        .hero-section {
+            position: relative; width: 95%; max-width: 1400px; height: 450px;
+            margin: 20px auto 10px auto; border-radius: 25px;
+            background-size: cover; background-position: center top;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2); overflow: hidden;
+            display: flex; align-items: center;
+        }
+        .hero-overlay {
+            background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 50%, transparent 100%);
+            width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center;
+            padding: 0 60px; color: white; backdrop-filter: blur(3px);
+        }
+        .hero-badge {
+            background-color: var(--accent); color: white; padding: 5px 15px; border-radius: 20px;
+            font-size: 0.8rem; font-weight: bold; text-transform: uppercase; align-self: flex-start;
+            margin-bottom: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        .hero-title {
+            font-size: 3rem; font-weight: 900; margin: 0 0 15px 0;
+            text-shadow: 0 5px 15px rgba(0,0,0,0.5); font-family: 'Roboto', sans-serif;
+            max-width: 70%; line-height: 1.1;
+        }
+        .hero-desc {
+            font-size: 1.1rem; margin-bottom: 30px; max-width: 50%; line-height: 1.6;
+            color: rgba(255,255,255,0.9); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+        }
+        .hero-btn {
+            padding: 12px 35px; background: #fff; color: #000; border: none; border-radius: 30px;
+            font-size: 1.1rem; font-weight: bold; cursor: pointer; transition: 0.3s;
+            align-self: flex-start; display: flex; align-items: center; gap: 10px;
+        }
+        .hero-btn:hover { background: var(--accent); color: white; transform: scale(1.05); }
+
+        /* ETİKET BULUTU & İKONLAR (GÜNCELLENDİ) */
         .tag-cloud { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding: 20px 30px; background: transparent; }
-        .tag-btn { background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-sec); padding: 8px 20px; border-radius: 20px; cursor: pointer; transition: 0.3s; font-size: 0.9rem; font-weight: 500; opacity: 0.9; }
+        .tag-btn { 
+            background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-sec); 
+            padding: 8px 20px; border-radius: 20px; cursor: pointer; transition: 0.3s; 
+            font-size: 0.9rem; font-weight: 500; opacity: 0.9;
+            display: flex; align-items: center; gap: 8px; /* İkon ile yazı arası boşluk */
+        }
         .tag-btn:hover, .tag-btn.active { background: var(--accent); color: white; border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); opacity: 1; }
+        .tag-btn i { font-size: 0.95rem; } /* İkon boyutu */
 
         /* KART TASARIMI */
-        .movie-grid { 
-            flex: 1; display: grid; 
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
-            gap: 30px; padding: 30px; max-width: 1400px; margin: 0 auto; width: 100%; box-sizing: border-box; 
-        }
+        .movie-grid { flex: 1; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 30px; padding: 30px; max-width: 1400px; margin: 0 auto; width: 100%; box-sizing: border-box; }
         .movie-card { background: var(--bg-card); border-radius: 25px; overflow: hidden; transition: 0.3s; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid var(--border-color); display: flex; flex-direction: column; height: 100%; }
         .movie-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
         .poster-container { width: 100%; height: 330px; overflow: hidden; position: relative; cursor: pointer; flex-shrink: 0; }
@@ -126,49 +212,21 @@
         .movie-card:hover .poster-container img { transform: scale(1.05); }
         .play-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; opacity: 0; transition: 0.3s; }
         .movie-card:hover .play-overlay { opacity: 1; } .play-icon { font-size: 4rem; color: #fff; }
-        
-        .watched-badge {
-            position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.6); color: #fff;
-            width: 35px; height: 35px; border-radius: 50%; display: flex; justify-content: center; align-items: center;
-            cursor: pointer; z-index: 10; transition: 0.3s; border: 2px solid rgba(255,255,255,0.3);
-        }
+        .watched-badge { position: absolute; top: 10px; left: 10px; background: rgba(0,0,0,0.6); color: #fff; width: 35px; height: 35px; border-radius: 50%; display: flex; justify-content: center; align-items: center; cursor: pointer; z-index: 10; transition: 0.3s; border: 2px solid rgba(255,255,255,0.3); }
         .watched-badge:hover { background: rgba(0,0,0,0.8); transform: scale(1.1); }
         .watched-badge.active { background: var(--watched-color); border-color: var(--watched-color); }
-
         .card-info { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
         .card-info h3 { margin: 0; font-size: 1.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 10px; font-weight: bold; }
-        
         .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 15px; }
         .tags span { background: var(--accent); color: #ffffff !important; font-size: 0.75rem; padding: 4px 10px; border-radius: 15px; font-weight: bold; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-
-        /* BUTON GRUBU */
         .watch-options { display: flex; gap: 10px; padding: 0 20px 20px 20px; margin-top: auto; align-items: flex-start; }
-        .opt-btn { 
-            flex: 1; background: var(--bg-main); color: var(--text-main); 
-            border: 1px solid var(--border-color); padding: 10px 5px; 
-            cursor: pointer; border-radius: 12px; font-weight: 600; 
-            font-size: 0.85rem; transition: 0.3s; white-space: nowrap; height: auto; 
-        }
-        
-        /* 1. GÖREV: DUBLAJ (SARI) */
-        .dublaj-btn:hover, .dublaj-btn:active, .dublaj-btn:focus {
-            background-color: var(--dublaj-color) !important;
-            border-color: var(--dublaj-color) !important;
-            color: #fff !important;
-        }
-
-        /* 1. GÖREV: ALTYAZI (MAVİ) */
-        .altyazi-btn:hover, .altyazi-btn:active, .altyazi-btn:focus {
-            background-color: var(--accent) !important;
-            border-color: var(--accent) !important;
-            color: #fff !important;
-        }
-
-        /* Fragman Butonu */
+        .opt-btn { flex: 1; background: var(--bg-main); color: var(--text-main); border: 1px solid var(--border-color); padding: 10px 5px; cursor: pointer; border-radius: 12px; font-weight: 600; font-size: 0.85rem; transition: 0.3s; white-space: nowrap; height: auto; }
+        .dublaj-btn:hover, .dublaj-btn:active, .dublaj-btn:focus { background-color: var(--dublaj-color) !important; border-color: var(--dublaj-color) !important; color: #fff !important; }
+        .altyazi-btn:hover, .altyazi-btn:active, .altyazi-btn:focus { background-color: var(--accent) !important; border-color: var(--accent) !important; color: #fff !important; }
         .trailer-btn { color: var(--trailer-color); border-color: var(--trailer-color); background: transparent; }
         .trailer-btn:hover { background: var(--trailer-color) !important; color: white !important; border-color: var(--trailer-color) !important; }
 
-        /* MODAL */
+        /* MODAL & SITEMAP */
         .modal { display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.85); justify-content: center; align-items: center; padding: 20px; box-sizing: border-box; backdrop-filter: blur(5px); }
         .modal-content { background: var(--bg-card); width: 100%; max-width: 900px; border-radius: 25px; position: relative; max-height: 90vh; overflow-y: auto; color: var(--text-main); }
         .close-btn { position: absolute; top: 15px; right: 15px; width: 45px; height: 45px; background-color: #e74c3c; color: white; font-size: 26px; border-radius: 50%; text-align: center; line-height: 45px; cursor: pointer; z-index: 9999; transition: 0.3s; }
@@ -186,37 +244,16 @@
         .stars { display: flex; gap: 5px; cursor: pointer; }
         .stars i { font-size: 1.2rem; color: #ccc; transition: 0.2s; }
         .stars i:hover, .stars i.hovered, .stars i.active { color: #f39c12; transform: scale(1.1); }
-
-        /* --- SITEMAP CSS (YENİ) --- */
-        .sitemap-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            gap: 15px;
-            padding: 20px 40px;
-        }
-        .sitemap-item {
-            background: var(--bg-main);
-            padding: 15px;
-            border-radius: 10px;
-            border: 1px solid var(--border-color);
-            transition: 0.2s;
-            cursor: pointer;
-            display: flex; align-items: center; gap: 10px;
-        }
-        .sitemap-item:hover {
-            background: var(--accent);
-            color: #fff;
-            transform: translateX(5px);
-        }
+        
+        .sitemap-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 15px; padding: 20px 40px; }
+        .sitemap-item { background: var(--bg-main); padding: 15px; border-radius: 10px; border: 1px solid var(--border-color); transition: 0.2s; cursor: pointer; display: flex; align-items: center; gap: 10px; }
+        .sitemap-item:hover { background: var(--accent); color: #fff; transform: translateX(5px); }
         .sitemap-item i { color: var(--text-sec); }
         .sitemap-item:hover i { color: #fff; }
 
-        /* DUYURU */
         #announcement-box { max-width: 450px !important; border-radius: 40px !important; text-align: center; background: var(--bg-card); border: 3px solid var(--accent); }
         .announcement-inner { padding: 50px; display: flex; flex-direction: column; align-items: center; }
         .announcement-icon { font-size: 5rem; color: var(--accent); margin-bottom: 30px; }
-
-        /* FOOTER */
         footer { text-align: center; padding: 40px; background: var(--nav-bg); border-top: 1px solid var(--border-color); color: var(--text-sec); margin-top: auto; backdrop-filter: blur(10px); }
 
         /* MOBİL */
@@ -228,11 +265,19 @@
             .controls-container { flex-direction: column; align-items: stretch; }
             .left-controls, .user-rating-box { justify-content: center; }
             .login-box { width: 85%; }
+            .hero-section { height: 350px; padding: 20px; width: 90%; }
+            .hero-title { font-size: 2rem; max-width: 100%; }
+            .hero-desc { font-size: 1rem; max-width: 100%; -webkit-line-clamp: 4; }
+            .hero-overlay { padding: 20px; }
+            .stats-container { flex-direction: column; text-align: center; gap: 20px; }
+            .progress-area { width: 100%; margin: 0; }
         }
     </style>
 </head>
 <body>
     
+    <div id="toast-container"></div>
+
     <div id="loader-screen">
         <i class="fas fa-film loader-icon"></i>
         <div class="loader-text">Boğaziçi Sinema Platformu Hazırlanıyor...</div>
@@ -261,20 +306,48 @@
             <div class="search-box"><input type="text" id="search-input" placeholder="Film ara..." onkeyup="filterFilms()"><i class="fas fa-search"></i></div>
             <div class="nav-controls">
                 <button onclick="luckyDip()" class="icon-btn" title="Şansıma Ne Çıkarsa"><i class="fas fa-dice"></i></button> 
-                <button onclick="openSitemap()" class="icon-btn" title="Site Haritası"><i class="fas fa-map"></i></button> <button onclick="openModal('announcement-modal')" class="icon-btn"><i class="fas fa-bell"></i></button>
+                <button onclick="openSitemap()" class="icon-btn" title="Site Haritası"><i class="fas fa-map"></i></button>
+                <button onclick="openModal('announcement-modal')" class="icon-btn"><i class="fas fa-bell"></i></button>
                 <button onclick="toggleTheme()" class="icon-btn"><i class="fas fa-moon"></i></button>
             </div>
         </nav>
 
+        <div class="stats-container">
+            <div class="user-level">
+                <div class="level-badge"><i class="fas fa-compass"></i></div> <div class="level-info">
+                    <h4>Macera Seviyesi</h4>
+                    <h2 id="user-rank">Çaylak</h2>
+                </div>
+            </div>
+            <div class="progress-area">
+                <div class="progress-text">
+                    <span>Yolculuk İlerlemesi</span>
+                    <span id="progress-text">0 / 0 Film</span>
+                </div>
+                <div class="progress-track">
+                    <div class="progress-bar" id="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="hero-section" class="hero-section" style="display:none;">
+            <div class="hero-overlay">
+                <span class="hero-badge"><i class="fas fa-star"></i> Haftanın Önerisi</span>
+                <h1 class="hero-title" id="hero-title">Film Başlığı</h1>
+                <p class="hero-desc" id="hero-desc">Film açıklaması buraya gelecek...</p>
+                <button id="hero-btn" class="hero-btn" onclick=""><i class="fas fa-play"></i> Hemen İzle</button>
+            </div>
+        </div>
+
         <div class="tag-cloud">
-            <button class="tag-btn active" onclick="filterGenre('all')">Tümü</button>
-            <button class="tag-btn" onclick="filterGenre('Bilim Kurgu')">Bilim Kurgu</button>
-            <button class="tag-btn" onclick="filterGenre('Tarih')">Tarih</button>
-            <button class="tag-btn" onclick="filterGenre('Dram')">Dram</button>
-            <button class="tag-btn" onclick="filterGenre('Aksiyon')">Aksiyon</button>
-            <button class="tag-btn" onclick="filterGenre('Belgesel')">Belgesel</button>
-            <button class="tag-btn" onclick="filterGenre('Animasyon')">Animasyon</button>
-            <button class="tag-btn" onclick="filterGenre('Distopya')">Distopya</button>
+            <button class="tag-btn active" onclick="filterGenre('all')"><i class="fas fa-th-large"></i> Tümü</button>
+            <button class="tag-btn" onclick="filterGenre('Bilim Kurgu')"><i class="fas fa-atom"></i> Bilim Kurgu</button>
+            <button class="tag-btn" onclick="filterGenre('Tarih')"><i class="fas fa-landmark"></i> Tarih</button>
+            <button class="tag-btn" onclick="filterGenre('Dram')"><i class="fas fa-theater-masks"></i> Dram</button>
+            <button class="tag-btn" onclick="filterGenre('Aksiyon')"><i class="fas fa-fire-alt"></i> Aksiyon</button>
+            <button class="tag-btn" onclick="filterGenre('Belgesel')"><i class="fas fa-globe-europe"></i> Belgesel</button>
+            <button class="tag-btn" onclick="filterGenre('Animasyon')"><i class="fas fa-magic"></i> Animasyon</button>
+            <button class="tag-btn" onclick="filterGenre('Distopya')"><i class="fas fa-radiation"></i> Distopya</button>
         </div>
 
         <div class="movie-grid" id="movie-grid"></div>
@@ -325,8 +398,7 @@
                 <h2 style="margin-bottom: 20px; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">
                     <i class="fas fa-map"></i> Site Haritası
                 </h2>
-                <div class="sitemap-container" id="sitemap-content">
-                    </div>
+                <div class="sitemap-container" id="sitemap-content"></div>
             </div>
         </div>
     </div>
@@ -343,7 +415,7 @@
     </div>
 
     <script>
-        const SITE_SIFRESI = "1234";
+        const SITE_SIFRESI = "Murat1427";
         let currentMovieId = null; 
 
         // --- FİLM LİSTESİ ---
@@ -398,9 +470,11 @@
             if(localStorage.getItem('isLoggedIn') === 'true') {
                 document.getElementById("login-overlay").style.display = "none";
                 document.getElementById("app-container").style.display = "flex";
+                updateProgress(); 
             }
             document.getElementById("password-input").addEventListener("keypress", (e) => { if(e.key === "Enter") checkPassword(); });
             setTimeout(hideLoader, 1500); 
+            initHero();
         });
 
         window.onload = function() {
@@ -418,12 +492,33 @@
             }
         }
 
+        // --- TOAST BİLDİRİM FONKSİYONU (YUMUŞAK) ---
+        function showToast(message, type = 'info') {
+            const container = document.getElementById('toast-container');
+            const toast = document.createElement('div');
+            toast.className = `toast ${type}`;
+            
+            let icon = 'fa-info-circle';
+            if(type === 'success') icon = 'fa-check-circle';
+            
+            toast.innerHTML = `<i class="fas ${icon}"></i> <span>${message}</span>`;
+            container.appendChild(toast);
+            
+            // 3 saniye sonra yumuşakça kaldır
+            setTimeout(() => {
+                toast.style.animation = 'softFadeOut 0.5s ease-in forwards';
+                setTimeout(() => { toast.remove(); }, 500);
+            }, 3000);
+        }
+
         function checkPassword() {
             if(document.getElementById("password-input").value === SITE_SIFRESI) {
                 localStorage.setItem('isLoggedIn', 'true');
                 document.getElementById("login-overlay").style.display = "none";
                 document.getElementById("app-container").style.display = "flex";
                 setSeasonalBackground();
+                updateProgress();
+                showToast("Sisteme Başarıyla Giriş Yapıldı!", "success"); // Toast eklendi
             } else {
                 const errorP = document.getElementById("error-msg");
                 errorP.innerText = "Şifre Yanlış!";
@@ -431,11 +526,50 @@
             }
         }
 
+        function updateProgress() {
+            const validFilms = filmler.filter(f => f.baslik !== "Deneme");
+            const totalMovies = validFilms.length;
+            let watchedCount = 0;
+
+            validFilms.forEach(film => {
+                if(localStorage.getItem('watched_' + film.id) === 'true') {
+                    watchedCount++;
+                }
+            });
+
+            const percentage = Math.round((watchedCount / totalMovies) * 100);
+            document.getElementById("progress-text").innerText = `${watchedCount} / ${totalMovies} Film`;
+            document.getElementById("progress-bar").style.width = `${percentage}%`;
+
+            const rankTitle = document.getElementById("user-rank");
+            if (watchedCount === 0) rankTitle.innerText = "Yeni Başlayan";
+            else if (watchedCount <= 5) rankTitle.innerText = "Çaylak";
+            else if (watchedCount <= 15) rankTitle.innerText = "Sinefil";
+            else if (watchedCount <= 30) rankTitle.innerText = "Eleştirmen";
+            else rankTitle.innerText = "Üstat";
+        }
+
         function luckyDip() {
             const validFilms = filmler.filter(f => f.poster && f.poster.length > 5);
             if(validFilms.length > 0) {
                 const randomFilm = validFilms[Math.floor(Math.random() * validFilms.length)];
                 openPlayer(randomFilm.id, 'dublaj');
+                showToast("Şanslı Filminiz Seçildi!", "info"); // Toast eklendi
+            }
+        }
+
+        function initHero() {
+            const validFilms = filmler.filter(f => f.poster && f.poster.length > 5);
+            if(validFilms.length > 0) {
+                const heroFilm = validFilms[Math.floor(Math.random() * validFilms.length)];
+                document.getElementById("hero-title").innerText = heroFilm.baslik;
+                document.getElementById("hero-desc").innerText = heroFilm.ozet;
+                const heroSection = document.getElementById("hero-section");
+                heroSection.style.display = "flex"; 
+                heroSection.style.backgroundImage = `url('${heroFilm.poster}')`;
+                document.getElementById("hero-btn").onclick = function() {
+                    openPlayer(heroFilm.id, 'dublaj');
+                };
             }
         }
 
@@ -521,8 +655,14 @@
             const currentStatus = localStorage.getItem('watched_' + id) === 'true';
             localStorage.setItem('watched_' + id, !currentStatus);
             const btn = event.currentTarget;
-            if(!currentStatus) btn.classList.add('active');
-            else btn.classList.remove('active');
+            if(!currentStatus) {
+                btn.classList.add('active');
+                showToast("İzlenenlere Eklendi", "success"); // Toast eklendi
+            } else {
+                btn.classList.remove('active');
+                showToast("İzlenenlerden Çıkarıldı", "info"); // Toast eklendi
+            }
+            updateProgress();
         }
 
         function openPlayer(id, type) {
@@ -547,6 +687,7 @@
             if(!currentMovieId) return;
             localStorage.setItem('vote_' + currentMovieId, score);
             updateUserStars(currentMovieId);
+            showToast("Puanınız Kaydedildi!", "success"); // Toast eklendi
         }
 
         function updateUserStars(id) {
