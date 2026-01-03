@@ -21,6 +21,7 @@
             --watched-color: #27ae60; 
             --trailer-color: #c0392b; 
             --beta-color: #e74c3c;
+            --dublaj-color: #f1c40f; 
         }
         
         [data-theme="dark"] { 
@@ -112,17 +113,15 @@
         .tag-btn { background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-sec); padding: 8px 20px; border-radius: 20px; cursor: pointer; transition: 0.3s; font-size: 0.9rem; font-weight: 500; opacity: 0.9; }
         .tag-btn:hover, .tag-btn.active { background: var(--accent); color: white; border-color: var(--accent); transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); opacity: 1; }
 
-        /* KART TASARIMI - GENİŞLETİLDİ (220px -> 280px) */
+        /* KART TASARIMI */
         .movie-grid { 
             flex: 1; display: grid; 
-            /* BURASI DÜZELTİLDİ: Kart genişliği artırıldı ki butonlar sığsın */
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
             gap: 30px; padding: 30px; max-width: 1400px; margin: 0 auto; width: 100%; box-sizing: border-box; 
         }
-        
-        .movie-card { background: var(--bg-card); border-radius: 25px; overflow: hidden; transition: 0.3s; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid var(--border-color); display: flex; flex-direction: column; }
+        .movie-card { background: var(--bg-card); border-radius: 25px; overflow: hidden; transition: 0.3s; position: relative; box-shadow: 0 10px 25px rgba(0,0,0,0.05); border: 1px solid var(--border-color); display: flex; flex-direction: column; height: 100%; }
         .movie-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
-        .poster-container { width: 100%; height: 350px; overflow: hidden; position: relative; cursor: pointer; flex-shrink: 0; }
+        .poster-container { width: 100%; height: 330px; overflow: hidden; position: relative; cursor: pointer; flex-shrink: 0; }
         .poster-container img { width: 100%; height: 100%; object-fit: cover; transition: 0.5s; }
         .movie-card:hover .poster-container img { transform: scale(1.05); }
         .play-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.5); display: flex; justify-content: center; align-items: center; opacity: 0; transition: 0.3s; }
@@ -139,26 +138,33 @@
         .card-info { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
         .card-info h3 { margin: 0; font-size: 1.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 10px; font-weight: bold; }
         
-        .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: auto; }
+        .tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 15px; }
         .tags span { background: var(--accent); color: #ffffff !important; font-size: 0.75rem; padding: 4px 10px; border-radius: 15px; font-weight: bold; display: inline-block; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
 
-        /* BUTON GRUBU - DÜZELTİLDİ */
-        .watch-options { 
-            display: flex; gap: 10px; padding: 0 20px 20px 20px; 
-            /* Butonların uzamasını engellemek için önemli: */
-            align-items: flex-start; 
-        }
+        /* BUTON GRUBU */
+        .watch-options { display: flex; gap: 10px; padding: 0 20px 20px 20px; margin-top: auto; align-items: flex-start; }
         .opt-btn { 
             flex: 1; background: var(--bg-main); color: var(--text-main); 
             border: 1px solid var(--border-color); padding: 10px 5px; 
             cursor: pointer; border-radius: 12px; font-weight: 600; 
-            font-size: 0.85rem; transition: 0.3s; white-space: nowrap;
-            /* Yüksekliği sabitleme veya otomatik bırakma */
-            height: auto; 
+            font-size: 0.85rem; transition: 0.3s; white-space: nowrap; height: auto; 
         }
-        .opt-btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); }
         
-        /* Fragman Butonu (Resimdeki gibi kırmızı çizgili) */
+        /* 1. GÖREV: DUBLAJ (SARI) */
+        .dublaj-btn:hover, .dublaj-btn:active, .dublaj-btn:focus {
+            background-color: var(--dublaj-color) !important;
+            border-color: var(--dublaj-color) !important;
+            color: #fff !important;
+        }
+
+        /* 1. GÖREV: ALTYAZI (MAVİ) */
+        .altyazi-btn:hover, .altyazi-btn:active, .altyazi-btn:focus {
+            background-color: var(--accent) !important;
+            border-color: var(--accent) !important;
+            color: #fff !important;
+        }
+
+        /* Fragman Butonu */
         .trailer-btn { color: var(--trailer-color); border-color: var(--trailer-color); background: transparent; }
         .trailer-btn:hover { background: var(--trailer-color) !important; color: white !important; border-color: var(--trailer-color) !important; }
 
@@ -180,6 +186,30 @@
         .stars { display: flex; gap: 5px; cursor: pointer; }
         .stars i { font-size: 1.2rem; color: #ccc; transition: 0.2s; }
         .stars i:hover, .stars i.hovered, .stars i.active { color: #f39c12; transform: scale(1.1); }
+
+        /* --- SITEMAP CSS (YENİ) --- */
+        .sitemap-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px 40px;
+        }
+        .sitemap-item {
+            background: var(--bg-main);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid var(--border-color);
+            transition: 0.2s;
+            cursor: pointer;
+            display: flex; align-items: center; gap: 10px;
+        }
+        .sitemap-item:hover {
+            background: var(--accent);
+            color: #fff;
+            transform: translateX(5px);
+        }
+        .sitemap-item i { color: var(--text-sec); }
+        .sitemap-item:hover i { color: #fff; }
 
         /* DUYURU */
         #announcement-box { max-width: 450px !important; border-radius: 40px !important; text-align: center; background: var(--bg-card); border: 3px solid var(--accent); }
@@ -231,7 +261,7 @@
             <div class="search-box"><input type="text" id="search-input" placeholder="Film ara..." onkeyup="filterFilms()"><i class="fas fa-search"></i></div>
             <div class="nav-controls">
                 <button onclick="luckyDip()" class="icon-btn" title="Şansıma Ne Çıkarsa"><i class="fas fa-dice"></i></button> 
-                <button onclick="openModal('announcement-modal')" class="icon-btn"><i class="fas fa-bell"></i></button>
+                <button onclick="openSitemap()" class="icon-btn" title="Site Haritası"><i class="fas fa-map"></i></button> <button onclick="openModal('announcement-modal')" class="icon-btn"><i class="fas fa-bell"></i></button>
                 <button onclick="toggleTheme()" class="icon-btn"><i class="fas fa-moon"></i></button>
             </div>
         </nav>
@@ -284,6 +314,19 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="sitemap-modal" class="modal">
+        <div class="modal-content" style="max-width: 800px;">
+            <span class="close-btn" onclick="closeModal('sitemap-modal')">&times;</span>
+            <div class="modal-info">
+                <h2 style="margin-bottom: 20px; border-bottom: 2px solid var(--accent); padding-bottom: 10px;">
+                    <i class="fas fa-map"></i> Site Haritası
+                </h2>
+                <div class="sitemap-container" id="sitemap-content">
+                    </div>
             </div>
         </div>
     </div>
@@ -345,18 +388,7 @@
             { id: 38, baslik: "Planet Earth II", tur: ["Belgesel", "Doğa"], ozet: "İlk seriden on yıl sonra, teknolojinin gelişmesiyle birlikte çekilen bu yapım, izleyiciyi doğanın içine daha önce hiç olmadığı kadar yakından sokmayı hedefler.", poster: "https://cms.bbcearth.com/sites/default/files/2020-11/Planet%20Earth%20II%20tile_592x888px.png", driveDublaj: "https://drive.google.com/file/d/19NIdudgR01nv37D8TCck96cIU-4FuYQF/preview", driveAltyazi: "https://drive.google.com/file/d/19NIdudgR01nv37D8TCck96cIU-4FuYQF/preview", formLink: "" },
             { id: 39, baslik: "Planet Earth III", tur: ["Belgesel", "Doğa"], ozet: "2023 yılında yayınlanan ve üçlemeyi tamamlayan bu yapım, doğanın güzelliğini ve dayanıklılığını merkeze alıyor.", poster: "https://m.media-amazon.com/images/I/91oRUQwOxCL._UF894,1000_QL80_.jpg", driveDublaj: "https://drive.google.com/file/d/1X9ajlUQhiR6J7BxVpW1fis9iTgb1X7bQ/preview", driveAltyazi: "https://drive.google.com/file/d/1X9ajlUQhiR6J7BxVpW1fis9iTgb1X7bQ/preview", formLink: "" },
             { id: 40, baslik: "Stardust (Yıldız Tozu)", tur: ["Fantastik", "Macera"], ozet: "Genç Tristan Thorn, sevdiği kadına bir yıldız getirmek için büyülü krallığa geçer ancak yıldızın bir insan olduğunu öğrenir.", poster: "https://upload.wikimedia.org/wikipedia/en/6/6f/Stardust_promo_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1aUgksnqin4wld65U7L7TFS7DfrM5atFU/preview", driveAltyazi: "https://drive.google.com/file/d/1l0rioMYANWXUrWmoRmIx_hbjwBRA8JTy/preview", formLink: "" },
-            { id: 41, baslik: "Snow White and the Huntsman - Pamuk Prenses ve Avcı", tur: ["Fantastik", "Aksiyon"], ozet: "Kötü kraliçe tarafından avlanmak istenen Pamuk Prenses, kendisini öldürmekle görevlendirilen Avcı ile işbirliği yapar.", poster: "https://upload.wikimedia.org/wikipedia/en/8/8f/Snow_White_and_the_Huntsman_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1TjihRkvOOd3ENQ4fsNQUOkam_j9LYVzS/preview", driveAltyazi: "https://drive.google.com/file/d/1qi1_7aSed1w4o7BPwcx_1btV55sjFA8V/preview", formLink: "" },
-			{ id: 42, baslik: "Mary and Max", tur: ["Animasyon", "Dram"], ozet: "Hikaye, dünyanın iki farklı ucunda yaşayan iki 'uyumsuz' ruhun tesadüfi mektup arkadaşlığını konu alır.", poster: "https://upload.wikimedia.org/wikipedia/en/8/8d/Mary_and_max_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1Lbp2Cxzb4JeetTI0XO-8h8Uz3H0ZGkoG/preview", driveAltyazi: "https://drive.google.com/file/d/1RxEgGjoYnNyacadaL2mJuxLAOPjwn9dJ/preview", formLink: "" },
-			{ id: 43, baslik: "Temple Grandin", tur: ["Biyografi,", "Dram"], ozet: "Film, otizmli bir kadın olan Temple Grandin'in gerçek yaşam öyküsünü konu alır. 1940'larda, otizmin 'annesinin yeterince sevgi göstermemesi' sonucu oluştuğuna inanılan ve genellikle çocukların kurumlara kapatıldığı bir dönemde; Temple'ın annesi, kızının normal bir hayat sürmesi için büyük bir savaş verir. Temple, dünyayı diğer insanlardan farklı, 'kelimelerle değil, resimlerle' algılar. Bu farklılığı, teyzesinin çiftliğinde geçirdiği bir yaz tatilinde hayvanlarla kurduğu benzersiz bağ ile birleşince, hayvancılık endüstrisinde devrim yaratacak bir yeteneğe dönüşür. Film, sosyal zorluklar, cinsiyet ayrımcılığı ve önyargılarla mücadele eden Temple'ın; sadece kendi yolunu bulmasını değil, aynı zamanda hayvanlar için daha insani sistemler tasarlayan saygın bir bilim insanına dönüşmesini anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/f/fd/Templegrandin.jpg", driveDublaj: "https://drive.google.com/file/d/1G4mgrlr64VmMG2Y_8367XXQ1RMRyA7UX/preview", driveAltyazi: "https://drive.google.com/file/d/1Xr9QHPGjWAeksAEwjLCzOckvgwY0vAgY/preview", formLink: "" },
-			{ id: 44, baslik: "Now You See Me (Sihirbazlar Çetesi 1)", tur: ["Gerilim", "Gizem"], ozet: "'Mahşerin Dört Atlısı' olarak bilinen dünyanın en yetenekli dört illüzyonisti; sadece sihir yapmakla kalmaz, gösterilerini cüretkar soygunlarla birleştirirler. Ekip, Las Vegas'taki sahnelerinden hiç ayrılmadan, binlerce kilometre ötedeki Paris'te bulunan bir bankayı soyup parayı o an canlı yayında seyircilerinin üzerine yağdırınca tüm dünyanın dikkatini çekerler. Bu imkansız gibi görünen suçu çözmek için görevlendirilen FBI ajanı Dylan Rhodes ve Interpol dedektifi Alma Dray, sihirbazların bir sonraki hamlesini tahmin etmeye çalışırken kendilerini zeka dolu bir kedi-fare oyununun içinde bulurlar. Sihirbazlar her zaman polisten bir adım öndedir; peki bu gerçekten sihir midir, yoksa kusursuz bir plan mı?", poster: "https://upload.wikimedia.org/wikipedia/en/c/c7/Now_You_See_Me_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1IjstDMnKwNwrb3jZBzpQcjfBF_5OwL2y/preview", driveAltyazi: "https://drive.google.com/file/d/1LEAHgGMweyECgjKS2j-KO_nlm8ay_b1-/preview", formLink: "" },
-			{ id: 45, baslik: "The Tomorrow War (Yarının Savaşı)", tur: ["Bilim Kurgu", "Aksiyon", "Macera"], ozet: "Bir gün, 2051 yılından gelen bir grup zaman yolcusu, dünya çapında şok edici bir mesaj iletmek üzere günümüze (2022) gelir: İnsanlık, gelecekteki ölümcül bir uzaylı istilasına karşı savaşı kaybetmektedir. Türün yok oluşunu engellemek için tek şans, geçmişten (yani günümüzden) askerlerin ve sivillerin geleceğe götürülüp savaşa katılmasıdır. Lise öğretmeni ve eski bir asker olan Dan Forester, küçük kızı ve dünyanın geleceği için bu tehlikeli göreve gönüllü olur. Bilinmeyen bir geleceğe atlayan Dan, insanlığın kaderini değiştirmek için geçmişin hayaletleriyle yüzleşmek ve 'Whitespike' adı verilen vahşi yaratıklara karşı hayatta kalmak zorundadır.", poster: "https://upload.wikimedia.org/wikipedia/en/6/60/The_Tomorrow_War_%282021_film%29_official_theatrical_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1J8hpRdJcD-IC5qqiE_gaYPurF0qBFb_D/preview", driveAltyazi: "https://drive.google.com/file/d/1tvnZEQtYqe9uUf3LYxzSF6tSrmr0gRn9/preview", formLink: "" },
-			{ id: 46, baslik: "Ölümlü Dünya", tur: ["Komedi", "Aksiyon"], ozet: "Nesillerdir Haydarpaşa Garı'nda 'Anadolu Tatları' isimli bir lokanta işleten Mermer Ailesi, dışarıdan bakıldığında sıradan, geleneksel ve sıcak bir esnaf ailesi gibi görünür. Ancak bu ailenin büyük bir sırrı vardır: Aslında hepsi, uluslararası bir suç örgütü için çalışan profesyonel kiralık katillerdir. İşler tıkırında giderken, ailenin örgüte karşı yaptığı bir hata sonucu kimlikleri deşifre olur. Artık avcıyken av konumuna düşen Mermer ailesi, peşlerine düşen bu dev organizasyondan kaçmak zorundadır. Film, bir yandan canlarını kurtarmaya çalışırken diğer yandan aile içi krizlerle ve birbirleriyle uğraşan bu ekibin trajikomik hikayesini anlatır.", poster: "https://m.media-amazon.com/images/M/MV5BNzYxOTY0NDItNTZhNC00NjI0LWFjMTAtMjMzZjc3MWIxNzIyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", driveDublaj: "https://drive.google.com/file/d/1juvVdYTyp8NYQrRR_s_IwJ2-cShQXCNC/preview", driveAltyazi: "https://drive.google.com/file/d/1juvVdYTyp8NYQrRR_s_IwJ2-cShQXCNC/preview", formLink: "" },
-			{ id: 47, baslik: "The Truman Show", tur: ["Dram", "Komedi", "Bilim Kurgu"], ozet: "Truman Burbank, cennet gibi görünen huzurlu Seahaven kasabasında mutlu ve sıradan bir hayat yaşamaktadır. Ancak Truman'ın bilmediği şok edici bir gerçek vardır: Doğduğu günden beri tüm hayatı aslında devasa bir televizyon şovudur. Yaşadığı kasaba, dünyanın en büyük film stüdyosudur; eşi, en iyi arkadaşı ve komşuları dahil çevresindeki herkes senaryoya uyan profesyonel oyunculardır. Truman'ın her anı, binlerce gizli kamera aracılığıyla tüm dünya tarafından 7/24 canlı olarak izlenmektedir. Kusursuz işleyen bu sistemde, teknik bir arıza sonucu gökyüzünden (stüdyo tavanından) bir spot ışığının düşmesi gibi tuhaf olaylar yaşanmaya başlar. Truman, yaşadığı gerçekliği sorgulamaya başlar ve bu sahte dünyadan çıkıp gerçeği bulmak için duygusal bir mücadeleye girişir. Not: Film, medya manipülasyonu, gözetim toplumu ve özgür irade üzerine düşündüren modern bir klasik olarak kabul edilir.", poster: "https://upload.wikimedia.org/wikipedia/en/c/cd/Trumanshow.jpg", driveDublaj: "https://drive.google.com/file/d/1Mta6XDU6ovnj_XLprKKS5NU4xvZAc4nV/preview", driveAltyazi: "https://drive.google.com/file/d/1Ze5WKqqUKqQEbUmYyrgfrbiL2d1LQ68Q/preview", formLink: "" },
-			{ id: 48, baslik: "Whiplash", tur: ["Dram", "Müzik"], ozet: "New York'taki prestijli bir müzik konservatuvarında okuyan 19 yaşındaki Andrew Neiman, sıradan bir müzisyen değil, 'efsane' bir caz bateristi olmak istemektedir. Okulun en korkulan ama aynı zamanda en saygı duyulan orkestra şefi Terence Fletcher, Andrew'u keşfeder ve yarışma orkestrasına dahil eder. Ancak bu bir rüyanın gerçekleşmesi değil, bir kabusun başlangıcıdır. Fletcher, öğrencilerinin potansiyelini ortaya çıkarmak için psikolojik şiddet, aşağılama ve korkuyu acımasız bir eğitim yöntemi olarak kullanır. Andrew, hocasının insanlık dışı baskıları altında hem fiziksel hem de zihinsel sınırlarını zorlarken; mükemmelliğe giden yolun hırs, kan ve terden geçtiğini acı bir şekilde öğrenir. Not: J.K. Simmons'ın (Fletcher) Oscar kazanan performansı, filmi basit bir müzik filminden çıkarıp sinirlerinizi geren bir psikolojik savaşa dönüştürüyor.", poster: "https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1oTubbSkN5_3Zdbs1DB8O0m7T82n8Ei7y/preview", driveAltyazi: "https://drive.google.com/file/d/1bPaXjp5ybzsuUccmPXaQfq74D5d7CQ5j/preview", formLink: "" },
-			{ id: 49, baslik: "Deneme", tur: ["Fantastik", "Aksiyon"], ozet: "Özet", poster: "", driveDublaj: "", driveAltyazi: "", formLink: "" },
-			{ id: 50, baslik: "Deneme", tur: ["Fantastik", "Aksiyon"], ozet: "Özet", poster: "", driveDublaj: "", driveAltyazi: "", formLink: "" },
-			{ id: 51, baslik: "Deneme", tur: ["Fantastik", "Aksiyon"], ozet: "Özet", poster: "", driveDublaj: "", driveAltyazi: "", formLink: "" },
-			{ id: 52, baslik: "Deneme", tur: ["Fantastik", "Aksiyon"], ozet: "Özet", poster: "", driveDublaj: "", driveAltyazi: "", formLink: "" },
+            { id: 41, baslik: "Snow White and the Huntsman", tur: ["Fantastik", "Aksiyon"], ozet: "Kötü kraliçe tarafından avlanmak istenen Pamuk Prenses, kendisini öldürmekle görevlendirilen Avcı ile işbirliği yapar.", poster: "https://upload.wikimedia.org/wikipedia/en/8/8f/Snow_White_and_the_Huntsman_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1TjihRkvOOd3ENQ4fsNQUOkam_j9LYVzS/preview", driveAltyazi: "https://drive.google.com/file/d/1qi1_7aSed1w4o7BPwcx_1btV55sjFA8V/preview", formLink: "" }
         ];
 
         document.addEventListener("DOMContentLoaded", () => {
@@ -407,6 +439,26 @@
             }
         }
 
+        function openSitemap() {
+            const sitemapContainer = document.getElementById("sitemap-content");
+            sitemapContainer.innerHTML = "";
+            const sortedFilms = [...filmler].sort((a, b) => a.baslik.localeCompare(b.baslik));
+            
+            sortedFilms.forEach(film => {
+                if(film.baslik !== "Deneme") {
+                    const item = document.createElement("div");
+                    item.className = "sitemap-item";
+                    item.innerHTML = `<i class="fas fa-film"></i> <span>${film.baslik}</span>`;
+                    item.onclick = () => {
+                        closeModal('sitemap-modal');
+                        openPlayer(film.id, 'dublaj');
+                    };
+                    sitemapContainer.appendChild(item);
+                }
+            });
+            openModal('sitemap-modal');
+        }
+
         function setSeasonalBackground() {
             if (document.getElementById("login-overlay").style.display !== "none") return;
             const month = new Date().getMonth(); 
@@ -451,8 +503,8 @@
                         <div class="tags">${tagsHtml}</div>
                     </div>
                     <div class="watch-options">
-                        <button class="opt-btn" onclick="openPlayer(${film.id}, 'dublaj')">Dublaj</button>
-                        <button class="opt-btn" onclick="openPlayer(${film.id}, 'altyazi')">Altyazı</button>
+                        <button class="opt-btn dublaj-btn" onclick="openPlayer(${film.id}, 'dublaj')">Dublaj</button>
+                        <button class="opt-btn altyazi-btn" onclick="openPlayer(${film.id}, 'altyazi')">Altyazı</button>
                         <button class="opt-btn trailer-btn" onclick="openTrailer('${film.baslik}')"><i class="fab fa-youtube"></i> Fragman</button>
                     </div>`;
                 grid.appendChild(div);
