@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilim Kurgu Formu</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Space+Mono:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+
+    <style>
+        /* --- EKUMEN / HAINISH AESTHETIC --- */
+        body {
+            background-color: #0b1016; /* Derin Uzay / Gece */
+            color: #dbe4eb; /* Soluk Buz Mavisi */
+            font-family: 'Space Mono', monospace;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Kar Yağışı Efekti (Gethen Atmosferi) */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+            opacity: 0.5;
+            animation: snowFall 60s infinite linear;
+            z-index: -1;
+        }
+
+        @keyframes snowFall { from { background-position: 0 0; } to { background-position: 100px 500px; } }
+
+        .ekumen-container {
+            width: 100%;
+            max-width: 650px;
+            position: relative;
+            /* Buzlu Cam Paneli */
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 60px 50px;
+            backdrop-filter: blur(8px); /* Buz etkisi */
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Ansible Bağlantı Işığı */
+        .status-light {
+            width: 8px; height: 8px;
+            background: #a4c2f4;
+            border-radius: 50%;
+            box-shadow: 0 0 15px #a4c2f4;
+            margin: 0 auto 20px auto;
+            animation: pulse 4s infinite ease-in-out;
+        }
+        @keyframes pulse { 0% { opacity: 0.3; } 50% { opacity: 1; } 100% { opacity: 0.3; } }
+
+        h1 {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 2.2em;
+            text-align: center;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin-bottom: 5px;
+            color: #fff;
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 0.8em;
+            color: #8faabf;
+            font-style: italic;
+            margin-bottom: 40px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .form-group {
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        label {
+            display: block;
+            color: #8faabf;
+            font-size: 0.85em;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        /* Minimalist Çizgi Inputlar */
+        input[type="text"], 
+        textarea, 
+        select {
+            width: 100%;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            color: #fff;
+            padding: 10px 0;
+            font-family: 'Cormorant Garamond', serif; /* Yazarken el yazısı hissi */
+            font-size: 1.4em; /* Büyük ve okunaklı */
+            font-style: italic;
+            transition: 0.4s;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-bottom-color: #a4c2f4;
+            background: rgba(255, 255, 255, 0.02);
+        }
+
+        select option {
+            background: #0b1016;
+            color: #dbe4eb;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.8em;
+        }
+
+        /* "Diğer" Kutusu */
+        #other-film-div {
+            display: none;
+            margin-top: 20px;
+            animation: fadeIn 1s ease;
+        }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        /* Slider - Denge Terazisi */
+        input[type="range"] {
+            width: 100%;
+            accent-color: #a4c2f4;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+        }
+
+        .rating-text {
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.2em;
+            color: #a4c2f4;
+        }
+
+        /* Buton - Sessiz İletim */
+        .submit-btn {
+            width: 100%;
+            padding: 20px;
+            background: transparent;
+            color: #a4c2f4;
+            border: 1px solid rgba(164, 194, 244, 0.3);
+            font-family: 'Space Mono', monospace;
+            font-size: 0.9em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: all 0.5s ease;
+        }
+
+        .submit-btn:hover {
+            background: rgba(164, 194, 244, 0.1);
+            border-color: #a4c2f4;
+            letter-spacing: 4px; /* Harfler açılır */
+        }
+
+        .poem-footer {
+            margin-top: 50px;
+            text-align: center;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1em;
+            color: #5d6f7e;
+            font-style: italic;
+        }
+
+        a.back-link {
+            color: #5d6f7e;
+            text-decoration: none;
+            font-family: 'Space Mono', monospace;
+            font-size: 0.7em;
+            display: block;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        a.back-link:hover { color: #a4c2f4; }
+
+    </style>
+</head>
+<body>
+
+    <div class="ekumen-container">
+        <div class="status-light"></div>
+
+        <h1>Bilim Kurgu Formu</h1>
+        <div class="subtitle">
+            "Light is the left hand of darkness<br>
+            and darkness the right hand of light. -Le Guin"<br>
+            <span style="font-size:0.8em; margin-top:5px; display:block;">— Ansible Terminal 409 // Hain-Prime Connection</span>
+        </div>
+
+        <form id="ekumen-form">
+            
+            <div class="form-group">
+                <label for="film_adi">INQUIRY SUBJECT (İNCELEME KONUSU)</label>
+                <select id="film_adi" name="film_adi" onchange="toggleOtherFilm()">
+                    <option value="" disabled selected>Select Data Source...</option>
+                    <option value="Marslı">Marslı (The Martian)</option>
+                    <option value="Interstellar">Yıldızlararası (Interstellar)</option>
+                    <option value="Gattaca">Gattaca</option>
+                    <option value="Children of Men">Son Umut (Children of Men)</option>
+                    <option value="Matrix">The Matrix</option>
+                    <option value="Diger">Uncatalogued (Diğer)</option>
+                </select>
+
+                <div id="other-film-div">
+                    <input type="text" id="custom_film_name" name="custom_film_name" placeholder="Specify Subject (Konuyu Belirt)...">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="student_name">ENVOY IDENTITY (ELÇİ KİMLİĞİ)</label>
+                <input type="text" id="student_name" name="student_name" placeholder="Genly Ai..." required>
+            </div>
+
+            <div class="form-group">
+                <label for="q1_summary">OBSERVATION SUMMARY (GÖZLEM ÖZETİ)</label>
+                <textarea id="q1_summary" name="q1_summary" rows="2" placeholder="Briefly record the events (Olayları kısaca kaydet)..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="q2_character">PSYCHE ANALYSIS (KARAKTER ANALİZİ)</label>
+                <textarea id="q2_character" name="q2_character" rows="2" placeholder="Analyze the subject's behavior (Karakterin davranışını analiz et)..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="q3_theme">THE BALANCE: TECH & NATURE (DENGE: TEKNOLOJİ VE DOĞA)</label>
+                <p style="font-size:0.8em; color:#5d6f7e; margin-top:5px;">Does technology bring hope or threat? (Teknoloji umut mu yoksa tehdit mi getiriyor?)</p>
+                <textarea id="q3_theme" name="q3_theme" rows="4" placeholder="Philosophical entry (Felsefi giriş)..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="q4_creative">ALTERNATE REALITY (ALTERNATİF GERÇEKLİK)</label>
+                <p style="font-size:0.8em; color:#5d6f7e; margin-top:5px;">How would you rewrite the end? (Sonu nasıl yeniden yazardın?)</p>
+                <textarea id="q4_creative" name="q4_creative" rows="2" placeholder="If the thread was woven differently..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>HARMONY INDEX (FİLM PUANI)</label>
+                <input type="range" id="rating" name="rating" min="1" max="10" value="5" oninput="document.getElementById('rating-text').innerText = this.value + ' / 10'">
+                <span class="rating-text" id="rating-text">5 / 10</span>
+            </div>
+
+            <button type="submit" class="submit-btn">TRANSMIT VIA ANSIBLE (GÖNDER)</button>
+
+            <div class="poem-footer">
+                "Truth is a matter of the imagination."
+                <a href="index.html" class="back-link">CLOSE CONNECTION (BAĞLANTIYI KES)</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // --- 1. DİĞER FİLM MANTIĞI ---
+        function toggleOtherFilm() {
+            var selectBox = document.getElementById("film_adi");
+            var otherDiv = document.getElementById("other-film-div");
+            var otherInput = document.getElementById("custom_film_name");
+
+            if (selectBox.value === "Diger") {
+                otherDiv.style.display = "block";
+                otherInput.required = true;
+                otherInput.focus();
+            } else {
+                otherDiv.style.display = "none";
+                otherInput.required = false;
+                otherInput.value = "";
+            }
+        }
+
+        // --- 2. EMAIL GÖNDERME MANTIĞI ---
+        document.getElementById('ekumen-form').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            
+            const btn = document.querySelector('.submit-btn');
+            const originalText = btn.innerText;
+
+            // --- API KODLARINI BURAYA YAPIŞTIR ---
+            const serviceID = "service_dr4528a";  // Senin Service ID'n
+            const templateID = "template_8r4fjth"; // Senin Template ID'n
+            const publicKey = "lFEHmXKnlgaCdot_t"; // Senin Public Key'in
+            // -------------------------------------
+
+            btn.innerText = "ESTABLISHING LINK... (BAĞLANTI KURULUYOR...)";
+            btn.style.letterSpacing = "1px";
+            btn.disabled = true;
+
+            emailjs.sendForm(serviceID, templateID, this, publicKey)
+                .then(function() {
+                    alert("MESSAGE RECEIVED ON HAIN. (MESAJ İLETİLDİ.)");
+                    btn.innerText = "TRANSMISSION ENDED";
+                    setTimeout(() => { 
+                        btn.innerText = originalText; 
+                        btn.disabled = false;
+                    }, 3000);
+                    document.getElementById("ekumen-form").reset();
+                    toggleOtherFilm(); 
+                }, function(error) {
+                    alert("ANSIBLE DISCONNECTED. (HATA: BAĞLANTI KOPTU.)");
+                    console.log(error);
+                    btn.innerText = originalText;
+                    btn.disabled = false;
+                });
+        });
+    </script>
+</body>
+</html>
