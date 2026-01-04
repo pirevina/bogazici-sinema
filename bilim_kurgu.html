@@ -210,9 +210,9 @@
         <form id="ekumen-form">
             
             <div class="form-group">
-                <label for="film_adi">INQUIRY SUBJECT (İNCELEME KONUSU)</label>
+                <label for="film_adi">INQUIRY FİLM (İNCELENEN FİLM)</label>
                 <select id="film_adi" name="film_adi" onchange="toggleOtherFilm()">
-                    <option value="" disabled selected>Select Data Source...</option>
+                    <option value="" disabled selected>Select Film (Filmi Seç)</option>
                     <option value="Marslı">Marslı (The Martian)</option>
                     <option value="Interstellar">Yıldızlararası (Interstellar)</option>
                     <option value="Gattaca">Gattaca</option>
@@ -222,13 +222,13 @@
                 </select>
 
                 <div id="other-film-div">
-                    <input type="text" id="custom_film_name" name="custom_film_name" placeholder="Specify Subject (Konuyu Belirt)...">
+                    <input type="text" id="custom_film_name" name="custom_film_name" placeholder="Specify Film (Filmi Belirt)...">
                 </div>
             </div>
 
             <div class="form-group">
                 <label for="student_name">ENVOY IDENTITY (ELÇİ KİMLİĞİ)</label>
-                <input type="text" id="student_name" name="student_name" placeholder="Genly Ai..." required>
+                <input type="text" id="student_name" name="student_name" placeholder="Murat..." required>
             </div>
 
             <div class="form-group">
@@ -250,7 +250,7 @@
             <div class="form-group">
                 <label for="q4_creative">ALTERNATE REALITY (ALTERNATİF GERÇEKLİK)</label>
                 <p style="font-size:0.8em; color:#5d6f7e; margin-top:5px;">How would you rewrite the end? (Sonu nasıl yeniden yazardın?)</p>
-                <textarea id="q4_creative" name="q4_creative" rows="2" placeholder="If the thread was woven differently..."></textarea>
+                <textarea id="q4_creative" name="q4_creative" rows="2" placeholder="If the thread was woven differently...(Sen nasıl bitirirdin?)"></textarea>
             </div>
 
             <div class="form-group">
@@ -322,4 +322,5 @@
         });
     </script>
 </body>
+
 </html>
