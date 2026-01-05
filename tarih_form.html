@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TARİH FORMU</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* --- THE IMPERIAL STYLE --- */
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'EB Garamond', serif;
+            color: #2c1810; /* Çok Koyu Kahve */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* Arka Plan: Karartılmış Eski Dünya Haritası */
+            background-color: #1a1a1a;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        /* Ana Kart */
+        .imperial-card {
+            width: 100%;
+            max-width: 750px;
+            background: #fdf6e3; /* Eski Kağıt Rengi */
+            /* Kağıt Dokusu */
+            background-image: url("https://www.transparenttextures.com/patterns/cream-paper.png");
+            padding: 70px 60px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+            position: relative;
+            /* İki katmanlı çerçeve efekti */
+            border: 1px solid #d4af37; 
+            outline: 5px solid #2c1810;
+            outline-offset: -15px;
+        }
+
+        /* Köşe Süsleri (CSS ile) */
+        .corner {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border: 2px solid #d4af37; /* Altın */
+            z-index: 2;
+        }
+        .tl { top: 20px; left: 20px; border-right: none; border-bottom: none; }
+        .tr { top: 20px; right: 20px; border-left: none; border-bottom: none; }
+        .bl { bottom: 20px; left: 20px; border-right: none; border-top: none; }
+        .br { bottom: 20px; right: 20px; border-left: none; border-top: none; }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        /* Başlık Altı Çizgisi (Süslü) */
+        .header::after {
+            content: "♦";
+            display: block;
+            margin-top: 15px;
+            font-size: 1.5em;
+            color: #d4af37;
+        }
+
+        h1 {
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 3em;
+            margin: 0;
+            color: #2c1810;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            line-height: 1;
+        }
+
+        .sub-title {
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 0.9em;
+            color: #8b5a2b; /* Bronz */
+            letter-spacing: 4px;
+            margin-top: 10px;
+            font-weight: 700;
+        }
+
+        /* Konfüçyüs Mottosu */
+        .motto-section {
+            text-align: center;
+            margin: 30px auto;
+            padding: 20px;
+            border-top: 1px solid rgba(139, 90, 43, 0.3);
+            border-bottom: 1px solid rgba(139, 90, 43, 0.3);
+            max-width: 90%;
+        }
+        .motto-en {
+            font-size: 1.1em;
+            font-style: italic;
+            color: #2c1810;
+            margin-bottom: 5px;
+        }
+        .motto-tr {
+            font-size: 0.95em;
+            color: #5d4037;
+            margin-bottom: 10px;
+        }
+        .motto-author {
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 0.9em;
+            color: #d4af37; /* Altın */
+            font-weight: 700;
+        }
+
+        /* Form Elemanları */
+        .form-group {
+            margin-bottom: 40px;
+        }
+
+        label {
+            display: block;
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 1.1em;
+            color: #2c1810;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .helper {
+            font-size: 0.95em;
+            color: #6d4c41;
+            margin-bottom: 10px;
+            display: block;
+            font-style: italic;
+        }
+
+        /* Inputlar - Sadece Alt Çizgi (Defter gibi) */
+        input[type="text"], 
+        textarea, 
+        select {
+            width: 100%;
+            background: transparent;
+            border: none;
+            border-bottom: 2px solid #a1887f;
+            padding: 10px 0;
+            color: #000;
+            font-family: 'EB Garamond', serif;
+            font-size: 1.2em;
+            font-weight: 600;
+            transition: 0.3s;
+            border-radius: 0;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            background: rgba(212, 175, 55, 0.05); /* Çok hafif altın sarısı */
+            border-bottom-color: #2c1810;
+        }
+
+        select option { background: #fdf6e3; color: #2c1810; }
+
+        #other-film-div { display: none; margin-top: 15px; }
+
+        /* Slider - Pusula Tarzı */
+        .slider-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 15px 0;
+        }
+        input[type="range"] {
+            flex-grow: 1;
+            height: 2px;
+            background: #a1887f;
+            accent-color: #2c1810;
+            cursor: pointer;
+        }
+        .score-display {
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 2em;
+            color: #2c1810;
+            min-width: 40px;
+            text-align: right;
+        }
+
+        /* Buton - Mühür */
+        .submit-btn {
+            width: 100%;
+            padding: 20px;
+            margin-top: 30px;
+            background-color: #2c1810;
+            color: #d4af37; /* Altın Yazı */
+            border: 2px solid #d4af37;
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 1.3em;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: 0.4s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn:hover {
+            background-color: #d4af37;
+            color: #2c1810;
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);
+        }
+
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #8b5a2b;
+            font-family: 'Cinzel Decorative', cursive;
+        }
+        .footer a { color: #2c1810; text-decoration: none; border-bottom: 1px dotted #2c1810; }
+
+    </style>
+</head>
+<body>
+
+    <div class="imperial-card">
+        <div class="corner tl"></div>
+        <div class="corner tr"></div>
+        <div class="corner bl"></div>
+        <div class="corner br"></div>
+
+        <div class="header">
+            <h1>TARİH FORMU</h1>
+            <div class="sub-title">BOĞAZİCİ KOLEJİ</div>
+        </div>
+
+        <div class="motto-section">
+            <div class="motto-en">"Study the past if you would define the future."</div>
+            <div class="motto-tr">(Geleceği tanımlamak istiyorsan, geçmişi çalış.)</div>
+            <div class="motto-author">— Confucius</div>
+        </div>
+
+        <form id="history-form">
+            
+            <div class="form-group">
+                <label>İncelenen Eser (Subject)</label>
+                <select id="film_adi" name="film_adi" onchange="toggleOtherFilm()">
+                    <option value="" disabled selected>Arşivden bir eser seçiniz...</option>
+                    <option value="War Horse">Savaş Atı (War Horse)</option>
+                    <option value="Hidden Figures">Gizli Sayılar (Hidden Figures)</option>
+                    <option value="Gladiator">Gladyatör (Gladiator)</option>
+                    <option value="October Sky">Ekim Düşü (October Sky)</option>
+                    <option value="Schindlers List">Schindler'in Listesi</option>
+                    <option value="1917">1917</option>
+                    <option value="Dunkirk">Dunkirk</option>
+                    <option value="The Pianist">Piyanist</option>
+                    <option value="Troy">Truva</option>
+                    <option value="Kingdom of Heaven">Cennetin Krallığı</option>
+                    <option value="Imitation Game">Enigma (The Imitation Game)</option>
+                    <option value="Diger">Diğer / Arşiv Dışı (Other)</option>
+                </select>
+                <div id="other-film-div">
+                    <input type="text" id="custom_film_name" name="custom_film_name" placeholder="Eserin tam adını giriniz...">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Araştırmacı (Student Name)</label>
+                <input type="text" id="student_name" name="student_name" placeholder="Adınız Soyadınız" required>
+            </div>
+
+            <div class="form-group">
+                <label>1. Dönem ve Atmosfer (Historical Context)</label>
+                <span class="helper">Film seni o döneme götürebildi mi? Kostüm, dekor ve atmosfer nasıldı?</span>
+                <textarea id="q1_context" name="q1_context" rows="3" placeholder="Gözlemlerini kaydet..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>2. Gerçeklik ve Kurgu (Fact vs Fiction)</label>
+                <span class="helper">Senaryo tarihi gerçeklere sadık mıydı, yoksa kurgusal özgürlük mü kullanılmış?</span>
+                <textarea id="q2_fact" name="q2_fact" rows="3" placeholder="Analiz et..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>3. Liderlik ve Kararlar (Power & Choices)</label>
+                <span class="helper">Karakterlerin zorlu koşullar altında verdiği kararları ve liderlik özelliklerini değerlendir.</span>
+                <textarea id="q3_leadership" name="q3_leadership" rows="3" placeholder="Karakter analizi..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>4. Sebep-Sonuç Zinciri (Cause & Effect)</label>
+                <span class="helper">Olayların birbirini tetikleme şekli mantıklı mıydı? Tarihsel akış nasıldı?</span>
+                <textarea id="q4_cause" name="q4_cause" rows="3" placeholder="Olay örgüsü..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>5. Günümüze Yansıma (Relevance Today)</label>
+                <span class="helper">Bu tarihi olaydan veya hikayeden bugün çıkarmamız gereken ders nedir?</span>
+                <textarea id="q5_relevance" name="q5_relevance" rows="3" placeholder="Dersler ve mesajlar..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>6. Tarihe Not (Key Quote)</label>
+                <input type="text" id="q6_quote" name="q6_quote" placeholder='"Akılda kalan bir replik..."'>
+            </div>
+
+            <div class="form-group">
+                <label>7. Tarihsel Etki Puanı (Impact Score)</label>
+                <div class="slider-wrapper">
+                    <span style="font-size:0.8em; font-family:'Cinzel Decorative';">ZAYIF</span>
+                    <input type="range" id="rating" name="rating" min="1" max="10" value="8" oninput="document.getElementById('score-val').innerText = this.value">
+                    <span style="font-size:0.8em; font-family:'Cinzel Decorative';">GÜÇLÜ</span>
+                    <div class="score-display" id="score-val">8</div>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">KAYDA GEÇİR (SUBMIT)</button>
+
+            <div class="footer">
+                Boğaziçi Koleji Tarih Arşivi &bull; <a href="index.html">Ana Menü</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function toggleOtherFilm() {
+            var selectBox = document.getElementById("film_adi");
+            var otherDiv = document.getElementById("other-film-div");
+            var otherInput = document.getElementById("custom_film_name");
+            if (selectBox.value === "Diger") {
+                otherDiv.style.display = "block"; otherInput.required = true; otherInput.focus();
+            } else {
+                otherDiv.style.display = "none"; otherInput.required = false; otherInput.value = "";
+            }
+        }
+
+        document.getElementById('history-form').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            const btn = document.querySelector('.submit-btn');
+            const originalText = btn.innerText;
+
+            // --- API KODLARINI BURAYA YAPIŞTIR ---
+            const serviceID = "service_dr4528a";  // Senin Service ID'n
+            const templateID = "template_xxxxxxx"; // BURAYA YENİ BİR TEMPLATE ID GEREKECEK!
+            const publicKey = "lFEHmXKnlgaCdot_t"; // Senin Public Key'in
+            // -------------------------------------
+
+            /* HATIRLATMA: EmailJS'de "Tarih Formu" için YENİ BİR ŞABLON oluşturmalı
+               ve o şablonun ID'sini yukarıdaki 'template_xxxxxxx' yerine yazmalısın. */
+
+            btn.innerText = "MÜHÜRLENİYOR...";
+            btn.style.opacity = "0.8";
+            btn.disabled = true;
+
+            emailjs.sendForm(serviceID, templateID, this, publicKey)
+                .then(function() {
+                    alert("TARİH ANALİZİ ARŞİVE EKLENDİ.");
+                    btn.innerText = "KAYDEDİLDİ ✓";
+                    btn.style.backgroundColor = "#fff";
+                    btn.style.color = "#2c1810";
+                    btn.style.borderColor = "#2c1810";
+                    
+                    setTimeout(() => { 
+                        btn.innerText = originalText; 
+                        btn.style.backgroundColor = "#2c1810";
+                        btn.style.color = "#d4af37";
+                        btn.style.borderColor = "#d4af37";
+                        btn.disabled = false;
+                    }, 3000);
+                    document.getElementById("history-form").reset();
+                    toggleOtherFilm(); 
+                }, function(error) {
+                    alert("Arşiv Hatası: Bağlantı kurulamadı.");
+                    console.log(error);
+                    btn.innerText = originalText; 
+                    btn.style.opacity = "1";
+                    btn.disabled = false;
+                });
+        });
+    </script>
+</body>
+</html>

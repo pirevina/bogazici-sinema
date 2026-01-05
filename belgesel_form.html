@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BELGESEL FORMU: TERRA</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&family=Spectral:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* --- TERRA STYLE --- */
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Rubik', sans-serif;
+            color: #4a4a4a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* Arka Plan: Derin Orman Yeşili */
+            background-color: #2f362f;
+            background-image: url("https://www.transparenttextures.com/patterns/black-scales.png"); /* Hafif yaprak dokusu */
+        }
+
+        /* Ana Kart - Organik Kağıt */
+        .terra-card {
+            width: 100%;
+            max-width: 700px;
+            background: #f4f1ea; /* Krem / Eski Kağıt Rengi */
+            border-radius: 12px;
+            padding: 60px 50px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.3);
+            position: relative;
+            border-top: 6px solid #6b8c42; /* Yosun Yeşili Vurgu */
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-family: 'Spectral', serif;
+            font-size: 3em;
+            margin: 0;
+            color: #2c3e28; /* Koyu Yeşil */
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+
+        .sub-title {
+            font-size: 0.9em;
+            color: #798d75;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-top: 10px;
+            font-weight: 500;
+        }
+
+        /* Motto - Toprakla Bağlantı */
+        .motto-box {
+            margin-top: 30px;
+            background: #e9e6dd;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #8d6e63; /* Toprak Rengi */
+            text-align: left;
+        }
+
+        .motto-text {
+            font-family: 'Spectral', serif;
+            font-style: italic;
+            font-size: 1.1em;
+            color: #3e3e3e;
+            line-height: 1.5;
+        }
+        
+        .motto-author {
+            display: block;
+            margin-top: 10px;
+            color: #8d6e63;
+            font-weight: 700;
+            font-size: 0.85em;
+            text-align: right;
+        }
+
+        /* Form Elemanları */
+        .form-group { margin-bottom: 40px; }
+
+        label {
+            display: block;
+            font-family: 'Spectral', serif;
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #2c3e28;
+            margin-bottom: 8px;
+        }
+
+        .helper {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-bottom: 12px;
+            display: block;
+            font-weight: 300;
+        }
+
+        /* Inputlar - Doğal Doku */
+        input[type="text"], textarea, select {
+            width: 100%;
+            background: #fff;
+            border: 2px solid #dcdcdc;
+            padding: 15px;
+            color: #4a4a4a;
+            font-family: 'Rubik', sans-serif;
+            font-size: 1em;
+            transition: 0.3s;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #6b8c42; /* Odaklanınca Yeşil */
+            background: #fafcf9;
+        }
+
+        select option { background: #fff; color: #4a4a4a; }
+        #other-film-div { display: none; margin-top: 15px; }
+
+        /* Slider - Doğa Yürüyüşü */
+        .slider-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 10px 0;
+            background: #e9e6dd;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        input[type="range"] {
+            flex-grow: 1;
+            height: 6px;
+            background: #dcdcdc;
+            accent-color: #6b8c42;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .score-display {
+            font-family: 'Spectral', serif;
+            font-size: 2em;
+            color: #6b8c42;
+            min-width: 40px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        /* Buton - Keşif */
+        .submit-btn {
+            width: 100%;
+            padding: 20px;
+            margin-top: 30px;
+            background: #6b8c42; /* Yeşil */
+            color: #fff;
+            border: none;
+            font-family: 'Rubik', sans-serif;
+            font-weight: 500;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: 0.3s;
+            border-radius: 50px; /* Tam yuvarlak */
+            box-shadow: 0 5px 15px rgba(107, 140, 66, 0.3);
+        }
+
+        .submit-btn:hover {
+            background: #556b2f; /* Koyu Zeytin */
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(85, 107, 47, 0.4);
+        }
+
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 0.85em;
+            color: #95a5a6;
+        }
+        .footer a { color: #6b8c42; text-decoration: none; border-bottom: 1px solid #6b8c42; }
+
+    </style>
+</head>
+<body>
+
+    <div class="terra-card">
+        <div class="header">
+            <h1>YERYÜZÜ</h1>
+            <div class="sub-title">BELGESEL GÖZLEM RAPORU</div>
+            
+            <div class="motto-box">
+                <div class="motto-text">
+                    "No one will protect what they don't care about; and no one will care about what they have never experienced."
+                    <br>
+                    <span style="font-size:0.85em; opacity:0.8; font-style: normal; display:block; margin-top:5px;">
+                        (Kimse umursamadığı şeyi korumaz; ve kimse hiç deneyimlemediği şeyi umursamaz.)
+                    </span>
+                </div>
+                <span class="motto-author">— David Attenborough</span>
+            </div>
+        </div>
+
+        <form id="docu-form">
+            <input type="hidden" name="form_turu" value="BELGESEL RAPORU (TERRA)">
+            <input type="hidden" name="sent_time" id="sent_time">
+
+            <div class="form-group">
+                <label>Gözlemlenen Eser (Subject)</label>
+                <select id="film_adi" name="film_adi" onchange="toggleOtherFilm()">
+                    <option value="" disabled selected>Keşif listesinden seçiniz...</option>
+                    <option value="Cosmos">Cosmos (Bir Uzay Serüveni)</option>
+                    <option value="Planet Earth">Yeryüzü (Planet Earth)</option>
+                    <option value="How centuries of sci-fi sparked spaceflight">(Yüzyıllardır süregelen bilim kurgu, uzay yolculuğunu nasıl ateşledi?)</option>
+                    <option value="Diger">Diğer / Manuel Giriş</option>
+                </select>
+                <div id="other-film-div">
+                    <input type="text" id="custom_film_name" name="custom_film_name" placeholder="Belgesel adını giriniz...">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Gözlemci (Observer)</label>
+                <input type="text" id="student_name" name="student_name" placeholder="Adınız Soyadınız" required>
+            </div>
+
+            <div class="form-group">
+                <label>1. Odak Noktası</label>
+                <span class="helper">Belgeselin ana konusu ve dert edindiği mesele tam olarak nedir?</span>
+                <input type="hidden" name="q1_label" value="1. ODAK NOKTASI (Focus)">
+                <textarea name="q1_answer" rows="3" placeholder="Gözlemini yaz..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>2. Gerçeklik Algısı</label>
+                <span class="helper">Anlatım tarafsız mıydı, yoksa yönlendirici bir bakış açısı mı vardı?</span>
+                <input type="hidden" name="q2_label" value="2. GERÇEKLİK ALGISI (Objectivity)">
+                <textarea name="q2_answer" rows="3" placeholder="Analiz et..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>3. Görsel Kanıt</label>
+                <span class="helper">Kullanılan görüntüler, belgeler veya çekim teknikleri ne kadar ikna ediciydi?</span>
+                <input type="hidden" name="q3_label" value="3. GÖRSEL KANIT (Visual Evidence)">
+                <textarea name="q3_answer" rows="3" placeholder="Görüntüleri değerlendir..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>4. Yeni Keşif</label>
+                <span class="helper">Bu belgeselden daha önce bilmediğin ne öğrendin?</span>
+                <input type="hidden" name="q4_label" value="4. YENİ KEŞİF (Discovery)">
+                <textarea name="q4_answer" rows="3" placeholder="Öğrendiklerin..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>5. Duygusal Bağ</label>
+                <span class="helper">Sadece bilgi mi verdi, yoksa seni duygusal olarak da etkiledi mi?</span>
+                <input type="hidden" name="q5_label" value="5. DUYGUSAL BAĞ (Impact)">
+                <textarea name="q5_answer" rows="3" placeholder="Hissiyat..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>6. Çağrı (Harekete Geç)</label>
+                <span class="helper">Belgesel bittiğinde seni bir konuda değişmeye çağırdı mı?</span>
+                <input type="hidden" name="q6_label" value="6. ÇAĞRI (Call to Action)">
+                <textarea name="q6_answer" rows="3" placeholder="Sonuç..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>7. Kalite Puanı</label>
+                <input type="hidden" name="q7_label" value="7. KALİTE PUANI">
+                <div class="slider-wrapper">
+                    <span style="font-size:0.9em; color:#6b8c42;">🌱</span>
+                    <input type="range" name="rating" min="1" max="10" value="8" oninput="document.getElementById('score-val').innerText = this.value">
+                    <span style="font-size:0.9em; color:#6b8c42;">🌳</span>
+                    <div class="score-display" id="score-val">8</div>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">KAYDI TAMAMLA</button>
+
+            <div class="footer">
+                Boğaziçi Koleji &bull; <a href="index.html">Ana Menü</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function toggleOtherFilm() {
+            var selectBox = document.getElementById("film_adi");
+            var otherDiv = document.getElementById("other-film-div");
+            var otherInput = document.getElementById("custom_film_name");
+            if (selectBox.value === "Diger") {
+                otherDiv.style.display = "block"; otherInput.required = true; otherInput.focus();
+            } else {
+                otherDiv.style.display = "none"; otherInput.required = false; otherInput.value = "";
+            }
+        }
+
+        document.getElementById('docu-form').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            const btn = document.querySelector('.submit-btn');
+            const originalText = btn.innerText;
+
+            document.getElementById('sent_time').value = new Date().toLocaleString();
+
+            // --- API KODLARINI BURAYA YAPIŞTIR ---
+            const serviceID = "service_dr4528a";  // Değişmez
+            const templateID = "template_xxxxxxx"; // *** SÜPER ŞABLON ID'Sİ BURAYA! ***
+            const publicKey = "lFEHmXKnlgaCdot_t"; // Değişmez
+            // -------------------------------------
+
+            btn.innerText = "YÜKLENİYOR...";
+            btn.style.opacity = "0.8";
+            btn.disabled = true;
+
+            emailjs.sendForm(serviceID, templateID, this, publicKey)
+                .then(function() {
+                    alert("GÖZLEM RAPORU KAYDEDİLDİ.");
+                    btn.innerText = "BAŞARILI ✓";
+                    btn.style.background = "#2c3e28";
+                    
+                    setTimeout(() => { 
+                        btn.innerText = originalText; 
+                        btn.style.background = "#6b8c42";
+                        btn.disabled = false;
+                    }, 3000);
+                    document.getElementById("docu-form").reset();
+                    toggleOtherFilm(); 
+                }, function(error) {
+                    alert("Bir hata oluştu.");
+                    console.log(error);
+                    btn.innerText = originalText; 
+                    btn.style.opacity = "1";
+                    btn.disabled = false;
+                });
+        });
+    </script>
+</body>
+</html>

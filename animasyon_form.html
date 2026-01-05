@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANİMASYON FORMU</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* --- THE SKETCHBOOK STYLE --- */
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Patrick Hand', cursive;
+            color: #2d3436;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* Dokulu Sıcak Arka Plan (Kraft Kağıdı Rengi) */
+            background-color: #f3e5ab; /* Pastel Sarı/Krem */
+            background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
+        }
+
+        /* Ana Kart - Defter Sayfası */
+        .sketch-card {
+            width: 100%;
+            max-width: 700px;
+            background: #fff;
+            border-radius: 2px;
+            padding: 60px 50px;
+            box-shadow: 10px 10px 0px rgba(0,0,0,0.1); /* Sert gölge, sticker gibi */
+            position: relative;
+            transform: rotate(-1deg); /* Hafif yamuk, doğal duruş */
+            border: 2px solid #2d3436;
+        }
+
+        /* Bant Efekti (Süs) */
+        .tape {
+            background-color: rgba(255, 255, 255, 0.4);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+            width: 130px;
+            height: 35px;
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%) rotate(2deg);
+            border-left: 2px dashed rgba(0,0,0,0.1);
+            border-right: 2px dashed rgba(0,0,0,0.1);
+            backdrop-filter: blur(2px);
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            border-bottom: 2px dashed #b2bec3;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            font-family: 'Amatic SC', cursive;
+            font-size: 4em; /* Çok büyük ve dikkat çekici */
+            font-weight: 700;
+            margin: 0;
+            color: #ff7675; /* Pastel Kırmızı/Mercan */
+            letter-spacing: 2px;
+            line-height: 0.9;
+        }
+
+        .sub-title {
+            font-size: 1.2em;
+            color: #636e72;
+            margin-top: 5px;
+            font-weight: 400;
+        }
+
+        /* Motto Kutusu - Post-it Gibi */
+        .motto-box {
+            background: #ffeaa7; /* Post-it Sarısı */
+            padding: 20px;
+            margin-top: 20px;
+            transform: rotate(1deg);
+            box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+            font-size: 1.1em;
+            position: relative;
+        }
+        
+        /* Raptiye */
+        .motto-box::before {
+            content: "";
+            width: 12px;
+            height: 12px;
+            background: #d63031;
+            border-radius: 50%;
+            position: absolute;
+            top: -5px;
+            left: 50%;
+            box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .motto-author {
+            display: block;
+            text-align: right;
+            font-weight: 700;
+            color: #e17055;
+            margin-top: 5px;
+            font-family: 'Amatic SC', cursive;
+            font-size: 1.4em;
+        }
+
+        /* Form Elemanları */
+        .form-group { margin-bottom: 35px; }
+
+        label {
+            display: block;
+            font-family: 'Amatic SC', cursive;
+            font-weight: 700;
+            font-size: 2em; /* Soru başlıkları büyük ve el yazısı */
+            color: #2d3436;
+            margin-bottom: 5px;
+            line-height: 1;
+        }
+
+        .helper {
+            font-size: 1em;
+            color: #636e72;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        /* Inputlar - Eskiz Çizgileri */
+        input[type="text"], textarea, select {
+            width: 100%;
+            background: #fdfdfd;
+            border: 2px solid #2d3436;
+            border-radius: 10px 255px 15px 25px / 255px 15px 225px 255px; /* Elle çizilmiş gibi yamukluk */
+            padding: 15px;
+            color: #2d3436;
+            font-family: 'Patrick Hand', cursive;
+            font-size: 1.2em;
+            transition: 0.2s;
+            box-sizing: border-box;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: #ff7675;
+            box-shadow: 2px 2px 0px #ff7675;
+            transform: scale(1.01);
+        }
+
+        select option { background: #fff; color: #2d3436; }
+        #other-film-div { display: none; margin-top: 15px; }
+
+        /* Slider - Karakalem */
+        .slider-wrapper {
+            background: #dfe6e9;
+            padding: 15px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            border: 2px solid #2d3436;
+        }
+        input[type="range"] {
+            flex-grow: 1;
+            height: 4px;
+            background: #636e72;
+            accent-color: #ff7675;
+            cursor: pointer;
+        }
+        .score-display {
+            font-family: 'Amatic SC', cursive;
+            font-size: 3em;
+            color: #ff7675;
+            min-width: 40px;
+            text-align: center;
+            font-weight: 700;
+            line-height: 0.5;
+        }
+
+        /* Buton - Boya Fırçası */
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            margin-top: 30px;
+            background: #2d3436;
+            color: #fff;
+            border: none;
+            font-family: 'Amatic SC', cursive;
+            font-weight: 700;
+            font-size: 2.2em;
+            cursor: pointer;
+            transition: 0.3s;
+            border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px; /* Yamuk şekil */
+            transform: rotate(1deg);
+        }
+
+        .submit-btn:hover {
+            background: #ff7675; /* Mercan Rengi */
+            color: #fff;
+            transform: rotate(-1deg) scale(1.02);
+            box-shadow: 3px 3px 0px #2d3436;
+        }
+
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 1em;
+            color: #b2bec3;
+        }
+        .footer a { color: #636e72; text-decoration: none; border-bottom: 2px dotted #636e72; }
+
+    </style>
+</head>
+<body>
+
+    <div class="sketch-card">
+        <div class="tape"></div> <div class="header">
+            <h1>ANİMASYON FORMU</h1>
+            <div class="sub-title">ANİMASYON & YARATICILIK RAPORU</div>
+            
+            <div class="motto-box">
+                "The creation of a single world comes from a huge number of fragments and chaos."
+                <br>
+                <span style="font-size: 0.9em; opacity: 0.8;">(Tek bir dünyanın yaratılışı, sayısız parça ve kaosun birleşiminden gelir.)</span>
+                <span class="motto-author">— Hayao Miyazaki</span>
+            </div>
+        </div>
+
+        <form id="anim-form">
+            <input type="hidden" name="form_turu" value="ANİMASYON RAPORU">
+            <input type="hidden" name="sent_time" id="sent_time">
+
+            <div class="form-group">
+                <label>1. Hangi Dünya? (Film)</label>
+                <select id="film_adi" name="film_adi" onchange="toggleOtherFilm()">
+                    <option value="" disabled selected>Listeden bir macera seç...</option>
+                    <option value="Spider-Man: Into the Spider-Verse">Örümcek-Adam: Örümcek Evreninde</option>
+                    <option value="Inside Out">Ters Yüz (Inside Out)</option>
+                    <option value="WALL-E">WALL-E</option>
+                    <option value="Koe no Katachi">Sessizliğin Sesi (A Silent Voice)</option>
+                    <option value="Tenku no shiro Rapyuta">Gökteki Kale (Castle in the Sky)</option>
+                    <option value="Diger">Diğer / Manuel Giriş</option>
+                </select>
+                <div id="other-film-div">
+                    <input type="text" id="custom_film_name" name="custom_film_name" placeholder="Filmin adını buraya yaz...">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>2. Gezgin (Öğrenci Adı)</label>
+                <input type="text" id="student_name" name="student_name" placeholder="Adın Soyadın" required>
+            </div>
+
+            <div class="form-group">
+                <label>3. Dünya Tasarımı</label>
+                <span class="helper">Yaratılan evren ne kadar inandırıcıydı? Detaylar nasıldı?</span>
+                <input type="hidden" name="q1_label" value="1. DÜNYA TASARIMI">
+                <textarea name="q1_answer" rows="3" placeholder="Evreni anlat..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>4. Sanat Tarzı (Art Style)</label>
+                <span class="helper">Çizimler, renkler ve görsel dil hakkında ne düşünüyorsun?</span>
+                <input type="hidden" name="q2_label" value="2. SANAT TARZI">
+                <textarea name="q2_answer" rows="3" placeholder="Görsel stili yorumla..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>5. Karakter Canlılığı</label>
+                <span class="helper">Çizgiler nasıl can bulmuş? Duygular geçiyor mu?</span>
+                <input type="hidden" name="q3_label" value="3. KARAKTER CANLILIĞI">
+                <textarea name="q3_answer" rows="3" placeholder="Karakterleri değerlendir..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>6. Hikaye Derinliği</label>
+                <span class="helper">Görüntünün altında sağlam bir hikaye var mıydı?</span>
+                <input type="hidden" name="q4_label" value="4. HİKAYE DERİNLİĞİ">
+                <textarea name="q4_answer" rows="3" placeholder="Hikayeyi yorumla..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>7. Yaratıcı Zirve</label>
+                <span class="helper">"Bunu nasıl düşünmüşler?" dediğin o sahne.</span>
+                <input type="hidden" name="q5_label" value="5. YARATICI ZİRVE">
+                <textarea name="q5_answer" rows="3" placeholder="O sahneyi anlat..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>8. İlham</label>
+                <span class="helper">Bu film sana ne hissettirdi? Hayal gücünü tetikledi mi?</span>
+                <input type="hidden" name="q6_label" value="6. İLHAM">
+                <textarea name="q6_answer" rows="3" placeholder="Duygularını yaz..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>9. Puanın Kaç?</label>
+                <input type="hidden" name="q7_label" value="7. BEĞENİ PUANI">
+                <div class="slider-wrapper">
+                    <span style="font-size:1.2em;">😐</span>
+                    <input type="range" name="rating" min="1" max="10" value="8" oninput="document.getElementById('score-val').innerText = this.value">
+                    <span style="font-size:1.2em;">🤩</span>
+                    <div class="score-display" id="score-val">8</div>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">KAYDET VE GÖNDER 🎨</button>
+
+            <div class="footer">
+                Boğaziçi Koleji Film Platformu &bull; <a href="index.html">Çıkış</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function toggleOtherFilm() {
+            var selectBox = document.getElementById("film_adi");
+            var otherDiv = document.getElementById("other-film-div");
+            var otherInput = document.getElementById("custom_film_name");
+            if (selectBox.value === "Diger") {
+                otherDiv.style.display = "block"; otherInput.required = true; otherInput.focus();
+            } else {
+                otherDiv.style.display = "none"; otherInput.required = false; otherInput.value = "";
+            }
+        }
+
+        document.getElementById('anim-form').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            const btn = document.querySelector('.submit-btn');
+            const originalText = btn.innerText;
+
+            document.getElementById('sent_time').value = new Date().toLocaleString();
+
+            // --- API KODLARINI BURAYA YAPIŞTIR ---
+            const serviceID = "service_dr4528a";  // Değişmez
+            const templateID = "template_sfxvdzn"; // *** şablon***
+            const publicKey = "lFEHmXKnlgaCdot_t"; // Değişmez
+            // -------------------------------------
+
+            btn.innerText = "Çiziliyor... ✏️";
+            btn.style.opacity = "0.7";
+            btn.disabled = true;
+
+            emailjs.sendForm(serviceID, templateID, this, publicKey)
+                .then(function() {
+                    alert("ANİMASYON DEĞERLENDİRMESİ ALINDI!");
+                    btn.innerText = "TAMAMLANDI! ✨";
+                    btn.style.background = "#00b894";
+                    
+                    setTimeout(() => { 
+                        btn.innerText = originalText; 
+                        btn.style.background = "#2d3436";
+                        btn.disabled = false;
+                    }, 3000);
+                    document.getElementById("anim-form").reset();
+                    toggleOtherFilm(); 
+                }, function(error) {
+                    alert("Bir hata oluştu.");
+                    console.log(error);
+                    btn.innerText = originalText; 
+                    btn.style.opacity = "1";
+                    btn.disabled = false;
+                });
+        });
+    </script>
+</body>
+</html>
