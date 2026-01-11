@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANTASTİK: RIVENDELL</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* --- RIVENDELL STYLE --- */
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Cormorant Garamond', serif;
+            color: #dcdde1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* Arka Plan: Büyülü Orman Yeşili */
+            background-color: #0c2d1c; 
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(255, 215, 0, 0.1) 0%, transparent 20%),
+                radial-gradient(circle at 90% 80%, rgba(255, 215, 0, 0.1) 0%, transparent 20%);
+            background-attachment: fixed;
+        }
+
+        /* Sarmaşık Deseni (Arka Plan Süsü) */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background-image: url("https://www.transparenttextures.com/patterns/floral-linen.png");
+            opacity: 0.1;
+            z-index: -1;
+        }
+
+        /* Ana Kart - Elf Parşömeni */
+        .elf-card {
+            width: 100%;
+            max-width: 700px;
+            background: rgba(18, 50, 35, 0.85); /* Koyu Zümrüt Şeffaf */
+            border: 1px solid #c8b273; /* Soluk Altın */
+            border-radius: 30px 0 30px 0; /* Yaprak Formu */
+            padding: 70px 60px;
+            box-shadow: 0 0 40px rgba(200, 178, 115, 0.15);
+            position: relative;
+            backdrop-filter: blur(5px);
+        }
+
+        /* İç Çerçeve Süsü */
+        .elf-card::after {
+            content: "";
+            position: absolute;
+            top: 15px; left: 15px; right: 15px; bottom: 15px;
+            border: 1px solid rgba(200, 178, 115, 0.3);
+            border-radius: 25px 0 25px 0;
+            pointer-events: none;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        h1 {
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 3.2em;
+            margin: 0;
+            color: #f1e4c3; /* İnci Beyazı */
+            text-shadow: 0 0 10px rgba(241, 228, 195, 0.3);
+            font-weight: 400;
+        }
+
+        .sub-title {
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 1em;
+            color: #c8b273; /* Altın */
+            letter-spacing: 3px;
+            margin-top: 10px;
+            font-weight: 700;
+        }
+
+        /* Motto - Masalsı */
+        .motto-box {
+            margin-top: 25px;
+            font-style: italic;
+            color: #a8d5ba; /* Soluk Yeşil */
+            font-size: 1.2em;
+            text-align: center;
+            line-height: 1.6;
+        }
+        .motto-author {
+            display: block;
+            margin-top: 8px;
+            color: #c8b273;
+            font-size: 0.85em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-style: normal;
+        }
+
+        /* Form Elemanları */
+        .form-group { margin-bottom: 45px; }
+
+        label {
+            display: block;
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 1.3em;
+            color: #fff;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+
+        .helper {
+            font-size: 1.1em;
+            color: #8da696;
+            margin-bottom: 10px;
+            display: block;
+            font-style: italic;
+        }
+
+        /* Inputlar - Zarif Çizgiler */
+        input[type="text"], textarea, select {
+            width: 100%;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid rgba(200, 178, 115, 0.4);
+            padding: 10px 0;
+            color: #f1e4c3;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5em; /* Büyük ve okunaklı */
+            font-style: italic;
+            transition: 0.4s;
+            border-radius: 0;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-bottom-color: #c8b273;
+            background: linear-gradient(to top, rgba(200, 178, 115, 0.1), transparent);
+        }
+
+        select option { background: #0c2d1c; color: #f1e4c3; }
+        #other-film-div { display: none; margin-top: 20px; }
+
+        /* Slider - Altın İplik */
+        .slider-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 15px 0;
+        }
+        input[type="range"] {
+            flex-grow: 1;
+            height: 2px;
+            background: rgba(200, 178, 115, 0.3);
+            accent-color: #c8b273;
+            cursor: pointer;
+        }
+        .score-display {
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 2.2em;
+            color: #c8b273;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        /* Buton - Elf Mührü */
+        .submit-btn {
+            width: 100%;
+            padding: 20px;
+            margin-top: 30px;
+            background: transparent;
+            color: #c8b273;
+            border: 1px solid #c8b273;
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 1.3em;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: 0.5s;
+            border-radius: 50px; /* Tam yuvarlak kenarlar */
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn:hover {
+            background: rgba(200, 178, 115, 0.1);
+            box-shadow: 0 0 25px rgba(200, 178, 115, 0.4);
+            letter-spacing: 4px;
+        }
+
+        .footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #6a8575;
+            font-family: 'Cinzel Decorative', cursive;
+        }
+        .footer a { color: #c8b273; text-decoration: none; border-bottom: 1px dotted #c8b273; }
+
+    </style>
+</head>
+<body>
+
+    <div class="elf-card">
+        <div class="header">
+            <h1>FANTASTİK</h1>
+            <div class="sub-title">ELENDIL ARŞİVLERİ</div>
+            
+            <div class="motto-box">
+                "Not all those who wander are lost."
+                <div style="font-size:0.85em; margin-top:5px; opacity:0.8; font-style:normal;">(Her gezgin kaybolmuş değildir.)</div>
+                <span class="motto-author">— J.R.R. Tolkien</span>
+            </div>
+        </div>
+
+        <form id="fantasy-form">
+            <input type="hidden" name="form_turu" value="FANTASTİK FİLM RAPORU (RIVENDELL)">
+            <input type="hidden" name="sent_time" id="sent_time">
+
+            <div class="form-group">
+                <label>Efsane (The Tale)</label>
+                <select id="film_adi" name="film_adi" onchange="toggleOtherFilm()">
+                    <option value="" disabled selected>Kadim eserlerden seç...</option>
+                    <option value="Lord of the Rings">Yüzüklerin Efendisi (Seri)</option>
+                    <option value="Harry Potter">Harry Potter (Seri)</option>
+                    <option value="The Hobbit">Hobbit (Seri)</option>
+                    <option value="Pan's Labyrinth">Pan'ın Labirenti</option>
+                    <option value="Spirited Away">Ruhların Kaçışı</option>
+                    <option value="Chronicles of Narnia">Narnia Günlükleri</option>
+                    <option value="Stardust">Yıldız Tozu</option>
+                    <option value="Doctor Strange">Doktor Strange</option>
+                    <option value="Diger">Diğer / Bilinmeyen Diyarlar</option>
+                </select>
+                <div id="other-film-div">
+                    <input type="text" id="custom_film_name" name="custom_film_name" placeholder="Eserin adını fısılda...">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>Yolcu (Traveler)</label>
+                <input type="text" id="student_name" name="student_name" placeholder="Adınız..." required>
+            </div>
+
+            <div class="form-group">
+                <label>1. Mitoloji (The Lore)</label>
+                <span class="helper">Bu dünyanın kuralları, tarihi ve atmosferi nasıldı? Seni inandırdı mı?</span>
+                <input type="hidden" name="q1_label" value="1. MİTOLOJİ (The Lore)">
+                <textarea name="q1_answer" rows="3" placeholder="Dünyayı tasvir et..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>2. Yolculuk (The Journey)</label>
+                <span class="helper">Kahraman, sıradan dünyasından çıkıp nasıl değişti?</span>
+                <input type="hidden" name="q2_label" value="2. YOLCULUK (The Journey)">
+                <textarea name="q2_answer" rows="3" placeholder="Değişimi yaz..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>3. Büyü ve Güç (Magic)</label>
+                <span class="helper">Büyü veya süper güçlerin kullanımı mantıklı mıydı? Bedeli neydi?</span>
+                <input type="hidden" name="q3_label" value="3. BÜYÜ VE GÜÇ (Magic)">
+                <textarea name="q3_answer" rows="3" placeholder="Güç dengesini değerlendir..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>4. Gölge (The Shadow)</label>
+                <span class="helper">Kötülük neyi temsil ediyordu? Sadece "kötü" müydü, yoksa bir anlamı var mıydı?</span>
+                <input type="hidden" name="q4_label" value="4. GÖLGE (The Shadow)">
+                <textarea name="q4_answer" rows="3" placeholder="Karanlığı analiz et..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>5. Görsel Büyü (Visuals)</label>
+                <span class="helper">Efektler, kostümler ve yaratık tasarımları hayal gücünü tetikledi mi?</span>
+                <input type="hidden" name="q5_label" value="5. GÖRSEL BÜYÜ (Visuals)">
+                <textarea name="q5_answer" rows="3" placeholder="Görselliği yorumla..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>6. Kıssadan Hisse (Wisdom)</label>
+                <span class="helper">Bütün bu büyülerin altında yatan insanlık dersi neydi?</span>
+                <input type="hidden" name="q6_label" value="6. KISSADAN HİSSE (Wisdom)">
+                <textarea name="q6_answer" rows="3" placeholder="Mesajı çıkar..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>7. Efsane Puanı</label>
+                <input type="hidden" name="q7_label" value="7. EFSANE PUANI">
+                <div class="slider-wrapper">
+                    <span style="font-size:1.2em; color:#c8b273;">✦</span>
+                    <input type="range" name="rating" min="1" max="10" value="8" oninput="document.getElementById('score-val').innerText = this.value">
+                    <span style="font-size:1.2em; color:#c8b273;">✦</span>
+                    <div class="score-display" id="score-val">8</div>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">KAYDI MÜHÜRLE</button>
+
+            <div class="footer">
+                Boğaziçi Koleji &bull; <a href="index.html">Geri Dön</a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function toggleOtherFilm() {
+            var selectBox = document.getElementById("film_adi");
+            var otherDiv = document.getElementById("other-film-div");
+            var otherInput = document.getElementById("custom_film_name");
+            if (selectBox.value === "Diger") {
+                otherDiv.style.display = "block"; otherInput.required = true; otherInput.focus();
+            } else {
+                otherDiv.style.display = "none"; otherInput.required = false; otherInput.value = "";
+            }
+        }
+
+        document.getElementById('fantasy-form').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+            const btn = document.querySelector('.submit-btn');
+            const originalText = btn.innerText;
+
+            document.getElementById('sent_time').value = new Date().toLocaleString();
+
+            // --- API KODLARINI BURAYA YAPIŞTIR ---
+            const serviceID = "service_dr4528a";  // Değişmez
+            const templateID = "template_sfxvdzn"; // *** SÜPER ŞABLON ID***
+            const publicKey = "lFEHmXKnlgaCdot_t"; // Değişmez
+            // -------------------------------------
+
+            btn.innerText = "PARŞÖMENE İŞLENİYOR...";
+            btn.style.opacity = "0.8";
+            btn.disabled = true;
+
+            emailjs.sendForm(serviceID, templateID, this, publicKey)
+                .then(function() {
+                    alert("EFSANE KAYDEDİLDİ ✨");
+                    btn.innerText = "BAŞARILI ✓";
+                    btn.style.borderColor = "#fff";
+                    btn.style.color = "#fff";
+                    
+                    setTimeout(() => { 
+                        btn.innerText = originalText; 
+                        btn.style.borderColor = "#c8b273";
+                        btn.style.color = "#c8b273";
+                        btn.disabled = false;
+                    }, 3000);
+                    document.getElementById("fantasy-form").reset();
+                    toggleOtherFilm(); 
+                }, function(error) {
+                    alert("HATA OLUŞTU.");
+                    console.log(error);
+                    btn.innerText = originalText; 
+                    btn.style.opacity = "1";
+                    btn.disabled = false;
+                });
+        });
+    </script>
+</body>
+</html>
