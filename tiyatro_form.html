@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiyatro Eleştirmenliği Formu</title>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* CSS Kodların Aynen Korundu */
+        :root {
+            --curtain-red: #8a1c1c;
+            --paper-cream: #f9f7f1;
+            --ink-black: #2b2b2b;
+            --gold-accent: #d4af37;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            background-color: #1a1a1a;
+            font-family: 'Lato', sans-serif;
+            color: var(--ink-black);
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .playbill-container {
+            background-color: var(--paper-cream);
+            width: 100%;
+            max-width: 800px;
+            box-shadow: 0 0 50px rgba(0,0,0,0.5);
+            position: relative;
+            border-top: 8px solid var(--curtain-red);
+            border-bottom: 8px solid var(--curtain-red);
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 40px 20px 40px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header h1 {
+            font-family: 'Merriweather', serif;
+            font-size: 32px;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--curtain-red);
+        }
+
+        .header .sub-title {
+            font-style: italic;
+            color: #666;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .drama-masks {
+            font-size: 40px;
+            margin-bottom: 10px;
+            display: block;
+            color: var(--ink-black);
+        }
+
+        .form-content {
+            padding: 40px;
+        }
+
+        .form-group {
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            font-family: 'Merriweather', serif;
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: var(--ink-black);
+            border-left: 4px solid var(--gold-accent);
+            padding-left: 10px;
+        }
+
+        .hint {
+            font-size: 13px;
+            color: #777;
+            margin-bottom: 8px;
+            font-style: italic;
+        }
+
+        input[type="text"], textarea, select {
+            width: 100%;
+            padding: 12px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            font-family: 'Lato', sans-serif;
+            font-size: 15px;
+            transition: 0.3s;
+            box-sizing: border-box;
+        }
+
+        input[type="text"]:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: var(--curtain-red);
+            box-shadow: 0 0 8px rgba(138, 28, 28, 0.1);
+        }
+
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+        .col { flex: 1; }
+
+        .rating-section {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+
+        .stars {
+            display: inline-flex;
+            flex-direction: row-reverse;
+            font-size: 30px;
+        }
+        .stars input { display: none; }
+        .stars label {
+            color: #ccc;
+            cursor: pointer;
+            padding: 0 5px;
+            transition: color 0.2s;
+        }
+        .stars input:checked ~ label,
+        .stars label:hover,
+        .stars label:hover ~ label {
+            color: var(--curtain-red);
+        }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            background-color: var(--curtain-red);
+            color: #fff;
+            border: none;
+            font-family: 'Merriweather', serif;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 20px;
+        }
+
+        .submit-btn:hover {
+            background-color: #600f0f;
+        }
+
+        @media (max-width: 600px) {
+            .row { flex-direction: column; gap: 0; }
+            .col { margin-bottom: 20px; }
+            .form-content { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="playbill-container">
+        <div class="header">
+            <span class="drama-masks">🎭</span>
+            <h1>Tiyatro Değerlendirme</h1>
+            <p class="sub-title">Boğaziçi Koleji Kültür Sanat Etkinlikleri</p>
+        </div>
+
+        <form id="tiyatro-form" class="form-content">
+            
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label>Öğrenci Adı Soyadı</label>
+                        <input type="text" name="ogrenci_adi" required>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label>İzlenen Oyunun Adı</label>
+                        <input type="text" name="oyun_adi" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>1. Oyunun Metni ve Akışı</label>
+                <div class="hint">Oyunun konusu neydi? Hikaye akışı sizi içine çekti mi yoksa kopukluklar var mıydı?</div>
+                <textarea name="metin_akisi" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>2. Oyunculuk Performansları</label>
+                <div class="hint">Karakterler inandırıcı mıydı? Beden dili, ses kullanımı ve diksiyon açısından en beğendiğiniz oyuncu kimdi?</div>
+                <textarea name="oyunculuk" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>3. Dekor, Kostüm ve Işık</label>
+                <div class="hint">Sahne tasarımı oyunun atmosferini yansıtıyor muydu? Işık ve müzik kullanımı duygu geçişlerine nasıl hizmet etti?</div>
+                <textarea name="dekor_kostum" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>4. Reji (Yönetim) Tercihleri</label>
+                <div class="hint">Sahneleme klasik miydi yoksa modern/deneysel ögeler var mıydı? Yönetmenin sahne trafiğini nasıl buldunuz?</div>
+                <textarea name="reji" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>5. Oyunun Temel İletisi</label>
+                <div class="hint">Sizce yazar/yönetmen seyirciye ne söylemek istedi? Bu oyundan cebinizde hangi düşünceyle çıktınız?</div>
+                <textarea name="ana_fikir" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>6. Kişisel Eleştiriniz</label>
+                <div class="hint">Oyunun en güçlü ve en zayıf bulduğunuz yönleri nelerdi? Neyi değiştirmek isterdiniz?</div>
+                <textarea name="kisisel_elestiri" rows="3"></textarea>
+            </div>
+
+            <div class="rating-section">
+                <label style="border:none; text-align:center;">GENEL DEĞERLENDİRME</label>
+                <div class="stars">
+                    <input type="radio" name="puan" id="s5" value="5"><label for="s5">★</label>
+                    <input type="radio" name="puan" id="s4" value="4"><label for="s4">★</label>
+                    <input type="radio" name="puan" id="s3" value="3"><label for="s3">★</label>
+                    <input type="radio" name="puan" id="s2" value="2"><label for="s2">★</label>
+                    <input type="radio" name="puan" id="s1" value="1"><label for="s1">★</label>
+                </div>
+                <button type="submit" class="submit-btn">Değerlendirmeyi Teslim Et</button>
+            </div>
+
+        </form>
+    </div>
+
+    <script>
+        // Form gönderildiğinde çalışacak kod
+        document.getElementById('tiyatro-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Sayfanın yenilenmesini engeller
+
+            // Butonun yazısını değiştir (Gönderiliyor...)
+            const btn = document.querySelector('.submit-btn');
+            const originalText = btn.innerText;
+            btn.innerText = 'Rapor Teslim Ediliyor...';
+
+            // --- BURAYI DOLDURACAKSIN ---
+            const serviceID = 'service_dr4528a';
+            const templateID = 'template_sfxvdzn';
+            const publicKey = 'lFEHmXKnlgaCdot_t';
+            // ----------------------------
+
+            emailjs.sendForm(serviceID, templateID, this, publicKey)
+                .then(function() {
+                    alert('Rapor başarıyla teslim edildi! Teşekkürler.');
+                    btn.innerText = originalText;
+                    document.getElementById("tiyatro-form").reset(); // Formu temizle
+                }, function(error) {
+                    alert('Hata oluştu! Rapor gönderilemedi.');
+                    console.log('FAILED...', error);
+                    btn.innerText = originalText;
+                });
+        });
+    </script>
+
+</body>
+</html>
