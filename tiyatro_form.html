@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiyatro Günlüğü</title>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500;1,600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --paper: #f3e5d0; /* Eski Kağıt Rengi */
+            --ink: #2b2b2b;   /* Yumuşak Siyah */
+            --accent: #800020; /* Bordo / Vişne Çürüğü */
+            --gold: #c5a059;
+        }
+
+        body {
+            background-color: #2c2c2c;
+            /* Ahşap zemin hissi veren arka plan */
+            background-image: repeating-linear-gradient(45deg, #2c2c2c 0, #2c2c2c 2px, #363636 2px, #363636 10px);
+            margin: 0;
+            padding: 40px 20px;
+            font-family: 'Cormorant Garamond', serif;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .ticket-container {
+            width: 100%;
+            max-width: 700px;
+            background-color: var(--paper);
+            /* Eski kağıt dokusu */
+            background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23800020' fill-opacity='0.03'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z'/%3E%3C/g%3E%3C/svg%3E");
+            
+            position: relative;
+            padding: 50px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            
+            /* Bilet gibi tırtıklı kenar efekti (Masking ile) */
+            mask-image: radial-gradient(circle at 10px 50%, transparent 10px, black 11px);
+            mask-position: -10px 0;
+            mask-size: 100% 30px;
+            
+            border-left: 5px solid var(--accent);
+            border-right: 5px solid var(--accent);
+        }
+
+        /* Başlık Alanı */
+        .header {
+            text-align: center;
+            border-bottom: 2px dashed var(--accent);
+            padding-bottom: 30px;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-family: 'Abril Fatface', cursive;
+            font-size: 3em;
+            color: var(--accent);
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            font-style: italic;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .ticket-no {
+            display: inline-block;
+            background: var(--accent);
+            color: var(--paper);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            transform: rotate(-2deg);
+        }
+
+        /* Form Elemanları */
+        .form-group {
+            margin-bottom: 35px;
+        }
+
+        label {
+            display: block;
+            color: var(--ink);
+            font-weight: 700;
+            font-size: 1.3em;
+            margin-bottom: 8px;
+            border-left: 4px solid var(--gold);
+            padding-left: 10px;
+        }
+
+        .hint {
+            display: block;
+            font-size: 0.95em;
+            color: #666;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        /* O SEVDİĞİN INPUT STİLİ (Sıcak Versiyon) */
+        input[type="text"], textarea, select {
+            width: 100%;
+            background: transparent;
+            border: none;
+            /* Alt çizgi: Bordo */
+            border-bottom: 2px solid rgba(128, 0, 32, 0.3);
+            color: var(--ink);
+            padding: 10px 5px;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 1.5em; /* Büyük ve şık */
+            font-weight: 600;
+            font-style: italic;
+            transition: 0.4s;
+            box-sizing: border-box;
+        }
+
+        /* Focus: Altın Rengi Parlama */
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-bottom-color: var(--accent);
+            background: rgba(128, 0, 32, 0.03);
+        }
+
+        textarea {
+            resize: vertical;
+            line-height: 1.4;
+        }
+
+        /* Puanlama (Yıldızlar) */
+        .rating-wrapper {
+            text-align: center;
+            background: rgba(197, 160, 89, 0.1);
+            border: 1px solid var(--gold);
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        .stars {
+            display: inline-flex;
+            flex-direction: row-reverse;
+            gap: 10px;
+        }
+        
+        .stars input { display: none; }
+        
+        .stars label {
+            font-size: 40px;
+            color: #ccc; /* Pasif renk */
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        /* Aktif Yıldız: Altın ve Bordo Karışımı */
+        .stars input:checked ~ label,
+        .stars label:hover,
+        .stars label:hover ~ label {
+            color: var(--gold);
+            text-shadow: 0 0 5px var(--accent);
+        }
+
+        /* Buton */
+        .submit-btn {
+            width: 100%;
+            padding: 20px;
+            background-color: var(--accent);
+            color: var(--paper);
+            border: none;
+            font-family: 'Abril Fatface', cursive;
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%); /* Hafif yamuk şekil */
+        }
+
+        .submit-btn:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 20px rgba(128, 0, 32, 0.4);
+            background-color: #600018;
+        }
+
+        @media (max-width: 600px) {
+            .ticket-container { padding: 30px 20px; width: 95%; }
+            .header h1 { font-size: 2.2em; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="ticket-container">
+        
+        <div class="header">
+            <span class="ticket-no">NO: 00145</span>
+            <h1>Sahne Arkası</h1>
+            <p>Bütün Dünya bir sahnedir.</p>
+        </div>
+
+        <form id="vintage-theater-form">
+            
+            <div class="form-group">
+                <label>Eleştirmen Adı</label>
+                <input type="text" name="ogrenci_adi" placeholder="İsminiz..." required>
+            </div>
+
+            <div class="form-group">
+                <label>İzlenen Oyun</label>
+                <input type="text" name="oyun_adi" placeholder="Oyunun adı..." required>
+            </div>
+
+            <div class="form-group">
+                <label>I. Hikaye ve Kurgu</label>
+                <span class="hint">Oyunun akışı nasıldı? Hikaye seni içine çekebildi mi?</span>
+                <textarea name="metin_akisi" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>II. Oyunculuklar</label>
+                <span class="hint">Karakterler inandırıcı mıydı? Beden dili ve ses kullanımı nasıldı?</span>
+                <textarea name="oyunculuk" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>III. Atmosfer (Dekor & Işık)</label>
+                <span class="hint">Sahne tasarımı oyunun ruhunu yansıtıyor muydu?</span>
+                <textarea name="dekor_kostum" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>IV. Yönetmen Bakışı</label>
+                <span class="hint">Sahne geçişleri ve yönetmenin yorumunu nasıl buldun?</span>
+                <textarea name="reji" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>V. Akılda Kalanlar (Ana Fikir)</label>
+                <span class="hint">Perde kapandığında aklında hangi düşünce kaldı?</span>
+                <textarea name="ana_fikir" rows="3"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label style="text-align:center; border:none; color:var(--accent);">Genel Beğeni</label>
+                <div class="rating-wrapper">
+                    <div class="stars">
+                        <input type="radio" name="puan" id="s5" value="5"><label for="s5">★</label>
+                        <input type="radio" name="puan" id="s4" value="4"><label for="s4">★</label>
+                        <input type="radio" name="puan" id="s3" value="3"><label for="s3">★</label>
+                        <input type="radio" name="puan" id="s2" value="2"><label for="s2">★</label>
+                        <input type="radio" name="puan" id="s1" value="1"><label for="s1">★</label>
+                    </div>
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">Kayıtları Gönder</button>
+
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('vintage-theater-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const btn = document.querySelector('.submit-btn');
+            const originalText = btn.innerText;
+            btn.innerText = 'Postalanıyor...';
+            btn.style.opacity = '0.8';
+
+            // --- KENDİ KODLARINI BURAYA YAZ ---
+            const serviceID = 'SERVICE_ID_BURAYA';
+            const templateID = 'TEMPLATE_ID_BURAYA';
+            const publicKey = 'PUBLIC_KEY_BURAYA';
+            // ----------------------------------
+
+            emailjs.sendForm(serviceID, templateID, this, publicKey)
+                .then(function() {
+                    alert('Harika! Eleştirin başarıyla kaydedildi.');
+                    btn.innerText = originalText;
+                    btn.style.opacity = '1';
+                    document.getElementById("vintage-theater-form").reset();
+                }, function(error) {
+                    alert('Eyvah! Bir sorun çıktı.');
+                    console.log('FAILED...', error);
+                    btn.innerText = originalText;
+                    btn.style.opacity = '1';
+                });
+        });
+    </script>
+
+</body>
+</html>
