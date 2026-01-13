@@ -28,10 +28,11 @@
             --trailer-color: #c0392b; 
             --beta-color: #e74c3c;
             --dublaj-color: #f1c40f;
-            --bookmark-color: #f1c40f; /* Favori Rengi */
+            --bookmark-color: #f1c40f; 
             --progress-bg: #e0e0e0;
             --progress-fill: linear-gradient(90deg, #2980b9, #2ecc71);
             --report-color: #e67e22;
+            --time-color: #e67e22; /* Yeni Süre Rengi */
         }
         
         [data-theme="dark"] { 
@@ -95,6 +96,30 @@
         
         @keyframes softFadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
         @keyframes softFadeOut { from { opacity: 1; transform: translateY(0); } to { opacity: 0; transform: translateY(-20px); } }
+
+        /* --- KALDIĞIN YERDEN DEVAM ET POPUP --- */
+        #resume-toast {
+            position: fixed; bottom: 30px; left: 30px; z-index: 10002;
+            background: var(--bg-card); border-left: 5px solid var(--accent);
+            padding: 15px 25px; border-radius: 12px;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            display: none; align-items: center; gap: 15px;
+            animation: slideInLeft 0.5s ease-out forwards;
+            max-width: 350px;
+        }
+        @keyframes slideInLeft { from { opacity: 0; transform: translateX(-50px); } to { opacity: 1; transform: translateX(0); } }
+        .resume-content { display: flex; flex-direction: column; gap: 5px; }
+        .resume-title { font-size: 0.85rem; color: var(--text-sec); font-weight: bold; text-transform: uppercase; }
+        .resume-movie { font-weight: bold; font-size: 1rem; color: var(--text-main); }
+        .resume-btn {
+            background: var(--accent); color: white; border: none;
+            padding: 8px 15px; border-radius: 20px; font-weight: bold;
+            cursor: pointer; transition: 0.3s; font-size: 0.8rem;
+            display: flex; align-items: center; gap: 5px;
+        }
+        .resume-btn:hover { transform: scale(1.05); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+        .resume-close { background: none; border: none; color: var(--text-sec); cursor: pointer; font-size: 1.2rem; transition: 0.2s; }
+        .resume-close:hover { color: var(--beta-color); transform: scale(1.2); }
 
         /* LOADER */
         #loader-screen {
@@ -165,8 +190,10 @@
             border-radius: 20px; border: 1px solid var(--border-color);
             display: flex; align-items: center; justify-content: space-between;
             box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            gap: 20px;
         }
-        .user-level { display: flex; align-items: center; gap: 15px; }
+        .stat-box { display: flex; align-items: center; gap: 15px; }
+        
         .level-badge {
             font-size: 2rem; background: var(--bg-main);
             width: 60px; height: 60px; border-radius: 50%;
@@ -175,7 +202,16 @@
         }
         .level-info h4 { margin: 0; font-size: 0.9rem; color: var(--text-sec); text-transform: uppercase; }
         .level-info h2 { margin: 5px 0 0 0; font-size: 1.4rem; color: var(--text-main); font-weight: 900; }
-        .progress-area { flex-grow: 1; margin: 0 40px; }
+        
+        /* --- YENİ SÜRE KUTUSU --- */
+        .time-badge {
+            font-size: 1.8rem; background: var(--bg-main);
+            width: 60px; height: 60px; border-radius: 50%;
+            display: flex; justify-content: center; align-items: center;
+            border: 2px solid var(--time-color); color: var(--time-color);
+        }
+
+        .progress-area { flex-grow: 1; margin: 0 20px; }
         .progress-text { display: flex; justify-content: space-between; margin-bottom: 5px; font-size: 0.9rem; font-weight: bold; color: var(--text-sec); }
         .progress-track { width: 100%; height: 10px; background: var(--progress-bg); border-radius: 10px; overflow: hidden; }
         .progress-bar { height: 100%; width: 0%; background: var(--progress-fill); transition: width 0.5s ease-out; }
@@ -286,11 +322,25 @@
             cursor: pointer; transition: all 0.3s ease;
             display: flex; align-items: center; gap: 8px;
             text-decoration: none; box-shadow: 0 4px 10px rgba(230, 126, 34, 0.3);
-            margin-left: 10px; align-self: center;
         }
         .report-btn:hover { transform: translateY(-2px) scale(1.05); box-shadow: 0 6px 15px rgba(230, 126, 34, 0.5); }
         .report-btn i { animation: shake 2s infinite; }
         @keyframes shake { 0%, 100% { transform: rotate(0deg); } 10%, 30% { transform: rotate(-10deg); } 20%, 40% { transform: rotate(10deg); } 50% { transform: rotate(0deg); } }
+
+        /* --- YENİ İNDİRME BUTONU CSS --- */
+        .download-btn {
+            background: linear-gradient(135deg, #3498db, #2980b9);
+            color: white; border: none; padding: 8px 16px;
+            font-size: 0.85rem; font-weight: 600; border-radius: 20px;
+            cursor: pointer; transition: all 0.3s ease;
+            display: flex; align-items: center; gap: 8px;
+            text-decoration: none; box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+        }
+        .download-btn:hover { transform: translateY(-2px) scale(1.05); box-shadow: 0 6px 15px rgba(52, 152, 219, 0.5); background: linear-gradient(135deg, #2980b9, #3498db); }
+        
+        .action-btns {
+            display: flex; gap: 10px; align-items: center;
+        }
 
         /* MODAL & SITEMAP */
         .modal { display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.85); justify-content: center; align-items: center; padding: 20px; box-sizing: border-box; backdrop-filter: blur(5px); }
@@ -356,15 +406,60 @@
             .stats-container { flex-direction: column; text-align: center; gap: 20px; padding: 20px; width: 90%; }
             .user-level { justify-content: center; }
             .progress-area { width: 100%; margin: 0; }
-            .report-btn { margin-left: 0; margin-top: 10px; width: 100%; justify-content: center; }
+            .report-btn { margin-left: 0; margin-top: 0; width: 100%; justify-content: center; }
+            .download-btn { width: 100%; justify-content: center; }
+            .action-btns { width: 100%; flex-direction: column; margin-top: 10px; }
             .left-controls { justify-content: center; width: 100%; }
             .eval-button { width: 100%; justify-content: center; margin-bottom: 10px; margin-right: 0 !important; }
         }
+
+        /* --- EASTER EGG EFEKTLERİ --- */
+        /* 1. Takla Atma Efekti */
+        .spin-effect { animation: barrelRoll 1s ease-in-out; }
+        @keyframes barrelRoll { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* 2. Matrix Efekti */
+        .matrix-mode {
+            --bg-main: #000000 !important;
+            --bg-card: #001100 !important;
+            --text-main: #00ff41 !important;
+            --text-sec: #008f11 !important;
+            --accent: #00ff41 !important;
+            --nav-bg: rgba(0, 20, 0, 0.95) !important;
+            font-family: 'Courier New', monospace !important;
+        }
+
+        /* 3. Konfeti Parçacıkları */
+        .confetti {
+            position: fixed; top: -10px; z-index: 9999;
+            width: 10px; height: 10px;
+            background-color: #f00;
+            animation: fall linear forwards;
+        }
+        @keyframes fall { to { transform: translateY(100vh) rotate(720deg); } }
+
+        /* --- IŞIKLARI KAPAT MODU --- */
+        .cinema-mode .modal-content { background-color: #000 !important; }
+        .cinema-mode .modal-info { opacity: 0.1; transition: opacity 0.5s; }
+        .cinema-mode .modal-info:hover { opacity: 1; } /* Mouse gelince görünür olsun */
+        .cinema-mode .close-btn { opacity: 0.1; }
+        .cinema-mode .close-btn:hover { opacity: 1; }
+        
+        /* Işık Butonu */
+        .light-btn {
+            background: #f1c40f; color: #000; border: none; padding: 8px 12px;
+            border-radius: 50%; font-size: 1rem; cursor: pointer; transition: 0.3s;
+            box-shadow: 0 0 10px rgba(241, 196, 15, 0.4);
+        }
+        .light-btn:hover { transform: scale(1.1); box-shadow: 0 0 20px rgba(241, 196, 15, 0.8); }
+
     </style>
 </head>
 <body>
     
     <div id="toast-container"></div>
+
+    <div id="resume-toast"></div>
 
     <div id="loader-screen">
         <i class="fas fa-film loader-icon"></i>
@@ -409,12 +504,22 @@
         </nav>
 
         <div class="stats-container">
-            <div class="user-level">
-                <div class="level-badge"><i class="fas fa-compass"></i></div> <div class="level-info">
+            <div class="stat-box user-level">
+                <div class="level-badge"><i class="fas fa-compass"></i></div> 
+                <div class="level-info">
                     <h4>Macera Seviyesi</h4>
                     <h2 id="user-rank">Çaylak</h2>
                 </div>
             </div>
+
+            <div class="stat-box time-level">
+                <div class="time-badge"><i class="fas fa-hourglass-half"></i></div> 
+                <div class="level-info">
+                    <h4>İzleme Süresi</h4>
+                    <h2 id="total-time">0 dk</h2>
+                </div>
+            </div>
+
             <div class="progress-area">
                 <div class="progress-text">
                     <span>Yolculuk İlerlemesi</span>
@@ -438,7 +543,7 @@
         <div class="tag-cloud">
             <button class="tag-btn active" onclick="filterGenre('all')"><i class="fas fa-th-large"></i> Tümü</button>
             <button class="tag-btn" onclick="filterGenre('favoriler')"><i class="fas fa-bookmark"></i> Listem</button>
-			<button class="tag-btn" onclick="filterGenre('Tiyatro')"><i class="fas fa-theater-masks"></i> Tiyatro</button>
+            <button class="tag-btn" onclick="filterGenre('Tiyatro')"><i class="fas fa-theater-masks"></i> Tiyatro</button>
             <button class="tag-btn" onclick="filterGenre('Bilim Kurgu')"><i class="fas fa-atom"></i> Bilim Kurgu</button>
             <button class="tag-btn" onclick="filterGenre('Fantastik')"><i class="fa-brands fa-fantasy-flight-games"></i> Fantastik</button>
             <button class="tag-btn" onclick="filterGenre('Tarih')"><i class="fas fa-landmark"></i> Tarih</button>
@@ -465,11 +570,20 @@
                 <select id="episode-select" style="display:none;" onchange="changeEpisode(this.value)">
                 </select>
 
-                <div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap;">
+                <div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap; margin-bottom: 10px;">
                     <h2 id="player-title" style="margin-top: 0; margin-right: 15px;"></h2>
-                    <a href="https://forms.google.com" target="_blank" class="report-btn" title="Sorun Bildir">
-                        <i class="fas fa-exclamation-triangle"></i> Sorun Bildir
-                    </a>
+                    
+                    <div class="action-btns">
+                        <button class="light-btn" onclick="toggleLights()" title="Işıkları Kapat/Aç"><i class="fas fa-lightbulb"></i></button>
+
+                        <a id="download-btn" href="#" target="_blank" class="download-btn" title="Drive'da Aç ve İndir">
+                            <i class="fas fa-download"></i> İndir / Drive
+                        </a>
+
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSelTRnt04zkaKjAkKuFRNsM29ag4lr3bDadkiof9mKtGQe3BA/viewform?usp=sharing&ouid=100278202374656950523" target="_blank" class="report-btn" title="Sorun Bildir">
+                            <i class="fas fa-exclamation-triangle"></i> Sorun Bildir
+                        </a>
+                    </div>
                 </div>
                 
                 <div id="player-tags" class="tags" style="margin-bottom:15px;"></div>
@@ -574,7 +688,10 @@
 
         // --- FİLM LİSTESİ ---
         const filmler = [
-            { id: 1, baslik: "The Martian (Marslı)", sure: "144 dk", tur: ["Bilim Kurgu", "Aksiyon"], imdb: 8.0, ozet: "Mars'taki bir görev sırasında öldü sanılarak geride bırakılan astronot Mark Watney, zekasını ve botanik bilgisini kullanarak sınırlı kaynaklarla hayatta kalma mücadelesi verir.", poster: "https://upload.wikimedia.org/wikipedia/tr/7/7d/Marsl%C4%B1_-_afi%C5%9F.jpg", driveDublaj: "https://drive.google.com/file/d/1RKF2jzVQuvAZFKFQZWnFQRuVJVgJbLxq/preview", driveAltyazi: "https://drive.google.com/file/d/1x21b8Z5JI_3s3O6h6j-lhGJQv01F4qH-/preview", formLink: "bilim_kurgu.html" },
+            // İNDİRME LİNKLERİ BURAYA:
+            // Manuel link eklemek istersen şu formatı kullan: indirmeLinki: "https://..."
+            // Eğer boş bırakırsan sistem otomatik olarak Drive izleme linkini indirme linkine çevirmeye çalışır.
+            { id: 1, baslik: "The Martian (Marslı)", indirmeLinki: "", sure: "144 dk", tur: ["Bilim Kurgu", "Aksiyon"], imdb: 8.0, ozet: "Mars'taki bir görev sırasında öldü sanılarak geride bırakılan astronot Mark Watney, zekasını ve botanik bilgisini kullanarak sınırlı kaynaklarla hayatta kalma mücadelesi verir.", poster: "https://upload.wikimedia.org/wikipedia/tr/7/7d/Marsl%C4%B1_-_afi%C5%9F.jpg", driveDublaj: "https://drive.google.com/file/d/1RKF2jzVQuvAZFKFQZWnFQRuVJVgJbLxq/preview", driveAltyazi: "https://drive.google.com/file/d/1x21b8Z5JI_3s3O6h6j-lhGJQv01F4qH-/preview", formLink: "bilim_kurgu.html" },
             { id: 2, baslik: "War Horse (Savaş Atı)", sure: "146 dk", tur: ["Savaş", "Doğa", "Tarih"], imdb: 7.2, ozet: "I. Dünya Savaşı'nın başlamasıyla çok sevdiği sahibi Albert'tan ayrılarak orduya satılan Joey adlı bir atın, savaşın acımasız cephelerinde farklı tarafların hayatlarına dokunduğu destansı yolculuğunu anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/d/da/War-horse-poster.jpg", driveDublaj: "https://drive.google.com/file/d/1IYtbPkusrlDdzfefgHaMKL2e1lh_9Gmq/preview", driveAltyazi: "https://drive.google.com/file/d/16Fi2G6oen-DXNLMdmKWOmkxi6xJjlAt8/preview", formLink: "tarih_form.html" },
             { id: 3, baslik: "Children of Men (Son Umut)", sure: "109 dk", tur: ["Aksiyon", "Bilim Kurgu" ], imdb: 7.9, ozet: "Küresel kısırlık krizi nedeniyle insanlığın soyunun tükenme noktasına geldiği kaotik bir yakın gelecekte, hayattan umudunu kesmiş bir adam, insanlığın kaderini değiştirebilecek çok riskli bir görevi üstlenmek zorunda kalır.", poster: "https://m.media-amazon.com/images/M/MV5BMDNkNmNiYzYtYWY0YS00NWEwLTgwMWUtYjM0M2E4Nzk3MzhmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", driveDublaj: "https://drive.google.com/file/d/1kJ25HUtrjy_mGJ-IU9dHNieUqZP6sb6l/preview", driveAltyazi: "https://drive.google.com/file/d/1iIJrvhsCNNwdEXYM-FSkb9YpJ_lzBD3g/preview", formLink: "bilim_kurgu.html" },
             { id: 4, baslik: "Les Choristes (Koro)", sure: "97 dk", tur: ["Müzik", "Dram"], imdb: 7.9, ozet: "İkinci Dünya Savaşı sonrası Fransa'da, katı bir yatılı okula atanan gözetmen Clément Mathieu, müziğin birleştirici gücünü kullanarak öğrencilerin hayatlarını değiştirmeye çalışır.", poster: "https://upload.wikimedia.org/wikipedia/tr/2/25/Chorus.jpg", driveDublaj: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", driveAltyazi: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", formLink: "dram_form.html" },
@@ -718,10 +835,10 @@
             },
 
             /* Dropdown Menü sonrası */
-            { id: 50, baslik: "Harry Potter and the Sorcerer's Stone (Harry Potter ve Felsefe Taşı)", sure: "152 dk", tur: ["Fantastik", "Macera", "Aile"], ozet: "Bebekken ailesini kaybeden ve teyzesi ile eniştesinin yanında, merdiven altındaki bir odada kötü muamele görerek büyüyen Harry Potter, 11. yaş gününde hayatını değiştirecek bir gerçekle yüzleşir. Dev cüsseli Hagrid'in ziyaretiyle bir büyücü olduğunu öğrenen Harry, Hogwarts Cadılık ve Büyücülük Okulu'na davet edilir. Sihirli bir dünyanın kapılarını aralayan Harry, burada Ron ve Hermione ile sıkı bir dostluk kurar. Ancak okul sadece büyü derslerinden ibaret değildir; Harry, okulun derinliklerinde saklanan ve sahibine ölümsüzlük veren gizemli bir 'taş'ı ele geçirmek isteyen karanlık güçlere karşı, geçmişiyle bağlantılı bir mücadeleye girmek zorunda kalır.", poster: "https://upload.wikimedia.org/wikipedia/tr/e/e0/Harry_Potter_and_the_Sorcerer%27s_Stone_%28film%2C_2001%29.jpg", driveDublaj: "https://drive.google.com/file/d/174wyfwZhuYkriZ2lqV213znxvM4Db9Qo/https://drive.google.com/file/d/174wyfwZhuYkriZ2lqV213znxvM4Db9Qo/preview", driveAltyazi: "https://drive.google.com/file/d/1cAFXzHRw8ofDDfElQpAA19uISDwc8mab/preview", formLink: "harrypotter_form.html" },
+            { id: 50, baslik: "Harry Potter and the Sorcerer's Stone (Harry Potter ve Felsefe Taşı)", sure: "152 dk", tur: ["Fantastik", "Macera", "Aile"], ozet: "Bebekken ailesini kaybeden ve teyzesi ile eniştesinin yanında, merdiven altındaki bir odada kötü muamele görerek büyüyen Harry Potter, 11. yaş gününde hayatını değiştirecek bir gerçekle yüzleşir. Dev cüsseli Hagrid'in ziyaretiyle bir büyücü olduğunu öğrenen Harry, Hogwarts Cadılık ve Büyücülük Okulu'na davet edilir. Sihirli bir dünyanın kapılarını aralayan Harry, burada Ron ve Hermione ile sıkı bir dostluk kurar. Ancak okul sadece büyü derslerinden ibaret değildir; Harry, okulun derinliklerinde saklanan ve sahibine ölümsüzlük veren gizemli bir 'taş'ı ele geçirmek isteyen karanlık güçlere karşı, geçmişiyle bağlantılı bir mücadeleye girmek zorunda kalır.", poster: "https://upload.wikimedia.org/wikipedia/tr/e/e0/Harry_Potter_and_the_Sorcerer%27s_Stone_%28film%2C_2001%29.jpg", driveDublaj: "https://drive.google.com/file/d/174wyfwZhuYkriZ2lqV213znxvM4Db9Qo/preview", driveAltyazi: "https://drive.google.com/file/d/1cAFXzHRw8ofDDfElQpAA19uISDwc8mab/preview", formLink: "harrypotter_form.html" },
             { id: 51, baslik: "Harry Potter and the Chamber of Secrets (Harry Potter ve Sırlar Odası)", sure: "161 dk", tur: ["Fantastik", "Macera", "Aile"], ozet: "Hogwarts'taki ikinci yılına başlamaya hazırlanan Harry, ev cini Dobby tarafından okula dönmemesi konusunda şiddetle uyarılır. Dobby, okulda korkunç olayların yaşanacağını iddia etse de Harry bu uyarıyı dikkate almaz ve uçan bir araba macerasıyla okula döner. Ancak çok geçmeden okuldaki öğrenciler, bilinmeyen bir güç tarafından saldırıya uğrayıp taşa dönüşmeye başlar. Duvarlarda beliren kanlı yazılar, efsanevi Sırlar Odası'nın açıldığını ve 'Slytherin'in Varisi'nin geri döndüğünü ilan eder. Okulun kapatılma tehlikesiyle karşı karşıya kaldığı bu ortamda Harry, Ron ve Hermione; 50 yıllık ölümcül bir sırrı çözmek ve okulu kurtarmak için karanlık bir maceraya atılırlar.", poster: "https://upload.wikimedia.org/wikipedia/tr/a/ab/Harry_Potter_and_the_Chamber_of_Secrets_%28film%2C_2002%29.jpg", driveDublaj: "https://drive.google.com/file/d/1n_oDH3Hz3uoMM6qVCBYtfelFRZPCyIAf/preview", driveAltyazi: "https://drive.google.com/file/d/1qYzI9qf0Pic9W6LikBim_vsnve82ZqF1/preview", formLink: "harrypotter_form.html" },
             { id: 49, baslik: "Harry Potter and the Prisoner of Azkaban (Harry Potter ve Azkaban Tutsağı)", sure: "142 dk", tur: ["Fantastik", "Macera", "Aile"], ozet: "Hogwarts'taki üçüncü yılına başlayan Harry, büyücülük dünyasının en korkulan hapishanesi Azkaban'dan kaçan, tehlikeli ve akli dengesi yerinde olmayan bir katil olan Sirius Black'in peşinde olduğunu öğrenir. Black'in Lord Voldemort'un sadık bir hizmetkarı olduğu ve yarım kalan işi bitirmek için Harry'yi öldürmek istediği düşünülmektedir. Okulu korumak için Azkaban'ın korkunç gardiyanları olan ve insanların mutluluğunu emen Ruh Emiciler (Dementors) Hogwarts'ın çevresine yerleştirilir. Ancak bu yaratıklar Harry'yi katilden daha fazla etkiler. Yeni Karanlık Sanatlara Karşı Savunma öğretmeni Remus Lupin'in yardımıyla korkularıyla yüzleşen Harry, anne ve babasının ölümüyle ilgili geçmişte gizli kalmış, ihanet dolu gerçekleri çözmeye çalışır.", poster: "https://upload.wikimedia.org/wikipedia/tr/0/0a/Harry_Potter_and_the_Prisoner_of_Azkaban_%28film%2C_2004%29.jpg", driveDublaj: "https://drive.google.com/file/d/1iXtRNYeVRQZ5t-XqNHUn7qWCTR-JqgMc/preview", driveAltyazi: "https://drive.google.com/file/d/1tcieRLQbTVNFoWmoMo2aDUHyqA2z5e6s/preview", formLink: "harrypotter_form.html" },
-            { id: 52, baslik: "Harry Potter and the Goblet of Fire (Harry Potter ve Ateş Kadehi)", sure: "157 dk", tur: ["Fantastik", "Macera", "Aile"], ozet: "Hogwarts'ta dördüncü yılına başlayan Harry Potter, büyücülük dünyasının en prestijli ve tehlikeli yarışmalarından biri olan Üç Büyücü Turnuvası'na ev sahipliği yapacakları haberini alır. Kurallar gereği sadece 17 yaşından büyüklerin katılabildiği bu turnuvada; Hogwarts, Beauxbatons ve Durmstrang okullarının şampiyonları, sonsuz şöhret için üç ölümcül görevde yarışacaktır. Ateş Kadehi şampiyonları seçerken, açıklanamayan bir büyüyle dördüncü isim olarak yaşı tutmayan Harry'nin adını verir. Herkes Harry'nin hile yaptığını düşünürken o, hem arkadaşlarının şüpheleriyle başa çıkmak hem de ejderhalar ve deniz halkıyla dolu ölümcül görevlerde hayatta kalmak zorundadır. Ancak turnuvanın arkasında, Harry'yi tuzağa düşürmek isteyen çok daha karanlık bir plan işlemektedir ve Lord Voldemort'un gölgesi her zamankinden daha yakındır.", poster: "https://upload.wikimedia.org/wikipedia/tr/8/85/Harry_Potter_and_the_Goblet_of_Fire_%28film%2C_2005%29.jpg", driveDublaj: "https://drive.google.com/file/d/1TsBJCi8r_ZdNNBOEpitQjqyG6n1ZzSMW/preview", driveAltyazi: "https://drive.google.com/file/d/1iGifbVIn7yQmKyZhGqD7e2NNDiy1WDhr/preview", formLink: "harrypotter_form.html" },
+            { id: 52, baslik: "Harry Potter and the Goblet of Fire (Harry Potter ve Ateş Kadehi)", sure: "157 dk", tur: ["Fantastik", "Macera", "Aile"], ozet: "Hogwarts'taki dördüncü yılına başlayan Harry Potter, büyücülük dünyasının en prestijli ve tehlikeli yarışmalarından biri olan Üç Büyücü Turnuvası'na ev sahipliği yapacakları haberini alır. Kurallar gereği sadece 17 yaşından büyüklerin katılabildiği bu turnuvada; Hogwarts, Beauxbatons ve Durmstrang okullarının şampiyonları, sonsuz şöhret için üç ölümcül görevde yarışacaktır. Ateş Kadehi şampiyonları seçerken, açıklanamayan bir büyüyle dördüncü isim olarak yaşı tutmayan Harry'nin adını verir. Herkes Harry'nin hile yaptığını düşünürken o, hem arkadaşlarının şüpheleriyle başa çıkmak hem de ejderhalar ve deniz halkıyla dolu ölümcül görevlerde hayatta kalmak zorundadır. Ancak turnuvanın arkasında, Harry'yi tuzağa düşürmek isteyen çok daha karanlık bir plan işlemektedir ve Lord Voldemort'un gölgesi her zamankinden daha yakındır.", poster: "https://upload.wikimedia.org/wikipedia/tr/8/85/Harry_Potter_and_the_Goblet_of_Fire_%28film%2C_2005%29.jpg", driveDublaj: "https://drive.google.com/file/d/1TsBJCi8r_ZdNNBOEpitQjqyG6n1ZzSMW/preview", driveAltyazi: "https://drive.google.com/file/d/1iGifbVIn7yQmKyZhGqD7e2NNDiy1WDhr/preview", formLink: "harrypotter_form.html" },
             { id: 53, baslik: "Harry Potter and the Order of the Phoenix (Harry Potter ve Zümrüdüanka Yoldaşlığı)", sure: "138 dk", tur: ["Fantastik", "Macera", "Aile"], ozet: "Lord Voldemort'un döndüğüne şahit olan Harry, Sihir Bakanlığı'nın bu gerçeği inkar etmesi ve gazeteler aracılığıyla kendisine 'yalancı' damgası vurmasıyla büyük bir yalnızlık hisseder. Bakanlık, Hogwarts'ı ve Dumbledore'u kontrol altında tutmak için okula Dolores Umbridge'i 'Yüksek Müfettiş^' olarak atar. Umbridge, öğrencilere savunma büyülerini pratik yapmayı yasaklayıp okulu katı ve acımasız kurallarla yönetmeye başlayınca, Harry ipleri eline alır. Arkadaşlarıyla birlikte Dumbledore'un Ordusu adında gizli bir örgüt kurarak, yaklaşan savaşa hazırlanmak için öğrencilere bizzat büyü öğretmeye başlar. Bu sırada Harry, geceleri gördüğü kabuslar ve zihnini Voldemort'un zihnine bağlayan tehlikeli bir bağ yüzünden akıl sağlığını korumakta zorlanır.", poster: "https://upload.wikimedia.org/wikipedia/tr/6/6a/Harry_Potter_and_the_Order_of_the_Phoenix_%28film%2C_2007%29.jpg", driveDublaj: "https://drive.google.com/file/d/1twE6gvpuXMO2FJrKtNNIRr-mTmmbPu-K/preview", driveAltyazi: "https://drive.google.com/file/d/1VZ4LYlUf-IWicUyhxeY0BdsFbLinaR3c/preview", formLink: "harrypotter_form.html" },
             { id: 54, baslik: "Harry Potter and the Half-Blood Prince (Harry Potter ve Melez Prens)", sure: "153 dk", tur: ["Fantastik", "Macera", "Aile"], ozet: "Voldemort'un dönüşü artık hem Büyücülük hem de Muggle dünyasında hissedilmeye başlamıştır; Hogwarts bile artık güvenli bir sığınak değildir. Dumbledore, Harry'yi yaklaşan büyük savaşa hazırlamak için Voldemort'un geçmişindeki çok önemli bir sırrı çözmeye odaklanır. Bu amaçla, kilit bilgilere sahip eski İksir Profesörü Horace Slughorn'u okula geri dönmeye ikna eder. Harry, eline geçen ve üzerinde 'Melez Prens'in Mülküdür' yazan gizemli bir ders kitabı sayesinde iksir derslerinde beklenmedik bir başarı kazanır ve kitabın kenarlarına yazılmış karanlık büyüleri keşfeder. Koridorlarda ergenlik hormonları ve aşk üçgenleri yaşanırken, Draco Malfoy gölgelerde herkesi tehdit edecek tehlikeli bir görevi yerine getirmeye çalışmaktadır.", poster: "https://upload.wikimedia.org/wikipedia/tr/e/ea/Harry_Potter_and_the_Half-Blood_Prince_%28film%2C_2009%29.jpg", driveDublaj: "https://drive.google.com/file/d/1JCpyURKWHI5UBAkQHs1GlYgvbHtdgBYa/preview", driveAltyazi: "https://drive.google.com/file/d/1zIwpO7oiWLUh5U6WceOeSP2n0qIgJLbY/preview", formLink: "harrypotter_form.html" },
             { id: 55, baslik: "Harry Potter and the Deathly Hallows: Part 1 (Harry Potter ve Ölüm Yadigarları: Bölüm 1)", sure: "146 dk", tur: ["Fantastik", "Macera", "Aile"], ozet: "Hogwarts artık güvenli değildir ve Dumbledore hayatını kaybetmiştir. Harry, Ron ve Hermione, okuldaki son yıllarını tamamlamak yerine, Voldemort'un ölümsüzlüğünün ve gücünün kaynağı olan Hortkulukları (Horcruxes) bulup yok etmek üzere tehlikeli ve izole bir yolculuğa çıkarlar. Sihir Bakanlığı'nın düşmesi ve Ölüm Yiyenlerin kontrolü ele geçirmesiyle, üçlü artık başlarına ödül konmuş kaçaklardır. Sürekli yer değiştirmek zorunda kaldıkları, açlıkla ve korkuyla mücadele ettikleri bu süreçte, buldukları karanlık bir nesnenin etkisi dostluklarını ciddi şekilde sarsar. Harry, bu umutsuz arayış sırasında, büyücülük tarihinin en eski ve en güçlü efsanelerinden biri olan Ölüm Yadigarları gerçeğiyle yüzleşir.", poster: "https://upload.wikimedia.org/wikipedia/tr/1/10/Harry_Potter_and_the_Deathly_Hallows_Part_1_%28film%2C_2010%29.jpg", driveDublaj: "https://drive.google.com/file/d/1Id2xLU5ZtHTQGnufrlGLlXyx8uqyP8hh/preview", driveAltyazi: "https://drive.google.com/file/d/1YQJymdCZgfrmXvLzI_rDb818vmDoaXSL/preview", formLink: "harrypotter_form.html" },
@@ -737,8 +854,12 @@
             { id: 67, baslik: "Aptallara Güzel Gelen Televizyon Dizileri (1996)", sure: "125 dk", tur: ["Tiyatro", "Politik Mizah", "Kara Komedi"], ozet: "Usta tiyatrocu Ferhan Şensoy'un kaleme aldığı ve yönettiği oyun, 90'lı yıllarda Türkiye'de özel televizyon kanallarının pıtrak gibi çoğaldığı bir dönemde, medya sektörüne çok sert ve zekice bir eleştiri getirir. Oyun, reyting uğruna kalitenin nasıl düşürüldüğünü, halkın televizyon yoluyla nasıl manipüle edildiğini ve 'aptallaştıran' içeriklerin nasıl pazarlandığını anlatır. Medya patronlarının, yapımcıların ve sistemin çarkları arasında sıkışan kültürün yozlaşmasını, Ferhan Şensoy'un kendine has dil oyunları ve Ortaoyuncular'ın (Rasim Öztekin gibi usta isimlerin de yer aldığı) dinamik performanslarıyla hicveder. Güldürürken acı gerçekleri yüzünüze vuran bir sistem eleştirisidir.", poster: "https://www.serkandinc.com.tr/wp-content/uploads/2019/09/ortaoyuncular-aptallara-guzel-gelen-televizyon-dizileri-kapak.jpg", driveDublaj: "https://drive.google.com/file/d/1wojOTMeRY9ywqCg34fv2spEGoLzb4O1L/preview", driveAltyazi: "https://drive.google.com/file/d/1wojOTMeRY9ywqCg34fv2spEGoLzb4O1L/preview", formLink: "tiyatro_form" },
             { id: 68, baslik: "Kahraman Bakkal Süpermarkete Karşı (1990)", sure: "140 dk", tur: ["Tiyatro", "Politik Mizah", "Kara Komedi"], ozet: "Ferhan Şensoy'un kapitalizmin Türkiye'ye girişini ve değişen tüketim alışkanlıklarını eleştirdiği başyapıtlarından biridir. Oyun, mahalle kültürünün simgesi olan, veresiye defteri tutan, insan ilişkilerine dayalı küçük mahalle bakkalı ile mahalleye yeni açılan, parlak ışıklı, soğuk ve mekanik süpermarket arasındaki eşitsiz mücadeleyi anlatır. Türkiye'nin 1980 sonrası geçirdiği hızlı ekonomik ve kültürel değişimi, globalleşmenin yerel değerleri nasıl yuttuğunu mizahi ama bir o kadar da hüzünlü bir dille sahneler. Oyun, sadece bir bakkalın hikayesini değil, değişen toplumun portresini çizerken Şensoy'un zekice kelime oyunlarıyla (kelime cambazlıklarıyla) sistemi eleştirir.", poster: "https://img04.imgsinemalar.com/images/movie/217629/poster/kahraman-bakkal-supermarkete-karsi-1355242065.jpg", driveDublaj: "https://drive.google.com/file/d/1wszjoy7lF7J3of9ee9c2oHpULuJJkuzp/preview", driveAltyazi: "https://drive.google.com/file/d/1wszjoy7lF7J3of9ee9c2oHpULuJJkuzp/preview", formLink: "tiyatro_form.html" },
             { id: 69, baslik: "Parasız Yaşamak Pahalı (1993)", sure: "138 dk", tur: ["Tiyatro", "Politik Mizah", "Kara Komedi"], ozet: "Ferhan Şensoy, bu oyununda 'Parasızlık, paradan daha pahalıya mal olur' tezini işler. Oyun, 90'lı yılların Türkiye'sinde tavan yapan enflasyon, geçim sıkıntısı ve ekonomik uçurumun yarattığı trajikomik durumları konu alır. Sıradan bir vatandaşın devlet daireleriyle, bankalarla ve günlük hayatın pahalılığıyla olan mücadelesini anlatır. Parasız bir insanın hayatta kalabilmek için aslında zenginlerden daha fazla bedel ödediğini, borç sarmalını ve sistemin alt gelir grubunu nasıl sıkıştırdığını; Ferhan Şensoy'un kendine has dil oyunları ve Rasim Öztekin ile olan muhteşem paslaşmalarıyla sahneye taşır.", poster: "https://a.ltrbxd.com/resized/film-poster/8/3/0/9/4/8/830948-parasz-yasamak-pahal-0-1000-0-1500-crop.jpg?v=8e26c81110", driveDublaj: "https://drive.google.com/file/d/1NErPlBozZEwl5YFoi7zqmOAW_iQNFUCx/preview", driveAltyazi: "https://drive.google.com/file/d/1NErPlBozZEwl5YFoi7zqmOAW_iQNFUCx/preview", formLink: "tiyatro_form" },
-            { id: 70, baslik: "Çanakkale'den Haber Var", sure: "28 dk", tur: ["Tiyatro", "Savaş", "Okul"], ozet: "Boğaziçi Koleji öğrencilerinin sergilediği Çanakkale'den Haber Var isimli oyunun gösterimi.", poster: "https://img.piri.net/resim/imagecrop/2021/03/16/02/28/resized_5e096-d00d7133canakkale.jpg", driveDublaj: "https://drive.google.com/file/d/1GxrzPB_U0EPxeRdgFNiZmPpD0oivd9Zl/preview", driveAltyazi: "https://drive.google.com/file/d/1GxrzPB_U0EPxeRdgFNiZmPpD0oivd9Zl/preview", formLink: "tiyatro_form.html" },
-
+            { id: 70, baslik: "Çanakkaleden Haber Var", sure: "28 dk", tur: ["Tiyatro", "Savaş", "Okul"], ozet: "Boğaziçi Koleji öğrencilerinin sergilediği Çanakkale'den Haber Var isimli oyunun gösterimi.", poster: "https://img.piri.net/resim/imagecrop/2021/03/16/02/28/resized_5e096-d00d7133canakkale.jpg", driveDublaj: "https://drive.google.com/file/d/1CxlpkgNf3gIwogKS5gu4QQs9IC_nDG4P/preview", driveAltyazi: "https://drive.google.com/file/d/1CxlpkgNf3gIwogKS5gu4QQs9IC_nDG4P/preview", formLink: "tiyatro_form.html" },
+            { id: 71, baslik: "Uzun Donlu Kişot (2004)", sure: "145 dk", tur: ["Tiyatro", "Politik Mizah", "Uyarlama"], ozet: "Miguel de Cervantes'in ölümsüz eseri 'Don Kişot', Ferhan Şensoy'un kalemiyle günümüz dünyasına ve Türkiye gerçeklerine uyarlanır. Şensoy, yel değirmenlerine savaş açan hayalperest şövalyeyi, modern dünyanın çarklarına, emperyalizme ve yozlaşmış adalet sistemine kafa tutan bir halk kahramanına dönüştürür. Oyun, klasik hikayenin iskeletini korurken, olayları yerelleştirir ve güncel politik göndermelerle zenginleştirir. Ferhan Şensoy'un 'Uzun Donlu Kişot'u ve Rasim Öztekin'in canlandırdığı sadık yaveri 'Sancho Panza'sı, sahnede muazzam bir uyum sergileyerek güldürürken düşündüren bir sistem eleştirisi sunar.", poster: "https://www.ortaoyuncular.com/userfiles/files/uzun_donlu_ki%C5%9Fot.jpg", driveDublaj: "https://drive.google.com/file/d/1vka_6SmelSDYByoi3rJcox-UzN0HkvKa/preview", driveAltyazi: "https://drive.google.com/file/d/1vka_6SmelSDYByoi3rJcox-UzN0HkvKa/preview", formLink: "tiyatro_form.html" },
+            { id: 72, baslik: "Yalınayak Sokrates", sure: "120 dk", tur: ["Tiyatro", "Biyografi", "Politik Hiciv"], ozet: "Maxwell Anderson'ın yazdığı oyun, Antik Yunan'da, tarihin ilk 'düşünce suçu' davasını konu alır. 70 yaşındaki filozof Sokrates, 'şehrin tanrılarına inanmamak' ve 'gençlerin ahlakını bozmak' suçlamalarıyla Atina mahkemesi önüne çıkarılır. Sokrates, idam talebiyle yargılandığı bu davada, kendisinden beklenen şekilde af dilemek veya boyun eğmek yerine; zekası, ironisi ve sarsılmaz mantığıyla jüriyi ve demokrasiyi yargılamaya başlar. Genco Erkal'ın tek başına devleştiği oyun, sadece tarihi bir olayı değil; çoğunluğun tiranlığını, adaleti, önyargıları ve bir aydının bildiği doğrudan şaşmama erdemini anlatır.", poster: "https://gencyazi.com/wp-content/uploads/2020/04/sokrates.jpg", driveDublaj: "https://drive.google.com/file/d/1tXiGNfG_YlD0_MjVrETyxQOJ4um52DFF/preview", driveAltyazi: "https://drive.google.com/file/d/1tXiGNfG_YlD0_MjVrETyxQOJ4um52DFF/preview", formLink: "tiyatro_form.html" },
+            { id: 73, baslik: "Sizinki Can da Bizimki Patlıcan mı", sure: "130 dk", tur: ["Tiyatro", "Geleneksel Türk Komedisi (Tuluat)", "Hiciv"], ozet: "Nejat Uygur'un geleneksel Türk tiyatrosunun (ortaoyunu/tuluat) izlerini taşıyan, doğaçlamalarla zenginleştirdiği en sevilen oyunlarından biridir. Oyun, adından da anlaşılacağı üzere toplumsal eşitsizliği ve 'sıradan vatandaşın' yaşadığı haksızlıkları konu alır. Hikaye, genellikle bürokrasi, hastane veya aile içi ilişkilerde yaşanan kaotik durumlar üzerinden ilerler. Nejat Uygur, saf görünümlü ancak hazırcevap karakteriyle; otorite figürlerine, zenginlere veya insanlara tepeden bakanlara karşı halkın sesi olur. Yanlış anlaşılmaların, kelime şakalarının ve seyirciyle kurulan interaktif diyaloğun eksik olmadığı, bol kahkahalı bir sistem eleştirisidir.", poster: "https://a.ltrbxd.com/resized/film-poster/7/1/5/3/5/9/715359-sizinki-can-da-bizimki-patlcan-m--0-150-0-225-crop.jpg", driveDublaj: "https://drive.google.com/file/d/1WiR_rNaxqIFarU_VJx2JEgZzpTF-cINS/preview", driveAltyazi: "https://drive.google.com/file/d/1WiR_rNaxqIFarU_VJx2JEgZzpTF-cINS/preview", formLink: "tiyatro_form" },
+            { id: 74, baslik: "Zamsalak (Nejat Uygur)", sure: "127 dk", tur: ["Tiyatro", "Geleneksel Türk Komedisi (Tuluat)", "Hiciv"], ozet: "", poster: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJjbKLfNFjEq059IIdjYCu1JEXYFwDJGJ2A&s", driveDublaj: "https://drive.google.com/file/d/1UoFeZlJvKeNGaxfcJWxneFtMGxelg404/preview", driveAltyazi: "https://drive.google.com/file/d/1UoFeZlJvKeNGaxfcJWxneFtMGxelg404/preview", formLink: "tiyatro_form" },
+            
         ];
 
         document.addEventListener("DOMContentLoaded", () => {
@@ -749,6 +870,7 @@
                 document.getElementById("login-overlay").style.display = "none";
                 document.getElementById("app-container").style.display = "flex";
                 updateProgress(); 
+                checkLastWatched(); // Giriş yapılmışsa son izleneni kontrol et
             }
             document.getElementById("password-input").addEventListener("keypress", (e) => { if(e.key === "Enter") checkPassword(); });
             setTimeout(hideLoader, 1500); 
@@ -796,6 +918,7 @@
                 document.getElementById("app-container").style.display = "flex";
                 setSeasonalBackground();
                 updateProgress();
+                checkLastWatched(); // Yeni giriş yapıldığında son izleneni kontrol et
                 showToast("Sisteme Başarıyla Giriş Yapıldı!", "success"); // Toast eklendi
             } else {
                 const errorP = document.getElementById("error-msg");
@@ -808,17 +931,44 @@
             const validFilms = filmler.filter(f => f.baslik !== "Deneme");
             const totalMovies = validFilms.length;
             let watchedCount = 0;
+            let totalMinutes = 0; // Toplam süre hesaplama
 
             validFilms.forEach(film => {
                 if(localStorage.getItem('watched_' + film.id) === 'true') {
                     watchedCount++;
+                    
+                    // Süre Hesaplama
+                    if (film.sure) {
+                        let sure = parseInt(film.sure);
+                        if (!isNaN(sure)) {
+                            // Eğer 'Bölüm' içeriyorsa ortalama 50 dk ile çarp
+                            if (film.sure.toLowerCase().includes("bölüm")) {
+                                totalMinutes += (sure * 50);
+                            } else {
+                                totalMinutes += sure;
+                            }
+                        }
+                    }
                 }
             });
 
+            // Yüzde Hesaplama
             const percentage = Math.round((watchedCount / totalMovies) * 100);
             document.getElementById("progress-text").innerText = `${watchedCount} / ${totalMovies} Film`;
             document.getElementById("progress-bar").style.width = `${percentage}%`;
 
+            // Süreyi Ekrana Yazdırma
+            const hours = Math.floor(totalMinutes / 60);
+            const minutes = totalMinutes % 60;
+            let timeText = "0 dk";
+            if (hours > 0) {
+                timeText = `${hours} Sa ${minutes} Dk`;
+            } else {
+                timeText = `${minutes} Dk`;
+            }
+            document.getElementById("total-time").innerText = timeText;
+
+            // Rütbe Belirleme
             const rankTitle = document.getElementById("user-rank");
             if (watchedCount === 0) rankTitle.innerText = "Yeni Başlayan";
             else if (watchedCount <= 5) rankTitle.innerText = "Çaylak";
@@ -983,10 +1133,29 @@
         function changeEpisode(link) {
             const iframe = document.getElementById("main-player");
             iframe.src = link;
+
+            // --- BÖLÜM DEĞİŞİNCE İNDİRME LİNKİNİ DE GÜNCELLE ---
+            const downloadBtn = document.getElementById("download-btn");
+            if(link && link.includes("drive.google.com")) {
+                let downloadLink = link.replace("/preview", "/view");
+                downloadBtn.href = downloadLink;
+                downloadBtn.style.display = "flex";
+            } else {
+                downloadBtn.style.display = "none";
+            }
+        }
+
+        // --- IŞIKLARI KAPAT FONKSİYONU ---
+        function toggleLights() {
+            document.getElementById('player-modal').classList.toggle('cinema-mode');
         }
 
         function openPlayer(id, type) {
             currentMovieId = id; 
+            
+            // --- SON İZLENEN FİLMİ KAYDET ---
+            localStorage.setItem('last_watched', id);
+
             const film = filmler.find(f => f.id === id);
             const modal = document.getElementById("player-modal");
             const episodeSelect = document.getElementById("episode-select");
@@ -1031,6 +1200,30 @@
                 evalBtn.style.display = "none";
             }
             
+            // --- YENİ İNDİRME BUTONU MANTIĞI ---
+            const downloadBtn = document.getElementById("download-btn");
+            let activeLink = "";
+
+            if (film.indirmeLinki && film.indirmeLinki !== "") {
+                downloadBtn.href = film.indirmeLinki;
+                downloadBtn.style.display = "flex";
+            } 
+            else {
+                if (film.bolumler && film.bolumler.length > 0) {
+                    activeLink = episodeSelect.value || film.bolumler[0].link;
+                } else {
+                    activeLink = (type === 'dublaj') ? film.driveDublaj : film.driveAltyazi;
+                }
+
+                if (activeLink && activeLink.includes("drive.google.com")) {
+                    let downloadLink = activeLink.replace("/preview", "/view");
+                    downloadBtn.href = downloadLink;
+                    downloadBtn.style.display = "flex";
+                } else {
+                    downloadBtn.style.display = "none";
+                }
+            }
+
             updateUserStars(id);
             modal.style.display = "flex";
         }
@@ -1065,12 +1258,15 @@
         }
 
         function openModal(id) { document.getElementById(id).style.display = "flex"; }
+        
         function closeModal(id) { 
             document.getElementById(id).style.display = "none"; 
             if(id === 'player-modal') {
                 const iframe = document.getElementById("main-player");
                 iframe.removeAttribute('src'); 
                 currentMovieId = null;
+                // Modal kapanınca ışıkları aç
+                document.getElementById('player-modal').classList.remove('cinema-mode');
             }
         }
         function toggleTheme() {
@@ -1083,6 +1279,14 @@
             const input = document.getElementById("search-input");
             const clearBtn = document.getElementById("clear-btn");
             const q = input.value.toLowerCase();
+
+            // --- EASTER EGG KONTROLÜ (BEKÇİ) ---
+            if (checkEasterEggs(q)) {
+                input.value = ""; // Şifre girilince kutuyu temizle
+                clearBtn.style.display = "none";
+                return; // Normal aramayı durdur
+            }
+            // -----------------------------------
 
             if(q.length > 0) {
                 clearBtn.style.display = "block";
@@ -1108,7 +1312,6 @@
                 initFilms(filmler); 
             } 
             else if(genre === 'favoriler') {
-                // Sadece favorilenmiş filmleri filtrele
                 const filtered = filmler.filter(f => localStorage.getItem('bookmark_' + f.id) === 'true');
                 initFilms(filtered);
             }
@@ -1127,6 +1330,7 @@
                     const iframe = document.getElementById("main-player");
                     iframe.removeAttribute('src');
                     currentMovieId = null;
+                    document.getElementById('player-modal').classList.remove('cinema-mode');
                 }
             }
         }
@@ -1136,11 +1340,86 @@
                 closeModal('player-modal');
                 closeModal('sitemap-modal');
                 closeModal('announcement-modal');
-				closeModal('guide-modal'); // 
+				closeModal('guide-modal'); 
             }
         });
+
+        /* --- EASTER EGG MOTORU --- */
+        function checkEasterEggs(keyword) {
+            // 1. MATRIX MODU
+            if (keyword === "matrix") {
+                document.body.classList.toggle("matrix-mode");
+                showToast("Matrix Modu Aktif! Tavşanı izle... 🐇", "info");
+                return true;
+            }
+            
+            // 2. TAKLA ATMA (BARREL ROLL)
+            if (keyword === "barrel roll" || keyword === "takla at") {
+                document.body.classList.add("spin-effect");
+                setTimeout(() => document.body.classList.remove("spin-effect"), 1000); 
+                return true;
+            }
+
+            // 3. MURAT HOCA MODU
+            if (keyword === "murat hoca" || keyword === "murat mutlu") {
+                showToast("👑 Proje Yöneticisi Selamlandı!", "success");
+                document.body.style.transform = "scale(1.02)";
+                setTimeout(() => document.body.style.transform = "scale(1)", 200);
+                return true;
+            }
+
+            // 4. TENEFFÜS (KONFETİ)
+            if (keyword === "teneffüs" || keyword === "parti") {
+                startConfetti();
+                showToast("🎉 İyi Teneffüsler Gençler!", "success");
+                return true;
+            }
+
+            return false; 
+        }
+
+        // Basit Konfeti Yapıcı
+        function startConfetti() {
+            const colors = ['#e74c3c', '#3498db', '#f1c40f', '#2ecc71', '#9b59b6'];
+            for (let i = 0; i < 100; i++) {
+                const conf = document.createElement('div');
+                conf.classList.add('confetti');
+                conf.style.left = Math.random() * 100 + 'vw';
+                conf.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                conf.style.animationDuration = (Math.random() * 3 + 2) + 's'; 
+                document.body.appendChild(conf);
+                
+                setTimeout(() => conf.remove(), 5000);
+            }
+        }
+
+        // --- KALDIĞIN YERDEN DEVAM ET FONKSİYONU ---
+        function checkLastWatched() {
+            const lastId = localStorage.getItem('last_watched');
+            if (lastId) {
+                const film = filmler.find(f => f.id == lastId);
+                if (film) {
+                    const toast = document.getElementById('resume-toast');
+                    toast.innerHTML = `
+                        <div class="resume-content">
+                            <span class="resume-title"><i class="fas fa-history"></i> İzlemeye Devam Et</span>
+                            <span class="resume-movie">${film.baslik}</span>
+                        </div>
+                        <div style="display:flex; gap:10px;">
+                            <button class="resume-btn" onclick="openPlayer(${film.id}, 'dublaj'); document.getElementById('resume-toast').style.display='none';">
+                                <i class="fas fa-play"></i> İzle
+                            </button>
+                            <button class="resume-close" onclick="document.getElementById('resume-toast').style.display='none';">&times;</button>
+                        </div>
+                    `;
+                    toast.style.display = 'flex';
+                    
+                    // 10 Saniye sonra otomatik kaybolsun
+                    setTimeout(() => { toast.style.display = 'none'; }, 10000);
+                }
+            }
+        }
 
     </script>
 </body>
 </html>
-
