@@ -6,7 +6,7 @@
     
     <meta name="robots" content="noindex, nofollow"> 
     
-    <title>Boğaziçi Koleji Film Platformu (BETA)</title>
+    <title>Boğaziçi Koleji Film Platformu (V1.0)</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
@@ -32,7 +32,7 @@
             --progress-bg: #e0e0e0;
             --progress-fill: linear-gradient(90deg, #2980b9, #2ecc71);
             --report-color: #e67e22;
-            --time-color: #e67e22; /* Yeni Süre Rengi */
+            --time-color: #e67e22;
         }
         
         [data-theme="dark"] { 
@@ -453,6 +453,17 @@
         }
         .light-btn:hover { transform: scale(1.1); box-shadow: 0 0 20px rgba(241, 196, 15, 0.8); }
 
+        /* --- YEDEKLEME BUTONLARI --- */
+        .backup-btn {
+            display: flex; align-items: center; justify-content: center; gap: 10px;
+            width: 100%; padding: 15px; border-radius: 10px; font-weight: bold;
+            cursor: pointer; border: none; font-size: 1rem; transition: 0.3s;
+            margin-bottom: 10px; color: white;
+        }
+        .backup-download { background: #27ae60; }
+        .backup-upload { background: #2980b9; }
+        .backup-btn:hover { filter: brightness(1.1); transform: translateY(-2px); }
+
     </style>
 </head>
 <body>
@@ -470,7 +481,7 @@
         <div class="login-box">
             <div class="motto-container">
                 <i class="fas fa-feather-alt motto-icon"></i>
-                <p class="motto-text">"de te fabula narratur!"</p>
+                <p class="motto-text" id="dynamic-quote">"de te fabula narratur!"</p>
             </div>
             <h1><i class="fas fa-play-circle" style="color: #3498db;"></i> Sinema Platformu <span class="beta-tag">BETA</span></h1>
             <p class="school-name">Boğaziçi Koleji</p>
@@ -494,9 +505,11 @@
             </div>
             
             <div class="nav-controls">
-<button onclick="openModal('guide-modal')" class="icon-btn" title="Kullanım Rehberi">
-    <i class="fas fa-question" style="font-size: 1.3rem;"></i>
-</button>                <button onclick="luckyDip()" class="icon-btn" title="Şansıma Ne Çıkarsa"><i class="fas fa-dice"></i></button> 
+                <button onclick="openModal('settings-modal')" class="icon-btn" title="Veri İşlemleri / Ayarlar"><i class="fas fa-cog"></i></button>
+                <button onclick="openModal('guide-modal')" class="icon-btn" title="Kullanım Rehberi">
+                    <i class="fas fa-question" style="font-size: 1.3rem;"></i>
+                </button>
+                <button onclick="luckyDip()" class="icon-btn" title="Şansıma Ne Çıkarsa"><i class="fas fa-dice"></i></button> 
                 <button onclick="openSitemap()" class="icon-btn" title="Site Haritası"><i class="fas fa-map"></i></button>
                 <button onclick="openModal('announcement-modal')" class="icon-btn"><i class="fas fa-bell"></i></button>
                 <button onclick="toggleTheme()" class="icon-btn"><i class="fas fa-moon"></i></button>
@@ -615,6 +628,29 @@
         </div>
     </div>
 
+    <div id="settings-modal" class="modal">
+        <div class="modal-content" style="max-width: 500px;">
+            <span class="close-btn" onclick="closeModal('settings-modal')">&times;</span>
+            <div class="modal-info">
+                <h2 style="border-bottom: 2px solid var(--accent); padding-bottom: 10px; margin-bottom: 20px;">
+                    <i class="fas fa-cog"></i> Veri İşlemleri
+                </h2>
+                <p style="color:var(--text-sec); margin-bottom:20px;">
+                    Tüm izleme geçmişinizi, puanlarınızı ve favorilerinizi yedekleyebilir veya başka bir cihazdan yükleyebilirsiniz.
+                </p>
+                
+                <button onclick="downloadBackup()" class="backup-btn backup-download">
+                    <i class="fas fa-file-download"></i> Veri Yedeğini İndir
+                </button>
+                
+                <button onclick="document.getElementById('file-input').click()" class="backup-btn backup-upload">
+                    <i class="fas fa-file-upload"></i> Yedek Dosyası Yükle
+                </button>
+                <input type="file" id="file-input" style="display: none;" onchange="restoreBackup(event)" accept=".json">
+            </div>
+        </div>
+    </div>
+
     <div id="sitemap-modal" class="modal">
         <div class="modal-content" style="max-width: 800px;">
             <span class="close-btn" onclick="closeModal('sitemap-modal')">&times;</span>
@@ -637,7 +673,8 @@
             </div>
         </div>
     </div>
-<div id="guide-modal" class="modal">
+    
+    <div id="guide-modal" class="modal">
         <div class="modal-content" style="max-width: 600px;">
             <span class="close-btn" onclick="closeModal('guide-modal')">&times;</span>
             <div class="modal-info" style="text-align: left;">
@@ -658,7 +695,7 @@
                         <div style="background:#e67e22; color:white; width:30px; height:30px; border-radius:50%; display:flex; justify-content:center; align-items:center; flex-shrink:0; font-weight:bold;">2</div>
                         <div>
                             <h4 style="margin:0 0 5px 0;">Mutlaka Değerlendir!</h4>
-                            <p style="margin:0; font-size:0.95rem; color:var(--text-sec);">Filmi bitirdikten sonra penceredeki <strong>"Değerlendir"</strong> butonuna bas ve formu doldur. Puanın buna göre verilecek.</p>
+                            <p style="margin:0; font-size:0.95rem; color:var(--text-sec);">Filmi bitirdikten sonra filmin altındaki <strong>"Değerlendirme"</strong>formunu doldurman ne hissettiğini yazacağın için filmi içselleştirmeni sağlayacaktır.</p>
                         </div>
                     </div>
 
@@ -666,7 +703,7 @@
                         <div style="background:#27ae60; color:white; width:30px; height:30px; border-radius:50%; display:flex; justify-content:center; align-items:center; flex-shrink:0; font-weight:bold;">3</div>
                         <div>
                             <h4 style="margin:0 0 5px 0;">İlerlemeni Kaydet</h4>
-                            <p style="margin:0; font-size:0.95rem; color:var(--text-sec);">İzlediğin filmin sol üst köşesindeki <strong>"Tik" (✓)</strong> işaretine tıkla. Rütben "Çaylak"tan "Üstat"a yükselsin!</p>
+                            <p style="margin:0; font-size:0.95rem; color:var(--text-sec);">İzlediğin filmin sol üst köşesindeki <strong>"Tik" (✓)</strong> işaretine tıkla. Rütben "Çaylak"tan "Üstat"a yükselsin! Cihaz değiştirmek istiyorsan sitenin üstündeki çark butonunu tıkla, verilerini inidr yeni cihazdan siteye yükle.</p>
                         </div>
                     </div>
                     
@@ -692,7 +729,7 @@
             // Manuel link eklemek istersen şu formatı kullan: indirmeLinki: "https://..."
             // Eğer boş bırakırsan sistem otomatik olarak Drive izleme linkini indirme linkine çevirmeye çalışır.
             { id: 1, baslik: "The Martian (Marslı)", indirmeLinki: "", sure: "144 dk", tur: ["Bilim Kurgu", "Aksiyon"], imdb: 8.0, ozet: "Mars'taki bir görev sırasında öldü sanılarak geride bırakılan astronot Mark Watney, zekasını ve botanik bilgisini kullanarak sınırlı kaynaklarla hayatta kalma mücadelesi verir.", poster: "https://upload.wikimedia.org/wikipedia/tr/7/7d/Marsl%C4%B1_-_afi%C5%9F.jpg", driveDublaj: "https://drive.google.com/file/d/1RKF2jzVQuvAZFKFQZWnFQRuVJVgJbLxq/preview", driveAltyazi: "https://drive.google.com/file/d/1x21b8Z5JI_3s3O6h6j-lhGJQv01F4qH-/preview", formLink: "bilim_kurgu.html" },
-            { id: 2, baslik: "War Horse (Savaş Atı)", sure: "146 dk", tur: ["Savaş", "Doğa", "Tarih"], imdb: 7.2, ozet: "I. Dünya Savaşı'nın başlamasıyla çok sevdiği sahibi Albert'tan ayrılarak orduya satılan Joey adlı bir atın, savaşın acımasız cephelerinde farklı tarafların hayatlarına dokunduğu destansı yolculuğunu anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/d/da/War-horse-poster.jpg", driveDublaj: "https://drive.google.com/file/d/1IYtbPkusrlDdzfefgHaMKL2e1lh_9Gmq/preview", driveAltyazi: "https://drive.google.com/file/d/16Fi2G6oen-DXNLMdmKWOmkxi6xJjlAt8/preview", formLink: "tarih_form.html" },
+             { id: 2, baslik: "War Horse (Savaş Atı)", sure: "146 dk", tur: ["Savaş", "Doğa", "Tarih"], imdb: 7.2, ozet: "I. Dünya Savaşı'nın başlamasıyla çok sevdiği sahibi Albert'tan ayrılarak orduya satılan Joey adlı bir atın, savaşın acımasız cephelerinde farklı tarafların hayatlarına dokunduğu destansı yolculuğunu anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/d/da/War-horse-poster.jpg", driveDublaj: "https://drive.google.com/file/d/1IYtbPkusrlDdzfefgHaMKL2e1lh_9Gmq/preview", driveAltyazi: "https://drive.google.com/file/d/16Fi2G6oen-DXNLMdmKWOmkxi6xJjlAt8/preview", formLink: "tarih_form.html" },
             { id: 3, baslik: "Children of Men (Son Umut)", sure: "109 dk", tur: ["Aksiyon", "Bilim Kurgu" ], imdb: 7.9, ozet: "Küresel kısırlık krizi nedeniyle insanlığın soyunun tükenme noktasına geldiği kaotik bir yakın gelecekte, hayattan umudunu kesmiş bir adam, insanlığın kaderini değiştirebilecek çok riskli bir görevi üstlenmek zorunda kalır.", poster: "https://m.media-amazon.com/images/M/MV5BMDNkNmNiYzYtYWY0YS00NWEwLTgwMWUtYjM0M2E4Nzk3MzhmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", driveDublaj: "https://drive.google.com/file/d/1kJ25HUtrjy_mGJ-IU9dHNieUqZP6sb6l/preview", driveAltyazi: "https://drive.google.com/file/d/1iIJrvhsCNNwdEXYM-FSkb9YpJ_lzBD3g/preview", formLink: "bilim_kurgu.html" },
             { id: 4, baslik: "Les Choristes (Koro)", sure: "97 dk", tur: ["Müzik", "Dram"], imdb: 7.9, ozet: "İkinci Dünya Savaşı sonrası Fransa'da, katı bir yatılı okula atanan gözetmen Clément Mathieu, müziğin birleştirici gücünü kullanarak öğrencilerin hayatlarını değiştirmeye çalışır.", poster: "https://upload.wikimedia.org/wikipedia/tr/2/25/Chorus.jpg", driveDublaj: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", driveAltyazi: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", formLink: "dram_form.html" },
             { id: 5, baslik: "Rain Man (Yağmur Adam)", sure: "133 dk", tur: ["Dram"], imdb: 8.0, ozet: "Babasının mirasının büyük kısmının, varlığından bile haberdar olmadığı otistik dahi kardeşi Raymond'a bırakıldığını öğrenen Charlie'nin hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/b/b2/Rain_Man_poster.jpg", driveDublaj: "https://drive.google.com/file/d/107ovDbUJAb90HLfgU8y8oeYuSxTlKr-n/preview", driveAltyazi: "https://drive.google.com/file/d/1R9ppfdoab20fTUfBpWWsvh3cAAz2_UBP/preview", formLink: "dram_form.html" },
@@ -803,7 +840,7 @@
             { id: 44, baslik: "Black Swan (Siyah Kuğu)", sure: "108 dk", tur: ["Psikolojik Gerilim", "Dram", "Korku"], ozet: "New York'ta yaşayan genç ve hırslı balerin Nina (Natalie Portman), prestijli bir bale topluluğunun sahneleyeceği 'Kuğu Gölü' balesinde başrolü kapmak için büyük bir mücadele verir. Ancak bu rol, çift kişilikli bir performans gerektirir: Masum ve zarif Beyaz Kuğu ile karanlık, baştan çıkarıcı Siyah Kuğu. Nina, Beyaz Kuğu için mükemmel olsa da, yönetmeni onun Siyah Kuğu tarafını ortaya çıkarıp çıkaramayacağından şüphe eder. Bu sırada topluluğa katılan ve Siyah Kuğu'nun ruhunu doğal bir şekilde taşıyan rakibi Lily (Mila Kunis) ile aralarındaki rekabet, Nina'yı kendi sınırlarını zorlamaya iter. Mükemmellik arayışı, zamanla paranoyaya ve gerçeklikle hayalin birbirine karıştığı karanlık bir psikolojik çöküşe dönüşür.", poster: "https://upload.wikimedia.org/wikipedia/en/6/68/Black_Swan_poster.jpg", driveDublaj: "https://drive.google.com/file/d/1HLjPR52lfTVVlkg1iD6X7rgAuIvQQqrh/preview", driveAltyazi: "https://drive.google.com/file/d/1cNk0tXXAGsONj1ycCH_YqIHCpmgatLSx/preview", formLink: "dram_form.html" },
             { id: 45, baslik: "Im Westen nichts Neues (Batı Cephesinde Değişen Bir Şey Yok)", sure: "148 dk", tur: ["Savaş", "Tarih"], ozet: "Birinci Dünya Savaşı'nın patlak vermesiyle Almanya'da büyük bir vatanseverlik dalgası yayılır. Genç Paul Bäumer ve okul arkadaşları, öğretmenlerinin de teşvikiyle orduya katılmak için gönüllü olurlar. Savaşın bir macera olacağını ve kahraman olacaklarını hayal ederler. Ancak Batı Cephesi'ne ulaştıklarında, siperlerdeki acımasız gerçekle yüzleşirler. Coşku yerini hızla korkuya, açlığa ve umutsuzluğa bırakır. Film, savaşın fiziksel vahşetinin yanı sıra askerlerin yaşadığı psikolojik yıkımı ve savaşın anlamsızlığını, barış görüşmeleri sürerken dahi devam eden çatışmalar üzerinden çarpıcı bir şekilde anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/c/c3/All_quiet_on_the_western_front_%282022_film%29.jpg", driveDublaj: "https://drive.google.com/file/d/18gVM93_5KG9t32z5iGox4U7Te4JR98HU/preview", driveAltyazi: "https://drive.google.com/file/d/1xj5B6IOgB2U8GjGDpsVipxV_sXO3X62h/preview", formLink: "tarih_form.html" },
             { id: 46, baslik: "1917", sure: "119 dk", tur: ["Savaş", "Dram", "Tarih"], ozet: "I. Dünya Savaşı'nın en yoğun döneminde, iki genç İngiliz askeri Schofield ve Blake, neredeyse imkansız bir göreve atanır. Görevleri, düşman hattını geçerek, 1.600 askerin (içlerinde Blake'in ağabeyinin de bulunduğu) pusuya düşmesini engelleyecek hayati bir mesajı iletmektir. Zamanla yarışılan bu yolculukta, her saniye önemlidir. Film, teknik olarak tek bir kesintisiz plan (tek çekim) gibi görünecek şekilde kurgulanmıştır; bu da izleyiciyi askerlerin yanındaymış gibi hissettirerek gerilimi hiç düşürmeden savaşa tanıklık etmelerini sağlar.", poster: "https://upload.wikimedia.org/wikipedia/en/f/fe/1917_%282019%29_Film_Poster.jpeg", driveDublaj: "https://drive.google.com/file/d/1vMS1Y4qMlMwmyID8MJfZnbVb35BhEFF5/preview", driveAltyazi: "https://drive.google.com/file/d/1JcvjIZ2tTUae_rAf3xk1FQOSZK8p24R4/preview", formLink: "tarih_form.html" },
-            { id: 47, baslik: "King Lear", sure: "127 dk", tur: ["Dram", "Tarih"], ozet: "William Shakespeare'in ünlü oyunundan uyarlanan film, hikayeyi modern, distopik ve askeri bir diktatörlükle yönetilen bir Londra'ya taşır. Artık yaşlanan ve hükümdarlığını sonlandırmak isteyen Kral Lear (Anthony Hopkins), krallığını üç kızı arasında paylaştırmaya karar verir. Ancak payı, kendisine duydukları sevgiyi en süslü sözlerle ifade edenlere verecektir. İki büyük kızı sahte övgülerle babalarını memnun ederken, onu gerçekten seven en küçük kızı dürüstlüğü seçer ve bu yüzden sürgün edilir. Krallığı iki çıkarcı kızına bırakan Lear, çok geçmeden büyük bir ihanete uğrar. Gücünü kaybettikçe akıl sağlığını da yitirmeye başlayan kral, kendi kibri ve hatalarıyla yüzleşeceği trajik bir çöküşe sürüklenir.", poster: "https://upload.wikimedia.org/wikipedia/en/a/a7/King_Lear_%282018_film%29.jpg", driveDublaj: "https://drive.google.com/file/d/1bzz-iahaMjx_YGrrBoG8gQbg6-_li8a7/preview", driveAltyazi: "https://drive.google.com/file/d/1bzz-iahaMjx_YGrrBoG8gQbg6-_li8a7/preview", formLink: "dram_form.html" },
+            { id: 47, baslik: "King Lear", sure: "127 dk", tur: ["Distopya", "Dram", "Tarih"], ozet: "William Shakespeare'in ünlü oyunundan uyarlanan film, hikayeyi modern, distopik ve askeri bir diktatörlükle yönetilen bir Londra'ya taşır. Artık yaşlanan ve hükümdarlığını sonlandırmak isteyen Kral Lear (Anthony Hopkins), krallığını üç kızı arasında paylaştırmaya karar verir. Ancak payı, kendisine duydukları sevgiyi en süslü sözlerle ifade edenlere verecektir. İki büyük kızı sahte övgülerle babalarını memnun ederken, onu gerçekten seven en küçük kızı dürüstlüğü seçer ve bu yüzden sürgün edilir. Krallığı iki çıkarcı kızına bırakan Lear, çok geçmeden büyük bir ihanete uğrar. Gücünü kaybettikçe akıl sağlığını da yitirmeye başlayan kral, kendi kibri ve hatalarıyla yüzleşeceği trajik bir çöküşe sürüklenir.", poster: "https://upload.wikimedia.org/wikipedia/en/a/a7/King_Lear_%282018_film%29.jpg", driveDublaj: "https://drive.google.com/file/d/1bzz-iahaMjx_YGrrBoG8gQbg6-_li8a7/preview", driveAltyazi: "https://drive.google.com/file/d/1bzz-iahaMjx_YGrrBoG8gQbg6-_li8a7/preview", formLink: "dram_form.html" },
             
             /* --- COSMOS SERİSİ --- */
             { 
@@ -884,19 +921,41 @@
                     { ad: "Bölüm 7: Meslek Liseliler - Yemek Yarışması", link: "https://drive.google.com/file/d/1n0xDI7972O5t0AobGCK4nmqRwcNyxejj/preview" },
                    
                 ]
+
             },
+            { id: 79, baslik: "Evlidir Ne Yapsa Yeridir", sure: "88 dk", tur:  ["Romantik Komedi", "Aile"], ozet: "İsimleri efsanevi aşıklar Leyla (Hülya Koçyiğit) ve Mecnun (Kadir İnanır) olsa da, karakterleri birbirine tamamen zıt olan iki komşunun hikayesidir. Aynı apartmanda karşı dairelerde oturan ve sürekli kedi-köpek gibi didişen bu ikili, birbirlerinden nefret ettiklerini söyleseler de aslında içten içe büyük bir tutkuyla bağlıdırlar. Çevrelerinin de etkisiyle evlenmeye karar verirler ancak imza atmak kavgaları bitirmez, aksine daha da alevlendirir. Kıskançlık krizleri, inatlaşmalar, yanlış anlaşılmalar ve yan karakterlerin (özellikle Perran Kutman ve Şemsi İnkaya) müdahaleleriyle evlilikleri tam bir komedi tufanına dönüşür.", poster: "https://images.justwatch.com/poster/301555499/s718/evlidir-ne-yapsa-yeridir.jpg", driveDublaj: "https://drive.google.com/file/d/1UqWbH8uPpdOHvnrdH-LHZzaYT6C4EB7l/preview", driveAltyazi: "https://drive.google.com/file/d/1UqWbH8uPpdOHvnrdH-LHZzaYT6C4EB7l/preview", formLink: "" },
+            { id: 80, baslik: "Uzun Hikâye", sure: "116 dk", tur: ["Dram", "Aile"], ozet: "Film, 1940'lı yıllardan başlayarak 1970'lere kadar uzanan bir süreçte, Bulgaryalı Ali (Kenan İmirzalıoğlu) ile oğlu Mustafa'nın hüzünlü ama bir o kadar da umut dolu yolculuğunu anlatır. Ali, dürüstlüğü, mertliği ve haksızlıklara karşı asla susmamasıyla tanınan, lakabı 'Sosyalist'e çıkmış idealist bir adamdır. Ali'nin eşitlik ve adalet tutkusu, gittiği her kasabada düzenin tekerine çomak sokmasına neden olur. Bu yüzden hiçbir yerde kalıcı olamazlar; Ali, daktilosu ve oğlu Mustafa'yı yanına alarak diyar diyar sürülür. Film, bir yandan baba-oğul arasındaki sarsılmaz bağı işlerken, diğer yandan kasaba kasaba dolaşarak Türkiye’nin o dönemki sosyal ve siyasal değişimine ayna tutar.", poster: "https://upload.wikimedia.org/wikipedia/tr/0/03/Uzun_hikaye_2012_film_afis.jpg", driveDublaj: "https://drive.google.com/file/d/1iJoSzeo5Kc6OtZXgPmmCOhdEZiQ79rsg/preview", driveAltyazi: "https://drive.google.com/file/d/1iJoSzeo5Kc6OtZXgPmmCOhdEZiQ79rsg/preview", formLink: "dram_form" },
+            { id: 81, baslik: "Kabadayı", sure: "140 dk", tur: ["Suç", "Aksiyon", "Dram"], ozet: "Ali Osman (Şener Şen), kabadayılık aleminin yaşayan efsanesi, 'ezilenin koruyucusu' eski bir ağır abidir. Artık elini eteğini bu işlerden çekmiş, sakin bir hayat sürmektedir. Ancak yıllar sonra varlığından haberdar olduğu oğlu Murat'ın başının belada olduğunu öğrenince inzivadan çıkmak zorunda kalır. Oğlunun peşinde, yeraltı dünyasının yeni nesil, acımasız ve kural tanımaz lideri Devran (Kenan İmirzalıoğlu) vardır. Ali Osman, oğlunu korumak için sadece silahına değil, zekasına ve yılların tecrübesine ('racon' bilgisine) başvurmak zorundadır. Film, eski usul onurlu kabadayılık ile yeni nesil vahşi mafya düzeni arasındaki çatışmayı nefes kesen bir kovalamacayla anlatır.", poster: "https://upload.wikimedia.org/wikipedia/tr/6/64/Kabadayi.jpg", driveDublaj: "https://drive.google.com/file/d/1l5ViMBG53prNHNBf6komWcJ21EJQl8NB/preview", driveAltyazi: "https://drive.google.com/file/d/1l5ViMBG53prNHNBf6komWcJ21EJQl8NB/preview", formLink: "" },
+            { id: 82, baslik: "Hugo", sure: "126 dk", tur: ["Macera", "Aile", "Gizem"], ozet: "1930'ların Paris'inde geçen hikaye, bir tren istasyonunun duvarları arasına gizlenmiş saat kulesinde yaşayan kimsesiz çocuk Hugo Cabret'i konu alır. Hugo, istasyonun saatlerinin bakımını yaparken, bir yandan da yangında kaybettiği babasından kalan tek hatıra olan bozuk bir 'mekanik adamı' (otomatı) tamir etmeye çalışır. Hugo, otomatı çalıştırmak için gereken eksik parçayı ararken, oyuncak dükkanı sahibi yaşlı ve aksi bir adamla ve onun manevi kızı Isabelle ile tanışır. Bu karşılaşma, Hugo'yu sadece mekanik adamın sırrına değil, aynı zamanda sinema tarihinin unutulmuş bir efsanesine, Georges Méliès'in sihirli dünyasına götürecek bir maceraya sürükler. Film, sinemanın doğuşuna yazılmış bir aşk mektubu niteliğindedir.", poster: "https://upload.wikimedia.org/wikipedia/tr/3/38/Hugo_afi%C5%9F.jpg", driveDublaj: "https://drive.google.com/file/d/1EJ8zd8vK7YYVF0cxL8Ojdrb57T9chR5t/preview", driveAltyazi: "https://drive.google.com/file/d/1HcQkjTbchmpGKxn2IW7M1GpqIJAcF5YB/preview", formLink: "" },
+            { id: 83, baslik: "Moonrise Kingdom", sure: "94 dk", tur: ["Komedi", "Macera", "Romantik"], ozet: "1965 yılında New England kıyılarındaki hayali bir adada geçen hikaye, birbirine aşık olan ve gizli bir anlaşma yaparak vahşi doğaya kaçan 12 yaşındaki iki uyumsuz çocuğun, Sam ve Suzy'nin macerasını konu alır. Sam, Khaki İzcileri kampından firar etmiş yetim bir çocuktur; Suzy ise sorunlu ailesiyle yaşayan, dürbünü ve kitaplarıyla dünyayı uzaktan izleyen bir kızdır. Onların bu masum kaçışı, adadaki yetişkinleri (Şerif, İzci Lideri ve ebeveynler) telaşlı ve komik bir arama kurtarma operasyonuna sürükler. Ancak yaklaşmakta olan şiddetli bir fırtına, hem kaçak aşıkların planlarını hem de tüm adanın kaderini değiştirmek üzeredir.", poster: "https://upload.wikimedia.org/wikipedia/tr/e/ea/Moonrise_Kingdom_-_Poster.jpeg", driveDublaj: "https://drive.google.com/file/d/1ABA_70xeCVD8ED3vAAiUqu3T5UEuvyPt/preview", driveAltyazi: "https://drive.google.com/file/d/1d-E8mzkbEDOsB4s0YDovOKCpWT8g1usu/preview", formLink: "" },
+            { id: 85, baslik: "Liu Lang Di Qiu (The Wandering Earth)", sure: "127 dk", tur: ["Bilim Kurgu", "Distopya", "Aksiyon"], ozet: "Yakın bir gelecekte, Güneş hızla genişlemeye başlamış ve Dünya'yı yutacak bir tehdit haline gelmiştir. İnsanlık, yok olmaktan kurtulmak için benzeri görülmemiş bir proje başlatır: Gezegenin yüzeyine inşa edilen binlerce devasa füzyon motoruyla Dünya'yı yörüngesinden çıkarıp, 4.2 ışık yılı uzaklıktaki yeni bir yıldız sistemine taşımak. Dünya, bu 2500 yıl sürecek yolculuğun henüz başındayken, Jüpiter'in yanından geçişi sırasında dev gezegenin kütle çekimine yakalanır. Motorların arızalanmasıyla Dünya, Jüpiter'e çarpmak üzeredir. Bir grup beklenmedik kahraman ve kurtarma ekibi, motorları yeniden çalıştırıp milyarlarca insanın hayatını kurtarmak için umutsuz ve nefes kesen bir mücadeleye girişir.", poster: "https://filmcentric.wordpress.com/wp-content/uploads/2020/08/liulang-diqiu-2019-poster.jpg", driveDublaj: "https://drive.google.com/file/d/1SuTwHFDxTWIp8txk7elE7csKnx9uanil/preview", driveAltyazi: "https://drive.google.com/file/d/1SuTwHFDxTWIp8txk7elE7csKnx9uanil/preview", formLink: "bilim_kurgu.html" },
+            { id: 86, baslik: "Now You See Me (Sihirbazlar Çetesi)", sure: "115 dk", tur: ["Suç", "Gizem", "Gerilim"], ozet: "Dünyanın en yetenekli dört sokak sihirbazı, gizemli bir davet üzerine bir araya gelerek Dört Atlı' (The Four Horsemen) grubunu kurar. Las Vegas'taki devasa gösterileri sırasında, teknoloji ve illüzyonu birleştirerek imkansız bir şeyi başarırlar: Sahnede dururken, saniyeler içinde Paris'teki bir bankayı soyar ve çaldıkları milyonlarca Euro'yu salondaki izleyicilerin üzerine yağdırırlar. FBI ajanı Dylan Rhodes ve Interpol, bu 'sihirli' soygunun nasıl yapıldığını çözmek ve grubu bir sonraki eylemlerinden önce durdurmak için harekete geçer. Ancak kanıt bulmak imkansız gibidir. Polisler, işin içinden çıkamayınca sihirbazların hilelerini ifşa etmesiyle ünlü Thaddeus Bradley'den yardım isterler. Ancak Dört Atlı, her zaman polisten bir adım öndedir ve asıl büyük numaraları henüz başlamamıştır.", poster: "https://upload.wikimedia.org/wikipedia/tr/c/c7/Now_You_See_Me_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1CssgEhayf9H8lD1o0VndBEk2IPafiO7V/preview", driveAltyazi: "https://drive.google.com/file/d/1CssgEhayf9H8lD1o0VndBEk2IPafiO7V/preview", formLink: "" },
+            { id: 86, baslik: "Oblivion", sure: "124 dk", tur: ["Bilim Kurgu", "Distopya"], ozet: "Yıl 2077. Dünya, 'Scav' adı verilen uzaylı istilacılarla yapılan savaşı kazanmış olsa da, nükleer silah kullanımı nedeniyle gezegen tamamen yaşanmaz hale gelmiştir. İnsanlığın geri kalanı Titan uydusuna göç etmiştir. Jack Harper (Tom Cruise), Dünya yüzeyinde kalan son insansız hava aracı (İHA) tamircilerinden biri olarak, hayati kaynakların çıkarılmasını sağlayan devasa hidro-kuleleri korumakla görevlidir. Hafızası silinmiş olan Jack'in görevi bitmek üzeredir. Ancak rutin bir devriye sırasında, düşen bir uzay gemisinden Julia adında bir kadını kurtarır. Tanımadığı bu kadının rüyalarındaki kişi olması ve Jack'in geçmişine dair sarsıcı sırlar taşıması, onun bildiği her şeyi ve savaşın gerçek yüzünü sorgulamasına neden olur.", poster: "https://upload.wikimedia.org/wikipedia/tr/8/83/Oblivion_2013_film_afi%C5%9Fi.jpg", driveDublaj: "https://drive.google.com/file/d/10q4Eqx_Ar4YMUamJeprMDLvjwBKEckU0/preview", driveAltyazi: "https://drive.google.com/file/d/1EextYq69p-9LbYFavfZHkpPDIAkBMXZr/preview", formLink: "bilim_kurgu.html" },
+
+        ];
+
+        /* --- SÖZLER (QUOTES) LİSTESİ --- */
+        const quotes = [
+            "de te fabula narratur! (anlatılan senin hikayendir)",
+            "En karanlık zamanlarda bile mutluluk bulunabilir; sadece ışıkları yakmayı unutmayın. —Dumbledore",
+            "Uçmak istiyorsan, seni aşağı çeken her şeyi bırakmalısın. —Up",
+            "Ölülere acıma Harry. Yaşayanlara acı; en çok da sevgisiz yaşayanlara.",
+            "Haklı olmakla nazik olmak arasında bir seçim yapmanız gerektiğinde, nazik olmayı seçin.",
+            "Neden düşeriz Bruce? Tekrar ayağa kalkmayı öğrenebilmek için.",
 
         ];
 
         document.addEventListener("DOMContentLoaded", () => {
             initFilms(filmler);
             setSeasonalBackground(); 
+            setRandomQuote(); // Günün sözünü ayarla
+
             if(localStorage.getItem('theme') === 'dark') document.body.setAttribute('data-theme', 'dark');
             if(localStorage.getItem('isLoggedIn') === 'true') {
                 document.getElementById("login-overlay").style.display = "none";
                 document.getElementById("app-container").style.display = "flex";
                 updateProgress(); 
-                checkLastWatched(); // Giriş yapılmışsa son izleneni kontrol et
+                checkLastWatched(); 
             }
             document.getElementById("password-input").addEventListener("keypress", (e) => { if(e.key === "Enter") checkPassword(); });
             setTimeout(hideLoader, 1500); 
@@ -1067,6 +1126,14 @@
             const seasonImages = backgroundImages[season];
             const randomImage = seasonImages[Math.floor(Math.random() * seasonImages.length)];
             document.body.style.backgroundImage = `linear-gradient(var(--overlay-color), var(--overlay-color)), url('${randomImage}')`;
+        }
+        
+        function setRandomQuote() {
+            const quoteElement = document.getElementById("dynamic-quote");
+            if (quoteElement && quotes.length > 0) {
+                const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+                quoteElement.innerText = randomQuote;
+            }
         }
 
         function initFilms(data) {
@@ -1367,6 +1434,7 @@
                 closeModal('sitemap-modal');
                 closeModal('announcement-modal');
 				closeModal('guide-modal'); 
+                closeModal('settings-modal');
             }
         });
 
@@ -1444,6 +1512,49 @@
                     setTimeout(() => { toast.style.display = 'none'; }, 10000);
                 }
             }
+        }
+
+        /* --- VERİ YEDEKLEME FONKSİYONLARI --- */
+        function downloadBackup() {
+            const data = {};
+            // Sadece gerekli verileri al (Extension çöplerini alma)
+            for (let i = 0; i < localStorage.length; i++) {
+                const key = localStorage.key(i);
+                if(key.startsWith('watched_') || key.startsWith('bookmark_') || key.startsWith('vote_') || key === 'theme' || key === 'last_watched') {
+                    data[key] = localStorage.getItem(key);
+                }
+            }
+            
+            const blob = new Blob([JSON.stringify(data)], {type: 'application/json'});
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'bogazici_sinema_yedek.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            showToast("Yedekleme Dosyası İndirildi!", "success");
+        }
+
+        function restoreBackup(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    for (const key in data) {
+                        localStorage.setItem(key, data[key]);
+                    }
+                    showToast("Yedek Başarıyla Yüklendi! Sayfa Yenileniyor...", "success");
+                    setTimeout(() => location.reload(), 1500);
+                } catch (err) {
+                    showToast("Hata: Geçersiz Yedek Dosyası!", "info");
+                    console.error(err);
+                }
+            };
+            reader.readAsText(file);
         }
 
     </script>
