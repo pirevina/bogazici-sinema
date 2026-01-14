@@ -3,10 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <meta name="robots" content="noindex, nofollow"> 
-    
-    <title>Boğaziçi Koleji Film Platformu (V1.0)</title>
+    <title>Boğaziçi Koleji Film Platformu (BETA)</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
@@ -249,6 +247,69 @@
             align-self: flex-start; display: flex; align-items: center; gap: 10px;
         }
         .hero-btn:hover { background: var(--accent); color: white; transform: scale(1.05); }
+
+        /* --- YENİ EKLENEN: RUH HALİ (MOOD) SEÇİCİ CSS --- */
+        .mood-section {
+            text-align: center;
+            padding: 20px;
+            margin: 20px auto;
+            width: 95%;
+            max-width: 1000px;
+            background: var(--bg-card);
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+        
+        .mood-title {
+            font-size: 1.1rem;
+            color: var(--text-sec);
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .mood-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .mood-btn {
+            background: var(--bg-main);
+            border: 2px solid transparent;
+            border-radius: 15px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 100px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .mood-emoji { font-size: 2rem; margin-bottom: 5px; transition: 0.3s; }
+        .mood-label { font-size: 0.9rem; font-weight: 600; color: var(--text-main); }
+
+        .mood-btn:hover {
+            transform: translateY(-5px) scale(1.05);
+            background: var(--nav-bg);
+            border-color: var(--accent);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .mood-btn:hover .mood-emoji { transform: scale(1.2) rotate(10deg); }
+        .mood-btn.active { background: var(--accent); border-color: var(--accent); }
+        .mood-btn.active .mood-label { color: white; }
+
+        @media (max-width: 768px) {
+            .mood-btn { min-width: 80px; padding: 10px; }
+            .mood-emoji { font-size: 1.5rem; }
+            .mood-label { font-size: 0.75rem; }
+        }
 
         /* ETİKET BULUTU */
         .tag-cloud { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; padding: 20px 30px; background: transparent; }
@@ -553,6 +614,41 @@
             </div>
         </div>
 
+        <div class="mood-section">
+            <div class="mood-title">✨ Bugün Nasıl Hissediyorsun?</div>
+            <div class="mood-container">
+                <button class="mood-btn" onclick="filterByMood('happy')">
+                    <span class="mood-emoji">😂</span>
+                    <span class="mood-label">Neşeli</span>
+                </button>
+                
+                <button class="mood-btn" onclick="filterByMood('sad')">
+                    <span class="mood-emoji">🥺</span>
+                    <span class="mood-label">Duygusal</span>
+                </button>
+                
+                <button class="mood-btn" onclick="filterByMood('excited')">
+                    <span class="mood-emoji">🤩</span>
+                    <span class="mood-label">Heyecanlı</span>
+                </button>
+                
+                <button class="mood-btn" onclick="filterByMood('curious')">
+                    <span class="mood-emoji">🧐</span>
+                    <span class="mood-label">Meraklı</span>
+                </button>
+
+                <button class="mood-btn" onclick="filterByMood('tired')">
+                    <span class="mood-emoji">☕</span>
+                    <span class="mood-label">Yorgun</span>
+                </button>
+
+                <button class="mood-btn" onclick="filterByMood('brave')">
+                    <span class="mood-emoji">😎</span>
+                    <span class="mood-label">Cesur</span>
+                </button>
+            </div>
+        </div>
+
         <div class="tag-cloud">
             <button class="tag-btn active" onclick="filterGenre('all')"><i class="fas fa-th-large"></i> Tümü</button>
             <button class="tag-btn" onclick="filterGenre('favoriler')"><i class="fas fa-bookmark"></i> Listem</button>
@@ -569,9 +665,15 @@
 
         <div class="movie-grid" id="movie-grid"></div>
         
-        <footer>
-            <div class="footer-content"><p>&copy; 2025 - Boğaziçi Koleji Sosyal Medya ve Bilişim Kulübü // Sadece eğitim amaçlı kullanılmak üzere kulübümüz tarafından tasarlanmıştır.</p></div>
-        </footer>
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2025 - Boğaziçi Koleji Sosyal Medya ve Bilişim Kulübü // Sadece eğitim amaçlı kullanılmak üzere kulübümüz tarafından tasarlanmıştır.</p>
+        
+        <p style="color: #C2281D; text-align: center; margin-top: 5px; font-size: 0.85em; font-family: 'Courier New', Courier, monospace;">
+            Proje; Pelda & Murat Mutlu tarafından yürütülmektedir.
+        </p>
+    </div>
+</footer>
     </div>
 
     <div id="player-modal" class="modal">
@@ -724,12 +826,11 @@
         let currentMovieId = null; 
 
         // --- FİLM LİSTESİ ---
+        // !!! BURAYA DİKKAT !!!
+        // Aşağıdaki [ ... ] arasındaki kısmı silip kendi uzun film listeni yapıştıracaksın.
         const filmler = [
-            // İNDİRME LİNKLERİ BURAYA:
-            // Manuel link eklemek istersen şu formatı kullan: indirmeLinki: "https://..."
-            // Eğer boş bırakırsan sistem otomatik olarak Drive izleme linkini indirme linkine çevirmeye çalışır.
             { id: 1, baslik: "The Martian (Marslı)", indirmeLinki: "", sure: "144 dk", tur: ["Bilim Kurgu", "Aksiyon"], imdb: 8.0, ozet: "Mars'taki bir görev sırasında öldü sanılarak geride bırakılan astronot Mark Watney, zekasını ve botanik bilgisini kullanarak sınırlı kaynaklarla hayatta kalma mücadelesi verir.", poster: "https://upload.wikimedia.org/wikipedia/tr/7/7d/Marsl%C4%B1_-_afi%C5%9F.jpg", driveDublaj: "https://drive.google.com/file/d/1RKF2jzVQuvAZFKFQZWnFQRuVJVgJbLxq/preview", driveAltyazi: "https://drive.google.com/file/d/1x21b8Z5JI_3s3O6h6j-lhGJQv01F4qH-/preview", formLink: "bilim_kurgu.html" },
-             { id: 2, baslik: "War Horse (Savaş Atı)", sure: "146 dk", tur: ["Savaş", "Doğa", "Tarih"], imdb: 7.2, ozet: "I. Dünya Savaşı'nın başlamasıyla çok sevdiği sahibi Albert'tan ayrılarak orduya satılan Joey adlı bir atın, savaşın acımasız cephelerinde farklı tarafların hayatlarına dokunduğu destansı yolculuğunu anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/d/da/War-horse-poster.jpg", driveDublaj: "https://drive.google.com/file/d/1IYtbPkusrlDdzfefgHaMKL2e1lh_9Gmq/preview", driveAltyazi: "https://drive.google.com/file/d/16Fi2G6oen-DXNLMdmKWOmkxi6xJjlAt8/preview", formLink: "tarih_form.html" },
+            { id: 2, baslik: "War Horse (Savaş Atı)", sure: "146 dk", tur: ["Savaş", "Doğa", "Tarih"], imdb: 7.2, ozet: "I. Dünya Savaşı'nın başlamasıyla çok sevdiği sahibi Albert'tan ayrılarak orduya satılan Joey adlı bir atın, savaşın acımasız cephelerinde farklı tarafların hayatlarına dokunduğu destansı yolculuğunu anlatır.", poster: "https://upload.wikimedia.org/wikipedia/en/d/da/War-horse-poster.jpg", driveDublaj: "https://drive.google.com/file/d/1IYtbPkusrlDdzfefgHaMKL2e1lh_9Gmq/preview", driveAltyazi: "https://drive.google.com/file/d/16Fi2G6oen-DXNLMdmKWOmkxi6xJjlAt8/preview", formLink: "tarih_form.html" },
             { id: 3, baslik: "Children of Men (Son Umut)", sure: "109 dk", tur: ["Aksiyon", "Bilim Kurgu" ], imdb: 7.9, ozet: "Küresel kısırlık krizi nedeniyle insanlığın soyunun tükenme noktasına geldiği kaotik bir yakın gelecekte, hayattan umudunu kesmiş bir adam, insanlığın kaderini değiştirebilecek çok riskli bir görevi üstlenmek zorunda kalır.", poster: "https://m.media-amazon.com/images/M/MV5BMDNkNmNiYzYtYWY0YS00NWEwLTgwMWUtYjM0M2E4Nzk3MzhmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", driveDublaj: "https://drive.google.com/file/d/1kJ25HUtrjy_mGJ-IU9dHNieUqZP6sb6l/preview", driveAltyazi: "https://drive.google.com/file/d/1iIJrvhsCNNwdEXYM-FSkb9YpJ_lzBD3g/preview", formLink: "bilim_kurgu.html" },
             { id: 4, baslik: "Les Choristes (Koro)", sure: "97 dk", tur: ["Müzik", "Dram"], imdb: 7.9, ozet: "İkinci Dünya Savaşı sonrası Fransa'da, katı bir yatılı okula atanan gözetmen Clément Mathieu, müziğin birleştirici gücünü kullanarak öğrencilerin hayatlarını değiştirmeye çalışır.", poster: "https://upload.wikimedia.org/wikipedia/tr/2/25/Chorus.jpg", driveDublaj: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", driveAltyazi: "https://drive.google.com/file/d/1S0BKXz2zrJfWFD5qgmH552PLshUP9pzV/preview", formLink: "dram_form.html" },
             { id: 5, baslik: "Rain Man (Yağmur Adam)", sure: "133 dk", tur: ["Dram"], imdb: 8.0, ozet: "Babasının mirasının büyük kısmının, varlığından bile haberdar olmadığı otistik dahi kardeşi Raymond'a bırakıldığını öğrenen Charlie'nin hikayesi.", poster: "https://upload.wikimedia.org/wikipedia/en/b/b2/Rain_Man_poster.jpg", driveDublaj: "https://drive.google.com/file/d/107ovDbUJAb90HLfgU8y8oeYuSxTlKr-n/preview", driveAltyazi: "https://drive.google.com/file/d/1R9ppfdoab20fTUfBpWWsvh3cAAz2_UBP/preview", formLink: "dram_form.html" },
@@ -930,7 +1031,7 @@
             { id: 83, baslik: "Moonrise Kingdom", sure: "94 dk", tur: ["Komedi", "Macera", "Romantik"], ozet: "1965 yılında New England kıyılarındaki hayali bir adada geçen hikaye, birbirine aşık olan ve gizli bir anlaşma yaparak vahşi doğaya kaçan 12 yaşındaki iki uyumsuz çocuğun, Sam ve Suzy'nin macerasını konu alır. Sam, Khaki İzcileri kampından firar etmiş yetim bir çocuktur; Suzy ise sorunlu ailesiyle yaşayan, dürbünü ve kitaplarıyla dünyayı uzaktan izleyen bir kızdır. Onların bu masum kaçışı, adadaki yetişkinleri (Şerif, İzci Lideri ve ebeveynler) telaşlı ve komik bir arama kurtarma operasyonuna sürükler. Ancak yaklaşmakta olan şiddetli bir fırtına, hem kaçak aşıkların planlarını hem de tüm adanın kaderini değiştirmek üzeredir.", poster: "https://upload.wikimedia.org/wikipedia/tr/e/ea/Moonrise_Kingdom_-_Poster.jpeg", driveDublaj: "https://drive.google.com/file/d/1ABA_70xeCVD8ED3vAAiUqu3T5UEuvyPt/preview", driveAltyazi: "https://drive.google.com/file/d/1d-E8mzkbEDOsB4s0YDovOKCpWT8g1usu/preview", formLink: "" },
             { id: 85, baslik: "Liu Lang Di Qiu (The Wandering Earth)", sure: "127 dk", tur: ["Bilim Kurgu", "Distopya", "Aksiyon"], ozet: "Yakın bir gelecekte, Güneş hızla genişlemeye başlamış ve Dünya'yı yutacak bir tehdit haline gelmiştir. İnsanlık, yok olmaktan kurtulmak için benzeri görülmemiş bir proje başlatır: Gezegenin yüzeyine inşa edilen binlerce devasa füzyon motoruyla Dünya'yı yörüngesinden çıkarıp, 4.2 ışık yılı uzaklıktaki yeni bir yıldız sistemine taşımak. Dünya, bu 2500 yıl sürecek yolculuğun henüz başındayken, Jüpiter'in yanından geçişi sırasında dev gezegenin kütle çekimine yakalanır. Motorların arızalanmasıyla Dünya, Jüpiter'e çarpmak üzeredir. Bir grup beklenmedik kahraman ve kurtarma ekibi, motorları yeniden çalıştırıp milyarlarca insanın hayatını kurtarmak için umutsuz ve nefes kesen bir mücadeleye girişir.", poster: "https://filmcentric.wordpress.com/wp-content/uploads/2020/08/liulang-diqiu-2019-poster.jpg", driveDublaj: "https://drive.google.com/file/d/1SuTwHFDxTWIp8txk7elE7csKnx9uanil/preview", driveAltyazi: "https://drive.google.com/file/d/1SuTwHFDxTWIp8txk7elE7csKnx9uanil/preview", formLink: "bilim_kurgu.html" },
             { id: 86, baslik: "Now You See Me (Sihirbazlar Çetesi)", sure: "115 dk", tur: ["Suç", "Gizem", "Gerilim"], ozet: "Dünyanın en yetenekli dört sokak sihirbazı, gizemli bir davet üzerine bir araya gelerek Dört Atlı' (The Four Horsemen) grubunu kurar. Las Vegas'taki devasa gösterileri sırasında, teknoloji ve illüzyonu birleştirerek imkansız bir şeyi başarırlar: Sahnede dururken, saniyeler içinde Paris'teki bir bankayı soyar ve çaldıkları milyonlarca Euro'yu salondaki izleyicilerin üzerine yağdırırlar. FBI ajanı Dylan Rhodes ve Interpol, bu 'sihirli' soygunun nasıl yapıldığını çözmek ve grubu bir sonraki eylemlerinden önce durdurmak için harekete geçer. Ancak kanıt bulmak imkansız gibidir. Polisler, işin içinden çıkamayınca sihirbazların hilelerini ifşa etmesiyle ünlü Thaddeus Bradley'den yardım isterler. Ancak Dört Atlı, her zaman polisten bir adım öndedir ve asıl büyük numaraları henüz başlamamıştır.", poster: "https://upload.wikimedia.org/wikipedia/tr/c/c7/Now_You_See_Me_Poster.jpg", driveDublaj: "https://drive.google.com/file/d/1CssgEhayf9H8lD1o0VndBEk2IPafiO7V/preview", driveAltyazi: "https://drive.google.com/file/d/1CssgEhayf9H8lD1o0VndBEk2IPafiO7V/preview", formLink: "" },
-            { id: 86, baslik: "Oblivion", sure: "124 dk", tur: ["Bilim Kurgu", "Distopya"], ozet: "Yıl 2077. Dünya, 'Scav' adı verilen uzaylı istilacılarla yapılan savaşı kazanmış olsa da, nükleer silah kullanımı nedeniyle gezegen tamamen yaşanmaz hale gelmiştir. İnsanlığın geri kalanı Titan uydusuna göç etmiştir. Jack Harper (Tom Cruise), Dünya yüzeyinde kalan son insansız hava aracı (İHA) tamircilerinden biri olarak, hayati kaynakların çıkarılmasını sağlayan devasa hidro-kuleleri korumakla görevlidir. Hafızası silinmiş olan Jack'in görevi bitmek üzeredir. Ancak rutin bir devriye sırasında, düşen bir uzay gemisinden Julia adında bir kadını kurtarır. Tanımadığı bu kadının rüyalarındaki kişi olması ve Jack'in geçmişine dair sarsıcı sırlar taşıması, onun bildiği her şeyi ve savaşın gerçek yüzünü sorgulamasına neden olur.", poster: "https://upload.wikimedia.org/wikipedia/tr/8/83/Oblivion_2013_film_afi%C5%9Fi.jpg", driveDublaj: "https://drive.google.com/file/d/10q4Eqx_Ar4YMUamJeprMDLvjwBKEckU0/preview", driveAltyazi: "https://drive.google.com/file/d/1EextYq69p-9LbYFavfZHkpPDIAkBMXZr/preview", formLink: "bilim_kurgu.html" },
+            { id: 87, baslik: "Oblivion", sure: "124 dk", tur: ["Bilim Kurgu", "Distopya"], ozet: "Yıl 2077. Dünya, 'Scav' adı verilen uzaylı istilacılarla yapılan savaşı kazanmış olsa da, nükleer silah kullanımı nedeniyle gezegen tamamen yaşanmaz hale gelmiştir. İnsanlığın geri kalanı Titan uydusuna göç etmiştir. Jack Harper (Tom Cruise), Dünya yüzeyinde kalan son insansız hava aracı (İHA) tamircilerinden biri olarak, hayati kaynakların çıkarılmasını sağlayan devasa hidro-kuleleri korumakla görevlidir. Hafızası silinmiş olan Jack'in görevi bitmek üzeredir. Ancak rutin bir devriye sırasında, düşen bir uzay gemisinden Julia adında bir kadını kurtarır. Tanımadığı bu kadının rüyalarındaki kişi olması ve Jack'in geçmişine dair sarsıcı sırlar taşıması, onun bildiği her şeyi ve savaşın gerçek yüzünü sorgulamasına neden olur.", poster: "https://upload.wikimedia.org/wikipedia/tr/8/83/Oblivion_2013_film_afi%C5%9Fi.jpg", driveDublaj: "https://drive.google.com/file/d/10q4Eqx_Ar4YMUamJeprMDLvjwBKEckU0/preview", driveAltyazi: "https://drive.google.com/file/d/1EextYq69p-9LbYFavfZHkpPDIAkBMXZr/preview", formLink: "bilim_kurgu.html" },
 
         ];
 
@@ -1003,8 +1104,8 @@
                 document.getElementById("app-container").style.display = "flex";
                 setSeasonalBackground();
                 updateProgress();
-                checkLastWatched(); // Yeni giriş yapıldığında son izleneni kontrol et
-                showToast("Sisteme Başarıyla Giriş Yapıldı!", "success"); // Toast eklendi
+                checkLastWatched(); 
+                showToast("Sisteme Başarıyla Giriş Yapıldı!", "success"); 
             } else {
                 const errorP = document.getElementById("error-msg");
                 errorP.innerText = "Şifre Yanlış!";
@@ -1016,17 +1117,15 @@
             const validFilms = filmler.filter(f => f.baslik !== "Deneme");
             const totalMovies = validFilms.length;
             let watchedCount = 0;
-            let totalMinutes = 0; // Toplam süre hesaplama
+            let totalMinutes = 0; 
 
             validFilms.forEach(film => {
                 if(localStorage.getItem('watched_' + film.id) === 'true') {
                     watchedCount++;
                     
-                    // Süre Hesaplama
                     if (film.sure) {
                         let sure = parseInt(film.sure);
                         if (!isNaN(sure)) {
-                            // Eğer 'Bölüm' içeriyorsa ortalama 50 dk ile çarp
                             if (film.sure.toLowerCase().includes("bölüm")) {
                                 totalMinutes += (sure * 50);
                             } else {
@@ -1037,12 +1136,10 @@
                 }
             });
 
-            // Yüzde Hesaplama
             const percentage = Math.round((watchedCount / totalMovies) * 100);
             document.getElementById("progress-text").innerText = `${watchedCount} / ${totalMovies} Film`;
             document.getElementById("progress-bar").style.width = `${percentage}%`;
 
-            // Süreyi Ekrana Yazdırma
             const hours = Math.floor(totalMinutes / 60);
             const minutes = totalMinutes % 60;
             let timeText = "0 dk";
@@ -1053,7 +1150,6 @@
             }
             document.getElementById("total-time").innerText = timeText;
 
-            // Rütbe Belirleme
             const rankTitle = document.getElementById("user-rank");
             if (watchedCount === 0) rankTitle.innerText = "Yeni Başlayan";
             else if (watchedCount <= 5) rankTitle.innerText = "Çaylak";
@@ -1067,7 +1163,7 @@
             if(validFilms.length > 0) {
                 const randomFilm = validFilms[Math.floor(Math.random() * validFilms.length)];
                 openPlayer(randomFilm.id, 'dublaj');
-                showToast("Şanslı Filminiz Seçildi!", "info"); // Toast eklendi
+                showToast("Şanslı Filminiz Seçildi!", "info"); 
             }
         }
 
@@ -1146,7 +1242,7 @@
                 const div = document.createElement("div");
                 div.className = "movie-card";
                 const isWatched = localStorage.getItem('watched_' + film.id) === 'true';
-                const isBookmarked = localStorage.getItem('bookmark_' + film.id) === 'true'; // Bookmark kontrolü
+                const isBookmarked = localStorage.getItem('bookmark_' + film.id) === 'true'; 
                 
                 let tagsHtml = '';
                 if (Array.isArray(film.tur)) { tagsHtml = film.tur.map(t => `<span>${t}</span>`).join(''); } 
@@ -1201,7 +1297,6 @@
             updateProgress();
         }
 
-        // --- FAVORİ (BOOKMARK) İŞLEVİ ---
         function toggleBookmark(id, event) {
             event.stopPropagation();
             const currentStatus = localStorage.getItem('bookmark_' + id) === 'true';
@@ -1215,7 +1310,6 @@
                 btn.classList.remove('active');
                 showToast("Listemden Çıkarıldı", "info");
                 
-                // Eğer şu an 'Listem' sayfasındaysak, çıkarılan filmi ekrandan hemen sil
                 const activeBtn = document.querySelector('.tag-btn.active');
                 if(activeBtn && activeBtn.textContent.includes('Listem')) {
                      filterGenre('favoriler');
@@ -1227,7 +1321,6 @@
             const iframe = document.getElementById("main-player");
             iframe.src = link;
 
-            // --- BÖLÜM DEĞİŞİNCE İNDİRME LİNKİNİ DE GÜNCELLE ---
             const downloadBtn = document.getElementById("download-btn");
             if(link && link.includes("drive.google.com")) {
                 let downloadLink = link.replace("/preview", "/view");
@@ -1238,7 +1331,6 @@
             }
         }
 
-        // --- IŞIKLARI KAPAT FONKSİYONU ---
         function toggleLights() {
             document.getElementById('player-modal').classList.toggle('cinema-mode');
         }
@@ -1246,7 +1338,6 @@
         function openPlayer(id, type) {
             currentMovieId = id; 
             
-            // --- SON İZLENEN FİLMİ KAYDET ---
             localStorage.setItem('last_watched', id);
 
             const film = filmler.find(f => f.id === id);
@@ -1293,7 +1384,6 @@
                 evalBtn.style.display = "none";
             }
             
-            // --- YENİ İNDİRME BUTONU MANTIĞI ---
             const downloadBtn = document.getElementById("download-btn");
             let activeLink = "";
 
@@ -1358,7 +1448,6 @@
                 const iframe = document.getElementById("main-player");
                 iframe.removeAttribute('src'); 
                 currentMovieId = null;
-                // Modal kapanınca ışıkları aç
                 document.getElementById('player-modal').classList.remove('cinema-mode');
             }
         }
@@ -1373,13 +1462,11 @@
             const clearBtn = document.getElementById("clear-btn");
             const q = input.value.toLowerCase();
 
-            // --- EASTER EGG KONTROLÜ (BEKÇİ) ---
             if (checkEasterEggs(q)) {
-                input.value = ""; // Şifre girilince kutuyu temizle
+                input.value = ""; 
                 clearBtn.style.display = "none";
-                return; // Normal aramayı durdur
+                return; 
             }
-            // -----------------------------------
 
             if(q.length > 0) {
                 clearBtn.style.display = "block";
@@ -1401,6 +1488,9 @@
             document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
             event.target.classList.add('active');
             
+            // Eğer "Mood" seçildiyse onun aktifliğini kaldır
+            document.querySelectorAll('.mood-btn').forEach(b => b.classList.remove('active'));
+
             if(genre === 'all') { 
                 initFilms(filmler); 
             } 
@@ -1414,6 +1504,64 @@
                 });
                 initFilms(filtered);
             }
+        }
+        
+        /* --- MOOD FILTER MANTIĞI --- */
+        function filterByMood(mood) {
+            // Butonların aktiflik görüntüsünü güncelle
+            document.querySelectorAll('.mood-btn').forEach(btn => btn.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+
+            let filteredFilms = [];
+            let message = "";
+
+            // Hangi ruh hali seçildiyse ona uygun türleri filtrele
+            switch(mood) {
+                case 'happy': // Neşeli -> Komedi, Animasyon, Aile
+                    filteredFilms = filmler.filter(f => checkGenre(f, ['Komedi', 'Animasyon', 'Aile', 'Müzik']));
+                    message = "Seni güldürecek filmler listelendi! 😂";
+                    break;
+                
+                case 'sad': // Duygusal -> Dram, Romantik
+                    filteredFilms = filmler.filter(f => checkGenre(f, ['Dram', 'Romantik', 'Biyografi']));
+                    message = "Peçeteleri hazırla, duygusal filmler geldi. 🥺";
+                    break;
+
+                case 'excited': // Heyecanlı -> Aksiyon, Macera, Savaş
+                    filteredFilms = filmler.filter(f => checkGenre(f, ['Aksiyon', 'Macera', 'Savaş', 'Yarış']));
+                    message = "Adrenalin dolu filmler listelendi! 🤩";
+                    break;
+
+                case 'curious': // Meraklı -> Belgesel, Tarih, Bilim, Gizem
+                    filteredFilms = filmler.filter(f => checkGenre(f, ['Belgesel', 'Tarih', 'Bilim', 'Gizem', 'Suç']));
+                    message = "Ufuk açıcı içerikler listelendi. 🧐";
+                    break;
+                
+                case 'tired': // Yorgun -> Animasyon, Doğa (Kafa yormayan)
+                    filteredFilms = filmler.filter(f => checkGenre(f, ['Animasyon', 'Doğa', 'Aile', 'Fantastik']));
+                    message = "Arkana yaslan, seni yormayacak filmler burada. ☕";
+                    break;
+
+                case 'brave': // Cesur -> Korku, Gerilim, Distopya
+                    filteredFilms = filmler.filter(f => checkGenre(f, ['Korku', 'Gerilim', 'Distopya', 'Politik Gerilim']));
+                    message = "Cesaretini topla! Gerilim dolu filmler geldi. 😎";
+                    break;
+            }
+
+            // Listeyi ekrana bas
+            initFilms(filteredFilms);
+            
+            // Bilgi mesajı göster
+            showToast(message, "info");
+
+            // Karışıklık olmasın diye alttaki etiket butonlarının seçimini kaldır
+            document.querySelectorAll('.tag-btn').forEach(b => b.classList.remove('active'));
+        }
+
+        // Yardımcı Fonksiyon: Film türlerini kontrol eder
+        function checkGenre(film, targetGenres) {
+            let filmGenres = Array.isArray(film.tur) ? film.tur : [film.tur];
+            return filmGenres.some(g => targetGenres.includes(g));
         }
 
         window.onclick = function(e) {
@@ -1472,7 +1620,6 @@
             return false; 
         }
 
-        // Basit Konfeti Yapıcı
         function startConfetti() {
             const colors = ['#e74c3c', '#3498db', '#f1c40f', '#2ecc71', '#9b59b6'];
             for (let i = 0; i < 100; i++) {
@@ -1487,7 +1634,6 @@
             }
         }
 
-        // --- KALDIĞIN YERDEN DEVAM ET FONKSİYONU ---
         function checkLastWatched() {
             const lastId = localStorage.getItem('last_watched');
             if (lastId) {
@@ -1508,7 +1654,6 @@
                     `;
                     toast.style.display = 'flex';
                     
-                    // 10 Saniye sonra otomatik kaybolsun
                     setTimeout(() => { toast.style.display = 'none'; }, 10000);
                 }
             }
@@ -1517,7 +1662,6 @@
         /* --- VERİ YEDEKLEME FONKSİYONLARI --- */
         function downloadBackup() {
             const data = {};
-            // Sadece gerekli verileri al (Extension çöplerini alma)
             for (let i = 0; i < localStorage.length; i++) {
                 const key = localStorage.key(i);
                 if(key.startsWith('watched_') || key.startsWith('bookmark_') || key.startsWith('vote_') || key === 'theme' || key === 'last_watched') {
