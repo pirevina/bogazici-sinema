@@ -25,7 +25,12 @@
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Plus Jakarta Sans', sans-serif; -webkit-font-smoothing: antialiased; }
-        body { background: var(--bg-black); color: var(--text-white); height: 100vh; overflow: hidden; user-select: none; }
+        html { height: 100%; width: 100%; overflow: hidden; }
+        body {
+            background: var(--bg-black); color: var(--text-white);
+            height: 100vh; height: 100dvh; width: 100vw; max-width: 100vw;
+            overflow: hidden; user-select: none; position: relative;
+        }
 
         /* Dynamic Giant Watermark Typography in Background */
         .watermark-bg {
@@ -54,14 +59,14 @@
 
         /* Main View Container */
         .main-stage {
-            width: 100vw; height: 100vh; position: relative; z-index: 10;
-            display: flex; align-items: center; justify-content: center;
+            width: 100vw; height: 100vh; height: 100dvh; position: relative; z-index: 10;
+            display: flex; align-items: center; justify-content: center; overflow: hidden;
         }
 
         /* Strip Gallery Layout */
         .strip-gallery-wrap {
             position: relative; display: flex; align-items: center; justify-content: center;
-            max-width: 95vw;
+            max-width: 100vw; width: 100%;
         }
         .strip-gallery {
             display: flex; align-items: center; justify-content: center; gap: 14px;
@@ -208,8 +213,8 @@
            FLOATING CAPSULE DOCK (DYNAMIC ISLAND)
            ============================================================== */
         .dock-container {
-            position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%);
-            z-index: 200; display: flex; align-items: center; gap: 12px;
+            position: fixed; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); left: 50%; transform: translateX(-50%);
+            z-index: 500; display: flex; align-items: center; gap: 10px;
             transition: opacity 0.4s var(--ease-out-expo), transform 0.4s var(--ease-out-expo);
         }
 
@@ -224,7 +229,7 @@
             background: rgba(18, 18, 22, 0.55); backdrop-filter: blur(16px) saturate(180%); -webkit-backdrop-filter: blur(16px);
             border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 40px;
             padding: 6px 16px; display: flex; align-items: center; gap: 8px;
-            box-shadow: 0 16px 45px rgba(0,0,0,0.5);
+            box-shadow: 0 16px 45px rgba(0,0,0,0.5); min-width: 0;
         }
 
         /* --- SİNEMA KULÜBÜNE YAKIŞIR, ZARİF VE SICAK BOĞAZİÇİ SİNEMA LOGOSU --- */
@@ -293,11 +298,11 @@
            MODERN GENRE MENU POPOVER (NEW VECTOR ICONS)
            ============================================================== */
         .genre-menu-popover {
-            position: fixed; bottom: 95px; left: 50%; transform: translateX(-50%) translateY(20px);
+            position: fixed; bottom: calc(85px + env(safe-area-inset-bottom, 0px)); left: 50%; transform: translateX(-50%) translateY(20px);
             background: rgba(18, 18, 22, 0.75); backdrop-filter: blur(20px) saturate(180%); -webkit-backdrop-filter: blur(20px);
             border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 20px;
-            padding: 20px; width: 360px; box-shadow: 0 25px 60px rgba(0,0,0,0.85);
-            display: none; opacity: 0; transition: all 0.3s var(--ease-out-expo); z-index: 210;
+            padding: 20px; width: 360px; max-width: calc(100vw - 24px); box-shadow: 0 25px 60px rgba(0,0,0,0.85);
+            display: none; opacity: 0; transition: all 0.3s var(--ease-out-expo); z-index: 550;
         }
         .genre-menu-popover.active { display: block; opacity: 1; transform: translateX(-50%) translateY(0); }
         .genre-popover-title {
@@ -863,24 +868,90 @@
         }
 
         @media (max-width: 768px) {
-            .dock-container { bottom: 14px; gap: 6px; max-width: 98vw; }
+            /* Gallery Cards Arc Scaling for Mobile Screens */
+            .strip-gallery { padding: 10px 4px; gap: 6px; }
+            .strip-card { width: 44px; border-radius: 8px; }
+            .strip-card:hover { width: 75px; }
+            .strip-card:nth-child(1) { height: 250px; }
+            .strip-card:nth-child(2) { height: 280px; }
+            .strip-card:nth-child(3) { height: 310px; }
+            .strip-card:nth-child(4) { height: 345px; }
+            .strip-card:nth-child(5) { height: 375px; } /* Center Peak scaled for mobile */
+            .strip-card:nth-child(6) { height: 345px; }
+            .strip-card:nth-child(7) { height: 310px; }
+            .strip-card:nth-child(8) { height: 280px; }
+            .strip-card:nth-child(9) { height: 250px; }
+            .strip-gallery:hover .strip-card { height: 345px; }
+
+            /* Floating Capsule Dock - Ultra-Reliable Mobile Layout */
+            .dock-container {
+                bottom: calc(14px + env(safe-area-inset-bottom, 0px));
+                gap: 5px;
+                max-width: calc(100vw - 12px);
+                width: auto;
+                z-index: 500;
+            }
             .capsule-dock {
-                padding: 4px 8px; gap: 4px; overflow-x: auto; scrollbar-width: none;
-                max-width: calc(100vw - 185px);
+                min-width: 0;
+                flex-shrink: 1;
+                max-width: calc(100vw - 165px);
+                padding: 4px 6px;
+                gap: 4px;
+                overflow-x: auto;
+                scrollbar-width: none;
+                -webkit-overflow-scrolling: touch;
             }
             .capsule-dock::-webkit-scrollbar { display: none; }
-            .dock-nav-item { font-size: 0.74rem; padding: 4px 8px; flex-shrink: 0; }
-            .dock-circle-btn { width: 36px; height: 36px; font-size: 0.82rem; flex-shrink: 0; }
-            .dock-brand-badge { padding: 2px 6px; }
-            .dock-brand-badge .brand-top { font-size: 0.78rem; }
-            .dock-brand-badge .brand-sub { font-size: 0.56rem; letter-spacing: 1px; }
+            .dock-nav-item { font-size: 0.72rem; padding: 4px 6px; flex-shrink: 0; }
+            .dock-circle-btn { width: 34px; height: 34px; font-size: 0.8rem; flex-shrink: 0; }
+            .dock-brand-badge { padding: 2px 4px; flex-shrink: 0; }
+            .dock-brand-badge .brand-top { font-size: 0.74rem; }
+            .dock-brand-badge .brand-sub { font-size: 0.54rem; letter-spacing: 0.8px; }
 
+            /* Login Modal Mobile Polish (Zero Horizontal Overflow) */
+            #login-overlay {
+                padding: 12px;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            .cinematic-login-card {
+                padding: 24px 18px 20px 18px;
+                border-radius: 20px;
+                max-width: 100%;
+                width: 100%;
+                margin: auto;
+                box-sizing: border-box;
+            }
+            .login-brand-area { margin-bottom: 18px; }
+            .login-clapper-icon { width: 42px; height: 42px; font-size: 1.15rem; margin-bottom: 10px; }
+            .login-brand-title { font-size: 1.35rem; letter-spacing: -0.3px; }
+            .login-brand-motto { font-size: 0.78rem; margin-top: 4px; }
+            .login-role-switcher { padding: 4px; gap: 4px; margin-bottom: 16px; }
+            .login-role-btn { padding: 8px 6px; font-size: 0.78rem; gap: 4px; white-space: nowrap; }
+            .login-two-cols {
+                grid-template-columns: 1fr; /* Stack vertically so inputs are wide and comfortable */
+                gap: 12px;
+            }
+            .login-field { margin-bottom: 14px; }
+            .login-label { font-size: 0.76rem; margin-bottom: 5px; }
+            .login-input-wrap { padding: 0 12px; }
+            .login-input-wrap input, .login-input-wrap select { padding: 11px 0; font-size: 0.88rem; }
+            .login-cta-btn { padding: 12px; font-size: 0.92rem; margin-top: 6px; }
+            .login-credits-footer { margin-top: 16px; padding-top: 12px; font-size: 0.7rem; }
+
+            /* Sitemap Modal Mobile Layout */
             .sitemap-card { border-radius: 20px; max-height: 90vh; }
             .sitemap-header { padding: 16px 18px 12px 18px; }
             .sitemap-alpha-bar { padding: 8px 14px; gap: 4px; }
             .sm-alpha-btn { min-width: 28px; height: 28px; font-size: 0.76rem; padding: 0 4px; border-radius: 6px; }
             .sitemap-grid { grid-template-columns: 1fr; }
             .sitemap-body { padding: 12px 16px 20px 16px; }
+
+            /* Profile Modal Mobile Polish */
+            .profile-card { border-radius: 20px; max-height: 90vh; }
+            .profile-header-area { padding: 16px 18px; }
+            .profile-nav-tabs { padding: 0 16px; overflow-x: auto; gap: 6px; }
+            .p-tab-btn { padding: 8px 12px; font-size: 0.76rem; flex-shrink: 0; }
         }
     </style>
 </head>
