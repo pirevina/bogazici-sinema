@@ -653,8 +653,18 @@
         }
 
         .login-credits-footer {
-            margin-top: 12px; text-align: center; font-size: 0.7rem; color: #6b6b75;
-            border-top: 1px solid rgba(255, 255, 255, 0.07); padding-top: 8px; line-height: 1.3;
+            margin-top: 10px; border-top: 1px solid rgba(255, 255, 255, 0.07);
+            padding-top: 8px; line-height: 1.35;
+        }
+        .login-credits-line {
+            font-size: 0.68rem; color: #757582; text-align: center; letter-spacing: -0.1px;
+        }
+        .login-version-tag {
+            text-align: right; margin-top: 3px; font-size: 0.63rem; font-weight: 600;
+            color: rgba(255, 255, 255, 0.42); letter-spacing: 0.4px;
+        }
+        .login-version-tag .ver-num {
+            color: var(--gold-accent); font-weight: 700; margin-left: 2px;
         }
 
         /* Toast Notifications */
@@ -1147,7 +1157,9 @@
             .login-input-wrap { padding: 0 10px; border-radius: 9px; }
             .login-input-wrap input, .login-input-wrap select { padding: 7px 0; font-size: 0.82rem; }
             .login-cta-btn { padding: 9px; font-size: 0.85rem; margin-top: 4px; border-radius: 9px; }
-            .login-credits-footer { margin-top: 8px; padding-top: 6px; font-size: 0.65rem; }
+            .login-credits-footer { margin-top: 6px; padding-top: 5px; }
+            .login-credits-line { font-size: 0.62rem; }
+            .login-version-tag { font-size: 0.58rem; margin-top: 2px; }
 
             /* Mobile Floating Navigation Arrows (Always visible on mobile when multiple films) */
             .strip-nav-arrow {
@@ -1473,7 +1485,7 @@
                 <div class="login-field">
                     <label class="login-label">
                         <span>Öğretmen Yetki Kodu</span>
-                        <span style="font-size:0.72rem; color:#888; font-weight:400; margin-left:6px;">(Yalnızca ilk kayıt için)</span>
+                        <span style="font-size:0.72rem; color:#888; font-weight:400; margin-left:6px;">(Kodu yalnızca ilk kez girişte kullanın.)</span>
                     </label>
                     <div class="login-input-wrap">
                         <i class="fa-solid fa-shield-halved login-icon"></i>
@@ -1491,7 +1503,8 @@
             </form>
 
             <div class="login-credits-footer">
-                <span>Sinema projesi Pelda & Murat Mutlu tarafından yürütülmektedir.</span>
+                <div class="login-credits-line">Sinema projesi Pelda & Murat Mutlu tarafından yürütülmektedir.</div>
+                <div class="login-version-tag">Boğaziçi Sinema <span class="ver-num">v.2.0</span></div>
             </div>
         </div>
     </div>
