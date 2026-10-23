@@ -122,15 +122,19 @@
 
         /* Navigation Arrows for strip gallery */
         .strip-nav-arrow {
-            position: absolute; top: 50%; transform: translateY(-50%); width: 42px; height: 42px;
-            border-radius: 50%; background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15);
-            color: #fff; font-size: 0.95rem; cursor: pointer; display: flex; align-items: center; justify-content: center;
-            backdrop-filter: blur(12px); transition: all 0.2s var(--ease-out-expo); z-index: 30;
-            opacity: 0.6;
+            position: absolute; top: 50%; transform: translateY(-50%); width: 44px; height: 44px;
+            border-radius: 50%; background: rgba(18, 18, 24, 0.82); border: 1px solid rgba(255, 255, 255, 0.18);
+            color: #fff; font-size: 1rem; cursor: pointer; display: flex; align-items: center; justify-content: center;
+            backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+            transition: all 0.25s var(--ease-out-expo); z-index: 150;
+            opacity: 0.85; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
         }
-        .strip-nav-arrow:hover { opacity: 1; background: rgba(245, 197, 24, 0.2); border-color: var(--gold-accent); color: var(--gold-accent); }
-        .strip-nav-arrow.prev { left: -50px; }
-        .strip-nav-arrow.next { right: -50px; }
+        .strip-nav-arrow:hover {
+            opacity: 1; background: rgba(255, 255, 255, 0.22);
+            border-color: rgba(255, 255, 255, 0.35); transform: translateY(-50%) scale(1.08);
+        }
+        .strip-nav-arrow.prev { left: -55px; }
+        .strip-nav-arrow.next { right: -55px; }
 
         /* Expanded Cinema View (Detailed full-screen overlay) */
         .expanded-view {
@@ -524,7 +528,11 @@
             .expanded-synopsis { font-size: 0.88rem; max-height: 120px; overflow-y: auto; }
             .expanded-actions { width: 100%; gap: 8px; }
             .capsule-dock { padding: 4px 10px; }
-            .strip-nav-arrow { display: none; }
+            .strip-nav-arrow {
+                width: 38px; height: 38px; font-size: 0.92rem; opacity: 0.9;
+            }
+            .strip-nav-arrow.prev { left: 8px; }
+            .strip-nav-arrow.next { right: 8px; }
         }
     
         /* ==============================================================
@@ -818,12 +826,13 @@
         .sm-alpha-btn:active { transform: translateY(0); }
 
         .sitemap-body {
-            padding: 16px 26px 24px 26px; overflow-y: auto; flex: 1 1 auto; min-height: 0;
+            padding: 16px 26px 24px 26px; overflow-y: auto; overflow-x: hidden; flex: 1 1 auto; min-height: 0;
+            width: 100%; box-sizing: border-box;
         }
         .sitemap-body::-webkit-scrollbar { width: 5px; }
         .sitemap-body::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.12); border-radius: 10px; }
 
-        .sitemap-section { margin-bottom: 24px; }
+        .sitemap-section { margin-bottom: 24px; width: 100%; }
         .sitemap-section-title {
             font-size: 0.88rem; font-weight: 700; color: #fff; margin-bottom: 12px;
             display: flex; align-items: center; justify-content: space-between;
@@ -835,24 +844,26 @@
         }
         .sitemap-grid {
             display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 10px;
+            width: 100%; box-sizing: border-box;
         }
         .sitemap-film-card {
             display: flex; align-items: center; gap: 12px; background: rgba(255, 255, 255, 0.03);
             border-radius: 12px; padding: 8px 10px; cursor: pointer; transition: all 0.2s;
-            border: 1px solid transparent;
+            border: 1px solid transparent; width: 100%; min-width: 0; box-sizing: border-box;
         }
         .sitemap-film-card:hover {
             background: rgba(255, 255, 255, 0.065); border-color: rgba(255, 255, 255, 0.12);
             transform: translateY(-2px);
         }
         .sitemap-film-thumb {
-            width: 42px; height: 58px; object-fit: cover; border-radius: 8px; flex-shrink: 0;
+            width: 44px; height: 60px; object-fit: cover; border-radius: 8px; flex-shrink: 0;
             background: #111;
         }
-        .sitemap-film-meta { min-width: 0; flex-grow: 1; }
+        .sitemap-film-meta { min-width: 0; flex: 1 1 auto; overflow: hidden; }
         .sitemap-film-title {
-            font-size: 0.82rem; font-weight: 600; color: #fff; margin-bottom: 4px;
-            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+            font-size: 0.84rem; font-weight: 600; color: #fff; margin-bottom: 4px;
+            line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; line-clamp: 2;
+            -webkit-box-orient: vertical; overflow: hidden; white-space: normal; word-break: break-word;
         }
         .sitemap-film-tags {
             display: flex; gap: 6px; align-items: center; font-size: 0.7rem; color: #8e8e93; flex-wrap: wrap;
@@ -939,19 +950,65 @@
             .login-cta-btn { padding: 12px; font-size: 0.92rem; margin-top: 6px; }
             .login-credits-footer { margin-top: 16px; padding-top: 12px; font-size: 0.7rem; }
 
-            /* Sitemap Modal Mobile Layout */
-            .sitemap-card { border-radius: 20px; max-height: 90vh; }
-            .sitemap-header { padding: 16px 18px 12px 18px; }
-            .sitemap-alpha-bar { padding: 8px 14px; gap: 4px; }
-            .sm-alpha-btn { min-width: 28px; height: 28px; font-size: 0.76rem; padding: 0 4px; border-radius: 6px; }
-            .sitemap-grid { grid-template-columns: 1fr; }
-            .sitemap-body { padding: 12px 16px 20px 16px; }
+            /* Mobile Floating Navigation Arrows (Always visible on mobile when multiple films) */
+            .strip-nav-arrow {
+                width: 36px; height: 36px; font-size: 0.85rem; opacity: 0.94;
+                background: rgba(18, 20, 26, 0.9); border: 1px solid rgba(255, 255, 255, 0.22);
+                z-index: 150;
+            }
+            .strip-nav-arrow.prev { left: 6px; }
+            .strip-nav-arrow.next { right: 6px; }
 
-            /* Profile Modal Mobile Polish */
-            .profile-card { border-radius: 20px; max-height: 90vh; }
-            .profile-header-area { padding: 16px 18px; }
-            .profile-nav-tabs { padding: 0 16px; overflow-x: auto; gap: 6px; }
-            .p-tab-btn { padding: 8px 12px; font-size: 0.76rem; flex-shrink: 0; }
+            /* Sitemap Modal Mobile Layout */
+            .sitemap-modal { padding: 8px; }
+            .sitemap-card { border-radius: 20px; max-height: 92vh; width: 100%; max-width: 100%; }
+            .sitemap-header { padding: 14px 16px 10px 16px; }
+            .sitemap-alpha-bar { padding: 8px 10px; gap: 4px; }
+            .sm-alpha-btn { min-width: 27px; height: 27px; font-size: 0.74rem; padding: 0 2px; border-radius: 6px; }
+            .sitemap-body { padding: 12px 12px 20px 12px; width: 100%; overflow-x: hidden; box-sizing: border-box; }
+            .sitemap-section { margin-bottom: 18px; width: 100%; }
+            .sitemap-section-title { font-size: 0.84rem; padding-bottom: 5px; }
+            .sitemap-grid { grid-template-columns: 1fr; gap: 8px; width: 100%; }
+            .sitemap-film-card { padding: 8px; gap: 10px; width: 100%; min-width: 0; }
+            .sitemap-film-thumb { width: 42px; height: 58px; flex-shrink: 0; }
+            .sitemap-film-title { font-size: 0.82rem; }
+
+            /* Profile Modal Mobile Polish (2x2 Grid for Zero Overflow) */
+            .profile-modal { padding: 8px; }
+            .profile-card { border-radius: 20px; max-height: 92vh; width: 100%; max-width: 100%; }
+            .profile-header-area { padding: 14px 16px 10px 16px; }
+            .profile-stats-grid { padding: 0 14px 12px 14px; gap: 8px; }
+            .profile-stat-box { padding: 8px 6px; border-radius: 12px; }
+            .profile-stat-label { font-size: 0.64rem; }
+            .profile-stat-val { font-size: 0.94rem; }
+            .profile-tabs-strip { padding: 4px 14px 12px 14px; width: 100%; }
+            .p-tabs-segmented {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 6px;
+                border-radius: 14px;
+                padding: 6px;
+                width: 100%;
+                background: rgba(0, 0, 0, 0.35);
+            }
+            .p-tab-btn {
+                border-radius: 10px;
+                padding: 9px 6px;
+                font-size: 0.78rem;
+                font-weight: 600;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 6px;
+                white-space: nowrap;
+                width: 100%;
+            }
+            .p-tab-btn.active {
+                background: rgba(255, 255, 255, 0.16);
+                color: #ffffff;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+            }
+            .profile-tab-content { padding: 4px 14px 20px 14px; }
         }
     </style>
 </head>
@@ -1351,8 +1408,8 @@
 
         let currentGenre = 'all';
         let currentFilmList = [];
-        let stripPageIndex = 0;
-        const STRIPS_PER_PAGE = 9;
+        let stripOffset = 0;
+        let isNavigatingStrips = false;
         let currentActiveFilm = null;
 
         function handleUrlHash() {
@@ -1384,6 +1441,67 @@
         document.addEventListener("DOMContentLoaded", () => {
             initGallery('all', 'Boğaziçi', 'Öğretmenin Seçimi');
             updateUserDockStatus();
+
+            // Mobile Touch Swipe Gesture for Gallery Navigation
+            let galleryTouchStartX = 0;
+            let galleryTouchStartY = 0;
+            let galleryTouchStartTime = 0;
+            const galleryStage = document.getElementById('stage-gallery');
+
+            if (galleryStage) {
+                galleryStage.addEventListener('touchstart', (e) => {
+                    if (e.touches.length === 1) {
+                        galleryTouchStartX = e.touches[0].clientX;
+                        galleryTouchStartY = e.touches[0].clientY;
+                        galleryTouchStartTime = Date.now();
+                    }
+                }, { passive: true });
+
+                galleryStage.addEventListener('touchend', (e) => {
+                    if (e.changedTouches.length === 1) {
+                        const deltaX = e.changedTouches[0].clientX - galleryTouchStartX;
+                        const deltaY = e.changedTouches[0].clientY - galleryTouchStartY;
+                        const deltaTime = Date.now() - galleryTouchStartTime;
+
+                        // Check for horizontal swipe gesture (minimum 32px swipe, dominantly horizontal)
+                        if (Math.abs(deltaX) > 32 && Math.abs(deltaX) > Math.abs(deltaY) && deltaTime < 700) {
+                            if (deltaX < 0) {
+                                navigateStrips(1); // Swiped Left -> Next Films
+                            } else {
+                                navigateStrips(-1); // Swiped Right -> Previous Films
+                            }
+                        }
+                    }
+                }, { passive: true });
+
+                // Desktop / Trackpad Wheel Sliding
+                galleryStage.addEventListener('wheel', (e) => {
+                    if (document.body.classList.contains('cinema-mode')) return;
+                    if (Math.abs(e.deltaX) > 30 || Math.abs(e.deltaY) > 50) {
+                        if (e.deltaX > 30 || e.deltaY > 50) navigateStrips(1);
+                        else if (e.deltaX < -30 || e.deltaY < -50) navigateStrips(-1);
+                    }
+                }, { passive: true });
+            }
+
+            // Keyboard Arrow Left/Right Navigation
+            window.addEventListener('keydown', (e) => {
+                if (document.body.classList.contains('cinema-mode')) return;
+                const activeTag = document.activeElement ? document.activeElement.tagName.toLowerCase() : '';
+                if (activeTag === 'input' || activeTag === 'textarea' || activeTag === 'select') return;
+
+                if (e.key === 'ArrowRight') navigateStrips(1);
+                else if (e.key === 'ArrowLeft') navigateStrips(-1);
+            });
+
+            // Re-render gallery cards on window resize
+            let resizeTimer;
+            window.addEventListener('resize', () => {
+                clearTimeout(resizeTimer);
+                resizeTimer = setTimeout(() => {
+                    renderStrips();
+                }, 120);
+            });
 
             // URL'de bir film hash'i varsa doğrudan o filmi aç (sinema.kirkyama.uk/#martian)
             handleUrlHash();
@@ -1455,9 +1573,41 @@
             return null;
         }
 
+        function updateArrowVisibility() {
+            const prevBtn = document.querySelector('.strip-nav-arrow.prev');
+            const nextBtn = document.querySelector('.strip-nav-arrow.next');
+            if (!prevBtn || !nextBtn) return;
+
+            const isMobile = window.innerWidth <= 768;
+            const threshold = isMobile ? 5 : 9;
+            const shouldShow = currentFilmList && currentFilmList.length > threshold;
+
+            prevBtn.style.display = shouldShow ? 'flex' : 'none';
+            nextBtn.style.display = shouldShow ? 'flex' : 'none';
+        }
+
+        function updateGalleryBreadcrumb() {
+            const breadcrumbCurrent = document.getElementById('breadcrumb-current');
+            if (!breadcrumbCurrent) return;
+
+            const baseName = activeCategory.breadcrumb || activeCategory.genre || 'Filmler';
+            const cleanBase = baseName.replace(/\s*\(\d+.*?\)$/, '').trim();
+            const total = currentFilmList ? currentFilmList.length : 0;
+
+            if (total > 5) {
+                const isMobile = window.innerWidth <= 768;
+                const windowSize = isMobile ? 5 : 9;
+                const startNum = (stripOffset % total) + 1;
+                const endNum = Math.min((stripOffset % total) + windowSize, total);
+                breadcrumbCurrent.textContent = `${cleanBase} (${startNum}-${endNum} / ${total})`;
+            } else {
+                breadcrumbCurrent.textContent = cleanBase;
+            }
+        }
+
         function initGallery(genre, watermarkText, breadcrumbText) {
             currentGenre = genre;
-            stripPageIndex = 0;
+            stripOffset = 0;
 
             activeCategory = {
                 genre: genre,
@@ -1493,17 +1643,29 @@
 
         function renderStrips() {
             const container = document.getElementById('strip-container');
+            if (!container) return;
             container.innerHTML = '';
 
-            const start = stripPageIndex * STRIPS_PER_PAGE;
-            const pageFilms = currentFilmList.slice(start, start + STRIPS_PER_PAGE);
-
-            if (pageFilms.length === 0) {
+            if (!currentFilmList || currentFilmList.length === 0) {
                 container.innerHTML = '<div style="color:#888; font-size:1rem; padding:40px;">Bu kategoride film bulunamadı.</div>';
+                updateArrowVisibility();
                 return;
             }
 
-            pageFilms.forEach((film, idx) => {
+            const total = currentFilmList.length;
+            const isMobile = window.innerWidth <= 768;
+            const displayCount = Math.min(total, isMobile ? 7 : 9);
+
+            if (stripOffset < 0) stripOffset = (stripOffset % total + total) % total;
+            stripOffset = stripOffset % total;
+
+            const visibleFilms = [];
+            for (let i = 0; i < displayCount; i++) {
+                const idx = (stripOffset + i) % total;
+                visibleFilms.push(currentFilmList[idx]);
+            }
+
+            visibleFilms.forEach((film) => {
                 const card = document.createElement('div');
                 card.className = 'strip-card';
                 card.onclick = () => expandFilm(film.id);
@@ -1515,14 +1677,45 @@
                 `;
                 container.appendChild(card);
             });
+
+            updateArrowVisibility();
+            updateGalleryBreadcrumb();
         }
 
         function navigateStrips(direction) {
-            const maxPage = Math.ceil(currentFilmList.length / STRIPS_PER_PAGE) - 1;
-            stripPageIndex += direction;
-            if (stripPageIndex < 0) stripPageIndex = Math.max(0, maxPage);
-            if (stripPageIndex > maxPage) stripPageIndex = 0;
-            renderStrips();
+            if (isNavigatingStrips) return;
+            if (!currentFilmList || currentFilmList.length <= 1) return;
+
+            const isMobile = window.innerWidth <= 768;
+            const step = isMobile ? 4 : 5;
+            const total = currentFilmList.length;
+
+            if (direction > 0) {
+                stripOffset = (stripOffset + step) % total;
+            } else {
+                stripOffset = (stripOffset - step + total) % total;
+            }
+
+            const container = document.getElementById('strip-container');
+            if (container) {
+                isNavigatingStrips = true;
+                container.style.transition = 'transform 0.18s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.18s ease';
+                container.style.transform = direction > 0 ? 'translateX(-35px)' : 'translateX(35px)';
+                container.style.opacity = '0.35';
+
+                setTimeout(() => {
+                    renderStrips();
+                    container.style.transition = 'none';
+                    container.style.transform = direction > 0 ? 'translateX(35px)' : 'translateX(-35px)';
+                    void container.offsetWidth;
+                    container.style.transition = 'transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.28s ease';
+                    container.style.transform = 'translateX(0)';
+                    container.style.opacity = '1';
+                    setTimeout(() => { isNavigatingStrips = false; }, 280);
+                }, 180);
+            } else {
+                renderStrips();
+            }
         }
 
         function expandFilm(id, updateUrl = true) {
@@ -1937,12 +2130,13 @@
             const el = document.getElementById('sm-letter-' + letter);
             const container = document.getElementById('sitemap-body');
             if (el && container) {
+                container.scrollLeft = 0;
                 const topPos = el.offsetTop - container.offsetTop;
-                container.scrollTo({ top: Math.max(0, topPos - 10), behavior: 'smooth' });
+                container.scrollTo({ top: Math.max(0, topPos - 8), left: 0, behavior: 'smooth' });
                 el.style.transition = 'background 0.35s ease, border-radius 0.35s ease';
                 el.style.background = 'rgba(255, 255, 255, 0.06)';
                 el.style.borderRadius = '14px';
-                el.style.padding = '10px';
+                el.style.padding = '8px';
                 setTimeout(() => {
                     el.style.background = 'transparent';
                     el.style.padding = '0';
