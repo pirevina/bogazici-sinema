@@ -1,677 +1,300 @@
-<!DOCTYPE html>
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sinema İlgi Anketi — El Yazması Günlük</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sinema İlgi Anketi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: 'Work Sans', sans-serif; color: #2E271E;
+    background: #FBF7EE;
+    background-image: repeating-linear-gradient(#FBF7EE 0 33px, #E4DDC9 33px 34px);
+  }
+  a { color: #C0504D; }
 
-    body {
-      background-color: #faf9f5;
-      color: #2b2620;
-      font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      padding: 40px 16px;
-    }
+  .page { display: flex; justify-content: center; padding: 50px 20px 100px; }
+  .sheet { width: 100%; max-width: 680px; position: relative; padding-left: 56px; }
+  .margin-line { position: absolute; left: 36px; top: 0; bottom: 0; width: 1.5px; background: #D99A97; }
 
-    .journal-page {
-      width: 100%;
-      max-width: 680px;
-      background-color: #f5f1e6;
-      background-image: repeating-linear-gradient(
-        to bottom,
-        transparent 0px,
-        transparent 31px,
-        rgba(180, 165, 140, 0.28) 31px,
-        rgba(180, 165, 140, 0.28) 32px
-      );
-      border-radius: 6px;
-      padding: 48px 52px 56px 68px;
-      position: relative;
-      box-shadow: 
-        0 10px 30px rgba(43, 38, 32, 0.08),
-        0 1px 3px rgba(43, 38, 32, 0.06);
-      border: 1px solid #e6decb;
-    }
+  .error-banner {
+    display: none; margin: 0 0 26px; padding: 14px 18px; border: 1.5px solid #C0504D; border-radius: 6px;
+    background: #FCEDEC; color: #8A2E27; font-size: 14px; font-weight: 600; line-height: 1.5;
+  }
 
-    /* Sol kırmızı defter marj çizgisi */
-    .journal-page::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 48px;
-      width: 1.5px;
-      background-color: rgba(196, 109, 94, 0.35);
-    }
+  .title { font-family: 'Caveat', cursive; font-size: 52px; font-weight: 700; color: #2E271E; transform: rotate(-1deg); line-height: 1; }
+  .intro { margin-top: 18px; font-size: 15px; line-height: 2.1; color: #3D362A; max-width: 560px; }
+  .intro p { margin: 0 0 6px; }
+  .intro p:last-child { margin-bottom: 0; }
+  .meta { margin-top: 16px; font-family: 'Caveat', cursive; font-size: 22px; color: #5A5242; transform: rotate(-0.5deg); line-height: 1.4; }
+  .meta-label { display: block; font-family: 'Work Sans', sans-serif; font-size: 12.5px; font-weight: 600; color: #8C8369; letter-spacing: 0.02em; transform: none; }
 
-    h1 {
-      font-family: 'Caveat', cursive;
-      font-size: 2.75rem;
-      font-weight: 700;
-      color: #231f1a;
-      margin-bottom: 14px;
-      line-height: 1.15;
-    }
+  .question { margin-top: 44px; }
+  .qhead { display: flex; align-items: center; gap: 14px; margin-bottom: 10px; }
+  .numcircle { position: relative; width: 40px; height: 40px; flex: none; }
+  .numcircle svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .numcircle span { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; font-family: 'Caveat', cursive; font-weight: 700; font-size: 21px; color: #2E271E; }
+  .qtitle { font-family: 'Caveat', cursive; font-size: 27px; font-weight: 700; color: #2E271E; line-height: 1.25; }
+  .qhint { font-size: 12.5px; color: #8C8369; margin: 0 0 14px 54px; font-style: italic; }
+  .qhint.limit-note { color: #A6432F; }
 
-    .intro-text {
-      font-size: 0.94rem;
-      line-height: 1.75;
-      color: #433b32;
-      margin-bottom: 14px;
-    }
+  .opts { display: flex; flex-direction: column; gap: 6px; margin-left: 54px; }
+  .opts.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 20px; }
+  @media (max-width: 600px) { .opts.grid2 { grid-template-columns: 1fr; } }
 
-    .authors {
-      font-family: 'Caveat', cursive;
-      font-size: 1.55rem;
-      font-weight: 600;
-      color: #6e5a44;
-      margin-bottom: 34px;
-    }
+  .opt { position: relative; }
+  .opt input[type="radio"], .opt input[type="checkbox"] {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+  }
+  .optrow { display: flex; align-items: center; gap: 11px; padding: 5px 4px; cursor: pointer; font-size: 15.5px; color: #3D362A; border-radius: 4px; transition: background .1s ease, opacity .15s ease; }
+  .opt:nth-child(odd) .sqbox { transform: rotate(-2deg); }
+  .opt:nth-child(even) .sqbox { transform: rotate(1.5deg); }
+  .opt:hover .optrow { background: rgba(192,80,77,0.06); }
+  .sqbox { width: 19px; height: 19px; border: 1.8px solid #2E271E; border-radius: 3px; flex: none; position: relative; }
+  .sqbox svg { position: absolute; inset: -3px; opacity: 0; transition: opacity .12s ease; }
+  .opt input:checked ~ .optrow .sqbox svg,
+  .opt input:checked + .optrow .sqbox svg { opacity: 1; }
+  .opt:has(input:checked) .optrow { font-weight: 600; color: #C0504D; }
+  .opt:has(input:focus-visible) .optrow { outline: 1.5px dashed #C0504D; outline-offset: 1px; }
 
-    .question-section {
-      margin-bottom: 32px;
-    }
+  .opts.maxed .opt:not(:has(input:checked)) .optrow { opacity: 0.38; pointer-events: none; }
 
-    .q-header {
-      display: flex;
-      align-items: baseline;
-      gap: 10px;
-      margin-bottom: 12px;
-      flex-wrap: wrap;
-    }
+  .other-row { display: flex; align-items: center; gap: 11px; padding: 5px 4px; flex-wrap: wrap; grid-column: 1 / -1; font-size: 15.5px; }
+  .opts.maxed .other-row:not(:has(input:checked)) { opacity: 0.38; pointer-events: none; }
+  .other-input { flex: 1; min-width: 160px; border: none; border-bottom: 1.5px dashed #B6AD93; background: transparent; padding: 4px 2px; font-size: 15px; font-family: 'Work Sans', sans-serif; color: #2E271E; }
+  .other-input:focus { outline: none; border-bottom-color: #C0504D; }
 
-    .q-num {
-      font-family: 'Caveat', cursive;
-      font-size: 1.9rem;
-      font-weight: 700;
-      color: #8c6d46;
-      line-height: 1;
-    }
+  textarea {
+    width: calc(100% - 54px); margin-left: 54px; box-sizing: border-box; border: none; background: transparent;
+    padding: 4px 4px; font-size: 15px; font-family: 'Work Sans', sans-serif; color: #2E271E;
+    min-height: 100px; resize: vertical; line-height: 34px;
+  }
+  textarea:focus { outline: none; }
+  textarea::placeholder { color: #B6AD93; }
 
-    .q-title {
-      font-family: 'Caveat', cursive;
-      font-size: 1.7rem;
-      font-weight: 600;
-      color: #231f1a;
-      line-height: 1.25;
-    }
+  .submit-row { display: flex; align-items: center; gap: 16px; justify-content: flex-start; margin-left: 54px; margin-top: 38px; }
+  .submit-wrap { position: relative; display: inline-block; }
+  .submit-wrap svg { position: absolute; inset: -14px -22px; pointer-events: none; }
+  .submit {
+    position: relative; font-family: 'Caveat', cursive; font-size: 24px; font-weight: 700;
+    color: #2E271E; background: transparent; border: none; padding: 8px 20px; cursor: pointer;
+  }
+  .submit:hover:not(:disabled) { color: #C0504D; }
+  .submit:disabled { color: #B6AD93; cursor: default; }
 
-    .q-limit-note {
-      font-family: 'Caveat', cursive;
-      font-size: 1.25rem;
-      color: #8c6d46;
-      font-weight: 500;
-      margin-left: 4px;
-    }
-
-    .q-subnote {
-      font-family: 'Caveat', cursive;
-      font-size: 1.3rem;
-      color: #7a6a58;
-      margin-top: -6px;
-      margin-bottom: 10px;
-      padding-left: 28px;
-    }
-
-    .options-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px 28px;
-      padding-left: 28px;
-    }
-
-    .options-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 12px 24px;
-      padding-left: 28px;
-    }
-
-    .sketch-option {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      cursor: pointer;
-      user-select: none;
-      font-size: 0.95rem;
-      color: #2b2620;
-      transition: opacity 0.15s ease;
-    }
-
-    .sketch-option.disabled-opt {
-      opacity: 0.45;
-      cursor: not-allowed;
-    }
-
-    .sketch-option input[type="radio"],
-    .sketch-option input[type="checkbox"] {
-      display: none;
-    }
-
-    .box-svg {
-      width: 20px;
-      height: 20px;
-      flex-shrink: 0;
-      overflow: visible;
-    }
-
-    .box-rect {
-      fill: transparent;
-      stroke: #4a3f35;
-      stroke-width: 1.6;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-    }
-
-    .box-check {
-      fill: none;
-      stroke: #231f1a;
-      stroke-width: 2.3;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      stroke-dasharray: 24;
-      stroke-dashoffset: 24;
-      transition: stroke-dashoffset 0.18s ease-out;
-    }
-
-    .sketch-option input:checked + .box-svg .box-check {
-      stroke-dashoffset: 0;
-    }
-
-    .other-inline-input {
-      border: none;
-      border-bottom: 1.5px dashed #8c6d46;
-      background: transparent;
-      font-family: 'Caveat', cursive;
-      font-size: 1.3rem;
-      color: #231f1a;
-      width: 135px;
-      padding: 0 4px;
-      outline: none;
-    }
-
-    .other-inline-input::placeholder {
-      color: #8c7b65;
-    }
-
-    .textarea-wrapper {
-      padding-left: 28px;
-    }
-
-    textarea {
-      width: 100%;
-      min-height: 96px;
-      background: rgba(255, 255, 255, 0.35);
-      border: 1.5px solid #cbbba0;
-      border-radius: 6px;
-      padding: 12px 14px;
-      font-family: 'Caveat', cursive;
-      font-size: 1.4rem;
-      color: #231f1a;
-      resize: vertical;
-      outline: none;
-    }
-
-    textarea::placeholder {
-      color: #8c7b65;
-    }
-
-    textarea:focus {
-      border-color: #8c6d46;
-      background: rgba(255, 255, 255, 0.55);
-    }
-
-    .submit-area {
-      padding-left: 28px;
-      margin-top: 24px;
-    }
-
-    .submit-btn {
-      font-family: 'Caveat', cursive;
-      font-size: 1.65rem;
-      font-weight: 700;
-      color: #f5f1e6;
-      background-color: #2b2620;
-      border: 1.5px solid #2b2620;
-      border-radius: 6px;
-      padding: 8px 34px;
-      cursor: pointer;
-      transition: transform 0.12s ease, background-color 0.15s ease;
-    }
-
-    .submit-btn:hover {
-      background-color: #3f382f;
-    }
-
-    .submit-btn:active {
-      transform: scale(0.98);
-    }
-
-    .submit-btn:disabled {
-      opacity: 0.6;
-      cursor: not-allowed;
-    }
-
-    .err-note {
-      font-family: 'Caveat', cursive;
-      font-size: 1.25rem;
-      color: #b93829;
-      padding-left: 28px;
-      margin-top: 6px;
-      display: none;
-    }
-
-    #thankYouScreen {
-      display: none;
-      text-align: center;
-      padding: 60px 20px;
-    }
-
-    #thankYouScreen h2 {
-      font-family: 'Caveat', cursive;
-      font-size: 2.5rem;
-      color: #231f1a;
-      margin-bottom: 10px;
-    }
-
-    #thankYouScreen p {
-      font-size: 1rem;
-      color: #433b32;
-    }
-
-    @media (max-width: 560px) {
-      .journal-page {
-        padding: 36px 22px 42px 42px;
-      }
-      .journal-page::before {
-        left: 26px;
-      }
-      .options-grid {
-        grid-template-columns: 1fr;
-      }
-      .options-row, .options-grid, .q-subnote, .textarea-wrapper, .submit-area, .err-note {
-        padding-left: 10px;
-      }
-    }
-  </style>
+  .thank-you { display: none; margin-top: 44px; padding: 30px 28px; background: #FFFDF6; border: 1px solid #E6DEC9; border-radius: 8px; transform: rotate(-0.4deg); }
+  .thank-you h2 { font-family: 'Caveat', cursive; font-size: 34px; margin: 0 0 8px; color: #2E271E; }
+  .thank-you p { margin: 0; font-size: 15px; line-height: 1.7; color: #3D362A; }
+</style>
 </head>
 <body>
 
-  <div class="journal-page">
-    <form id="surveyForm">
-      <h1>Sinema İlgi Anketi</h1>
-      <p class="intro-text">
-        Değerli katılımcı; bu anket, Özel Batman Boğaziçi Koleji MTAL bünyesindeki sinema projesinin BETA aşamasından yayın aşamasına geçecek sürümü için son düzeltmeleri yapmak amacıyla okulumuz öğrenci ve personelinin sinemaya ilgisini ölçmeyi amaçlamaktadır. Vereceğiniz cevapların sizin için gerçekçi olması sinema projemizin gelişimi açısından eşsiz katkılar sunacağından, vereceğiniz cevapların dürüst ve gerçekçi olması bizim için çok önemlidir. Ankete vereceğiniz cevaplar anonimdir. Katılımınız için teşekkür ederiz.
-      </p>
-      <div class="authors">Pelda Aksoy Mutlu &amp; Murat Mutlu</div>
+<div class="page">
+<form class="sheet" id="surveyForm">
+  <div class="margin-line"></div>
 
-      <!-- SORU 1 -->
-      <div class="question-section">
-        <div class="q-header">
-          <span class="q-num">1</span>
-          <span class="q-title">Haftada kaç film izliyorsunuz?</span>
-        </div>
-        <div class="options-row">
-          <label class="sketch-option">
-            <input type="radio" name="soru1" value="1-3" required>
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>1-3</span>
-          </label>
+  <div class="error-banner" id="errorBanner" role="alert"></div>
 
-          <label class="sketch-option">
-            <input type="radio" name="soru1" value="4-6">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>4-6</span>
-          </label>
+  <div id="formBody">
+    <div class="title">Sinema İlgi Anketi</div>
+    <div class="intro">
+      <p>Değerli katılımcı;</p>
+      <p>Bu anket, okulumuz bünyesindeki sinema projesinin <strong>BETA</strong> testinden <strong>V.1.0</strong> sürümüne geçişi için son düzeltmeleri yapmak amacıyla okulumuz öğrenci ve personelinin sinemaya ilgisini temel düzeyde ölçmeyi amaçlamaktadır. Vereceğiniz cevaplar sizler için hayata geçirdiğimiz bu sinema projesinin eşsiz katkılar sunacağından, cevaplarınızın dürüst ve gerçekçi olması bizim için çok önemlidir.</p>
+      <p>Ankete vereceğiniz cevaplar anonimdir. Katılımınız için teşekkür ederiz.</p>
+    </div>
+    <div class="meta">
+      <span class="meta-label">Proje yürütücüleri</span>
+      Pelda Aksoy Mutlu &amp; Murat Mutlu
+    </div>
 
-          <label class="sketch-option">
-            <input type="radio" name="soru1" value="7-10">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>7-10</span>
-          </label>
-        </div>
+    <div class="question">
+      <div class="qhead">
+        <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>1</span></span>
+        <h2 class="qtitle">Haftada kaç film izliyorsunuz?</h2>
       </div>
-
-      <!-- SORU 2 -->
-      <div class="question-section">
-        <div class="q-header">
-          <span class="q-num">2</span>
-          <span class="q-title">Çoğunlukla hangi tür filmleri izlersiniz?</span>
-          <span class="q-limit-note">(en fazla 3 seçim)</span>
-        </div>
-        <div class="options-grid" id="groupSoru2">
-          <label class="sketch-option">
-            <input type="checkbox" name="soru2" value="Bilim Kurgu">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Bilim Kurgu</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru2" value="Aksiyon">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Aksiyon</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru2" value="Tiyatro">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Tiyatro</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru2" value="Fantastik">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Fantastik</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru2" value="Tarih">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Tarih</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru2" value="Dram">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Dram</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru2" value="Belgesel">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Belgesel</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru2" value="Animasyon">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Animasyon</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru2" value="Distopya">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Distopya</span>
-          </label>
-        </div>
-        <div id="errSoru2" class="err-note">Lütfen en az 1, en fazla 3 seçim yapınız.</div>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="q1" value="1–3"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>1–3</span></label>
+        <label class="opt"><input type="radio" name="q1" value="4–6"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>4–6</span></label>
+        <label class="opt"><input type="radio" name="q1" value="7–10"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>7–10</span></label>
       </div>
+    </div>
 
-      <!-- SORU 3 -->
-      <div class="question-section">
-        <div class="q-header">
-          <span class="q-num">3</span>
-          <span class="q-title">Çoğunlukla hangi ülkenin veya kıtanın filmlerini izlersiniz?</span>
-          <span class="q-limit-note">(en fazla 3 seçim)</span>
-        </div>
-        <div class="options-grid" id="groupSoru3">
-          <label class="sketch-option">
-            <input type="checkbox" name="soru3" value="Fransa">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Fransa</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru3" value="İngiltere">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>İngiltere</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru3" value="Türkiye">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Türkiye</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru3" value="Almanya">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Almanya</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru3" value="İspanya">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>İspanya</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru3" value="Amerika Birleşik Devletleri (ABD)">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Amerika Birleşik Devletleri (ABD)</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru3" value="Çin">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Çin</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru3" value="Kore">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Kore</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru3" value="Japonya">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Japonya</span>
-          </label>
-
-          <label class="sketch-option">
-            <input type="checkbox" name="soru3" id="digerCheckbox" value="Diğer">
-            <svg class="box-svg" viewBox="0 0 20 20">
-              <path class="box-rect" d="M2.5,3 C6,2.3 14,2.6 17.5,2.8 C17.8,7 17.3,13 17.6,17.2 C13,17.6 7,17.2 2.4,17.4 C2.2,13 2.7,7 2.5,3 Z"/>
-              <path class="box-check" d="M4.5,10.5 L8.5,14.5 L16,5.5"/>
-            </svg>
-            <span>Diğer:</span>
-            <input type="text" id="digerText" class="other-inline-input" placeholder="yazınız">
-          </label>
-        </div>
-        <div id="errSoru3" class="err-note">Lütfen en az 1, en fazla 3 seçim yapınız.</div>
+    <div class="question">
+      <div class="qhead">
+        <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>2</span></span>
+        <h2 class="qtitle">Çoğunlukla hangi tür filmleri izlersiniz?</h2>
       </div>
-
-      <!-- SORU 4 -->
-      <div class="question-section">
-        <div class="q-header">
-          <span class="q-num">4</span>
-          <span class="q-title">Eklemek istediğiniz bir şey var mı?</span>
-        </div>
-        <div class="q-subnote">bir film, yönetmen ya da oyuncu adı yazabilirsin</div>
-        <div class="textarea-wrapper">
-          <textarea id="soru4" name="soru4" placeholder="buraya yazabilirsin..."></textarea>
-        </div>
+      <div class="qhint limit-note">(en fazla 3 seçenek işaretleyebilirsiniz)</div>
+      <div class="opts grid2" data-group="q2" data-max="3">
+        <label class="opt"><input type="checkbox" name="q2" value="Bilim Kurgu"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Bilim Kurgu</span></label>
+        <label class="opt"><input type="checkbox" name="q2" value="Aksiyon"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Aksiyon</span></label>
+        <label class="opt"><input type="checkbox" name="q2" value="Tiyatro"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Tiyatro</span></label>
+        <label class="opt"><input type="checkbox" name="q2" value="Fantastik"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Fantastik</span></label>
+        <label class="opt"><input type="checkbox" name="q2" value="Tarih"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Tarih</span></label>
+        <label class="opt"><input type="checkbox" name="q2" value="Dram"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Dram</span></label>
+        <label class="opt"><input type="checkbox" name="q2" value="Belgesel"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Belgesel</span></label>
+        <label class="opt"><input type="checkbox" name="q2" value="Animasyon"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Animasyon</span></label>
+        <label class="opt"><input type="checkbox" name="q2" value="Distopya"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Distopya</span></label>
       </div>
+    </div>
 
-      <div class="submit-area">
-        <button type="submit" id="submitBtn" class="submit-btn">Gönder</button>
+    <div class="question">
+      <div class="qhead">
+        <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>3</span></span>
+        <h2 class="qtitle">Çoğunlukla hangi ülkenin veya kıtanın filmlerini izlersiniz?</h2>
       </div>
-    </form>
+      <div class="qhint limit-note">(en fazla 3 seçenek işaretleyebilirsiniz)</div>
+      <div class="opts grid2" data-group="q3" data-max="3">
+        <label class="opt"><input type="checkbox" name="q3" value="Fransa"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Fransa</span></label>
+        <label class="opt"><input type="checkbox" name="q3" value="İngiltere"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>İngiltere</span></label>
+        <label class="opt"><input type="checkbox" name="q3" value="Türkiye"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Türkiye</span></label>
+        <label class="opt"><input type="checkbox" name="q3" value="Almanya"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Almanya</span></label>
+        <label class="opt"><input type="checkbox" name="q3" value="İspanya"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>İspanya</span></label>
+        <label class="opt"><input type="checkbox" name="q3" value="Amerika Birleşik Devletleri (ABD)"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Amerika Birleşik Devletleri (ABD)</span></label>
+        <label class="opt"><input type="checkbox" name="q3" value="Çin"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Çin</span></label>
+        <label class="opt"><input type="checkbox" name="q3" value="Kore"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Kore</span></label>
+        <label class="opt"><input type="checkbox" name="q3" value="Japonya"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Japonya</span></label>
+        <label class="opt other-row">
+          <input type="checkbox" name="q3" value="Diğer" id="q3-other-checkbox">
+          <span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Diğer:
+          <input type="text" class="other-input" name="q3_diger_metin" id="q3-other-text" placeholder="yazınız">
+        </label>
+      </div>
+    </div>
 
-    <div id="thankYouScreen">
-      <h2>Katılımınız için teşekkür ederiz.</h2>
-      <p>Cevaplarınız başarıyla kaydedilmiştir.</p>
+    <div class="question">
+      <div class="qhead">
+        <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>4</span></span>
+        <h2 class="qtitle">Eklemek istediğiniz bir şey var mı?</h2>
+      </div>
+      <div class="qhint">bir film, yönetmen ya da oyuncu adı yazabilirsin</div>
+      <textarea name="q4" placeholder="buraya yazabilirsin..."></textarea>
+    </div>
+
+    <div class="submit-row">
+      <span class="submit-wrap">
+        <svg viewBox="0 0 160 70"><path d="M14,36 C10,16 34,4 80,5 C130,6 152,20 146,38 C140,58 108,66 70,64 C28,62 8,52 14,36 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg>
+        <button type="submit" class="submit" id="submitBtn">Gönder</button>
+      </span>
     </div>
   </div>
 
-  <script>
-    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwxDo2OyTEyZzt_-pg00thhHw-Ctb9VHoq-xrnwRa2YiazD_8tNwF7DzQNk4Twa9s_dYg/exec";
+  <div class="thank-you" id="thankYou">
+    <h2>Teşekkürler!</h2>
+    <p>Cevabınız kaydedildi. Sinema projemize katkınız için teşekkür ederiz.</p>
+  </div>
 
-    // En fazla 3 seçim kısıtlaması fonksiyonu
-    function enforceMaxLimit(checkboxSelector, maxLimit) {
-      const checkboxes = document.querySelectorAll(checkboxSelector);
-      checkboxes.forEach(cb => {
-        cb.addEventListener("change", () => {
-          const checkedCount = document.querySelectorAll(checkboxSelector + ":checked").length;
-          checkboxes.forEach(item => {
-            if (!item.checked) {
-              item.disabled = checkedCount >= maxLimit;
-              item.closest(".sketch-option").classList.toggle("disabled-opt", checkedCount >= maxLimit);
-            }
-          });
-        });
-      });
+</form>
+</div>
+
+<script>
+(function () {
+  var SCRIPT_URL = "https://script.google.com/macros/s/AKfycbydnBzB94xUJXEiZx9vfbviHHoCAnIlL6Ad_802MUH6ABe85JfpuXIHZN97PYfDUpusrA/exec";
+
+  function setupLimitGroup(container) {
+    var max = parseInt(container.getAttribute('data-max'), 10) || 3;
+    var boxes = container.querySelectorAll('input[type="checkbox"]');
+
+    function refresh() {
+      var checkedCount = container.querySelectorAll('input[type="checkbox"]:checked').length;
+      if (checkedCount >= max) {
+        container.classList.add('maxed');
+      } else {
+        container.classList.remove('maxed');
+      }
     }
 
-    enforceMaxLimit('input[name="soru2"]', 3);
-    enforceMaxLimit('input[name="soru3"]', 3);
-
-    // Diğer metin kutusuna yazıldığında otomatik işaretleme (eğer 3 sınırına ulaşılmadıysa)
-    const digerCheckbox = document.getElementById("digerCheckbox");
-    const digerText = document.getElementById("digerText");
-
-    digerText.addEventListener("input", () => {
-      if (digerText.value.trim() !== "" && !digerCheckbox.checked && !digerCheckbox.disabled) {
-        digerCheckbox.checked = true;
-        digerCheckbox.dispatchEvent(new Event("change"));
-      }
-    });
-
-    digerCheckbox.addEventListener("change", () => {
-      if (digerCheckbox.checked) {
-        digerText.focus();
-      } else {
-        digerText.value = "";
-      }
-    });
-
-    // Form Gönderimi
-    const form = document.getElementById("surveyForm");
-    const submitBtn = document.getElementById("submitBtn");
-    const thankYouScreen = document.getElementById("thankYouScreen");
-
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-
-      const secilenTurler = Array.from(document.querySelectorAll('input[name="soru2"]:checked'))
-        .map(cb => cb.value);
-
-      if (secilenTurler.length === 0 || secilenTurler.length > 3) {
-        document.getElementById("errSoru2").style.display = "block";
-        return;
-      } else {
-        document.getElementById("errSoru2").style.display = "none";
-      }
-
-      const secilenUlkeler = Array.from(document.querySelectorAll('input[name="soru3"]:checked'))
-        .map(cb => {
-          if (cb.value === "Diğer") {
-            return digerText.value.trim() ? "Diğer: " + digerText.value.trim() : "Diğer";
+    boxes.forEach(function (box) {
+      box.addEventListener('change', function () {
+        if (box.checked) {
+          var checkedCount = container.querySelectorAll('input[type="checkbox"]:checked').length;
+          if (checkedCount > max) {
+            box.checked = false;
+            return;
           }
-          return cb.value;
-        });
-
-      if (secilenUlkeler.length === 0 || secilenUlkeler.length > 3) {
-        document.getElementById("errSoru3").style.display = "block";
-        return;
-      } else {
-        document.getElementById("errSoru3").style.display = "none";
-      }
-
-      submitBtn.disabled = true;
-      submitBtn.textContent = "Gönderiliyor...";
-
-      const formData = new FormData(form);
-      const payload = {
-        soru1: formData.get("soru1"),
-        soru2: secilenTurler.join(", "),
-        soru3: secilenUlkeler.join(", "),
-        soru4: formData.get("soru4").trim() || ""
-      };
-
-      try {
-        await fetch(SCRIPT_URL, {
-          method: "POST",
-          mode: "no-cors",
-          headers: { "Content-Type": "text/plain;charset=utf-8" },
-          body: JSON.stringify(payload)
-        });
-
-        form.style.display = "none";
-        thankYouScreen.style.display = "block";
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      } catch (err) {
-        alert("Gönderim sırasında bir hata oluştu. Lütfen tekrar deneyin.");
-        submitBtn.disabled = false;
-        submitBtn.textContent = "Gönder";
-      }
+        }
+        refresh();
+      });
     });
-  </script>
+
+    refresh();
+  }
+
+  document.querySelectorAll('.opts[data-group]').forEach(setupLimitGroup);
+
+  // "Diğer" metin kutusuna yazmaya başlayınca kutucuğu otomatik işaretle
+  var otherCheckbox = document.getElementById('q3-other-checkbox');
+  var otherInput = document.getElementById('q3-other-text');
+  var otherGroup = otherCheckbox.closest('.opts');
+
+  otherInput.addEventListener('focus', function () {
+    if (!otherCheckbox.checked) {
+      var checkedCount = otherGroup.querySelectorAll('input[type="checkbox"]:checked').length;
+      var max = parseInt(otherGroup.getAttribute('data-max'), 10) || 3;
+      if (checkedCount < max) {
+        otherCheckbox.checked = true;
+        otherCheckbox.dispatchEvent(new Event('change'));
+      }
+    }
+  });
+  otherCheckbox.addEventListener('change', function () {
+    if (!otherCheckbox.checked) {
+      otherInput.value = '';
+    }
+  });
+
+  var form = document.getElementById('surveyForm');
+  var errorBanner = document.getElementById('errorBanner');
+  var submitBtn = document.getElementById('submitBtn');
+  var formBody = document.getElementById('formBody');
+  var thankYou = document.getElementById('thankYou');
+
+  function showError(message) {
+    errorBanner.textContent = message;
+    errorBanner.style.display = 'block';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    var q2Count = form.querySelectorAll('input[name="q2"]:checked').length;
+    var q3Count = form.querySelectorAll('input[name="q3"]:checked').length;
+
+    if (q2Count === 0 || q3Count === 0) {
+      showError('Lütfen 2. ve 3. sorularda en az bir seçenek işaretleyin.');
+      return;
+    }
+
+    errorBanner.style.display = 'none';
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Gönderiliyor...';
+
+    var formData = new FormData(form);
+    formData.append('gonderim_zamani', new Date().toISOString());
+
+    fetch(SCRIPT_URL, { method: 'POST', mode: 'no-cors', body: formData })
+      .then(function () {
+        formBody.style.display = 'none';
+        thankYou.style.display = 'block';
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      })
+      .catch(function () {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Gönder';
+        showError('Gönderim sırasında bir bağlantı sorunu oluştu. Lütfen tekrar deneyin.');
+      });
+  });
+})();
+</script>
 
 </body>
 </html>
+
+</body></html>
