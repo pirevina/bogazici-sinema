@@ -1276,6 +1276,7 @@
                     <button class="btn-play-hero" onclick="playCurrentFilm()"><i class="fas fa-play"></i> Hemen İzle</button>
                     <button class="btn-close-view" id="btn-toggle-watched" onclick="toggleCurrentWatched()"><i class="fa-solid fa-check"></i> İzledim</button>
                     <button class="btn-close-view" id="btn-toggle-fav" onclick="toggleCurrentFav()"><i class="fa-regular fa-star"></i> Favori</button>
+                    <button class="btn-close-view" id="btn-open-critic" onclick="openCriticForm()" style="border-color: rgba(245, 197, 24, 0.4); color: var(--gold-accent);"><i class="fa-solid fa-feather-pointed"></i> Eleştirmen Dosyası</button>
                     <button class="btn-close-view" onclick="goBackToCategory()"><i class="fas fa-arrow-left"></i> Geri Dön</button>
                 </div>
             </div>
@@ -2687,7 +2688,7 @@
             tabs.innerHTML = '';
 
             const msgId = film.telegramMessageId || 2;
-            const telegramStreamUrl = `[https://bogazici-sinema.onrender.com/stream/$](https://bogazici-sinema.onrender.com/stream/$){msgId}`;
+            const telegramStreamUrl = `http://localhost:3001/stream/${msgId}`;
 
             const tgBtn = document.createElement('button');
             tgBtn.className = 'tab-btn active';
@@ -2727,6 +2728,25 @@
 
             document.getElementById('video-modal').style.display = 'flex';
             switchPlayerMode('telegram', telegramStreamUrl, film.poster);
+        }
+
+        function openCriticForm() {
+            const filmId = currentActiveFilm ? currentActiveFilm.id : '';
+            const name = encodeURIComponent(localStorage.getItem('student_name') || '');
+            const sinif = encodeURIComponent(localStorage.getItem('student_class') || '');
+            const no = encodeURIComponent(localStorage.getItem('student_no') || '');
+            const role = encodeURIComponent(localStorage.getItem('user_role') || '');
+
+            let url = 'film_okuma_formu.html';
+            const params = [];
+            if (filmId) params.push('id=' + filmId);
+            if (name) params.push('name=' + name);
+            if (sinif) params.push('sinif=' + sinif);
+            if (no) params.push('no=' + no);
+            if (role) params.push('role=' + role);
+            if (params.length > 0) url += '?' + params.join('&');
+
+            window.open(url, '_blank');
         }
 
         function closeModal() {
