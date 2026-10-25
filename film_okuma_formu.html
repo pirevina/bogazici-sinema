@@ -449,6 +449,158 @@ body {
     border-left: 2px solid var(--gold);
 }
 
+/* ÖĞRETMENLERE NOT PANELİ (SADECE ÖĞRETMENLERE AÇIK) */
+.teacher-notes-panel {
+    background: linear-gradient(135deg, rgba(28, 25, 38, 0.95) 0%, rgba(14, 14, 20, 0.95) 100%);
+    border: 1.5px solid var(--border-gold);
+    border-radius: var(--radius-lg);
+    padding: 26px 28px;
+    margin-bottom: 28px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.7), 0 0 30px rgba(245, 197, 24, 0.08);
+    position: relative;
+    animation: fadeIn 0.4s var(--ease-smooth);
+}
+.teacher-notes-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 16px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.teacher-badge-wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+}
+.teacher-vip-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(245, 197, 24, 0.15);
+    border: 1px solid var(--border-gold);
+    color: var(--gold);
+    font-size: 0.72rem;
+    font-weight: 800;
+    padding: 4px 12px;
+    border-radius: 999px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.teacher-notes-title {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.55rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.teacher-notes-title i {
+    color: var(--gold);
+    font-size: 1.3rem;
+}
+.teacher-notes-subtitle {
+    font-size: 0.88rem;
+    color: #cbd5e1;
+    line-height: 1.5;
+}
+.btn-toggle-teacher-notes {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-dim);
+    padding: 8px 16px;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+.btn-toggle-teacher-notes:hover {
+    background: rgba(255, 255, 255, 0.14);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.25);
+}
+.teacher-content-body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.teacher-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+@media (max-width: 680px) {
+    .teacher-grid { grid-template-columns: 1fr; }
+    .teacher-notes-panel { padding: 20px 16px; }
+}
+.teacher-card-item {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: var(--radius-md);
+    padding: 18px 20px;
+}
+.teacher-card-item h4 {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.96rem;
+    font-weight: 700;
+    color: var(--gold);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.teacher-card-item p {
+    font-size: 0.84rem;
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+.teacher-card-item ul {
+    margin-top: 8px;
+    padding-left: 18px;
+    font-size: 0.82rem;
+    color: #94a3b8;
+    line-height: 1.6;
+}
+.teacher-debrief-banner {
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.09) 0%, rgba(0, 0, 0, 0.45) 100%);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: var(--radius-md);
+    padding: 18px 22px;
+}
+.teacher-debrief-banner h4 {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: #34d399;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.teacher-debrief-banner p {
+    font-size: 0.85rem;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+.teacher-debrief-banner ul {
+    margin-top: 8px;
+    padding-left: 18px;
+    font-size: 0.83rem;
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
 /* STEPPER NAVIGATION BAR */
 .stepper-nav {
     display: flex;
@@ -1113,7 +1265,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
         <div class="badge-role">
             <i class="fa-solid fa-feather-pointed"></i> Film Eleştiri Dosyası
         </div>
-        <h1 class="hero-title">Film Okuma & Çözümleme Seyir Defteri</h1>
+        <h1 class="hero-title">Film Okuma & Çözümleme (Seyir Defteri)</h1>
         <p class="hero-subtitle">
             Gördüğün bir hikâyeyi sadece özetlemek yerine; kameranın nerede durduğunu, karakterin ahlaki açmazını ve senin o karede ne hissettiğini düşündüren eleştirel alan.
         </p>
@@ -1154,6 +1306,84 @@ input[type="range"]::-webkit-slider-thumb:hover {
             <div class="critic-field">
                 <label for="criticGrade">Sınıf / Şube veya Görev</label>
                 <input type="text" id="criticGrade" class="critic-input" placeholder="Örn: 10E, 11-B veya Öğretmen">
+            </div>
+        </div>
+    </div>
+
+    <!-- ÖĞRETMENLERE NOT PANELİ (Yalnızca Öğretmen Oturumu Açıldığında Aktif Olur) -->
+    <div class="teacher-notes-panel" id="teacherNotesPanel" style="display: none;">
+        <div class="teacher-notes-header">
+            <div>
+                <div class="teacher-badge-wrap">
+                    <span class="teacher-vip-badge"><i class="fa-solid fa-chalkboard-user"></i> Öğretmen Alanı</span>
+                </div>
+                <h2 class="teacher-notes-title"><i class="fa-solid fa-bookmark"></i> Öğretmenlere Not</h2>
+                <p class="teacher-notes-subtitle">Bu kısım sadece "Öğretmen" girişi yapan kullanıcılara özeldir ve formun önemini, arka plandaki pedagojik kaygılar ve sınıf içi 'Tartışma Halkası' kılavuzunu içermektedir. Lütfen öğrenciler ile paylaşmayın.</p>
+            </div>
+            <button type="button" class="btn-toggle-teacher-notes" onclick="toggleTeacherNotesBody()" id="btnTeacherNotesToggle">
+                <i class="fa-solid fa-chevron-up" id="teacherNotesIcon"></i> <span>Rehberi Daralt</span>
+            </button>
+        </div>
+
+        <div class="teacher-content-body" id="teacherContentBody">
+            <div class="teacher-grid">
+                <div class="teacher-card-item">
+                    <h4><i class="fa-solid fa-ban"></i> Neden Klasik "Özet" Değil?</h4>
+                    <p>
+                        Geleneksel okul ortamlarında sıklıkla yapılan <i>"Filmin özetini çıkarınız ve ana fikrini yazınız"</i> ödevi; öğrencileri Wikipedia veya yapay zekâ özetlerini kopyalamaya iter ve Bloom Taksonomisi'nin en alt basamağı olan <b>"Hatırlama"</b> seviyesinde tutar.
+                    </p>
+                    <p style="margin-top:8px;">
+                        Bu formda amaç olay örgüsü değil; kameranın neyi gösterip neyi sakladığı, karakterin etik açmazları ve görsel alt metinleri okuyabilen <b>"metin çözücüsü"</b> refleksi kazandırmaktır.
+                    </p>
+                </div>
+
+                <div class="teacher-card-item">
+                    <h4><i class="fa-solid fa-gamepad"></i> "Ödev Psikolojisi"nden Çıkarma</h4>
+                    <p>
+                        Öğrencinin formu angarya bir ödev değil, zevk aldığı bir tahlil olarak görmesi için 4 psikolojik tasarım ilkesi benimsenmiştir:
+                    </p>
+                    <ul>
+                        <li><b>Rol Verme:</b> Öğrenci sıradan bir anketçi değil, "Film Eleştirmeni" konumundadır.</li>
+                        <li><b>Özgür Düşünce Güvencesi:</b> Doğru/yanlış baskısı yoktur; tek kriter argüman temellendirmesidir.</li>
+                        <li><b>Mikro-Etkileşimler:</b> Puan slider'ı, duygu rozetleri ve empatik duruş kartları.</li>
+                        <li><b>8–10 Dakika Kuralı:</b> Bezdirmeyen 5 seçkin soru modülü.</li>
+                    </ul>
+                </div>
+
+                <div class="teacher-card-item">
+                    <h4><i class="fa-solid fa-layer-group"></i> 5 Boyutlu Çözümleme Matrisi</h4>
+                    <p>
+                        Form; uluslararası sinema pedagojisi (BFI 3Cs & 3Ss, Alain Bergala Sinema Hipotezi, MEB Maarif Modeli ve P4C - Felsefe) ile inşa edilmiştir:
+                    </p>
+                    <ul>
+                        <li><b>1. Atmosfer:</b> Duygusal zekayı ve ilk hissiyatı tanımlama.</li>
+                        <li><b>2. Sahne Büyüteci:</b> 2-3 dakikalık tek sekansı parçalama.</li>
+                        <li><b>3. Karakter & Empati:</b> Ahlaki kırılma ve iç çatışma analizi.</li>
+                        <li><b>4. Felsefi Yüzleşme (P4C - Çocuklar İçin Felsefe):</b> Kök değerler (vicdan, adalet, merhamet).</li>
+                        <li><b>5. Yönetmen Koltuğu:</b> Alternatif senaryo.</li>
+                    </ul>
+                </div>
+
+                <div class="teacher-card-item">
+                    <h4><i class="fa-solid fa-table-cells"></i> Canlı Veri & Google E-Tablo</h4>
+                    <p>
+                        Öğrencilerin doldurduğu her eleştiri formu, okul numarasından alternatif sahneye kadar anında Veritabanımıza işlenir.
+                    </p>
+                    <p style="margin-top:8px;">
+                        Veriler öğrenci veya sınıf bazında filtrelenebilir, performansı ve felsefi muhakeme derinliği zaman içinde rubrik ölçütleriyle takip edilebilir. Bu da anlamlı bir veri seti ile öğrencilerimizin gelişimini takip etmemizi sağlar.
+                    </p>
+                </div>
+            </div>
+
+            <div class="teacher-debrief-banner">
+                <h4><i class="fa-solid fa-comments"></i> Sınıf İçi "Tartışma Halkası" Entegrasyonu</h4>
+                <p>
+                    Toplanan yanıtlar salt bir veri yığını olarak kalmamalıdır. Tarih, Felsefe, Edebiyat ve Rehberlik zümreleri bu verileri şu iki pratik adımla derse ve özel görüşmelerine taşımalıdır:
+                </p>
+                <ul>
+                    <li><b>Çelişkili Görüşlerin Karşılaştırılması:</b> Aynı filmdeki karaktere <i>"hak verdim"</i> ve <i>"öfkelendim"</i> diyen öğrencilerin argümanları sınıfta anonim olarak tahtaya yansıtılarak felsefi münazara başlatılmalıdır.</li>
+                    <li><b>Yaratıcı Finallerin Oylanması:</b> Öğrencilerin 5. adımda yazdığı en çarpıcı alternatif finaller sınıfta okunarak film dili üzerinden ortak bir edebiyat/senaryo atölyesi yapılmalıdır.</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -1230,7 +1460,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
 
                 <div class="field-group">
                     <div class="chips-title">
-                        Filmin Hissiyatı (Vibe) Rozetleri
+                        Filmin Hissiyatı (Duygu) Rozetleri
                         <span>(Seni en çok yakalayan 1–3 tanesini seç)</span>
                     </div>
                     <div class="chips-grid" id="vibeChipsContainer">
@@ -1327,7 +1557,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
                 <div class="step-card-header">
                     <div class="step-num">03</div>
                     <div class="step-title-wrap">
-                        <h2>Karakter Arkı, Zihinsel Dönüşüm & Empati</h2>
+                        <h2>Karakter Gelişimi, Zihinsel Dönüşüm & Empati</h2>
                         <p>Karakterleri siyah-beyaz (iyi-kötü) kalıplarına sokmadan; zaaflarını, korkularını ve ahlaki kırılmalarını anlamlandırma alanı.</p>
                     </div>
                 </div>
@@ -1360,7 +1590,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
 
                 <div class="field-group">
                     <label class="field-label" for="characterConflict">Karakterin hikâye boyunca yaşadığı en büyük iç çatışma ya da ahlaki sınav neydi?</label>
-                    <span class="field-hint">Filmin başında kimdi, doruk noktasında (climax) neyi feda etti veya neyi kazandı? Sen onun yerinde olsaydın aynı kararı verir miydin?</span>
+                    <span class="field-hint">Filmin başında kimdi, doruk noktasında neyi feda etti veya neyi kazandı? Sen onun yerinde olsaydın aynı kararı verir miydin?</span>
                     <textarea id="characterConflict" class="cinematic-textarea" placeholder="Karakterin iç dünyasını ve senin etik tepkini anlat..."></textarea>
                 </div>
             </div>
@@ -1381,7 +1611,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
                 <div class="step-card-header">
                     <div class="step-num">04</div>
                     <div class="step-title-wrap">
-                        <h2>Felsefi & Sosyo-Kültürel Yüzleşme (P4C)</h2>
+                        <h2>Felsefi & Sosyo-Kültürel Yüzleşme (P4C - Çocuklar İçin Felsefe)</h2>
                         <p>Filmin temasını günümüz dünyası, toplum ve evrensel etik ikilemlerle (vicdan, adalet, otorite, teknoloji) buluşturma köprüsü.</p>
                     </div>
                 </div>
@@ -1400,7 +1630,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
                     <span class="field-hint">Örneğin: "Doğru" olan ile "kolay" olan çatıştığında ne yapılmalı? Çoğunluğun iyiliği için birinin feda edilmesi meşru mudur? Güç kimin elinde ve sistem bireyi nasıl eziyor?</span>
                     <textarea id="philosophicalCritique" class="cinematic-textarea" placeholder="Bu filme dair kendi felsefi argümanını veya günümüz dünyasıyla kurduğun bağı yaz..."></textarea>
                     <div class="char-meter">
-                        <span>Fikrini özgürce temellendir.</span>
+                        <span>Fikrini özgürce temellendir. Bu bölüm senin için var.</span>
                         <span class="spark-pill" id="sparkPill">Felsefi Argüman</span>
                     </div>
                 </div>
@@ -1423,7 +1653,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
                     <div class="step-num">05</div>
                     <div class="step-title-wrap">
                         <h2>Yönetmen Koltuğu ("Sen Olsaydın?")</h2>
-                        <p>Edilgen seyircilikten yaratıcı üreticiliğe geçiş: Kalemi ve kamerayı eline alsaydın bu anlatıya nasıl müdahale ederdin?</p>
+                        <p>Seyircilikten yaratıcılığa geçiş: Kalemi ve kamerayı eline alsaydın bu anlatıya nasıl müdahale ederdin?</p>
                     </div>
                 </div>
 
@@ -1673,12 +1903,41 @@ function initUserAuth() {
         document.getElementById('manualCriticStrip').style.display = 'none';
         document.getElementById('criticName').readOnly = true;
         document.getElementById('criticGrade').readOnly = true;
+
+        // ÖĞRETMENLERE NOT PANELİ (Yalnızca Öğretmen Girişinde Aktif Olur)
+        const isTeacher = Boolean(role === 'teacher' || (sinif && sinif.toLowerCase().includes('öğretmen')));
+        const teacherPanel = document.getElementById('teacherNotesPanel');
+        if (teacherPanel) {
+            teacherPanel.style.display = isTeacher ? 'block' : 'none';
+        }
     } else {
         // Oturum bulunamadıysa manuel giriş şeridini açık tut
         document.getElementById('authCriticCard').style.display = 'none';
         document.getElementById('manualCriticStrip').style.display = 'grid';
         document.getElementById('criticName').readOnly = false;
         document.getElementById('criticGrade').readOnly = false;
+
+        const teacherPanel = document.getElementById('teacherNotesPanel');
+        if (teacherPanel) {
+            teacherPanel.style.display = 'none';
+        }
+    }
+}
+
+function toggleTeacherNotesBody() {
+    const body = document.getElementById('teacherContentBody');
+    const icon = document.getElementById('teacherNotesIcon');
+    const btn = document.getElementById('btnTeacherNotesToggle');
+    if (!body) return;
+
+    if (body.style.display === 'none') {
+        body.style.display = 'flex';
+        if (icon) icon.className = 'fa-solid fa-chevron-up';
+        if (btn) btn.querySelector('span').textContent = 'Rehberi Daralt';
+    } else {
+        body.style.display = 'none';
+        if (icon) icon.className = 'fa-solid fa-chevron-down';
+        if (btn) btn.querySelector('span').textContent = 'Rehberi Genişlet';
     }
 }
 
