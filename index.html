@@ -1372,8 +1372,29 @@
     <div class="modal-player" id="video-modal">
         <div class="modal-box">
             <span class="modal-close" onclick="closeModal()">&times;</span>
-            <div class="modal-video-frame" id="modal-video-container">
-                <video id="plyr-video" playsinline controls crossorigin="anonymous"></video>
+            <div class="modal-video-frame" id="modal-video-container" style="position:relative;">
+                <!-- TELEGRAM YAYIN VE BAĞLANTI UYARI KUTUSU -->
+                <div id="stream-error-overlay" style="display:none; position:absolute; inset:0; background:rgba(12,13,18,0.96); z-index:20; flex-direction:column; align-items:center; justify-content:center; padding:24px; text-align:center;">
+                    <div style="width:48px; height:48px; border-radius:50%; background:rgba(239,68,68,0.15); border:2px solid #ef4444; color:#ef4444; display:flex; align-items:center; justify-content:center; font-size:1.4rem; margin-bottom:12px;">
+                        <i class="fa-solid fa-triangle-exclamation"></i>
+                    </div>
+                    <h3 style="font-size:1.15rem; font-weight:800; color:#fff; margin-bottom:6px;">Telegram Canlı Yayınına Bağlanılamadı</h3>
+                    <p id="stream-error-desc" style="font-size:0.84rem; color:#94a3b8; max-width:500px; line-height:1.55; margin-bottom:18px;">
+                        Canlı sitede (HTTPS) yayın sunucunuza ulaşılamadı.
+                    </p>
+                    <div style="display:flex; gap:10px; flex-wrap:wrap; justify-content:center;">
+                        <button id="btn-fallback-drive" onclick="fallbackToDriveSource()" style="display:none; background:#f5c518; color:#000; border:none; padding:10px 18px; border-radius:6px; font-weight:800; font-size:0.84rem; cursor:pointer;">
+                            <i class="fa-brands fa-google-drive"></i> Drive Üzerinden İzle
+                        </button>
+                        <button onclick="configureStreamServerPrompt()" style="background:rgba(255,255,255,0.1); color:#fff; border:1px solid rgba(255,255,255,0.2); padding:10px 18px; border-radius:6px; font-weight:700; font-size:0.84rem; cursor:pointer;">
+                            <i class="fa-solid fa-gear"></i> Yayın Sunucusu Ayarı
+                        </button>
+                        <button onclick="retryTelegramStream()" style="background:rgba(255,255,255,0.06); color:#cbd5e1; border:1px solid rgba(255,255,255,0.12); padding:10px 16px; border-radius:6px; font-weight:600; font-size:0.84rem; cursor:pointer;">
+                            <i class="fa-solid fa-rotate-right"></i> Tekrar Dene
+                        </button>
+                    </div>
+                </div>
+                <video id="plyr-video" playsinline webkit-playsinline="true" x5-playsinline="true" controls preload="metadata"></video>
                 <iframe id="player-iframe" src="" allowfullscreen style="display:none;"></iframe>
             </div>
             <div class="modal-info">
@@ -2616,19 +2637,114 @@
                 const videoEl = document.getElementById('plyr-video');
                 if (videoEl) {
                     plyrInstance = new Plyr(videoEl, {
+                        playsinline: true,
                         controls: [
                             'play-large', 'rewind', 'play', 'fast-forward',
                             'progress', 'current-time', 'duration', 'mute',
                             'volume', 'settings', 'pip', 'airplay', 'fullscreen'
                         ],
-                        seekTime: 10
+                        seekTime: 10,
+                        fullscreen: { enabled: true, fallback: true, iosNative: true }
                     });
                 }
             }
             return plyrInstance;
         }
 
+        function getStreamServerBaseUrl() {
+            const saved = localStorage.getItem('STREAM_SERVER_URL');
+            if (saved && saved.trim()) return saved.trim().replace(/\/+$/, '');
+            if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || !window.location.hostname) {
+                return 'http://localhost:3001';
+            }
+            if (window.location.hostname.includes('onrender.com')) {
+                return window.location.origin;
+            }
+            return 'https://bogazici-sinema.onrender.com';
+        }
+
+        function configureStreamServerPrompt() {
+            const current = getStreamServerBaseUrl();
+            const input = prompt(
+                "Telegram Akış Sunucusu (stream-server) Adresini Girin:\n\n" +
+                "Örnekler:\n" +
+                "- Yerel Test: http://localhost:3001\n" +
+                "- Canlı / Bulut (HTTPS): https://okul-sinema-stream.onrender.com (veya Railway / VPS adresi)\n\n" +
+                "Mevcut Adres:",
+                current
+            );
+            if (input !== null) {
+                const cleaned = input.trim().replace(/\/+$/, '');
+                if (cleaned) {
+                    localStorage.setItem('STREAM_SERVER_URL', cleaned);
+                } else {
+                    localStorage.removeItem('STREAM_SERVER_URL');
+                }
+                retryTelegramStream();
+            }
+        }
+
+        function showStreamError(customMsg) {
+            const overlay = document.getElementById('stream-error-overlay');
+            const desc = document.getElementById('stream-error-desc');
+            const driveBtn = document.getElementById('btn-fallback-drive');
+            if (!overlay) return;
+
+            const isHttps = window.location.protocol === 'https:';
+            const serverUrl = getStreamServerBaseUrl();
+
+            let message = customMsg;
+            if (!message) {
+                if (isHttps && serverUrl.startsWith('http://localhost')) {
+                    message = "Siteniz HTTPS protokolünde yayında olduğu için tarayıcınız 'http://localhost:3001' yayınını güvenlik gerekçesiyle engelledi (Mixed Content). Canlı sitede Telegram akışını izlemek için yayın sunucusunu (stream-server) internete açık HTTPS adresine kurunuz veya filmin Drive seçeneğini kullanınız.";
+                } else {
+                    message = `Yayın sunucusuna (${serverUrl}) bağlanılamadı. stream-server uygulamasının çalıştığından ve internet bağlantınızdan emin olunuz.`;
+                }
+            }
+
+            if (desc) desc.textContent = message;
+
+            if (driveBtn) {
+                if (currentActiveFilm && ((currentActiveFilm.driveDublaj && currentActiveFilm.driveDublaj.trim().length > 5) || (currentActiveFilm.driveAltyazi && currentActiveFilm.driveAltyazi.trim().length > 5))) {
+                    driveBtn.style.display = 'inline-flex';
+                } else {
+                    driveBtn.style.display = 'none';
+                }
+            }
+
+            overlay.style.display = 'flex';
+        }
+
+        function hideStreamError() {
+            const overlay = document.getElementById('stream-error-overlay');
+            if (overlay) overlay.style.display = 'none';
+        }
+
+        function fallbackToDriveSource() {
+            hideStreamError();
+            if (!currentActiveFilm) return;
+            const targetUrl = (currentActiveFilm.driveDublaj && currentActiveFilm.driveDublaj.trim().length > 5) 
+                ? currentActiveFilm.driveDublaj 
+                : currentActiveFilm.driveAltyazi;
+            if (targetUrl) {
+                document.querySelectorAll('#m-audio-tabs .tab-btn').forEach(b => {
+                    if (b.textContent.includes('Drive')) b.classList.add('active');
+                    else b.classList.remove('active');
+                });
+                switchPlayerMode('iframe', targetUrl);
+            }
+        }
+
+        function retryTelegramStream() {
+            hideStreamError();
+            if (!currentActiveFilm) return;
+            const msgId = currentActiveFilm.telegramMessageId || 2;
+            const telegramStreamUrl = `${getStreamServerBaseUrl()}/stream/${msgId}`;
+            switchPlayerMode('telegram', telegramStreamUrl, currentActiveFilm.poster);
+        }
+
         function switchPlayerMode(mode, srcUrl, posterUrl) {
+            hideStreamError();
             const iframeEl = document.getElementById('player-iframe');
             const videoEl = document.getElementById('plyr-video');
             const player = initPlyrPlayer();
@@ -2642,6 +2758,16 @@
                 if (plyrContainer) plyrContainer.style.display = 'block';
                 if (videoEl) videoEl.style.display = 'block';
 
+                // Check upfront for Mixed Content
+                if (window.location.protocol === 'https:' && srcUrl.startsWith('http://localhost')) {
+                    showStreamError("Siteniz HTTPS protokolünde yayında olduğu için tarayıcınız 'http://localhost:3001' yayınını güvenlik gerekçesiyle engelledi (Mixed Content). Canlı sitede Telegram akışını izlemek için stream-server'ı internete açık HTTPS adresine kurunuz veya aşağıdaki Drive seçeneğini kullanınız.");
+                    return;
+                }
+
+                if (videoEl) {
+                    videoEl.onerror = () => showStreamError();
+                }
+
                 if (player) {
                     player.source = {
                         type: 'video',
@@ -2654,10 +2780,20 @@
                         ],
                         poster: posterUrl || ''
                     };
-                    player.play().catch(() => {});
+                    const p = player.play();
+                    if (p && typeof p.catch === 'function') {
+                        p.catch(err => {
+                            console.log('[Plyr Mobile] Oynatma kullanıcı dokunuşu bekliyor:', err.message);
+                        });
+                    }
                 } else if (videoEl) {
                     videoEl.src = srcUrl;
-                    videoEl.play().catch(() => {});
+                    const p = videoEl.play();
+                    if (p && typeof p.catch === 'function') {
+                        p.catch(err => {
+                            console.log('[Video Mobile] Oynatma kullanıcı dokunuşu bekliyor:', err.message);
+                        });
+                    }
                 }
             } else {
                 if (player) {
@@ -2688,24 +2824,35 @@
             tabs.innerHTML = '';
 
             const msgId = film.telegramMessageId || 2;
-            const telegramStreamUrl = `http://localhost:3001/stream/${msgId}`;
-
-            const tgBtn = document.createElement('button');
-            tgBtn.className = 'tab-btn active';
-            tgBtn.innerHTML = '<i class="fa-brands fa-telegram"></i> Telegram Stream';
-            tgBtn.onclick = () => {
-                document.querySelectorAll('.tab-btn').forEach(x => x.classList.remove('active'));
-                tgBtn.classList.add('active');
-                switchPlayerMode('telegram', telegramStreamUrl, film.poster);
-            };
-            tabs.appendChild(tgBtn);
+            const telegramStreamUrl = `${getStreamServerBaseUrl()}/stream/${msgId}`;
 
             const hasDub = film.driveDublaj && film.driveDublaj.trim().length > 5;
             const hasAlt = film.driveAltyazi && film.driveAltyazi.trim().length > 5;
 
+            // Bilinen MPEG-TS (.ts) formatındaki Telegram mesajları (31: Gattaca, 32: Children of Men)
+            // HTML5 web tarayıcıları doğrudan .ts yayınlarını demux edemez.
+            const isMpegTs = [31, 32].includes(msgId);
+            const preferDrive = isMpegTs && (hasDub || hasAlt);
+
+            const tgBtn = document.createElement('button');
+            tgBtn.className = 'tab-btn' + (!preferDrive ? ' active' : '');
+            tgBtn.innerHTML = '<i class="fa-brands fa-telegram"></i> Telegram Stream' + (isMpegTs ? ' <span style="font-size:0.7em; background:#ef4444; color:#fff; padding:2px 6px; border-radius:4px; margin-left:4px;">TS Format</span>' : '');
+            tgBtn.onclick = () => {
+                document.querySelectorAll('.tab-btn').forEach(x => x.classList.remove('active'));
+                tgBtn.classList.add('active');
+                if (isMpegTs) {
+                    showStreamError("Bu film Telegram kanalına MPEG-TS (.ts) formatında yüklenmiştir. Web tarayıcıları doğrudan .ts yayınlarını oynatamaz. Lütfen yukarıdaki 'Drive' sekmesini kullanınız veya filmi Telegram'a standart H.264+AAC .mp4 formatında tekrar yükleyiniz.");
+                } else {
+                    switchPlayerMode('telegram', telegramStreamUrl, film.poster);
+                }
+            };
+            tabs.appendChild(tgBtn);
+
+            let driveDefaultUrl = null;
+
             if (hasDub) {
                 const b = document.createElement('button');
-                b.className = 'tab-btn';
+                b.className = 'tab-btn' + (preferDrive ? ' active' : '');
                 b.textContent = 'Türkçe Dublaj (Drive)';
                 b.onclick = () => {
                     document.querySelectorAll('.tab-btn').forEach(x => x.classList.remove('active'));
@@ -2713,10 +2860,11 @@
                     switchPlayerMode('iframe', film.driveDublaj);
                 };
                 tabs.appendChild(b);
+                if (preferDrive && !driveDefaultUrl) driveDefaultUrl = film.driveDublaj;
             }
             if (hasAlt) {
                 const b = document.createElement('button');
-                b.className = 'tab-btn';
+                b.className = 'tab-btn' + (preferDrive && !hasDub ? ' active' : '');
                 b.textContent = 'Türkçe Altyazı (Drive)';
                 b.onclick = () => {
                     document.querySelectorAll('.tab-btn').forEach(x => x.classList.remove('active'));
@@ -2724,10 +2872,15 @@
                     switchPlayerMode('iframe', film.driveAltyazi);
                 };
                 tabs.appendChild(b);
+                if (preferDrive && !driveDefaultUrl) driveDefaultUrl = film.driveAltyazi;
             }
 
             document.getElementById('video-modal').style.display = 'flex';
-            switchPlayerMode('telegram', telegramStreamUrl, film.poster);
+            if (preferDrive && driveDefaultUrl) {
+                switchPlayerMode('iframe', driveDefaultUrl);
+            } else {
+                switchPlayerMode('telegram', telegramStreamUrl, film.poster);
+            }
         }
 
         function openCriticForm() {
