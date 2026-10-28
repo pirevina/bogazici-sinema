@@ -28,6 +28,66 @@ const channelIdRaw = process.env.CHANNEL_ID || '';
 // In-memory cache for message metadata to avoid re-fetching on rapid range requests / mobile seeking
 const messageMetadataCache = new Map();
 
+// In-memory cache for initial chunks (first 2 MB) and tail chunks (up to 15 MB for moov index)
+// Key: messageId, Value: { buffer, start, end }
+const initialChunkCache = new Map();
+const tailChunkCache = new Map();
+const prefetchInProgress = new Set();
+const MAX_CACHE_ENTRIES = 30; // Max 30 movies in RAM, well within Render's 512 MB
+
+function putInCache(map, key, data) {
+    if (map.size >= MAX_CACHE_ENTRIES) {
+        const oldestKey = map.keys().next().value;
+        map.delete(oldestKey);
+    }
+    map.set(key, data);
+}
+
+async function prefetchTail(messageId, media, start, end) {
+    if (tailChunkCache.has(messageId) || prefetchInProgress.has(messageId)) return;
+    prefetchInProgress.add(messageId);
+    try {
+        console.log(`[Pre-fetch MOOV] Başlatılıyor msg ${messageId}: bytes ${start}-${end} (${((end - start + 1) / (1024*1024)).toFixed(2)} MB)`);
+        const alignedStart = Math.floor(start / 4096) * 4096;
+        const skipBytes = start - alignedStart;
+        const bytesToFetch = end - start + 1;
+        const iter = client.iterDownload({
+            file: media,
+            offset: bigInt(alignedStart),
+            requestSize: 524288,
+        });
+        const chunks = [];
+        let isFirst = true;
+        let rem = bytesToFetch;
+        for await (const chunk of iter) {
+            let buf = Buffer.from(chunk);
+            if (isFirst) {
+                isFirst = false;
+                if (skipBytes > 0) buf = buf.slice(skipBytes);
+            }
+            if (buf.length > rem) buf = buf.slice(0, rem);
+            if (buf.length > 0) {
+                chunks.push(buf);
+                rem -= buf.length;
+            }
+            if (rem <= 0) break;
+        }
+        if (chunks.length > 0) {
+            const tailBuf = Buffer.concat(chunks);
+            putInCache(tailChunkCache, messageId, {
+                start: start,
+                end: end,
+                buffer: tailBuf
+            });
+            console.log(`[Pre-fetch MOOV] Başarıyla önbelleğe alındı msg ${messageId}: ${tailBuf.length} bytes!`);
+        }
+    } catch (err) {
+        console.warn(`[Pre-fetch MOOV Hatası msg ${messageId}]:`, err.message);
+    } finally {
+        prefetchInProgress.delete(messageId);
+    }
+}
+
 // Mevcut session.txt varsa oradan oku, yoksa .env içindeki SESSION_STRING'i kullan
 let savedSession = process.env.SESSION_STRING || '';
 if (fs.existsSync(SESSION_FILE)) {
@@ -226,6 +286,48 @@ app.get('/stream/:messageId', async (req, res) => {
             return res.end();
         }
 
+        // 1. FAST PATH: İlk parça RAM önbelleğinde var mı? (0 - 2MB anında 1ms içinde döner)
+        const cachedInitial = initialChunkCache.get(messageId);
+        if (cachedInitial && start >= cachedInitial.start && end <= cachedInitial.end) {
+            const offsetStart = start - cachedInitial.start;
+            const offsetEnd = end - cachedInitial.start;
+            const slice = cachedInitial.buffer.subarray(offsetStart, offsetEnd + 1);
+
+            res.writeHead(206, {
+                'Accept-Ranges': 'bytes',
+                'Content-Range': `bytes ${start}-${end}/${fileSize}`,
+                'Content-Length': slice.length,
+                'Content-Type': 'video/mp4',
+                'X-Cache': 'HIT-INITIAL',
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
+                'Access-Control-Allow-Headers': 'Range, Content-Type, Accept',
+                'Access-Control-Expose-Headers': 'Content-Range, Accept-Ranges, Content-Length',
+            });
+            return res.end(slice);
+        }
+
+        // 2. FAST PATH: Dosya sonu (moov index) RAM önbelleğinde var mı? (iOS Safari için)
+        const cachedTail = tailChunkCache.get(messageId);
+        if (cachedTail && start >= cachedTail.start && end <= cachedTail.end) {
+            const offsetStart = start - cachedTail.start;
+            const offsetEnd = end - cachedTail.start;
+            const slice = cachedTail.buffer.subarray(offsetStart, offsetEnd + 1);
+
+            res.writeHead(206, {
+                'Accept-Ranges': 'bytes',
+                'Content-Range': `bytes ${start}-${end}/${fileSize}`,
+                'Content-Length': slice.length,
+                'Content-Type': 'video/mp4',
+                'X-Cache': 'HIT-TAIL',
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
+                'Access-Control-Allow-Headers': 'Range, Content-Type, Accept',
+                'Access-Control-Expose-Headers': 'Content-Range, Accept-Ranges, Content-Length',
+            });
+            return res.end(slice);
+        }
+
         // Telegram 4096 byte hizalama kuralı (OFFSET_INVALID hatasını önlemek için)
         const alignedStart = Math.floor(start / 4096) * 4096;
         const skipBytes = start - alignedStart;
@@ -249,6 +351,9 @@ app.get('/stream/:messageId', async (req, res) => {
 
         let isFirstChunk = true;
         let remainingBytes = bytesToSend;
+
+        const chunksAccumulator = (start === 0 && bytesToSend <= 2097152) ? [] : null;
+        const tailAccumulator = (start >= fileSize - 15 * 1024 * 1024) ? [] : null;
 
         const downloadIterator = client.iterDownload({
             file: media,
@@ -274,14 +379,57 @@ app.get('/stream/:messageId', async (req, res) => {
                 buffer = buffer.slice(0, remainingBytes);
             }
 
-            if (buffer.length > 0 && !isClientClosed) {
-                res.write(buffer);
-                remainingBytes -= buffer.length;
+            if (buffer.length > 0) {
+                if (chunksAccumulator) chunksAccumulator.push(buffer);
+                if (tailAccumulator) tailAccumulator.push(buffer);
+
+                if (!isClientClosed) {
+                    res.write(buffer);
+                    remainingBytes -= buffer.length;
+                }
             }
 
             if (remainingBytes <= 0) {
                 break;
             }
+        }
+
+        if (chunksAccumulator && remainingBytes <= 0) {
+            const fullBuf = Buffer.concat(chunksAccumulator);
+            putInCache(initialChunkCache, messageId, {
+                start: 0,
+                end: fullBuf.length - 1,
+                buffer: fullBuf
+            });
+
+            // Otomatik MOOV Ön Yükleme: Eğer moov atomu dosya sonundaysa (FastStart yoksa) arka planda hemen önbelleğe al!
+            if (!tailChunkCache.has(messageId) && fullBuf.length >= 48) {
+                try {
+                    const headMoovIdx = fullBuf.indexOf(Buffer.from('moov'));
+                    if (headMoovIdx === -1) {
+                        const mdatIdx = fullBuf.indexOf(Buffer.from('mdat'));
+                        if (mdatIdx >= 4) {
+                            const mdatSize = fullBuf.readUInt32BE(mdatIdx - 4);
+                            if (mdatSize > 0 && mdatSize < fileSize) {
+                                const moovStart = (mdatIdx - 4) + mdatSize;
+                                if (moovStart < fileSize && (fileSize - moovStart) <= 15 * 1024 * 1024) {
+                                    prefetchTail(messageId, media, moovStart, fileSize - 1);
+                                }
+                            }
+                        }
+                    }
+                } catch (e) {
+                    console.log('[Moov Pre-fetch check]:', e.message);
+                }
+            }
+        }
+        if (tailAccumulator && remainingBytes <= 0) {
+            const fullBuf = Buffer.concat(tailAccumulator);
+            putInCache(tailChunkCache, messageId, {
+                start: start,
+                end: end,
+                buffer: fullBuf
+            });
         }
 
         if (!isClientClosed) {
