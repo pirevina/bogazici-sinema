@@ -248,10 +248,9 @@ app.get('/stream/:messageId', async (req, res) => {
         const media = data.media;
         const rangeHeader = req.headers.range;
 
-        // Varsayılan parça boyutu: 2 MB
-        const CHUNK_SIZE = 2 * 1024 * 1024;
+        // Doğal HTTP Video Streaming: Varsayılan olarak dosyanın sonuna kadar kesintisiz akar
         let start = 0;
-        let end = Math.min(CHUNK_SIZE - 1, fileSize - 1);
+        let end = fileSize - 1;
 
         // RFC 7233 standartlarına tam uyumlu Range çözümleyici (iOS Safari Suffix Range destekli)
         if (rangeHeader) {
@@ -266,11 +265,11 @@ app.get('/stream/:messageId', async (req, res) => {
                     start = Math.max(0, fileSize - suffix);
                     end = fileSize - 1;
                 } else if (sStr && !eStr) {
-                    // Prefix range: bytes=1048576-
+                    // Prefix range: bytes=1048576- (Video oynatımı -> dosya sonuna kadar KESİNTİSİZ akar)
                     start = parseInt(sStr, 10);
-                    end = Math.min(start + CHUNK_SIZE - 1, fileSize - 1);
+                    end = fileSize - 1;
                 } else if (sStr && eStr) {
-                    // Closed range: bytes=0-1 veya bytes=0-1000
+                    // Closed range: bytes=0-1 veya bytes=0-1000 (Tarayıcı metadata / başlık kontrolleri)
                     start = parseInt(sStr, 10);
                     end = Math.min(parseInt(eStr, 10), fileSize - 1);
                 }
@@ -286,7 +285,7 @@ app.get('/stream/:messageId', async (req, res) => {
             return res.end();
         }
 
-        // 1. FAST PATH: İlk parça RAM önbelleğinde var mı? (0 - 2MB anında 1ms içinde döner)
+        // 1. FAST PATH: Tam kapalı aralık RAM önbelleğinde var mı? (örn: Safari bytes=0-1 veya 0-2MB)
         const cachedInitial = initialChunkCache.get(messageId);
         if (cachedInitial && start >= cachedInitial.start && end <= cachedInitial.end) {
             const offsetStart = start - cachedInitial.start;
@@ -328,9 +327,11 @@ app.get('/stream/:messageId', async (req, res) => {
             return res.end(slice);
         }
 
-        // Telegram 4096 byte hizalama kuralı (OFFSET_INVALID hatasını önlemek için)
-        const alignedStart = Math.floor(start / 4096) * 4096;
-        const skipBytes = start - alignedStart;
+        // Uzun süreli video akışı için socket zaman aşımını kaldır
+        if (req.socket) {
+            req.socket.setTimeout(0);
+        }
+
         const bytesToSend = end - start + 1;
 
         res.writeHead(206, {
@@ -349,10 +350,33 @@ app.get('/stream/:messageId', async (req, res) => {
             isClientClosed = true;
         });
 
-        let isFirstChunk = true;
         let remainingBytes = bytesToSend;
+        let streamOffset = start;
 
-        const chunksAccumulator = (start === 0 && bytesToSend <= 2097152) ? [] : null;
+        // INSTANT START OPTIMIZATION: Baştan başlarken ilk 2 MB önbellekteyse anında yaz!
+        if (start === 0 && cachedInitial && cachedInitial.buffer && cachedInitial.buffer.length > 0) {
+            const bufToSend = (cachedInitial.buffer.length > remainingBytes)
+                ? cachedInitial.buffer.subarray(0, remainingBytes)
+                : cachedInitial.buffer;
+
+            res.write(bufToSend);
+            remainingBytes -= bufToSend.length;
+            streamOffset += bufToSend.length;
+        }
+
+        if (remainingBytes <= 0 || isClientClosed) {
+            if (!isClientClosed) res.end();
+            return;
+        }
+
+        // Telegram 4096 byte hizalama kuralı (OFFSET_INVALID hatasını önlemek için)
+        const alignedStart = Math.floor(streamOffset / 4096) * 4096;
+        const skipBytes = streamOffset - alignedStart;
+        let isFirstChunk = true;
+
+        // Önbelleğe alma toplayıcıları
+        let initialAccumulator = (start === 0 && !cachedInitial) ? [] : null;
+        let initialAccumulatorSize = 0;
         const tailAccumulator = (start >= fileSize - 15 * 1024 * 1024) ? [] : null;
 
         const downloadIterator = client.iterDownload({
@@ -380,12 +404,51 @@ app.get('/stream/:messageId', async (req, res) => {
             }
 
             if (buffer.length > 0) {
-                if (chunksAccumulator) chunksAccumulator.push(buffer);
+                if (initialAccumulator) {
+                    initialAccumulator.push(buffer);
+                    initialAccumulatorSize += buffer.length;
+                    if (initialAccumulatorSize >= 2 * 1024 * 1024) {
+                        const fullBuf = Buffer.concat(initialAccumulator);
+                        putInCache(initialChunkCache, messageId, {
+                            start: 0,
+                            end: fullBuf.length - 1,
+                            buffer: fullBuf
+                        });
+                        initialAccumulator = null;
+
+                        // Otomatik MOOV Ön Yükleme: Eğer moov atomu dosya sonundaysa (FastStart yoksa) arka planda hemen önbelleğe al!
+                        if (!tailChunkCache.has(messageId) && fullBuf.length >= 48) {
+                            try {
+                                const headMoovIdx = fullBuf.indexOf(Buffer.from('moov'));
+                                if (headMoovIdx === -1) {
+                                    const mdatIdx = fullBuf.indexOf(Buffer.from('mdat'));
+                                    if (mdatIdx >= 4) {
+                                        const mdatSize = fullBuf.readUInt32BE(mdatIdx - 4);
+                                        if (mdatSize > 0 && mdatSize < fileSize) {
+                                            const moovStart = (mdatIdx - 4) + mdatSize;
+                                            if (moovStart < fileSize && (fileSize - moovStart) <= 15 * 1024 * 1024) {
+                                                prefetchTail(messageId, media, moovStart, fileSize - 1);
+                                            }
+                                        }
+                                    }
+                                }
+                            } catch (e) {
+                                console.log('[Moov Pre-fetch check]:', e.message);
+                            }
+                        }
+                    }
+                }
+
                 if (tailAccumulator) tailAccumulator.push(buffer);
 
                 if (!isClientClosed) {
-                    res.write(buffer);
+                    const canWrite = res.write(buffer);
                     remainingBytes -= buffer.length;
+
+                    // Backpressure kontrolü: İstemci yavaş okursa TCP tamponu boşalana kadar bekle
+                    if (!canWrite && !isClientClosed) {
+                        await new Promise(resolve => res.once('drain', resolve));
+                    }
                 }
             }
 
@@ -394,35 +457,6 @@ app.get('/stream/:messageId', async (req, res) => {
             }
         }
 
-        if (chunksAccumulator && remainingBytes <= 0) {
-            const fullBuf = Buffer.concat(chunksAccumulator);
-            putInCache(initialChunkCache, messageId, {
-                start: 0,
-                end: fullBuf.length - 1,
-                buffer: fullBuf
-            });
-
-            // Otomatik MOOV Ön Yükleme: Eğer moov atomu dosya sonundaysa (FastStart yoksa) arka planda hemen önbelleğe al!
-            if (!tailChunkCache.has(messageId) && fullBuf.length >= 48) {
-                try {
-                    const headMoovIdx = fullBuf.indexOf(Buffer.from('moov'));
-                    if (headMoovIdx === -1) {
-                        const mdatIdx = fullBuf.indexOf(Buffer.from('mdat'));
-                        if (mdatIdx >= 4) {
-                            const mdatSize = fullBuf.readUInt32BE(mdatIdx - 4);
-                            if (mdatSize > 0 && mdatSize < fileSize) {
-                                const moovStart = (mdatIdx - 4) + mdatSize;
-                                if (moovStart < fileSize && (fileSize - moovStart) <= 15 * 1024 * 1024) {
-                                    prefetchTail(messageId, media, moovStart, fileSize - 1);
-                                }
-                            }
-                        }
-                    }
-                } catch (e) {
-                    console.log('[Moov Pre-fetch check]:', e.message);
-                }
-            }
-        }
         if (tailAccumulator && remainingBytes <= 0) {
             const fullBuf = Buffer.concat(tailAccumulator);
             putInCache(tailChunkCache, messageId, {
@@ -445,9 +479,14 @@ app.get('/stream/:messageId', async (req, res) => {
     }
 });
 
-app.listen(PORT, () => {
+const server = app.listen(PORT, () => {
     console.log(`[Stream Server] http://localhost:${PORT} üzerinde çalışıyor.`);
     initTelegramClient().catch((err) => {
         console.error('[Telegram Başlatma Hatası]:', err);
     });
 });
+
+// Uzun süreli film akışlarında Node.js 18+ soket zaman aşımını kaldır
+server.requestTimeout = 0;
+server.headersTimeout = 65000;
+server.keepAliveTimeout = 120000;
