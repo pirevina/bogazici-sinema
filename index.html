@@ -6,6 +6,16 @@
     <meta name="referrer" content="no-referrer">
     <meta name="robots" content="noindex, nofollow">
     <title>Boğaziçi Koleji • Film Platformu</title>
+    <!-- Progressive Web App (PWA) Meta & Links -->
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#070709">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Boğaziçi Sinema">
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+    <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
     
     <script>
         // Erken Kimlik Kontrolü: Giriş yapılmamışsa içeriğin bir an bile görünmesini engeller
@@ -1374,6 +1384,191 @@
             }
             .profile-tab-content { padding: 4px 14px 20px 14px; }
         }
+
+        /* ==============================================================
+           PROGRESSIVE WEB APP (PWA) STYLES & INSTALL PROMPTS
+           ============================================================== */
+        .pwa-install-banner {
+            position: fixed;
+            bottom: calc(85px + env(safe-area-inset-bottom, 0px));
+            right: 24px;
+            z-index: 600;
+            max-width: 380px;
+            width: calc(100vw - 32px);
+            background: rgba(18, 18, 24, 0.92);
+            backdrop-filter: blur(24px) saturate(180%);
+            -webkit-backdrop-filter: blur(24px);
+            border: 1px solid rgba(245, 197, 24, 0.35);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.75), 0 0 30px rgba(245, 197, 24, 0.15);
+            border-radius: 18px;
+            padding: 14px 16px;
+            display: none;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .pwa-install-banner.active {
+            display: block;
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .pwa-banner-inner {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .pwa-banner-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 11px;
+            overflow: hidden;
+            flex-shrink: 0;
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        }
+        .pwa-banner-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+        .pwa-banner-text {
+            flex: 1;
+            min-width: 0;
+        }
+        .pwa-banner-title {
+            font-size: 0.88rem;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 2px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .pwa-banner-title .badge {
+            background: rgba(245, 197, 24, 0.2);
+            color: var(--gold-accent);
+            font-size: 0.65rem;
+            padding: 2px 6px;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+        .pwa-banner-desc {
+            font-size: 0.74rem;
+            color: #94949e;
+            line-height: 1.35;
+        }
+        .pwa-banner-actions {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-shrink: 0;
+        }
+        .btn-pwa-install {
+            background: linear-gradient(135deg, #f5c518 0%, #d4a017 100%);
+            color: #000;
+            border: none;
+            font-weight: 800;
+            font-size: 0.78rem;
+            padding: 8px 14px;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(245, 197, 24, 0.3);
+            transition: transform 0.2s, filter 0.2s;
+            white-space: nowrap;
+        }
+        .btn-pwa-install:hover {
+            transform: scale(1.04);
+            filter: brightness(1.1);
+        }
+        .btn-pwa-close {
+            background: rgba(255, 255, 255, 0.08);
+            color: #94949e;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: 0.2s;
+        }
+        .btn-pwa-close:hover {
+            background: rgba(255, 255, 255, 0.15);
+            color: #fff;
+        }
+
+        /* iOS Safari PWA Rehber Modal */
+        .pwa-ios-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            z-index: 10000;
+            display: none;
+            align-items: flex-end;
+            justify-content: center;
+            padding: 16px;
+        }
+        .pwa-ios-modal.active {
+            display: flex;
+        }
+        .pwa-ios-card {
+            background: #141418;
+            border: 1px solid rgba(245, 197, 24, 0.3);
+            border-radius: 20px;
+            padding: 24px;
+            width: 100%;
+            max-width: 400px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.9);
+            position: relative;
+            animation: pwaSlideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        @keyframes pwaSlideUp {
+            from { transform: translateY(100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .pwa-ios-steps {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            margin: 18px 0;
+        }
+        .pwa-ios-step {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.85rem;
+            color: #e2e8f0;
+        }
+        .pwa-ios-step-num {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            background: rgba(245, 197, 24, 0.15);
+            color: var(--gold-accent);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+        }
+        .pwa-ios-step i {
+            color: var(--gold-accent);
+            margin: 0 3px;
+        }
+        @media (max-width: 768px) {
+            .pwa-install-banner {
+                bottom: calc(75px + env(safe-area-inset-bottom, 0px));
+                right: 12px;
+                left: 12px;
+                width: auto;
+            }
+        }
     </style>
 </head>
 <body>
@@ -1463,6 +1658,9 @@
         <button class="dock-circle-btn" id="dock-user-btn" title="Giriş / Profil" onclick="handleUserBtnClick()">
             <i class="far fa-user"></i>
             <span class="dock-user-indicator" id="user-status-dot" style="display:none;"></span>
+        </button>
+        <button class="dock-circle-btn" id="dock-pwa-btn" title="Uygulamayı Cihaza Yükle (PWA)" onclick="handlePWAInstallClick()" style="display:none;">
+            <i class="fa-solid fa-cloud-arrow-down" style="color:var(--gold-accent);"></i>
         </button>
     </div>
 
@@ -3806,6 +4004,123 @@
                 }
             });
         }
+
+
+        /* --- PROGRESSIVE WEB APP (PWA) ENTEGRASYONU --- */
+        let deferredPWAInstallPrompt = null;
+
+        function initPWA() {
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('./sw.js')
+                        .then((reg) => {
+                            console.log('[PWA] Service Worker aktif! Kapsam:', reg.scope);
+                            reg.onupdatefound = () => {
+                                const installingWorker = reg.installing;
+                                if (installingWorker) {
+                                    installingWorker.onstatechange = () => {
+                                        if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                            console.log('[PWA] Yeni sürüm mevcut, otomatik güncellendi.');
+                                        }
+                                    };
+                                }
+                            };
+                        })
+                        .catch((err) => {
+                            console.warn('[PWA] Service Worker kayıt hatası:', err);
+                        });
+                });
+            }
+
+            // Standalone (Uygulama olarak açık) kontrolü
+            const isStandalone = window.matchMedia('(display-mode: standalone)').matches || 
+                                 window.navigator.standalone === true || 
+                                 document.referrer.includes('android-app://');
+
+            if (isStandalone) {
+                document.documentElement.classList.add('is-pwa-standalone');
+                const banner = document.getElementById('pwa-install-banner');
+                if (banner) banner.style.display = 'none';
+                const dockBtn = document.getElementById('dock-pwa-btn');
+                if (dockBtn) dockBtn.style.display = 'none';
+                return;
+            }
+
+            // Android / Chrome / Edge Yükleme İsteği
+            window.addEventListener('beforeinstallprompt', (e) => {
+                e.preventDefault();
+                deferredPWAInstallPrompt = e;
+
+                const dockBtn = document.getElementById('dock-pwa-btn');
+                if (dockBtn) dockBtn.style.display = 'flex';
+
+                const dismissedAt = localStorage.getItem('pwa_dismissed_at');
+                const sevenDays = 7 * 24 * 60 * 60 * 1000;
+                if (!dismissedAt || (Date.now() - parseInt(dismissedAt, 10) > sevenDays)) {
+                    setTimeout(() => {
+                        const banner = document.getElementById('pwa-install-banner');
+                        if (banner && !document.documentElement.classList.contains('is-pwa-standalone')) {
+                            banner.classList.add('active');
+                        }
+                    }, 4000);
+                }
+            });
+
+            window.addEventListener('appinstalled', () => {
+                deferredPWAInstallPrompt = null;
+                const dockBtn = document.getElementById('dock-pwa-btn');
+                if (dockBtn) dockBtn.style.display = 'none';
+                const banner = document.getElementById('pwa-install-banner');
+                if (banner) banner.classList.remove('active');
+                showToast('Boğaziçi Sinema uygulaması ana ekranınıza yüklendi!', 'success');
+            });
+
+            // iOS kontrolü: Eğer iOS Safari ise ve henüz standalone değilse dock butonunu göster
+            const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            if (isIOS && !isStandalone) {
+                const dockBtn = document.getElementById('dock-pwa-btn');
+                if (dockBtn) dockBtn.style.display = 'flex';
+            }
+        }
+
+        function handlePWAInstallClick() {
+            if (deferredPWAInstallPrompt) {
+                deferredPWAInstallPrompt.prompt();
+                deferredPWAInstallPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        console.log('[PWA] Kullanıcı kurulumu onayladı.');
+                    }
+                    deferredPWAInstallPrompt = null;
+                    const banner = document.getElementById('pwa-install-banner');
+                    if (banner) banner.classList.remove('active');
+                });
+            } else {
+                const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+                if (isIOS) {
+                    openPWAiOSModal();
+                } else {
+                    showToast('Tarayıcınızın ayarlar (⋮) menüsünden "Uygulamayı Yükle" veya "Ana Ekrana Ekle" seçeneğini kullanabilirsiniz.', 'info');
+                }
+            }
+        }
+
+        function dismissPWABanner() {
+            const banner = document.getElementById('pwa-install-banner');
+            if (banner) banner.classList.remove('active');
+            localStorage.setItem('pwa_dismissed_at', Date.now().toString());
+        }
+
+        function openPWAiOSModal() {
+            const modal = document.getElementById('pwa-ios-modal');
+            if (modal) modal.classList.add('active');
+        }
+
+        function closePWAiOSModal() {
+            const modal = document.getElementById('pwa-ios-modal');
+            if (modal) modal.classList.remove('active');
+        }
+
+        initPWA();
 
         if (profileModalEl) {
             profileModalEl.addEventListener('click', function(e) {
