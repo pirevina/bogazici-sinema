@@ -1,4 +1,3 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
 <!doctype html>
 <html lang="tr">
 <head>
@@ -52,11 +51,11 @@
     position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
     overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
   }
-  .optrow { display: flex; align-items: center; gap: 11px; padding: 5px 4px; cursor: pointer; font-size: 15.5px; color: #3D362A; border-radius: 4px; transition: background .1s ease, opacity .15s ease; }
+  .optrow { display: flex; align-items: flex-start; gap: 11px; padding: 5px 4px; cursor: pointer; font-size: 15.5px; color: #3D362A; border-radius: 4px; transition: background .1s ease, opacity .15s ease; line-height: 1.45; }
   .opt:nth-child(odd) .sqbox { transform: rotate(-2deg); }
   .opt:nth-child(even) .sqbox { transform: rotate(1.5deg); }
   .opt:hover .optrow { background: rgba(192,80,77,0.06); }
-  .sqbox { width: 19px; height: 19px; border: 1.8px solid #2E271E; border-radius: 3px; flex: none; position: relative; }
+  .sqbox { width: 19px; height: 19px; border: 1.8px solid #2E271E; border-radius: 3px; flex: none; position: relative; margin-top: 2px; }
   .sqbox svg { position: absolute; inset: -3px; opacity: 0; transition: opacity .12s ease; }
   .opt input:checked ~ .optrow .sqbox svg,
   .opt input:checked + .optrow .sqbox svg { opacity: 1; }
@@ -105,7 +104,7 @@
     <div class="title">Sinema İlgi Anketi</div>
     <div class="intro">
       <p>Değerli katılımcı;</p>
-      <p>Bu anket, okulumuz bünyesindeki sinema projesinin <strong>BETA</strong> testinden <strong>V.1.0</strong> sürümüne geçişi için son düzeltmeleri yapmak amacıyla okulumuz öğrenci ve personelinin sinemaya ilgisini temel düzeyde ölçmeyi amaçlamaktadır. Vereceğiniz cevaplar sizler için hayata geçirdiğimiz bu sinema projesine isetekleriniz doğrultusunda katkılar sunacağından, cevaplarınızın dürüst ve gerçekçi olması bizim için çok önemlidir.</p>
+      <p>Bu anket, 2024-2025 Eğitim Öğretim yılında okulumuz bünyesinde yürüttüğümüz sinema projesinin <strong>BETA</strong> testinden <strong>V.1.0</strong> sürümüne geçişi aşamasında son rötuşları yapmak için okulumuz öğrenci ve personelinin sinemaya ilgisini temel düzeyde ölçmeyi amaçlamaktadır. Vereceğiniz cevaplar sizler için hayata geçirdiğimiz bu sinema projesine istekleriniz doğrultusunda katkılar sunacağından, cevaplarınızın dürüst ve gerçekçi olması bizim için çok önemlidir.</p>
       <p>Ankete vereceğiniz cevaplar anonimdir. Katılımınız için teşekkür ederiz.</p>
     </div>
     <div class="meta">
@@ -113,6 +112,7 @@
       Pelda Aksoy Mutlu &amp; Murat Mutlu
     </div>
 
+    <!-- Soru 1 -->
     <div class="question">
       <div class="qhead">
         <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>1</span></span>
@@ -125,6 +125,7 @@
       </div>
     </div>
 
+    <!-- Soru 2 -->
     <div class="question">
       <div class="qhead">
         <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>2</span></span>
@@ -144,6 +145,7 @@
       </div>
     </div>
 
+    <!-- Soru 3 -->
     <div class="question">
       <div class="qhead">
         <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>3</span></span>
@@ -168,13 +170,99 @@
       </div>
     </div>
 
+    <!-- Soru 4 -->
     <div class="question">
       <div class="qhead">
         <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>4</span></span>
+        <h2 class="qtitle">Bir filmden en büyük beklentin nedir?</h2>
+      </div>
+      <div class="qhint limit-note">(en fazla 2 seçenek işaretleyiniz)</div>
+      <div class="opts" data-group="q4" data-max="2">
+        <label class="opt"><input type="checkbox" name="q4" value="Sadece eğlenceli vakit geçirmek ve kafa dağıtmak"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Sadece eğlenceli vakit geçirmek ve kafa dağıtmak</span></label>
+        <label class="opt"><input type="checkbox" name="q4" value="Gerçek bir hayat hikayesinden veya başarı öyküsünden ilham almak"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Gerçek bir hayat hikayesinden veya başarı öyküsünden ilham almak</span></label>
+        <label class="opt"><input type="checkbox" name="q4" value="Görsel efektler ve aksiyonla heyecanlanmak"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Görsel efektler ve aksiyonla heyecanlanmak</span></label>
+        <label class="opt"><input type="checkbox" name="q4" value="Bilimsel, tarihi veya felsefi yeni bir bakış açısı kazanmak"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Bilimsel, tarihi veya felsefi yeni bir bakış açısı kazanmak</span></label>
+        <label class="opt"><input type="checkbox" name="q4" value="Duygusal olarak beni derinden etkilemesi"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Duygusal olarak beni derinden etkilemesi</span></label>
+      </div>
+    </div>
+
+    <!-- Soru 5 -->
+    <div class="question">
+      <div class="qhead">
+        <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>5</span></span>
+        <h2 class="qtitle">Genellikle hangi motivasyonla film izlemeye karar verirsin?</h2>
+      </div>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="q5" value="Can sıkıntımı gidermek ve boş zamanımı doldurmak için."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Can sıkıntımı gidermek ve boş zamanımı doldurmak için.</span></label>
+        <label class="opt"><input type="radio" name="q5" value="Yeni bir şeyler öğrenme veya farklı dünyalar keşfetme merakıyla."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Yeni bir şeyler öğrenme veya farklı dünyalar keşfetme merakıyla.</span></label>
+        <label class="opt"><input type="radio" name="q5" value="Okulun ve günün stresinden uzaklaşıp tamamen kafa dinlemek için."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Okulun ve günün stresinden uzaklaşıp tamamen kafa dinlemek için.</span></label>
+        <label class="opt"><input type="radio" name="q5" value="Arkadaşlarımla ortak bir konu üzerinde konuşabilmek için."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Arkadaşlarımla ortak bir konu üzerinde konuşabilmek için.</span></label>
+      </div>
+    </div>
+
+    <!-- Soru 6 -->
+    <div class="question">
+      <div class="qhead">
+        <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>6</span></span>
+        <h2 class="qtitle">Platformda özel bir "Film Kuşağı" yayınlansa, ilk hangisinin gelmesini istersin?</h2>
+      </div>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="q6" value="Geleceği Gösterenler (Bilim Kurgu, Uzay ve Distopya)"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Geleceği Gösterenler (Bilim Kurgu, Uzay ve Distopya)</span></label>
+        <label class="opt"><input type="radio" name="q6" value="Tarihi Değiştiren Anlar (Gerçek Olaylar ve Dönem Filmleri)"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Tarihi Değiştiren Anlar (Gerçek Olaylar ve Dönem Filmleri)</span></label>
+        <label class="opt"><input type="radio" name="q6" value="Sınırları Zorlayanlar (Hayatta Kalma, Doğa ve Macera)"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Sınırları Zorlayanlar (Hayatta Kalma, Doğa ve Macera)</span></label>
+        <label class="opt"><input type="radio" name="q6" value="Zihin Yakanlar (Psikolojik Gerilim, Gizem ve Ters Köşe)"><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Zihin Yakanlar (Psikolojik Gerilim, Gizem ve Ters Köşe)</span></label>
+      </div>
+    </div>
+
+    <!-- Soru 7 -->
+    <div class="question">
+      <div class="qhead">
+        <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>7</span></span>
+        <h2 class="qtitle">Senin için en rahat ve keyifli film izleme ortamı hangisidir?</h2>
+      </div>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="q7" value="Telefon veya tablette, kulaklığımı takıp tamamen kendi dünyama çekilerek."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Telefon veya tablette, kulaklığımı takıp tamamen kendi dünyama çekilerek.</span></label>
+        <label class="opt"><input type="radio" name="q7" value="Bilgisayar ekranında, sessiz ve loş bir odada tek başıma."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Bilgisayar ekranında, sessiz ve loş bir odada tek başıma.</span></label>
+        <label class="opt"><input type="radio" name="q7" value="Büyük ekranda (Televizyon/Projeksiyon), ailemle veya arkadaşlarımla birlikte."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Büyük ekranda (Televizyon/Projeksiyon), ailemle veya arkadaşlarımla birlikte.</span></label>
+      </div>
+    </div>
+
+    <!-- Soru 8 -->
+    <div class="question">
+      <div class="qhead">
+        <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>8</span></span>
+        <h2 class="qtitle">Seni çok etkileyen bir filmi izleyip bitirdikten sonra genelde ilk ne yaparsın?</h2>
+      </div>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="q8" value="İnternette filmin detaylarını, çekim arkasını veya gerçek hikayesini araştırırım."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>İnternette filmin detaylarını, çekim arkasını veya gerçek hikayesini araştırırım.</span></label>
+        <label class="opt"><input type="radio" name="q8" value="Filmin müziklerini (soundtrack) aratır, çalma listeme ekler ve dinlemeye başlarım."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Filmin müziklerini (soundtrack) aratır, çalma listeme ekler ve dinlemeye başlarım.</span></label>
+        <label class="opt"><input type="radio" name="q8" value="Hemen arkadaşlarıma tavsiye edip onların da izlemesini sağlamaya çalışırım."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Hemen arkadaşlarıma tavsiye edip onların da izlemesini sağlamaya çalışırım.</span></label>
+        <label class="opt"><input type="radio" name="q8" value="Üzerine biraz kendi içimde düşünür, sonra günlük rutinime geri dönerim."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Üzerine biraz kendi içimde düşünür, sonra günlük rutinime geri dönerim.</span></label>
+      </div>
+    </div>
+
+    <!-- Soru 9 -->
+    <div class="question">
+      <div class="qhead">
+        <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>9</span></span>
+        <h2 class="qtitle">Yeni bir film izlemeye karar verirken seni en çok ne ikna eder?</h2>
+      </div>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="q9" value="Sosyal medyadaki kısa kesitler ve editler (Instagram Reels, TikTok, YouTube)."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Sosyal medyadaki kısa kesitler ve editler (Instagram Reels, TikTok, YouTube).</span></label>
+        <label class="opt"><input type="radio" name="q9" value="Arkadaşlarımın veya güvendiğim kişilerin &quot;kesinlikle izlemelisin&quot; demesi."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Arkadaşlarımın veya güvendiğim kişilerin "kesinlikle izlemelisin" demesi.</span></label>
+        <label class="opt"><input type="radio" name="q9" value="Filmin kapağı, afişi ve kısacık özet metni."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Filmin kapağı, afişi ve kısacık özet metni.</span></label>
+        <label class="opt"><input type="radio" name="q9" value="IMDb puanı ve internetteki genel izleyici yorumları."><span class="optrow"><span class="sqbox"><svg viewBox="0 0 19 19"><path d="M3,10 L7.5,15 L17,3" fill="none" stroke="#C0504D" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/></svg></span>IMDb puanı ve internetteki genel izleyici yorumları.</span></label>
+      </div>
+    </div>
+
+    <!-- Soru 10 -->
+    <div class="question">
+      <div class="qhead">
+        <span class="numcircle"><svg viewBox="0 0 40 40"><path d="M20,3 C31,2 38,11 36,21 C34,31 24,37 13,34 C3,31 1,19 7,11 C11,5 15,3 20,3 Z" fill="none" stroke="#2E271E" stroke-width="2"/></svg><span>10</span></span>
         <h2 class="qtitle">Eklemek istediğiniz bir şey var mı?</h2>
       </div>
       <div class="qhint">istediğiniz bir film, yönetmen, oyuncu adı veya önerilerinizi yazabilirsiniz.</div>
-      <textarea name="q4" placeholder="buraya yazabilirsin..."></textarea>
+      <textarea name="q10" placeholder="buraya yazabilirsiniz..."></textarea>
     </div>
 
     <div class="submit-row">
@@ -231,23 +319,25 @@
   // "Diğer" metin kutusuna yazmaya başlayınca kutucuğu otomatik işaretle
   var otherCheckbox = document.getElementById('q3-other-checkbox');
   var otherInput = document.getElementById('q3-other-text');
-  var otherGroup = otherCheckbox.closest('.opts');
+  var otherGroup = otherCheckbox ? otherCheckbox.closest('.opts') : null;
 
-  otherInput.addEventListener('focus', function () {
-    if (!otherCheckbox.checked) {
-      var checkedCount = otherGroup.querySelectorAll('input[type="checkbox"]:checked').length;
-      var max = parseInt(otherGroup.getAttribute('data-max'), 10) || 3;
-      if (checkedCount < max) {
-        otherCheckbox.checked = true;
-        otherCheckbox.dispatchEvent(new Event('change'));
+  if (otherCheckbox && otherInput && otherGroup) {
+    otherInput.addEventListener('focus', function () {
+      if (!otherCheckbox.checked) {
+        var checkedCount = otherGroup.querySelectorAll('input[type="checkbox"]:checked').length;
+        var max = parseInt(otherGroup.getAttribute('data-max'), 10) || 3;
+        if (checkedCount < max) {
+          otherCheckbox.checked = true;
+          otherCheckbox.dispatchEvent(new Event('change'));
+        }
       }
-    }
-  });
-  otherCheckbox.addEventListener('change', function () {
-    if (!otherCheckbox.checked) {
-      otherInput.value = '';
-    }
-  });
+    });
+    otherCheckbox.addEventListener('change', function () {
+      if (!otherCheckbox.checked) {
+        otherInput.value = '';
+      }
+    });
+  }
 
   var form = document.getElementById('surveyForm');
   var errorBanner = document.getElementById('errorBanner');
@@ -264,11 +354,18 @@
   form.addEventListener('submit', function (e) {
     e.preventDefault();
 
+    var q1Val = form.querySelector('input[name="q1"]:checked');
     var q2Count = form.querySelectorAll('input[name="q2"]:checked').length;
     var q3Count = form.querySelectorAll('input[name="q3"]:checked').length;
+    var q4Count = form.querySelectorAll('input[name="q4"]:checked').length;
+    var q5Val = form.querySelector('input[name="q5"]:checked');
+    var q6Val = form.querySelector('input[name="q6"]:checked');
+    var q7Val = form.querySelector('input[name="q7"]:checked');
+    var q8Val = form.querySelector('input[name="q8"]:checked');
+    var q9Val = form.querySelector('input[name="q9"]:checked');
 
-    if (q2Count === 0 || q3Count === 0) {
-      showError('Lütfen 2. ve 3. sorularda en az bir seçenek işaretleyin.');
+    if (!q1Val || q2Count === 0 || q3Count === 0 || q4Count === 0 || !q5Val || !q6Val || !q7Val || !q8Val || !q9Val) {
+      showError('Lütfen 1\'den 9\'a kadar olan tüm soruları eksiksiz yanıtlayınız.');
       return;
     }
 
@@ -296,5 +393,3 @@
 
 </body>
 </html>
-
-</body></html>
