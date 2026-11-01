@@ -8,7 +8,7 @@
     <title>Boğaziçi Koleji • Film Platformu</title>
     <!-- Progressive Web App (PWA) Meta & Links -->
     <link rel="manifest" href="manifest.json">
-    <meta name="theme-color" content="#070709">
+    <meta name="theme-color" content="#0b0f19">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -38,14 +38,14 @@
     
     <style>
         :root {
-            --bg-black: #000000;
-            --dock-bg: rgba(20, 20, 24, 0.85);
-            --dock-border: rgba(255, 255, 255, 0.12);
-            --gold-accent: #f5c518;
-            --gold-glow: rgba(245, 197, 24, 0.35);
-            --text-white: #ffffff;
-            --text-dim: #94949e;
-            --card-border: rgba(255, 255, 255, 0.1);
+            --bg-black: #0b0f19;
+            --dock-bg: rgba(15, 23, 42, 0.88);
+            --dock-border: rgba(148, 163, 184, 0.18);
+            --gold-accent: #38bdf8;
+            --gold-glow: rgba(56, 189, 248, 0.32);
+            --text-white: #f8fafc;
+            --text-dim: #94a3b8;
+            --card-border: rgba(148, 163, 184, 0.14);
             --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
         }
 
@@ -328,6 +328,53 @@
             background: rgba(255, 255, 255, 0.18); border-color: rgba(255, 255, 255, 0.3); transform: translateY(-2px);
         }
 
+        /* Top-Right Floating Back Button in Cinema Expanded View (Mobile-First Thumb-Friendly) */
+        .btn-expanded-back-top {
+            position: fixed;
+            top: calc(20px + env(safe-area-inset-top, 0px));
+            right: calc(24px + env(safe-area-inset-right, 0px));
+            z-index: 120;
+            background: rgba(14, 14, 18, 0.78);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            color: #ffffff;
+            padding: 9px 18px;
+            border-radius: 999px;
+            font-family: inherit;
+            font-size: 0.86rem;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.65), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+            transition: all 0.22s var(--ease-out-expo);
+            user-select: none;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .btn-expanded-back-top:hover {
+            background: rgba(245, 197, 24, 0.22);
+            border-color: rgba(245, 197, 24, 0.6);
+            color: var(--gold-accent);
+            transform: translateY(-2px);
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.75), 0 0 24px rgba(245, 197, 24, 0.3);
+        }
+        .btn-expanded-back-top:active {
+            transform: scale(0.95);
+        }
+        @media (max-width: 768px) {
+            .btn-expanded-back-top {
+                top: calc(14px + env(safe-area-inset-top, 0px));
+                right: calc(14px + env(safe-area-inset-right, 0px));
+                padding: 8px 14px;
+                font-size: 0.8rem;
+                gap: 6px;
+                background: rgba(10, 10, 14, 0.9);
+                border-color: rgba(255, 255, 255, 0.25);
+            }
+        }
+
         /* ==============================================================
            FLOATING CAPSULE DOCK (DYNAMIC ISLAND)
            ============================================================== */
@@ -456,19 +503,19 @@
         .modal-player {
             display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.94); backdrop-filter: blur(14px);
             z-index: 500; justify-content: center; align-items: center; padding: 24px;
-            --plyr-color-main: #f5c518;
-            --plyr-video-background: #000000;
-            --plyr-menu-background: rgba(20, 20, 24, 0.95);
+            --plyr-color-main: #38bdf8;
+            --plyr-video-background: #0b0f19;
+            --plyr-menu-background: rgba(15, 23, 42, 0.95);
             --plyr-menu-color: #ffffff;
         }
         .modal-box {
-            width: 100%; max-width: 980px; background: #0e0e12; border: 1px solid rgba(255,255,255,0.15);
+            width: 100%; max-width: 980px; background: #0f172a; border: 1px solid rgba(148, 163, 184, 0.2);
             border-radius: 14px; overflow: hidden; box-shadow: 0 30px 70px rgba(0,0,0,0.95); position: relative;
         }
-        .modal-video-frame { width: 100%; aspect-ratio: 16/9; background: #000; position: relative; }
+        .modal-video-frame { width: 100%; aspect-ratio: 16/9; background: #0b0f19; position: relative; }
         .modal-video-frame iframe { width: 100%; height: 100%; border: none; display: none; }
         .modal-video-frame .plyr { width: 100%; height: 100%; }
-        .modal-video-frame video { width: 100%; height: 100%; object-fit: contain; background: #000; }
+        .modal-video-frame video { width: 100%; height: 100%; object-fit: contain; background: #0b0f19; }
         .modal-info { padding: 20px 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
         .modal-close {
             position: absolute; top: 14px; right: 18px; font-size: 1.6rem; color: #fff;
@@ -483,7 +530,7 @@
             padding: 7px 18px; border-radius: 6px; font-size: 0.82rem; font-weight: 700; cursor: pointer;
             transition: 0.2s;
         }
-        .tab-btn.active { background: var(--gold-accent); color: #000; border-color: var(--gold-accent); }
+        .tab-btn.active { background: var(--gold-accent); color: #041226; border-color: var(--gold-accent); }
 
         /* ==============================================================
            PLAYER COVER OVERLAY & LOADING STATES
@@ -493,13 +540,13 @@
             100% { transform: rotate(360deg); }
         }
         @keyframes pulseGlow {
-            0%, 100% { box-shadow: 0 0 25px rgba(245, 197, 24, 0.4), 0 10px 25px rgba(0,0,0,0.6); transform: scale(1); }
-            50% { box-shadow: 0 0 45px rgba(245, 197, 24, 0.7), 0 14px 30px rgba(0,0,0,0.7); transform: scale(1.05); }
+            0%, 100% { box-shadow: 0 0 25px rgba(56, 189, 248, 0.4), 0 10px 25px rgba(0,0,0,0.6); transform: scale(1); }
+            50% { box-shadow: 0 0 45px rgba(56, 189, 248, 0.7), 0 14px 30px rgba(0,0,0,0.7); transform: scale(1.05); }
         }
 
         .player-cover-overlay {
             position: absolute; inset: 0; z-index: 15; display: flex; flex-direction: column;
-            align-items: center; justify-content: center; overflow: hidden; background: #000;
+            align-items: center; justify-content: center; overflow: hidden; background: #0b0f19;
             transition: opacity 0.4s ease, visibility 0.4s ease;
         }
         .player-cover-bg {
@@ -511,20 +558,20 @@
         }
         .player-cover-vignette {
             position: absolute; inset: 0;
-            background: radial-gradient(circle at center, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.85) 100%);
+            background: radial-gradient(circle at center, rgba(11,15,25,0.2) 0%, rgba(11,15,25,0.85) 100%);
         }
         .player-cover-action {
             position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center;
             gap: 14px; cursor: pointer; user-select: none;
         }
         .player-cover-play-btn {
-            width: 82px; height: 82px; border-radius: 50%; background: #f5c518;
-            color: #000; display: flex; align-items: center; justify-content: center;
+            width: 82px; height: 82px; border-radius: 50%; background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+            color: #041226; display: flex; align-items: center; justify-content: center;
             font-size: 2.1rem; padding-left: 6px; cursor: pointer;
             animation: pulseGlow 2.5s infinite; transition: transform 0.2s ease, background 0.2s ease;
         }
         .player-cover-action:hover .player-cover-play-btn {
-            transform: scale(1.12); background: #ffcf24;
+            transform: scale(1.12); background: linear-gradient(135deg, #7dd3fc 0%, #38bdf8 100%);
         }
         .player-cover-hint {
             color: #ffffff; font-weight: 700; font-size: 0.95rem; letter-spacing: 0.5px;
@@ -536,7 +583,7 @@
         }
         .player-cover-spinner {
             width: 50px; height: 50px; border: 4px solid rgba(255,255,255,0.15);
-            border-top-color: #f5c518; border-radius: 50%;
+            border-top-color: #38bdf8; border-radius: 50%;
             animation: playerSpin 0.85s linear infinite;
         }
         .player-cover-loading-text {
@@ -548,14 +595,14 @@
         }
 
         .plyr__control--overlaid {
-            background: #f5c518 !important;
-            color: #000000 !important;
-            box-shadow: 0 0 35px rgba(245, 197, 24, 0.6), 0 10px 25px rgba(0,0,0,0.8) !important;
+            background: #38bdf8 !important;
+            color: #041226 !important;
+            box-shadow: 0 0 35px rgba(56, 189, 248, 0.6), 0 10px 25px rgba(0,0,0,0.8) !important;
             transform: scale(1.15) !important;
             transition: transform 0.25s ease, background 0.25s ease !important;
         }
         .plyr__control--overlaid:hover {
-            background: #ffcf24 !important;
+            background: #7dd3fc !important;
             transform: scale(1.25) !important;
         }
 
@@ -1395,11 +1442,11 @@
             z-index: 600;
             max-width: 380px;
             width: calc(100vw - 32px);
-            background: rgba(18, 18, 24, 0.92);
+            background: rgba(15, 23, 42, 0.94);
             backdrop-filter: blur(24px) saturate(180%);
             -webkit-backdrop-filter: blur(24px);
-            border: 1px solid rgba(245, 197, 24, 0.35);
-            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.75), 0 0 30px rgba(245, 197, 24, 0.15);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            box-shadow: 0 20px 50px rgba(11, 15, 25, 0.8), 0 0 30px rgba(56, 189, 248, 0.15);
             border-radius: 18px;
             padding: 14px 16px;
             display: none;
@@ -1446,7 +1493,7 @@
             gap: 6px;
         }
         .pwa-banner-title .badge {
-            background: rgba(245, 197, 24, 0.2);
+            background: rgba(56, 189, 248, 0.15);
             color: var(--gold-accent);
             font-size: 0.65rem;
             padding: 2px 6px;
@@ -1455,7 +1502,7 @@
         }
         .pwa-banner-desc {
             font-size: 0.74rem;
-            color: #94949e;
+            color: #94a3b8;
             line-height: 1.35;
         }
         .pwa-banner-actions {
@@ -1465,15 +1512,15 @@
             flex-shrink: 0;
         }
         .btn-pwa-install {
-            background: linear-gradient(135deg, #f5c518 0%, #d4a017 100%);
-            color: #000;
+            background: linear-gradient(135deg, #38bdf8 0%, #0284c7 100%);
+            color: #041226;
             border: none;
             font-weight: 800;
             font-size: 0.78rem;
             padding: 8px 14px;
             border-radius: 10px;
             cursor: pointer;
-            box-shadow: 0 4px 15px rgba(245, 197, 24, 0.3);
+            box-shadow: 0 4px 15px rgba(56, 189, 248, 0.35);
             transition: transform 0.2s, filter 0.2s;
             white-space: nowrap;
         }
@@ -1504,7 +1551,7 @@
         .pwa-ios-modal {
             position: fixed;
             inset: 0;
-            background: rgba(0, 0, 0, 0.85);
+            background: rgba(11, 15, 25, 0.88);
             backdrop-filter: blur(12px);
             -webkit-backdrop-filter: blur(12px);
             z-index: 10000;
@@ -1517,8 +1564,8 @@
             display: flex;
         }
         .pwa-ios-card {
-            background: #141418;
-            border: 1px solid rgba(245, 197, 24, 0.3);
+            background: #0f172a;
+            border: 1px solid rgba(56, 189, 248, 0.3);
             border-radius: 20px;
             padding: 24px;
             width: 100%;
@@ -1548,7 +1595,7 @@
             width: 28px;
             height: 28px;
             border-radius: 50%;
-            background: rgba(245, 197, 24, 0.15);
+            background: rgba(56, 189, 248, 0.15);
             color: var(--gold-accent);
             display: flex;
             align-items: center;
@@ -1596,6 +1643,10 @@
 
     <!-- Expanded Cinema View (Detailed full-screen overlay) -->
     <div class="expanded-view" id="expanded-view">
+        <button class="btn-expanded-back-top" onclick="goBackToCategory()" title="Kataloğa Geri Dön" aria-label="Geri Dön">
+            <i class="fas fa-arrow-left"></i>
+            <span>Geri Dön</span>
+        </button>
         <img src="" alt="" class="expanded-bg-poster" id="exp-bg">
         <div class="expanded-vignette"></div>
         <div class="expanded-content">
@@ -1643,6 +1694,7 @@
 
             <div class="dock-divider"></div>
             <div class="dock-nav-item" onclick="toggleGenreMenu()"><i class="fa-solid fa-grip"></i> Türler</div>
+            <div class="dock-nav-item" id="tab-katalog" onclick="openSitemapModal()"><i class="fa-solid fa-table-cells-large"></i> Katalog</div>
             <div class="dock-nav-item active" id="tab-curated" onclick="loadGenre('all', 'Boğaziçi', 'Öğretmenin Seçimi')">Seçki</div>
             <div class="dock-nav-item" onclick="loadGenre('Bilim Kurgu', 'Bilim Kurgu', 'Bilim Kurgu')">Bilim Kurgu</div>
             <div class="dock-nav-item" onclick="loadGenre('Aksiyon', 'Aksiyon', 'Aksiyon')">Aksiyon</div>
@@ -1709,9 +1761,13 @@
                 <span class="genre-icon-wrap"><i class="fa-solid fa-eye"></i></span>
                 <span>Distopya</span>
             </button>
-            <button class="genre-item-btn" onclick="loadGenre('all', 'Boğaziçi', 'Tüm Filmler')">
+            <button class="genre-item-btn" onclick="showAllFilms()">
                 <span class="genre-icon-wrap"><i class="fa-solid fa-clapperboard"></i></span>
-                <span>Tüm Arşiv (90)</span>
+                <span>Tüm Katalog (109)</span>
+            </button>
+            <button class="genre-item-btn" onclick="openSitemapModal(); toggleGenreMenu();">
+                <span class="genre-icon-wrap"><i class="fa-solid fa-table-cells-large"></i></span>
+                <span>Katalog Tablosu</span>
             </button>
         </div>
     </div>
@@ -2011,6 +2067,48 @@
         </div>
     </div>
 
+    <!-- PWA Install Banner (Android / Desktop Chrome / Edge) -->
+    <div class="pwa-install-banner" id="pwa-install-banner">
+        <div class="pwa-banner-inner">
+            <div class="pwa-banner-icon">
+                <img src="icons/icon-192.png" alt="Boğaziçi Sinema">
+            </div>
+            <div class="pwa-banner-text">
+                <div class="pwa-banner-title">
+                    <span>Boğaziçi Sinema</span>
+                    <span class="badge">PWA</span>
+                </div>
+                <div class="pwa-banner-desc">Hızlı ve tam ekran deneyim için uygulamayı cihazınıza ekleyin.</div>
+            </div>
+            <div class="pwa-banner-actions">
+                <button class="btn-pwa-install" onclick="handlePWAInstallClick()">Yükle</button>
+                <button class="btn-pwa-close" onclick="dismissPWABanner()" title="Kapat">&times;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- PWA iOS Safari Quick Guide Modal -->
+    <div class="pwa-ios-modal" id="pwa-ios-modal" onclick="if(event.target===this)closePWAiOSModal()">
+        <div class="pwa-ios-card">
+            <div style="display:flex; justify-content:space-between; align-items:center;">
+                <h3 style="color:#ffffff; font-size:1.1rem; margin:0; font-weight:800;">Uygulamayı Ana Ekrana Ekle</h3>
+                <span style="color:#94949e; cursor:pointer; font-size:1.3rem; padding:4px;" onclick="closePWAiOSModal()">&times;</span>
+            </div>
+            <p style="color:#94949e; font-size:0.8rem; margin:8px 0 16px 0;">Safari tarayıcınızda 2 adımda tam ekran sinema deneyimine geçin:</p>
+            <div class="pwa-ios-steps">
+                <div class="pwa-ios-step">
+                    <span class="pwa-ios-step-num">1</span>
+                    <span>Safari alt menüsündeki <i class="fa-solid fa-arrow-up-from-bracket"></i> <strong>Paylaş</strong> simgesine dokunun.</span>
+                </div>
+                <div class="pwa-ios-step">
+                    <span class="pwa-ios-step-num">2</span>
+                    <span>Aşağı kaydırıp <i class="fa-regular fa-square-plus"></i> <strong>Ana Ekrana Ekle</strong> seçeneğini seçin.</span>
+                </div>
+            </div>
+            <button class="btn-pwa-install" style="width:100%; padding:11px; margin-top:8px;" onclick="closePWAiOSModal()">Anladım</button>
+        </div>
+    </div>
+
     <!-- Toast Notifications Area -->
     <div id="toast-container"></div>
 
@@ -2033,16 +2131,56 @@
                 openLoginModal();
                 return;
             }
-            const hash = window.location.hash;
+            const rawHash = (window.location.hash || '').trim();
+            const hash = rawHash.toLowerCase();
+
             if (!hash || hash === '#') {
                 if (document.getElementById('expanded-view').classList.contains('active')) {
                     goBackToCategory();
                 }
+                const sm = document.getElementById('sitemap-modal');
+                if (sm && sm.classList.contains('active')) {
+                    closeSitemapModal(false);
+                }
                 return;
             }
 
-            const film = findFilmBySlugOrId(hash);
+            // Direkt Katalog & Site Haritası Desteği (#katalog, #sitemap, #arsiv, #site-haritasi)
+            if (hash === '#katalog' || hash === '#sitemap' || hash === '#site-haritasi' || hash === '#arsiv') {
+                if (document.getElementById('expanded-view').classList.contains('active')) {
+                    document.getElementById('expanded-view').classList.remove('active');
+                    document.body.classList.remove('cinema-mode');
+                }
+                openSitemapModal(false);
+                return;
+            }
+
+            // Tüm Filmleri Galeriye Yükleme Desteği (#tum-filmler, #all-movies, #tum-arsiv)
+            if (hash === '#tum-filmler' || hash === '#all-movies' || hash === '#tum-arsiv') {
+                const sm = document.getElementById('sitemap-modal');
+                if (sm && sm.classList.contains('active')) {
+                    closeSitemapModal(false);
+                }
+                showAllFilms();
+                return;
+            }
+
+            // Öğretmenin Seçkisi Desteği (#curated, #secki)
+            if (hash === '#curated' || hash === '#secki') {
+                const sm = document.getElementById('sitemap-modal');
+                if (sm && sm.classList.contains('active')) {
+                    closeSitemapModal(false);
+                }
+                loadGenre('all', 'Boğaziçi', 'Öğretmenin Seçimi');
+                return;
+            }
+
+            const film = findFilmBySlugOrId(rawHash);
             if (film) {
+                const sm = document.getElementById('sitemap-modal');
+                if (sm && sm.classList.contains('active')) {
+                    closeSitemapModal(false);
+                }
                 if (!activeCategory || activeCategory.genre === 'all') {
                     const primaryGenre = (film.tur && film.tur[0]) ? film.tur[0] : 'all';
                     activeCategory = {
@@ -2797,16 +2935,22 @@
         /* --- SİTE HARİTASI & FİLM KATALOĞU (TASK 4) --- */
         let currentSitemapView = 'genre';
 
-        function openSitemapModal() {
+        function openSitemapModal(updateHash = true) {
             if (!checkAuthOrPrompt()) return;
             const modal = document.getElementById('sitemap-modal');
             modal.classList.add('active');
             switchSitemapView(currentSitemapView);
+            if (updateHash && window.location.hash !== '#katalog') {
+                history.pushState({ view: 'katalog' }, '', '#katalog');
+            }
         }
 
-        function closeSitemapModal() {
+        function closeSitemapModal(updateHash = true) {
             const modal = document.getElementById('sitemap-modal');
             if (modal) modal.classList.remove('active');
+            if (updateHash && (window.location.hash === '#katalog' || window.location.hash === '#sitemap' || window.location.hash === '#site-haritasi' || window.location.hash === '#arsiv')) {
+                history.pushState(null, '', window.location.pathname + window.location.search);
+            }
         }
 
         function switchSitemapView(view) {
@@ -3802,6 +3946,7 @@
                 document.documentElement.classList.add('is-authenticated');
                 closeLoginModal();
                 updateUserDockStatus();
+                if (window.location.hash) setTimeout(handleUrlHash, 150);
                 showToast('Hoş geldiniz, ' + user.name, 'success');
             } else {
                 alertBox.textContent = errorMsg;
@@ -3892,6 +4037,7 @@
                 document.documentElement.classList.add('is-authenticated');
                 closeLoginModal();
                 updateUserDockStatus();
+                if (window.location.hash) setTimeout(handleUrlHash, 150);
                 showToast(isNew ? 'Öğretmen kaydınız Google E-Tabloya eklendi ve giriş yapıldı!' : 'Hoş geldiniz, ' + teacher.name, 'success');
             } else {
                 alertBox.textContent = errorMsg;

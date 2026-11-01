@@ -1,9 +1,9 @@
 /* ==============================================================
    BOĞAZİÇİ KOLEJİ SİNEMA PLATFORMU — SERVICE WORKER (PWA)
-   Version: 1.0.0
+   Version: 1.3.0
    ============================================================== */
 
-const CACHE_NAME = 'bogazici-sinema-v1';
+const CACHE_NAME = 'bogazici-sinema-v4';
 
 // Uygulamanın çevrimdışı çekirdek dosyaları (App Shell)
 const PRECACHE_ASSETS = [

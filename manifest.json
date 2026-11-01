@@ -8,8 +8,8 @@
   "display": "standalone",
   "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "orientation": "any",
-  "background_color": "#070709",
-  "theme_color": "#070709",
+  "background_color": "#0b0f19",
+  "theme_color": "#0b0f19",
   "lang": "tr-TR",
   "dir": "ltr",
   "categories": ["entertainment", "education", "movies"],
@@ -80,7 +80,7 @@
       "name": "Site Haritası & Katalog",
       "short_name": "Katalog",
       "description": "Tüm filmleri alfabetik veya türe göre inceleyin",
-      "url": "./index.html#sitemap",
+      "url": "./index.html#katalog",
       "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
     },
     {
