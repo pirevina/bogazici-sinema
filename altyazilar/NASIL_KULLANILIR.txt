@@ -1,0 +1,25 @@
+===================================================================
+BOĞAZİÇİ SİNEMA — HARİCİ ALTYAZI (.SRT / .VTT) KULLANIM KILAVUZU
+===================================================================
+
+Kişisel arşivinizdeki filmlerin .srt (veya .vtt) altyazı dosyalarını
+filme gömmeden doğrudan bu "altyazilar" klasörüne atarak kullanabilirsiniz.
+
+SİSTEM TÜRKÇE KARAKTERLERİ (UTF-8 ve ANSI / Windows-1254) OTOMATİK DÜZELTİR!
+
+Bir filme altyazı bağlamanın 2 çok kolay yolu vardır:
+
+1. YOL (HİÇ KOD YAZMADAN - OTOMATİK MESAJ ID İLE):
+   - Filmi Telegram kanalına yüklediğinizde mesaj numarası örneğin 66 ise
+     (https://t.me/c/3721803327/66),
+   - Altyazı dosyasının adını doğrudan "66.srt" yapıp bu klasöre (altyazilar/66.srt) atın.
+   - Sistem filmi açarken "altyazilar/66.srt" dosyasını otomatik bulup çalıştırır!
+
+2. YOL (ÖZEL İSİM İLE):
+   - Altyazı dosyasını örneğin "altyazilar/big-fish.srt" olarak bu klasöre atın.
+   - index.html içindeki film kaydına "altyazi": "big-fish.srt" ekleyin.
+
+3. CANLI TEST ÖZELLİĞİ:
+   - Sitede herhangi bir filmi açtığınızda oynatıcının hemen altındaki
+     "Altyazı Seç (.srt)" butonuna tıklayarak bilgisayarınızdaki herhangi bir
+     .srt dosyasını anında film üzerinde canlı test edebilirsiniz!

@@ -3,7 +3,7 @@
    Version: 1.3.0
    ============================================================== */
 
-const CACHE_NAME = 'bogazici-sinema-v4';
+const CACHE_NAME = 'bogazici-sinema-v5';
 
 // Uygulamanın çevrimdışı çekirdek dosyaları (App Shell)
 const PRECACHE_ASSETS = [
@@ -79,6 +79,13 @@ self.addEventListener('fetch', (event) => {
     // C) Google Apps Script & Giriş Doğrulama İstekleri
     if (url.hostname.includes('script.google.com') || 
         url.hostname.includes('googleusercontent.com')) {
+        return;
+    }
+
+    // D) Harici Altyazı Dosyaları (.srt / .vtt) her zaman güncel çekilsin
+    if (url.pathname.includes('/altyazilar/') || 
+        url.pathname.endsWith('.srt') || 
+        url.pathname.endsWith('.vtt')) {
         return;
     }
 
