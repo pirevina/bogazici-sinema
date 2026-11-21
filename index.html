@@ -3375,20 +3375,36 @@
         }
 
         function ensureSubtitleOverlayInsidePlyr() {
-            const overlay = document.getElementById('cinema-subtitle-overlay');
+            const modalContainer = document.getElementById('modal-video-container');
             const plyrContainer = document.querySelector('#modal-video-container .plyr');
-            if (overlay && plyrContainer && overlay.parentElement !== plyrContainer) {
-                plyrContainer.appendChild(overlay);
+            const targetParent = plyrContainer || modalContainer;
+            if (!targetParent) return null;
+
+            let overlay = document.getElementById('cinema-subtitle-overlay');
+            if (!overlay) {
+                overlay = document.createElement('div');
+                overlay.id = 'cinema-subtitle-overlay';
+                overlay.className = 'cinema-subtitle-overlay';
+                overlay.style.display = 'none';
+                const box = document.createElement('div');
+                box.id = 'cinema-subtitle-box';
+                box.className = 'cinema-subtitle-box';
+                overlay.appendChild(box);
+                targetParent.appendChild(overlay);
+            } else if (overlay.parentElement !== targetParent) {
+                targetParent.appendChild(overlay);
             }
+            return overlay;
         }
 
         function updateSubtitleOverlay() {
-            const overlay = document.getElementById('cinema-subtitle-overlay');
-            const box = document.getElementById('cinema-subtitle-box');
-            const videoEl = document.getElementById('plyr-video');
-            if (!overlay || !box || !videoEl) return;
+            const modal = document.getElementById('video-modal');
+            if (!modal || modal.style.display === 'none') return;
 
-            ensureSubtitleOverlayInsidePlyr();
+            const overlay = ensureSubtitleOverlayInsidePlyr();
+            const box = document.getElementById('cinema-subtitle-box');
+            const videoEl = document.querySelector('#modal-video-container video') || document.getElementById('plyr-video');
+            if (!overlay || !box) return;
 
             if (!isSubtitleEnabled || currentSubCues.length === 0 || isIosFullscreen) {
                 overlay.style.display = 'none';
@@ -3396,7 +3412,11 @@
                 return;
             }
 
-            const t = videoEl.currentTime - subTimeOffset;
+            const rawTime = (plyrInstance && typeof plyrInstance.currentTime === 'number' && !isNaN(plyrInstance.currentTime))
+                ? plyrInstance.currentTime
+                : (videoEl && typeof videoEl.currentTime === 'number' ? videoEl.currentTime : 0);
+            const t = rawTime - subTimeOffset;
+
             // Aktif altyazı satırlarını bul
             const active = [];
             for (let i = 0; i < currentSubCues.length; i++) {
@@ -3416,6 +3436,9 @@
                 box.innerHTML = '';
             }
         }
+
+        // Plyr <video> düğümünü yenilese bile altyazıyı saniyede 8 kez kesintisiz senkronize tutan zamanlayıcı
+        setInterval(updateSubtitleOverlay, 120);
 
         function syncIosNativeSubtitles() {
             const videoEl = document.getElementById('plyr-video');
@@ -3502,13 +3525,731 @@
             event.target.value = '';
         }
 
+        // Gömülü Altyazı Bankası (Hem çevrimdışı file:/// yerel testlerde hem de tek dosya yüklemelerinde %100 anında çalışır)
+        const GOMULU_ALTYAZILAR = window.GOMULU_ALTYAZILAR || {};
+        GOMULU_ALTYAZILAR['69'] = GOMULU_ALTYAZILAR['66.srt'] = `1
+00:00:14,639 --> 00:00:17,225
+Çeviren:
+Günebakan
+
+2
+00:00:17,975 --> 00:00:24,273
+MODERN ZAMANLAR
+
+3
+00:01:07,275 --> 00:01:09,944
+"Modern Zamanlar",...
+
+4
+00:01:10,152 --> 00:01:14,657
+...endüstri ve bireysel teşebbüsün
+hikâyesidir.
+
+5
+00:01:15,157 --> 00:01:20,413
+İnsanlık mutluluğu bulma
+mücadelesi veriyor.
+
+6
+00:02:08,085 --> 00:02:11,547
+BAŞKAN
+ELEKTRO ÇELİK ANONİM ŞİRKETİ
+
+7
+00:02:57,385 --> 00:03:00,054
+5. bölüm, hızı artır, 401.
+
+8
+00:03:14,819 --> 00:03:15,653
+<i>Ustabaşının dikkatine!</i>
+
+9
+00:03:15,862 --> 00:03:18,447
+<i>5. hatta sorun var.
+Somunların sıkılmasını kontrol et.</i>
+
+10
+00:03:18,656 --> 00:03:22,118
+<i>Somunlar 5. hatta gevşek geliyor.
+Ustabaşının dikkatine!</i>
+
+11
+00:04:43,783 --> 00:04:47,745
+İşçi!
+5. bölüm, daha da hızlandır, 47.
+
+12
+00:04:59,173 --> 00:05:02,134
+<i>Mola elemanı geçiyor!
+Mola elemanı geçiyor!</i>
+
+13
+00:05:37,336 --> 00:05:39,589
+Sallanmayı bırak da
+işinin başına dön!
+
+14
+00:05:40,506 --> 00:05:41,674
+Hadi!
+
+15
+00:06:48,616 --> 00:06:49,659
+<i>Günaydın, dostlarım.</i>
+
+16
+00:06:49,867 --> 00:06:50,743
+<i> Bu kayıt sizlere...</i>
+
+17
+00:06:50,826 --> 00:06:53,913
+<i>..."Kayıttan Satış Görüşmesi Şirketi"
+aracılığıyla ulaşıyor.</i>
+
+18
+00:06:54,080 --> 00:06:55,832
+<i>Konuşan,
+Mekanik Satıcı.</i>
+
+19
+00:06:56,040 --> 00:06:59,126
+<i>Sizlere Bay J. Willacomb
+Bellows'u takdim edeyim.</i>
+
+20
+00:06:59,335 --> 00:07:01,295
+<i>Kendisi işçiler çalışırken...</i>
+
+21
+00:07:01,462 --> 00:07:03,297
+<i> ...onları otomatik olarak
+besleyen...</i>
+
+22
+00:07:03,381 --> 00:07:05,007
+<i>...Bellows Besleme Makinesi'nin
+mucididir.</i>
+
+23
+00:07:05,049 --> 00:07:08,010
+<i>Yemek için durmayın.
+Rakiplerinizin önünde olun.</i>
+
+24
+00:07:08,219 --> 00:07:10,346
+<i>Bellows Besleme Makinesi
+yemek molasını ortadan kaldıracak,...</i>
+
+25
+00:07:10,596 --> 00:07:13,724
+<i>...üretiminizi artırıp,
+giderinizi azaltacak.</i>
+
+26
+00:07:13,933 --> 00:07:17,061
+<i>İzninizle bu harika makinenin
+birkaç özelliğini göstermek istiyoruz.</i>
+
+27
+00:07:17,270 --> 00:07:20,189
+<i>Aerodinamik, güzel bir karoser.</i>
+
+28
+00:07:20,398 --> 00:07:24,986
+<i>Elektrikli rulmanlar ile sessiz
+ve pürüzsüz çalışma.</i>
+
+29
+00:07:25,236 --> 00:07:27,697
+<i>Size otomatik çorba tabağını
+tanıtalım.</i>
+
+30
+00:07:27,989 --> 00:07:30,867
+<i>Basınçlı hava üfleyici sayesinde
+çorbayı soğutmak için...</i>
+
+31
+00:07:31,075 --> 00:07:33,286
+<i>...üflemeye ve enerji sarf etmeye
+gerek yok.</i>
+
+32
+00:07:33,494 --> 00:07:36,581
+<i>Otomatik besin iticili dönen
+tabağa dikkatinizi çekerim.</i>
+
+33
+00:07:36,914 --> 00:07:39,584
+<i>Çift dirsek şaftlı mısır yediricimize
+bakın.</i>
+
+34
+00:07:39,792 --> 00:07:41,419
+<i>Sırf dilinizin ucu ile...</i>
+
+35
+00:07:41,627 --> 00:07:45,256
+<i>...hızı ayarlayabilmenizi sağlayan
+senkronize iletim mevcut.</i>
+
+36
+00:07:45,464 --> 00:07:48,426
+<i>Ayrıca su basınçlı sterilize
+ağız silicisi var.</i>
+
+37
+00:07:48,634 --> 00:07:52,180
+<i>Gömleğin lekelenmesini önleyen
+kontrol unsurları bulunuyor.</i>
+
+38
+00:07:52,388 --> 00:07:54,473
+<i>Bunlar Bellow Besleme
+Makinesi'nin...</i>
+
+39
+00:07:54,724 --> 00:07:56,100
+<i>...enfes özelliklerinden
+sadece birkaçı.</i>
+
+40
+00:07:56,309 --> 00:08:00,354
+<i>Bir işçi üzerinde bunları gösterelim.
+İcraat laftan güçlüdür.</i>
+
+41
+00:08:00,563 --> 00:08:02,523
+<i>Rakiplerinizi geçmeniz için...</i>
+
+42
+00:08:02,732 --> 00:08:06,944
+<i>...Bellows Besleme Makinesi'nin
+önemini aklınızdan çıkarmayın.</i>
+
+43
+00:08:10,531 --> 00:08:12,658
+Öğle yemeği zamanı.
+
+44
+00:12:05,349 --> 00:12:08,728
+"Yine çorba ile başlıyoruz."
+
+45
+00:13:33,729 --> 00:13:36,524
+"İşimize yaramaz.
+Kullanışlı değil."
+
+46
+00:13:43,906 --> 00:13:47,618
+Vakit ilerler, akşam üstü olur.
+
+47
+00:13:51,914 --> 00:13:54,834
+5. bölüm, hız en yükseğe.
+
+48
+00:14:37,043 --> 00:14:38,836
+"Çıldırdı!!"
+
+49
+00:18:52,173 --> 00:18:57,386
+Sinir krizi tedavi edilir,
+ama işini kaybetmiş olarak...
+
+50
+00:18:57,428 --> 00:19:02,600
+...yeni bir hayata başlamak üzere
+hastaneden ayrılır.
+
+51
+00:19:08,439 --> 00:19:12,610
+"Sakin ol ve
+heyecandan uzak dur."
+
+52
+00:19:31,838 --> 00:19:36,050
+KAPALI
+
+53
+00:20:04,245 --> 00:20:06,330
+BİRLEŞİN
+
+54
+00:20:06,539 --> 00:20:10,042
+YA ÖZGÜRLÜK YA ÖLÜM
+
+55
+00:20:10,209 --> 00:20:12,170
+ÖZGÜRLÜK
+
+56
+00:20:35,860 --> 00:20:38,738
+"Demek liderleri sensin"
+
+57
+00:20:53,503 --> 00:20:55,421
+Sokak çocuğu...
+
+58
+00:20:55,671 --> 00:20:59,884
+...Aç gezmeyi reddeden,
+rıhtımda yaşayan bir çocuk.
+
+59
+00:22:01,320 --> 00:22:03,823
+Kız kardeşleri...
+anneleri ölmüş.
+
+60
+00:22:17,378 --> 00:22:21,591
+Baba...işsiz.
+
+61
+00:23:17,772 --> 00:23:20,107
+Bir komünist lider olarak
+tutuklanan kurbanımız...
+
+62
+00:23:20,316 --> 00:23:24,278
+...hapishanede durgunlaşır.
+
+63
+00:25:15,681 --> 00:25:19,101
+Kaçak kokain aranıyor.
+
+64
+00:28:55,902 --> 00:29:01,407
+Bu sırada dışarıda işsizlik
+belası vardır.
+
+65
+00:29:42,990 --> 00:29:48,454
+Kanun öksüzlerin sorumluluğunu
+üstüne alır.
+
+66
+00:30:06,973 --> 00:30:09,058
+"Götürün onları"
+
+67
+00:30:28,161 --> 00:30:31,289
+"Diğer kız nerede?"
+
+68
+00:30:45,011 --> 00:30:50,850
+Rahat hücresinde mutludur.
+
+69
+00:30:55,521 --> 00:30:56,772
+GREV VE AYAKLANMA!
+
+70
+00:30:56,856 --> 00:30:59,317
+Ekmek kuyrukları
+asi kalabalığın hücumuna uğradı.
+
+71
+00:31:06,032 --> 00:31:08,493
+<i>Yerel haberler:
+Şehir hapishanesinden...</i>
+
+72
+00:31:08,701 --> 00:31:10,578
+<i>...kaçışı önleyen mahkûma
+af çıktı.</i>
+
+73
+00:31:10,786 --> 00:31:14,582
+<i>Şerif Couler, bugün mahkûma
+iyi haberi verecek.</i>
+
+74
+00:31:15,625 --> 00:31:17,919
+"Yedi numarayı buraya getirin!"
+
+75
+00:31:47,782 --> 00:31:53,037
+Rahip ve eşi haftalık
+ziyaretlerini yapıyorlar.
+
+76
+00:33:40,978 --> 00:33:49,237
+<i>Gastrit sancınız varsa
+size önerimiz...</i>
+
+77
+00:34:28,693 --> 00:34:31,362
+"Özgür bir adamsın artık."
+
+78
+00:34:36,659 --> 00:34:41,914
+"Biraz daha kalamaz mıyım?
+Burada çok mutluyum"
+
+79
+00:34:47,336 --> 00:34:53,384
+"Bu mektup iş bulmana yardımcı
+olacaktır. Artık hata yapma."
+
+80
+00:35:05,104 --> 00:35:06,355
+İlgili kişiye
+
+81
+00:35:06,439 --> 00:35:08,774
+Kart sahibi dürüst ve
+güvenilir bir kişidir.
+
+82
+00:35:08,900 --> 00:35:11,152
+Kendisine bir iş verilirse
+minnettar kalırız.
+
+83
+00:35:48,606 --> 00:35:50,858
+"Bunun gibi bir takoz bul."
+
+84
+00:36:37,196 --> 00:36:41,033
+Hapishaneye geri
+dönmeye azimlidir.
+
+85
+00:36:49,625 --> 00:36:51,335
+Yalnız ve aç.
+
+86
+00:36:52,420 --> 00:36:54,755
+DAVIS EKMEK FABRİKASI
+Fırından Evinize
+
+87
+00:37:35,004 --> 00:37:38,299
+"Ekmek çaldı."
+
+88
+00:37:41,928 --> 00:37:45,223
+"Hayır, o çalmadı.
+Ben çaldım."
+
+89
+00:38:02,281 --> 00:38:05,493
+"Bu kızdı, adam değildi."
+
+90
+00:40:37,228 --> 00:40:40,356
+"Beni ve ekmeği hatırladın mı?"
+
+91
+00:41:34,118 --> 00:41:36,996
+"Bu kaçman için bir şans."
+
+92
+00:42:33,219 --> 00:42:35,304
+"Nerede yaşıyorsun?"
+
+93
+00:42:38,891 --> 00:42:40,560
+"Bir yer yok.
+Neresi olursa"
+
+94
+00:43:14,594 --> 00:43:18,806
+"Bunun gibi küçük bir evde
+bizi hayal edebiliyor musun?"
+
+95
+00:45:03,911 --> 00:45:11,669
+"Bunu başaracağım! Çalışmak zorunda
+kalsam bile bir evimiz olacak."
+
+96
+00:45:23,014 --> 00:45:27,351
+Mağazada bir kaza olur.
+
+97
+00:45:38,821 --> 00:45:42,992
+"Gece bekçisi bacağını kırmış."
+
+98
+00:46:01,677 --> 00:46:06,432
+"İşi ona ver ve
+yapacaklarını anlat."
+
+99
+00:47:05,867 --> 00:47:09,120
+Dördüncü kat. Oyuncak bölümü.
+
+100
+00:48:01,172 --> 00:48:04,509
+Bak! Bunu gözü bağlı
+bile yapabilirim."
+
+101
+00:48:16,354 --> 00:48:18,147
+TEHLİKELİ
+
+102
+00:49:14,620 --> 00:49:18,291
+Beşinci kat.
+Yatak odası teşhiri.
+
+103
+00:49:41,647 --> 00:49:44,400
+"Görev saatini işaretlemeliyim."
+
+104
+00:50:14,096 --> 00:50:19,310
+"Şimdi sen uyu. Mağaza açılmadan
+önce seni uyandırırım."
+
+105
+00:51:07,358 --> 00:51:08,860
+"Olduğun yerde kal!!"
+
+106
+00:52:05,958 --> 00:52:11,380
+Koca Bill, çelik fabrikasındaki
+iş arkadaşını tanır.
+
+107
+00:52:31,859 --> 00:52:35,404
+"Biz hırsız değiliz, sadece açız."
+
+108
+00:52:56,551 --> 00:52:58,261
+Ertesi sabah
+
+109
+00:54:23,179 --> 00:54:25,264
+On gün sonra.
+
+110
+00:54:52,416 --> 00:54:57,630
+"Sana bir sürprizim var.
+Bir ev buldum."
+
+111
+00:55:23,781 --> 00:55:25,867
+"Burası cennet gibi."
+
+112
+00:55:57,273 --> 00:56:00,359
+"Buckingham Sarayı da değil tabi."
+
+113
+00:58:59,664 --> 00:59:01,332
+FABRİKALAR YENİDEN AÇILIYOR.
+
+114
+00:59:01,415 --> 00:59:06,546
+Jetson fabrikası
+bu sabah işçi alacak.
+
+115
+00:59:11,676 --> 00:59:13,761
+"Sonunda bir iş!"
+
+116
+00:59:24,856 --> 00:59:27,984
+"Artık gerçek bir evimiz olacak!"
+
+117
+00:59:57,263 --> 01:00:00,766
+Teknisyen ve yeni yardımcısı,
+uzun zamandır boş duran makineleri...
+
+118
+01:00:01,517 --> 01:00:05,605
+...tamir için
+işe koyulurlar.
+
+119
+01:01:39,866 --> 01:01:42,368
+"Aile yadigarım mahvoldu!"
+
+120
+01:02:16,235 --> 01:02:19,363
+"Kaldır şunu yolumdan!"
+
+121
+01:03:26,472 --> 01:03:29,058
+"Çıkar beni buradan!"
+
+122
+01:03:34,272 --> 01:03:36,399
+"Şu manivelayı çek!"
+
+123
+01:03:41,404 --> 01:03:42,989
+"Dur!!"
+
+124
+01:04:16,105 --> 01:04:19,233
+"Beni burdan çıkar!"
+
+125
+01:04:26,449 --> 01:04:28,618
+"Yemeğimi getir!"
+
+126
+01:07:02,647 --> 01:07:04,357
+"Patronun nerede?"
+
+127
+01:07:26,295 --> 01:07:29,423
+"Ceketini al.
+Grevdeyiz."
+
+128
+01:08:31,486 --> 01:08:36,324
+Bir hafta sonra.
+
+129
+01:08:45,416 --> 01:08:47,418
+DANS EDEN GARSONLAR
+
+130
+01:08:53,841 --> 01:08:55,927
+KIZIL AY LOKANTASI
+ŞARKI SÖYLEYEN GARSONLAR
+
+131
+01:08:58,387 --> 01:09:01,516
+"Bu kız lokanta için uygun."
+
+132
+01:09:33,214 --> 01:09:36,717
+Bir hafta sonra.
+
+133
+01:10:14,005 --> 01:10:17,133
+"Sana uygun bir iş var."
+
+134
+01:10:40,114 --> 01:10:42,200
+"Masaya servis yapabilir misin?"
+
+135
+01:10:50,875 --> 01:10:52,668
+"Şarkı söyleyebilir misin?"
+
+136
+01:11:03,221 --> 01:11:07,308
+"Peki.
+Sana bir şans vereceğim."
+
+137
+01:11:22,615 --> 01:11:24,659
+ULUSAL ÇOCUK BÜROSU
+Aranma nedeni:...
+
+138
+01:11:25,326 --> 01:11:27,662
+Serserilik.
+
+139
+01:11:28,496 --> 01:11:34,168
+Büro memurlarından kaçma.
+
+140
+01:11:57,066 --> 01:11:59,193
+O gece.
+
+141
+01:12:53,706 --> 01:12:58,961
+"Bir saattir kızarmış
+ördek bekliyorum."
+
+142
+01:17:18,054 --> 01:17:20,848
+"Umarım şarkı söyleyebiliyorsundur."
+
+143
+01:17:55,174 --> 01:17:58,261
+"Hadi şarkını prova edelim."
+
+144
+01:18:21,701 --> 01:18:24,412
+"Sözlerini unutuyorum."
+
+145
+01:18:28,040 --> 01:18:30,877
+"Sözleri kolluğuna yazalım."
+
+146
+01:18:40,094 --> 01:18:43,055
+Güzel bir kız ve yaşlı bir adam
+Caddede flört ediyordu
+
+147
+01:18:43,139 --> 01:18:45,933
+Adam şişman ihtiyarın tekiydi
+Ama elmas yüzüğü
+
+148
+01:18:46,017 --> 01:18:48,019
+Kızın gözünü kamaştırdı
+
+149
+01:20:01,717 --> 01:20:05,763
+"Şarkı söyle! Sözleri boşver."
+
+150
+01:23:00,980 --> 01:23:04,901
+"Harikasın! Sana daimi
+bir iş vereceğim."
+
+151
+01:24:43,499 --> 01:24:48,629
+Gün ağarıyor.
+
+152
+01:25:31,172 --> 01:25:35,176
+"Çabalamanın ne faydası var?"
+
+153
+01:25:38,513 --> 01:25:43,100
+"Neşelen biraz. Asla ölümden
+bahsetme. Başaracağız!"
+
+154
+01:25:44,769 --> 01:26:30,773
+Çeviren:
+Günebakan
+
+155
+01:26:32,859 --> 01:26:37,029
+SON`;
+
         async function autoLoadSubtitleForCurrent(film, episode) {
             clearSubtitles();
             if (!film) return;
 
             const msgId = (episode && episode.telegramMessageId) ? episode.telegramMessageId : film.telegramMessageId;
-            const candidates = [];
 
+            // 1. ÖNCE GÖMÜLÜ ALTYAZI BANKASINI KONTROL ET (0 ms gecikme, file:/// ve tek dosya push uyumlu)
+            const embeddedKeys = [
+                episode && episode.altyazi,
+                film.altyazi,
+                msgId ? String(msgId) : null,
+                film.id ? `film_${film.id}` : null
+            ].filter(Boolean);
+
+            for (const k of embeddedKeys) {
+                const rawEmbedded = GOMULU_ALTYAZILAR[k] || GOMULU_ALTYAZILAR[String(k).replace(/^altyazilar\//, '')];
+                if (rawEmbedded) {
+                    const cues = parseSrtOrVtt(rawEmbedded);
+                    if (cues.length > 0) {
+                        applyParsedSubtitles(cues, 'Türkçe');
+                        console.log(`[Altyazı] Gömülü bankadan anında yüklendi: ${k} (${cues.length} satır)`);
+                        return;
+                    }
+                }
+            }
+
+            // 2. HARİCİ ALTYAZI KLASÖRÜNÜ (altyazilar/) KONTROL ET
+            const candidates = [];
             const addCandidate = (rawPath) => {
                 if (!rawPath || typeof rawPath !== 'string') return;
                 const clean = rawPath.trim();
@@ -3517,7 +4258,6 @@
                     ? clean
                     : ('altyazilar/' + clean);
                 candidates.push(full);
-                // Windows Gezgini bilinen dosya uzantılarını gizlediğinde "66.srt" -> "66.srt.srt" olabildiği için ikisini de kontrol et
                 if (full.toLowerCase().endsWith('.srt') && !full.toLowerCase().endsWith('.srt.srt')) {
                     candidates.push(full + '.srt');
                 }
@@ -3533,19 +4273,19 @@
                 addCandidate(`film_${film.id}.srt`);
             }
 
-            // Tekrarlayan adayları kaldır
             const uniqueCandidates = [...new Set(candidates)];
+            const cacheBuster = '?v=' + Date.now();
 
             for (const url of uniqueCandidates) {
                 try {
-                    const res = await fetch(url, { cache: 'no-cache' });
+                    const res = await fetch(url + cacheBuster, { cache: 'no-store' });
                     if (!res.ok) continue;
                     const buf = await res.arrayBuffer();
                     const text = decodeSubtitleBuffer(buf);
                     const cues = parseSrtOrVtt(text);
                     if (cues.length > 0) {
                         applyParsedSubtitles(cues, 'Türkçe');
-                        console.log(`[Altyazı] Otomatik yüklendi: ${url} (${cues.length} satır)`);
+                        console.log(`[Altyazı] Klasörden otomatik yüklendi: ${url} (${cues.length} satır)`);
                         return;
                     }
                 } catch (e) {}
@@ -3871,16 +4611,29 @@
             }
 
             if (player) {
+                // Plyr.source yeni .plyr kapsayıcısı oluştururken altyazı katmanını silmemesi için geçici olarak dışarı al
+                const existingOverlay = document.getElementById('cinema-subtitle-overlay');
+                const modalContainer = document.getElementById('modal-video-container');
+                if (existingOverlay && modalContainer && existingOverlay.parentElement !== modalContainer) {
+                    modalContainer.appendChild(existingOverlay);
+                }
+
                 // Event listener'lar Plyr üzerinde ayarlanır
                 player.off('playing');
                 player.off('timeupdate');
+                player.off('seeked');
                 player.off('error');
 
                 player.on('playing', () => {
                     dismissCover();
+                    updateSubtitleOverlay();
                 });
                 player.on('timeupdate', () => {
                     if (player.currentTime > 0.05) dismissCover();
+                    updateSubtitleOverlay();
+                });
+                player.on('seeked', () => {
+                    updateSubtitleOverlay();
                 });
                 player.on('error', () => {
                     dismissCover();
