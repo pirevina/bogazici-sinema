@@ -1,0 +1,7454 @@
+1
+00:01:50,082 --> 00:01:51,307
+<i>Geldi mi?</i>
+
+2
+00:01:52,855 --> 00:01:53,639
+<i>Hayır.</i>
+
+3
+00:01:55,461 --> 00:01:56,554
+<i>Ya şimdi?</i>
+
+4
+00:01:57,813 --> 00:01:58,841
+<i>Hayır.</i>
+
+5
+00:02:00,692 --> 00:02:01,628
+Peki ya şimdi?
+
+6
+00:02:02,436 --> 00:02:03,533
+<i>Hayır.</i>
+
+7
+00:02:05,654 --> 00:02:06,671
+Ya şimdi?
+
+8
+00:02:07,813 --> 00:02:09,357
+<i>Düzgün çevir şu şeyi be!</i>
+
+9
+00:02:11,829 --> 00:02:14,728
+<i>Seul Olimpiyatları güreşlerine
+hoş geldiniz.</i>
+
+10
+00:02:15,053 --> 00:02:16,846
+<i>Heyecanlı bir müsabaka
+olmasını bekliyoruz.</i>
+
+11
+00:02:17,013 --> 00:02:19,575
+- Geldi.
+- Aşağıya ineyim mi?
+
+12
+00:02:19,686 --> 00:02:22,147
+Hayır.
+O şekilde tutmaya devam et.
+
+13
+00:02:25,882 --> 00:02:29,068
+<i>Bu seneki Olimpiyatlar'ın final
+karşılaşması 72 kilo kategorisinde...</i>
+
+14
+00:02:29,093 --> 00:02:32,300
+<i>...Rus ve Amerikalı
+güreşçiler arasında olacak.</i>
+
+15
+00:02:34,040 --> 00:02:38,588
+<i>Güreş, Hindistan'da yaygın
+bir spor olmasına rağmen...</i>
+
+16
+00:02:38,613 --> 00:02:42,808
+<i>...Hintli güreşçilerin Olimpiyatlardan
+eli boş dönmesi oldukça üzücü.</i>
+
+17
+00:02:43,413 --> 00:02:46,106
+Güreşçilerimiz
+madalya kazanacak olsa bile...
+
+18
+00:02:47,003 --> 00:02:52,023
+...destek veren var mı ki hani?
+Ne para var ne de tesis.
+
+19
+00:02:53,165 --> 00:02:55,329
+Güreşçilerimiz nasıl madalya kazanacak?
+
+20
+00:02:56,903 --> 00:02:59,639
+Lafla madalya kazanılsaydı...
+
+21
+00:03:00,808 --> 00:03:03,192
+...sen çok uzun zaman önce
+kazanmış olurdun.
+
+22
+00:03:07,386 --> 00:03:08,380
+Buralarda yeni misin?
+
+23
+00:03:11,626 --> 00:03:12,799
+Ben de öyle düşünmüştüm.
+
+24
+00:03:15,790 --> 00:03:17,676
+Bir gün güreş meydanına
+çıkacak olsan...
+
+25
+00:03:18,692 --> 00:03:20,953
+...canını kurtarmak için
+arkana bile bakmadan kaçardın.
+
+26
+00:03:23,168 --> 00:03:25,275
+Sen çok yapmışsın anlaşılan.
+
+27
+00:03:27,642 --> 00:03:28,886
+Canını kurtarmak için kaçmayı.
+
+28
+00:03:29,615 --> 00:03:33,057
+Burası güreş meydanı olsaydı
+kimin kaçacağını görürdük.
+
+29
+00:03:33,696 --> 00:03:35,634
+Meydana kimin ihtiyacı var?
+
+30
+00:03:38,647 --> 00:03:43,552
+<i>Artık beklediğimiz ana geldik.
+Sahne büyük bir müsabaka için hazır.</i>
+
+31
+00:03:44,045 --> 00:03:46,358
+<i>Havada açıkça hissedilen bir
+heyecan var.</i>
+
+32
+00:03:47,951 --> 00:03:50,879
+<i>İki güreşçi de karşılaşma için
+sahneye geliyor.</i>
+
+33
+00:03:51,826 --> 00:03:53,710
+<i>Kesinlikle haklısın Tom.</i>
+
+34
+00:03:54,051 --> 00:03:56,991
+<i>Görünen o ki
+ilginç bir müsabaka olacak.</i>
+
+35
+00:03:57,807 --> 00:03:59,157
+<i>Seyirciler heyecanlı görünüyor.</i>
+
+36
+00:04:02,573 --> 00:04:05,211
+<i>Güreşçiler karşı karşıya geliyor.</i>
+
+37
+00:04:06,257 --> 00:04:09,472
+<i>Bakalım nasıl sonuçlanacak.</i>
+
+38
+00:04:10,563 --> 00:04:11,865
+<i>Geleneksel tokalaşma.</i>
+
+39
+00:04:12,662 --> 00:04:15,217
+<i>Hakem düdüğünü çaldı
+ve müsabaka başladı.</i>
+
+40
+00:04:23,149 --> 00:04:25,813
+<i>Yere serildi!
+Yere serildi!</i>
+
+41
+00:04:26,234 --> 00:04:29,399
+<i>Rus güreşçi için
+çabuk bir yenilgi oldu bu.</i>
+
+42
+00:04:29,424 --> 00:04:32,775
+<i>Aşırı özgüven
+her zaman kötü sonuçlanmıştır.</i>
+
+43
+00:04:33,526 --> 00:04:37,312
+Tekrar denemek istiyor musun kardeşim?
+
+44
+00:04:45,683 --> 00:04:48,512
+<i>Güreşçiler ikinci raund için
+yerini alıyor.</i>
+
+45
+00:04:49,661 --> 00:04:55,062
+<i>Evet Tom, karşılaşma
+göründüğü kadar kolay olmayacak.</i>
+
+46
+00:04:55,877 --> 00:04:57,340
+<i>Bakalım şimdi ne olacak.</i>
+
+47
+00:04:59,108 --> 00:05:01,673
+<i>İki güreşçi de birbirini kavradı.</i>
+
+48
+00:05:01,698 --> 00:05:04,056
+<i>Harika bir hücum!
+Bir o kadar harika bir savunma!</i>
+
+49
+00:05:06,985 --> 00:05:09,140
+<i>Harikulade bir hareketti!</i>
+
+50
+00:05:10,200 --> 00:05:14,818
+<i>Mükemmel bir hareket!
+Neyin çarptığını anlamadı!</i>
+
+51
+00:05:17,690 --> 00:05:18,987
+<i>Başka bir hücum daha!</i>
+
+52
+00:05:19,899 --> 00:05:21,506
+<i>Ve bir karşı hücum!</i>
+
+53
+00:05:22,899 --> 00:05:25,648
+<i>Bitti!
+Karşılaşma bitti!</i>
+
+54
+00:05:26,493 --> 00:05:28,044
+<i>David, Goliath'ın yerine...</i>
+
+55
+00:05:28,069 --> 00:05:30,520
+<i>...Goliath, David'in yerine geçti resmen!</i>
+
+56
+00:05:30,670 --> 00:05:31,896
+<i>İyi dedin Tom.</i>
+
+57
+00:05:32,039 --> 00:05:36,593
+<i>Kimse Rus güreşçinin böyle çabucak
+yenileyeceğini tahmin etmiyordu.</i>
+
+58
+00:05:36,618 --> 00:05:39,792
+<i>Ne karşılaşmaydı ama!
+Birinci sınıf güreş budur işte!</i>
+
+59
+00:05:42,140 --> 00:05:46,923
+Sağlam güreşiyorsun.
+Az önce bir ülke şampiyonunu yendin.
+
+60
+00:05:47,907 --> 00:05:49,490
+Cesaretin kırılmasın kardeşim.
+
+61
+00:05:50,556 --> 00:05:52,569
+Sen de az önce
+bir ülke şampiyonuna yenildin.
+
+62
+00:06:02,739 --> 00:06:04,301
+<i>Karşınızda benim amcam.</i>
+
+63
+00:06:05,207 --> 00:06:06,897
+<i>Mahavir Singh Phogat.</i>
+
+64
+00:06:07,421 --> 00:06:09,850
+<i>Güreşmeyi yıllar önce bıraktı...</i>
+
+65
+00:06:10,163 --> 00:06:13,502
+<i>...ama güreş, onu hiç bırakmadı.</i>
+
+66
+00:06:21,706 --> 00:06:24,937
+<b>- GÜREŞÇİ -
+Çeviri: hasangdr</b>
+
+67
+00:06:24,962 --> 00:06:27,100
+<i># Gitmiyorum hiçbir yere</i>
+
+68
+00:06:27,661 --> 00:06:29,812
+<i># Yenmeden en iyiyi önce</i>
+
+69
+00:06:30,341 --> 00:06:32,558
+<i># Gitmiyorum hiçbir yere</i>
+
+70
+00:06:33,080 --> 00:06:35,153
+<i># Yenmeden en iyiyi önce</i>
+
+71
+00:06:36,027 --> 00:06:41,466
+<i># Anamızın karnından mezara kadar
+güreşmektir yazgımız ölene kadar</i>
+
+72
+00:06:41,491 --> 00:06:43,232
+<i># Güreşelim hadi Güreşçi!</i>
+
+73
+00:06:44,097 --> 00:06:45,812
+<i># Güreşelim hadi Güreşçi!</i>
+
+74
+00:06:46,832 --> 00:06:49,610
+<i># Ya kazanırız ya kazanmayız</i>
+
+75
+00:06:49,635 --> 00:06:52,222
+<i># Bizim gibi güreşir çünkü
+gökyüzündeki yıldızlarımız</i>
+
+76
+00:06:52,247 --> 00:06:53,786
+<i># Güreşelim hadi Güreşçi!</i>
+
+77
+00:06:54,918 --> 00:06:56,675
+<i># Güreşelim hadi Güreşçi!</i>
+
+78
+00:06:58,195 --> 00:07:03,397
+<i># Dolduğunda yüreğine korku</i>
+
+79
+00:07:03,622 --> 00:07:06,340
+<i># Sıvazla sırtını
+ateşle cesaretini</i>
+
+80
+00:07:06,365 --> 00:07:08,749
+<i># Kalmayacak korku morku</i>
+
+81
+00:07:09,074 --> 00:07:14,271
+<i># Deli fil gibidir bütün zorluklar</i>
+
+82
+00:07:14,296 --> 00:07:15,808
+<i># Hemen önünde dururlar</i>
+
+83
+00:07:15,833 --> 00:07:19,323
+<i># Öfkeyle tehdit eder
+Dik dik bakarlar</i>
+
+84
+00:07:19,348 --> 00:07:22,026
+<i># Saldır o deli file</i>
+
+85
+00:07:22,051 --> 00:07:24,716
+<i># Doğuştan var bu güç senin içinde!</i>
+
+86
+00:07:24,741 --> 00:07:26,426
+<i># Güreşelim hadi Güreşçi!</i>
+
+87
+00:07:27,353 --> 00:07:29,186
+<i># Güreşelim hadi Güreşçi!</i>
+
+88
+00:07:29,973 --> 00:07:32,800
+<i># Ya kazanırız ya kazanmayız</i>
+
+89
+00:07:32,825 --> 00:07:35,497
+<i># Güreşirler çünkü
+gökyüzündeki yıldızlarımız</i>
+
+90
+00:07:35,522 --> 00:07:37,194
+<i># Güreşelim hadi Güreşçi!</i>
+
+91
+00:07:38,130 --> 00:07:39,801
+<i># Güreşelim hadi Güreşçi!</i>
+
+92
+00:07:40,850 --> 00:07:42,738
+<i># Güreşelim hadi Güreşçi!</i>
+
+93
+00:07:43,406 --> 00:07:45,232
+<i># Güreşelim hadi Güreşçi!</i>
+
+94
+00:07:46,177 --> 00:07:47,927
+<i># Güreşelim hadi Güreşçi!</i>
+
+95
+00:07:48,912 --> 00:07:50,622
+<i># Güreşelim hadi Güreşçi!</i>
+
+96
+00:07:51,646 --> 00:07:53,467
+<i># Güreşelim hadi Güreşçi!</i>
+
+97
+00:07:54,266 --> 00:07:55,993
+<i># Güreşelim hadi Güreşçi!</i>
+
+98
+00:07:57,240 --> 00:07:59,332
+Küçük çocuk kazanacak.
+
+99
+00:08:01,667 --> 00:08:02,706
+Gördünüz işte!
+
+100
+00:08:03,281 --> 00:08:06,370
+Sırf kas geliştirmek
+adamı güreşçi yapmaz.
+
+101
+00:08:06,751 --> 00:08:07,628
+Buraya gel evlat.
+
+102
+00:08:09,509 --> 00:08:13,378
+Güreş insanın kanında olmalı,
+doğuştan gelmeli.
+
+103
+00:08:13,720 --> 00:08:15,650
+Al bakalım.
+Kendine biraz süt al.
+
+104
+00:08:16,717 --> 00:08:17,568
+Tanrı seni korusun.
+
+105
+00:08:30,920 --> 00:08:32,576
+ULUSAL GÜREŞ ŞAMPİYONASI
+HİNDİSTAN
+
+106
+00:08:53,629 --> 00:08:57,745
+Yiyecek yemeğin olmadığında
+ne yiyeceksin? Madalyaları mı?
+
+107
+00:08:59,375 --> 00:09:01,424
+Kimsenin şeyinde değil güreş.
+
+108
+00:09:01,957 --> 00:09:05,277
+İş teklifini kabul et işte.
+
+109
+00:09:11,741 --> 00:09:13,305
+Ne diye bıraktın güreşi?
+
+110
+00:09:15,490 --> 00:09:17,289
+Başka seçeneğim yoktu.
+
+111
+00:09:19,852 --> 00:09:22,505
+Güreşmek
+saygı, şöhret kazandırmıştı...
+
+112
+00:09:23,792 --> 00:09:25,255
+...ama hiç para kazandıramamıştı.
+
+113
+00:09:27,165 --> 00:09:28,244
+İş teklifini kabul ettim ben de.
+
+114
+00:09:28,559 --> 00:09:31,842
+<i>Bütün güreşçilerin hayalinde
+ülkesini onurlandırmak...</i>
+
+115
+00:09:31,980 --> 00:09:33,614
+<i>...ve galibiyete kavuşturmak vardır.</i>
+
+116
+00:09:36,454 --> 00:09:38,767
+<i>Ama ülkesi destek vermezse...</i>
+
+117
+00:09:39,206 --> 00:09:41,172
+<i>...bir güreşçi ne kadar ileri gidebilir ki?</i>
+
+118
+00:09:55,157 --> 00:09:57,362
+Ülken adına madalya kazanmaman...
+
+119
+00:09:58,714 --> 00:10:00,657
+...senin suçun değil.
+
+120
+00:10:01,331 --> 00:10:04,474
+Bu anıların seni üzmesine
+daha ne kadar izin vereceksin?
+
+121
+00:10:10,723 --> 00:10:12,678
+Benim yapamadığımı...
+
+122
+00:10:14,031 --> 00:10:16,167
+...oğlumuz yapacak.
+
+123
+00:10:18,320 --> 00:10:20,772
+Ülkemiz adına
+altın madalya kazanacak.
+
+124
+00:10:23,164 --> 00:10:25,528
+Bayrağımız en üstte dalgalanacak.
+
+125
+00:10:26,825 --> 00:10:28,155
+Sözüm söz.
+
+126
+00:10:34,540 --> 00:10:37,376
+<i>O gün amcam
+sınav sonuçları açıklanacak...</i>
+
+127
+00:10:37,526 --> 00:10:39,859
+<i>...ilk okul öğrencisi gibi gergindi.</i>
+
+128
+00:10:40,420 --> 00:10:43,444
+Endişelenme kardeşim.
+Hiçbir şey olmayacak.
+
+129
+00:10:55,390 --> 00:10:56,585
+Kız oldu.
+
+130
+00:11:03,823 --> 00:11:06,410
+<i>Amcam oğlan olmasını istiyordu.</i>
+
+131
+00:11:07,112 --> 00:11:08,241
+<i>Ama bir kız doğmuştu.</i>
+
+132
+00:11:08,427 --> 00:11:09,102
+Geçti artık.
+
+133
+00:11:11,362 --> 00:11:13,419
+Kız kardeşin oldu Omkar.
+
+134
+00:11:14,703 --> 00:11:16,341
+<i>Ben gayet mutluydum.</i>
+
+135
+00:11:16,968 --> 00:11:19,165
+<i>Ama amcam mutlu taklidi yapıyordu.</i>
+
+136
+00:11:21,120 --> 00:11:22,942
+<i>Her şey bundan sonra başladı.</i>
+
+137
+00:11:23,228 --> 00:11:26,240
+<i>Bütün köy bir anda...
+
+138
+00:11:26,265 --> 00:11:30,268
+<i>...erkek çocuk doğurtma sanatında
+uzman kesildi.</i>
+
+139
+00:11:31,394 --> 00:11:34,716
+Güneş doğmadan önce
+sol elinle ekmeğe yerleştireceğin...
+
+140
+00:11:34,741 --> 00:11:37,518
+...beyaz susamlı şekeri
+bir kara ineğe yedir.
+
+141
+00:11:37,543 --> 00:11:38,723
+Erkek çocuk ceptedir.
+
+142
+00:11:38,986 --> 00:11:42,115
+Mahavir, erkek çocuk için
+özel bir dua yazdım.
+
+143
+00:11:42,814 --> 00:11:44,944
+Her gün oku.
+
+144
+00:11:48,110 --> 00:11:51,285
+Gel buraya, ye şunu.
+Ye şunu!
+
+145
+00:11:51,310 --> 00:11:52,448
+Dursana ya.
+
+146
+00:11:54,859 --> 00:11:58,691
+Mahavir, karınla sadece
+Pazar günleri deneyin.
+
+147
+00:11:59,559 --> 00:12:02,909
+Diğer günlerde kuvvetini iyice kazan.
+
+148
+00:12:04,793 --> 00:12:05,738
+Anladın mı?
+
+149
+00:12:07,282 --> 00:12:09,187
+<i>Ne insanlar akıl vermeyi bıraktı...</i>
+
+150
+00:12:09,212 --> 00:12:10,427
+Al bakalım evlat.
+
+151
+00:12:10,815 --> 00:12:12,413
+<i>...ne de amcam ve yengem
+onlara uymayı.</i>
+
+152
+00:12:13,726 --> 00:12:17,355
+<i>Doğum günü geldi çattı
+ve köyün yarısı toplandı.</i>
+
+153
+00:12:17,631 --> 00:12:19,439
+<i>Bütün övgüleri
+toplamak için gelmişlerdi.</i>
+
+154
+00:12:19,574 --> 00:12:22,921
+Erkek kardeşin olacak Geeta.
+Bir sürü oyunlar oynayacaksınız.
+
+155
+00:12:31,910 --> 00:12:32,938
+Kız oldu.
+
+156
+00:12:35,314 --> 00:12:37,130
+<i>Ne amcam oğluna kavuşmuştu...</i>
+
+157
+00:12:37,677 --> 00:12:39,436
+<i>...ne de köylüler övgülerine.</i>
+
+158
+00:12:40,779 --> 00:12:44,536
+<i>Bütün bu garanti tekniklerin içinde
+hata kimdeydi acaba?</i>
+
+159
+00:12:47,222 --> 00:12:49,829
+Kara inek yerine
+kara mandaya yedirmiştir kesin.
+
+160
+00:12:49,854 --> 00:12:54,492
+Rohtak'taki kuzenime bak mesela.
+Üç senede üç tane aslan gibi oğlu oldu.
+
+161
+00:12:54,517 --> 00:12:59,268
+Duayı tersten okursa
+sonucu da ters olur tabii.
+
+162
+00:12:59,865 --> 00:13:01,685
+Kendine hakim olmak çok önemli.
+
+163
+00:13:02,431 --> 00:13:06,392
+Ben ona Pazar günleri dene demiştim.
+
+164
+00:13:07,062 --> 00:13:08,755
+Her gün veryansın etmiş anlaşılan.
+
+165
+00:13:13,458 --> 00:13:15,314
+Bir erkek evlat veremedim sana.
+
+166
+00:13:20,089 --> 00:13:21,784
+Senin suçun değil.
+
+167
+00:13:24,193 --> 00:13:25,577
+Sakın yanlış anlama beni...
+
+168
+00:13:27,801 --> 00:13:30,036
+...Geeta ve Babita canım benim.
+
+169
+00:13:33,491 --> 00:13:35,023
+Ama sadece bir erkek evlat...
+
+170
+00:13:37,054 --> 00:13:38,448
+...hayallerimi gerçekleştirebilir.
+
+171
+00:13:54,723 --> 00:13:55,839
+<i>Yıllar geçip gitti.</i>
+
+172
+00:13:57,901 --> 00:14:01,474
+<i>Ama amcam erkek evlat
+isteğinden hiç vazgeçmedi.</i>
+
+173
+00:14:05,014 --> 00:14:07,531
+<i>Anlaşılan Tanrı da kız evlat verme
+istediğinden vazgeçmemişti.</i>
+
+174
+00:14:08,150 --> 00:14:09,666
+<i>Üçüncü çocuk da kız oldu.</i>
+
+175
+00:14:11,286 --> 00:14:12,168
+<i>Ve dördüncü de.</i>
+
+176
+00:14:22,485 --> 00:14:25,006
+<i>Bu sefer ben de üzülmüştüm.</i>
+
+177
+00:14:41,625 --> 00:14:43,004
+<i>Yemek hazır baba.</i>
+
+178
+00:14:59,576 --> 00:15:01,932
+Çevir şunu yanacak yoksa.
+
+179
+00:15:13,057 --> 00:15:16,432
+<i>Erkek evlat istediğinden
+vazgeçtikten sonra...</i>
+
+180
+00:15:16,779 --> 00:15:19,823
+<i>...hayallerinden de vazgeçmişti amcam.</i>
+
+181
+00:15:22,659 --> 00:15:23,876
+Mahavir Singh!
+
+182
+00:15:25,664 --> 00:15:26,728
+Neyi var bunun?
+
+183
+00:15:30,647 --> 00:15:33,534
+Akşam güreş müsabakasını
+izlemeye geliyor musun?
+
+184
+00:15:36,181 --> 00:15:38,013
+Hayır, siz gidin.
+
+185
+00:15:40,827 --> 00:15:41,825
+Mahavir.
+
+186
+00:15:43,843 --> 00:15:46,931
+Bir oğlum oldu.
+Buyur, şekerini al.
+
+187
+00:16:33,859 --> 00:16:34,828
+Ne oldu?
+
+188
+00:16:35,225 --> 00:16:38,053
+Şunların yediği dayağa bak.
+
+189
+00:16:38,881 --> 00:16:42,028
+- Bir şey söylesene!
+- Bak nasıl dayak yemişler.
+
+190
+00:16:42,327 --> 00:16:45,112
+- Her tarafları yara bere içinde.
+- Evet, her tarafları yara bere içinde.
+
+191
+00:16:47,356 --> 00:16:50,296
+- Niye dövdün çocukları?
+- Ben dövmedim amca.
+
+192
+00:16:50,808 --> 00:16:52,659
+Geeta ve Babita dövmüş.
+
+193
+00:17:05,788 --> 00:17:10,234
+Onlar başlattı baba. Bana ezik,
+Babita'ya da cadaloz dediler.
+
+194
+00:17:10,772 --> 00:17:12,232
+Biz de onlara ödettik.
+
+195
+00:17:12,986 --> 00:17:15,633
+Sırf bir laf için
+insan bu kadar mı döver?
+
+196
+00:17:18,053 --> 00:17:20,237
+Evet, bu kadar çok
+dövmemeleri gerekirdi.
+
+197
+00:17:21,818 --> 00:17:23,483
+Bağışlayın lütfen.
+Daha çocuklar.
+
+198
+00:17:23,672 --> 00:17:27,816
+Senin kızların olduğu için
+bu sefer bir şey demiyoruz.
+
+199
+00:17:29,127 --> 00:17:31,309
+Yürüyün!
+Kızdan dayak yediniz!
+
+200
+00:17:37,202 --> 00:17:37,899
+Buraya gelin.
+
+201
+00:17:40,761 --> 00:17:41,654
+Buraya gelin dedim!
+
+202
+00:17:45,724 --> 00:17:47,885
+Bir daha kavga etmeyeceğiz baba!
+
+203
+00:17:49,062 --> 00:17:50,937
+İlk önce nasıl dövdüğünüzü anlatın.
+
+204
+00:17:55,724 --> 00:17:57,997
+Başta bana ezik dediğinde
+sesimi çıkarmamıştım.
+
+205
+00:17:58,480 --> 00:18:00,388
+Sonra Babita'ya cadaloz dedi.
+
+206
+00:18:00,733 --> 00:18:03,719
+Orada koptuk.
+Tutup karnına böyle geçirdim.
+
+207
+00:18:05,056 --> 00:18:06,988
+Sonra diğer çocuk saldırdı.
+
+208
+00:18:07,246 --> 00:18:09,555
+Saçından tutup yere attım...
+
+209
+00:18:09,752 --> 00:18:11,379
+...sonra dirseğimle
+böyle sırtına geçirdim.
+
+210
+00:18:30,807 --> 00:18:34,580
+<i>Boğulmakta olan bir insan için tek bir
+dal parçası bile umut olmaya yeter derler.</i>
+
+211
+00:18:35,268 --> 00:18:38,036
+<i>Amcam, dal parçası değil
+iki cankurtaran bulmuştu.</i>
+
+212
+00:18:50,321 --> 00:18:55,916
+Bunca zaman, ülkemiz adına altın madalya
+kazansın diye erkek evlat isteyip durdum.
+
+213
+00:18:58,472 --> 00:19:02,511
+Ama altın madalyanın her türlü
+altın madalya olduğunu hiç farketmedim.
+
+214
+00:19:03,394 --> 00:19:05,214
+İster erkek kazansın ister kız.
+
+215
+00:19:07,435 --> 00:19:11,411
+Bugünden itibaren
+Geeta ve Babita ev işi yapmayacak.
+
+216
+00:19:13,115 --> 00:19:15,528
+Güreş, kanlarında var.
+
+217
+00:19:16,914 --> 00:19:19,159
+Bugünden itibaren güreşten başka
+bir şey yapmayacaklar.
+
+218
+00:19:21,783 --> 00:19:23,968
+Güreş, erkeklerin işidir.
+
+219
+00:19:24,542 --> 00:19:29,590
+- Kızlarımız erkeklerden aşağı mı?
+- Kızların güreştiğini hiç görmedim ben.
+
+220
+00:19:32,165 --> 00:19:35,955
+- Köylüler ne der?
+- Ne zamana kadar konuşabilirler ki?
+
+221
+00:19:39,334 --> 00:19:41,446
+Peki ya kızlar bir yerlerini kırarsa?
+
+222
+00:19:43,303 --> 00:19:44,500
+İyileştiririz.
+
+223
+00:19:47,410 --> 00:19:48,816
+Parayı nereden bulacağız?
+
+224
+00:19:50,612 --> 00:19:51,432
+Bilmiyorum.
+
+225
+00:19:56,104 --> 00:19:59,411
+Hayallerin yüzünden
+kızların hayatını mahvetme.
+
+226
+00:20:04,522 --> 00:20:06,062
+Bir yıl denememe izin ver.
+
+227
+00:20:08,026 --> 00:20:10,595
+Bir yıllığına
+duygularını içine göm.
+
+228
+00:20:13,615 --> 00:20:15,158
+Yanıldığım ortaya çıkarsa...
+
+229
+00:20:16,086 --> 00:20:18,884
+...ben de duygularımı temelli gömerim.
+
+230
+00:20:31,224 --> 00:20:33,078
+Sabah 5'te hazır olun.
+
+231
+00:20:36,124 --> 00:20:37,393
+Ne için baba?
+
+232
+00:20:42,919 --> 00:20:44,613
+En sevdiğiniz
+gol gappayı yedireceğim size.
+
+233
+00:20:48,496 --> 00:20:49,535
+5'te, tamam mı?
+
+234
+00:20:52,796 --> 00:20:57,002
+- Yine ne yaptın?
+- Ben de sen bir şey yaptın sandım.
+
+235
+00:21:02,117 --> 00:21:02,758
+Yiyin.
+
+236
+00:21:06,943 --> 00:21:07,716
+Nasıl?
+
+237
+00:21:09,253 --> 00:21:10,977
+Acısı az olmuş baba.
+
+238
+00:21:11,814 --> 00:21:13,533
+Biraz daha acı koy.
+
+239
+00:21:18,029 --> 00:21:19,690
+Şimdi istediğiniz kadar yiyin.
+
+240
+00:21:21,468 --> 00:21:25,372
+Bugünden itibaren hayatınızı
+güreşçi olarak yaşayacaksınız.
+
+241
+00:21:30,573 --> 00:21:36,066
+Güreşçilerin ise ekşi, yağlı
+ve acı yiyecekler yemesi yasaktır.
+
+242
+00:21:36,992 --> 00:21:38,588
+Bu durumda sizin en çok
+sevdiğiniz yemekler oluyor.
+
+243
+00:21:43,820 --> 00:21:45,618
+Bunu son ziyafetiniz olarak düşünün.
+
+244
+00:21:55,970 --> 00:22:01,394
+<i># Başkası için kurtarıcı
+bizim için başa bela</i>
+
+245
+00:22:01,419 --> 00:22:03,345
+Hadi, daha hızlı Babita.
+
+246
+00:22:03,370 --> 00:22:09,887
+<i># Görme bize reva
+bu işkenceleri baba</i>
+
+247
+00:22:10,634 --> 00:22:15,344
+<i># Başkası için kurtarıcı
+bizim için başa bela</i>
+
+248
+00:22:15,369 --> 00:22:17,813
+Bu elbiselerin içinde koşmak
+zor oluyor baba.
+
+249
+00:22:17,971 --> 00:22:22,602
+<i># Görme bize reva
+bu işkenceleri baba</i>
+
+250
+00:22:23,443 --> 00:22:28,036
+<i># Sokma bizi acılara!</i>
+
+251
+00:22:33,225 --> 00:22:34,273
+<i># Baba!</i>
+
+252
+00:22:37,605 --> 00:22:38,774
+<i># Baba!</i>
+
+253
+00:22:47,124 --> 00:22:50,007
+<i># Zararsın sen baba</i>
+
+254
+00:22:50,607 --> 00:22:51,734
+Sakın durayım demeyin!
+
+255
+00:22:51,759 --> 00:22:56,405
+<i># Zararsın sen sağlığımıza baba</i>
+
+256
+00:22:56,430 --> 00:23:01,531
+<i># Zararsın işte sen sağlığımıza baba</i>
+
+257
+00:23:01,556 --> 00:23:06,093
+<i># Merhamet et,
+küçük çocuklarız biz daha</i>
+
+258
+00:23:06,118 --> 00:23:09,806
+<i># Merhamet et işte,
+küçük çocuklarız biz daha</i>
+
+259
+00:23:10,053 --> 00:23:12,783
+<i># Bu kadar disiplinle...</i>
+
+260
+00:23:14,355 --> 00:23:19,061
+<i># Bu kadar disiplinle
+istiyor gitmemizi öbür tarafa</i>
+
+261
+00:23:19,086 --> 00:23:24,391
+<i># Zararsın sen sağlığımıza baba</i>
+
+262
+00:23:24,416 --> 00:23:28,993
+<i># Merhamet et,
+küçük çocuklarız biz daha</i>
+
+263
+00:23:29,018 --> 00:23:32,720
+<i># Merhamet et işte,
+küçük çocuklarız biz daha</i>
+
+264
+00:23:32,856 --> 00:23:36,173
+<i># Bu kadar disiplinle...</i>
+
+265
+00:23:37,159 --> 00:23:42,001
+<i># Bu kadar disiplinle
+istiyor gitmemizi öbür tarafa</i>
+
+266
+00:23:42,026 --> 00:23:46,430
+<i># Zararsın sen sağlığımıza baba</i>
+
+267
+00:23:47,118 --> 00:23:53,000
+Kimseye, birkaç çocuğu dövdüğü için
+bu kadar ağır ceza verilmemiştir.
+
+268
+00:23:54,197 --> 00:23:59,050
+Bana sadece laf attı çocuk.
+Sen niye hemen dövdün ki?
+
+269
+00:24:00,718 --> 00:24:02,035
+Şimdi suç oldu demek!
+
+270
+00:24:05,415 --> 00:24:09,320
+<i># Bırakmadın hayatımızda gezme tozma</i>
+
+271
+00:24:09,345 --> 00:24:13,710
+<i># Eza bu eza
+Büyük bir eza</i>
+
+272
+00:24:14,200 --> 00:24:18,393
+<i># Diyorsun çocuklarına
+zevk almayın bu hayatta</i>
+
+273
+00:24:18,566 --> 00:24:22,876
+<i># Eza bu eza
+Büyük bir eza</i>
+
+274
+00:24:28,259 --> 00:24:32,797
+<i># Şekerler, oyunlar, oyuncaklar
+yemekler harika mı harika</i>
+
+275
+00:24:32,822 --> 00:24:37,256
+<i># Ettiler bize büyük bir elveda
+Senin azarından beri baba</i>
+
+276
+00:24:37,281 --> 00:24:41,924
+<i># Biz oyun çağımızdayız daha</i>
+
+277
+00:24:41,957 --> 00:24:46,580
+<i># Ne diye süre koyup
+duruyorsun bunlara?</i>
+
+278
+00:24:46,605 --> 00:24:51,120
+<i># Şansımız tıpkı bozuk araba</i>
+
+279
+00:24:51,145 --> 00:24:54,776
+<i># Şansımız tıpkı bir bozuk araba</i>
+
+280
+00:24:55,066 --> 00:24:57,252
+<i># Babamız da var ya...</i>
+
+281
+00:24:59,608 --> 00:25:04,133
+<i># Babamız da
+oturmuş o arabanın şoför koltuğuna</i>
+
+282
+00:25:04,158 --> 00:25:08,919
+<i># Zararsın sen sağlığımıza baba</i>
+
+283
+00:25:09,344 --> 00:25:13,353
+<i># Bırakmadın nefis ve
+acılı yemekleri hayatımızda</i>
+
+284
+00:25:13,378 --> 00:25:17,766
+<i># Eza bu eza
+Büyük bir eza</i>
+
+285
+00:25:18,203 --> 00:25:22,525
+<i># Nazik kızların
+olsun istiyorsun kaya</i>
+
+286
+00:25:22,550 --> 00:25:27,435
+<i># Eza bu eza
+Büyük bir eza</i>
+
+287
+00:25:28,114 --> 00:25:33,355
+- Ne dersen yaparız Anne.
+- Bizi güreşmekten kurtar yeter.
+
+288
+00:25:33,380 --> 00:25:35,964
+Bir yıllığına anneniz olduğunu unutun.
+
+289
+00:25:37,919 --> 00:25:39,815
+Bu kadar çabuk mu unuttunuz?
+
+290
+00:25:41,587 --> 00:25:45,006
+Düpedüz saçmalık bu Mahavir.
+Kızların güreş meydanında ne işi var?
+
+291
+00:25:45,311 --> 00:25:47,345
+Bu yaştan sonra
+günaha mı sokacaksın beni?
+
+292
+00:25:50,525 --> 00:25:52,820
+<i># Kalmadı elimizde
+çocukluğumuzdan bir damla</i>
+
+293
+00:25:52,845 --> 00:25:55,210
+<i># Kalmadı ottan eser hiç tarlada</i>
+
+294
+00:25:55,235 --> 00:25:59,744
+<i># Nasıl savaş meydanı
+hazırlanıyor bize acaba?</i>
+
+295
+00:25:59,769 --> 00:26:04,294
+<i># Ağlıyoruz sabah akşam
+kalmadı hiçbir şey göz pınarlarımızda</i>
+
+296
+00:26:04,319 --> 00:26:08,773
+<i># Kurbanın olduk olamadın
+bir türlü mutlu Zalim baba</i>
+
+297
+00:26:08,798 --> 00:26:13,335
+<i># Bu kadar mı
+işe yaramaz geliyoruz sana?</i>
+
+298
+00:26:13,360 --> 00:26:17,054
+<i># Bu kadar mı
+işe yaramaz geliyoruz sana?</i>
+
+299
+00:26:17,218 --> 00:26:19,813
+<i># İyiler senden...</i>
+
+300
+00:26:21,736 --> 00:26:26,444
+<i># İyiler senden
+Bollywood'un kötü adamları baba</i>
+
+301
+00:26:26,469 --> 00:26:31,765
+<i># Zararsın sen sağlığımıza baba</i>
+
+302
+00:26:31,790 --> 00:26:33,079
+Babita...
+
+303
+00:26:37,428 --> 00:26:39,586
+...ayaklarıma basar mısın?
+
+304
+00:26:40,980 --> 00:26:44,331
+Ben de sana soracaktım şimdi.
+
+305
+00:27:22,532 --> 00:27:24,847
+Toprak Ana'ya
+her zaman saygı gösterin.
+
+306
+00:27:26,218 --> 00:27:28,310
+Ne kadar çok saygı gösterirseniz...
+
+307
+00:27:29,044 --> 00:27:31,530
+...o kadar çok saygı görürsünüz.
+
+308
+00:27:58,340 --> 00:28:01,615
+<i>Amcam sonunda Geeta ve Babita'yı
+güreş meydanına sokmayı başarmıştı.</i>
+
+309
+00:28:01,865 --> 00:28:03,406
+<i>Ama eksik bir şey vardı.</i>
+
+310
+00:28:03,944 --> 00:28:07,077
+<i>Geeta ve Babita'yı
+düzgün eğitmek için...</i>
+
+311
+00:28:07,102 --> 00:28:09,661
+<i>...sağlam bir güreşçi ile
+antrenman yapmaları gerekiyordu.</i>
+
+312
+00:28:13,383 --> 00:28:14,406
+Omkar mı?
+
+313
+00:28:15,422 --> 00:28:16,649
+Bu mu?
+
+314
+00:28:17,739 --> 00:28:20,263
+- Evet. - Bu kadarı
+fazla değil mi kardeşim?
+
+315
+00:28:21,336 --> 00:28:23,670
+Kızları güreşe zorlaman
+yeterince kötü zaten.
+
+316
+00:28:24,107 --> 00:28:26,094
+Şimdi de erkeklerle mi güreştireceksin?
+
+317
+00:28:27,745 --> 00:28:29,721
+Evet mi hayır mı?
+
+318
+00:28:32,797 --> 00:28:34,616
+Evet diyecek cesaretim yok.
+
+319
+00:28:35,769 --> 00:28:37,425
+Hayır diyecek cesaretim de yok.
+
+320
+00:28:38,730 --> 00:28:39,722
+Tamam, gönder yanıma.
+
+321
+00:28:46,355 --> 00:28:49,830
+Sizin yüzünüzden
+ben de çapraz ateşe yakalandım.
+
+322
+00:28:50,957 --> 00:28:54,346
+Kes mızmızlanmayı!
+Sen sadece çapraz ateşe yakalandın.
+
+323
+00:28:54,808 --> 00:28:58,180
+Biz zorla savaşa sokulduk.
+Koşmaya devam et.
+
+324
+00:28:59,083 --> 00:29:03,624
+Babam bunu neden bizle eğitiyor ki?
+Bu ufaklık bize rakip değil.
+
+325
+00:29:03,880 --> 00:29:07,403
+- Benim için tam bir KYDU.
+- Ne demek oluyor o?
+
+326
+00:29:07,428 --> 00:29:08,950
+Konuşmaya Yavuz, Dövüşmeye Uyuz.
+
+327
+00:29:14,223 --> 00:29:15,159
+KYDU demek?
+
+328
+00:29:32,467 --> 00:29:35,858
+- Yavaş ol, küçük kardeşinim ben senin.
+- Tabii tabii.
+
+329
+00:29:45,481 --> 00:29:48,439
+Yanlış anlama ama
+kızların biraz güçsüz.
+
+330
+00:29:49,081 --> 00:29:50,474
+Benimle güreşmek ister misin?
+
+331
+00:29:51,277 --> 00:29:52,238
+Birazdan dönerim ben.
+
+332
+00:30:45,152 --> 00:30:47,017
+Seni hiç anlamıyorum.
+
+333
+00:30:53,972 --> 00:30:55,120
+Aynı anda...
+
+334
+00:30:57,183 --> 00:30:58,871
+...ya antrenörleri olabilirim...
+
+335
+00:31:00,563 --> 00:31:01,446
+...ya da babaları.
+
+336
+00:31:04,980 --> 00:31:06,394
+Antrenör iş başındayken...
+
+337
+00:31:08,418 --> 00:31:10,069
+...babanın kenara çekilmesi gerek.
+
+338
+00:31:17,349 --> 00:31:20,863
+- KYDU dediğim için özür dilerim.
+- Külahıma anlat.
+
+339
+00:31:25,628 --> 00:31:26,974
+Oyun mu sanıyorsun bunu?
+
+340
+00:31:28,019 --> 00:31:30,485
+Seni yere fırlatacak
+sen de izin mi vereceksin?
+
+341
+00:31:31,578 --> 00:31:35,669
+Soldan hücum ettiğinde kendini sola
+sabitleyip neden savunma yapmıyorsun?
+
+342
+00:31:36,154 --> 00:31:37,128
+Özür dilerim baba.
+
+343
+00:31:37,504 --> 00:31:41,587
+Güreş bu güreş.
+Üç özürde oyun biter.
+
+344
+00:31:43,189 --> 00:31:45,040
+Hadi.
+Tekrar deneyin.
+
+345
+00:31:53,745 --> 00:31:55,873
+Gücüne ne oldu senin?
+
+346
+00:31:59,836 --> 00:32:03,188
+Kızları güreş için eğitmeye başladın,
+sesimi çıkarmadım.
+
+347
+00:32:03,670 --> 00:32:05,863
+Ama mutfağımda tavuk pişirmene
+sessiz kalamam.
+
+348
+00:32:05,888 --> 00:32:09,341
+Anla biraz. Güreşçilerin
+proteine ihtiyacı vardır.
+
+349
+00:32:09,655 --> 00:32:10,780
+Umurumda değil!
+
+350
+00:32:11,253 --> 00:32:14,397
+Eğer o yemeği mutfağımda pişirsen
+yemek yemeyi keserim ben.
+
+351
+00:32:14,422 --> 00:32:16,700
+Kızların güçsüz güreşçi
+olmasını mı istiyorsun?
+
+352
+00:32:16,725 --> 00:32:17,958
+Ben anlamam.
+
+353
+00:32:18,201 --> 00:32:20,772
+Tavukları mutfağımda
+hayatta pişiremezsin.
+
+354
+00:32:24,128 --> 00:32:27,375
+- Omkar? - Efendim.
+- Yemek yapmayı biliyor musun?
+
+355
+00:32:27,518 --> 00:32:29,207
+- Hayır, amca.
+- Öğren o hâlde.
+
+356
+00:32:31,020 --> 00:32:33,128
+Şu anki diyetlerine bile
+yetecek paramız yok.
+
+357
+00:32:33,525 --> 00:32:35,330
+Tavuklara nasıl gücümüz yetecek?
+
+358
+00:32:35,539 --> 00:32:38,775
+Ne? 100 rupilik tavuğu
+20'ye mi satmamı istiyorsun?
+
+359
+00:32:39,310 --> 00:32:40,872
+Benim kârım ne olacak bu işten?
+
+360
+00:32:41,703 --> 00:32:44,156
+Matematiğini açıkla bakalım bana.
+
+361
+00:32:45,325 --> 00:32:48,832
+Geeta ve Babita eninde sonunda
+ünlü birer güreşçi olacak.
+
+362
+00:32:49,913 --> 00:32:52,937
+İnsanlar, senin dükkanındaki tavukları
+yediklerini öğrendiğinde...
+
+363
+00:32:52,962 --> 00:32:55,196
+...sence artık nereden tavuk alırlar?
+
+364
+00:32:56,457 --> 00:32:59,169
+Doğru diyorsun.
+Ama 20 rupi ne be?
+
+365
+00:32:59,508 --> 00:33:01,725
+- Başka dükkanlar da var.
+- Dur, dur.
+
+366
+00:33:03,742 --> 00:33:07,618
+- 40 yapalım şunu.
+- 25'ten bir rupi fazla vermem.
+
+367
+00:33:21,079 --> 00:33:22,273
+Soğanları kavurdum.
+
+368
+00:33:23,441 --> 00:33:26,252
+Ama bu tava mutfağıma
+asla geri giremez.
+
+369
+00:33:38,994 --> 00:33:41,560
+Şimdi tavuğu tavaya koyun.
+
+370
+00:33:48,301 --> 00:33:51,004
+Kısık ateşte pişmeye bırakın.
+
+371
+00:34:02,074 --> 00:34:03,358
+Pirinçle yenmesi gerekiyormuş.
+
+372
+00:34:04,605 --> 00:34:06,812
+Ekmekle de yenilebilir tabii.
+
+373
+00:34:16,751 --> 00:34:18,612
+<i>Amcam kendi görevini
+yerine getiriyordu...</i>
+
+374
+00:34:18,937 --> 00:34:20,356
+<i>...köylüler de kendi görevlerini.</i>
+
+375
+00:34:20,940 --> 00:34:25,053
+Kızların işi yemek yapmaktır
+güreşmek değil.
+
+376
+00:34:25,078 --> 00:34:26,772
+Mahavir Singh kafayı yemiş.
+
+377
+00:34:26,860 --> 00:34:29,039
+Kafayı falan yemedi,
+utanmazın biri oldu.
+
+378
+00:34:29,289 --> 00:34:33,680
+Kızlara şort giydirip
+erkeklerle dövüştürüyor.
+
+379
+00:34:33,913 --> 00:34:37,503
+Güreşmeye başladığınızdan beri
+yürüyüşünüz erkek gibi oldu.
+
+380
+00:34:37,903 --> 00:34:39,538
+Daha başka neler olacak acaba.
+
+381
+00:34:40,008 --> 00:34:43,124
+Yumruğum direkt ağzına girecek.
+
+382
+00:34:45,085 --> 00:34:48,606
+Bir erkek doğursaydın
+bunların hiçbiri olmazdı!
+
+383
+00:34:48,840 --> 00:34:51,156
+Anneleri de sesini çıkarmıyor.
+
+384
+00:34:52,344 --> 00:34:56,601
+Bütün köy arkamızdan gülüyor.
+Kızlarımızla kim evlenecek?
+
+385
+00:34:58,397 --> 00:35:00,849
+Kızlarımızı o kadar yetenekli
+yapacağım ki...
+
+386
+00:35:01,696 --> 00:35:03,372
+...erkekler onları seçmeyecek...
+
+387
+00:35:03,852 --> 00:35:05,371
+...onlar erkekleri seçecek!
+
+388
+00:35:08,032 --> 00:35:11,257
+Bugün babama güreşin
+bir işe yaramadığını söyleyeceğim.
+
+389
+00:35:11,479 --> 00:35:12,447
+Ben de.
+
+390
+00:35:12,909 --> 00:35:15,379
+E-r-k-e-k
+Erkek.
+
+391
+00:35:16,345 --> 00:35:18,998
+K-e-d-i
+Kedi.
+
+392
+00:35:20,592 --> 00:35:22,303
+Baba, güreş bir işe yaramıyor...
+
+393
+00:35:23,587 --> 00:35:24,564
+...Babita öyle diyor.
+
+394
+00:35:26,631 --> 00:35:28,314
+Evet baba, öyle.
+
+395
+00:35:28,471 --> 00:35:32,520
+Geeta çok yorulduğu için
+derste uyuyakalıyor.
+
+396
+00:35:32,985 --> 00:35:36,586
+Derslerine hiç odaklanamıyor.
+
+397
+00:35:37,510 --> 00:35:41,966
+Babita'nın her yeri çok kötü ağrıyor.
+Gece yatakta sürekli debelenip duruyor.
+
+398
+00:35:42,489 --> 00:35:46,547
+Okuldaki kızlar Geeta'ya
+erkek deyip dalga geçiyor.
+
+399
+00:35:47,016 --> 00:35:48,032
+Üzücü bir durum değil mi?
+
+400
+00:35:49,648 --> 00:35:54,295
+Bunları hiçbiri soruna benzemiyor.
+Gerçek bir sorun varsa söyleyin.
+
+401
+00:35:55,192 --> 00:35:59,690
+- Oku.
+- F-İ-L
+
+402
+00:35:59,917 --> 00:36:03,327
+Kumda güreştiğimiz için
+saçlarımız mahvoluyor baba.
+
+403
+00:36:04,517 --> 00:36:07,792
+Babita'nın saçı bitlendi bile.
+Bu akşam sekiz tane öldürdüm.
+
+404
+00:36:13,417 --> 00:36:14,975
+Bu gerçekten bir sorun işte.
+
+405
+00:36:16,876 --> 00:36:19,193
+Tamam, sabah 5'te hazır olun.
+
+406
+00:36:20,916 --> 00:36:21,533
+Oku.
+
+407
+00:36:23,030 --> 00:36:25,451
+Lütfen baba.
+Hiçbir sorunumuz yok bizim.
+
+408
+00:36:25,476 --> 00:36:27,164
+Hoşumuza gidiyor aslına bakarsan.
+
+409
+00:36:27,554 --> 00:36:31,158
+Lütfen saçlarımızı kesme.
+Ne dersen yapacağız.
+
+410
+00:36:31,871 --> 00:36:34,563
+Anne, bir şeyler söyle.
+Babamın ne yaptığına bak.
+
+411
+00:36:34,736 --> 00:36:38,534
+Lütfen saçlarımızı kesme baba.
+Ne dersen yapacağız.
+
+412
+00:36:38,559 --> 00:36:42,381
+Her sabah erkenden uyanacağız.
+Ne dersen söylenmeden yapacağız.
+
+413
+00:36:42,406 --> 00:36:45,892
+Saçlarımızı kesme yeter.
+Lütfen baba.
+
+414
+00:36:47,448 --> 00:36:49,553
+- Kes.
+- Keseyim mi?
+
+415
+00:36:50,740 --> 00:36:52,102
+Uzatabilir misin?
+
+416
+00:36:54,278 --> 00:36:54,991
+Kes o hâlde.
+
+417
+00:38:21,238 --> 00:38:22,768
+Güreşmeye zorlamak bir şey değildi...
+
+418
+00:38:23,238 --> 00:38:25,070
+...ama saçlarını kesmek zalimlik.
+
+419
+00:38:26,644 --> 00:38:27,626
+Sonuçta kız bunlar.
+
+420
+00:38:28,659 --> 00:38:31,239
+Her şeyi onların iyiliği için yapıyorum.
+
+421
+00:38:32,422 --> 00:38:36,481
+Onları güreşmekten alıkoyan
+her şeyden kurtulacağım.
+
+422
+00:38:38,669 --> 00:38:41,658
+Ay mı yoksa güneş mi doğmuş sence?
+
+423
+00:38:41,683 --> 00:38:44,668
+Kafam karıştı.
+İkisi aynı anda doğmuş galiba.
+
+424
+00:38:46,381 --> 00:38:49,335
+Bırak Babita.
+Biz suçlu oluruz.
+
+425
+00:38:55,549 --> 00:38:57,082
+Bu kadar güreş yeter.
+
+426
+00:38:58,191 --> 00:38:59,428
+Sokak dövüşünün zamanı geldi!
+
+427
+00:39:00,156 --> 00:39:04,355
+<i>Ve birden Balali denilen
+Haryana'nın küçük bir köyünde...</i>
+
+428
+00:39:04,620 --> 00:39:06,801
+<i>...büyük bir isyan başladı.</i>
+
+429
+00:39:07,217 --> 00:39:12,331
+<i>Devrimci Geeta ve Babita
+diktatör Mahavir Singh'e karşı.</i>
+
+430
+00:39:13,347 --> 00:39:17,069
+<i>Amcamın bütün mühimmatları
+tek tek etkisiz hale getirildi.</i>
+
+431
+00:39:18,546 --> 00:39:21,679
+<i>Alarm, zeki bir taktikle
+yanlış zamana kuruldu.</i>
+
+432
+00:39:36,486 --> 00:39:37,692
+Ne oldu baba?
+
+433
+00:39:39,353 --> 00:39:42,410
+- Bugün geç kaldın.
+- Yaşlandı tabii.
+
+434
+00:39:43,097 --> 00:39:45,974
+Sorun değil. Bugünkü
+antrenmanı tamamladık biz.
+
+435
+00:39:46,749 --> 00:39:47,688
+Gidelim Babita.
+
+436
+00:39:54,148 --> 00:39:57,028
+<i>Sayısız ampul şehit düştü.</i>
+
+437
+00:39:59,095 --> 00:40:00,995
+Bu ampuller her gün
+nasıl patlıyor böyle?
+
+438
+00:40:01,376 --> 00:40:03,406
+Kalitesiz olduğundan baba.
+Kalitesiz olduğundan.
+
+439
+00:40:04,425 --> 00:40:07,125
+<i>Yaralanmalar müttefikleri oldu.</i>
+
+440
+00:40:08,968 --> 00:40:12,807
+<i>Savaş meydanında,
+mücadele etmeden teslim olunuyordu.</i>
+
+441
+00:40:15,223 --> 00:40:16,275
+Dayak mı yemek istiyorsun?
+
+442
+00:40:16,300 --> 00:40:18,616
+<i>Ama amcam,
+iki eli olmasına rağmen...</i>
+
+443
+00:40:18,641 --> 00:40:22,041
+<i>...Sholay filmindeki kolsuz adam gibi
+hiçbir şey yapamadı.</i>
+
+444
+00:40:22,066 --> 00:40:22,732
+Yıkıl karşımdan!
+
+445
+00:40:24,786 --> 00:40:28,809
+<i>Bir anda nasıl bu kadar
+güçlendiğimi anlayamamıştım.</i>
+
+446
+00:40:29,299 --> 00:40:34,778
+<i>Ama amcam Geeta ve Babita'nın bir anda
+neden bu kadar güçsüzleştiğini anlamıştı.</i>
+
+447
+00:40:35,796 --> 00:40:39,593
+<i>Geeta ve Babita
+savaşı kazandıklarını sanıyordu.</i>
+
+448
+00:40:42,734 --> 00:40:44,738
+Sunita'nın düğününe mi gidiyorsunuz?
+
+449
+00:40:44,927 --> 00:40:48,426
+- Anne, biz...
+- Beni utandırmak mı istiyorsunuz?
+
+450
+00:40:49,771 --> 00:40:52,749
+- Seç birini.
+- Bu olsun.
+
+451
+00:41:00,505 --> 00:41:01,520
+Dönün bakayım.
+
+452
+00:41:04,436 --> 00:41:07,489
+Sonunda kızlarım
+kız gibi görünmeye başladı.
+
+453
+00:41:11,023 --> 00:41:14,706
+- Babama söyleme.
+- Sekizden önce evde olun.
+
+454
+00:41:18,891 --> 00:41:22,440
+<i># Oldum ben utangaç bir gelin</i>
+
+455
+00:41:22,660 --> 00:41:26,412
+<i># Oldum ben utangaç bir gelin</i>
+
+456
+00:41:26,498 --> 00:41:30,408
+<i># Utangaç mı utangaç ve de gergin</i>
+
+457
+00:41:30,633 --> 00:41:34,138
+<i># Oldum ben utangaç bir gelin</i>
+
+458
+00:41:34,279 --> 00:41:37,576
+<i># Oldum ben utangaç bir gelin</i>
+
+459
+00:41:46,596 --> 00:41:50,403
+<i># Gördüm hayatımda yığınla tuhaf şeyi</i>
+
+460
+00:41:50,563 --> 00:41:54,239
+<i># Ama benim damadım
+en tuhafı içlerindeki</i>
+
+461
+00:41:58,157 --> 00:42:01,997
+<i># Gördüm hayatımda yığınla tuhaf şeyi</i>
+
+462
+00:42:02,046 --> 00:42:05,821
+<i># Ama benim damadım
+en tuhafı içlerindeki</i>
+
+463
+00:42:05,846 --> 00:42:12,277
+<i># Onunla evlenmek
+eşeğe hoşaf anlatmak gibi</i>
+
+464
+00:42:12,302 --> 00:42:15,983
+<i># Benim damadımdan yok daha eziği</i>
+
+465
+00:42:16,136 --> 00:42:19,756
+<i># Benim damadımdan yok daha eziği</i>
+
+466
+00:42:20,000 --> 00:42:23,882
+<i># Benim damadımdan yok daha eziği</i>
+
+467
+00:42:23,907 --> 00:42:27,625
+<i># Benim damadımdan yok daha eziği</i>
+
+468
+00:42:36,859 --> 00:42:40,602
+<i># Dedim damadıma temizle beni</i>
+
+469
+00:42:40,627 --> 00:42:44,438
+<i># Al getir bakkaldan diş fırçasını
+fırçala dişlerimi</i>
+
+470
+00:42:44,463 --> 00:42:50,944
+<i># Diş fırçasının yerine
+tarladan şeker kamışı getirdi</i>
+
+471
+00:42:51,019 --> 00:42:52,555
+<i># Yok daha eziği!</i>
+
+472
+00:42:54,417 --> 00:42:56,465
+<i># Yok daha eziği!</i>
+
+473
+00:42:58,702 --> 00:43:02,373
+<i># Benim damadımdan yok daha eziği</i>
+
+474
+00:43:02,558 --> 00:43:06,125
+<i># Benim damadımdan yok daha eziği</i>
+
+475
+00:43:06,434 --> 00:43:10,133
+<i># Benim damadımdan yok daha eziği</i>
+
+476
+00:43:32,269 --> 00:43:34,891
+Karışma kardeşim.
+Kafayı yemiş bu adam.
+
+477
+00:43:49,661 --> 00:43:51,548
+Bir günlüğüne antrenmanı astık diye...
+
+478
+00:43:52,845 --> 00:43:55,568
+...böyle olay çıkarmaya
+gerek var mıydı?
+
+479
+00:43:58,475 --> 00:44:00,882
+Nasıl bir baba
+kızlarını güreşçi olmaya zorlar ki?
+
+480
+00:44:03,062 --> 00:44:04,829
+Sabah 5'te uyandırıp zorla koşturuyor.
+
+481
+00:44:05,486 --> 00:44:08,757
+Köle gibi çalıştırıyor.
+Erkeklerle dövüştürüyor.
+
+482
+00:44:09,282 --> 00:44:12,109
+Karşı çıkarlarsa da
+saçlarını kesiyor.
+
+483
+00:44:13,233 --> 00:44:15,025
+Tanrım kimseye
+öyle bir baba vermesin.
+
+484
+00:44:18,294 --> 00:44:20,844
+Tanrı keşke bana
+öyle bir baba verseydi.
+
+485
+00:44:26,978 --> 00:44:30,183
+En azından sizin babanız
+sizi düşünüyor.
+
+486
+00:44:32,785 --> 00:44:34,892
+Yoksa hayatınız...
+
+487
+00:44:35,720 --> 00:44:36,995
+...doğduğunuz andan itibaren...
+
+488
+00:44:37,741 --> 00:44:39,521
+...yemek ve temizlik yapmayı öğrenmek...
+
+489
+00:44:40,462 --> 00:44:42,150
+...bütün ev işlerini yapmak...
+
+490
+00:44:44,987 --> 00:44:46,712
+...14'üne bastığınızda da...
+
+491
+00:44:48,267 --> 00:44:49,904
+...biriyle evlendirilmekten
+ibaret olur.
+
+492
+00:44:51,436 --> 00:44:52,986
+Bir yükten kurtulurlar.
+
+493
+00:44:54,705 --> 00:44:56,939
+Daha önce hiç görmediği...
+
+494
+00:44:58,231 --> 00:45:00,041
+...bir adamın eline verirler.
+
+495
+00:45:02,027 --> 00:45:03,615
+Çocuk doğurtup büyütmeye zorlarlar.
+
+496
+00:45:05,527 --> 00:45:07,106
+Kız sadece bu işlere yaramak için vardır.
+
+497
+00:45:07,503 --> 00:45:10,588
+En azından sizin babanız
+çocukluğunuzu düşünüyor.
+
+498
+00:45:11,220 --> 00:45:15,407
+Bütün dünyaya karşı mücadele verip
+laflarını sessizce sineye çekiyor.
+
+499
+00:45:15,958 --> 00:45:16,791
+Neden peki?
+
+500
+00:45:18,853 --> 00:45:20,903
+İkinizin bir geleceği, hayatı olsun diye.
+
+501
+00:45:23,144 --> 00:45:25,162
+Bunun neresi yanlış?
+
+502
+00:46:32,136 --> 00:46:34,336
+<i># Gitmiyorum hiçbir yere</i>
+
+503
+00:46:34,744 --> 00:46:36,919
+<i># En iyiyi yenmeden önce</i>
+
+504
+00:46:37,444 --> 00:46:39,710
+<i># Gitmiyorum hiçbir yere</i>
+
+505
+00:46:40,144 --> 00:46:42,187
+<i># En iyiyi yenmeden önce</i>
+
+506
+00:46:42,283 --> 00:46:47,320
+<i># Kader verirse bir fırsat
+kendini kanıtlamak için eline</i>
+
+507
+00:46:47,719 --> 00:46:52,824
+<i># Vardır hazır olunacak
+bir avuç gün önünde</i>
+
+508
+00:46:53,001 --> 00:46:58,230
+<i># İsterse terinin her bir damlasını önce</i>
+
+509
+00:46:58,438 --> 00:47:03,761
+<i># Bil ki kazanacaksın daha fazlasını
+herkesten önce</i>
+
+510
+00:47:09,678 --> 00:47:15,538
+<i># Kader diz çökecektir
+bu yoğun gayretinin önünde</i>
+
+511
+00:47:15,563 --> 00:47:17,284
+<i># Güreşelim hadi Güreşçi!</i>
+
+512
+00:47:18,191 --> 00:47:19,956
+<i># Güreşelim hadi Güreşçi!</i>
+
+513
+00:47:21,188 --> 00:47:23,753
+<i>O gün bir şeyi çok iyi anladım.</i>
+
+514
+00:47:24,595 --> 00:47:26,572
+<i>Geeta ve Babita'yı
+artık tanıyamıyordum zaten.</i>
+
+515
+00:47:26,900 --> 00:47:29,769
+<i>Ama benim kanımda
+güreşmek falan yoktu.</i>
+
+516
+00:47:31,618 --> 00:47:32,736
+Nasıl da surat asıyor.
+
+517
+00:47:35,191 --> 00:47:38,005
+Şuna biraz tereyağı ver anne.
+İyice güçsüzleşti.
+
+518
+00:47:41,066 --> 00:47:43,331
+Sevin diye bilerek kaybettim.
+
+519
+00:47:43,578 --> 00:47:46,376
+Hadi be oradan KYDU.
+Bilerek kaybetmişmiş.
+
+520
+00:47:47,787 --> 00:47:50,394
+Merak etme ama.
+Aramızda kalacak.
+
+521
+00:47:50,767 --> 00:47:54,601
+Sonuçta sen de bizim ailedensin.
+Senin şerefin bizim şerefimiz.
+
+522
+00:47:54,626 --> 00:47:56,900
+Bu kadar kendinize güvenmeyin.
+Yarın görürsünüz.
+
+523
+00:47:56,988 --> 00:47:58,274
+Yarın hiçbir şey yapmayacaksın.
+
+524
+00:48:00,204 --> 00:48:02,472
+Hayır, amca. Yarın sağlam bir
+mücadele vereceğim.
+
+525
+00:48:03,085 --> 00:48:04,352
+Yarın Rohtak'a gidiyoruz.
+
+526
+00:48:05,652 --> 00:48:06,583
+Güreş müsabakası için.
+
+527
+00:48:12,216 --> 00:48:15,497
+Güreş müsabakası için
+hazır değilim daha ben.
+
+528
+00:48:15,842 --> 00:48:17,488
+Senden söz eden kim?
+
+529
+00:48:24,466 --> 00:48:28,280
+Erkeklerle mi güreşecek?
+İki dakika bile dayanamaz amca.
+
+530
+00:48:28,461 --> 00:48:31,062
+Nedenmiş o?
+Seni yere serdi ya.
+
+531
+00:48:32,199 --> 00:48:33,566
+Erkek değil misin sen?
+
+532
+00:48:42,836 --> 00:48:45,194
+<i>Hayatım boyunca bir sürü
+güreş müsabakası görmüşümdür.</i>
+
+533
+00:48:46,020 --> 00:48:48,216
+<i>Ama bugün bizzat tanık olacaktım.</i>
+
+534
+00:48:48,682 --> 00:48:51,197
+<i>Öyle bir müsabaka ki, Haryana'daki
+kimsenin daha önce görmediği cinsten.</i>
+
+535
+00:48:52,527 --> 00:48:54,024
+<i>Her an bir olay çıkabilirdi.</i>
+
+536
+00:48:58,331 --> 00:49:01,535
+Mahavir Singh Phogat.
+Hoş geldin!
+
+537
+00:49:01,560 --> 00:49:03,752
+Müsabakaları izlemeye gelmen
+bizim için büyük bir onur.
+
+538
+00:49:04,216 --> 00:49:06,864
+- Bir güreşçi getirdim.
+- İsmini ver lütfen.
+
+539
+00:49:07,076 --> 00:49:08,579
+Geeta Kumari Phogat.
+
+540
+00:49:10,740 --> 00:49:13,762
+- Ne?
+- Geeta Kumari Phogat.
+
+541
+00:49:18,448 --> 00:49:21,002
+- Bir kızı mı güreştireceksin?
+- Evet, ne olmuş?
+
+542
+00:49:27,677 --> 00:49:28,365
+Yaz.
+
+543
+00:49:30,626 --> 00:49:34,623
+Yemek pişirme müsabakası
+düzenlediğim zaman...
+
+544
+00:49:34,804 --> 00:49:36,414
+...Bayan Geeta gelip yarışabilir.
+
+545
+00:49:37,352 --> 00:49:38,812
+Güreş müsabakası ya bu!
+
+546
+00:49:40,844 --> 00:49:44,969
+Çok uzun yoldan geldik.
+Güreşmeden dönmeyeceğiz.
+
+547
+00:49:46,420 --> 00:49:49,775
+Ya Geeta güreşir
+ya da seninle ben.
+
+548
+00:49:50,024 --> 00:49:53,092
+Hem saçmalıyorsun
+hem de inatçılık ediyorsun!
+
+549
+00:49:53,148 --> 00:49:56,020
+- Ne demek istiyorsun?
+- Bir kızı erkeklerle mi güreştireceksin?
+
+550
+00:49:56,167 --> 00:49:59,692
+Kendi şerefini düşünmüyor olabilirsin
+ama biz kendimizinkini düşünüyoruz.
+
+551
+00:49:59,717 --> 00:50:01,467
+Şerefine güzel bir muamele
+göstereyim hemen!
+
+552
+00:50:02,438 --> 00:50:04,063
+Durun efendim!
+
+553
+00:50:04,291 --> 00:50:07,584
+Lütfen.
+Size saygımız büyük efendim.
+
+554
+00:50:08,231 --> 00:50:10,811
+Ama istediğiniz şeyin mümkinâtı yok.
+
+555
+00:50:13,912 --> 00:50:15,346
+Böyle bir şeyi yapamayız kardeşim.
+
+556
+00:50:27,964 --> 00:50:28,796
+Gidelim.
+
+557
+00:50:30,157 --> 00:50:31,425
+Bu kim ki...
+
+558
+00:50:34,183 --> 00:50:35,701
+Eline bir müsabaka şansı geçecek...
+
+559
+00:50:36,351 --> 00:50:37,655
+...sen ise geri mi çevireceksin?
+
+560
+00:50:39,683 --> 00:50:42,252
+- Nasıl yani?
+- Kaç yıldır bu güreş işini yapıyoruz?
+
+561
+00:50:43,522 --> 00:50:46,019
+- Beş yıl.
+- Kaç kişi izlemeye geliyor?
+
+562
+00:50:46,642 --> 00:50:47,444
+Bir avuç insan.
+
+563
+00:50:48,524 --> 00:50:50,827
+- Yani?
+- Düşünsene biraz aptal herif.
+
+564
+00:50:51,241 --> 00:50:53,643
+Daha önce hiç kızların güreştiğini
+görmemiş bir kasabada...
+
+565
+00:50:54,238 --> 00:50:57,092
+...bir kız bir erkekle güreşiyor...
+
+566
+00:50:57,331 --> 00:50:58,782
+...ne kadar kişi izlemeye gelirdi?
+
+567
+00:51:00,397 --> 00:51:01,944
+Müsabakanın kazancı tavan yapardı!
+
+568
+00:51:03,027 --> 00:51:06,063
+- Peki ya kız elini ayağını kırarsa?
+- Bırak kırsın.
+
+569
+00:51:06,674 --> 00:51:08,721
+İşleri kırık olan
+müsabakaları iyileştirmiş olursun.
+
+570
+00:51:09,050 --> 00:51:13,343
+Biletleri iki rupiden satsan bile
+güreşçilerinin bir ay karnı doyar.
+
+571
+00:51:16,989 --> 00:51:17,874
+Mahavir!
+
+572
+00:51:20,579 --> 00:51:23,873
+Bayanlar baylar,
+oğlanlar ve kızlar...
+
+573
+00:51:23,898 --> 00:51:29,876
+Bir kızın ateşin üstünde yürüdüğünü,
+yılan yediğini görmüşsünüzdür.
+
+574
+00:51:29,901 --> 00:51:32,906
+<i>Ama bugün,
+Rohtak tarihinde ilk defa...</i>
+
+575
+00:51:32,989 --> 00:51:35,767
+<i>...bir kızın güreş müsabakasında
+bir erkekle güreştiğini göreceksiniz.</i>
+
+576
+00:51:35,792 --> 00:51:38,514
+<i>Bir buçuk saat sonra, Lal Chowk'ta.</i>
+
+577
+00:51:38,539 --> 00:51:42,178
+<i>Biletler iki rupiden.
+Güreşçi bir kızı görmek için iki rupi.</i>
+
+578
+00:51:43,637 --> 00:51:45,090
+Kazanmak zorundasın.
+
+579
+00:51:47,964 --> 00:51:50,253
+Güreşçilerini bir aslanla
+güreştirseydin bile...
+
+580
+00:51:51,163 --> 00:51:52,722
+...bu kadar kalabalık olmazdı.
+
+581
+00:52:00,862 --> 00:52:03,451
+Ne olur sence?
+Kaç saniye dayanabilir?
+
+582
+00:52:05,899 --> 00:52:08,562
+Bizimki lafını bitirene kadar
+kız karşılaşmayı kaybeder.
+
+583
+00:52:11,094 --> 00:52:13,040
+Bunlar gibi mayoyla mı güreşecek?
+
+584
+00:52:14,705 --> 00:52:17,478
+- Hadi lan.
+- Umarım öyle güreşir.
+
+585
+00:52:19,501 --> 00:52:20,622
+Nerede hani?
+
+586
+00:52:22,236 --> 00:52:23,977
+<i>Güzel kızmış.</i>
+
+587
+00:52:24,002 --> 00:52:28,298
+- Umarım tişörtü yırtılmaz.
+- Umarım yırtılır!
+
+588
+00:52:37,710 --> 00:52:39,024
+Saldır Geeta!
+
+589
+00:52:39,487 --> 00:52:40,198
+Saldır!
+
+590
+00:52:42,772 --> 00:52:44,356
+<i>Babası şimdiden kaybetti sayılır!</i>
+
+591
+00:52:46,804 --> 00:52:48,274
+Kum güreşinin kurallarını biliyor musun?
+
+592
+00:52:50,010 --> 00:52:51,661
+Kaybedeceğin kişiyi seç o hâlde.
+
+593
+00:52:57,953 --> 00:53:01,753
+- Kimi seçecek sence?
+- Sıska Örümcek'i seçer kesin.
+
+594
+00:53:03,308 --> 00:53:05,145
+Hayatında ilk defa kazanmış olur.
+
+595
+00:53:17,968 --> 00:53:21,547
+Vay anasını.
+Jassi bunun kemiklerini kırar!
+
+596
+00:53:21,572 --> 00:53:23,151
+Üçünüz dışarı.
+
+597
+00:53:25,462 --> 00:53:30,548
+Kaybetti sayılır.
+Hâlâ vakit var, durdur kızını.
+
+598
+00:53:31,074 --> 00:53:33,345
+Yoksa oradan sedye ile çıkacak.
+
+599
+00:53:34,678 --> 00:53:37,792
+Güreşmeye çıkmadan önce
+korkumuzu yenmemiz gerekir.
+
+600
+00:53:39,419 --> 00:53:41,301
+En azından benim kızım
+korkusunu yendi.
+
+601
+00:53:41,828 --> 00:53:43,927
+Fazla yüklenme, kız sonuçta.
+
+602
+00:53:44,937 --> 00:53:46,576
+Sakın öyle bir hataya düşme.
+
+603
+00:54:22,282 --> 00:54:23,795
+Yüzümüzü mü kızartacaksın?
+
+604
+00:54:26,195 --> 00:54:27,484
+Harika gidiyorsun Geeta!
+
+605
+00:55:16,345 --> 00:55:17,069
+İşi bitti.
+
+606
+00:55:20,934 --> 00:55:21,844
+İyi kurtardı!
+
+607
+00:55:56,454 --> 00:55:57,437
+İyi güreştin.
+
+608
+00:55:57,950 --> 00:55:58,837
+Aferin!
+
+609
+00:55:59,701 --> 00:56:05,389
+20 rupilik heyet ödülünü
+kazanan güreşçi, Jassi.
+
+610
+00:56:07,235 --> 00:56:13,175
+Ve patronumuz Kartar Singh'ten
+Geeta Kumari'ye ise 50 rupi özel ödül!
+
+611
+00:56:23,647 --> 00:56:24,523
+Özür dilerim baba.
+
+612
+00:56:27,944 --> 00:56:30,109
+Önemli değil.
+Gidelim hadi.
+
+613
+00:56:37,503 --> 00:56:40,480
+Şansın varmış,
+yoksa eve sedye ile giderdin.
+
+614
+00:56:52,231 --> 00:56:52,916
+Baba...
+
+615
+00:56:57,469 --> 00:56:59,295
+...sonraki karşılaşma ne zaman?
+
+616
+00:57:29,627 --> 00:57:33,850
+<i># Geliyor işte,
+tişörtlü ve şortlu bir kasırga kendisi</i>
+
+617
+00:57:34,075 --> 00:57:37,908
+<i># Geliyor işte,
+tişörtlü ve şortlu bir kasırga kendisi</i>
+
+618
+00:57:37,933 --> 00:57:42,895
+<i># Dikkat edin Kaplan'a
+ arayıp herkesi verin haberi</i>
+
+619
+00:57:42,920 --> 00:57:47,782
+<i># İster Çandigarh'tan ol ister Delhi'den
+yapıştıracak yere seni</i>
+
+620
+00:57:47,807 --> 00:57:50,998
+<i># Değiştirecek ellerinle ayaklarının yerini</i>
+
+621
+00:57:51,023 --> 00:57:54,142
+<i># Savuracak hamleni
+kullanarak kendi karşı hamlesini</i>
+
+622
+00:57:54,174 --> 00:57:56,575
+<i># Yapıştıracak da yapıştaracak
+o yerden o yere seni</i>
+
+623
+00:57:56,600 --> 00:57:58,828
+<i># Karşı konulamayacak bir güçtür kendisi</i>
+
+624
+00:57:58,853 --> 00:58:00,797
+<i># Bir güçtür kendisi!</i>
+
+625
+00:58:00,822 --> 00:58:03,486
+<i># Karşı konulamayacak bir güçtür kendisi</i>
+
+626
+00:58:03,511 --> 00:58:05,233
+<i># Bir güçtür kendisi!</i>
+
+627
+00:58:06,966 --> 00:58:08,877
+Yarından itibaren
+onu da kutsayacaksın.
+
+628
+00:58:15,044 --> 00:58:16,457
+<i># Ne kız ama değil mi</i>
+
+629
+00:58:19,552 --> 00:58:20,841
+<i># Ne kız ama değil mi</i>
+
+630
+00:58:23,225 --> 00:58:26,654
+<i># Dinle şimdi beni güreşçi,
+Ego yakıp kül edecek seni</i>
+
+631
+00:58:26,679 --> 00:58:28,615
+<i># Kızın gücü böyle yakıcı gördüğün gibi</i>
+
+632
+00:58:28,640 --> 00:58:33,100
+<i># Milimetrelik değerlerle
+ölçüp biçecek değerini</i>
+
+633
+00:58:33,178 --> 00:58:35,363
+<i># Bitirecek bütün nefesini</i>
+
+634
+00:58:35,428 --> 00:58:37,502
+<i># Öyle bir yere çarpacak ki seni</i>
+
+635
+00:58:37,674 --> 00:58:39,542
+<i># Yapışacaksın düştüğün gibi</i>
+
+636
+00:58:39,939 --> 00:58:42,002
+<i># Değiştirecek ellerinle ayaklarının yerini</i>
+
+637
+00:58:42,027 --> 00:58:46,661
+<i># Savuracak hamleni
+kullanarak kendi karşı hamlesini</i>
+
+638
+00:58:46,686 --> 00:58:48,717
+<i># Yapıştıracak yere seni</i>
+
+639
+00:58:48,742 --> 00:58:52,751
+<i># Karşı konulamayacak bir güçtür kendisi
+Bir güçtür kendisi!</i>
+
+640
+00:58:53,228 --> 00:58:57,349
+<i># Karşı konulamayacak bir güçtür kendisi
+Bir güçtür kendisi!</i>
+
+641
+00:59:06,715 --> 00:59:11,614
+<i>İnsanlar yine Geeta ve Babita'yı
+konuşmaya başlamıştı.</i>
+
+642
+00:59:11,639 --> 00:59:15,889
+Balali'den gelen bu kızlar
+erkekleri darmadağın ediyor.
+
+643
+00:59:15,914 --> 00:59:19,765
+- Bu da bir kıza yenildi.
+- Sen güreşsene onunla!
+
+644
+00:59:20,175 --> 00:59:23,543
+<i>Ama bu sefer herkesin lafı
+alkışlarla kesiliyordu.</i>
+
+645
+00:59:24,792 --> 00:59:27,239
+<i>Kimi kızlarla güreşmek istemiyordu.</i>
+
+646
+00:59:30,089 --> 00:59:32,920
+<i>Kimi ise kızların güreşmesine bile
+izin vermiyordu.</i>
+
+647
+00:59:33,032 --> 00:59:33,787
+Gidin lütfen!
+
+648
+00:59:36,552 --> 00:59:39,905
+<i>Geeta ve Babita sadece müsabakaları değil
+insanların kalplerini de kazanıyorlardı.</i>
+
+649
+00:59:54,734 --> 01:00:00,001
+14,900, 15,000, 15,150.
+
+650
+01:00:02,146 --> 01:00:04,347
+Üst düzey güreşçi oldun!
+
+651
+01:00:06,570 --> 01:00:09,492
+Haryana ülke takımına seçilerek...
+
+652
+01:00:09,634 --> 01:00:12,696
+...Geeta Kumari, sadece okulumuzun değil
+bütün Bhiwani'nin adını duyurmuştur.
+
+653
+01:00:12,934 --> 01:00:14,628
+<i>Okulumuz olarak, onun...</i>
+
+654
+01:00:14,800 --> 01:00:18,226
+<i>...kasabamızı, Küçükler Alt Ulusal
+müsabakalarında onurlandıracağına eminiz.</i>
+
+655
+01:00:23,829 --> 01:00:26,452
+Ayrılmak mı?
+İki aylığına mı hem de?
+
+656
+01:00:27,047 --> 01:00:28,393
+Kızın mı evleniyor?
+
+657
+01:00:29,699 --> 01:00:32,874
+Geeta'yı, Ulusal Müsabakalar'a
+hazırlamam gerekiyor efendim.
+
+658
+01:00:34,937 --> 01:00:40,788
+Unut izin işini.
+Evlenecek olsaydı düşünebilirdim.
+
+659
+01:00:44,975 --> 01:00:49,650
+- Kararlarını aklım almıyor bir türlü.
+- Başka seçeneğim yoktu.
+
+660
+01:00:51,218 --> 01:00:54,311
+Hayalimden vazgeçemezdim,
+işimden vazgeçtim ben de.
+
+661
+01:00:55,421 --> 01:00:56,700
+Ne yapacaksın ya şimdi?
+
+662
+01:00:58,732 --> 01:01:01,049
+Kendi arazimizi sürmeye başlayacağım.
+
+663
+01:01:02,345 --> 01:01:06,209
+Zor bir iş ama en azından
+kızlara zaman ayırabileceğim.
+
+664
+01:01:14,309 --> 01:01:17,259
+Titu, şunu arabaya koy.
+
+665
+01:01:18,706 --> 01:01:20,477
+Dur biraz.
+Git hadi.
+
+666
+01:01:22,925 --> 01:01:24,779
+Devam et Mahavir Singh,
+ne diyordun?
+
+667
+01:01:26,463 --> 01:01:29,327
+Biraz para alabilirsem
+çok yardımı dokunacaktır.
+
+668
+01:01:30,332 --> 01:01:32,568
+Kızım ulusal düzeye ulaştı artık.
+
+669
+01:01:33,881 --> 01:01:38,282
+Ulusal düzeye ulaşmak ne oluyor?
+Kızların güreşmesi ne ayrıca?
+
+670
+01:01:38,553 --> 01:01:41,967
+Kızın tek başına koşup da
+birinci mi geldi?
+
+671
+01:01:44,548 --> 01:01:45,928
+Ne için istiyorsun parayı?
+
+672
+01:01:49,421 --> 01:01:51,570
+Antrenman yapması için
+minder alacağım.
+
+673
+01:01:53,792 --> 01:01:57,048
+Çok iyi güreşiyor.
+Siz bugün ona destek verirseniz...
+
+674
+01:01:57,177 --> 01:01:59,042
+...o da bir gün bütün ülkeyi
+gururlandıracaktır.
+
+675
+01:01:59,067 --> 01:02:00,314
+Beni dinle Mahavir Singh...
+
+676
+01:02:01,044 --> 01:02:02,877
+...spor için bu kadar ödenek alıyoruz.
+
+677
+01:02:04,157 --> 01:02:07,481
+Güreş bu kadarını alıyor.
+Erkek güreşçilerin yanında...
+
+678
+01:02:07,661 --> 01:02:11,075
+...antrenör, beslenme, ulaşım,
+ekipman gibi şeyleri çıkarınca...
+
+679
+01:02:11,226 --> 01:02:13,211
+...geriye kadınlar için
+bu kadar bir şey kalıyor.
+
+680
+01:02:14,561 --> 01:02:16,438
+Bu kadarı için de,
+sen bir kutu tatlı alıp geldin.
+
+681
+01:02:19,164 --> 01:02:20,274
+Ama desteğimiz tam size.
+
+682
+01:02:27,158 --> 01:02:29,309
+Hindistan'ın madalya
+kazanamamasının sebebi...
+
+683
+01:02:30,400 --> 01:02:32,823
+...senin gibi yetkililerin
+böyle koltukları işgal etmesi.
+
+684
+01:02:33,700 --> 01:02:35,009
+Peki, kalkayım hemen.
+
+685
+01:02:36,225 --> 01:02:38,524
+Titu, yemeğimi hazırla.
+
+686
+01:02:40,678 --> 01:02:42,792
+Yemek yemek ister misin
+Mahavir Singh?
+
+687
+01:02:49,517 --> 01:02:51,964
+Federasyon,
+onun gibi böceklerden geçilmiyor.
+
+688
+01:02:54,079 --> 01:02:56,057
+Sporun içine ediyorlar resmen.
+
+689
+01:03:02,095 --> 01:03:04,710
+Sporculara destek vermek yok...
+
+690
+01:03:06,359 --> 01:03:09,193
+...ama kazanmadıklarında
+her türlü acı çektirilir.
+
+691
+01:03:10,795 --> 01:03:13,157
+Madalya kazanan sporcu
+ağaçta yetişmez.
+
+692
+01:03:14,415 --> 01:03:15,717
+Onu kendin yetiştirmen gerekir.
+
+693
+01:03:17,319 --> 01:03:20,253
+Sevgiyle, sıkı çalışmayla, tutkuyla...
+
+694
+01:03:24,341 --> 01:03:27,699
+Ama alçaklar
+bir minder parası bile vermiyorlar.
+
+695
+01:03:29,457 --> 01:03:35,339
+- Ne minderi kardeşim?
+- Güreşçilerin güreştiği sentetik minder.
+
+696
+01:03:37,046 --> 01:03:39,066
+Minder minderdir ama!
+
+697
+01:03:42,595 --> 01:03:43,284
+Değil mi?
+
+698
+01:03:44,983 --> 01:03:46,567
+Yanlış bir şey mi söyledim?
+
+699
+01:03:56,237 --> 01:03:58,945
+<i>Amcam mecazi anlamda
+uykularımızı mahvediyordu zaten.</i>
+
+700
+01:03:59,517 --> 01:04:01,948
+<i>Şimdiyse bunu tam anlamıyla yapıyordu.</i>
+
+701
+01:04:17,340 --> 01:04:20,678
+Minder üzerinde güreşmek
+kum güreşinden farklıdır.
+
+702
+01:04:21,261 --> 01:04:22,796
+Artık minder üstünde güreşeceğiz.
+
+703
+01:04:23,524 --> 01:04:26,039
+Minder güreşinde amacınız
+puan toplamaktır.
+
+704
+01:04:26,602 --> 01:04:31,525
+1, 2, 3 veya 5 gibi puanlar alabilirsiniz.
+
+705
+01:04:32,469 --> 01:04:33,295
+Omkar...
+
+706
+01:04:37,788 --> 01:04:42,129
+Rakibinizi bu şekilde belinden tutup
+dizlerinin üzerine düşürürseniz...
+
+707
+01:04:42,470 --> 01:04:43,762
+...1 puan kazanırsınız.
+
+708
+01:04:44,729 --> 01:04:49,145
+Yerdeyken,
+tutup sırt üstü yuvarlarsanız...
+
+709
+01:04:49,315 --> 01:04:52,293
+...2 puan kazanırsınız.
+Üç farklı yuvarlama şekli var.
+
+710
+01:04:52,963 --> 01:04:53,738
+Amca!
+
+711
+01:04:53,829 --> 01:04:55,629
+Böyle.
+Ya da böyle.
+
+712
+01:04:56,761 --> 01:04:59,911
+Ya da yine yerdeyken
+bu şekilde.
+
+713
+01:05:02,880 --> 01:05:05,599
+Rakibinizi, ayaktayken...
+
+714
+01:05:05,742 --> 01:05:09,054
+...savurup sırt üstü düşürseniz...
+
+715
+01:05:09,258 --> 01:05:11,191
+...o zaman 3 puan kazanırsınız.
+
+716
+01:05:12,813 --> 01:05:13,867
+Yapma amca!
+
+717
+01:05:14,390 --> 01:05:15,936
+Böyle yap, 3 puanı kap.
+
+718
+01:05:15,992 --> 01:05:18,477
+Yine böyle ayaktayken
+sırt üstü düşecek.
+
+719
+01:05:19,575 --> 01:05:23,501
+5 puan kazanmak zordur
+ama imkânsız değil.
+
+720
+01:05:24,268 --> 01:05:26,564
+Ayakta duran rakibinizi alıp...
+
+721
+01:05:26,745 --> 01:05:29,864
+...başınızın üstünden
+gökkuşağı çizip savurarak...
+
+722
+01:05:29,952 --> 01:05:31,302
+...sırt üstü düşürürseniz...
+
+723
+01:05:31,568 --> 01:05:33,183
+...5 puanı kazanırsınız!
+
+724
+01:05:33,674 --> 01:05:35,291
+- İyi izleyin.
+- Hayır amca, yapma.
+
+725
+01:05:35,316 --> 01:05:36,830
+- Gel buraya.
+- Hayır, olmaz.
+
+726
+01:05:41,480 --> 01:05:43,061
+Gerçek güreş minderi böyle değildir.
+
+727
+01:05:45,447 --> 01:05:46,420
+<i>Bu şekildedir.</i>
+
+728
+01:06:04,156 --> 01:06:06,523
+<i>Sarı alanda güreşmek zorundayız.</i>
+
+729
+01:06:15,354 --> 01:06:17,848
+<i>Kırmızı alan tehlike bölgesidir.</i>
+
+730
+01:06:19,062 --> 01:06:21,653
+<i>Dışına çıkarsanız
+1 puan kaybedersiniz.</i>
+
+731
+01:06:29,642 --> 01:06:32,379
+<i>İkişer dakika uzunluğunda
+üç raund vardır.</i>
+
+732
+01:06:33,532 --> 01:06:35,732
+<i>İkişer dakikadan üç raund.</i>
+
+733
+01:06:37,809 --> 01:06:41,943
+<i>Üç raundun ikisini kazanan
+karşılaşmayı kazanır.</i>
+
+734
+01:06:47,009 --> 01:06:49,507
+Kızınız düşük kiloda efendim.
+
+735
+01:06:50,545 --> 01:06:53,138
+- Yani?
+- Lafımı dinle ve geri dön.
+
+736
+01:06:53,264 --> 01:06:55,077
+Biraz daha besle...
+
+737
+01:06:55,477 --> 01:06:57,696
+...şişmanlat ve seneye geri gel.
+
+738
+01:06:58,460 --> 01:07:01,288
+Bu şekilde güreşecek olursa
+kemiklerini kıracaktır.
+
+739
+01:07:02,207 --> 01:07:05,141
+Güreşebilir mi güreşemez mi
+onu söyle sen.
+
+740
+01:07:06,023 --> 01:07:07,716
+Evet, güreşebilir.
+
+741
+01:07:08,669 --> 01:07:10,138
+İmzala.
+
+742
+01:07:13,661 --> 01:07:15,666
+KÜÇÜKLER ALT ULUSAL GÜREŞ ŞAMPİYONASI
+
+743
+01:07:19,565 --> 01:07:20,391
+Güzel hareket!
+
+744
+01:07:34,315 --> 01:07:39,531
+<i>Geeta kaslı çocukları mağlup etmişti.</i>
+<i>Bu kızlar ne kadar dayanabilirdi ki?
+
+745
+01:07:43,337 --> 01:07:44,869
+Kız mı fırtına mı bu?
+
+746
+01:07:51,761 --> 01:07:55,294
+KÜÇÜKLER ALT ÜLKE BİRİNCİSİ
+
+747
+01:07:56,234 --> 01:07:58,002
+KÜÇÜKLER ULUSAL ŞAMPİYONASI
+
+748
+01:07:58,659 --> 01:08:02,603
+- Düşük kiloda mı?
+- Evet ama ne fark eder ki?
+
+749
+01:08:26,686 --> 01:08:30,010
+KÜÇÜKLER ÜLKE BİRİNCİSİ
+
+750
+01:08:46,912 --> 01:08:50,228
+<i>Yıllar geçip gitti.</i>
+
+751
+01:08:52,503 --> 01:08:54,469
+<i>Geeta, küçüklerden büyüklere geçti.</i>
+
+752
+01:08:56,733 --> 01:09:00,437
+<i>Amcam ise
+büyüklerden yaşlılara geçiş yaptı.</i>
+
+753
+01:09:04,462 --> 01:09:06,044
+Saldır Geeta!
+
+754
+01:09:07,848 --> 01:09:11,412
+<i>Babita ile ben de küçük boydan
+büyük boya geçiş yaptık.</i>
+
+755
+01:09:35,676 --> 01:09:36,885
+Yere at!
+Yere at!
+
+756
+01:09:40,711 --> 01:09:42,126
+Yana savur!
+
+757
+01:09:55,913 --> 01:09:57,447
+Zafer Haryana'nın!
+
+758
+01:10:21,006 --> 01:10:22,229
+ÜLKE BİRİNCİSİ
+
+759
+01:10:41,082 --> 01:10:42,935
+Sonunda amcam hayaline kavuştu.
+
+760
+01:10:43,638 --> 01:10:47,475
+- İçimiz rahat olabilir artık.
+- Hayır.
+
+761
+01:10:49,549 --> 01:10:51,280
+Hayalim hâlâ gerçekleşmedi.
+
+762
+01:10:52,867 --> 01:10:55,494
+Her yıl bir ülke birincisi
+çıkıyor zaten.
+
+763
+01:10:56,877 --> 01:10:59,033
+Hayallerim, kendi adına değil...
+
+764
+01:10:59,746 --> 01:11:01,005
+...ülken adına altın madalya...
+
+765
+01:11:02,049 --> 01:11:03,398
+...kazandığında gerçekleşecek.
+
+766
+01:11:08,075 --> 01:11:09,434
+Bugün kutlama yapabilirsin.
+
+767
+01:11:10,307 --> 01:11:12,566
+Yarından itibaren ileri düzey
+antrenmanlara başlayacağız.
+
+768
+01:11:19,148 --> 01:11:19,861
+Baba...
+
+769
+01:11:23,644 --> 01:11:27,080
+- Seninle konuşmam gerek.
+- Söyle.
+
+770
+01:11:28,137 --> 01:11:29,090
+Baba...
+
+771
+01:11:29,847 --> 01:11:32,036
+...artık ülke birincisi olduğum için...
+
+772
+01:11:35,520 --> 01:11:37,897
+- Evet?
+- Şey...
+
+773
+01:11:37,922 --> 01:11:40,207
+...bütün ülke birincileri
+iler düzey antrenmanlar için...
+
+774
+01:11:40,748 --> 01:11:45,879
+...Patiala'ya gidiyor.
+Ulusal Spor Akademisi'ne.
+
+775
+01:11:45,986 --> 01:11:48,486
+Ne demek istiyorsun?
+Açıkça söyle.
+
+776
+01:11:50,031 --> 01:11:51,620
+Benim de gitmem gerekiyor baba.
+
+777
+01:11:53,442 --> 01:11:56,206
+Artık orada antrenman yapmam gerek.
+
+778
+01:11:58,945 --> 01:12:00,420
+Akademi antrenörüyle.
+
+779
+01:12:09,705 --> 01:12:11,586
+ULUSAL SPOR AKADEMİSİ
+HİNDİSTAN
+
+780
+01:12:15,717 --> 01:12:18,136
+Geeta Kumari Phogat.
+Güreş.
+
+781
+01:12:23,276 --> 01:12:24,510
+SADECE EN İYİSİ
+
+782
+01:12:37,635 --> 01:12:38,989
+Güzel yere benziyor.
+
+783
+01:12:41,201 --> 01:12:42,764
+Umalım da antrenörün de güzel olsun.
+
+784
+01:12:47,989 --> 01:12:49,409
+Kızlar, toplanın.
+
+785
+01:12:54,686 --> 01:12:56,872
+İleri düzey antrenman
+yapacağınızdan dolayı...
+
+786
+01:12:57,425 --> 01:12:59,761
+...içiniz içinize sığmıyordur kesin.
+
+787
+01:13:02,919 --> 01:13:06,263
+Öğrenmeyi unutun,
+ilk önce unutmayı öğreneceksiniz.
+
+788
+01:13:07,363 --> 01:13:09,055
+Aldığınız yanlış eğitimleri unutun.
+
+789
+01:13:09,860 --> 01:13:11,964
+Yanlış beslenmeyi, yanlış egzersizleri,
+yanlış teknikleri...
+
+790
+01:13:12,161 --> 01:13:14,405
+Bütün bunları unuttuktan sonra...
+
+791
+01:13:14,933 --> 01:13:16,549
+...gerçek eğitiminiz...
+
+792
+01:13:16,914 --> 01:13:19,122
+...benimle, Akademi Antrenörü
+Pramod Kadam ile başlayacak.
+
+793
+01:13:20,458 --> 01:13:23,864
+Sadece size öğrettiklerimi öğreneceksiniz.
+
+794
+01:13:25,765 --> 01:13:27,398
+- Anlaşıldı mı?
+- Evet, efendim.
+
+795
+01:13:27,716 --> 01:13:30,026
+- Anlaşıldı mı dedim?
+- Evet, efendim!
+
+796
+01:13:30,551 --> 01:13:32,681
+Güzel.
+Isınmaya başlayın.
+
+797
+01:13:33,731 --> 01:13:34,442
+Çay getir bana!
+
+798
+01:13:37,743 --> 01:13:41,687
+Hadi kızlar!
+Enerjik! Daha enerjik!
+
+799
+01:13:42,021 --> 01:13:44,405
+Evet, aynen bu şekilde!
+Devam edin öyle!
+
+800
+01:13:46,278 --> 01:13:47,201
+Merhaba efendim.
+
+801
+01:13:48,477 --> 01:13:51,749
+Benim adım Mahavir Singh Phogat.
+Geeta'nın babasıyım.
+
+802
+01:13:53,589 --> 01:13:55,950
+- Peki.
+- Onu eğiten bendim.
+
+803
+01:13:58,323 --> 01:13:58,924
+Güzel.
+
+804
+01:14:00,611 --> 01:14:04,542
+Kendisi iyi bir güreşçi.
+Güçlü, dayanıklı biri.
+
+805
+01:14:07,631 --> 01:14:09,029
+Çayım nerede kaldı be?
+
+806
+01:14:12,819 --> 01:14:13,852
+Hadi, devam edin!
+
+807
+01:14:20,579 --> 01:14:21,821
+Sizden bir istediğim var efendim.
+
+808
+01:14:23,583 --> 01:14:25,614
+Geeta'ya doğru bir şekilde
+antrenörlük yapılırsa...
+
+809
+01:14:26,079 --> 01:14:28,936
+...uluslararası madalyayı
+kazanabilecek biri.
+
+810
+01:14:30,687 --> 01:14:31,455
+Geeta!
+
+811
+01:14:34,389 --> 01:14:38,291
+Baldırın ile kalçan arasında
+90 derece açı olmalı.
+
+812
+01:14:38,842 --> 01:14:40,082
+Kim öğretti sana bunları?
+
+813
+01:14:42,620 --> 01:14:44,546
+Uluslararası madalyayı
+böyle mi kazanacaksın?
+
+814
+01:14:49,835 --> 01:14:51,136
+Kızını bırakmak için geldin değil mi?
+
+815
+01:14:52,445 --> 01:14:53,336
+Bıraktın işte.
+
+816
+01:14:55,537 --> 01:14:56,711
+Gerisini bana bırak.
+
+817
+01:15:00,695 --> 01:15:02,011
+<i>Zamanımı boşa harcamayın!</i>
+
+818
+01:15:39,046 --> 01:15:40,125
+Geeta iyi miydi?
+
+819
+01:15:43,191 --> 01:15:44,863
+Akademi çok büyük bir yer değil mi?
+
+820
+01:15:48,502 --> 01:15:50,829
+Oradaki herkes şampiyon değil mi?
+
+821
+01:15:53,305 --> 01:15:54,727
+Akademi harşka bir yer değil mi?
+
+822
+01:15:55,040 --> 01:15:56,829
+- Bugünkü antrenmanını yaptın mı?
+- Yaptım.
+
+823
+01:15:56,931 --> 01:15:58,556
+Antrenörleri de üst düzey değil mi?
+
+824
+01:15:58,729 --> 01:16:00,206
+Oraya gitmek için
+can atıyorsun anlaşılan.
+
+825
+01:16:02,942 --> 01:16:04,247
+Senin antrenörün benim hâlâ, unutma.
+
+826
+01:16:07,305 --> 01:16:09,024
+Evinden ilk defa mı uzak kalıyorsun?
+
+827
+01:16:10,766 --> 01:16:13,718
+Çok eğleneceğiz burada.
+
+828
+01:16:15,984 --> 01:16:18,492
+Millet, televizyonda DDLJ oynuyor!
+
+829
+01:16:18,679 --> 01:16:20,507
+Hadi canım!
+Gidelim hemen!
+
+830
+01:16:21,490 --> 01:16:22,435
+Uyuyacağım ben.
+
+831
+01:16:23,694 --> 01:16:27,592
+Kimse Shah Rukh'ın filmine
+hayır diyemez, günahtır. Gidelim hadi.
+
+832
+01:16:31,468 --> 01:16:35,820
+<i>Raj, kız seni gerçekten seviyorsa
+arkasını dönecektir.</i>
+
+833
+01:16:37,303 --> 01:16:37,999
+Dön hadi!
+
+834
+01:16:40,094 --> 01:16:40,883
+<i>Dön hadi!</i>
+
+835
+01:16:41,555 --> 01:16:42,164
+Dön hadi!
+
+836
+01:16:45,796 --> 01:16:46,585
+Dön hadi!
+
+837
+01:16:47,779 --> 01:16:48,420
+<i>Dön hadi!</i>
+
+838
+01:16:49,691 --> 01:16:51,649
+Döndü!
+
+839
+01:17:03,904 --> 01:17:06,951
+Saçlarını uzat bence.
+Hepsi arkandan koşar.
+
+840
+01:17:08,261 --> 01:17:09,813
+Gergedanlar sadece güç kullanır.
+
+841
+01:17:09,994 --> 01:17:12,921
+Ama kaplanlar hem güç hem de teknik.
+
+842
+01:17:13,443 --> 01:17:16,337
+Gergedan değil kaplan olmanızı
+istiyorum, anlaşıldı mı?
+
+843
+01:17:26,210 --> 01:17:28,702
+<i># Yeni renklerle
+bu tatlı seslerle</i>
+
+844
+01:17:28,727 --> 01:17:31,038
+<i># Hayatım neden farklılaştı
+birden böyle?</i>
+
+845
+01:17:32,375 --> 01:17:34,562
+<i># Bilmiyorum hiç sebebi niye</i>
+
+846
+01:17:34,587 --> 01:17:39,718
+<i># Atıyor neden kalbim
+sincap gibi böyle?</i>
+
+847
+01:17:40,616 --> 01:17:42,874
+<i># Bilmiyorum hiç sebebi niye</i>
+
+848
+01:17:42,899 --> 01:17:45,241
+<i># Yeni renklerle
+bu tatlı seslerle</i>
+
+849
+01:17:45,266 --> 01:17:48,030
+<i># Hayatım neden farklılaştı
+birden böyle?</i>
+
+850
+01:17:48,843 --> 01:17:51,055
+<i># Bilmiyorum hiç sebebi niye</i>
+
+851
+01:17:51,080 --> 01:17:55,533
+<i># Atıyor neden kalbim
+sincap gibi böyle?</i>
+
+852
+01:17:55,845 --> 01:17:57,178
+Akşam dışarı çıkalım mı?
+
+853
+01:17:58,275 --> 01:18:03,882
+<i># Hava mı vahşileşti
+yoksa ruhum mu uçmaya başladı böyle?</i>
+
+854
+01:18:04,008 --> 01:18:05,742
+Bir taneden bir şey olmaz.
+
+855
+01:18:06,841 --> 01:18:12,475
+<i># Çok tatlıymış gerçekten de
+özgür irade</i>
+
+856
+01:18:13,725 --> 01:18:15,445
+<i># Bilmiyorum hiç sebebi niye</i>
+
+857
+01:18:15,470 --> 01:18:21,266
+<i># Arzumun dalları
+neden çiçek vermeye başladı böyle?</i>
+
+858
+01:18:21,993 --> 01:18:24,242
+<i># Bilmiyorum hiç sebebi niye</i>
+
+859
+01:18:24,267 --> 01:18:28,946
+<i># Atıyor neden kalbim
+sincap gibi böyle?</i>
+
+860
+01:18:30,209 --> 01:18:32,399
+<i># Bilmiyorum hiç sebebi niye</i>
+
+861
+01:18:36,250 --> 01:18:38,245
+Evet, böyle olur bu!
+
+862
+01:18:38,489 --> 01:18:40,845
+Unutma, tek bir hata
+madalyaya mal olabilir sana.
+
+863
+01:18:48,434 --> 01:18:55,891
+<i># Başladı yeni arkadaşlıklar
+uçsuz bucaksız bir gökyüzünde</i>
+
+864
+01:18:56,000 --> 01:19:00,352
+<i># Kıskandırıyor bütün herkesi böylece</i>
+
+865
+01:19:00,377 --> 01:19:04,485
+<i># Söylüyor bozulmaya başladığımı bu şekilde</i>
+
+866
+01:19:04,982 --> 01:19:08,727
+<i># Hayat da bugünlerde</i>
+
+867
+01:19:09,122 --> 01:19:12,606
+<i># Sıkılmaya başladı
+günleri saymaktan o bile</i>
+
+868
+01:19:12,631 --> 01:19:17,024
+<i># Okuyor durmadan şiirleri
+bıraktı artık denklemleri öyle</i>
+
+869
+01:19:18,067 --> 01:19:20,087
+Evet baba,
+antrenmanlar çok iyi gidiyor.
+
+870
+01:19:20,667 --> 01:19:22,204
+Kapatmam gerek.
+Antrenör bekliyor. Hoşça kal.
+
+871
+01:19:22,222 --> 01:19:27,266
+<i># Yoktur artık yer bende
+doğru yanlış gibi çekişmelere</i>
+
+872
+01:19:28,180 --> 01:19:30,473
+<i># Bıraktım onları eskide</i>
+
+873
+01:19:30,498 --> 01:19:35,454
+<i># Atıyor neden kalbim
+sincap gibi böyle?</i>
+
+874
+01:19:36,487 --> 01:19:37,266
+Geeta!
+
+875
+01:19:38,516 --> 01:19:39,141
+Buraya gel.
+
+876
+01:19:41,680 --> 01:19:43,580
+Babanın tekniklerini unut.
+
+877
+01:19:44,253 --> 01:19:46,963
+Sana ne öğretiyorsam onu öğren.
+Anlaşıldı mı?
+
+878
+01:19:48,944 --> 01:19:49,615
+Alo?
+
+879
+01:19:50,378 --> 01:19:51,847
+Üzgünüm, Geeta dışarı çıktı.
+
+880
+01:19:56,603 --> 01:19:59,592
+Yıllardır ikinize bilerek kaybediyorum.
+
+881
+01:20:01,698 --> 01:20:02,821
+Doğruyu söylüyorum!
+
+882
+01:20:05,029 --> 01:20:06,602
+İşte bu!
+Gördün mü?
+
+883
+01:20:07,717 --> 01:20:10,365
+Güreşçinin güreşçi olduğu
+teknik doğru olunca belli olur.
+
+884
+01:20:11,349 --> 01:20:14,685
+Ülke birincisi olursan
+sen de buraya geleceksin.
+
+885
+01:20:14,819 --> 01:20:18,191
+- Evet. Eve ne zaman geliyorsun?
+- Haftaya geliyorum.
+
+886
+01:20:19,134 --> 01:20:21,745
+- Bir şey istiyor musun?
+- Hayır, sen gel yeter.
+
+887
+01:20:22,063 --> 01:20:22,663
+Tamam.
+
+888
+01:20:30,918 --> 01:20:32,922
+Beğendin mi?
+Gerçekten mi?
+
+889
+01:20:33,314 --> 01:20:35,956
+Saçlarını uzatmışsın.
+Güzel duruyor.
+
+890
+01:20:37,715 --> 01:20:39,329
+Babanın hoşuna gitmeyecek ama.
+
+891
+01:20:42,706 --> 01:20:45,291
+Her şey babamın istediği gibi olamaz.
+
+892
+01:20:45,526 --> 01:20:48,663
+Antrenörümüz bir şey demedi.
+Ki kendisi çok başarılı bir antrenördür.
+
+893
+01:20:50,466 --> 01:20:52,298
+Orada istediğini yapabiliyorsun.
+
+894
+01:20:53,236 --> 01:20:55,572
+- Kendine dikkat et yeter.
+- Anneciğim...
+
+895
+01:20:55,597 --> 01:20:59,118
+...gerçek bir eğitim özgürlükle olur.
+Bu kadar çok kısıtlamayla değil.
+
+896
+01:20:59,502 --> 01:21:02,638
+Sinemaya gidiyoruz, televizyon
+izliyoruz, yemeğe gidiyoruz.
+
+897
+01:21:02,717 --> 01:21:06,777
+Performansıma hiçbir şey olmadı.
+Akademideki en iyi güreşçiyim ben.
+
+898
+01:21:08,430 --> 01:21:09,650
+Eve döndün mü güreşçi?
+
+899
+01:21:18,619 --> 01:21:20,471
+- Nasılsın?
+- İyiyim baba.
+
+900
+01:21:22,104 --> 01:21:25,037
+- Antrenmanların nasıl gidiyor?
+- Müsabaka için Sidney'e gidecekmiş.
+
+901
+01:21:28,037 --> 01:21:29,481
+Antrenmanların nasıl gidiyor?
+
+902
+01:21:29,626 --> 01:21:32,573
+Çok iyi gidiyor baba.
+Göreceksin...
+
+903
+01:21:32,839 --> 01:21:34,458
+...bir sürü yeni şey öğrendim.
+
+904
+01:21:34,933 --> 01:21:37,020
+Yeni stratejiler, yeni hamleler,
+yeni teknikler...
+
+905
+01:21:37,336 --> 01:21:38,007
+Her şey çok iyi.
+
+906
+01:21:38,475 --> 01:21:41,544
+Gelmişken ona da
+birkaç şey öğretirim diyorum.
+
+907
+01:21:42,566 --> 01:21:44,253
+Sonuçta onun da
+ülke birincisi olması gerekiyor.
+
+908
+01:21:47,189 --> 01:21:48,434
+Saçlarını uzatmışsın.
+
+909
+01:21:51,562 --> 01:21:52,680
+- Baba, ben...
+- Hayır.
+
+910
+01:21:54,809 --> 01:21:55,409
+Güzel olmuş.
+
+911
+01:22:01,760 --> 01:22:04,253
+<i>Hücum etmekle kalmayıp
+savunma da göstermek zorundasın.</i>
+
+912
+01:22:04,615 --> 01:22:05,237
+Tut beni.
+
+913
+01:22:05,992 --> 01:22:07,487
+Kendini nasıl bundan kurtarırsın?
+
+914
+01:22:07,788 --> 01:22:11,538
+Bu şekilde tut, aç ve hücum et!
+Anladın mı?
+
+915
+01:22:11,563 --> 01:22:13,175
+Eski bir teknik bu.
+
+916
+01:22:14,687 --> 01:22:15,307
+Ben göstereyim.
+
+917
+01:22:17,307 --> 01:22:17,991
+Tut beni.
+
+918
+01:22:19,496 --> 01:22:20,535
+Sıkıca tut.
+
+919
+01:22:21,745 --> 01:22:25,230
+Baş parmaklarını böyle bastır
+ve kenara çek.
+
+920
+01:22:25,763 --> 01:22:28,215
+Öne itmeyeceksin, kenara çekeceksin.
+Aç ve hücum et.
+
+921
+01:22:28,240 --> 01:22:29,779
+Benim tekniğimin nesi varmış?
+
+922
+01:22:31,207 --> 01:22:33,779
+- Ne sorunu var?
+- Hayır baba, yanlış değil.
+
+923
+01:22:34,100 --> 01:22:37,249
+Böylesi çok daha doğru.
+Antrenörümüz öğretti.
+
+924
+01:22:37,274 --> 01:22:40,396
+Uzman mı oldun artık?
+Uluslararası uzman?
+
+925
+01:22:42,007 --> 01:22:42,783
+Baba, ben...
+
+926
+01:22:43,306 --> 01:22:48,747
+Antrenörünün sana öğretip babanın
+öğretemediklerini öğrenmek isterim.
+
+927
+01:22:52,147 --> 01:22:53,739
+Onda değil bende göster.
+
+928
+01:22:55,336 --> 01:22:55,946
+Hadi.
+
+929
+01:22:59,284 --> 01:23:01,128
+Parmağını böyle bastırıp...
+
+930
+01:23:05,975 --> 01:23:07,420
+Antrenörünün öğrettikleri ortada!
+
+931
+01:23:08,495 --> 01:23:10,466
+Uluslararası madalyayı
+böyle mi kazanacaksın?
+
+932
+01:23:18,640 --> 01:23:20,107
+Hazır değildim baba.
+
+933
+01:23:20,986 --> 01:23:22,158
+Hazır ol o zaman.
+
+934
+01:26:03,726 --> 01:26:05,304
+Demek istediğim buydu baba.
+
+935
+01:26:08,553 --> 01:26:09,609
+Arada fark var değil mi?
+
+936
+01:26:55,724 --> 01:26:57,362
+Bugün olanlar doğru değildi.
+
+937
+01:26:58,325 --> 01:26:59,262
+Neymiş doğru olmayan?
+
+938
+01:27:00,792 --> 01:27:02,116
+Kaçınılmazdı bu.
+
+939
+01:27:02,433 --> 01:27:05,207
+Birinin babaya, tekniklerinin yetersiz
+olduğunu söylemesi gerekiyordu.
+
+940
+01:27:05,388 --> 01:27:09,333
+Teknikleri yetersiz falan değil.
+Kendisi güçsüzleşti sadece.
+
+941
+01:27:09,999 --> 01:27:13,584
+Onun yetersiz teknikleriyle
+ülke birincisi olduğunu unutma.
+
+942
+01:27:13,930 --> 01:27:17,152
+Bu tekniklerle sen de
+ülke birincisi olabilirsin Babita...
+
+943
+01:27:18,308 --> 01:27:19,619
+...uluslararası birinci değil.
+
+944
+01:27:19,784 --> 01:27:22,776
+Bu durumu ne kadar erken anlarsan
+o kadar iyi olur senin için.
+
+945
+01:27:28,196 --> 01:27:29,080
+Peki.
+
+946
+01:27:30,032 --> 01:27:31,990
+Sen kendi tekniklerine güven...
+
+947
+01:27:32,761 --> 01:27:34,606
+...ben de babama güvenmeye
+devam edeceğim.
+
+948
+01:27:35,968 --> 01:27:40,030
+Umarım Ulusal Müsabakalar'da
+iyi güreşirsin.
+
+949
+01:27:42,043 --> 01:27:45,608
+Umarım sen de uluslararası
+turnuvalarında iyi güreşirsin.
+
+950
+01:27:46,278 --> 01:27:54,627
+<i># Yalan mı yalan bu dünya</i>
+
+951
+01:27:55,465 --> 01:28:01,692
+<i># Gerçek olan benim acım oysa</i>
+
+952
+01:28:02,140 --> 01:28:12,847
+<i># Bağmış aramızdaki canım
+hayal olan da</i>
+
+953
+01:28:13,197 --> 01:28:15,627
+<i># Yok mu gözler</i>
+
+954
+01:28:16,138 --> 01:28:21,597
+<i># Birlikte nice güzel
+hayaller kuran gözler</i>
+
+955
+01:28:22,102 --> 01:28:27,019
+<i># Ayrılıyor şimdi gözyaşı içerisinde ama</i>
+
+956
+01:28:28,244 --> 01:28:30,614
+<i># Yok mu o gözler</i>
+
+957
+01:28:31,163 --> 01:28:36,547
+<i># Birlikte gece boyu açık olan gözler</i>
+
+958
+01:28:37,148 --> 01:28:41,462
+<i># Gündüzleri bile
+açılmak istemiyor daha</i>
+
+959
+01:28:41,671 --> 01:28:51,667
+<i># Birbirine ait olanlar
+artık başka yollarda</i>
+
+960
+01:28:51,958 --> 01:28:57,605
+<i># Hep yanyana olanlar
+artık sadece acılarda bir arada</i>
+
+961
+01:28:57,630 --> 01:29:06,550
+<i># Yok mu o puslu gözler
+pencereden bakan umutla</i>
+
+962
+01:29:07,009 --> 01:29:11,964
+<i># Boğuluyor artık umutsuzluk ortasında</i>
+
+963
+01:29:36,584 --> 01:29:42,583
+<i># Nefesim kaldı
+acı verici düşüncelerle boğazımda</i>
+
+964
+01:29:42,608 --> 01:29:48,505
+<i># Neden dağıldı bu ruh
+binbir parçaya?</i>
+
+965
+01:29:48,806 --> 01:29:51,376
+<i># Nereden geldi bu umutsuzluk buraya?</i>
+
+966
+01:29:51,736 --> 01:29:54,792
+<i># Bu ümitsizlik peki ya?</i>
+
+967
+01:29:54,817 --> 01:30:01,005
+<i># Neden savruldu bu kalp
+içi soru dolu bir fırtınaya?</i>
+
+968
+01:30:01,326 --> 01:30:03,474
+<i># Yok mu o gözler</i>
+
+969
+01:30:04,138 --> 01:30:09,622
+<i># Yıldız gibi parlayan semada</i>
+
+970
+01:30:10,157 --> 01:30:15,810
+<i># Kayboldu artık gecenin karanlığında</i>
+
+971
+01:30:16,286 --> 01:30:18,486
+<i># Yok mu o gözler</i>
+
+972
+01:30:19,167 --> 01:30:24,544
+<i># Doya doya eğlenen
+güneşin sıcaklığında</i>
+
+973
+01:30:25,213 --> 01:30:29,472
+<i># Yorgun,
+arıyor gölgeleri umarsızca</i>
+
+974
+01:30:29,649 --> 01:30:39,719
+<i># Birbirine ait olanlar
+artık başka yollarda</i>
+
+975
+01:30:40,023 --> 01:30:45,621
+<i># Hep yanyana olanlar
+artık sadece acılarda bir arada</i>
+
+976
+01:30:45,646 --> 01:30:54,614
+<i># Yok mu o puslu gözler
+pencereden bakan umutla</i>
+
+977
+01:30:55,028 --> 01:31:00,364
+<i># Boğuluyor artık umutsuzluk ortasında</i>
+
+978
+01:31:01,561 --> 01:31:05,201
+DÜNYA ŞAMPİYONASI, SİDNEY
+
+979
+01:31:10,003 --> 01:31:13,542
+ULUSAL MÜSABAKALAR, YENİ DELHİ
+
+980
+01:31:29,832 --> 01:31:31,225
+Saldır Babita.
+
+981
+01:31:33,394 --> 01:31:34,248
+Savur!
+
+982
+01:31:52,407 --> 01:31:53,469
+Ne yapıyorsun Geeta?
+
+983
+01:32:02,661 --> 01:32:04,749
+Ne yapıyorsun Geeta?
+Savunma yap!
+
+984
+01:32:07,701 --> 01:32:08,761
+Hücum et!
+
+985
+01:32:11,522 --> 01:32:12,477
+Güzel!
+
+986
+01:32:17,282 --> 01:32:18,421
+Böyle mi savunma yapılır?
+
+987
+01:32:18,759 --> 01:32:21,242
+Diğer raundda da
+hücum yaparak oynayacaksın.
+
+988
+01:33:06,135 --> 01:33:07,701
+Mutlu görünmüyorsun baba.
+
+989
+01:33:10,236 --> 01:33:11,689
+Düzgün güreşmedim mi?
+
+990
+01:33:13,157 --> 01:33:17,145
+Hayır, canım.
+Tam da umduğum gibi güreştin.
+
+991
+01:33:20,482 --> 01:33:25,033
+Ama Geeta'nın böyle güreşeceğini
+hiç düşünmemiştim.
+
+992
+01:33:29,994 --> 01:33:34,060
+Sen de ülke birincisi oldun artık.
+Sen de Akademi'ye gideceksin.
+
+993
+01:33:34,956 --> 01:33:36,575
+Senin de yeni bir antrenörün olacak.
+
+994
+01:33:38,154 --> 01:33:41,846
+Ve babanız bir kez daha eskiyecek.
+
+995
+01:33:45,580 --> 01:33:46,478
+Hayır, baba.
+
+996
+01:33:53,273 --> 01:33:55,592
+Buralara nasıl geldiğini...
+
+997
+01:33:57,972 --> 01:33:59,886
+...sakın ola unutma.
+
+998
+01:34:17,550 --> 01:34:18,655
+Merhaba şampiyon.
+
+999
+01:34:20,584 --> 01:34:21,440
+Merhaba abla.
+
+1000
+01:34:25,241 --> 01:34:26,388
+Hâlâ kızgın mısın?
+
+1001
+01:34:29,825 --> 01:34:30,432
+Gel hadi.
+
+1002
+01:34:31,264 --> 01:34:33,548
+- Ne koydun bu çantaya böyle?
+- Ver ben taşıyayım.
+
+1003
+01:34:33,573 --> 01:34:34,505
+Çok ağır.
+
+1004
+01:34:35,465 --> 01:34:36,379
+Merhaba Jasmeet!
+
+1005
+01:34:37,862 --> 01:34:43,136
+- Bu benim küçük kardeşim Babita.
+- Maaile güreşçi demek!
+
+1006
+01:34:44,990 --> 01:34:48,089
+Yemekhane burası.
+Burada takılıyoruz biz.
+
+1007
+01:34:52,626 --> 01:34:56,337
+Burası da dinlenme salonu.
+Kafa dağıtıp televizyon falan izliyoruz.
+
+1008
+01:34:57,908 --> 01:34:59,382
+Antrenman salonu nerede?
+
+1009
+01:35:02,381 --> 01:35:03,627
+Fazla heveslisin.
+
+1010
+01:35:04,993 --> 01:35:06,954
+Yarın görürsün.
+Bugün dinlenmene bak.
+
+1011
+01:35:12,261 --> 01:35:15,032
+Bir şey söyleyebilir miyim?
+Kızmaca yok.
+
+1012
+01:35:16,534 --> 01:35:17,253
+Söyle.
+
+1013
+01:35:18,257 --> 01:35:19,628
+Çok değiştin sen.
+
+1014
+01:35:22,883 --> 01:35:26,331
+İlk defa bir karşılaşmayı
+kaybedişini hatırlıyorum da...
+
+1015
+01:35:27,923 --> 01:35:29,218
+...bütün gece uyuyamamıştın.
+
+1016
+01:35:30,276 --> 01:35:33,796
+Şimdiyse, uluslararası bir
+karşılaşmayı kaybetmene rağmen...
+
+1017
+01:35:34,812 --> 01:35:38,980
+...yüzünde öfle bir ifade
+hiç belli olmuyor.
+
+1018
+01:35:41,275 --> 01:35:43,182
+Bunları söylemen için
+babam mı tembihledi seni?
+
+1019
+01:35:44,494 --> 01:35:46,533
+Babamın tembihlerini
+çok iyi hatırlıyorum ben.
+
+1020
+01:35:48,164 --> 01:35:52,346
+- Sen unutmuşa benziyorsun ama.
+- Sen kendi antrenmanlarına odaklan...
+
+1021
+01:35:52,947 --> 01:35:54,044
+...benimkini bana bırak.
+
+1022
+01:35:55,376 --> 01:35:58,389
+Hem sen niye bana nutuk çekiyorsun?
+Sadece bir müsabaka kaybettim.
+
+1023
+01:36:03,766 --> 01:36:05,119
+MOSKOVA
+
+1024
+01:36:05,144 --> 01:36:07,364
+<i>Geeta Kumari, ikinci raundda da
+yine geriden geliyor.</i>
+
+1025
+01:36:07,614 --> 01:36:10,504
+<i>İyi güreşiyor ama
+bir şey başarabilmiş değil.</i>
+
+1026
+01:36:10,529 --> 01:36:12,151
+<i>Geeta'dan bir deneme daha...</i>
+
+1027
+01:36:12,978 --> 01:36:14,640
+<i>...ama 1 puanı kazanan Kasha.</i>
+
+1028
+01:36:15,531 --> 01:36:17,042
+<i>Ve süre sona erdi!</i>
+
+1029
+01:36:17,788 --> 01:36:21,214
+<i>Geeta Kumari, dünya şampiyonasına
+erken veda ediyor.</i>
+
+1030
+01:36:22,141 --> 01:36:24,585
+<i>Büyük bir hayal kırıklığı yaşandı!</i>
+
+1031
+01:36:25,219 --> 01:36:29,090
+<i>Hindistan'dan Geeta Kumari Phogat
+bir kez yenilen taraf oluyor.</i>
+
+1032
+01:36:32,191 --> 01:36:35,339
+<i>Cakarta'da da, Geeta
+ilk raunddan veda ediyor.</i>
+
+1033
+01:36:37,028 --> 01:36:40,850
+<i>İstanbul Dünya Şampiyonası'nda...</i>
+
+1034
+01:36:41,007 --> 01:36:44,253
+<i>...Geeta ezici bir
+yenilgiyle karşılaşıyor!</i>
+
+1035
+01:36:54,767 --> 01:36:56,299
+Umudunu kaybetme Geeta.
+
+1036
+01:36:56,488 --> 01:36:59,552
+Çok çalıştık, iyi güreştin.
+Kazanamadın sadece.
+
+1037
+01:37:00,201 --> 01:37:02,137
+Seni kötü bir güreşçi yapmaz bu.
+
+1038
+01:37:03,190 --> 01:37:03,952
+Olur böyle.
+
+1039
+01:37:04,196 --> 01:37:06,266
+Herkesin hamurunda
+uluslararası şampiyon olmak yoktur.
+
+1040
+01:37:32,990 --> 01:37:34,288
+Sen de benim...
+
+1041
+01:37:36,695 --> 01:37:39,397
+...uluslararası şampiyonluk için
+yeterli olmadığımı düşünüyor musun?
+
+1042
+01:37:43,107 --> 01:37:44,546
+Bilmiyorum.
+
+1043
+01:37:46,283 --> 01:37:47,730
+Tek bildiğim...
+
+1044
+01:37:49,089 --> 01:37:52,776
+...senin, kum güreşinde
+erkekleri yeren seren kız olduğun.
+
+1045
+01:37:55,090 --> 01:37:56,237
+Sen...
+
+1046
+01:37:56,641 --> 01:37:59,375
+...düşük kiloda olmasına rağmen
+küçükler alt şampiyonu olan kızsın.
+
+1047
+01:38:01,647 --> 01:38:04,930
+Üç yıl boyunca ulusal
+müsabakalarda herkesi yendin.
+
+1048
+01:38:07,854 --> 01:38:09,935
+Sen uluslararası şampiyonluk için
+yeterli değilsen...
+
+1049
+01:38:10,698 --> 01:38:14,833
+...Hindistan'daki
+hangi kız yeterlidir bilmiyorum.
+
+1050
+01:38:21,560 --> 01:38:23,672
+Benim sana inancım yüksek...
+
+1051
+01:38:25,650 --> 01:38:27,828
+...ama babamın sana olan
+inancının yanında hiç sayılır.
+
+1052
+01:38:31,772 --> 01:38:33,014
+Konuş onunla.
+
+1053
+01:38:36,639 --> 01:38:38,297
+Nasıl yüzüne bakacağım?
+
+1054
+01:38:38,902 --> 01:38:40,602
+Babamız o bizim.
+
+1055
+01:38:42,540 --> 01:38:44,188
+En kötü ne olabilir ki?
+
+1056
+01:38:44,762 --> 01:38:47,322
+Azarlar en çok.
+Dinle.
+
+1057
+01:38:48,762 --> 01:38:51,188
+Onun azarları her zaman bize
+yardımcı olmuştur, değil mi?
+
+1058
+01:38:59,489 --> 01:39:00,401
+İlacın.
+
+1059
+01:39:05,913 --> 01:39:09,979
+Babita ile konuştum.
+Antrenmanlarının iyi gittiğini söyledi.
+
+1060
+01:39:15,006 --> 01:39:15,606
+Başka?
+
+1061
+01:39:18,783 --> 01:39:20,087
+Geeta iyi değil.
+
+1062
+01:39:22,090 --> 01:39:23,767
+Konuş lütfen kızla.
+
+1063
+01:39:40,608 --> 01:39:41,354
+Alo?
+
+1064
+01:39:43,418 --> 01:39:44,177
+Geeta?
+
+1065
+01:39:46,129 --> 01:39:47,345
+Tamam, bekle.
+
+1066
+01:39:49,748 --> 01:39:50,717
+Geeta...
+
+1067
+01:40:38,117 --> 01:40:39,351
+Özür dilerim baba.
+
+1068
+01:41:06,410 --> 01:41:11,360
+<i>Hindistan'daki en büyük spor etkinliği olan
+19. İngiliz Milletler Topluluğu Oyunları'na</i>
+
+1069
+01:41:11,385 --> 01:41:13,229
+<i>...sadece altı ay
+kalmış bulunmakta.</i>
+
+1070
+01:41:13,678 --> 01:41:19,082
+<i>Hintli sporcuların,
+dünyanın en iyilerine karşı...</i>
+
+1071
+01:41:19,332 --> 01:41:22,715
+<i>...ne durumda olduğu
+belirsizliğini koruyor.</i>
+
+1072
+01:41:41,529 --> 01:41:44,947
+Bu sefer İMT Oyunları'nda
+üç tane madalya istiyorum.
+
+1073
+01:41:45,479 --> 01:41:47,023
+Bunlar ya sizden gelir...
+
+1074
+01:41:47,048 --> 01:41:49,476
+...ya sizden ya da sizden.
+Benim için fark etmez.
+
+1075
+01:41:49,501 --> 01:41:52,447
+Önünüzde altı ay var.
+Elinizden geleni yapın.
+
+1076
+01:41:52,713 --> 01:41:54,518
+Anlaşıldı mı?
+Çalışmaya başlayın.
+
+1077
+01:41:55,283 --> 01:41:56,977
+Geeta.
+Buraya gel.
+
+1078
+01:42:00,625 --> 01:42:02,862
+- Bir madalya kazanacaksın.
+- Evet, efendim.
+
+1079
+01:42:02,887 --> 01:42:04,932
+Kaybettiğin kategoride değil ama...
+
+1080
+01:42:05,214 --> 01:42:08,709
+...kazanabileceğin bir kategoride.
+Anlaşıldı mı?
+
+1081
+01:42:10,259 --> 01:42:15,634
+55 kilo kategorisinde kazanman imkânsız.
+Bunu artık sen de anlamışsındır.
+
+1082
+01:42:16,536 --> 01:42:20,338
+51 kiloda kendini savunabilir,
+hatta kazanabilirsin de.
+
+1083
+01:42:22,101 --> 01:42:24,862
+Herkesin beslenmesini yakından takip edin.
+Kimse bozmayacak.
+
+1084
+01:42:24,887 --> 01:42:25,504
+Hocam!
+
+1085
+01:42:27,924 --> 01:42:30,182
+Hocam ben 55 kiloda
+güreşmek istiyorum.
+
+1086
+01:42:31,963 --> 01:42:34,533
+55 kiloda güreşirsen
+eline hiçbir şey geçmeyecek!
+
+1087
+01:42:38,510 --> 01:42:41,365
+4 kilo zayıflaması gerek.
+Beslenme programını değiştirin.
+
+1088
+01:42:41,833 --> 01:42:43,844
+Yarından itibaren
+51 kilo için antrenman yapacağız.
+
+1089
+01:42:45,287 --> 01:42:46,138
+Hadi kızlar!
+
+1090
+01:42:50,379 --> 01:42:54,627
+55 kiloda neden kazanamayacakmışsın?
+Kilo kaybetmene gerek yok!
+
+1091
+01:42:55,135 --> 01:42:57,443
+55 kiloda güreşip kazanabilirsin!
+
+1092
+01:42:58,114 --> 01:42:59,137
+Patiala'ya geliyorum ben.
+
+1093
+01:43:07,290 --> 01:43:09,326
+Patiala'da kimseyi tanımıyoruz.
+
+1094
+01:43:10,099 --> 01:43:13,033
+- Altı ay nasıl kalacaksın orada?
+- Kirada.
+
+1095
+01:43:13,561 --> 01:43:15,783
+- Peki ya yemek?
+- Kendim yaparım.
+
+1096
+01:43:16,060 --> 01:43:17,500
+Sana yaparım ben amca!
+
+1097
+01:43:18,955 --> 01:43:23,154
+- Ben de gelmeyi düşünüyorum.
+- Ne yapacaksın orada?
+
+1098
+01:43:23,481 --> 01:43:26,639
+Geçmişte benimle antrenman
+yaptıkları için iyi işler çıkarmışlardı.
+
+1099
+01:43:27,033 --> 01:43:28,741
+Gelecekte de benimle
+antrenman yaparlarsa...
+
+1100
+01:43:29,308 --> 01:43:31,395
+Aslına bakarsan
+onlara uğurlu geliyorum ben.
+
+1101
+01:43:32,518 --> 01:43:34,146
+Böyle düşünüyorum yani.
+
+1102
+01:43:35,755 --> 01:43:39,499
+Sebze alıp senin yerine doğrarım...
+
+1103
+01:43:39,524 --> 01:43:41,935
+...bütün işlerini yaparım,
+ayaklarına masaj yaparım.
+
+1104
+01:43:42,383 --> 01:43:43,861
+Stresini azaltmak için her şeyi yaparım.
+
+1105
+01:43:44,019 --> 01:43:47,403
+İngiliz Milletler Topluluğu Oyunları bu.
+Hiçbir riski göze alamayız.
+
+1106
+01:43:52,841 --> 01:43:54,455
+Altın madalya için hazırlıklara başlayın!
+
+1107
+01:44:00,871 --> 01:44:01,980
+Oda yukarıda.
+
+1108
+01:44:03,693 --> 01:44:04,643
+Gelin.
+
+1109
+01:44:07,800 --> 01:44:09,996
+Aynı fiyata başka oda var mı?
+
+1110
+01:44:10,226 --> 01:44:13,313
+- Güzelmiş.
+- Evet, itiraf etmek gerekirse...
+
+1111
+01:44:14,041 --> 01:44:15,000
+...çok güzelmiş gerçekten.
+
+1112
+01:44:15,478 --> 01:44:18,540
+ULUSAL SPOR AKADEMİSİ
+HİNDİSTAN
+
+1113
+01:44:20,283 --> 01:44:20,892
+Buyurun?
+
+1114
+01:44:21,236 --> 01:44:25,466
+Geeta ve Babita Kumari'nin
+babası ve en yakın kuzeni geldi.
+
+1115
+01:44:30,351 --> 01:44:31,898
+Vay anasını!
+
+1116
+01:44:40,406 --> 01:44:42,539
+Burası sence de
+hoş bir yer değil mi amca?
+
+1117
+01:45:00,754 --> 01:45:01,867
+Nasılsın bakalım şampiyon?
+
+1118
+01:45:06,607 --> 01:45:08,565
+- Peki ya sen?
+- İyiyim baba.
+
+1119
+01:45:10,230 --> 01:45:12,936
+- Sen niye geldin?
+- Amcam gel diye ısrar etti.
+
+1120
+01:45:12,961 --> 01:45:15,430
+İngiliz Milletler Topluluğu Oyunları bu.
+Hiçbir riski göze alamayız dedi.
+
+1121
+01:45:15,455 --> 01:45:16,793
+Hadi be oradan KYDU!
+
+1122
+01:45:19,107 --> 01:45:22,952
+Geeta'nın 51 kilo antrenmanı
+ve beslenme programı başladı.
+
+1123
+01:45:24,936 --> 01:45:27,152
+Beslenme programına ve
+antrenmanlara uymaya devam et...
+
+1124
+01:45:27,553 --> 01:45:30,180
+...gerisini ben tamamlarım.
+
+1125
+01:45:32,360 --> 01:45:35,506
+- Antrenmanınız ne zaman başlıyor?
+- Sabah 7'de.
+
+1126
+01:45:36,553 --> 01:45:39,406
+Peki.
+Yarın saat 5'te hazır olun.
+
+1127
+01:45:51,576 --> 01:45:53,907
+<i># Gitmiyorum hiçbir yere</i>
+
+1128
+01:45:54,382 --> 01:45:56,552
+<i># Yenmeden en iyiyi önce</i>
+
+1129
+01:45:57,035 --> 01:45:59,244
+<i># Gitmiyorum hiçbir yere</i>
+
+1130
+01:45:59,750 --> 01:46:01,915
+<i># Yenmeden en iyiyi önce</i>
+
+1131
+01:46:01,940 --> 01:46:07,140
+<i># Tutun sıkıca hayallerine</i>
+
+1132
+01:46:07,310 --> 01:46:12,499
+<i># Asma kulak
+karşıt ve kötümser kimselere</i>
+
+1133
+01:46:12,724 --> 01:46:17,923
+<i># Bırak ne derlerse desinler
+bugün sıra kendilerinde</i>
+
+1134
+01:46:18,095 --> 01:46:22,915
+<i># Yarın gelecek sana da sıra
+ispatla o zaman onlara işte</i>
+
+1135
+01:46:29,340 --> 01:46:35,143
+<i># Bastırır binlerce koyun sesini
+tek bir aslan kükrerse</i>
+
+1136
+01:46:35,168 --> 01:46:36,817
+<i># Güreşelim hadi Güreşçi!</i>
+
+1137
+01:46:37,788 --> 01:46:39,589
+<i># Güreşelim hadi Güreşçi!</i>
+
+1138
+01:46:40,381 --> 01:46:43,238
+<i># Ya kazanırız ya kazanmayız</i>
+
+1139
+01:46:43,263 --> 01:46:45,940
+<i># Bizim gibi güreşir çünkü
+gökyüzündeki yıldızlarımız</i>
+
+1140
+01:46:45,965 --> 01:46:47,586
+<i># Güreşelim hadi Güreşçi!</i>
+
+1141
+01:46:48,575 --> 01:46:50,328
+<i># Güreşelim hadi Güreşçi!</i>
+
+1142
+01:47:08,000 --> 01:47:09,289
+Dur, dur.
+
+1143
+01:47:10,186 --> 01:47:13,980
+Direkt hücum bir işe yaramaz.
+Rakibinin aklını karıştırmak zorundasın.
+
+1144
+01:47:15,249 --> 01:47:18,005
+Yalandan bir hamle yapıp
+başka bir hamle yapacaksın.
+
+1145
+01:47:35,133 --> 01:47:38,833
+Beslenme programını değiştirdim ama
+neden kilo vermediğini bilmiyorum efendim.
+
+1146
+01:47:40,981 --> 01:47:42,082
+Ne işler karıştırıyorsun Geeta?
+
+1147
+01:47:44,884 --> 01:47:47,156
+Bir şey diyecek misin yoksa
+ağlamaya devam mı edeceksin?
+
+1148
+01:47:57,308 --> 01:48:01,302
+Hareketlerini göz önüne alırsak Akademi'ye
+ihtiyaçları olduğunu düşünmüyorum efendim.
+
+1149
+01:48:02,591 --> 01:48:04,151
+Son karar sizin.
+
+1150
+01:48:08,325 --> 01:48:09,786
+Söylemek istediğiniz bir şey var mı?
+
+1151
+01:48:13,928 --> 01:48:18,379
+- Hatalı olduğunuzu kabul ediyorsunuz yani.
+- Onların tek bir hatası var efendim.
+
+1152
+01:48:19,363 --> 01:48:20,654
+Babalarının kafayı yemiş olması.
+
+1153
+01:48:23,368 --> 01:48:26,909
+Ülkemiz adına altın madalya kazanmakla
+kafayı yemiş durumda.
+
+1154
+01:48:27,900 --> 01:48:30,588
+Çocukluklarında bile
+oyuncaklarını ellerinden alıp...
+
+1155
+01:48:30,831 --> 01:48:32,164
+...güreşmeye zorlamış.
+
+1156
+01:48:33,853 --> 01:48:35,387
+Karşı çıktıklarında
+saçlarını kesmiş.
+
+1157
+01:48:36,611 --> 01:48:39,444
+Hazır duruma getirmek için
+erkeklerle güreştirmiş.
+
+1158
+01:48:40,009 --> 01:48:42,025
+Bütün köyün laflarını sineye çekmiş.
+
+1159
+01:48:43,538 --> 01:48:45,608
+Sırf kızlar günün birinde
+ülkeyi gururlandırsınlar diye.
+
+1160
+01:48:55,314 --> 01:48:56,240
+Şunlara bakın efendim.
+
+1161
+01:48:56,489 --> 01:48:57,781
+Şunlara bakın.
+
+1162
+01:48:57,806 --> 01:48:59,735
+Bu 50 rupiyi Rohtak'ta kazanmıştı.
+
+1163
+01:48:59,982 --> 01:49:00,858
+Bunu Hisar'da.
+
+1164
+01:49:02,732 --> 01:49:03,710
+Bunu Çandigarh'da.
+
+1165
+01:49:04,660 --> 01:49:08,723
+Bunları... Bunları...
+Hepsini efendim.
+
+1166
+01:49:09,263 --> 01:49:11,935
+Bu kızlar buraya
+uzun bir yoldan geldi efendim.
+
+1167
+01:49:13,118 --> 01:49:15,103
+Şimdi onları geri çevirmeyin.
+
+1168
+01:49:16,436 --> 01:49:19,453
+Hepsi benim hatam.
+Sizden çok özür diliyorum.
+
+1169
+01:49:28,081 --> 01:49:30,272
+Antrenörün tek derdi
+üç tane madalya kazanmak.
+
+1170
+01:49:30,660 --> 01:49:31,961
+Bronz olmaları umurunda değil.
+
+1171
+01:49:33,201 --> 01:49:35,523
+Ama ben ülkemizin
+altın madalya kazanmasını istiyorum.
+
+1172
+01:49:36,595 --> 01:49:38,295
+Bu kız onu kazanabilir efendim.
+
+1173
+01:49:50,630 --> 01:49:52,123
+Hepiniz dışarıda bekleyin lütfen.
+
+1174
+01:50:01,992 --> 01:50:03,965
+Zamanınızı boşa harcayarak
+yanlış yaptınız.
+
+1175
+01:50:05,815 --> 01:50:08,511
+Geeta, 55 kiloda
+Hindistan adına seçilemez bile.
+
+1176
+01:50:09,977 --> 01:50:12,508
+51 kiloda güreşseydi
+madalya kazanabilirdi.
+
+1177
+01:50:13,365 --> 01:50:17,561
+55 kiloda çok daha önce de
+madalya kazanabilirdi.
+
+1178
+01:50:18,418 --> 01:50:21,236
+- Sorumlusu sensin!
+- Neyi yanlış yaptım?
+
+1179
+01:50:21,502 --> 01:50:23,329
+Geeta'nın oynayış doğası hücümdur.
+
+1180
+01:50:24,703 --> 01:50:28,424
+Teknikleri içgüdünün önüne koyarak
+kızın oynayışını değiştirdin.
+
+1181
+01:50:29,266 --> 01:50:32,646
+Bir kaplanı, fil gibi
+dövüştürmeye çalışmaktır bu.
+
+1182
+01:50:33,814 --> 01:50:36,796
+Sonra kaplan, ne kaplan gibi dövüşür
+ne de fil gibi.
+
+1183
+01:50:36,821 --> 01:50:40,642
+Madalya kazanmak için
+nasıl güreşilir sen söyle o zaman.
+
+1184
+01:50:40,955 --> 01:50:44,822
+İstersen hemen burada
+gösterebilirim sana.
+
+1185
+01:50:45,476 --> 01:50:46,568
+Sizi içeri çağırıyorlar.
+
+1186
+01:50:51,153 --> 01:50:52,442
+<i>Yaşananlar büyük bir yanlıştı.</i>
+
+1187
+01:50:52,889 --> 01:50:55,392
+Ama kurul onlara bir şans daha
+vermeye karar verdi.
+
+1188
+01:50:55,659 --> 01:50:58,909
+- Teşekkür ederim efendim.
+- Ama bugünden itibaren...
+
+1189
+01:50:59,540 --> 01:51:01,799
+...ne sizin Akademi arazisine
+girmeye izniniz var...
+
+1190
+01:51:02,152 --> 01:51:05,392
+...ne de onların dışarı çıkmaya.
+
+1191
+01:51:09,119 --> 01:51:09,907
+Peki efendim.
+
+1192
+01:51:16,554 --> 01:51:18,790
+Bugün bana da doldur amca.
+
+1193
+01:51:22,033 --> 01:51:22,872
+Özür dilerim.
+
+1194
+01:51:29,510 --> 01:51:30,351
+Teşekkür ederim.
+
+1195
+01:51:35,696 --> 01:51:39,533
+Biz buraya başrol oynamaya geldik
+Akademi bizi konuk oyuncu yaptı.
+
+1196
+01:51:40,685 --> 01:51:44,072
+- Geri dönelim hadi.
+- Olmaz Omkar.
+
+1197
+01:51:45,080 --> 01:51:47,679
+İçeri girmemi engelleyebilirler...
+
+1198
+01:51:49,124 --> 01:51:52,082
+...ama kimse, Geeta'ya
+antrenörlük yapmama engel olamaz.
+
+1199
+01:51:53,863 --> 01:51:54,785
+Şerefe amca.
+
+1200
+01:51:57,279 --> 01:51:59,252
+Üçüne karşı iyi savunma
+yapmıştım baba.
+
+1201
+01:51:59,374 --> 01:52:01,463
+Ama beni eleyen...
+
+1202
+01:52:01,838 --> 01:52:05,528
+...benden küçüktü
+ve çok da güçlü değildi.
+
+1203
+01:52:05,585 --> 01:52:07,240
+Bu müsabakanın bir kaydı var mı?
+
+1204
+01:52:07,351 --> 01:52:11,385
+- Evet baba, kütüphanede.
+- Kuryeyle hepsinin bir kopyasını gönder.
+
+1205
+01:52:18,275 --> 01:52:21,424
+Delhi İngiliz Milletler Topluluğu Oyunları'na
+üç ay kalmış bulunmakta.
+
+1206
+01:52:21,535 --> 01:52:25,821
+Patiala'daki Ulusal Spor Akademisi'ne
+tutku dolu bir hava hakim.
+
+1207
+01:52:28,290 --> 01:52:29,441
+Nereye gidiyoruz amca?
+
+1208
+01:52:31,853 --> 01:52:34,696
+<i>Amcamla ilgili sevmediğim tek şey...</i>
+
+1209
+01:52:35,091 --> 01:52:39,857
+<i>...insanı sürekli merakta bırakması.
+Öldürür resmen adamı!</i>
+
+1210
+01:52:43,285 --> 01:52:47,113
+"cılgınolgun.com"
+"Azgın Teyze"
+
+1211
+01:52:49,452 --> 01:52:53,803
+Film izleyeceksen Amar Mahal'a gidelim.
+Burada düzgün filmler göstermiyorlar.
+
+1212
+01:52:54,486 --> 01:52:55,111
+İn.
+
+1213
+01:52:58,313 --> 01:52:59,766
+"Asi Kız"
+
+1214
+01:53:00,540 --> 01:53:01,327
+Buyurun?
+
+1215
+01:53:01,352 --> 01:53:03,407
+Sonraki seansın bütün biletleri
+ne kadar ediyor?
+
+1216
+01:53:04,785 --> 01:53:07,113
+Hangi filmi izlemek istiyorsunuz?
+
+1217
+01:53:07,419 --> 01:53:08,788
+Kendi filmimizi getirdik.
+
+1218
+01:53:12,565 --> 01:53:13,565
+Durdur.
+
+1219
+01:53:18,104 --> 01:53:18,860
+Oynat.
+
+1220
+01:53:32,758 --> 01:53:33,596
+İşiniz bitti mi?
+
+1221
+01:53:33,621 --> 01:53:36,477
+Hadi iyisin. Sonraki seansın da
+biletlerini alıyoruz.
+
+1222
+01:53:36,826 --> 01:53:42,219
+Ne işler karıştırıyorsunuz ki orada?
+Nerenin filmi o?
+
+1223
+01:53:42,286 --> 01:53:45,550
+Atlanta, Endonezya.
+
+1224
+01:53:45,575 --> 01:53:46,735
+- İthal mi?
+- Evet.
+
+1225
+01:53:46,884 --> 01:53:50,677
+Kopyalayabilir miyim?
+50 rupi az ödersiniz.
+
+1226
+01:53:55,553 --> 01:53:57,965
+Böyle güreşirse
+nasıl birinci olacak bu?
+
+1227
+01:53:59,130 --> 01:54:00,173
+Amca!
+
+1228
+01:54:01,541 --> 01:54:07,000
+Amca, bir sürü not çıkardın.
+Nasıl ulaştıracaksın peki onları?
+
+1229
+01:54:07,440 --> 01:54:10,008
+Akademi, görüldüğü yerde
+vurun emri çıkardı senin için.
+
+1230
+01:54:12,986 --> 01:54:13,586
+Bin.
+
+1231
+01:54:15,036 --> 01:54:16,139
+<i>Yine merakta bırakma!</i>
+
+1232
+01:54:17,327 --> 01:54:20,351
+<i>Böyle mi güreşiyorsun sen?
+Titrek kedi gibi mi?</i>
+
+1233
+01:54:21,362 --> 01:54:22,939
+Böyle güreşmek istiyorsan
+güreşme gitsin!
+
+1234
+01:54:23,638 --> 01:54:26,338
+- Ne oldu baba?
+- Bütün müsabakalarını izledim.
+
+1235
+01:54:27,724 --> 01:54:29,374
+Güreşmediğin kesin!
+
+1236
+01:54:31,080 --> 01:54:33,475
+Bana gönderdiğin DVD'lerin
+kopyası var mı sende?
+
+1237
+01:54:34,533 --> 01:54:35,546
+Var baba.
+
+1238
+01:54:35,571 --> 01:54:39,783
+- Yalnız başına izleyebilir misin?
+- Birinin laptopunu alırım.
+
+1239
+01:54:40,422 --> 01:54:42,975
+Tamam.
+Sabah 5'te hazır ol.
+
+1240
+01:54:48,659 --> 01:54:50,658
+Babadan azar yemeyeli
+uzun zaman oldu.
+
+1241
+01:54:52,395 --> 01:54:53,177
+İyi geldi.
+
+1242
+01:54:55,399 --> 01:54:57,377
+Cakarta müsabakasını aç.
+Birinci raund.
+
+1243
+01:54:58,079 --> 01:55:01,392
+- Açtım baba.
+- 3. dakika 58. saniyeye git.
+
+1244
+01:55:02,933 --> 01:55:06,572
+2 puan kazanma şansın var
+ama savunma yapmaya başlıyorsun.
+
+1245
+01:55:08,339 --> 01:55:09,402
+<i>Oynat.
+İzle.</i>
+
+1246
+01:55:12,437 --> 01:55:13,519
+Avantajı teptin, gördün mü?
+
+1247
+01:55:15,847 --> 01:55:18,801
+<i>Rakibin geriye düşerse
+hemen zayıf noktasından vur!</i>
+
+1248
+01:55:26,278 --> 01:55:27,553
+Nasıl yaptın bunu?
+
+1249
+01:55:28,810 --> 01:55:31,953
+Ya da savunma yapacağın yerde
+hücum yaparak puanları kaptırıyorsun.
+
+1250
+01:55:32,789 --> 01:55:35,336
+<i>Tüm gücünle puan peşinde koşarsan
+eline hiçbir şey geçmez.</i>
+
+1251
+01:55:35,730 --> 01:55:37,382
+<i>Konsantre olmak zorundasın.</i>
+
+1252
+01:55:38,037 --> 01:55:40,101
+<i>Kazanabileceğin karşılaşmaları
+kaybetmişsin!</i>
+
+1253
+01:55:48,630 --> 01:55:49,710
+Saldır Geeta!
+
+1254
+01:55:50,021 --> 01:55:52,293
+ULUSAL SEÇMELER, PATIALA
+
+1255
+01:56:06,958 --> 01:56:09,422
+<i>Her raund iki dakikadan oluşur.</i>
+
+1256
+01:56:10,571 --> 01:56:15,355
+Ama o iki dakikanın içinde
+120 saniye vardır.
+
+1257
+01:56:15,771 --> 01:56:19,766
+<i>Rakibinin hata yapacağı
+o bir saniyeyi bekle.</i>
+
+1258
+01:56:24,636 --> 01:56:28,319
+- İyi güreşiyor, değil mi?
+- Evet, efendim.
+
+1259
+01:56:30,341 --> 01:56:31,159
+Çok iyi hem de!
+
+1260
+01:56:35,767 --> 01:56:37,219
+Şimdi hazır görünüyorsun kardeşim.
+
+1261
+01:56:39,164 --> 01:56:40,177
+Babama söyledin mi?
+
+1262
+01:56:41,345 --> 01:56:42,092
+Ne dedi?
+
+1263
+01:56:43,271 --> 01:56:45,338
+"Bu kadar mutlu olmana gerek yok!"
+
+1264
+01:56:52,138 --> 01:56:55,608
+<i>2010 İngiliz Milletler Topluluğu Oyunları'nın
+büyük açılış töreninden sizlerleyiz!</i>
+
+1265
+01:56:58,073 --> 01:57:01,908
+<i>Ev sahibi ülke olan Hindistan
+antik kültürünü sergiliyor.</i>
+
+1266
+01:57:02,177 --> 01:57:04,702
+<i>Büyük bir gurur gerçekten!</i>
+
+1267
+01:57:09,307 --> 01:57:12,210
+<i>Ve işte Hint grubu geliyor!</i>
+
+1268
+01:57:17,622 --> 01:57:20,295
+<i>Büyük bir tezahürat yapılıyor!</i>
+
+1269
+01:57:24,029 --> 01:57:30,029
+<i>Tekrar hatırlatacak olursak, oyunlarda
+72 ülkenin en iyi sporcuları yer alacak.</i>
+
+1270
+01:57:30,771 --> 01:57:34,470
+<i>Yarın etkinliği başlatmak için
+tekrar burada olacağız.</i>
+
+1271
+01:57:34,495 --> 01:57:36,301
+<i>O zamana kadar iyi geceler!</i>
+
+1272
+01:57:42,553 --> 01:57:46,299
+<i>Geeta ilk müsabakasına
+çıkmadan önce oldukça gergindi.</i>
+
+1273
+01:57:46,697 --> 01:57:48,002
+<i>Normaldi tabii bu durum.</i>
+
+1274
+01:57:48,539 --> 01:57:53,063
+<i>Daha önceki uluslararası karşılaşmalarda
+performansı pek iyi değildi.</i>
+
+1275
+01:57:53,663 --> 01:57:58,173
+<i>Ama yine de, az da olsa
+ülke hâlâ ondan umutluydu.</i>
+
+1276
+01:57:59,007 --> 01:58:03,321
+<i>Bu muhtemelen
+Geeta'nın son şansıydı.</i>
+
+1277
+01:58:09,189 --> 01:58:12,289
+<i>55 kilodaki
+ilk kadın güreş müsabakası...</i>
+
+1278
+01:58:12,561 --> 01:58:16,563
+<i>...Hindistan'dan Geeta Kumari ve
+Galler'den Melissa Anderson arasında.</i>
+
+1279
+01:58:16,690 --> 01:58:17,998
+Saldır Geeta!
+
+1280
+01:58:18,261 --> 01:58:20,342
+<i>Geeta oldukça gergin görünüyor.</i>
+
+1281
+01:58:20,367 --> 01:58:26,886
+<i>Bakalım ilk raundlarda
+kaybetme lanetini bozabilecek mi.</i>
+
+1282
+01:58:27,455 --> 01:58:29,164
+<i>Seyircilerimize,
+karşılaşmanın ikişer dakikalık...</i>
+
+1283
+01:58:29,189 --> 01:58:31,414
+<i>...üç raunddan oluşacağını
+tekrar hatırlatalım.</i>
+
+1284
+01:58:32,317 --> 01:58:35,310
+<i>İki raundu kazanan karşılaşmayı kazanır.</i>
+
+1285
+01:58:38,402 --> 01:58:40,146
+<i>Ve düdükle karşılaşma başlıyor.</i>
+
+1286
+01:58:42,700 --> 01:58:44,428
+<i>İki güreşçi de tetikte.</i>
+
+1287
+01:58:52,454 --> 01:58:54,060
+<i>1 puan Melissa'ya.</i>
+
+1288
+01:58:54,443 --> 01:58:56,745
+<i>Melissa - 1 : Geeta - 0.</i>
+
+1289
+01:59:02,037 --> 01:59:04,771
+<i>Melissa güçlü duruyor.</i>
+
+1290
+01:59:06,518 --> 01:59:08,263
+<i>3 puan daha Melissa'ya!</i>
+
+1291
+01:59:08,288 --> 01:59:09,300
+Ne yapıyorsun Geeta?
+
+1292
+01:59:10,729 --> 01:59:12,805
+<i>Melissa - 4 : Geeta - 0.</i>
+
+1293
+01:59:12,830 --> 01:59:14,944
+<i>Geeta 2 puan daha kaptırırsa...</i>
+
+1294
+01:59:14,969 --> 01:59:17,882
+<i>...Melissa bu raundu
+teknik üstünlükle kazanacak.</i>
+
+1295
+01:59:24,433 --> 01:59:26,155
+<i>Ve Melissa 2 puanı kazanıyor!</i>
+
+1296
+01:59:28,837 --> 01:59:30,361
+<i>Tam da korktuğumuz gibi.</i>
+
+1297
+01:59:31,550 --> 01:59:36,198
+<i>Melissa ilk raundu
+6-0 teknik üstünlükle kazanıyor.</i>
+
+1298
+01:59:37,269 --> 01:59:40,351
+Ne yapıyorsun Geeta?
+Bu kadar kötü kaybetme bari!
+
+1299
+01:59:41,480 --> 01:59:44,569
+<i>İlk raundu bu kadar kötü
+kaybettikten sonra...</i>
+
+1300
+01:59:44,886 --> 01:59:47,614
+<i>...bakalım Geeta ikinci raundda
+arayı kapatabilecek mi.</i>
+
+1301
+01:59:53,052 --> 01:59:54,152
+<i>Geeta'dan bir hücüm.</i>
+
+1302
+01:59:54,520 --> 01:59:57,809
+<i>Melissa'dan da karşı hücum.
+2 puan Melissa'ya.</i>
+
+1303
+01:59:59,610 --> 02:00:01,237
+<i>Melissa 1 puan daha kazanıyor.</i>
+
+1304
+02:00:01,954 --> 02:00:05,548
+<i>Karşılaşma Geeta'nın ellerinden
+kaymışa benziyor.</i>
+
+1305
+02:00:07,068 --> 02:00:08,613
+Kaybedemezsin Geeta!
+
+1306
+02:00:16,519 --> 02:00:18,079
+Saldır Geeta, saldır!
+
+1307
+02:00:21,816 --> 02:00:25,465
+<i>Geeta 3 puan geride.
+Çabucak puan kazanması gerek.</i>
+
+1308
+02:00:34,458 --> 02:00:35,738
+<i>2 puan Geeta'ya gidiyor!</i>
+
+1309
+02:00:36,713 --> 02:00:39,217
+<i>Melissa - 3 : Geeta - 2</i>
+
+1310
+02:00:39,780 --> 02:00:41,808
+<i>Geeta daha fazla
+puan kazanmaya çalışıyor...</i>
+
+1311
+02:00:42,474 --> 02:00:43,821
+<i>...ama hakem düdüğünü çalıyor.</i>
+
+1312
+02:00:44,525 --> 02:00:48,315
+<i>Raund neredeyse bitmek üzere
+ve Geeta hâlâ 1 puan geride.</i>
+
+1313
+02:00:50,006 --> 02:00:51,251
+Bastır Geeta!
+
+1314
+02:00:55,584 --> 02:00:58,437
+<i>Geeta kenara sıkıştı!</i>
+
+1315
+02:01:00,982 --> 02:01:02,735
+<i>Geeta 3 puan kazanıyor!</i>
+
+1316
+02:01:03,369 --> 02:01:05,645
+<i>Geeta - 5 : Melissa - 3.</i>
+
+1317
+02:01:06,666 --> 02:01:08,415
+<i>Sadece 4 saniye kaldı.</i>
+
+1318
+02:01:12,270 --> 02:01:13,557
+İşte böyle Geeta!
+
+1319
+02:01:16,713 --> 02:01:21,477
+<i>Geeta tekrar karşılaşmaya dönüyor!
+İki yarışmacı da birer raund kazandı.</i>
+
+1320
+02:01:21,758 --> 02:01:26,765
+<i>Geeta, yenilgiyi kolayca
+kabullenmeyeceğini gösteriyor.</i>
+
+1321
+02:01:27,504 --> 02:01:30,279
+<i>Bir raund kaldı.</i>
+
+1322
+02:01:30,716 --> 02:01:32,340
+Savunma yap.
+
+1323
+02:01:34,817 --> 02:01:35,511
+Anlaşıldı mı?
+
+1324
+02:01:36,335 --> 02:01:37,862
+Hücum yap!
+
+1325
+02:01:46,633 --> 02:01:47,841
+<i>Ve son raund başlıyor.</i>
+
+1326
+02:01:49,084 --> 02:01:50,955
+<i>Geeta hücum oynuyor.</i>
+
+1327
+02:01:54,593 --> 02:01:55,992
+<i>1 puan Geeta'ya.</i>
+
+1328
+02:01:56,663 --> 02:01:58,614
+<i>Geeta - 1 : Melissa - 0.</i>
+
+1329
+02:02:08,541 --> 02:02:10,205
+<i>2 puan daha Geeta'nın hanesine yazılıyor.</i>
+
+1330
+02:02:10,704 --> 02:02:13,197
+<i>Geeta - 3 : Melissa - 0.</i>
+
+1331
+02:02:13,582 --> 02:02:15,559
+<i>Avantajını koruyabilecek mi acaba?</i>
+
+1332
+02:02:17,938 --> 02:02:19,339
+Çok güzel.
+Şimdi savunma yap.
+
+1333
+02:02:27,932 --> 02:02:29,658
+<i>3 puan Melissa'ya!</i>
+
+1334
+02:02:29,776 --> 02:02:30,877
+Sana savunma yap demiştim!
+
+1335
+02:02:31,210 --> 02:02:33,151
+Sorun yok.
+Hücum yapmaya devam et!
+
+1336
+02:02:33,256 --> 02:02:35,315
+<i>Skor 3-3 eşit durumda.</i>
+
+1337
+02:02:37,691 --> 02:02:39,748
+Saldır Geeta!
+
+1338
+02:02:40,005 --> 02:02:42,354
+<i>Karşılaşma iki yöne de sapabilir!</i>
+
+1339
+02:02:42,862 --> 02:02:46,852
+<i>Geeta kazanmaya yakındı
+ama avantajını kaybetti.</i>
+
+1340
+02:02:50,105 --> 02:02:51,464
+<i>Geeta tehlikede!</i>
+
+1341
+02:02:52,936 --> 02:02:53,709
+<i>Harika bir hareket!</i>
+
+1342
+02:02:53,734 --> 02:02:55,132
+<i>Geeta 3 puan kazanıyor!</i>
+
+1343
+02:02:55,527 --> 02:02:56,667
+Yerde tut Geeta!
+
+1344
+02:03:02,820 --> 02:03:06,336
+<i>Karşılaşmayı Geeta kazanıyor!</i>
+
+1345
+02:03:08,273 --> 02:03:13,384
+<i>Hindistan'dan Geeta Kumari Phogat
+eleştrilerin boş olduğunu kanıtladı!</i>
+
+1346
+02:03:18,842 --> 02:03:24,463
+<i>Babası Mahavir Singh Phogat için
+gurur verici bir an!</i>
+
+1347
+02:03:34,096 --> 02:03:39,074
+<i>Bugüne kadar Hindistan 5 altın, 13 gümüş
+ve 7 bronz madalya kazanmış bulunmakta.</i>
+
+1348
+02:03:39,442 --> 02:03:43,494
+<i>Kadınlar güreşinde,
+Hindistan'dan Geeta Kumari Phogat...</i>
+
+1349
+02:03:43,519 --> 02:03:45,527
+<i>...yarı finallere 55 kilodan giriyor.</i>
+
+1350
+02:03:45,964 --> 02:03:50,309
+<i>Geeta, şimdi, Nijerya'dan
+2 dünya şampiyonluğu bulunan...</i>
+
+1351
+02:03:50,334 --> 02:03:52,582
+<i>...Naomi Edwars ile güreşecek.</i>
+
+1352
+02:03:53,033 --> 02:03:53,677
+<i>Ne diyorsun?</i>
+
+1353
+02:03:53,871 --> 02:03:58,888
+<i>Naomi oldukça güçlü bir güreşçi.
+Aşırı derecede agrasif ve hücum oynuyor.</i>
+
+1354
+02:03:59,418 --> 02:04:03,837
+<i>Rakibine hiç fırsat vermiyor.</i>
+
+1355
+02:04:08,490 --> 02:04:11,670
+<i>Bu sefer Geeta için
+hiç kolay olmayacak.</i>
+
+1356
+02:04:17,176 --> 02:04:21,240
+Bugün istediğin gibi oynadın.
+Artık dediğimi yapacaksın...
+
+1357
+02:04:22,423 --> 02:04:24,232
+...yoksa kazanman imkânsız.
+
+1358
+02:04:24,257 --> 02:04:28,263
+Zor olacak ama imkânsız değil.
+
+1359
+02:04:29,740 --> 02:04:32,334
+Hücum oynamak zorundasın!
+
+1360
+02:04:32,359 --> 02:04:34,263
+Savunma yapmak zorundasın.
+
+1361
+02:04:34,288 --> 02:04:35,957
+Puan peşinde koşacaksın!
+
+1362
+02:04:35,982 --> 02:04:38,473
+Sakın puan peşinde koşma.
+
+1363
+02:04:38,498 --> 02:04:40,413
+Eline bir sürü fırsat geçecek.
+
+1364
+02:04:40,438 --> 02:04:43,832
+Sakın ona fırsat verme
+çünkü o da sana vermeyecektir.
+
+1365
+02:04:44,237 --> 02:04:46,037
+Her seferinde
+kilit pozisyon yaratmaya çalış.
+
+1366
+02:04:47,132 --> 02:04:50,862
+Puan kazanamazsa sinirlenecek
+ve sana fırsat verecektir.
+
+1367
+02:04:51,362 --> 02:04:54,015
+İşte o anda hamlemizi yapacağız!
+
+1368
+02:04:55,462 --> 02:04:58,583
+<i>İlk yarı final karşılaşması
+55 kilo kategorisinde...</i>
+
+1369
+02:04:58,923 --> 02:05:03,006
+<i>...Hindistan'dan Geeta Kumari ve
+Nijerya'dan Naomi Edwards arasında.</i>
+
+1370
+02:05:06,892 --> 02:05:09,091
+<i>Naomi başlar başlamaz hücum yapıyor.</i>
+
+1371
+02:05:10,144 --> 02:05:12,943
+<i>Geeta ise kendi doğasına
+aykırı bir şekilde savunma yapıyor.</i>
+
+1372
+02:05:14,651 --> 02:05:18,392
+<i>Naomi hücum yapıyor!
+Geeta kenara sıkıştı!</i>
+
+1373
+02:05:18,417 --> 02:05:21,396
+<i>Geeta güçlü bir savunma gösteriyor.</i>
+
+1374
+02:05:21,563 --> 02:05:23,607
+<i>Geeta, Naomi'ye izin vermiyor.</i>
+
+1375
+02:05:25,754 --> 02:05:27,373
+<i>Ve hakem düdüğünü çalıyor.</i>
+
+1376
+02:05:28,927 --> 02:05:33,277
+<i>Naomi büyük çaba gösterdi
+ama Geeta kendisini iyi savundu.</i>
+
+1377
+02:05:33,896 --> 02:05:35,017
+Hücum yapsana!
+
+1378
+02:05:35,852 --> 02:05:36,740
+Sabırlı ol.
+
+1379
+02:05:38,624 --> 02:05:43,163
+<i>Naomi sert oynuyor.
+Sinirlenmiş anlaşılan.</i>
+
+1380
+02:05:43,630 --> 02:05:47,435
+<i>Naomi, Geeta'nın bileğini büküyor.
+Hakem müdahale etti.</i>
+
+1381
+02:05:51,940 --> 02:05:53,981
+<i>Naomi uyarı alıyor.</i>
+
+1382
+02:05:56,302 --> 02:05:57,710
+Dayan Geeta, dayan!
+
+1383
+02:06:10,249 --> 02:06:11,786
+<i>3 puan Naomi'ye gidiyor!</i>
+
+1384
+02:06:12,894 --> 02:06:15,176
+<i>Geeta kendisini çok iyi savunuyordu.</i>
+
+1385
+02:06:15,201 --> 02:06:19,960
+<i>Büyük çaba sarfetti
+ama Naomi savunmasını aştı.</i>
+
+1386
+02:06:20,581 --> 02:06:23,460
+<i>Geeta çok çabuk harekete geçmeli.</i>
+
+1387
+02:06:29,732 --> 02:06:32,280
+<i>Geeta, Naomi'yi yere düşürüyor.
+1 puan Geeta'ya.</i>
+
+1388
+02:06:32,685 --> 02:06:34,119
+<i>Hâlâ devam ediyor.</i>
+
+1389
+02:06:40,213 --> 02:06:41,944
+<i>Ve süre sona eriyor!</i>
+
+1390
+02:06:42,139 --> 02:06:45,496
+<i>Geeta, çok iyi güreşti
+ama ilk raundu kaybetti.</i>
+
+1391
+02:06:46,253 --> 02:06:48,946
+Ne yapıyorsun Geeta?
+Neden hücum yapmıyorsun?
+
+1392
+02:06:56,272 --> 02:06:58,322
+<i>İkinci raund başlıyor.</i>
+
+1393
+02:07:03,255 --> 02:07:05,262
+<i>Naomi hücum yapıyor.</i>
+
+1394
+02:07:24,490 --> 02:07:28,452
+<i>Naomi, Geeta'yı savurmayı deniyor.
+Ama Geeta kendisini çok iyi savunuyor.</i>
+
+1395
+02:07:32,579 --> 02:07:37,325
+<i>Naomi tüm gücünü kullanıyor
+ama Geeta ona hiç fırsat vermiyor.</i>
+
+1396
+02:07:38,275 --> 02:07:40,242
+<i>Oldukça heyecanlı bir karşılaşma oluyor.</i>
+
+1397
+02:07:42,174 --> 02:07:46,903
+<i>Naomi çok çabalıyor
+ama Geeta ona hiç fırsat vermiyor.</i>
+
+1398
+02:07:49,289 --> 02:07:50,363
+<i>Naomi yine hücum ediyor.</i>
+
+1399
+02:07:51,119 --> 02:07:52,371
+<i>Geeta savunma yapıyor.</i>
+
+1400
+02:08:00,391 --> 02:08:02,245
+<i>Geeta'dan güzel bir savunma daha.</i>
+
+1401
+02:08:15,754 --> 02:08:20,186
+<i>Hakem karşılaşmayı durduruyor.
+İkinci raund hâlâ 0-0.</i>
+
+1402
+02:08:20,918 --> 02:08:26,548
+<i>Naomi, Geeta'nın savunmasını
+aşmanın yollarını merak ediyor olmalı.</i>
+
+1403
+02:08:30,221 --> 02:08:34,512
+<i>Puan kazanamazsa sinirlenecek
+ve sana fırsat verecektir.</i>
+
+1404
+02:08:34,701 --> 02:08:35,940
+<i>Naomi hücum yapıyor.</i>
+
+1405
+02:08:37,179 --> 02:08:38,908
+<i>İşte o anda hamlemizi yapacağız!</i>
+
+1406
+02:08:39,793 --> 02:08:41,249
+<i>Geeta'dan karşı hücum!</i>
+
+1407
+02:08:42,790 --> 02:08:44,051
+<i>3 puan!</i>
+
+1408
+02:08:44,979 --> 02:08:48,545
+<i>Ve Geeta bu raundu 3-0 kazanıyor.</i>
+
+1409
+02:08:51,550 --> 02:08:52,378
+Bana bak Naomi.
+
+1410
+02:08:53,049 --> 02:08:55,169
+O kız zeki biri.
+Ama sen iki katı zeki birisin.
+
+1411
+02:08:55,543 --> 02:08:56,165
+Anlaşıldı mı?
+
+1412
+02:08:56,632 --> 02:08:58,490
+Seni böyle çabuk
+sinirlendirmesine izin verme.
+
+1413
+02:08:58,522 --> 02:08:59,675
+Nasıl güreşmek bu böyle?
+
+1414
+02:08:59,851 --> 02:09:03,414
+Nasıl öğrendiysem
+öyle güreşiyorum efendim.
+
+1415
+02:09:06,051 --> 02:09:07,826
+<i>Üçüncü ve son raund başladı.</i>
+
+1416
+02:09:10,306 --> 02:09:15,030
+<i>Naomi'nin böyle temkinli oynadığını
+görmek gerçekten ilginç oldu.</i>
+
+1417
+02:09:34,185 --> 02:09:38,386
+<i>Naomi gerçekten de çok çabalıyor
+ama Geeta onu iyi püskürtüyor.</i>
+
+1418
+02:09:38,996 --> 02:09:40,593
+<i>Kilit pozisyon oldu yine.</i>
+
+1419
+02:09:48,086 --> 02:09:51,160
+<i>Naomi tekrar hücum ediyor.
+Geeta onu durduruyor.</i>
+
+1420
+02:09:54,078 --> 02:09:56,236
+<i>Naomi puan kazanabilecek mi acaba?</i>
+
+1421
+02:09:57,289 --> 02:09:58,923
+Dayan Geeta!
+
+1422
+02:10:05,293 --> 02:10:07,205
+<i>Skor hâlâ 0-0.</i>
+
+1423
+02:10:08,340 --> 02:10:09,831
+<i>Naomi çok çabalıyor.</i>
+
+1424
+02:10:13,077 --> 02:10:16,105
+<i>Geeta açık verdi
+ama savunmasını yapıyor.</i>
+
+1425
+02:10:30,719 --> 02:10:32,616
+<i>Geeta güç bela dayanabiliyor.</i>
+
+1426
+02:10:33,205 --> 02:10:35,284
+<i>Geriye sadece 12 saniye kaldı.</i>
+
+1427
+02:10:36,428 --> 02:10:38,611
+<i>Skor hâlâ 0-0.</i>
+
+1428
+02:10:40,194 --> 02:10:41,484
+<i>Geeta hücum yapıyor!</i>
+
+1429
+02:10:49,032 --> 02:10:52,969
+<i>Ve bu sesle raund 0-0 bitiyor.</i>
+
+1430
+02:10:53,346 --> 02:10:54,664
+Puan kazanabilirdi.
+
+1431
+02:10:55,784 --> 02:10:56,644
+Kura atışı yapılacak.
+
+1432
+02:10:57,286 --> 02:11:02,115
+<i>Şimdi kura atışı yapılacak.
+Buna aynı zamanda "bağlanma" deniyor.</i>
+
+1433
+02:11:02,720 --> 02:11:06,937
+<i>Kura atışını kazanan güreşçiye
+hücum pozisyonu seçme hakkı verilecek...</i>
+
+1434
+02:11:07,472 --> 02:11:10,719
+<i>...ve puan kazanması için
+30 saniye süre tanınacak.</i>
+
+1435
+02:11:11,281 --> 02:11:14,098
+<i>Kırmızı taraf gelirse
+Naomi hücüm yapacak...</i>
+
+1436
+02:11:14,428 --> 02:11:17,039
+<i>...mavi taraf gelirse
+Geeta hücum yapacak.</i>
+
+1437
+02:11:17,417 --> 02:11:21,187
+<i>Bu gibi durumların yüzde 99'unda
+kurayı kazanan taraf karşılaşmayı kazanıyor.</i>
+
+1438
+02:11:35,879 --> 02:11:39,326
+<i>Kader, Geeta'nın kazanmasını
+istemiyor anlaşılan.</i>
+
+1439
+02:11:40,753 --> 02:11:44,507
+<i>30 saniye boyunca Naomi'ye
+savunma yapmak neredeyse imkânsız.</i>
+
+1440
+02:11:46,462 --> 02:11:48,365
+- Hangi bacağı seçiyorsun?
+- Sağ.
+
+1441
+02:11:48,390 --> 02:11:51,289
+<i>Naomi, Geeta'nın sağ bacağını seçiyor.</i>
+
+1442
+02:11:51,874 --> 02:11:53,961
+<i>Geeta savunma pozisyonu alıyor.</i>
+
+1443
+02:11:55,146 --> 02:11:58,073
+<i>Naomi yerini alıyor.</i>
+
+1444
+02:11:58,519 --> 02:12:00,285
+<i>Geeta'nın şimdi iki seçeneği var.</i>
+
+1445
+02:12:00,910 --> 02:12:03,124
+<i>Ya 30 saniye boyunca
+Naomi'ye puan kazandırtmayacak...</i>
+
+1446
+02:12:03,149 --> 02:12:05,762
+<i>...ya da kendisi puan kazanıp
+karşılaşmayı kazanacak.</i>
+
+1447
+02:12:06,569 --> 02:12:11,336
+<i>Bu pozisyonda Naomi'ye karşı
+ikisi de neredeyse imkânsız.</i>
+
+1448
+02:12:27,090 --> 02:12:30,079
+<i>Geeta'yı havaya kaldırıyor!</i>
+
+1449
+02:12:33,758 --> 02:12:35,585
+<i>Ve Geeta 1 puan kazanıyor!</i>
+
+1450
+02:12:42,027 --> 02:12:45,692
+<i>Kimse Geeta'nın karşılaşmayı
+kazanmasını beklemiyordu.</i>
+
+1451
+02:12:46,266 --> 02:12:50,730
+<i>Altın madalya için
+bu heyecan verici bağlanmada...</i>
+
+1452
+02:12:50,955 --> 02:12:55,040
+<i>...bir numaralı rakibini mağlup edip...</i>
+
+1453
+02:12:55,252 --> 02:12:56,861
+<i>...finallerdeki yerini alıyor!</i>
+
+1454
+02:12:58,006 --> 02:13:00,962
+<i>Umalım da
+Geeta Phogat...</i>
+
+1455
+02:13:01,230 --> 02:13:04,561
+<i>...bu harikulade performansını
+finale de taşıyabilsin.</i>
+
+1456
+02:13:24,382 --> 02:13:27,648
+- Gidelim mi amca?
+- Sonraki karşılaşmayı izleyelim.
+
+1457
+02:13:28,280 --> 02:13:30,044
+Bakalım Geeta'nın finaldeki rakibi...
+
+1458
+02:13:30,069 --> 02:13:32,533
+...Avustralyalı mı yoksa
+İskoçyalı güreşçi mi olacak.
+
+1459
+02:13:32,927 --> 02:13:34,278
+Geeta ile büyük gurur duyuyorum.
+
+1460
+02:13:35,096 --> 02:13:39,957
+Bütün stratejilerime harfiyen uydu.
+Sonuç karşınızda.
+
+1461
+02:13:41,213 --> 02:13:42,201
+Geliyor işte.
+
+1462
+02:13:44,979 --> 02:13:46,459
+Güzel kızmış.
+
+1463
+02:13:47,934 --> 02:13:49,044
+Güreşçi olarak yani.
+
+1464
+02:13:51,331 --> 02:13:54,658
+Amca, bu DVD'deki kız değil mi?
+
+1465
+02:13:56,691 --> 02:14:00,111
+Angelina Watson.
+Geeta'yı iki defa mağlup etti.
+
+1466
+02:14:02,165 --> 02:14:06,650
+Şu ana kadar çok iyi güreşti.
+Finalde de çok iyi güreşecektir.
+
+1467
+02:14:11,955 --> 02:14:14,767
+Geeta'ya olan inancım
+her zaman tamdı.
+
+1468
+02:14:15,290 --> 02:14:18,486
+Er ya da geç bir uluslararası madalya
+kazanması gerekiyordu.
+
+1469
+02:14:23,761 --> 02:14:25,580
+Gümüş madalya şimdiden garanti bile!
+
+1470
+02:14:32,048 --> 02:14:33,819
+Final hiç de kolay olmayacak.
+
+1471
+02:14:34,399 --> 02:14:35,177
+Geeta...
+
+1472
+02:14:35,778 --> 02:14:38,899
+...oynayış tarzın çarpıcı biçimde
+değişmiş durumda. Nasıl oldu bu?
+
+1473
+02:14:44,270 --> 02:14:46,779
+Bunun için bütün övgüleri...
+
+1474
+02:14:47,576 --> 02:14:49,227
+...babam hak ediyor.
+
+1475
+02:14:52,521 --> 02:14:55,456
+Bana inanmayı hiçbir zaman bırakmaktı.
+
+1476
+02:15:04,864 --> 02:15:07,753
+- Mahavir.
+- Merhaba Bay Shamim.
+
+1477
+02:15:08,393 --> 02:15:11,697
+Tebrik ederim Mahavir.
+Geeta çok iyi güreşti.
+
+1478
+02:15:11,874 --> 02:15:15,917
+Bütün Balali gurur duyuyor.
+Kızlar, gelip karşılaşmayı...
+
+1479
+02:15:16,064 --> 02:15:19,662
+...stattan izlememiz için çok ısrar etti
+yoksa yemek yemeyeceklermiş.
+
+1480
+02:15:21,900 --> 02:15:24,034
+- Karşılaşma hoşunuza gitti mi?
+- Bayıldık!
+
+1481
+02:15:24,381 --> 02:15:26,075
+Bunu Geeta'ya verin.
+
+1482
+02:15:27,850 --> 02:15:28,572
+Nedir bu?
+
+1483
+02:15:28,734 --> 02:15:31,260
+Onun için dua ettim.
+Yarın final maçı var.
+
+1484
+02:15:34,877 --> 02:15:35,692
+Tanrı seni korusun!
+
+1485
+02:15:36,097 --> 02:15:37,413
+Buna nasıl izin veririz efendim?
+
+1486
+02:15:38,183 --> 02:15:40,933
+Mahavir Singh, seyircilerin arasından
+bağırıp Geeta'ya talimatlar veriyor.
+
+1487
+02:15:41,091 --> 02:15:43,182
+Zavallı kızın beni mi onu mu
+dinleyeyim diye kafası karışıyor.
+
+1488
+02:15:45,879 --> 02:15:49,218
+Oynayışına bakarsak
+kafası karışmışa benzemiyor hiç.
+
+1489
+02:15:51,011 --> 02:15:54,052
+Ayrıca seyircilerden
+sessiz olmasını nasıl isteyebiliriz ki?
+
+1490
+02:15:55,270 --> 02:15:56,395
+Antrenörü sen değil misin?
+
+1491
+02:15:57,821 --> 02:16:01,892
+- Seni dinlemesi gerek.
+- Evet, beni dinliyor zaten.
+
+1492
+02:16:02,329 --> 02:16:04,469
+- Bu yüzden kazanıyor ya.
+- Sorun ne o zaman?
+
+1493
+02:16:07,049 --> 02:16:08,707
+Bronz madalya istiyordun hani?
+
+1494
+02:16:10,316 --> 02:16:13,583
+Yarın altın madalya kazanması
+gayet mümkün.
+
+1495
+02:16:14,416 --> 02:16:15,031
+Değil mi?
+
+1496
+02:16:17,331 --> 02:16:21,614
+Buraya kadar gelebilmesine şaşırdım
+ama onun adına sevinçliyim.
+
+1497
+02:16:22,059 --> 02:16:24,313
+Yarın ilginç bir final karşılaşması olacak.
+
+1498
+02:16:24,561 --> 02:16:27,442
+Hindistan'da,
+Hintli seyircilerin önünde.
+
+1499
+02:16:27,974 --> 02:16:29,323
+Onu yenmek tabii ki!
+
+1500
+02:16:29,749 --> 02:16:32,279
+Angelina, finalden önce
+herhangi bir baskı var mı?
+
+1501
+02:16:32,461 --> 02:16:35,555
+Evet, eminim şimdi
+büyük bir baskı altındadır.
+
+1502
+02:16:36,921 --> 02:16:38,637
+Onu iki kere mağlup ettim.
+
+1503
+02:16:38,802 --> 02:16:40,137
+- İlk raundda mı yine?
+- Evet.
+
+1504
+02:16:40,162 --> 02:16:41,545
+Evet, ilk raundda olacak yine.
+
+1505
+02:16:42,237 --> 02:16:45,367
+Hepinize teşekkürler
+ve "Namaste!"
+
+1506
+02:16:51,414 --> 02:16:53,083
+Yarının stratejisi nedir baba?
+
+1507
+02:17:01,488 --> 02:17:03,598
+Yarın için sadece
+tek bir strateji var kızım.
+
+1508
+02:17:05,375 --> 02:17:08,630
+Öyle bir güreşmelisin ki
+insanlar seni unutmamalı.
+
+1509
+02:17:12,473 --> 02:17:13,667
+Gümüş madalya kazanırsan...
+
+1510
+02:17:14,710 --> 02:17:17,161
+...er ya da geç unutulursun.
+
+1511
+02:17:19,197 --> 02:17:22,697
+Altın madalya kazanırsan
+herkese örnek olursun.
+
+1512
+02:17:24,903 --> 02:17:28,615
+Örnekler ise kızım
+asla unutulmaz.
+
+1513
+02:17:34,061 --> 02:17:35,351
+Şu kızları görüyor musun?
+
+1514
+02:17:38,064 --> 02:17:40,553
+<i>Yarın karşılaşmayı kazanırsan,
+sadece sen değil...</i>
+
+1515
+02:17:41,367 --> 02:17:44,373
+...onlar gibi milyonlarca kız da
+seninle birlikte kazanacak.
+
+1516
+02:17:47,628 --> 02:17:51,373
+Erkeklerden aşağı görülen
+bütün kızların zaferi olacak.
+
+1517
+02:17:52,464 --> 02:17:54,286
+Ev işi yapmaya zorlananların...
+
+1518
+02:17:55,077 --> 02:17:57,095
+...çocuk doğurması için
+evlendirilenlerin.
+
+1519
+02:18:00,470 --> 02:18:03,436
+Yarınki karşılaşma
+en önemli olanı.
+
+1520
+02:18:06,939 --> 02:18:09,290
+Yarın sadece o Avustralyalı ile
+mücadele etmeyeceksin...
+
+1521
+02:18:10,489 --> 02:18:14,985
+...kızları aşağı gören bütün insanlarla
+mücadele edeceksin.
+
+1522
+02:18:22,961 --> 02:18:25,396
+<i>2010 İngiliz Milletler Topluluğu Oyunları...</i>
+
+1523
+02:18:25,896 --> 02:18:28,452
+<i>...55 kilo kadınlar güreşi
+final karşılaşması başlamak üzere.</i>
+
+1524
+02:18:29,071 --> 02:18:33,827
+<i>Hindistan'dan Geeta Kumari
+Avustralya'dan Angelina Watson'a karşı.</i>
+
+1525
+02:18:34,902 --> 02:18:40,811
+<i>Daha önce hiçbir
+Hintli kadın güreşçinin...</i>
+
+1526
+02:18:41,366 --> 02:18:44,864
+<i>İngiliz Milletler Topluluğu Oyunları'nda hiç
+altın madalya kazanmadığını hatırlatalım.</i>
+
+1527
+02:18:45,234 --> 02:18:47,344
+<i>Kalabalık, gördüğünüz gibi...</i>
+
+1528
+02:18:48,134 --> 02:18:51,918
+<i>...umutlu, hevesli
+ve hepsi elinde Hint bayrağıyla.</i>
+
+1529
+02:19:08,904 --> 02:19:11,905
+Merhaba efendim.
+Mahavir Singh siz misiniz?
+
+1530
+02:19:12,027 --> 02:19:14,339
+- Geeta'nın babası?
+- Evet. - Böyle gelin.
+
+1531
+02:19:14,913 --> 02:19:18,303
+Güreş Federasyonu başkanı
+sizinle görüşmek istiyor.
+
+1532
+02:19:18,551 --> 02:19:20,156
+Önemli bir mesele varmış.
+
+1533
+02:19:20,660 --> 02:19:23,230
+Sonra görüşürüm kendisiyle.
+Kızımın karşılaşması var.
+
+1534
+02:19:23,255 --> 02:19:25,209
+Kendisi saygı değer bir adam.
+Alınabilir.
+
+1535
+02:19:25,487 --> 02:19:28,360
+İki dakika sürmez.
+
+1536
+02:19:31,267 --> 02:19:32,556
+Sen git, ben gelirim.
+
+1537
+02:19:38,140 --> 02:19:41,469
+Bunun için bütün övgüleri
+babası hak ediyormuş.
+
+1538
+02:19:41,899 --> 02:19:43,789
+Şimdi de hak etsin.
+
+1539
+02:19:54,622 --> 02:19:57,376
+- Daha ne kadar kaldı?
+- Geldik sayılır efendim.
+
+1540
+02:20:04,976 --> 02:20:06,378
+Nereye getirdin beni böyle?
+
+1541
+02:20:08,222 --> 02:20:10,150
+Kardeş!
+
+1542
+02:20:10,175 --> 02:20:11,930
+Ne yapıyorsun kardeş?
+
+1543
+02:20:15,006 --> 02:20:19,238
+<i>Geeta gelir gelmez
+alkış tufanı kopuyor.</i>
+
+1544
+02:20:20,247 --> 02:20:21,445
+Kimse var mı orada?
+
+1545
+02:20:24,309 --> 02:20:27,378
+<i>Hey!
+Kimse var mı?</i>
+
+1546
+02:20:28,589 --> 02:20:31,208
+Final karşılaşması bu.
+Dikkatli oyna.
+
+1547
+02:21:02,285 --> 02:21:06,104
+<i>Angelina Watson da stadyuma geliyor.</i>
+
+1548
+02:21:17,322 --> 02:21:20,758
+<i>Ve final karşılaşması başlıyor.</i>
+
+1549
+02:21:21,000 --> 02:21:22,726
+Altın senin Geeta!
+
+1550
+02:21:28,626 --> 02:21:31,617
+<i>Angelina, agresif başlıyor.</i>
+
+1551
+02:21:32,700 --> 02:21:34,163
+<i>Hücum yapıyor!</i>
+
+1552
+02:21:38,010 --> 02:21:39,307
+<i>Geeta savunma yapıyor.</i>
+
+1553
+02:21:41,695 --> 02:21:43,869
+<i>Angelina hücum yapıyor.
+Geeta'dan karşı hücum.</i>
+
+1554
+02:21:44,119 --> 02:21:45,664
+<i>Ve 3 puan Geeta'ya gidiyor!</i>
+
+1555
+02:21:46,408 --> 02:21:48,937
+<i>Geeta, başlar başlamaz
+büyük bir avantaj sağlıyor.</i>
+
+1556
+02:21:50,296 --> 02:21:52,812
+<i>Geeta - 3 : Angelina - 0.</i>
+
+1557
+02:21:53,429 --> 02:21:54,336
+Aferin!
+
+1558
+02:22:09,908 --> 02:22:11,552
+<i>1 puan daha Geeta'ya gidiyor.</i>
+
+1559
+02:22:12,903 --> 02:22:16,318
+<i>Geeta - 4 : Angelina - 0.</i>
+
+1560
+02:22:16,769 --> 02:22:18,820
+<i>Geeta çok iyi güreşiyor.</i>
+
+1561
+02:22:26,370 --> 02:22:28,336
+<i>Angelina'nın çabuk davranması gerek.</i>
+
+1562
+02:22:38,146 --> 02:22:40,056
+<i>Angelina 1 puan kazanıyor.</i>
+
+1563
+02:22:40,463 --> 02:22:41,415
+Kır bacağını.
+
+1564
+02:22:41,440 --> 02:22:44,095
+<i>Angelina hamle yapmaya çalışıyor.</i>
+
+1565
+02:22:46,133 --> 02:22:49,517
+<i>Geeta iyi savunma gösteriyor.
+Hakem düdüğünü çalıyor.</i>
+
+1566
+02:22:49,806 --> 02:22:52,494
+<i>Geeta 4-1 önde.</i>
+
+1567
+02:22:58,146 --> 02:23:01,704
+<i>1 puan Geeta'ya gidiyor.
+Geeta - 5 : Angelina - 1.</i>
+
+1568
+02:23:03,046 --> 02:23:06,517
+<i>Ve bu sesle Geeta Kumari oldukça
+kolay bir şekilde ilk raundu kazanıyor.</i>
+
+1569
+02:23:06,877 --> 02:23:11,089
+<i>Angelina, bunun
+geçmişte kolayca yendiği...</i>
+
+1570
+02:23:11,114 --> 02:23:13,544
+ <i>...Geeta olmadığını anlamıştır kesin.</i>
+
+1571
+02:23:43,276 --> 02:23:45,014
+<i>Ve ikinci raund başlıyor.</i>
+
+1572
+02:23:45,267 --> 02:23:47,361
+<i>Geeta bu raundu da kazanıp
+tarihe geçecek mi acaba?</i>
+
+1573
+02:23:51,356 --> 02:23:54,346
+<i>Harika bir şekilde yere serdi!
+1 puan Geeta'ya gidiyor.</i>
+
+1574
+02:23:55,184 --> 02:23:57,748
+<i>Geeta - 1 : Angelina - 0.</i>
+
+1575
+02:23:59,789 --> 02:24:01,582
+Saldır Geeta, saldır!
+
+1576
+02:24:08,101 --> 02:24:12,204
+<i>Geeta'dan güzel bir hamle.
+2 puan daha Geeta'ya gidiyor!</i>
+
+1577
+02:24:12,348 --> 02:24:14,869
+<i>Geeta - 3 : Angelina - 0.</i>
+
+1578
+02:24:15,413 --> 02:24:18,082
+<i>Geeta, Angelina'nın
+üstüne üstüne gidiyor.</i>
+
+1579
+02:24:22,544 --> 02:24:24,462
+<i>Geeta hücum yapıyor!</i>
+
+1580
+02:24:24,915 --> 02:24:26,604
+<i>1 puan daha Geeta'ya gidiyor.</i>
+
+1581
+02:24:28,062 --> 02:24:32,472
+<i>2 puan daha kazanırsa teknik üstünlükten
+bu raundu da kazanıp şampiyon olacak.</i>
+
+1582
+02:24:33,293 --> 02:24:37,317
+<i>Geeta bütün gücüyle yükleniyor.
+Geeta kazanabilecek mi?</i>
+
+1583
+02:24:39,247 --> 02:24:41,566
+<i>Hakemin düdüğü Angelina'yı kurtarıyor!</i>
+
+1584
+02:24:41,591 --> 02:24:43,309
+<i>Sorun yok Geeta!</i>
+
+1585
+02:24:47,759 --> 02:24:49,652
+<i>Angelina öfkelenmişe benziyor!</i>
+
+1586
+02:24:54,740 --> 02:24:58,601
+<i>Angelina 1 puan kazanıyor.
+Angelina - 1 : Geeta - 4.</i>
+
+1587
+02:24:58,626 --> 02:25:00,469
+<i>Geeta tehlikeden kurtulamadı.</i>
+
+1588
+02:25:01,532 --> 02:25:03,486
+<i>2 puan daha Angelina'ya gidiyor.</i>
+
+1589
+02:25:04,622 --> 02:25:07,090
+<i>Geeta - 4 : Angelina - 3.</i>
+
+1590
+02:25:11,044 --> 02:25:12,628
+Sorun yok, böyle devam!
+
+1591
+02:25:12,653 --> 02:25:14,663
+<i>Geeta hâlâ 1 puan önde.</i>
+
+1592
+02:25:15,179 --> 02:25:17,478
+<i>Biraz daha dayanması gerek.</i>
+
+1593
+02:25:19,424 --> 02:25:21,511
+<i>Geeta avantajını koruyabilecek mi acaba?</i>
+
+1594
+02:25:23,984 --> 02:25:25,524
+<i>Zaman tükeniyor.</i>
+
+1595
+02:25:25,549 --> 02:25:29,207
+<i>Geeta iyi savunma yapıyor.
+Angelina tüm gücüyle yükleniyor.</i>
+
+1596
+02:25:31,077 --> 02:25:32,482
+<i>3 puan Angelina'ya gidiyor!</i>
+
+1597
+02:25:33,374 --> 02:25:36,051
+<i>Angelina - 6 : Geeta - 4.</i>
+
+1598
+02:25:40,716 --> 02:25:42,927
+<i>Ve böylelikle raund sona eriyor.</i>
+
+1599
+02:25:44,904 --> 02:25:49,201
+<i>Angelina, gerçek şampiyon
+nasıl olunur gösterdi!</i>
+
+1600
+02:25:49,783 --> 02:25:52,369
+Ne yapıyorsun?
+Karşılaşmayı kazanabilirdin!
+
+1601
+02:26:01,530 --> 02:26:04,631
+<i>Angelina'nın hevesi yerine gelmiş durumda.</i>
+
+1602
+02:26:06,484 --> 02:26:11,232
+<i>Geeta için hiç kolay olmayacak.</i>
+
+1603
+02:26:11,353 --> 02:26:13,763
+<i>Angelina hemen agresif oynamaya başlıyor.</i>
+
+1604
+02:26:21,164 --> 02:26:24,347
+<i>3 puan Angelina'ya gidiyor!</i>
+
+1605
+02:26:24,910 --> 02:26:28,154
+<i>Son raundda 3 puan öne geçiyor!</i>
+
+1606
+02:26:29,490 --> 02:26:32,330
+<i>Angelina - 3 : Geeta - 0.</i>
+
+1607
+02:26:44,595 --> 02:26:46,254
+<i>1 puan daha Angelina'ya gidiyor.</i>
+
+1608
+02:26:47,361 --> 02:26:50,396
+<i>Angelina - 4 : Geeta - 0.</i>
+
+1609
+02:26:50,902 --> 02:26:54,680
+<i>Karşılaşma
+Angelina'nın lehine ilerliyor.</i>
+
+1610
+02:26:54,995 --> 02:27:00,335
+<i>Geeta yetişmek istiyorsa
+çabucak puan kazanmak zorunda.</i>
+
+1611
+02:27:06,457 --> 02:27:08,021
+<i>Geeta'dan akıllıca bir hamle.</i>
+
+1612
+02:27:11,158 --> 02:27:13,249
+<i>Geeta 1 puan kazanıyor!</i>
+
+1613
+02:27:14,479 --> 02:27:18,765
+<i>Angelina - 4 : Geeta - 1.</i>
+
+1614
+02:27:19,366 --> 02:27:23,904
+<i>Zaman tükeniyor.
+Geeta'nın elini çabuk tutması gerek.</i>
+
+1615
+02:27:23,929 --> 02:27:25,148
+<i>Ama dikkatli olması lazım...</i>
+
+1616
+02:27:25,173 --> 02:27:29,429
+<i>...Angelina yine puan kazanırsa
+yetişmesi imkânsız olacak.</i>
+
+1617
+02:27:35,359 --> 02:27:38,093
+<i>Geeta hücum yapıyor
+ama Angelina 1 puan kazanıyor!</i>
+
+1618
+02:27:40,563 --> 02:27:43,515
+<i>Angelina - 5 : Geeta - 1.</i>
+
+1619
+02:27:45,037 --> 02:27:50,062
+<i>Geeta'nın arayı kapatması
+artık neredeyse imkânsız!</i>
+
+1620
+02:27:59,798 --> 02:28:01,999
+<i>Sakın unutmayın!</i>
+
+1621
+02:28:03,497 --> 02:28:06,355
+<i>Babanız her zaman sizi kurtarmak için
+yanınızda olmayacak.</i>
+
+1622
+02:28:07,085 --> 02:28:09,088
+<i>Ben size sadece
+mücadele etmeyi öğretebilirim.</i>
+
+1623
+02:28:09,113 --> 02:28:10,658
+<i>Siz mücadeleyi
+kendi başınıza vereceksiniz!</i>
+
+1624
+02:28:10,683 --> 02:28:12,577
+<i>Çabalayın.
+Kendinizi kurtarın.</i>
+
+1625
+02:28:20,155 --> 02:28:22,179
+<i>Geriye sadece 22 saniye kaldı.</i>
+
+1626
+02:28:23,077 --> 02:28:25,881
+<i>Geeta ise 4 puan geride.</i>
+
+1627
+02:28:27,298 --> 02:28:31,562
+<i>Bu durumda,
+bu kadar kısa sürede...</i>
+
+1628
+02:28:32,268 --> 02:28:35,200
+<i>...aradaki farkı kapatmak
+neredeyse imkânsız.</i>
+
+1629
+02:28:46,411 --> 02:28:49,476
+<i>5 puan kazanmak zordur...</i>
+
+1630
+02:28:51,295 --> 02:28:52,815
+<i>...ama imkânsız değil.</i>
+
+1631
+02:28:55,315 --> 02:28:59,452
+<i>Geeta hamle yapıyor
+ama Angelina zaman öldürüyor.</i>
+
+1632
+02:29:02,707 --> 02:29:05,270
+<i>Sadece birkaç saniye kaldı.</i>
+
+1633
+02:29:05,737 --> 02:29:09,852
+<i>Hindistan, gümüş madalya kazandı
+diyebiliriz.</i>
+
+1634
+02:29:34,545 --> 02:29:37,298
+<i>Rakibinin aklını karıştırmak zorundasın.</i>
+
+1635
+02:29:39,570 --> 02:29:43,149
+<i>Yalandan bir hamle yapıp
+başka bir hamle yapacaksın.</i>
+
+1636
+02:29:50,702 --> 02:29:52,774
+<i>Geeta'dan fantastik bir hareket!</i>
+
+1637
+02:29:55,435 --> 02:29:57,239
+<i>Zaman yetecek mi acaba?</i>
+
+1638
+02:30:38,506 --> 02:30:40,469
+<i>Geeta altın madalyayı kazanıyor!</i>
+
+1639
+02:30:44,129 --> 02:30:46,589
+<i>Geeta imkânsızı başardı!</i>
+
+1640
+02:30:49,566 --> 02:30:52,229
+<i>İngiliz Milletler Topluluğu Oyunları'nda
+altın madalya kazanan...</i>
+
+1641
+02:30:52,254 --> 02:30:54,690
+<i>...ilk Hintli kadın güreşçi oluyor!</i>
+
+1642
+02:30:56,130 --> 02:30:59,520
+<i>Hindistan'ın küçük bir
+köyünden gelen kızın...</i>
+
+1643
+02:31:00,215 --> 02:31:03,300
+<i>...bütün dünyada
+hafızalara kazınacağını kim bilebilirdi!</i>
+
+1644
+02:31:05,110 --> 02:31:08,932
+<i>Aferin Geeta!
+Hindistan için büyük bir gurur!</i>
+
+1645
+02:31:55,254 --> 02:31:57,928
+- Şampiyon!
+- Babam nerede?
+
+1646
+02:31:58,673 --> 02:32:01,069
+Bilmiyorum.
+Beraber geldik ama.
+
+1647
+02:32:14,528 --> 02:32:19,026
+<i>Ve altın madalya Hindistan'dan
+Geeta Kumari Phogat'a veriliyor.</i>
+
+1648
+02:32:25,040 --> 02:32:27,143
+<i>Şimdi de oyun gelenekleri gereği...</i>
+
+1649
+02:32:27,894 --> 02:32:30,925
+<i>...kazanan ülkenin
+milli marşı çalınacak.</i>
+
+1650
+02:33:33,053 --> 02:33:34,824
+Zafer Hindistan'ın!
+
+1651
+02:33:41,932 --> 02:33:43,837
+Ne arıyorsun burada sen?
+
+1652
+02:34:07,843 --> 02:34:10,931
+Geeta, buraya gel.
+Basın bekliyor.
+
+1653
+02:34:11,728 --> 02:34:12,328
+Gel hadi.
+
+1654
+02:34:14,127 --> 02:34:15,274
+Hadi, herkes bekliyor.
+
+1655
+02:34:17,950 --> 02:34:18,852
+Gel bakalım.
+
+1656
+02:35:19,919 --> 02:35:24,395
+<i>Nihayet amcam, son 10 yıldır...</i>
+
+1657
+02:35:24,501 --> 02:35:29,012
+<i>...duymak için beklediğimiz
+o altın sözleri ağzından çıkardı.</i>
+
+1658
+02:35:30,977 --> 02:35:32,540
+Seninle gurur duyuyorum!
+
+1659
+02:35:46,494 --> 02:35:52,494
+<b>Çeviri: hasangdr
+twitter.com/hasangdr</b>
+
+1660
+02:35:58,522 --> 02:36:02,915
+<i>2010 Delhi İMT Oyunları'nda
+Geeta 55 kiloda altın madalya kazanırken...</i>
+
+1661
+02:36:02,940 --> 02:36:05,210
+<i>...Babita 51 kiloda
+gümüş madalya kazanmıştır.</i>
+
+1662
+02:36:06,941 --> 02:36:10,010
+<i>Babita daha sonra katıldığı
+2014 Glasgow İMT Oyunları'nda...</i>
+
+1663
+02:36:10,035 --> 02:36:12,097
+<i>...55 kiloda
+altında madalya kazanmıştır.</i>
+
+1664
+02:36:14,269 --> 02:36:15,499
+<i>2012 yılında Geeta...</i>
+
+1665
+02:36:15,524 --> 02:36:19,215
+<i>...Olimpiyatlar'a katılmaya hak kazanan
+ilk Hintli kadın güreşçi olmuştur.</i>
+
+1666
+02:36:20,776 --> 02:36:23,963
+<i>Şu ana kadar Geeta ve Babita
+Uluslararası Güreş Müsabakalarında...</i>
+
+1667
+02:36:23,988 --> 02:36:25,511
+<i>...toplam 29 madalya kazanmıştır.</i>
+
+1668
+02:36:26,858 --> 02:36:30,207
+<i>Mahavir Singh'in çıkarttığı kıvılcım
+durdurulamaz bir yangına dönüşmüştür.</i>
+
+1669
+02:36:30,232 --> 02:36:33,365
+<i>Gayretleri, Hindistan'daki binlerce
+kıza ilham verip güreşe başlatmıştır.</i>
