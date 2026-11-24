@@ -1,20819 +1,10410 @@
-﻿1
-
+1
 00:01:22,749 --> 00:01:24,376
-
 Pandora'nın ormanları...
 
-
-
 2
-
 00:01:25,169 --> 00:01:26,628
-
 birçok tehlike barındırır.
 
-
-
 3
-
 00:01:33,510 --> 00:01:34,803
-
 Ama en tehlikelisi...
 
-
-
 4
-
 00:01:34,928 --> 00:01:35,721
-
 pandora hakkında...
 
-
-
 5
-
 00:01:40,559 --> 00:01:42,811
-
 büyüyüp onu çok fazla sevmendir.
 
-
-
 6
-
 00:01:55,824 --> 00:01:57,784
-
 Hatırlamak için şarkı sözleri söylüyoruz.
 
-
-
 7
-
 00:01:58,827 --> 00:01:59,828
-
 Her boncuk...
 
-
-
 8
-
 00:02:00,537 --> 00:02:01,496
-
 hayatımızda bir hikaye.
 
-
-
 9
-
 00:02:03,916 --> 00:02:05,667
-
 Oğlumuzun doğumu için bir boncuk.
 
-
-
 10
-
 00:02:10,797 --> 00:02:11,798
-
 Neteyam!
-
-
 
 11
-
 00:02:12,591 --> 00:02:13,759
-
 Neteyam!
-
-
 
 12
-
 00:02:21,099 --> 00:02:21,725
-
 bir boncuk...
-
-
 
 13
-
 00:02:21,850 --> 00:02:24,061
-
 kızımız Kiri'yi evlat
-
 edindiğimizde.
 
-
-
 14
-
 00:02:25,729 --> 00:02:27,189
-
 Grace'in avatarından doğdu.
 
-
-
 15
-
 00:02:28,440 --> 00:02:30,651
-
 Gebeliği tam bir muamma
-
 olan bir kız.
 
-
-
 16
-
 00:02:45,541 --> 00:02:46,166
-
 bir boncuk...
 
-
-
 17
-
 00:02:46,291 --> 00:02:47,626
-
 Eywa ile ilk buluşma için.
 
-
-
 18
-
 00:02:51,672 --> 00:02:53,131
-
 Halk diyor ki...
 
-
-
 19
-
 00:02:53,257 --> 00:02:54,091
-
 Eywa'da yaşıyoruz...
 
-
-
 20
-
 00:02:56,051 --> 00:02:57,886
-
 ve Eywa içimizde yaşıyor.
 
-
-
 21
-
 00:03:00,806 --> 00:03:02,266
-
 Büyük Anne...
 
-
-
 22
-
 00:03:02,391 --> 00:03:03,684
-
 tüm çocuklarına sahip çıkıyor...
 
-
-
 23
-
 00:03:03,809 --> 00:03:04,560
-
 onun kalbinde
 
-
-
 24
-
 00:03:13,819 --> 00:03:14,945
-
 Mutluluk basittir.
-
-
 
 25
-
 00:03:17,281 --> 00:03:19,533
-
 Ama benim gibi bir cahilin şifreyi
-
 çözebileceği kimin aklına gelirdi?
 
-
-
 26
-
 00:03:30,043 --> 00:03:31,545
-
 Ben farkına bile varmadan,
-
 dört kişiydik.
 
-
-
 27
-
 00:03:35,924 --> 00:03:37,968
-
 Gökyüzü İnsanlarını Dünya'ya
-
 geri gönderdiğimizde...
 
-
-
 28
-
 00:03:38,135 --> 00:03:39,595
-
 birkaçı kaldı.
 
-
-
 29
-
 00:03:40,262 --> 00:03:42,139
-
 Bilim adamları,
-
 Na'vi'ye sadık.
 
-
-
 30
-
 00:03:43,974 --> 00:03:45,225
-
 Ve sonra Örümcek
-
 vardı.
-
-
 
 31
-
 00:03:46,143 --> 00:03:47,227
-
 Burada sıkışıp kalmıştı.
 
-
-
 32
-
 00:03:47,394 --> 00:03:48,979
-
 Kriyo-kapsül için
-
 çok genç.
 
-
-
 33
-
 00:03:49,563 --> 00:03:50,814
-
 Seni küçük vahşi adam.
 
-
-
 34
-
 00:03:50,939 --> 00:03:51,565
-
 Görüşürüz Norm!
 
-
-
 35
-
 00:03:51,690 --> 00:03:52,441
-
 Savaştan yetim kalan...
 
-
-
 36
-
 00:03:52,608 --> 00:03:54,067
-
 laboratuvardaki adamlar
-
 tarafından büyütüldü.
 
-
-
 37
-
 00:03:54,193 --> 00:03:54,860
-
 Örümcek, yedeğini
-
 al!
 
-
-
 38
-
 00:03:54,985 --> 00:03:56,403
-
 Sadece köye
-
 gidiyorum!
 
-
-
 39
-
 00:03:57,946 --> 00:03:59,531
-
 Ailemizin bir parçası
-
 değildi.
 
-
-
 40
-
 00:03:59,698 --> 00:04:00,949
-
 Sokak kedisi gibiydi.
 
-
-
 41
-
 00:04:01,116 --> 00:04:02,117
-
 Sadece her zaman etrafta.
 
-
-
 42
-
 00:04:03,869 --> 00:04:05,621
-
 Çocuklarımızdan
-
 ayrılmaz.
 
-
-
 43
-
 00:04:09,541 --> 00:04:10,751
-
 Neytiri'ye...
 
-
-
 44
-
 00:04:10,918 --> 00:04:12,211
-
 o her zaman yabancı
-
 olurdu.
 
-
-
 45
-
 00:04:13,086 --> 00:04:14,087
-
 Onlardan biri.
 
-
-
 46
-
 00:04:25,641 --> 00:04:28,268
-
 {\an8}Dili kalın kafama sokmak
-
 birkaç yılımı aldı.
 
-
-
 47
-
 00:04:29,311 --> 00:04:30,437
-
 {\an8}Ama şimdi
-
 duyduğumda...
 
-
-
 48
-
 00:04:30,562 --> 00:04:31,563
-
 {\an8}İngilizce de olabilir.
 
-
-
 49
-
 00:04:32,022 --> 00:04:33,023
-
 {\an8}Senden nefret ediyorum!
 
-
-
 50
-
 00:04:33,857 --> 00:04:36,401
-
 Senden sonsuza kadar nefret
-
 ediyorum Lo'ak!
 
-
-
 51
-
 00:04:36,652 --> 00:04:37,653
-
 penis surat!
 
-
-
 52
-
 00:04:37,819 --> 00:04:39,655
-
 Hey! Hey! Bu
-
 yeterli.
 
-
-
 53
-
 00:04:40,239 --> 00:04:41,823
-
 Beni oraya
-
 getirme.
 
-
-
 54
-
 00:04:41,990 --> 00:04:44,368
-
 O büyük kayaların arkasından
-
 çıkacak.
 
-
-
 55
-
 00:04:44,535 --> 00:04:45,786
-
 İşte burada.
 
-
-
 56
-
 00:04:48,622 --> 00:04:49,790
-
 İşte gidiyorsun.
-
 Git al!
 
-
-
 57
-
 00:04:49,915 --> 00:04:50,541
-
 Evet!
-
-
 
 58
-
 00:04:52,125 --> 00:04:53,919
-
 Hey, güçlü balıkçı
-
 Neteyam.
-
-
 
 59
-
 00:04:54,419 --> 00:04:55,420
-
 İşte gidiyorsun. İyi çocuk.
 
-
-
 60
-
 00:04:59,883 --> 00:05:01,009
-
 Vay canına, bu büyük bir tane.
 
-
-
 61
-
 00:05:01,176 --> 00:05:02,177
-
 Kayaların yanında.
-
-
 
 62
-
 00:05:03,512 --> 00:05:04,513
-
 Dediğin
-
 yerde.
 
-
-
 63
-
 00:05:05,347 --> 00:05:06,348
-
 O ne kadar uzun?
 
-
-
 64
-
 00:05:06,515 --> 00:05:08,350
-
 -O... o kadar uzun.
-
 -Uzun boylu!
 
-
-
 65
-
 00:05:08,517 --> 00:05:09,726
-
 Çok hızlı
-
 geçiyor.
 
-
-
 66
-
 00:05:10,394 --> 00:05:11,395
-
 Bir rüya gibi.
 
-
-
 67
-
 00:05:13,146 --> 00:05:14,398
-
 -Kiri. -Kardeşim,
-
 hadi.
-
-
 
 68
-
 00:05:14,565 --> 00:05:15,566
-
 Hadi.
-
-
 
 69
-
 00:05:16,650 --> 00:05:17,651
-
 Gülümse, skxawng.
 
-
-
 70
-
 00:05:18,735 --> 00:05:20,070
-
 Mutluluk basittir.
 
-
-
 71
-
 00:05:23,532 --> 00:05:24,533
-
 Randevu gecesi gibi.
 
-
-
 72
-
 00:05:25,075 --> 00:05:26,410
-
 Çocuklardan ayrı geçirilen zaman.
 
-
-
 73
-
 00:05:58,150 --> 00:05:59,985
-
 Ama mutluluk
-
 meselesi...
 
-
-
 74
-
 00:06:02,404 --> 00:06:03,780
-
 bir kalp atışında
-
 yok olabilir.
 
-
-
 75
-
 00:06:10,495 --> 00:06:12,164
-
 Gecenin yeni yıldızı.
 
-
-
 76
-
 00:06:14,041 --> 00:06:15,375
-
 Bunun tek bir anlamı olabilir.
 
-
-
 77
-
 00:06:22,799 --> 00:06:25,135
-
 gemiler. Yavaşlıyor.
 
-
-
 78
-
 00:06:34,144 --> 00:06:35,771
-
 Ve Sky People
-
 geri dönüyor.
 
-
-
 79
-
 00:09:05,963 --> 00:09:07,714
-
 Nabız 168.
 
-
-
 80
-
 00:09:07,881 --> 00:09:08,924
-
 Evet, işte geliyor.
 
-
-
 81
-
 00:09:09,091 --> 00:09:10,092
-
 sen iyisin
 
-
-
 82
-
 00:09:10,717 --> 00:09:11,718
-
 Kıpırdamadan yat.
 
-
-
 83
-
 00:09:12,219 --> 00:09:13,220
-
 Sakin ol.
-
-
 
 84
-
 00:09:15,222 --> 00:09:17,432
-
 Evet. Pupil refleksi
-
 iyidir.
 
-
-
 85
-
 00:09:17,599 --> 00:09:18,725
-
 Bunu suratından çıkar.
 
-
-
 86
-
 00:09:19,309 --> 00:09:19,935
-
 albay...
-
-
 
 87
-
 00:09:20,853 --> 00:09:21,562
-
 Beni duyabiliyor musun?
 
-
-
 88
-
 00:09:21,979 --> 00:09:22,604
-
 Albay?
-
-
 
 89
-
 00:09:25,858 --> 00:09:27,192
-
 Tekrar uzanmanız gerekiyor,
-
 efendim.
-
-
 
 90
-
 00:09:32,614 --> 00:09:33,782
-
 Onu sakinleştir!
 
-
-
 91
-
 00:09:33,991 --> 00:09:34,908
-
 Defol git buradan.
-
-
 
 92
-
 00:09:35,492 --> 00:09:36,159
-
 Yürü! Yürü! Yürü!
-
-
 
 93
-
 00:09:36,451 --> 00:09:37,119
-
 Güvenliği alın!
 
-
-
 94
-
 00:09:37,286 --> 00:09:38,287
-
 -Yakala onu!
 
-
-
 95
-
 00:09:39,580 --> 00:09:40,497
-
 Tut onu!
-
-
 
 96
-
 00:09:40,622 --> 00:09:41,248
-
 Sakin ol!
-
-
 
 97
-
 00:09:41,415 --> 00:09:42,416
-
 Albay, geri
-
 çekilin!
 
-
-
 98
-
 00:09:42,749 --> 00:09:43,375
-
 albay...
-
-
 
 99
-
 00:09:43,500 --> 00:09:44,126
-
 benim!
 
-
-
 100
-
 00:09:44,501 --> 00:09:45,502
-
 Onbaşı Wainfleet!
 
-
-
 101
-
 00:09:49,464 --> 00:09:50,465
-
 Lyle mı?
 
-
-
 102
-
 00:09:52,050 --> 00:09:53,051
-
 Sen mi?
 
-
-
 103
-
 00:09:53,552 --> 00:09:55,971
-
 Evet efendim.
-
 Ve Z Köpek.
 
-
-
 104
-
 00:09:57,306 --> 00:09:58,307
-
 Ve Fike.
 
-
-
 105
-
 00:10:01,768 --> 00:10:02,978
-
 Ben iyiyim. Gitmeme
-
 izin ver.
-
-
 
 106
-
 00:10:03,770 --> 00:10:04,771
-
 Ben iyiyim.
 
-
-
 107
-
 00:10:26,168 --> 00:10:27,169
-
 Kuyu...
 
-
-
 108
-
 00:10:28,420 --> 00:10:30,297
-
 Bu bir orospu değil mi?
 
-
-
 109
-
 00:10:39,640 --> 00:10:43,769
-
 Yanında olmak. Pandora'nın girmesine iki
-
 dakika var. Delta V için emniyete alın.
 
-
-
 110
-
 00:10:45,812 --> 00:10:47,189
-
 Elbette. Göbek temiz.
 
-
-
 111
-
 00:10:48,273 --> 00:10:49,608
-
 Nabız öküz 89.
 
-
-
 112
-
 00:10:51,193 --> 00:10:54,821
-
 Henüz anlamadıysanız, siz Albay
-
 Miles Quaritch'siniz.
 
-
-
 113
-
 00:10:54,988 --> 00:10:57,616
-
 Sadece daha genç, daha
-
 uzun, daha mavi...
 
-
-
 114
-
 00:10:57,741 --> 00:10:59,326
-
 ve o kadar da yakışıklı
-
 değil.
-
-
 
 115
-
 00:11:00,410 --> 00:11:02,079
-
 İki saat içinde, bir
-
 göreve uçuyorum...
 
-
-
 116
-
 00:11:02,204 --> 00:11:03,956
-
 Na'vi'nin kalesine
-
 karşı.
 
-
-
 117
-
 00:11:04,122 --> 00:11:08,877
-
 Her ihtimale karşı bu yedeklemeyi yapmamın
-
 ihtiyatlı olduğu düşünülen güçler.
 
-
-
 118
-
 00:11:09,044 --> 00:11:11,213
-
 Ve eğer onu izliyorsan,
-
 peki...
 
-
-
 119
-
 00:11:11,380 --> 00:11:13,465
-
 Bu, biletimi deldirdiğim
-
 anlamına geliyor.
 
-
-
 120
-
 00:11:15,676 --> 00:11:16,677
-
 Hey, Parker...
 
-
-
 121
-
 00:11:17,052 --> 00:11:18,846
-
 şimdi ne
-
 demeliyim?
 
-
-
 122
-
 00:11:19,346 --> 00:11:20,848
-
 Ona bunun nasıl çalıştığını
-
 hatırlat.
 
-
-
 123
-
 00:11:21,306 --> 00:11:22,808
-
 Burada.
-
-
 
 124
-
 00:11:23,267 --> 00:11:25,894
-
 Bunu görüyor musun? Bu, tüm anılarınız
-
 ve kişiliğinizdir.
 
-
-
 125
-
 00:11:26,061 --> 00:11:27,354
-
 Bunu Dünya'ya geri
-
 göndereceğiz...
 
-
-
 126
-
 00:11:27,521 --> 00:11:29,857
-
 biz konuşurken bir laboratuvarda
-
 büyüdüğünüz yer.
 
-
-
 127
-
 00:11:30,023 --> 00:11:31,608
-
 Seni onunla damgalayacağız
-
 ve sonra...
 
-
-
 128
-
 00:11:31,733 --> 00:11:32,359
-
 Hey hey hey.
 
-
-
 129
-
 00:11:32,526 --> 00:11:34,111
-
 Bunu ben mi yapıyorum yoksa
-
 sen mi yapıyorsun?
 
-
-
 130
-
 00:11:34,236 --> 00:11:35,195
-
 Acele et.
 
-
-
 131
-
 00:11:35,779 --> 00:11:37,197
-
 Her neyse,
-
 fikir...
 
-
-
 132
-
 00:11:37,322 --> 00:11:41,118
-
 dünyadaki en tuzlu operatörlerin
-
 aklını almaktır.
 
-
-
 133
-
 00:11:41,285 --> 00:11:44,496
-
 Evet, oradaki Onbaşı
-
 Wainfleet gibi...
 
-
-
 134
-
 00:11:45,289 --> 00:11:47,332
-
 ve alçakgönüllü
-
 anlatıcınız...
 
-
-
 135
-
 00:11:47,499 --> 00:11:49,042
-
 rekombinant cisimler
 
-
-
 136
-
 00:11:49,793 --> 00:11:51,336
-
 Artık bir tavsiye subayısın,
-
 Albay...
-
-
 
 137
-
 00:11:51,461 --> 00:11:53,881
-
 anılarımla ve çekiciliğimle
-
 dolu.
 
-
-
 138
-
 00:11:54,965 --> 00:11:56,800
-
 Hatırlamayacağın şey
-
 benim ölümüm...
 
-
-
 139
-
 00:11:56,967 --> 00:11:58,302
-
 çünkü henüz
-
 olmadı...
 
-
-
 140
-
 00:11:58,802 --> 00:12:00,012
-
 ve olmayacak.
 
-
-
 141
-
 00:12:00,179 --> 00:12:01,597
-
 - Çok doğru.
-
 - Evet.
 
-
-
 142
-
 00:12:02,139 --> 00:12:03,307
-
 Peki, ne olduysa...
 
-
-
 143
-
 00:12:04,725 --> 00:12:07,561
-
 Eğer benim herhangi bir klonumsan,
-
 biraz intikam arıyor olacaksın.
 
-
-
 144
-
 00:12:07,728 --> 00:12:10,022
-
 Ve Jake Sully bu listenin
-
 başında olurdu.
 
-
-
 145
-
 00:12:13,859 --> 00:12:14,860
-
 Unutma evlat...
 
-
-
 146
-
 00:12:15,611 --> 00:12:17,070
-
 bir Denizci
-
 yenilmez.
 
-
-
 147
-
 00:12:17,863 --> 00:12:18,989
-
 Ah, bizi öldürebilirsin...
 
-
-
 148
-
 00:12:19,823 --> 00:12:21,533
-
 ama cehennemde yeniden
-
 toplanacağız.
 
-
-
 149
-
 00:12:22,993 --> 00:12:23,994
-
 Semper fi.
 
-
-
 150
-
 00:12:52,689 --> 00:12:53,982
-
 Yer ekibi, gidin!
 
-
-
 151
-
 00:13:47,953 --> 00:13:49,204
-
 Bunu al! Gitmek!
 
-
-
 152
-
 00:13:54,042 --> 00:13:55,627
-
 Hadi gidelim. İki dakika
-
 millet. Hadi gidelim.
 
-
-
 153
-
 00:14:00,048 --> 00:14:01,884
-
 Kardeşim, oraya
-
 gitmeliyiz.
 
-
-
 154
-
 00:14:02,426 --> 00:14:04,094
-
 Mümkün değil! Babam
-
 derimizi yüzecek!
 
-
-
 155
-
 00:14:04,261 --> 00:14:06,013
-
 Hadi. Korkak
-
 olma.
 
-
-
 156
-
 00:14:06,555 --> 00:14:07,431
-
 Bak!
-
-
 
 157
-
 00:14:07,681 --> 00:14:09,016
-
 Buraya geri
-
 dön, sen...
 
-
-
 158
-
 00:14:12,311 --> 00:14:13,312
-
 Tüm davayı
-
 almak!
 
-
-
 159
-
 00:14:13,478 --> 00:14:15,022
-
 Dergileri, RPG'leri,
-
 iğneleri alıyoruz.
 
-
-
 160
-
 00:14:19,443 --> 00:14:20,652
-
 Kardeşim, gidelim. Hadi!
 
-
-
 161
-
 00:14:21,028 --> 00:14:21,862
-
 Tamam hadi gidelim!
 
-
-
 162
-
 00:14:23,947 --> 00:14:24,948
-
 Taşınmak! Al bunu!
 
-
-
 163
-
 00:14:25,866 --> 00:14:26,575
-
 Bu silahları al.
 
-
-
 164
-
 00:14:26,700 --> 00:14:27,326
-
 İşte evlat. Gitmek!
 
-
-
 165
-
 00:14:29,786 --> 00:14:31,121
-
 Nasıl kullanılacağını
-
 bile bilmiyorsun.
 
-
-
 166
-
 00:14:32,664 --> 00:14:33,916
-
 Babam öğretti.
 
-
-
 167
-
 00:14:41,882 --> 00:14:42,758
-
 Savaş helikopteri
-
 geliyor!
-
-
 
 168
-
 00:14:50,724 --> 00:14:51,725
-
 Kardeşim, hadi!
-
-
 
 169
-
 00:15:01,944 --> 00:15:03,237
-
 Lo'ak, neredesin?
 
-
-
 170
-
 00:15:03,362 --> 00:15:04,112
-
 Neteyam!
-
-
 
 171
-
 00:15:05,280 --> 00:15:06,740
-
 Sakin ol, sakin ol, iyi misin?
 
-
-
 172
-
 00:15:06,907 --> 00:15:08,492
-
 -Evet. -Kardeşin
-
 nerede?
 
-
-
 173
-
 00:15:09,201 --> 00:15:10,327
-
 -Bu taraftan. -O
-
 nerede? Nerede?
 
-
-
 174
-
 00:15:10,494 --> 00:15:11,245
-
 Defol git buradan!
 
-
-
 175
-
 00:15:11,370 --> 00:15:11,995
-
 Devam et!
 
-
-
 176
-
 00:15:13,205 --> 00:15:14,206
-
 Neteyam!
-
-
 
 177
-
 00:15:16,750 --> 00:15:17,751
-
 Oh hayır.
-
-
 
 178
-
 00:15:19,795 --> 00:15:21,463
-
 Hayır, hayır, hayır.
 
-
-
 179
-
 00:15:22,172 --> 00:15:23,215
-
 Aman Tanrım.
 
-
-
 180
-
 00:15:28,470 --> 00:15:29,471
-
 Baba?
 
-
-
 181
-
 00:15:32,432 --> 00:15:34,476
-
 Burada ne yapıyorsun oğlum?
-
 Ne halt düşünüyordun?
 
-
-
 182
-
 00:15:35,561 --> 00:15:36,562
-
 Üzgünüm.
-
-
 
 183
-
 00:15:38,397 --> 00:15:39,439
-
 Üzgünüm efendim.
-
-
 
 184
-
 00:15:43,735 --> 00:15:45,863
-
 Artık Kansas'ta değiliz.
 
-
-
 185
-
 00:15:46,989 --> 00:15:48,699
-
 Pandora'ya gidiyoruz.
 
-
-
 186
-
 00:15:49,950 --> 00:15:50,993
-
 Şimdi...
 
-
-
 187
-
 00:15:51,577 --> 00:15:54,955
-
 Hepinizin kendinize aynı soruyu
-
 sorduğunuzu biliyorum.
 
-
-
 188
-
 00:15:57,958 --> 00:15:59,084
-
 Neden bu kadar mavi?
 
-
-
 189
-
 00:16:03,630 --> 00:16:05,007
-
 Geçmiş hayatımızdaki
-
 günahlarımız için...
 
-
-
 190
-
 00:16:05,215 --> 00:16:06,049
-
 geri
-
 getirildik...
 
-
-
 191
-
 00:16:06,175 --> 00:16:08,468
-
 düşmanımız
-
 şeklinde.
 
-
-
 192
-
 00:16:08,635 --> 00:16:12,556
-
 Bu bize onların boyutlarını, güçlerini
-
 ve hızlarını verir.
 
-
-
 193
-
 00:16:12,973 --> 00:16:14,975
-
 Ve
-
 eğitimlerimizle...
 
-
-
 194
-
 00:16:15,392 --> 00:16:16,894
-
 bu oldukça güçlü
-
 bir karışım.
 
-
-
 195
-
 00:16:18,770 --> 00:16:19,980
-
 Henüz bir görevimiz
-
 var mı?
-
-
 
 196
-
 00:16:20,147 --> 00:16:21,356
-
 Gerçekten
-
 de öyle.
 
-
-
 197
-
 00:16:22,316 --> 00:16:24,818
-
 Görevimiz avlanmak
-
 ve öldürmek...
 
-
-
 198
-
 00:16:24,985 --> 00:16:26,904
-
 Na'vi isyanının
-
 lideri.
 
-
-
 199
-
 00:16:27,779 --> 00:16:30,908
-
 Toruk Makto
-
 dedikleri.
 
-
-
 200
-
 00:16:31,575 --> 00:16:32,826
-
 Jake Sully.
-
-
 
 201
-
 00:16:32,993 --> 00:16:33,952
-
 Evet!
-
-
 
 202
-
 00:16:41,710 --> 00:16:43,212
-
 Saldırın, saldırın!
 
-
-
 203
-
 00:16:44,129 --> 00:16:45,380
-
 Anladım!
-
-
 
 204
-
 00:16:45,547 --> 00:16:46,298
-
 Tuk!
-
-
 
 205
-
 00:16:46,423 --> 00:16:47,049
-
 Hadi!
-
-
 
 206
-
 00:16:47,549 --> 00:16:49,051
-
 Maviyken kesinlikle
-
 daha hızlıyım.
 
-
-
 207
-
 00:16:49,218 --> 00:16:50,219
-
 Skxawng.
 
-
-
 208
-
 00:16:50,385 --> 00:16:51,386
-
 Yok gerçekten.
 
-
-
 209
-
 00:16:51,512 --> 00:16:52,596
-
 Ve hayvanlar bana daha
-
 çok saygı duyuyor.
 
-
-
 210
-
 00:16:52,763 --> 00:16:54,264
-
 Beni insan olarak
-
 görmüyorlar.
 
-
-
 211
-
 00:16:54,431 --> 00:16:56,141
-
 Beklemek. insan
-
 mısın
 
-
-
 212
-
 00:17:06,318 --> 00:17:07,319
-
 Geliyorlar!
-
-
 
 213
-
 00:17:12,616 --> 00:17:13,575
-
 Geliyorlar!
 
-
-
 214
-
 00:17:13,700 --> 00:17:14,701
-
 Kiri, Örümcek!
 
-
-
 215
-
 00:17:14,992 --> 00:17:16,744
-
 Savaş partisi
-
 geri geliyor!
 
-
-
 216
-
 00:17:16,912 --> 00:17:18,163
-
 Hadi
-
 hadi.
-
-
 
 217
-
 00:17:18,329 --> 00:17:19,705
-
 Hadi gidelim,
-
 hadi.
-
-
 
 218
-
 00:17:34,346 --> 00:17:35,389
-
 -Anne!
-
 -Tuk...
 
-
-
 219
-
 00:17:35,556 --> 00:17:37,099
-
 -Anne. - Tuk,
-
 Tuk, Tuk.
 
-
-
 220
-
 00:17:39,434 --> 00:17:40,185
-
 Düşmek
 
-
-
 221
-
 00:17:43,021 --> 00:17:44,481
-
 Senin gözcü olman
-
 gerekiyordu.
 
-
-
 222
-
 00:17:44,648 --> 00:17:46,316
-
 Umacıları görürsün ve
-
 onları çağırırsın.
 
-
-
 223
-
 00:17:46,441 --> 00:17:47,526
-
 Belli bir
-
 mesafeden!
 
-
-
 224
-
 00:17:48,026 --> 00:17:49,778
-
 Bunların herhangi biri tanıdık
-
 geliyor mu? Gel buraya!
 
-
-
 225
-
 00:17:50,445 --> 00:17:52,364
-
 İsa. Siz iki dahinin bir görevde
-
 uçmasına izin verdim...
 
-
-
 226
-
 00:17:52,531 --> 00:17:54,199
-
 ve direkt emirlere itaatsizlik
-
 ediyorsun.
 
-
-
 227
-
 00:17:55,075 --> 00:17:57,536
-
 Kiri, büyükannene yaralılar için
-
 yardım edebilir misin? Lütfen?
 
-
-
 228
-
 00:17:57,703 --> 00:17:58,704
-
 Kardeşim
-
 yaralandı.
 
-
-
 229
-
 00:17:59,121 --> 00:17:59,872
-
 Bu iyi.
-
-
 
 230
-
 00:18:00,038 --> 00:18:01,707
-
 -Tuk, onunla git.
-
 Gitmek. -Baba.
 
-
-
 231
-
 00:18:01,874 --> 00:18:03,792
-
 Sayın. Tüm sorumluluğu
-
 alıyorum.
 
-
-
 232
-
 00:18:04,001 --> 00:18:04,626
-
 Evet, yapıyorsun.
 
-
-
 233
-
 00:18:04,751 --> 00:18:05,460
-
 Bu doğru.
-
-
 
 234
-
 00:18:05,794 --> 00:18:08,338
-
 Çünkü sen ağabeysin. Öyleymiş
-
 gibi davranmalısın.
 
-
-
 235
-
 00:18:09,423 --> 00:18:10,549
-
 MaJake.
-
-
 
 236
-
 00:18:11,091 --> 00:18:12,843
-
 Oğlunuz gerçekten
-
 kanıyor.
 
-
-
 237
-
 00:18:13,010 --> 00:18:14,428
-
 Anne, sorun değil.
-
 BEN...
 
-
-
 238
-
 00:18:16,597 --> 00:18:18,515
-
 Sadece git ve kendini toparla.
-
 Devam et, görevden alındı.
 
-
-
 239
-
 00:18:24,229 --> 00:18:27,149
-
 Neredeyse kardeşini öldürttüğünü
-
 anlıyorsun.
 
-
-
 240
-
 00:18:27,733 --> 00:18:28,734
-
 Evet efendim.
-
-
 
 241
-
 00:18:31,028 --> 00:18:32,613
-
 Cezalısın. Bir ay boyunca
-
 uçmak yok.
 
-
-
 242
-
 00:18:33,363 --> 00:18:35,157
-
 Şimdi ikranla ilgilen.
-
 Hepsi.
-
-
 
 243
-
 00:18:35,449 --> 00:18:36,200
-
 Evet efendim.
-
-
 
 244
-
 00:18:36,325 --> 00:18:37,910
-
 Ve o saçmalığı
-
 yüzünden çek.
 
-
-
 245
-
 00:18:47,044 --> 00:18:48,837
-
 Aw, boo-boo'da bir öpücük
-
 ister misin?
-
-
 
 246
-
 00:18:49,004 --> 00:18:50,005
-
 -Bunu ona ver.
-
 -Tamam aşkım.
-
-
 
 247
-
 00:18:50,172 --> 00:18:51,715
-
 Yalna kabuğu kullanırdım.
 
-
-
 248
-
 00:18:51,798 --> 00:18:52,508
-
 Al, iç.
 
-
-
 249
-
 00:18:52,591 --> 00:18:53,258
-
 Yapar mıydın?
 
-
-
 250
-
 00:18:53,675 --> 00:18:55,135
-
 Ve Tsahik
-
 kimdir?
 
-
-
 251
-
 00:18:55,636 --> 00:18:56,845
-
 Sen Grand... Hareket et!
 
-
-
 252
-
 00:18:57,304 --> 00:18:59,681
-
 Sen, büyükanne. Ama yalna
-
 kabuğu daha iyi.
 
-
-
 253
-
 00:19:02,142 --> 00:19:03,310
-
 Daha az yakıyor.
 
-
-
 254
-
 00:19:03,894 --> 00:19:05,229
-
 Güçlü savaşçı.
 
-
-
 255
-
 00:19:13,070 --> 00:19:14,196
-
 Ne?
-
-
 
 256
-
 00:19:16,657 --> 00:19:18,867
-
 Neteyam ve Lo'ak sana ayak
-
 uydurmaya çalışıyor.
 
-
-
 257
-
 00:19:20,661 --> 00:19:21,912
-
 Onlar için
-
 çok zor.
 
-
-
 258
-
 00:19:23,622 --> 00:19:24,831
-
 Biliyorum.
 
-
-
 259
-
 00:19:27,084 --> 00:19:29,169
-
 Onlara karşı
-
 çok katısın.
 
-
-
 260
-
 00:19:31,880 --> 00:19:33,757
-
 Ben onların babasıyım.
-
 Bu benim işim.
 
-
-
 261
-
 00:19:35,676 --> 00:19:37,386
-
 Bu bir takım
-
 değil.
-
-
 
 262
-
 00:19:37,553 --> 00:19:39,054
-
 Bu bir aile.
 
-
-
 263
-
 00:19:50,148 --> 00:19:51,817
-
 Onları kaybettiğimizi
-
 sanıyordum.
 
-
-
 264
-
 00:20:00,701 --> 00:20:01,785
-
 Hey dostum. Nasıl
-
 gidiyor?
 
-
-
 265
-
 00:20:01,910 --> 00:20:02,786
-
 Merhaba, Örümcek.
 
-
-
 266
-
 00:20:03,328 --> 00:20:04,705
-
 Senin kıçın
-
 benim.
 
-
-
 267
-
 00:20:04,872 --> 00:20:05,789
-
 Ben tam buradayım.
 
-
-
 268
-
 00:20:06,540 --> 00:20:07,708
-
 Sadece avatarlar...
 
-
-
 269
-
 00:20:07,833 --> 00:20:08,500
-
 etrafından dolaş!
 
-
-
 270
-
 00:20:09,126 --> 00:20:10,085
-
 Üzgünüm.
-
-
 
 271
-
 00:20:10,502 --> 00:20:12,838
-
 Evet. O mavi çizgiler seni
-
 daha iri yapmaz kardeşim.
 
-
-
 272
-
 00:20:13,547 --> 00:20:15,132
-
 Evet, hala kıçını
-
 tekmeleyebilirim.
 
-
-
 273
-
 00:20:18,635 --> 00:20:19,636
-
 Berbat bir gün.
 
-
-
 274
-
 00:20:19,803 --> 00:20:20,804
-
 Uzun koşu.
 
-
-
 275
-
 00:20:23,974 --> 00:20:25,350
-
 Gerçekten histerik,
-
 çocuklar.
-
-
 
 276
-
 00:20:25,517 --> 00:20:26,935
-
 Yine de neyin berbat olduğunu
-
 biliyor musun?
 
-
-
 277
-
 00:20:27,060 --> 00:20:28,228
-
 Dünya havasını saatlerce
-
 soluyabilir misiniz?
 
-
-
 278
-
 00:20:28,395 --> 00:20:30,981
-
 ve havanı sadece 10 saniye
-
 falan soluyabiliyorum.
 
-
-
 279
-
 00:20:31,148 --> 00:20:33,525
-
 Evet, Maymun Çocuk, bu
-
 gerçekten berbat.
 
-
-
 280
-
 00:20:33,692 --> 00:20:34,693
-
 Senin için.
 
-
-
 281
-
 00:20:41,658 --> 00:20:43,243
-
 -Merhaba Max. -Hey
-
 çocuklar.
 
-
-
 282
-
 00:20:43,410 --> 00:20:44,077
-
 Hey. Naber, Max?
 
-
-
 283
-
 00:20:44,786 --> 00:20:45,454
-
 N'aber Norm?
 
-
-
 284
-
 00:20:51,502 --> 00:20:52,377
-
 Merhaba anne.
-
-
 
 285
-
 00:21:03,138 --> 00:21:05,682
-
 Belki de burada kaybediyorum...
 
-
-
 286
-
 00:21:05,849 --> 00:21:07,601
-
 ama gerçek kanıtlar görüyorum...
 
-
-
 287
-
 00:21:07,726 --> 00:21:11,480
-
 küresel düzeyde sistemik bir yanıtın
 
-
-
 288
-
 00:21:12,231 --> 00:21:13,315
-
 Yapamam...
 
-
-
 289
-
 00:21:14,608 --> 00:21:17,528
-
 "İstihbarat" terimini kullanmayacağım.
-
 Onun...
 
-
-
 290
-
 00:21:18,612 --> 00:21:20,697
-
 belki de "farkındalık" daha
-
 iyi bir kelimedir.
 
-
-
 291
-
 00:21:21,573 --> 00:21:25,536
-
 Pandora'nın tüm biyosferi
-
 gibi...
 
-
-
 292
-
 00:21:25,661 --> 00:21:27,037
-
 farkında...
 
-
-
 293
-
 00:21:27,204 --> 00:21:30,290
-
 ve bu bilişsel tepkiyi
-
 verebilir.
 
-
-
 294
-
 00:21:32,000 --> 00:21:33,377
-
 Kahretsin, bunu
-
 söyleyemem.
 
-
-
 295
-
 00:21:34,336 --> 00:21:35,379
-
 Beni çarmıha
-
 gerecekler.
 
-
-
 296
-
 00:21:36,046 --> 00:21:37,005
-
 Yani, söylemem
-
 gerekiyor...
 
-
-
 297
-
 00:21:37,881 --> 00:21:39,883
-
 Peki onu kimin hamile bıraktığını
-
 düşünüyorsun?
-
-
 
 298
-
 00:21:40,884 --> 00:21:41,885
-
 Kesinlikle Norm'du.
 
-
-
 299
-
 00:21:42,052 --> 00:21:43,053
-
 Kesinlikle.
-
-
 
 300
-
 00:21:44,763 --> 00:21:46,515
-
 Yaşamayı hak
-
 etmiyorsun.
 
-
-
 301
-
 00:21:46,723 --> 00:21:48,016
-
 Hayır hayır hayır. Bir
-
 düşün, değil mi?
 
-
-
 302
-
 00:21:48,183 --> 00:21:49,476
-
 Yani, o öğretmenin
-
 evcil hayvanı.
 
-
-
 303
-
 00:21:49,643 --> 00:21:51,103
-
 Her zaman onunla
-
 laboratuvarda.
 
-
-
 304
-
 00:21:51,311 --> 00:21:53,188
-
 kendimi
-
 öldürürdüm
 
-
-
 305
-
 00:21:53,355 --> 00:21:54,690
-
 Asit
-
 içerdim.
 
-
-
 306
-
 00:21:54,857 --> 00:21:56,817
-
 Abi haklısın Her
-
 çekimde o var.
 
-
-
 307
-
 00:21:56,984 --> 00:21:59,236
-
 Kardeşim, bak, bak,
-
 ona bakış atıyor.
 
-
-
 308
-
 00:21:59,403 --> 00:22:00,404
-
 Hey.
-
-
 
 309
-
 00:22:01,071 --> 00:22:02,614
-
 Bak, düşünüyorum...
 
-
-
 310
-
 00:22:02,781 --> 00:22:05,492
-
 iki avatarları ormanda
-
 yapayalnızdı...
 
-
-
 311
-
 00:22:06,118 --> 00:22:06,910
-
 Brüt!
 
-
-
 312
-
 00:22:07,077 --> 00:22:07,828
-
 Çocuklar.
-
-
 
 313
-
 00:22:07,953 --> 00:22:10,706
-
 Demek istediğim, bazen babanın kim olduğunu
-
 bilmek o kadar da iyi olmuyor.
 
-
-
 314
-
 00:22:15,419 --> 00:22:16,420
-
 Her neyse.
 
-
-
 315
-
 00:22:17,087 --> 00:22:18,338
-
 Onu hatırlama
-
 bile.
 
-
-
 316
-
 00:22:18,755 --> 00:22:19,756
-
 Hayır, Örümcek.
 
-
-
 317
-
 00:22:19,923 --> 00:22:21,717
-
 -Dostum.
-
 -Örümcek...
 
-
-
 318
-
 00:22:24,136 --> 00:22:25,554
-
 sen o değilsin
 
-
-
 319
-
 00:23:06,220 --> 00:23:08,764
-
 Yürü! Yürü! Yürü! Doğrudan
-
 terminalin içinde.
 
-
-
 320
-
 00:23:08,931 --> 00:23:09,973
-
 Durma.
 
-
-
 321
-
 00:23:14,603 --> 00:23:15,604
-
 Maskeler kapalı.
 
-
-
 322
-
 00:23:20,442 --> 00:23:21,443
-
 Sayın...
 
-
-
 323
-
 00:23:21,568 --> 00:23:22,945
-
 bu
-
 general.
 
-
-
 324
-
 00:23:32,704 --> 00:23:34,206
-
 General
-
 Ardmore.
 
-
-
 325
-
 00:23:35,290 --> 00:23:36,583
-
 Tanıştığıma memnun oldum, Albay.
 
-
-
 326
-
 00:23:37,376 --> 00:23:38,585
-
 iyi şeyler duydum...
 
-
-
 327
-
 00:23:39,378 --> 00:23:41,380
-
 ama buradaki son turunuzdan
-
 bu yana çok şey değişti.
 
-
-
 328
-
 00:23:41,588 --> 00:23:42,422
-
 Benimle Yürü.
 
-
-
 329
-
 00:23:45,384 --> 00:23:47,594
-
 Yeni operasyon merkezi
-
 burada.
 
-
-
 330
-
 00:23:47,761 --> 00:23:48,929
-
 Bu şimdi çevrimiçi oldu.
 
-
-
 331
-
 00:23:49,721 --> 00:23:52,724
-
 Bu Sürü Birleştiricileri, altı günde
-
 bir bina inşa edebilirler.
 
-
-
 332
-
 00:23:53,851 --> 00:23:57,521
-
 Burada bir yılda önceki 30 yıldan
-
 daha fazlasını yaptık.
 
-
-
 333
-
 00:23:59,189 --> 00:24:01,108
-
 Mayın işletmek için burada
-
 değiliz, Albay.
 
-
-
 334
-
 00:24:01,608 --> 00:24:02,776
-
 Dünya Komutanı
-
 olarak...
 
-
-
 335
-
 00:24:02,901 --> 00:24:04,695
-
 Daha büyük bir görevle
-
 görevlendirildim.
 
-
-
 336
-
 00:24:10,200 --> 00:24:11,285
-
 Dünya
-
 ölüyor.
 
-
-
 337
-
 00:24:12,661 --> 00:24:15,789
-
 Buradaki görevimiz bu
-
 sınırı ehlileştirmek.
 
-
-
 338
-
 00:24:16,790 --> 00:24:18,667
-
 Pandora yapmaktan başka
-
 bir şey değil...
 
-
-
 339
-
 00:24:18,792 --> 00:24:20,043
-
 insanlığın
-
 yeni evi.
 
-
-
 340
-
 00:24:21,628 --> 00:24:23,672
-
 Ama bunu yapmadan
-
 önce...
 
-
-
 341
-
 00:24:23,839 --> 00:24:26,091
-
 düşmanları yatıştırmamız
-
 gerekiyor.
-
-
 
 342
-
 00:24:28,886 --> 00:24:32,014
-
 Sully'nin baskınları daha cesur
-
 ve daha sık hale geliyor.
 
-
-
 343
-
 00:24:32,931 --> 00:24:34,558
-
 Saldırıları iyi planlanmış.
 
-
-
 344
-
 00:24:34,725 --> 00:24:37,394
-
 Kara ve hava varlıkları arasında
-
 sıkı bir koordinasyonu var.
 
-
-
 345
-
 00:24:38,395 --> 00:24:42,274
-
 Kuvvetleri uzaktaki mevzilerimizi vuruyor.
-
 Madenler, boru hatları...
 
-
-
 346
-
 00:24:42,441 --> 00:24:44,067
-
 tedarik zincirimizi kesiyor.
 
-
-
 347
-
 00:24:44,693 --> 00:24:46,820
-
 Ve iki gün önce bir maglev'e çarptılar.
 
-
-
 348
-
 00:24:51,783 --> 00:24:53,368
-
 Sully hakkında herhangi bir bilgi...
 
-
-
 349
-
 00:24:53,493 --> 00:24:54,620
-
 operasyon üssü?
 
-
-
 350
-
 00:24:54,786 --> 00:24:56,038
-
 Evet. Bana dağları
-
 ver.
 
-
-
 351
-
 00:24:57,998 --> 00:25:00,959
-
 Hallelujah Dağları'nda bir yerlerde
-
 bir mağara sistemi.
 
-
-
 352
-
 00:25:03,170 --> 00:25:06,131
-
 Ama ne zaman kuvvetlerimizi oraya
-
 göndersek kayıplar veriyoruz.
 
-
-
 353
-
 00:25:07,591 --> 00:25:10,302
-
 Donanımımız gerçekten eşekarısı
-
 yuvasını karıştırıyor.
 
-
-
 354
-
 00:25:11,470 --> 00:25:13,347
-
 Düşman hava sahasında sadece
-
 10 dakikamız var...
 
-
-
 355
-
 00:25:13,472 --> 00:25:14,890
-
 hepsi üzerimizde.
 
-
-
 356
-
 00:25:17,976 --> 00:25:18,977
-
 albay...
 
-
-
 357
-
 00:25:19,144 --> 00:25:22,105
-
 Mavi Takımınızın yerli olarak
-
 algılanacağına inanıyoruz...
 
-
-
 358
-
 00:25:22,272 --> 00:25:23,941
-
 ve tetiklenmeyecek...
 
-
-
 359
-
 00:25:24,066 --> 00:25:24,858
-
 bağışıklık tepkisi.
 
-
-
 360
-
 00:25:25,025 --> 00:25:27,861
-
 Ve bu hipotezi nasıl test
-
 edebiliriz General?
 
-
-
 361
-
 00:25:28,904 --> 00:25:29,988
-
 Zor yol.
 
-
-
 362
-
 00:25:31,865 --> 00:25:32,991
-
 Üstün.
 
-
-
 363
-
 00:25:46,755 --> 00:25:48,382
-
 Düşman hava sahasına
-
 giriyoruz.
 
-
-
 364
-
 00:25:49,132 --> 00:25:50,175
-
 Anlaşıldı.
 
-
-
 365
-
 00:26:00,227 --> 00:26:02,187
-
 -Kardeş! - Git,
-
 Maymun Çocuk!
 
-
-
 366
-
 00:26:02,354 --> 00:26:04,523
-
 Çocuklar, bekleyin!
 
-
-
 367
-
 00:26:41,310 --> 00:26:42,895
-
 Tuk!
-
 Sürdür!
 
-
-
 368
-
 00:26:43,562 --> 00:26:44,897
-
 Tamam
-
 tamam.
-
-
 
 369
-
 00:26:45,063 --> 00:26:46,398
-
 Kardeşim, onu neden
-
 getirdin ki?
 
-
-
 370
-
 00:26:47,024 --> 00:26:48,108
-
 O çok ağlayan
-
 bir bebek.
 
-
-
 371
-
 00:26:48,650 --> 00:26:50,736
-
 O, "Ben
-
 söylüyorum.
 
-
-
 372
-
 00:26:50,861 --> 00:26:51,653
-
 "Savaş alanına
-
 gitmemelisin.
 
-
-
 373
-
 00:26:51,820 --> 00:26:53,655
-
 "Gelmeme izin vermezsen
-
 anneme söylerim."
 
-
-
 374
-
 00:26:53,780 --> 00:26:54,990
-
 Ona bulaşma.
 
-
-
 375
-
 00:26:56,992 --> 00:26:57,993
-
 Hadi.
-
-
 
 376
-
 00:26:59,494 --> 00:27:00,621
-
 Ah hasta!
 
-
-
 377
-
 00:27:01,914 --> 00:27:03,290
-
 Orada hiç ceset
-
 var mı?
 
-
-
 378
-
 00:27:03,916 --> 00:27:05,209
-
 Kardeşim, kontrol
-
 et. Hadi.
 
-
-
 379
-
 00:27:49,628 --> 00:27:50,629
-
 Kahretsin.
-
-
 
 380
-
 00:28:00,973 --> 00:28:02,516
-
 Kiri.
-
-
 
 381
-
 00:28:02,933 --> 00:28:03,934
-
 Kiri.
-
-
 
 382
-
 00:28:06,937 --> 00:28:07,938
-
 Kiri...
 
-
-
 383
-
 00:28:08,438 --> 00:28:09,439
-
 Kiri, selam.
 
-
-
 384
-
 00:28:09,606 --> 00:28:10,607
-
 Hey.
-
-
 
 385
-
 00:28:15,696 --> 00:28:16,697
-
 İyi misin?
-
-
 
 386
-
 00:28:17,781 --> 00:28:20,033
-
 Yine o şeyi yapıyordum,
-
 değil mi?
-
-
 
 387
-
 00:28:20,450 --> 00:28:22,244
-
 Evet, öyleydin.
 
-
-
 388
-
 00:28:23,078 --> 00:28:24,079
-
 Kiri!
-
-
 
 389
-
 00:28:24,246 --> 00:28:26,290
-
 -Kiri! -Kiri, geri
-
 dönmeliyiz.
-
-
 
 390
-
 00:28:26,456 --> 00:28:27,457
-
 Pekala,
-
 hadi.
-
-
 
 391
-
 00:28:32,754 --> 00:28:33,881
-
 Nedir?
 
-
-
 392
-
 00:28:34,756 --> 00:28:36,884
-
 Her zaman güneş tutulmasına
-
 kadar evde olmamız gerekir.
 
-
-
 393
-
 00:28:39,636 --> 00:28:41,471
-
 Bir insan için
-
 çok büyük.
 
-
-
 394
-
 00:28:41,638 --> 00:28:43,015
-
 -Avatarlar mı?
-
 -Belki...
 
-
-
 395
-
 00:28:44,057 --> 00:28:45,934
-
 ama kesinlikle bizim
-
 değiller.
-
-
 
 396
-
 00:28:47,686 --> 00:28:48,687
-
 Ne yapıyorsun?
 
-
-
 397
-
 00:28:48,854 --> 00:28:50,147
-
 takip ediyorum
 
-
-
 398
-
 00:29:09,416 --> 00:29:10,417
-
 Altınıza dikkat edin.
 
-
-
 399
-
 00:29:13,504 --> 00:29:14,546
-
 Temizlemek.
 
-
-
 400
-
 00:29:18,800 --> 00:29:19,676
-
 Çevre
-
 yukarı.
 
-
-
 401
-
 00:29:32,981 --> 00:29:33,982
-
 Lanet etmek.
 
-
-
 402
-
 00:29:56,505 --> 00:29:58,215
-
 Buraya asla gelmememiz gerekiyor.
 
-
-
 403
-
 00:29:59,842 --> 00:30:01,134
-
 Baban seni
-
 cezalandıracak.
 
-
-
 404
-
 00:30:01,593 --> 00:30:02,511
-
 Durabilir misin?
 
-
-
 405
-
 00:30:02,636 --> 00:30:03,428
-
 Yaşam için.
 
-
-
 406
-
 00:30:04,513 --> 00:30:05,848
-
 Kardeşim, bunu kontrol
-
 etmeliyiz.
-
-
 
 407
-
 00:30:06,181 --> 00:30:06,974
-
 Hadi gidelim.
-
-
 
 408
-
 00:30:24,575 --> 00:30:25,576
-
 Kardeş...
-
-
 
 409
-
 00:30:26,159 --> 00:30:27,619
-
 orası senin babanla benim babamın...
 
-
-
 410
-
 00:30:28,495 --> 00:30:29,496
-
 kavga etti.
 
-
-
 411
-
 00:30:29,955 --> 00:30:31,707
-
 Bu babanın gerçek
-
 kıyafeti.
 
-
-
 412
-
 00:30:32,499 --> 00:30:33,917
-
 Vay be.
-
-
 
 413
-
 00:30:35,169 --> 00:30:36,587
-
 Lyle, bak bakalım yapabilir
-
 misin...
 
-
-
 414
-
 00:30:36,837 --> 00:30:38,672
-
 araç kamerasından
-
 biraz veri çek.
 
-
-
 415
-
 00:30:39,673 --> 00:30:41,633
-
 O şey boktan daha
-
 ölümcül, Albay.
 
-
-
 416
-
 00:30:41,800 --> 00:30:42,593
-
 Biz de öyleydik.
 
-
-
 417
-
 00:30:42,718 --> 00:30:43,343
-
 Elbette.
-
-
 
 418
-
 00:30:44,386 --> 00:30:45,387
-
 Bunu
-
 aramalıyım.
 
-
-
 419
-
 00:30:45,554 --> 00:30:46,972
-
 Hayır kardeşim, başımız
-
 belaya girecek.
 
-
-
 420
-
 00:30:47,139 --> 00:30:48,140
-
 Hadi gidelim.
-
-
 
 421
-
 00:30:52,728 --> 00:30:55,272
-
 Şeytan Köpek, Şeytan Köpek,
-
 ben Eagle Eye, tamam.
 
-
-
 422
-
 00:30:55,772 --> 00:30:57,524
-
 Şahin Gözü. Trafiğinizi
-
 gönderin.
 
-
-
 423
-
 00:30:57,691 --> 00:30:58,984
-
 Bazı adamlarda
-
 gözüm var.
 
-
-
 424
-
 00:31:00,152 --> 00:31:02,821
-
 Avatarlara
-
 benziyorlar...
 
-
-
 425
-
 00:31:03,030 --> 00:31:05,115
-
 ama tam kamuflaj içindeler
-
 ve AR'ler taşıyorlar.
 
-
-
 426
-
 00:31:05,866 --> 00:31:08,160
-
 Altı tane var.
-
 Üzerinde.
-
-
 
 427
-
 00:31:08,327 --> 00:31:09,578
-
 Pozisyonun nedir?
-
 Üzerinde.
 
-
-
 428
-
 00:31:11,914 --> 00:31:13,165
-
 Eski
-
 kulübedeyiz.
 
-
-
 429
-
 00:31:16,335 --> 00:31:17,336
-
 "Biz" kimiz?
 
-
-
 430
-
 00:31:18,337 --> 00:31:20,297
-
 Ben, Örümcek, Kiri...
 
-
-
 431
-
 00:31:22,090 --> 00:31:23,091
-
 ve Tuk.
 
-
-
 432
-
 00:31:28,680 --> 00:31:30,516
-
 Evlat, beni çok
-
 iyi dinle.
 
-
-
 433
-
 00:31:30,682 --> 00:31:31,683
-
 Hemen geri
-
 çekil.
 
-
-
 434
-
 00:31:31,808 --> 00:31:32,726
-
 ses
-
 çıkarmayın
 
-
-
 435
-
 00:31:32,893 --> 00:31:34,144
-
 Sen defol
-
 oradan.
 
-
-
 436
-
 00:31:34,269 --> 00:31:35,062
-
 Taşınmak! Anlıyor musun?
 
-
-
 437
-
 00:31:35,479 --> 00:31:36,480
-
 Evet, efendim,
-
 taşınıyoruz.
 
-
-
 438
-
 00:31:36,605 --> 00:31:37,231
-
 Gördün mü sana
-
 söylemiştim!
 
-
-
 439
-
 00:31:37,314 --> 00:31:37,940
-
 Git git.
 
-
-
 440
-
 00:31:38,815 --> 00:31:39,816
-
 Baba...
-
-
 
 441
-
 00:31:40,150 --> 00:31:41,360
-
 Hızlı bir yol
-
 biliyorum!
 
-
-
 442
-
 00:31:46,990 --> 00:31:48,575
-
 Başın çok belaya
-
 girecek.
 
-
-
 443
-
 00:31:49,034 --> 00:31:50,035
-
 Kiri, dur.
 
-
-
 444
-
 00:31:50,202 --> 00:31:51,328
-
 Beyler,
-
 hadi.
-
-
 
 445
-
 00:31:51,495 --> 00:31:52,538
-
 Neredeyse güneş tutulması,
-
 hadi.
 
-
-
 446
-
 00:31:55,499 --> 00:31:56,500
-
 Yere koy!
-
 Aşağı!
-
-
 
 447
-
 00:31:57,334 --> 00:31:58,335
-
 Yere koy yoksa
-
 seni vururum!
 
-
-
 448
-
 00:31:58,502 --> 00:31:59,419
-
 Benimle.
 
-
-
 449
-
 00:31:59,586 --> 00:32:00,212
-
 Bırak!
-
-
 
 450
-
 00:32:00,295 --> 00:32:00,921
-
 Şu anda!
 
-
-
 451
-
 00:32:02,506 --> 00:32:04,383
-
 {\an8}Hareket etmeyin!
-
 Eller yukarı!
 
-
-
 452
-
 00:32:04,842 --> 00:32:05,843
-
 Örümcek.
-
-
 
 453
-
 00:32:06,385 --> 00:32:08,053
-
 Yakala onları!
-
-
 
 454
-
 00:32:08,220 --> 00:32:09,596
-
 Buraya gel! Hadi!
 
-
-
 455
-
 00:32:10,180 --> 00:32:11,306
-
 Eğil!
-
-
 
 456
-
 00:32:12,015 --> 00:32:13,016
-
 Kavgayı bırak.
 
-
-
 457
-
 00:32:13,684 --> 00:32:14,726
-
 Kıpırdama!
-
-
 
 458
-
 00:32:14,893 --> 00:32:15,894
-
 Onları silah için
-
 kontrol edin!
 
-
-
 459
-
 00:32:16,520 --> 00:32:17,521
-
 Kiri!
-
-
 
 460
-
 00:32:20,649 --> 00:32:21,275
-
 Kapa çeneni.
-
-
 
 461
-
 00:32:21,358 --> 00:32:21,984
-
 Hareket etme.
-
-
 
 462
-
 00:32:22,818 --> 00:32:24,069
-
 Burada ne var?
 
-
-
 463
-
 00:32:34,121 --> 00:32:34,997
-
 Albay...
 
-
-
 464
-
 00:32:35,122 --> 00:32:35,914
-
 buna bir bak.
 
-
-
 465
-
 00:32:36,456 --> 00:32:37,457
-
 Dört parmak.
 
-
-
 466
-
 00:32:38,000 --> 00:32:39,126
-
 Bir melezimiz var.
 
-
-
 467
-
 00:32:39,501 --> 00:32:40,502
-
 Bok...
 
-
-
 468
-
 00:32:47,092 --> 00:32:48,343
-
 Bana parmaklarını
-
 göster.
-
-
 
 469
-
 00:32:53,849 --> 00:32:56,435
-
 Sen onunsun,
-
 değil mi?
-
-
 
 470
-
 00:32:58,562 --> 00:32:59,897
-
 Sen onunsun,
-
 tamam.
-
-
 
 471
-
 00:33:06,695 --> 00:33:07,779
-
 O nerede?
-
-
 
 472
-
 00:33:18,957 --> 00:33:19,958
-
 HAYIR!
-
-
 
 473
-
 00:33:22,127 --> 00:33:22,753
-
 Gerçekten mi?
 
-
-
 474
-
 00:33:22,836 --> 00:33:24,296
-
 Bu şekilde oynamak
-
 ister misin?
 
-
-
 475
-
 00:33:26,215 --> 00:33:26,840
-
 Kapa çeneni!
-
-
 
 476
-
 00:33:30,719 --> 00:33:31,470
-
 Kiri!
-
-
 
 477
-
 00:33:31,595 --> 00:33:32,346
-
 HAYIR!
-
 Durmak!
-
-
 
 478
-
 00:33:32,888 --> 00:33:34,223
-
 Hey! Hey, ona
-
 dokunma!
-
-
 
 479
-
 00:33:35,224 --> 00:33:35,933
-
 Hey!
-
-
 
 480
-
 00:33:36,767 --> 00:33:37,809
-
 Onu incitme,
-
 lütfen.
 
-
-
 481
-
 00:33:40,062 --> 00:33:41,271
-
 Hareket etme.
 
-
-
 482
-
 00:33:42,147 --> 00:33:43,273
-
 Adın ne
-
 evlat?
 
-
-
 483
-
 00:33:45,234 --> 00:33:46,401
-
 Örümcek...
-
-
 
 484
-
 00:33:47,152 --> 00:33:48,028
-
 Socorro.
 
-
-
 485
-
 00:33:57,204 --> 00:33:58,205
-
 mil?
 
-
-
 486
-
 00:34:01,917 --> 00:34:03,418
-
 Kimse bana öyle demez.
 
-
-
 487
-
 00:34:06,255 --> 00:34:07,673
-
 Pekala,
-
 lanetleneceğim...
 
-
-
 488
-
 00:34:09,216 --> 00:34:11,760
-
 Seni Dünya'ya geri gönderdiklerini
-
 düşündüm.
-
-
 
 489
-
 00:34:13,011 --> 00:34:15,054
-
 Bebekleri dondurucuya
-
 koyamazlar, pislik.
 
-
-
 490
-
 00:34:22,478 --> 00:34:24,063
-
 Ne yapıyoruz
-
 patron?
 
-
-
 491
-
 00:34:26,525 --> 00:34:28,277
-
 Demir Gökyüzü, Mavi Bir, Gerçek.
 
-
-
 492
-
 00:34:33,114 --> 00:34:34,491
-
 Mavi Bir, Demir Gökyüzü,
-
 trafiğinizi gönderin.
 
-
-
 493
-
 00:34:35,367 --> 00:34:37,159
-
 Çıkarma için bekliyoruz,
-
 tamam.
 
-
-
 494
-
 00:34:38,036 --> 00:34:39,036
-
 Bizi içeri al.
 
-
-
 495
-
 00:34:39,204 --> 00:34:40,038
-
 Yusufçuk sola
-
 geliyor...
 
-
-
 496
-
 00:34:40,163 --> 00:34:41,581
-
 ekstrakt için gidiyoruz.
 
-
-
 497
-
 00:34:42,081 --> 00:34:43,083
-
 Tavsiye olun...
 
-
-
 498
-
 00:34:43,250 --> 00:34:44,626
-
 yüksek değerli mahkumlar
-
 getiriyoruz.
 
-
-
 499
-
 00:34:44,793 --> 00:34:45,793
-
 Hadi gidelim!
-
-
 
 500
-
 00:34:45,878 --> 00:34:46,503
-
 Kapa çeneni.
-
-
 
 501
-
 00:34:46,587 --> 00:34:47,713
-
 Sıkı otur, Mavi Olan...
 
-
-
 502
-
 00:34:47,838 --> 00:34:48,672
-
 Pozunuza
-
 geliyoruz.
 
-
-
 503
-
 00:34:49,297 --> 00:34:50,632
-
 On dakika içinde bingo.
 
-
-
 504
-
 00:34:50,799 --> 00:34:51,842
-
 Saat başındayız.
 
-
-
 505
-
 00:34:54,511 --> 00:34:55,971
-
 -Oturmak! -Hadi,
-
 pisliğin içinde!
 
-
-
 506
-
 00:34:56,138 --> 00:34:57,222
-
 -Ayaklar yukarı!
-
 - Yere yat!
 
-
-
 507
-
 00:34:57,347 --> 00:34:57,973
-
 Lyle...
 
-
-
 508
-
 00:34:58,056 --> 00:34:59,224
-
 bana bununla ilgili
-
 biraz ses getir.
 
-
-
 509
-
 00:35:00,517 --> 00:35:01,476
-
 Kapa çeneni.
 
-
-
 510
-
 00:35:01,560 --> 00:35:02,227
-
 Yukarı bakma!
 
-
-
 511
-
 00:35:03,353 --> 00:35:04,104
-
 Bu Sully'nin
-
 kadını.
 
-
-
 512
-
 00:35:05,772 --> 00:35:06,899
-
 O bir hayvan.
 
-
-
 513
-
 00:35:08,066 --> 00:35:09,067
-
 Vazgeç Quaritch.
 
-
-
 514
-
 00:35:10,319 --> 00:35:11,320
-
 Sully.
 
-
-
 515
-
 00:35:11,486 --> 00:35:12,905
-
 -Her şey bitti.
-
 -Orospu çocuğu.
 
-
-
 516
-
 00:35:14,198 --> 00:35:15,949
-
 Ben nefes alırken hiçbir
-
 şey bitmedi.
 
-
-
 517
-
 00:35:17,492 --> 00:35:18,827
-
 Bunu söyleyeceğini umuyordum.
 
-
-
 518
-
 00:35:36,136 --> 00:35:37,346
-
 Hayır, hayır, sen
-
 ikranla kal.
 
-
-
 519
-
 00:35:37,513 --> 00:35:38,597
-
 Ama baba...
 
-
-
 520
-
 00:35:38,722 --> 00:35:39,431
-
 Ben de senin gibi
-
 bir savaşçıyım.
 
-
-
 521
-
 00:35:39,556 --> 00:35:40,182
-
 Dövüşmem
-
 gerekiyor.
 
-
-
 522
-
 00:35:40,307 --> 00:35:41,099
-
 Neteyam.
 
-
-
 523
-
 00:35:41,225 --> 00:35:43,018
-
 Tekrar
-
 söylemeyeceğim.
 
-
-
 524
-
 00:35:44,728 --> 00:35:45,729
-
 Evet efendim.
-
-
 
 525
-
 00:36:08,544 --> 00:36:09,962
-
 Evet, ondan sonrası
-
 yok.
 
-
-
 526
-
 00:36:24,268 --> 00:36:25,686
-
 Bu kalıntıları kurtarmamızı mı istiyorsunuz?
 
-
-
 527
-
 00:36:52,087 --> 00:36:53,839
-
 Mavi Bir, hazır ol.
 
-
-
 528
-
 00:36:54,006 --> 00:36:54,923
-
 Üç dakika
-
 uzaktayız.
 
-
-
 529
-
 00:36:55,090 --> 00:36:56,884
-
 Dikkat, üç
-
 dakika.
 
-
-
 530
-
 00:37:12,482 --> 00:37:13,483
-
 Altımıza dikkat et.
 
-
-
 531
-
 00:38:02,783 --> 00:38:03,617
-
 Kapa çeneni!
-
-
 
 532
-
 00:38:18,715 --> 00:38:19,424
-
 Kapa çeneni!
 
-
-
 533
-
 00:38:21,343 --> 00:38:22,511
-
 Arkadan temas kurun!
-
-
 
 534
-
 00:38:22,845 --> 00:38:23,679
-
 Arkadan temas kurun!
 
-
-
 535
-
 00:38:27,182 --> 00:38:28,183
-
 Bak!
-
-
 
 536
-
 00:38:29,393 --> 00:38:30,018
-
 Bok.
 
-
-
 537
-
 00:38:33,397 --> 00:38:34,022
-
 Seni küçük pislik.
 
-
-
 538
-
 00:38:34,106 --> 00:38:34,731
-
 Bak!
-
-
 
 539
-
 00:38:34,815 --> 00:38:36,233
-
 -Tuk, hadi. Yürü! Yürü!
-
 Yürü! -Buraya geri gel!
 
-
-
 540
-
 00:38:36,400 --> 00:38:37,401
-
 Koşmak!
 
-
-
 541
-
 00:38:37,985 --> 00:38:38,819
-
 Yakala onları!
 
-
-
 542
-
 00:38:45,784 --> 00:38:46,785
-
 Hadi!
-
-
 
 543
-
 00:38:47,828 --> 00:38:48,829
-
 Kapak!
 
-
-
 544
-
 00:38:52,666 --> 00:38:53,667
-
 Hadi!
-
-
 
 545
-
 00:39:08,849 --> 00:39:10,475
-
 Siz misiniz,
-
 Bayan Sully?
-
-
 
 546
-
 00:39:11,143 --> 00:39:13,145
-
 Arama kartınızı tanıyorum.
 
-
-
 547
-
 00:39:24,072 --> 00:39:25,741
-
 Neden dışarı çıkmıyorsunuz,
-
 Bayan Sully?
 
-
-
 548
-
 00:39:27,451 --> 00:39:28,660
-
 Sen ve ben,
-
 biraz...
 
-
-
 549
-
 00:39:29,203 --> 00:39:30,829
-
 Bitmemiş iş.
 
-
-
 550
-
 00:39:35,375 --> 00:39:36,376
-
 İblis!
 
-
-
 551
-
 00:39:36,877 --> 00:39:39,505
-
 Seni öldürmem gerektiği kadar
-
 çok kez öldüreceğim!
 
-
-
 552
-
 00:39:40,631 --> 00:39:43,342
-
 Sanırım sen ve Onbaşı
-
 oldukça...
 
-
-
 553
-
 00:39:43,550 --> 00:39:45,093
-
 meşgul, değil mi?
 
-
-
 554
-
 00:39:45,260 --> 00:39:47,179
-
 Kendine bir çöp attı...
 
-
-
 555
-
 00:39:48,013 --> 00:39:49,056
-
 melezler.
 
-
-
 556
-
 00:39:57,981 --> 00:39:58,690
-
 Na'vi!
 
-
-
 557
-
 00:40:01,985 --> 00:40:02,986
-
 Yürü! Yürü! Yürü!
-
-
 
 558
-
 00:40:05,447 --> 00:40:06,323
-
 İyi misin? iyi
-
 misin oğlum?
 
-
-
 559
-
 00:40:06,406 --> 00:40:07,074
-
 Evet.
-
-
 
 560
-
 00:40:07,533 --> 00:40:09,117
-
 Tamam aşkım. Benimle.
-
 Hazır? Hazır?
 
-
-
 561
-
 00:40:09,243 --> 00:40:09,910
-
 Evet efendim!
 
-
-
 562
-
 00:40:12,246 --> 00:40:13,247
-
 Taşınmak!
 
-
-
 563
-
 00:40:17,876 --> 00:40:18,877
-
 Hadi!
-
-
 
 564
-
 00:40:27,594 --> 00:40:28,595
-
 Yürü! Yürü! Yürü!
-
-
 
 565
-
 00:40:29,471 --> 00:40:30,722
-
 Kenara çekil. Peşlerinden koş!
 
-
-
 566
-
 00:40:37,980 --> 00:40:38,981
-
 Örümcek?
 
-
-
 567
-
 00:40:42,317 --> 00:40:43,402
-
 Örümcek!
-
-
 
 568
-
 00:40:43,569 --> 00:40:44,319
-
 Kiri!
-
-
 
 569
-
 00:40:44,444 --> 00:40:45,070
-
 Örümcek.
-
-
 
 570
-
 00:40:45,612 --> 00:40:47,281
-
 Gelmek! Hadi.
 
-
-
 571
-
 00:40:47,948 --> 00:40:49,616
-
 Örümcek. O
-
 aşağıda.
 
-
-
 572
-
 00:40:49,741 --> 00:40:50,367
-
 HAYIR.
-
-
 
 573
-
 00:40:55,539 --> 00:40:56,748
-
 Hanımefendi,
-
 bingodayız.
 
-
-
 574
-
 00:40:56,915 --> 00:40:58,375
-
 Düşman hava sahasında on dakika.
 
-
-
 575
-
 00:40:59,501 --> 00:41:01,003
-
 Mavi olan. Hemen toplanma
-
 noktasına geri dönün.
 
-
-
 576
-
 00:41:08,635 --> 00:41:09,261
-
 Mavi olan...
 
-
-
 577
-
 00:41:09,386 --> 00:41:10,012
-
 geri çekilmek.
 
-
-
 578
-
 00:41:10,387 --> 00:41:11,388
-
 Geri çekilmek!
 
-
-
 579
-
 00:41:11,555 --> 00:41:12,764
-
 Geri çekil, geri çekil!
 
-
-
 580
-
 00:41:13,056 --> 00:41:14,057
-
 Dışarı çıkın! Taşınmak!
 
-
-
 581
-
 00:41:14,933 --> 00:41:15,893
-
 Hadi hadi hadi!
 
-
-
 582
-
 00:41:16,894 --> 00:41:17,769
-
 -Kiri!
-
 -Örümcek!
 
-
-
 583
-
 00:41:17,895 --> 00:41:19,062
-
 Gel, Gel.
 
-
-
 584
-
 00:41:19,188 --> 00:41:19,813
-
 HAYIR.
-
-
 
 585
-
 00:41:19,897 --> 00:41:20,522
-
 Gelmek!
-
-
 
 586
-
 00:41:20,606 --> 00:41:21,690
-
 Yürü! Yürü! Yürü. Hadi.
-
 Hadi gidelim.
-
-
 
 587
-
 00:41:24,484 --> 00:41:25,986
-
 Hey. Sorun değil.
-
 Can yakıyorsun?
 
-
-
 588
-
 00:41:26,153 --> 00:41:27,112
-
 -Yaralandın mı? -Hayır,
-
 ben iyiyim.
 
-
-
 589
-
 00:41:27,279 --> 00:41:28,447
-
 -Tuk, canın yandı
-
 mı? -Babacığım!
 
-
-
 590
-
 00:41:48,634 --> 00:41:49,718
-
 Tamam,
-
 anlaştık.
 
-
-
 591
-
 00:41:49,885 --> 00:41:50,928
-
 Biz temiziz. Herkes
-
 iyi mi?
 
-
-
 592
-
 00:41:51,011 --> 00:41:52,387
-
 -Anne!
-
 -Tuk.
 
-
-
 593
-
 00:41:55,516 --> 00:41:57,809
-
 Sorun değil. Sorun
-
 değil. biz iyiyiz
 
-
-
 594
-
 00:41:58,101 --> 00:41:59,978
-
 Oh, teşekkürler, Büyük
-
 Anne. Teşekkür ederim.
 
-
-
 595
-
 00:42:00,896 --> 00:42:01,855
-
 Teşekkür ederim.
-
-
 
 596
-
 00:42:02,481 --> 00:42:03,482
-
 Örümcek nerede?
 
-
-
 597
-
 00:42:04,816 --> 00:42:05,817
-
 Onu aldılar.
-
-
 
 598
-
 00:42:06,902 --> 00:42:07,903
-
 Onu aldılar.
 
-
-
 599
-
 00:42:09,112 --> 00:42:10,447
-
 Tamam aşkım. Her şey
-
 yolunda bebeğim.
 
-
-
 600
-
 00:42:10,572 --> 00:42:11,615
-
 Elbette? O zor
-
 bir çocuk.
 
-
-
 601
-
 00:42:12,491 --> 00:42:13,534
-
 Elbette.
 
-
-
 602
-
 00:42:15,577 --> 00:42:16,578
-
 O iyi olacak.
 
-
-
 603
-
 00:42:18,413 --> 00:42:19,706
-
 Hepimiz iyi olacağız.
 
-
-
 604
-
 00:42:29,716 --> 00:42:30,634
-
 Lanet olası!
 
-
-
 605
-
 00:42:30,759 --> 00:42:31,426
-
 Hadi!
-
-
 
 606
-
 00:42:36,098 --> 00:42:37,474
-
 Çıkar beni
-
 buradan!
-
-
 
 607
-
 00:42:45,899 --> 00:42:47,025
-
 O tamamen vahşi.
 
-
-
 608
-
 00:42:47,943 --> 00:42:48,986
-
 Onlardan biri olduğunu
-
 düşünüyor.
 
-
-
 609
-
 00:42:53,323 --> 00:42:54,575
-
 Bu şey. Bu
-
 Quaritch.
-
-
 
 610
-
 00:42:54,741 --> 00:42:55,784
-
 O her
-
 neyse...
 
-
-
 611
-
 00:42:55,951 --> 00:42:56,994
-
 -Neler oluyor? - Buraya
-
 yürüyebilir.
-
-
 
 612
-
 00:42:57,160 --> 00:42:58,704
-
 Eywa'nın burnunun dibinde
-
 yürüyebilir.
 
-
-
 613
-
 00:42:58,871 --> 00:43:00,873
-
 -Bu bizim ailemiz. Burası bizim
-
 evimiz. - Bu ailemizle ilgili.
 
-
-
 614
-
 00:43:01,039 --> 00:43:02,374
-
 Bu bizim küçüklerimizle
-
 ilgili.
 
-
-
 615
-
 00:43:03,667 --> 00:43:05,752
-
 Gelemem. Bunu soramazsın.
 
-
-
 616
-
 00:43:08,005 --> 00:43:09,673
-
 Halkımı
-
 bırakamam.
 
-
-
 617
-
 00:43:10,924 --> 00:43:11,675
-
 Ben yapmam.
 
-
-
 618
-
 00:43:12,217 --> 00:43:13,302
-
 Bizi avlıyor.
 
-
-
 619
-
 00:43:15,179 --> 00:43:16,305
-
 Ailemizi hedef
-
 alıyor.
 
-
-
 620
-
 00:43:16,430 --> 00:43:17,723
-
 Bunu
-
 soramazsın!
 
-
-
 621
-
 00:43:18,223 --> 00:43:21,018
-
 çocuklar. Bildikleri
-
 her şey. Orman.
 
-
-
 622
-
 00:43:21,476 --> 00:43:22,603
-
 Burası bizim
-
 evimiz!
 
-
-
 623
-
 00:43:22,769 --> 00:43:23,937
-
 Bizim çocuklarımız
-
 vardı.
-
-
 
 624
-
 00:43:24,104 --> 00:43:25,731
-
 Onları bıçağının
-
 altına almıştı!
 
-
-
 625
-
 00:43:33,155 --> 00:43:34,740
-
 babam verdi...
 
-
-
 626
-
 00:43:34,865 --> 00:43:37,075
-
 ölmek üzere yatarken
-
 bu yay.
 
-
-
 627
-
 00:43:37,242 --> 00:43:39,328
-
 Ve Halkı koruyun
-
 dedi.
-
-
 
 628
-
 00:43:40,621 --> 00:43:42,247
-
 Sen Toruk
-
 Makto'sun!
 
-
-
 629
-
 00:43:43,457 --> 00:43:45,083
-
 Bu Halkı koruyacaktır!
 
-
-
 630
-
 00:43:45,542 --> 00:43:46,793
-
 Quaritch'te
-
 Spider var.
 
-
-
 631
-
 00:43:46,919 --> 00:43:48,128
-
 Ve o çocuk her
-
 şeyi biliyor.
 
-
-
 632
-
 00:43:48,295 --> 00:43:49,588
-
 Tüm operasyonumuzu
-
 biliyor...
 
-
-
 633
-
 00:43:49,713 --> 00:43:51,048
-
 ve onları buraya
-
 yönlendirebilir.
 
-
-
 634
-
 00:43:51,757 --> 00:43:54,259
-
 Halk bizi barındırırsa,
-
 ölecekler.
 
-
-
 635
-
 00:43:55,844 --> 00:43:57,012
-
 Anlıyor
-
 musunuz?
-
-
 
 636
-
 00:44:01,683 --> 00:44:02,809
-
 Bak, hiçbir
-
 şeyim yok.
 
-
-
 637
-
 00:44:03,727 --> 00:44:04,895
-
 planım
-
 yok...
 
-
-
 638
-
 00:44:07,147 --> 00:44:08,857
-
 Ama bu aileyi koruyabilirim.
 
-
-
 639
-
 00:44:08,982 --> 00:44:10,692
-
 Bunu yapabilirim.
 
-
-
 640
-
 00:44:24,081 --> 00:44:25,666
-
 Bir şeyi
-
 biliyorum.
-
-
 
 641
-
 00:44:28,627 --> 00:44:29,837
-
 Nereye gidersek...
 
-
-
 642
-
 00:44:29,962 --> 00:44:31,755
-
 bu aile bizim kalemiz.
 
-
-
 643
-
 00:44:45,644 --> 00:44:47,104
-
 Jake Sully nerede?
 
-
-
 644
-
 00:44:47,271 --> 00:44:48,397
-
 Bilmiyorum!
-
-
 
 645
-
 00:44:50,232 --> 00:44:51,441
-
 Bildiğinizi
-
 biliyoruz.
 
-
-
 646
-
 00:44:52,276 --> 00:44:53,610
-
 Bilmiyorum!
-
-
 
 647
-
 00:44:53,777 --> 00:44:54,653
-
 Sadece bir resim oluştur...
 
-
-
 648
-
 00:44:54,778 --> 00:44:55,445
-
 senin aklında.
 
-
-
 649
-
 00:44:55,821 --> 00:44:57,322
-
 Yüzen dağlardan
-
 biri mi?
 
-
-
 650
-
 00:44:58,240 --> 00:44:59,408
-
 Çıkar beni
-
 buradan!
-
-
 
 651
-
 00:44:59,575 --> 00:45:01,034
-
 Bizimle savaşıyor. Bize
-
 bir dakika ver.
 
-
-
 652
-
 00:45:01,201 --> 00:45:01,910
-
 Bilmiyorum!
-
-
 
 653
-
 00:45:02,369 --> 00:45:04,538
-
 Sadece bir düşünce oluşturun
-
 ve onu göreceğiz.
 
-
-
 654
-
 00:45:05,664 --> 00:45:06,999
-
 Bilmiyorum!
-
-
 
 655
-
 00:45:07,708 --> 00:45:09,835
-
 Bak, bundan senin kadar
-
 ben de hoşlanmıyorum.
 
-
-
 656
-
 00:45:10,752 --> 00:45:12,421
-
 Onu hangi klanlar barındıracaktı?
 
-
-
 657
-
 00:45:12,504 --> 00:45:13,130
-
 Bilmiyorum!
-
-
 
 658
-
 00:45:13,213 --> 00:45:14,464
-
 Beni öldürmek zorunda
-
 kalacaksın!
 
-
-
 659
-
 00:45:16,508 --> 00:45:17,134
-
 Şunu izle.
 
-
-
 660
-
 00:45:17,259 --> 00:45:18,844
-
 Tüm prefrontal bölgede
-
 zirveye ulaşıyorsunuz.
 
-
-
 661
-
 00:45:18,969 --> 00:45:20,053
-
 Durmayacak...
 
-
-
 662
-
 00:45:20,179 --> 00:45:21,221
-
 bize bir şey verene
-
 kadar.
-
-
 
 663
-
 00:45:21,430 --> 00:45:22,723
-
 O nerede?
-
-
 
 664
-
 00:45:23,348 --> 00:45:25,309
-
 Bilmiyorum, sizi pislikler!
-
 Tamam aşkım?
-
-
 
 665
-
 00:45:25,475 --> 00:45:26,727
-
 Bilmiyorum!
 
-
-
 666
-
 00:45:40,032 --> 00:45:42,492
-
 General, kişisel açınızı
-
 deneyeyim.
 
-
-
 667
-
 00:45:47,039 --> 00:45:48,332
-
 O senin oğlun değil.
 
-
-
 668
-
 00:46:19,947 --> 00:46:21,031
-
 Kolay Kaplan.
 
-
-
 669
-
 00:46:21,198 --> 00:46:22,074
-
 Kolay.
 
-
-
 670
-
 00:46:30,958 --> 00:46:31,959
-
 Biz iyiyiz?
 
-
-
 671
-
 00:46:38,590 --> 00:46:39,716
-
 Evlat, kalbin
-
 var.
-
-
 
 672
-
 00:46:40,801 --> 00:46:43,178
-
 O bilim kusmukları sana oldukça
-
 sert bir şekilde yaslandı.
 
-
-
 673
-
 00:46:44,388 --> 00:46:45,889
-
 Ama onlara hiçbir
-
 şey vermedin.
 
-
-
 674
-
 00:46:48,058 --> 00:46:49,142
-
 Buna saygı duyarım.
 
-
-
 675
-
 00:46:55,107 --> 00:46:56,692
-
 Bunu isteyebileceğini
-
 düşündüm.
 
-
-
 676
-
 00:47:05,117 --> 00:47:06,660
-
 Bu Albay Miles
-
 Quaritch.
 
-
-
 677
-
 00:47:07,452 --> 00:47:08,453
-
 Merhum.
 
-
-
 678
-
 00:47:09,121 --> 00:47:10,289
-
 Çatışmada
-
 öldürüldü.
 
-
-
 679
-
 00:47:16,003 --> 00:47:17,379
-
 Ben o adam
-
 değilim.
 
-
-
 680
-
 00:47:18,797 --> 00:47:22,509
-
 Ama bende onun
-
 anıları var...
 
-
-
 681
-
 00:47:25,637 --> 00:47:27,055
-
 bunu bilmen
-
 yeterli...
 
-
-
 682
-
 00:47:28,682 --> 00:47:29,933
-
 O her zaman en iyi
-
 baba değildi.
 
-
-
 683
-
 00:47:31,810 --> 00:47:33,520
-
 Ama bu bir özür
-
 değil.
-
-
 
 684
-
 00:47:34,771 --> 00:47:37,065
-
 Ben senin baban değilim.
-
 teknik olarak...
 
-
-
 685
-
 00:47:37,232 --> 00:47:39,776
-
 sen ve ben birbirimiz
-
 için bir hiçiz.
 
-
-
 686
-
 00:47:40,235 --> 00:47:41,236
-
 Ancak...
 
-
-
 687
-
 00:47:42,279 --> 00:47:43,530
-
 Sana yardım
-
 edebilirim.
 
-
-
 688
-
 00:47:44,531 --> 00:47:46,033
-
 Seni buradan
-
 çıkarabilirim.
 
-
-
 689
-
 00:47:50,037 --> 00:47:52,289
-
 Senden Jake Sully'e ihanet
-
 etmeni istemeyeceğim.
 
-
-
 690
-
 00:47:52,456 --> 00:47:54,499
-
 Bunu asla yapmayacağını biliyorum.
-
 sen sadıksın...
 
-
-
 691
-
 00:47:56,084 --> 00:47:57,419
-
 ve sadakate
-
 hayranım.
 
-
-
 692
-
 00:47:59,880 --> 00:48:01,215
-
 Sadece sür.
 
-
-
 693
-
 00:48:04,009 --> 00:48:06,720
-
 Aksi takdirde, seni laboratuvar
-
 önlüklerine geri vermeliyim.
 
-
-
 694
-
 00:48:15,938 --> 00:48:17,731
-
 Bu kalbimdeki
-
 taşlar gibi.
 
-
-
 695
-
 00:48:19,608 --> 00:48:22,277
-
 Tarsem yıllarına
-
 göre bilgedir.
 
-
-
 696
-
 00:48:22,444 --> 00:48:24,196
-
 Güçlü bir Olo'eyktan
-
 olacak.
-
-
 
 697
-
 00:48:26,240 --> 00:48:28,033
-
 Lider ölmeli.
 
-
-
 698
-
 00:48:32,329 --> 00:48:34,164
-
 Böylece lider
-
 doğabilir.
 
-
-
 699
-
 00:48:37,125 --> 00:48:39,378
-
 Toruk Makto ortadan
-
 kaybolacak.
 
-
-
 700
-
 00:48:41,839 --> 00:48:43,423
-
 İnsanlar güvende
-
 olacak.
-
-
 
 701
-
 00:49:10,075 --> 00:49:11,952
-
 Bir baba korur.
-
-
 
 702
-
 00:49:13,203 --> 00:49:14,913
-
 Ona anlam veren
-
 budur.
 
-
-
 703
-
 00:49:19,168 --> 00:49:20,669
-
 Bir ömür biter.
 
-
-
 704
-
 00:49:21,795 --> 00:49:23,172
-
 Bir diğeri başlıyor.
 
-
-
 705
-
 00:49:37,269 --> 00:49:38,270
-
 Tuk.
-
-
 
 706
-
 00:49:42,399 --> 00:49:44,193
-
 Deniz klanları kendi başlarına
-
 bir dünyadır.
 
-
-
 707
-
 00:49:45,402 --> 00:49:46,945
-
 Binlerce ada.
 
-
-
 708
-
 00:49:47,946 --> 00:49:51,700
-
 Hiçbir iz bırakmadan kaybolabileceğimiz
-
 bilinmeyen bir bölge.
 
-
-
 709
-
 00:49:52,451 --> 00:49:54,161
-
 Henüz varmadık mı?
 
-
-
 710
-
 00:51:00,018 --> 00:51:00,936
-
 Hey...
 
-
-
 711
-
 00:51:01,061 --> 00:51:01,687
-
 bırak.
-
-
 
 712
-
 00:51:03,564 --> 00:51:04,565
-
 Üzerimde.
 
-
-
 713
-
 00:51:06,733 --> 00:51:07,734
-
 Tuk.
 
-
-
 714
-
 00:51:09,236 --> 00:51:10,237
-
 Kibar ol.
-
-
 
 715
-
 00:51:12,239 --> 00:51:13,031
-
 Kibar ol.
 
-
-
 716
-
 00:51:13,782 --> 00:51:14,783
-
 Hey.
-
-
 
 717
-
 00:51:33,385 --> 00:51:34,678
-
 Kolay. Sadece
-
 havalı ol.
 
-
-
 718
-
 00:51:35,429 --> 00:51:36,555
-
 Bakmak. Bu
-
 nedir?
-
-
 
 719
-
 00:51:37,389 --> 00:51:38,640
-
 Bunun bir kuyruk olması
-
 mı gerekiyordu?
 
-
-
 720
-
 00:51:56,241 --> 00:51:57,284
-
 Çok küçük.
 
-
-
 721
-
 00:51:57,451 --> 00:51:58,452
-
 Nasıl
-
 yüzecekler?
 
-
-
 722
-
 00:51:58,619 --> 00:52:00,996
-
 Yapamaz. Rotxo,
-
 Aonung.
 
-
-
 723
-
 00:52:03,707 --> 00:52:04,708
-
 Hey.
-
-
 
 724
-
 00:52:29,608 --> 00:52:32,194
-
 Tonowari, Metkayina'nın
-
 şefiydi...
 
-
-
 725
-
 00:52:32,736 --> 00:52:33,737
-
 resif insanları
 
-
-
 726
-
 00:52:34,655 --> 00:52:35,948
-
 Görüşürüz,
-
 Tonowari.
 
-
-
 727
-
 00:52:37,032 --> 00:52:38,200
-
 Jakesully.
-
-
 
 728
-
 00:52:38,367 --> 00:52:39,701
-
 Onu zorlu bir lider
-
 olarak tanıyordum.
 
-
-
 729
-
 00:52:44,540 --> 00:52:46,375
-
 Ama endişelendiğim
-
 Tonowari değildi.
 
-
-
 730
-
 00:52:50,754 --> 00:52:52,339
-
 Seni görüyorum, Ronal.
 
-
-
 731
-
 00:52:52,506 --> 00:52:53,799
-
 Metkayina'lı
-
 Tsahik.
 
-
-
 732
-
 00:52:53,966 --> 00:52:55,133
-
 Seni görüyorum,
-
 Ronal.
 
-
-
 733
-
 00:52:57,386 --> 00:52:59,388
-
 Neden bize geldin,
-
 Jakesully?
 
-
-
 734
-
 00:53:00,681 --> 00:53:01,765
-
 uturu'yu arıyoruz.
 
-
-
 735
-
 00:53:04,059 --> 00:53:05,561
-
 Evet, ailem için
-
 sığınak.
 
-
-
 736
-
 00:53:08,689 --> 00:53:10,399
-
 Biz Resif
-
 İnsanlarıyız.
 
-
-
 737
-
 00:53:10,566 --> 00:53:11,275
-
 Siz Orman
-
 İnsanlarısınız.
 
-
-
 738
-
 00:53:11,817 --> 00:53:13,277
-
 Becerilerin burada hiçbir
-
 şey ifade etmeyecek.
 
-
-
 739
-
 00:53:14,069 --> 00:53:16,321
-
 Pekala, senin yollarını öğreneceğiz.
-
 Haklı mıyım?
 
-
-
 740
-
 00:53:16,488 --> 00:53:17,489
-
 Evet.
-
-
 
 741
-
 00:53:20,868 --> 00:53:22,202
-
 Kolları
-
 incedir.
 
-
-
 742
-
 00:53:23,203 --> 00:53:24,037
-
 Anne.
-
-
 
 743
-
 00:53:24,162 --> 00:53:24,955
-
 Kuyrukları...
 
-
-
 744
-
 00:53:25,289 --> 00:53:26,623
-
 zayıflar
 
-
-
 745
-
 00:53:26,790 --> 00:53:28,375
-
 Suda yavaş
-
 olacaksınız.
 
-
-
 746
-
 00:53:31,628 --> 00:53:32,921
-
 Bu çocuklar...
 
-
-
 747
-
 00:53:33,088 --> 00:53:34,923
-
 - gerçek Na'vi bile
-
 değiller. -Baba.
 
-
-
 748
-
 00:53:36,884 --> 00:53:38,093
-
 Evet öyleyiz!
 
-
-
 749
-
 00:53:41,638 --> 00:53:43,056
-
 Onlarda iblis
-
 kanı var!
 
-
-
 750
-
 00:53:48,061 --> 00:53:49,354
-
 Bakmak. Bakmak.
 
-
-
 751
-
 00:53:51,356 --> 00:53:53,400
-
 Bak, ben Gök Halkından doğdum
-
 ve şimdi Na'vi'yim.
 
-
-
 752
-
 00:53:53,567 --> 00:53:54,860
-
 Elbette? uyum
-
 sağlayabilirsiniz.
 
-
-
 753
-
 00:53:55,485 --> 00:53:56,695
-
 Uyum sağlayacağız.
 
-
-
 754
-
 00:53:56,945 --> 00:53:57,654
-
 Tamam aşkım?
-
-
 
 755
-
 00:53:58,947 --> 00:54:01,033
-
 Kocam Toruk
-
 Makto'ydu.
 
-
-
 756
-
 00:54:02,910 --> 00:54:03,869
-
 Klanlara önderlik etti...
 
-
-
 757
-
 00:54:03,994 --> 00:54:06,997
-
 Gökyüzü Halkına karşı zafer.
 
-
-
 758
-
 00:54:10,751 --> 00:54:11,960
-
 Buna zafer mi
-
 diyorsun?
 
-
-
 759
-
 00:54:13,128 --> 00:54:14,796
-
 Yabancılar arasında
-
 saklanmak mı?
 
-
-
 760
-
 00:54:19,092 --> 00:54:21,887
-
 Görünüşe göre Eywa sana
-
 sırtını dönmüş...
 
-
-
 761
-
 00:54:22,012 --> 00:54:22,846
-
 Seçilmiş kişi.
 
-
-
 762
-
 00:54:28,936 --> 00:54:30,729
-
 Karım adına özür
-
 dilerim. O...
 
-
-
 763
-
 00:54:30,896 --> 00:54:32,314
-
 Benim adıma özür
-
 dileme.
 
-
-
 764
-
 00:54:32,439 --> 00:54:33,690
-
 ...uzun bir yoldan uçtu
-
 ve bitkin durumda.
 
-
-
 765
-
 00:54:33,774 --> 00:54:34,608
-
 Jake.
-
-
 
 766
-
 00:54:39,780 --> 00:54:42,366
-
 Toruk Makto büyük bir
-
 savaş lideridir.
 
-
-
 767
-
 00:54:43,200 --> 00:54:45,869
-
 Tüm Na'vi halkı onun hikayesini biliyor.
 
-
-
 768
-
 00:54:46,036 --> 00:54:47,412
-
 Ama biz Metkayina...
 
-
-
 769
-
 00:54:47,579 --> 00:54:48,997
-
 -Baba. -...savaşta
-
 değiller.
 
-
-
 770
-
 00:54:51,875 --> 00:54:54,628
-
 Savaşını buraya getirmene
-
 izin veremeyiz.
 
-
-
 771
-
 00:54:54,795 --> 00:54:56,672
-
 Savaşla işim
-
 bitti.
 
-
-
 772
-
 00:54:56,839 --> 00:54:57,840
-
 Tamam aşkım?
-
-
 
 773
-
 00:54:58,423 --> 00:55:00,342
-
 Sadece ailemi güvende
-
 tutmak istiyorum.
 
-
-
 774
-
 00:55:04,847 --> 00:55:06,849
-
 Uturu
-
 soruldu.
 
-
-
 775
-
 00:55:11,770 --> 00:55:12,896
-
 Gitmek zorunda mıyız?
 
-
-
 776
-
 00:55:13,689 --> 00:55:14,690
-
 İyi olacağız.
 
-
-
 777
-
 00:55:27,411 --> 00:55:29,913
-
 Toruk Makto ve ailesi
-
 bizde kalacak.
 
-
-
 778
-
 00:55:31,123 --> 00:55:33,458
-
 Onlara kardeşlerimiz
-
 gibi davranın.
 
-
-
 779
-
 00:55:34,918 --> 00:55:36,753
-
 Artık denizi
-
 bilmiyorlar.
-
-
 
 780
-
 00:55:37,629 --> 00:55:39,381
-
 Bebek gibi
-
 olacaklar...
 
-
-
 781
-
 00:55:40,174 --> 00:55:41,049
-
 onların...
 
-
-
 782
-
 00:55:41,175 --> 00:55:42,176
-
 ilk nefes
 
-
-
 783
-
 00:55:42,843 --> 00:55:47,055
-
 Onlara bizim yollarımızı öğret
-
 ki, olma utancı çekmesinler...
 
-
-
 784
-
 00:55:47,181 --> 00:55:48,515
-
 kullanışsız.
 
-
-
 785
-
 00:55:50,684 --> 00:55:51,435
-
 Tamam, ne
-
 diyeceğiz?
 
-
-
 786
-
 00:55:51,560 --> 00:55:52,644
-
 Teşekkür ederim.
-
-
 
 787
-
 00:55:52,769 --> 00:55:53,687
-
 Teşekkür ederim.
-
-
 
 788
-
 00:55:54,021 --> 00:55:55,022
-
 Teşekkür ederim.
-
-
 
 789
-
 00:55:55,564 --> 00:55:59,234
-
 Oğlum Aonung, kızımız Tsireya çocuklarınıza
-
 ne yapacaklarını gösterecek.
 
-
-
 790
-
 00:55:59,610 --> 00:56:01,236
-
 -Baba neden... -Karar
-
 verildi.
 
-
-
 791
-
 00:56:02,112 --> 00:56:04,781
-
 Gelmek. Sana köyümüzü
-
 göstereceğim.
 
-
-
 792
-
 00:56:15,334 --> 00:56:16,335
-
 Bu taraftan.
-
-
 
 793
-
 00:56:19,671 --> 00:56:21,215
-
 Tuk, gidelim.
 
-
-
 794
-
 00:56:21,715 --> 00:56:22,758
-
 Hemen yukarı.
 
-
-
 795
-
 00:56:31,391 --> 00:56:32,643
-
 Bu sizin için.
 
-
-
 796
-
 00:56:33,393 --> 00:56:34,394
-
 Yeni eviniz.
 
-
-
 797
-
 00:56:35,771 --> 00:56:36,772
-
 Evet, bu işe yarayacak.
 
-
-
 798
-
 00:56:37,773 --> 00:56:38,857
-
 Bu harika.
 
-
-
 799
-
 00:56:39,024 --> 00:56:40,025
-
 Güzel, değil mi?
 
-
-
 800
-
 00:56:53,580 --> 00:56:54,706
-
 Tamam, Sullys, konuş.
 
-
-
 801
-
 00:56:54,873 --> 00:56:55,666
-
 Hatırlamak?
 
-
-
 802
-
 00:56:55,791 --> 00:56:56,625
-
 Aile
-
 toplantısı.
 
-
-
 803
-
 00:56:56,792 --> 00:56:57,793
-
 Hadi. Diz çök.
-
 Hadi gidelim.
-
-
 
 804
-
 00:56:57,960 --> 00:56:58,836
-
 Kiri.
-
-
 
 805
-
 00:56:59,253 --> 00:57:00,254
-
 Ne?
-
-
 
 806
-
 00:57:00,420 --> 00:57:02,005
-
 Tamam aşkım.
-
-
 
 807
-
 00:57:02,172 --> 00:57:03,841
-
 size ihtiyacım
-
 var çocuklar
 
-
-
 808
-
 00:57:03,966 --> 00:57:05,634
-
 en iyi davranışın
-
 üzerine.
 
-
-
 809
-
 00:57:05,801 --> 00:57:07,302
-
 İçtenlikle söyledim.
 
-
-
 810
-
 00:57:07,469 --> 00:57:08,929
-
 Hızlı öğrenin. Ağırlığını
-
 çek.
 
-
-
 811
-
 00:57:09,972 --> 00:57:12,266
-
 Sorun çıkarmayın.
-
 Anladın mı?
 
-
-
 812
-
 00:57:12,432 --> 00:57:13,684
-
 Evet efendim.
-
-
 
 813
-
 00:57:16,144 --> 00:57:17,896
-
 Eve gitmek
-
 istiyorum.
-
-
 
 814
-
 00:57:19,857 --> 00:57:21,483
-
 Oh, Tuk.
 
-
-
 815
-
 00:57:22,109 --> 00:57:25,487
-
 Tuk, burası artık
-
 bizim evimiz.
 
-
-
 816
-
 00:57:26,864 --> 00:57:30,284
-
 Şimdi bunun üstesinden
-
 geleceğiz.
 
-
-
 817
-
 00:57:30,450 --> 00:57:31,410
-
 Bunu
-
 atlatacağız
 
-
-
 818
-
 00:57:31,535 --> 00:57:33,370
-
 eğer birbirimize sahip
-
 çıkarsak. Elbette?
 
-
-
 819
-
 00:57:33,537 --> 00:57:35,539
-
 Baban her zaman
-
 ne der?
 
-
-
 820
-
 00:57:36,164 --> 00:57:38,584
-
 Sully'ler birbirine
-
 yapışır.
-
-
 
 821
-
 00:57:38,750 --> 00:57:40,961
-
 Bu doğru. Sully'ler
-
 birbirine yapışır.
 
-
-
 822
-
 00:57:41,128 --> 00:57:42,754
-
 Şimdi bu sefer biraz
-
 duygu ile.
 
-
-
 823
-
 00:57:42,921 --> 00:57:44,256
-
 Evet.
-
-
 
 824
-
 00:57:44,423 --> 00:57:45,215
-
 Sully'ler birbirine
-
 yapışır.
-
-
 
 825
-
 00:57:45,382 --> 00:57:46,675
-
 Sully'ler birbirine
-
 yapışır.
-
-
 
 826
-
 00:57:47,217 --> 00:57:48,594
-
 Sully'ler birbirine
-
 yapışır.
-
-
 
 827
-
 00:57:59,188 --> 00:58:00,189
-
 Hadi.
-
-
 
 828
-
 01:00:32,299 --> 01:00:33,675
-
 İyi misin?
-
-
 
 829
-
 01:00:33,842 --> 01:00:34,510
-
 Çok hızlısın!
 
-
-
 830
-
 01:00:34,635 --> 01:00:36,178
-
 Bizi bekle.
 
-
-
 831
-
 01:00:37,095 --> 01:00:38,180
-
 Sadece nefes al.
-
-
 
 832
-
 01:00:38,305 --> 01:00:39,264
-
 Nefes almak.
 
-
-
 833
-
 01:00:39,431 --> 01:00:40,557
-
 Siz iyi dalgıç
-
 değilsiniz.
 
-
-
 834
-
 01:00:41,266 --> 01:00:43,519
-
 Belki ağaçların arasından sallanmakta
-
 iyidir, ama...
 
-
-
 835
-
 01:00:44,102 --> 01:00:45,103
-
 Hadi ama kardeşim.
-
-
 
 836
-
 01:00:45,270 --> 01:00:47,272
-
 Bu parmak konuşmasını
-
 konuşmayız çocuklar.
 
-
-
 837
-
 01:00:47,397 --> 01:00:48,398
-
 Ne dediğini
-
 bilmiyoruz.
 
-
-
 838
-
 01:00:48,857 --> 01:00:49,858
-
 Ben sana öğreteceğim.
 
-
-
 839
-
 01:00:50,025 --> 01:00:51,360
-
 -Kiri nerede?
-
 -Kiri?
 
-
-
 840
-
 01:00:51,527 --> 01:00:52,528
-
 -DSÖ?
-
 -Kiri.
 
-
-
 841
-
 01:00:52,694 --> 01:00:53,695
-
 Kiri nerede?
 
-
-
 842
-
 01:00:53,862 --> 01:00:55,113
-
 Onu gördün mü?
-
-
 
 843
-
 01:01:05,707 --> 01:01:07,209
-
 Gemiye binin...
 
-
-
 844
-
 01:01:07,376 --> 01:01:08,877
-
 bir koltuk bulun ve
-
 yoldan çekilin.
 
-
-
 845
-
 01:01:10,546 --> 01:01:11,421
-
 Hadi gidelim!
 
-
-
 846
-
 01:01:12,256 --> 01:01:13,215
-
 Kes-kes.
 
-
-
 847
-
 01:01:13,340 --> 01:01:14,174
-
 Tatlı.
 
-
-
 848
-
 01:01:14,675 --> 01:01:16,802
-
 Vay canına, orada
-
 bekle, zeki!
 
-
-
 849
-
 01:01:18,011 --> 01:01:19,012
-
 sen dinle
 
-
-
 850
-
 01:01:20,264 --> 01:01:22,474
-
 O maskede yerleşik
-
 bir izleyici var.
 
-
-
 851
-
 01:01:22,641 --> 01:01:24,643
-
 Yere çarpıyoruz ve sen
-
 havalanıyorsun...
 
-
-
 852
-
 01:01:24,810 --> 01:01:26,979
-
 İki dakika içinde seni
-
 geri alacağım...
 
-
-
 853
-
 01:01:27,145 --> 01:01:29,731
-
 ve sana eski usul bir kıç
-
 kırbaçlama yapacağım.
 
-
-
 854
-
 01:01:29,898 --> 01:01:30,899
-
 Anlaşıldı?
-
-
 
 855
-
 01:01:32,025 --> 01:01:33,151
-
 Anlaşıldı?
 
-
-
 856
-
 01:01:33,652 --> 01:01:34,820
-
 Evet efendim.
-
-
 
 857
-
 01:01:35,195 --> 01:01:36,196
-
 Kalktık mı?
 
-
-
 858
-
 01:01:36,363 --> 01:01:37,364
-
 Takım hazır.
 
-
-
 859
-
 01:01:51,920 --> 01:01:53,046
-
 Tamam,
-
 dinle.
 
-
-
 860
-
 01:01:54,423 --> 01:01:56,633
-
 Jake Sully yere
-
 düştü.
 
-
-
 861
-
 01:01:57,134 --> 01:01:58,135
-
 önemli
-
 değil
 
-
-
 862
-
 01:01:58,302 --> 01:01:59,678
-
 Her neredeyse, onu
-
 bulacağız...
 
-
-
 863
-
 01:01:59,845 --> 01:02:02,598
-
 ve onun boktan deli
-
 karısı da.
 
-
-
 864
-
 01:02:04,224 --> 01:02:05,475
-
 Böyle yaparak...
 
-
-
 865
-
 01:02:05,601 --> 01:02:07,853
-
 Na'vi'ye gidiyoruz.
 
-
-
 866
-
 01:02:08,020 --> 01:02:09,354
-
 Tam eğim, sonuna
-
 kadar.
 
-
-
 867
-
 01:02:09,521 --> 01:02:10,147
-
 Bunun anlamı biz...
 
-
-
 868
-
 01:02:10,230 --> 01:02:13,775
-
 Na'vi'yi ye. Na'vi'ye
-
 biniyoruz.
 
-
-
 869
-
 01:02:13,942 --> 01:02:15,777
-
 Na'vi'yi düşün.
 
-
-
 870
-
 01:02:31,418 --> 01:02:32,628
-
 Pekala, akıllı adam.
 
-
-
 871
-
 01:02:33,545 --> 01:02:35,964
-
 Maymun maskotumuz olmaktan
-
 çıktın...
 
-
-
 872
-
 01:02:36,089 --> 01:02:37,716
-
 resmi
-
 tercümana.
 
-
-
 873
-
 01:02:44,973 --> 01:02:46,475
-
 Bunlar ilu.
 
-
-
 874
-
 01:02:46,934 --> 01:02:48,519
-
 Burada yaşamak
-
 istiyorsanız...
 
-
-
 875
-
 01:02:48,685 --> 01:02:49,937
-
 binmek zorundasın
 
-
-
 876
-
 01:02:50,938 --> 01:02:52,272
-
 Bağlamayı nazikçe
-
 yapın.
 
-
-
 877
-
 01:02:57,778 --> 01:02:59,488
-
 Nefesini hisset.
 
-
-
 878
-
 01:02:59,655 --> 01:03:01,114
-
 Gücünü hisset.
 
-
-
 879
-
 01:03:03,325 --> 01:03:04,326
-
 Burada tutun.
-
-
 
 880
-
 01:03:06,912 --> 01:03:08,038
-
 Devam etmek.
-
-
 
 881
-
 01:03:27,641 --> 01:03:28,433
-
 sen iyimisin...
 
-
-
 882
-
 01:03:28,559 --> 01:03:29,601
-
 Orman Çocuğu?
 
-
-
 883
-
 01:03:39,611 --> 01:03:41,154
-
 Bu bir savaşçının
-
 bineği.
 
-
-
 884
-
 01:03:41,321 --> 01:03:42,656
-
 Ustalaşmak kolay
-
 değil.
-
-
 
 885
-
 01:03:42,823 --> 01:03:45,325
-
 Belki
-
 de...
 
-
-
 886
-
 01:03:45,492 --> 01:03:46,535
-
 bir ilu ile
-
 başlayın.
 
-
-
 887
-
 01:03:47,077 --> 01:03:48,161
-
 Hayır.
-
 Bu.
 
-
-
 888
-
 01:03:51,456 --> 01:03:52,749
-
 Şimdi hatırla...
 
-
-
 889
-
 01:03:53,250 --> 01:03:55,544
-
 geri daldığınızda,
-
 iyi konum.
 
-
-
 890
-
 01:03:55,711 --> 01:03:56,712
-
 Çok önemli.
 
-
-
 891
-
 01:04:00,340 --> 01:04:01,341
-
 Bunu anladım.
-
-
 
 892
-
 01:04:28,076 --> 01:04:29,286
-
 İşte bu, tamam.
 
-
-
 893
-
 01:04:30,495 --> 01:04:31,496
-
 Sabit durmak.
 
-
-
 894
-
 01:04:45,969 --> 01:04:47,262
-
 Kahretsin.
 
-
-
 895
-
 01:05:18,001 --> 01:05:19,753
-
 Onu zaten
-
 seviyorum.
 
-
-
 896
-
 01:05:59,918 --> 01:06:00,961
-
 Nefes al.
-
-
 
 897
-
 01:06:04,214 --> 01:06:05,799
-
 Ve nefes verin.
-
-
 
 898
-
 01:06:06,925 --> 01:06:09,052
-
 Bir alevin titreştiğini
-
 hayal edin.
 
-
-
 899
-
 01:06:11,138 --> 01:06:14,141
-
 Kalp atışlarını
-
 yavaşlatmalısın.
-
-
 
 900
-
 01:06:15,684 --> 01:06:16,685
-
 Nefes al.
 
-
-
 901
-
 01:06:17,978 --> 01:06:20,147
-
 Buradan nefes
-
 al.
-
-
 
 902
-
 01:06:21,648 --> 01:06:23,609
-
 Yavaşça nefes verin.
 
-
-
 903
-
 01:06:25,777 --> 01:06:28,322
-
 Lo'ak, kalp atışın
-
 hızlı.
 
-
-
 904
-
 01:06:28,488 --> 01:06:30,115
-
 -Üzgünüm. - Odaklanmaya
-
 çalış.
 
-
-
 905
-
 01:06:30,282 --> 01:06:31,742
-
 -Tamam aşkım.
-
 -Nefes al.
 
-
-
 906
-
 01:06:33,827 --> 01:06:35,495
-
 Ve nefes verin.
 
-
-
 907
-
 01:06:35,662 --> 01:06:37,206
-
 Aklın açık olsun.
 
-
-
 908
-
 01:06:56,016 --> 01:06:58,143
-
 Nefes almayı
-
 öğreniyorsun.
 
-
-
 909
-
 01:07:03,732 --> 01:07:05,609
-
 Hadi! Devam edin,
-
 kaybedenler!
 
-
-
 910
-
 01:07:20,165 --> 01:07:21,166
-
 Bunu anladım.
-
-
 
 911
-
 01:07:28,048 --> 01:07:29,091
-
 Ne?
-
-
 
 912
-
 01:07:29,258 --> 01:07:32,052
-
 Benden küçük Na'vi çocuklar bunu
-
 çıplak elleriyle yapıyor.
 
-
-
 913
-
 01:07:34,304 --> 01:07:36,306
-
 Jake Sully zor yoldan
-
 mı yaptı?
 
-
-
 914
-
 01:07:37,015 --> 01:07:38,225
-
 Ne
-
 düşünüyorsun?
 
-
-
 915
-
 01:07:41,770 --> 01:07:42,855
-
 Ne yapıyoruz,
-
 Albay?
 
-
-
 916
-
 01:07:47,901 --> 01:07:48,944
-
 Bu iyi
-
 olacak.
-
-
 
 917
-
 01:07:52,322 --> 01:07:53,532
-
 Pekala, yukarı çık.
 
-
-
 918
-
 01:08:00,998 --> 01:08:02,499
-
 Sen ve ben, kekim.
 
-
-
 919
-
 01:08:16,054 --> 01:08:18,223
-
 Önce ağzını bağlaman gerektiğini
-
 söylemiş miydim?
 
-
-
 920
-
 01:08:19,349 --> 01:08:20,600
-
 Çok teşekkürler evlat!
 
-
-
 921
-
 01:08:25,564 --> 01:08:26,189
-
 Yukarı çık,
-
 yukarı çık!
 
-
-
 922
-
 01:08:34,698 --> 01:08:35,698
-
 Onları görüyor musun?
-
-
 
 923
-
 01:08:58,013 --> 01:08:59,723
-
 Pekala hadi gidelim.
-
 Biz Oscar Mike'ız.
 
-
-
 924
-
 01:08:59,848 --> 01:09:00,474
-
 Hadi.
-
-
 
 925
-
 01:09:03,685 --> 01:09:05,062
-
 Hadi gidelim. Buradan
-
 gidiyoruz.
 
-
-
 926
-
 01:09:11,151 --> 01:09:12,152
-
 Evet!
-
-
 
 927
-
 01:09:12,611 --> 01:09:13,737
-
 Bu doğru!
 
-
-
 928
-
 01:09:16,323 --> 01:09:17,908
-
 Evet, Albay!
-
 Biraz al!
 
-
-
 929
-
 01:09:18,075 --> 01:09:19,033
-
 Evet, Albay!
 
-
-
 930
-
 01:09:19,201 --> 01:09:20,452
-
 Sırada kim var?
 
-
-
 931
-
 01:09:29,169 --> 01:09:32,756
-
 Suyun yolunun başı
-
 ve sonu yoktur.
 
-
-
 932
-
 01:09:37,426 --> 01:09:39,470
-
 Deniz etrafınızda...
 
-
-
 933
-
 01:09:40,055 --> 01:09:40,764
-
 ve sende
 
-
-
 934
-
 01:09:47,354 --> 01:09:49,857
-
 Deniz sizin eviniz...
-
-
 
 935
-
 01:09:50,482 --> 01:09:52,276
-
 sen doğmadan...
 
-
-
 936
-
 01:09:53,234 --> 01:09:55,070
-
 ve senin ölümünden sonra.
 
-
-
 937
-
 01:10:00,784 --> 01:10:04,371
-
 Kalbimiz dünyanın
-
 rahminde atıyor.
 
-
-
 938
-
 01:10:06,832 --> 01:10:11,170
-
 Derinliğin gölgelerinde
-
 nefesimiz yanıyor.
 
-
-
 939
-
 01:10:12,504 --> 01:10:14,339
-
 deniz verir...
 
-
-
 940
-
 01:10:15,716 --> 01:10:17,509
-
 ve deniz alır.
 
-
-
 941
-
 01:10:20,512 --> 01:10:23,432
-
 Su her şeyi birbirine bağlar.
 
-
-
 942
-
 01:10:25,601 --> 01:10:27,436
-
 Yaşamdan ölüme.
-
-
 
 943
-
 01:10:29,605 --> 01:10:30,606
-
 Karanlık...
 
-
-
 944
-
 01:10:32,274 --> 01:10:33,066
-
 ışığa
 
-
-
 945
-
 01:10:35,235 --> 01:10:35,861
-
 Anladım!
-
-
 
 946
-
 01:10:37,112 --> 01:10:37,821
-
 Sen yaptın!
 
-
-
 947
-
 01:11:41,218 --> 01:11:42,219
-
 O ne
-
 yapıyor?
 
-
-
 948
-
 01:11:42,970 --> 01:11:43,971
-
 Bilmiyorum.
-
-
 
 949
-
 01:11:44,137 --> 01:11:45,722
-
 Sadece kuma
-
 bakıyor.
 
-
-
 950
-
 01:11:48,433 --> 01:11:49,601
-
 Ne dedin?
 
-
-
 951
-
 01:11:49,977 --> 01:11:52,604
-
 Sen bir tür...
-
 ucube misin?
 
-
-
 952
-
 01:11:53,438 --> 01:11:54,898
-
 Bir ucube misin
-
 diye sordu.
 
-
-
 953
-
 01:11:58,277 --> 01:11:58,902
-
 HAYIR.
-
-
 
 954
-
 01:11:59,695 --> 01:12:00,821
-
 Emin misin?
 
-
-
 955
-
 01:12:00,988 --> 01:12:02,531
-
 Yani sen gerçek Na'vi
-
 bile değilsin.
 
-
-
 956
-
 01:12:03,240 --> 01:12:04,575
-
 Şu ellere
-
 bak.
 
-
-
 957
-
 01:12:04,867 --> 01:12:05,993
-
 Demek istiyorum ki,
-
 baksana onlara...
 
-
-
 958
-
 01:12:06,827 --> 01:12:07,828
-
 Hey!
-
-
 
 959
-
 01:12:08,328 --> 01:12:09,705
-
 Geri çekil, balık
-
 dudaklı!
 
-
-
 960
-
 01:12:09,872 --> 01:12:12,124
-
 Oh, başka bir dört
-
 parmaklı ucube.
 
-
-
 961
-
 01:12:12,291 --> 01:12:13,458
-
 Küçük bebek kuyruğuna
-
 bak!
 
-
-
 962
-
 01:12:13,625 --> 01:12:14,626
-
 bana
-
 dokunma!
 
-
-
 963
-
 01:12:14,751 --> 01:12:15,377
-
 Bebek kuyruğu!
 
-
-
 964
-
 01:12:15,502 --> 01:12:16,712
-
 Bizi yalnız bırak!
 
-
-
 965
-
 01:12:17,129 --> 01:12:18,005
-
 O normal değil.
 
-
-
 966
-
 01:12:18,338 --> 01:12:19,173
-
 Kuyruğuna bak.
 
-
-
 967
-
 01:12:19,298 --> 01:12:20,048
-
 Ah, bebek kuyruk!
 
-
-
 968
-
 01:12:20,299 --> 01:12:21,466
-
 Çok tatlı!
 
-
-
 969
-
 01:12:22,885 --> 01:12:24,011
-
 Ne dediğini
-
 duydun.
 
-
-
 970
-
 01:12:24,970 --> 01:12:26,180
-
 Onları yalnız
-
 bırak.
-
-
 
 971
-
 01:12:26,680 --> 01:12:27,806
-
 Ah ağabey
-
 gel...
 
-
-
 972
-
 01:12:29,057 --> 01:12:30,392
-
 Geri bas.
 
-
-
 973
-
 01:12:31,518 --> 01:12:32,686
-
 Şimdi.
 
-
-
 974
-
 01:12:38,525 --> 01:12:39,902
-
 Akıllı seçim.
 
-
-
 975
-
 01:12:40,319 --> 01:12:41,737
-
 Ve bundan
-
 böyle...
 
-
-
 976
-
 01:12:41,904 --> 01:12:43,906
-
 Kız kardeşime saygı duymana
-
 ihtiyacım var.
-
-
 
 977
-
 01:12:48,285 --> 01:12:48,911
-
 Hadi gidelim.
-
-
 
 978
-
 01:12:52,164 --> 01:12:53,582
-
 Güle güle!
 
-
-
 979
-
 01:12:53,916 --> 01:12:54,917
-
 Onlara bakmak.
 
-
-
 980
-
 01:12:55,083 --> 01:12:56,084
-
 Hepsi ucube.
 
-
-
 981
-
 01:12:56,251 --> 01:12:57,252
-
 Bütün aile.
 
-
-
 982
-
 01:12:59,546 --> 01:13:00,547
-
 Lo'ak.
-
-
 
 983
-
 01:13:00,714 --> 01:13:01,715
-
 Bunu anladım
-
 kardeşim.
-
-
 
 984
-
 01:13:05,385 --> 01:13:06,803
-
 Bu elin komik olduğunu
-
 biliyorum.
-
-
 
 985
-
 01:13:06,970 --> 01:13:09,556
-
 Bak, ben bir ucubeyim.
-
 Bir uzaylı.
 
-
-
 986
-
 01:13:10,933 --> 01:13:12,726
-
 Ama gerçekten harika
-
 bir şey yapabilir.
 
-
-
 987
-
 01:13:12,893 --> 01:13:13,894
-
 Kol saati.
 
-
-
 988
-
 01:13:14,061 --> 01:13:16,396
-
 İlk olarak, bu şekilde iyice
-
 sıkılaştırıyorum.
 
-
-
 989
-
 01:13:16,563 --> 01:13:17,689
-
 Tamam aşkım? Daha sonra...
 
-
-
 990
-
 01:13:21,902 --> 01:13:22,945
-
 Buna yumruk denir
-
 kaltak!
 
-
-
 991
-
 01:13:23,111 --> 01:13:24,446
-
 Bir daha asla kardeşime
-
 dokunma.
 
-
-
 992
-
 01:13:26,031 --> 01:13:27,658
-
 Evet! Aonung!
-
 Onu göster!
 
-
-
 993
-
 01:13:29,660 --> 01:13:30,661
-
 Buraya gel!
 
-
-
 994
-
 01:13:31,870 --> 01:13:32,871
-
 Hey!
-
-
 
 995
-
 01:13:37,334 --> 01:13:38,669
-
 Kes şunu!
 
-
-
 996
-
 01:13:39,586 --> 01:13:40,587
-
 Yapma!
 
-
-
 997
-
 01:13:42,840 --> 01:13:43,966
-
 Çok aptalca!
 
-
-
 998
-
 01:13:47,344 --> 01:13:48,345
-
 Ah kuyruğum!
 
-
-
 999
-
 01:13:50,305 --> 01:13:52,391
-
 Kulağım!
-
 Bırak!
 
-
-
 1000
-
 01:13:52,724 --> 01:13:54,893
-
 Kulağımı aldı!
 
-
-
 1001
-
 01:13:59,773 --> 01:14:01,608
-
 Sorduğum tek
-
 şey neydi?
 
-
-
 1002
-
 01:14:01,733 --> 01:14:02,359
-
 Bir şey!
 
-
-
 1003
-
 01:14:02,484 --> 01:14:03,694
-
 -Beladan uzak dur.
 
-
-
 1004
-
 01:14:03,861 --> 01:14:04,862
-
 -Sağ. -Benim
-
 hatamdı.
 
-
-
 1005
-
 01:14:05,028 --> 01:14:05,696
-
 Öyle düşünmüyorum.
 
-
-
 1006
-
 01:14:05,821 --> 01:14:07,406
-
 Bu ahmak için kızmayı
-
 bırakmalısın.
 
-
-
 1007
-
 01:14:07,573 --> 01:14:09,324
-
 Bak, baba. Aonung,
-
 Kiri'yi seçiyordu.
 
-
-
 1008
-
 01:14:10,033 --> 01:14:11,034
-
 Ona ucube
-
 dedi.
 
-
-
 1009
-
 01:14:15,122 --> 01:14:16,331
-
 Git Aonung'dan
-
 özür dile.
 
-
-
 1010
-
 01:14:16,874 --> 01:14:17,791
-
 Ne?
-
-
 
 1011
-
 01:14:17,958 --> 01:14:19,877
-
 Şefin oğludur. Anlıyor
-
 musunuz?
 
-
-
 1012
-
 01:14:20,836 --> 01:14:22,546
-
 Nasıl yaptığın umurumda
-
 değil. Git barış yap.
 
-
-
 1013
-
 01:14:23,005 --> 01:14:24,006
-
 Sadece git.
 
-
-
 1014
-
 01:14:29,178 --> 01:14:30,179
-
 Hey.
-
-
 
 1015
-
 01:14:32,139 --> 01:14:33,473
-
 Peki diğer adamlar
-
 neye benziyordu?
 
-
-
 1016
-
 01:14:34,308 --> 01:14:35,350
-
 Daha kötüsü.
 
-
-
 1017
-
 01:14:36,018 --> 01:14:37,019
-
 Bu iyi.
 
-
-
 1018
-
 01:14:37,603 --> 01:14:38,604
-
 Çok daha kötü.
 
-
-
 1019
-
 01:14:38,896 --> 01:14:40,105
-
 Defol git buradan.
 
-
-
 1020
-
 01:14:51,700 --> 01:14:52,784
-
 Yanlış olan ne?
 
-
-
 1021
-
 01:14:54,786 --> 01:14:56,580
-
 Hiç bir şey. Ben iyiyim.
 
-
-
 1022
-
 01:14:57,748 --> 01:14:59,583
-
 Neden iyi olmayayım?
 
-
-
 1023
-
 01:15:06,965 --> 01:15:09,259
-
 Neden herkes gibi
-
 olamıyorum?
 
-
-
 1024
-
 01:15:11,470 --> 01:15:12,638
-
 Ah, Kiri.
 
-
-
 1025
-
 01:15:16,183 --> 01:15:18,560
-
 Ah, ağaç çocuğun burada
-
 ne işi var?
 
-
-
 1026
-
 01:15:21,855 --> 01:15:22,940
-
 Sana vurduğum
-
 için üzgünüm.
 
-
-
 1027
-
 01:15:23,815 --> 01:15:24,983
-
 Birçok defa.
 
-
-
 1028
-
 01:15:31,490 --> 01:15:32,991
-
 Arkadaş
-
 olmalıyız.
 
-
-
 1029
-
 01:15:35,619 --> 01:15:36,620
-
 Bizimle avlanmaya gel.
 
-
-
 1030
-
 01:15:37,329 --> 01:15:38,455
-
 Resifin
-
 dışında.
 
-
-
 1031
-
 01:15:39,289 --> 01:15:40,791
-
 Adamların avlandığı
-
 yer orası.
 
-
-
 1032
-
 01:15:41,875 --> 01:15:42,960
-
 Mümkün değil.
-
 İznim yok.
 
-
-
 1033
-
 01:15:44,127 --> 01:15:45,963
-
 Yanlış kardeşime soruyor
-
 olmalıyım.
 
-
-
 1034
-
 01:15:47,130 --> 01:15:47,881
-
 Hadi yapalım.
 
-
-
 1035
-
 01:16:03,063 --> 01:16:04,648
-
 Hadi! Hadi!
 
-
-
 1036
-
 01:16:05,607 --> 01:16:06,608
-
 Evet!
-
-
 
 1037
-
 01:16:14,533 --> 01:16:15,993
-
 Devam et, Orman Çocuğu!
 
-
-
 1038
-
 01:16:17,536 --> 01:16:18,370
-
 Evet!
-
-
 
 1039
-
 01:16:31,300 --> 01:16:32,801
-
 Hey, yaşadın!
 
-
-
 1040
-
 01:16:33,385 --> 01:16:34,887
-
 Bu çılgıncaydı
-
 çünkü!
 
-
-
 1041
-
 01:16:36,054 --> 01:16:37,055
-
 Bu taraftan.
-
-
 
 1042
-
 01:16:37,181 --> 01:16:38,140
-
 İyi bir yer
-
 biliyorum.
 
-
-
 1043
-
 01:17:30,526 --> 01:17:31,527
-
 Hey Millet!
 
-
-
 1044
-
 01:17:32,277 --> 01:17:33,278
-
 Hey!
 
-
-
 1045
-
 01:17:35,864 --> 01:17:36,865
-
 Aonung!
-
-
 
 1046
-
 01:17:38,408 --> 01:17:39,785
-
 Hadi ama, bu hiç komik değil!
 
-
-
 1047
-
 01:17:51,964 --> 01:17:52,965
-
 Hey,
-
 Aonung!
-
-
 
 1048
-
 01:21:27,888 --> 01:21:28,805
-
 Vay be.
-
-
 
 1049
-
 01:21:58,210 --> 01:21:59,211
-
 Sen bir tukun'sun.
 
-
-
 1050
-
 01:22:02,965 --> 01:22:04,007
-
 Hayatımı kurtardın.
 
-
-
 1051
-
 01:22:04,675 --> 01:22:05,676
-
 Teşekkür ederim.
-
-
 
 1052
-
 01:22:07,094 --> 01:22:08,095
-
 Teşekkür ederim.
-
-
 
 1053
-
 01:22:14,935 --> 01:22:16,937
-
 Dostum, az önce ne dediğin hakkında
-
 hiçbir fikrim yok.
 
-
-
 1054
-
 01:22:23,944 --> 01:22:25,529
-
 Seni incittiler, değil mi?
 
-
-
 1055
-
 01:22:27,906 --> 01:22:29,157
-
 çıkarmaya
-
 çalışacağım.
 
-
-
 1056
-
 01:22:30,701 --> 01:22:31,827
-
 Sadece bana güven, tamam mı?
 
-
-
 1057
-
 01:23:06,904 --> 01:23:07,905
-
 Arkadaşlar?
 
-
-
 1058
-
 01:23:11,533 --> 01:23:13,785
-
 Bu doğru, biz arkadaşız.
-
 Arkadaşlar.
 
-
-
 1059
-
 01:23:18,624 --> 01:23:19,291
-
 Kardeş!
-
-
 
 1060
-
 01:25:11,403 --> 01:25:13,030
-
 Peki, ne oldu,
-
 bebeğim?
 
-
-
 1061
-
 01:25:14,364 --> 01:25:15,490
-
 Spider'ı özlüyor
-
 musun?
-
-
 
 1062
-
 01:25:18,911 --> 01:25:19,912
-
 -Evet.
-
 -Evet?
 
-
-
 1063
-
 01:25:21,038 --> 01:25:22,289
-
 Ama bu
-
 değil.
-
-
 
 1064
-
 01:25:24,833 --> 01:25:25,792
-
 Tamam aşkım...
-
-
 
 1065
-
 01:25:27,669 --> 01:25:28,670
-
 Peki nedir?
 
-
-
 1066
-
 01:25:29,880 --> 01:25:31,215
-
 Onu hissediyorum, baba.
 
-
-
 1067
-
 01:25:33,884 --> 01:25:34,885
-
 Kim olduğunu hissediyor musun?
 
-
-
 1068
-
 01:25:35,636 --> 01:25:36,637
-
 Eyva.
 
-
-
 1069
-
 01:25:41,350 --> 01:25:42,851
-
 Nefes aldığını duyuyorum.
 
-
-
 1070
-
 01:25:44,228 --> 01:25:45,729
-
 Kalp atışlarını duyuyorum.
 
-
-
 1071
-
 01:25:47,189 --> 01:25:48,565
-
 O çok yakın.
 
-
-
 1072
-
 01:25:49,816 --> 01:25:52,027
-
 O sadece orada...
 
-
-
 1073
-
 01:25:53,987 --> 01:25:55,781
-
 söylenmek üzere olan
-
 bir söz gibi.
 
-
-
 1074
-
 01:26:01,745 --> 01:26:03,580
-
 Deli olduğumu düşündüğünü biliyorum.
 
-
-
 1075
-
 01:26:06,375 --> 01:26:08,335
-
 Sen deli değilsin
-
 bebeğim.
-
-
 
 1076
-
 01:26:12,756 --> 01:26:15,092
-
 Peki Eywa'nın kalp
-
 atışları nasıldır?
 
-
-
 1077
-
 01:26:20,180 --> 01:26:21,473
-
 Güçlü.
 
-
-
 1078
-
 01:26:29,189 --> 01:26:30,649
-
 Bana söylediklerini
-
 ona da söyle!
 
-
-
 1079
-
 01:26:36,446 --> 01:26:38,031
-
 Yıldızlara bakmayı sever misin?
 
-
-
 1080
-
 01:26:41,368 --> 01:26:43,120
-
 Biliyorsun, babam bir
-
 yıldızdan geldi.
 
-
-
 1081
-
 01:26:44,663 --> 01:26:45,622
-
 Şu.
 
-
-
 1082
-
 01:26:45,747 --> 01:26:46,373
-
 Tam orada.
 
-
-
 1083
-
 01:26:49,918 --> 01:26:50,919
-
 Bak!
-
-
 
 1084
-
 01:26:51,295 --> 01:26:52,671
-
 Oh, adamım. Zor
-
 durumdayım.
 
-
-
 1085
-
 01:26:55,591 --> 01:26:56,300
-
 Gitmek.
-
-
 
 1086
-
 01:26:56,425 --> 01:26:57,426
-
 Seni tekrar
-
 göreceğim.
 
-
-
 1087
-
 01:27:16,111 --> 01:27:18,155
-
 - Oğlan geri döndü!
-
 - Sully çocuğu.
 
-
-
 1088
-
 01:27:18,280 --> 01:27:19,823
-
 -Çocuğu bulmuşlar.
-
 -Onu buldular.
 
-
-
 1089
-
 01:27:25,495 --> 01:27:26,496
-
 Merhaba.
 
-
-
 1090
-
 01:27:28,832 --> 01:27:29,958
-
 Sana bir bakalım.
-
 Tamam aşkım.
-
-
 
 1091
-
 01:27:31,543 --> 01:27:32,836
-
 O iyi. O
-
 iyi...
 
-
-
 1092
-
 01:27:32,920 --> 01:27:33,545
-
 Evet.
-
-
 
 1093
-
 01:27:33,629 --> 01:27:34,922
-
 Sadece birkaç çizik.
 
-
-
 1094
-
 01:27:37,966 --> 01:27:39,468
-
 Veremeyeceğim güç için
-
 dua ediyorum...
 
-
-
 1095
-
 01:27:39,593 --> 01:27:41,512
-
 en küçük oğlumun
-
 gözlerini çıkar!
 
-
-
 1096
-
 01:27:43,180 --> 01:27:44,181
-
 HAYIR.
-
-
 
 1097
-
 01:27:44,640 --> 01:27:47,226
-
 Oğlum onu ​​resifin dışına çıkarmanın
-
 daha iyi olduğunu biliyor.
 
-
-
 1098
-
 01:27:49,686 --> 01:27:51,396
-
 Suç onun.
 
-
-
 1099
-
 01:27:52,689 --> 01:27:54,107
-
 Tamam hadi
-
 gidelim.
-
-
 
 1100
-
 01:27:54,608 --> 01:27:55,609
-
 HAYIR.
-
-
 
 1101
-
 01:27:56,068 --> 01:27:57,277
-
 Bu Aonung'un hatası
-
 değil.
-
-
 
 1102
-
 01:27:58,028 --> 01:27:59,279
-
 Bu benim fikrimdi.
 
-
-
 1103
-
 01:27:59,446 --> 01:28:00,948
-
 Aonung beni vazgeçirmeye
-
 çalıştı.
 
-
-
 1104
-
 01:28:01,907 --> 01:28:02,908
-
 Gerçekten mi.
 
-
-
 1105
-
 01:28:03,575 --> 01:28:04,201
-
 Hadi.
-
-
 
 1106
-
 01:28:05,827 --> 01:28:06,870
-
 Üzgünüm.
-
-
 
 1107
-
 01:28:07,621 --> 01:28:08,247
-
 Hadi.
-
-
 
 1108
-
 01:28:11,583 --> 01:28:12,584
-
 Bunu anladım.
-
-
 
 1109
-
 01:28:15,838 --> 01:28:17,381
-
 Bu doğru mu?
-
-
 
 1110
-
 01:28:17,506 --> 01:28:19,550
-
 Aonung. Ne
-
 düşünüyordun?
 
-
-
 1111
-
 01:28:22,803 --> 01:28:24,763
-
 Baba, bana bu çocuklarla arkadaş
-
 olmamı söylemiştin.
 
-
-
 1112
-
 01:28:24,930 --> 01:28:26,765
-
 -Bütün yapmaya çalıştığım buydu...
-
 -Duymak istemiyorum.
 
-
-
 1113
-
 01:28:26,932 --> 01:28:27,933
-
 Baba...
-
-
 
 1114
-
 01:28:28,100 --> 01:28:29,601
-
 Bu aileye utanç
-
 getirdin.
-
-
 
 1115
-
 01:28:32,896 --> 01:28:34,022
-
 Şimdi gidebilir miyim?
 
-
-
 1116
-
 01:28:34,565 --> 01:28:36,191
-
 Bir sorun daha çıkarsa, kuyruğuna
-
 bir düğüm atarım.
 
-
-
 1117
-
 01:28:36,316 --> 01:28:37,442
-
 Beni duyuyor musun?
 
-
-
 1118
-
 01:28:37,985 --> 01:28:39,903
-
 Evet efendim.
-
 Lima Charlie.
 
-
-
 1119
-
 01:28:50,622 --> 01:28:51,832
-
 Neredeydin?
 
-
-
 1120
-
 01:28:51,999 --> 01:28:52,958
-
 Evet.
-
-
 
 1121
-
 01:28:53,083 --> 01:28:54,960
-
 "Kardeşine göz kulak
-
 ol" a ne oldu?
 
-
-
 1122
-
 01:28:55,627 --> 01:28:56,628
-
 Üzgünüm efendim.
-
-
 
 1123
-
 01:29:01,258 --> 01:29:02,843
-
 Neden benim adıma
-
 konuştun?
 
-
-
 1124
-
 01:29:03,552 --> 01:29:04,803
-
 Çünkü bunun nasıl bir şey
-
 olduğunu biliyorum...
 
-
-
 1125
-
 01:29:04,970 --> 01:29:06,305
-
 büyük bir hayal kırıklığı
-
 olmak.
 
-
-
 1126
-
 01:29:09,933 --> 01:29:11,810
-
 Keşke orada
-
 olsaydım.
 
-
-
 1127
-
 01:29:11,977 --> 01:29:13,896
-
 Okyanus seni bir hediyeyle
-
 kutsadı kardeşim.
 
-
-
 1128
-
 01:29:14,563 --> 01:29:16,899
-
 Tulkun henüz dönmedi.
 
-
-
 1129
-
 01:29:17,065 --> 01:29:19,026
-
 Ve her neyse, hiçbir tulkun asla yalnız değildir.
 
-
-
 1130
-
 01:29:19,818 --> 01:29:20,903
-
 Bu öyleydi.
 
-
-
 1131
-
 01:29:21,820 --> 01:29:23,655
-
 Eksik yüzgeci
-
 vardı.
 
-
-
 1132
-
 01:29:23,822 --> 01:29:24,740
-
 Güdük
-
 gibi.
 
-
-
 1133
-
 01:29:24,865 --> 01:29:25,490
-
 Sol
-
 tarafta.
 
-
-
 1134
-
 01:29:25,574 --> 01:29:26,700
-
 Zavallı tulkun.
 
-
-
 1135
-
 01:29:27,409 --> 01:29:28,410
-
 Payakan.
 
-
-
 1136
-
 01:29:30,412 --> 01:29:31,288
-
 Payakan kimdir?
 
-
-
 1137
-
 01:29:32,080 --> 01:29:33,749
-
 Yoldan çıkmış genç
-
 bir boğa.
 
-
-
 1138
-
 01:29:33,916 --> 01:29:35,501
-
 O dışlanmış.
-
 Yalnız.
 
-
-
 1139
-
 01:29:36,043 --> 01:29:37,169
-
 Ve eksik bir yüzgeci var.
 
-
-
 1140
-
 01:29:37,419 --> 01:29:38,837
-
 Onun bir katil olduğunu
-
 söylüyorlar.
 
-
-
 1141
-
 01:29:39,004 --> 01:29:40,881
-
 -Hayır hayır. - Na'vi'yi
-
 öldürdü...
 
-
-
 1142
-
 01:29:41,006 --> 01:29:42,925
-
 ve diğer
-
 tulkun.
 
-
-
 1143
-
 01:29:44,384 --> 01:29:45,260
-
 Burada değil...
 
-
-
 1144
-
 01:29:45,385 --> 01:29:46,178
-
 ama çok güneyde.
 
-
-
 1145
-
 01:29:46,345 --> 01:29:47,054
-
 Hayır, o bir katil değil.
 
-
-
 1146
-
 01:29:49,056 --> 01:29:50,557
-
 Hayatta olduğun için şanslısın.
 
-
-
 1147
-
 01:29:50,724 --> 01:29:52,059
-
 Size söylüyorum çocuklar.
 
-
-
 1148
-
 01:29:52,184 --> 01:29:53,268
-
 O benim hayatımı kurtardı.
 
-
-
 1149
-
 01:29:53,977 --> 01:29:55,062
-
 O benim
-
 arkadaşım.
 
-
-
 1150
-
 01:29:55,687 --> 01:29:56,855
-
 Bebeğim
-
 kardeşim!
 
-
-
 1151
-
 01:29:57,022 --> 01:29:58,065
-
 Güçlü Savaşçı...
 
-
-
 1152
-
 01:29:58,649 --> 01:29:59,858
-
 katil tulkun ile yüzleşen...
 
-
-
 1153
-
 01:29:59,942 --> 01:30:00,776
-
 ve bunu anlatmak için yaşadı, ha?
 
-
-
 1154
-
 01:30:03,195 --> 01:30:04,279
-
 Siz
-
 dinlemiyorsunuz.
 
-
-
 1155
-
 01:30:05,322 --> 01:30:08,283
-
 -Lo'ak, dinliyorum.
-
 -Lo'ak, geri dön.
 
-
-
 1156
-
 01:30:08,450 --> 01:30:09,743
-
 Sen skxawngs.
 
-
-
 1157
-
 01:30:10,869 --> 01:30:11,495
-
 Payakan!
-
-
 
 1158
-
 01:30:13,956 --> 01:30:14,623
-
 Payakan!
-
-
 
 1159
-
 01:30:17,417 --> 01:30:18,252
-
 Payakan!
-
-
 
 1160
-
 01:30:27,135 --> 01:30:28,053
-
 Seni görmek
-
 güzel.
 
-
-
 1161
-
 01:30:31,473 --> 01:30:33,100
-
 Neden
-
 dışlandın?
 
-
-
 1162
-
 01:30:33,267 --> 01:30:34,268
-
 Ne oldu?
 
-
-
 1163
-
 01:30:39,982 --> 01:30:42,234
-
 Sana güveniyorum.
 
-
-
 1164
-
 01:30:42,943 --> 01:30:45,070
-
 Bana güvenebilirsin.
 
-
-
 1165
-
 01:31:30,866 --> 01:31:32,075
-
 Kardeşim, bu
-
 iğrenç!
 
-
-
 1166
-
 01:32:13,700 --> 01:32:14,910
-
 Biz burdayız.
 
-
-
 1167
-
 01:32:21,542 --> 01:32:23,669
-
 Burası Atalar
-
 Koyu.
 
-
-
 1168
-
 01:32:23,836 --> 01:32:25,379
-
 En kutsal
-
 yerimiz.
 
-
-
 1169
-
 01:32:32,469 --> 01:32:35,430
-
 Tutulma, burada olmak için
-
 günün en iyi zamanı.
 
-
-
 1170
-
 01:32:48,735 --> 01:32:49,736
-
 Budur.
 
-
-
 1171
-
 01:32:50,320 --> 01:32:51,655
-
 Bu Ruh Ağacı.
 
-
-
 1172
-
 01:33:58,555 --> 01:34:00,015
-
 Benim güzel
-
 kızım.
 
-
-
 1173
-
 01:34:01,517 --> 01:34:02,518
-
 Merhaba anne.
 
-
-
 1174
-
 01:34:03,477 --> 01:34:04,728
-
 Seni gördüğüm için
-
 çok mutluyum.
 
-
-
 1175
-
 01:34:05,854 --> 01:34:06,855
-
 Ama sıkıntılı
-
 görünüyorsun.
 
-
-
 1176
-
 01:34:13,320 --> 01:34:14,321
-
 Tatlı kızım.
 
-
-
 1177
-
 01:34:15,197 --> 01:34:16,573
-
 Sorun olmayacak.
 
-
-
 1178
-
 01:34:24,122 --> 01:34:25,290
-
 Ne oldu bebeğim?
 
-
-
 1179
-
 01:34:26,708 --> 01:34:28,043
-
 Neden
-
 farklıyım?
 
-
-
 1180
-
 01:34:30,712 --> 01:34:32,923
-
 Yüce Anne benden
-
 ne istiyor?
 
-
-
 1181
-
 01:34:36,552 --> 01:34:38,512
-
 Babam
-
 kimdi?
 
-
-
 1182
-
 01:34:42,641 --> 01:34:44,226
-
 Oh sevgilim.
 
-
-
 1183
-
 01:34:48,981 --> 01:34:50,232
-
 HAYIR!
-
-
 
 1184
-
 01:35:08,458 --> 01:35:09,543
-
 Hadi.
-
-
 
 1185
-
 01:35:15,549 --> 01:35:16,884
-
 Yanlış olan
-
 ne? Nedir?
 
-
-
 1186
-
 01:35:17,676 --> 01:35:18,760
-
 Bir nöbetti.
 
-
-
 1187
-
 01:35:19,386 --> 01:35:20,387
-
 Nefes alıyor mu?
 
-
-
 1188
-
 01:35:20,888 --> 01:35:22,014
-
 Nefes alıyor
-
 mu?
 
-
-
 1189
-
 01:35:25,559 --> 01:35:26,727
-
 Onu köye
-
 götürün!
 
-
-
 1190
-
 01:35:26,852 --> 01:35:27,477
-
 Acele etmek!
-
-
 
 1191
-
 01:35:27,603 --> 01:35:28,854
-
 Hadi gidelim! Haydi
-
 gidelim!
-
-
 
 1192
-
 01:35:28,979 --> 01:35:29,646
-
 Tuk, gel.
 
-
-
 1193
-
 01:35:44,828 --> 01:35:46,079
-
 -MERHABA! -Seni
-
 görmek güzel.
 
-
-
 1194
-
 01:35:46,246 --> 01:35:47,372
-
 Teçhizatı alalım.
-
 Neteyam!
-
-
 
 1195
-
 01:35:47,539 --> 01:35:48,582
-
 Neteyam, onları
-
 geride tut!
 
-
-
 1196
-
 01:35:48,749 --> 01:35:49,541
-
 O nasıl?
 
-
-
 1197
-
 01:35:49,708 --> 01:35:50,834
-
 Hala bilinci yerinde değil.
 
-
-
 1198
-
 01:35:51,793 --> 01:35:52,961
-
 Kanama yok.
 
-
-
 1199
-
 01:35:53,086 --> 01:35:54,171
-
 Kırık yok.
 
-
-
 1200
-
 01:35:55,214 --> 01:35:56,798
-
 Hipoksi etkisi yok.
 
-
-
 1201
-
 01:35:56,965 --> 01:35:58,091
-
 Beyin iyi görünüyor.
 
-
-
 1202
-
 01:36:02,763 --> 01:36:05,724
-
 Ama yine de bu interiktal aktiviteye tam
-
 burada, prefrontal bölgede sahibiz.
 
-
-
 1203
-
 01:36:05,891 --> 01:36:07,684
-
 -Tamam aşkım. -Kesinlikle
-
 nöbet geçirmiş.
 
-
-
 1204
-
 01:36:07,851 --> 01:36:10,103
-
 -Bence toksinleri eleyebiliriz.
-
 - Peki nedir?
 
-
-
 1205
-
 01:36:11,355 --> 01:36:12,898
-
 Burada bana ihtiyaç olmadığını
-
 görüyorum.
 
-
-
 1206
-
 01:36:13,565 --> 01:36:14,983
-
 Sen Tsahik'sin!
 
-
-
 1207
-
 01:36:16,944 --> 01:36:18,237
-
 Bunları
-
 kaldırın.
 
-
-
 1208
-
 01:36:19,071 --> 01:36:20,072
-
 Dışarı!
 
-
-
 1209
-
 01:36:20,197 --> 01:36:20,906
-
 Hiçbir şey
-
 yapmadın!
 
-
-
 1210
-
 01:36:21,073 --> 01:36:22,574
-
 Hadi hadi. Biraz
-
 ara verelim.
 
-
-
 1211
-
 01:36:23,367 --> 01:36:24,785
-
 Tamam bekle. Serumunu
-
 çıkarmalıyım.
 
-
-
 1212
-
 01:36:26,495 --> 01:36:27,496
-
 Tuktirey.
 
-
-
 1213
-
 01:36:36,004 --> 01:36:39,216
-
 Eywa'yı hissedebildiğini söyledi.
-
 Kalp atışlarını duyabiliyor.
 
-
-
 1214
-
 01:36:39,383 --> 01:36:40,509
-
 -Bu kadar.
-
 -Ne?
-
-
 
 1215
-
 01:36:40,676 --> 01:36:42,886
-
 Bu klasik frontal lob
-
 epilepsisidir.
 
-
-
 1216
-
 01:36:43,512 --> 01:36:44,513
-
 -Epilepsi?
-
 -Evet.
-
-
 
 1217
-
 01:36:44,680 --> 01:36:46,723
-
 Vizyonlar görüyorsun.
-
 sen...
 
-
-
 1218
-
 01:36:46,890 --> 01:36:49,226
-
 tarif ettiği türden
-
 dini vecd halleri.
 
-
-
 1219
-
 01:36:57,442 --> 01:37:00,863
-
 Ruh Ağacına bağlanmak bir
-
 çeşit tetikleyicidir.
 
-
-
 1220
-
 01:37:01,029 --> 01:37:02,823
-
 Artık bunu yapmasına kesinlikle
-
 izin veremezsin.
 
-
-
 1221
-
 01:37:05,075 --> 01:37:06,118
-
 Ne? Durmadan?
 
-
-
 1222
-
 01:37:06,285 --> 01:37:07,286
-
 Jake.
 
-
-
 1223
-
 01:37:07,828 --> 01:37:09,663
-
 Tekrar su altında
-
 yakalanırsa...
 
-
-
 1224
-
 01:37:10,414 --> 01:37:11,623
-
 onu öldürebilir.
 
-
-
 1225
-
 01:37:24,011 --> 01:37:25,012
-
 Uyanıksın!
 
-
-
 1226
-
 01:37:34,021 --> 01:37:35,522
-
 Kiri, benim tatlı çocuğum.
 
-
-
 1227
-
 01:37:36,356 --> 01:37:37,900
-
 Ah benim tatlı küçük kızım.
 
-
-
 1228
-
 01:37:38,650 --> 01:37:39,651
-
 Tamam, bu.
 
-
-
 1229
-
 01:37:39,776 --> 01:37:40,652
-
 "Seni görüyorum."
 
-
-
 1230
-
 01:37:47,075 --> 01:37:48,327
-
 Az önce söylediğim
-
 buydu, değil mi?
 
-
-
 1231
-
 01:37:50,495 --> 01:37:52,956
-
 "Naati. Ngaati" değil.
 
-
-
 1232
-
 01:37:54,082 --> 01:37:56,335
-
 Elbette. Burnundan
-
 çıkmak falan gibi.
 
-
-
 1233
-
 01:37:57,252 --> 01:37:58,253
-
 Patron...
 
-
-
 1234
-
 01:37:58,962 --> 01:38:00,839
-
 uzun menzilli devriye bir
-
 radar isabeti aldı.
 
-
-
 1235
-
 01:38:01,006 --> 01:38:02,299
-
 Haydut bir savaş helikopteri.
 
-
-
 1236
-
 01:38:03,300 --> 01:38:04,301
-
 Nerede?
 
-
-
 1237
-
 01:38:04,468 --> 01:38:06,053
-
 Doğu denizi. Dört yüz
-
 kilometre kuzeyde.
 
-
-
 1238
-
 01:38:09,014 --> 01:38:10,015
-
 Hatta beklemek.
 
-
-
 1239
-
 01:38:12,643 --> 01:38:16,772
-
 Sinyal kesik kesikti ve açık
-
 suda kaybettiler ama...
 
-
-
 1240
-
 01:38:17,397 --> 01:38:18,857
-
 parkuru yansıtırsanız...
 
-
-
 1241
-
 01:38:20,192 --> 01:38:21,944
-
 bu ada grubuna çarpar.
 
-
-
 1242
-
 01:38:23,111 --> 01:38:24,988
-
 Bu yüzlerce
-
 ada demek.
 
-
-
 1243
-
 01:38:25,155 --> 01:38:27,241
-
 Bu, birçok köy içeren büyük
-
 bir arama kutusu.
 
-
-
 1244
-
 01:38:27,407 --> 01:38:28,492
-
 Bu bizim adamımız.
 
-
-
 1245
-
 01:38:29,326 --> 01:38:32,412
-
 Bana gemiler ve uçaklar verirsen, sana
-
 onun kafa derisini geri getiririm.
 
-
-
 1246
-
 01:38:44,466 --> 01:38:45,592
-
 Bojiler geliyor.
 
-
-
 1247
-
 01:38:45,717 --> 01:38:46,426
-
 Kaptan.
 
-
-
 1248
-
 01:38:54,768 --> 01:38:56,311
-
 - Durun.
 
-
-
 1249
-
 01:38:56,478 --> 01:38:57,729
-
 Hepsi dursun. Evet.
 
-
-
 1250
-
 01:39:16,665 --> 01:39:17,708
-
 Hey.
 
-
-
 1251
-
 01:39:18,208 --> 01:39:19,418
-
 Scoresby misin?
 
-
-
 1252
-
 01:39:20,794 --> 01:39:23,714
-
 Gemime el koyan pislik
-
 sen misin?
 
-
-
 1253
-
 01:39:24,256 --> 01:39:25,465
-
 Bu ben
-
 olurdum.
 
-
-
 1254
-
 01:39:27,050 --> 01:39:30,053
-
 Hedef hemen hemen
-
 tüm bu ada grubu.
 
-
-
 1255
-
 01:39:30,846 --> 01:39:32,014
-
 Orada hiç bulunmadım.
 
-
-
 1256
-
 01:39:33,223 --> 01:39:35,684
-
 O suları bilirsin doktor.
-
 Ne tür bir yerlimiz var?
 
-
-
 1257
-
 01:39:36,351 --> 01:39:39,813
-
 Çoğunlukla Metkayina. Biraz
-
 Ta'unui. Belki elli köy.
 
-
-
 1258
-
 01:39:39,980 --> 01:39:41,398
-
 Ve sen
-
 kimsin?
 
-
-
 1259
-
 01:39:42,524 --> 01:39:43,817
-
 Ben Ian Garvin'im.
 
-
-
 1260
-
 01:39:45,110 --> 01:39:46,528
-
 Deniz biyoloğu.
 
-
-
 1261
-
 01:39:46,695 --> 01:39:47,905
-
 Elli köy.
 
-
-
 1262
-
 01:39:48,030 --> 01:39:50,240
-
 Yüz köy. umurumda değil
-
 Hepsini arayacağız.
 
-
-
 1263
-
 01:39:51,408 --> 01:39:52,701
-
 Ben tulkun avlarım.
 
-
-
 1264
-
 01:39:53,368 --> 01:39:55,704
-
 Ben bunun için donatıldım. Adamlarımın
-
 tek yaptığı bu.
 
-
-
 1265
-
 01:39:55,871 --> 01:39:57,456
-
 Karşılamam gereken kotalarım var.
-
-
 
 1266
-
 01:39:58,624 --> 01:40:00,542
-
 Bir kez iyi olacağım.
 
-
-
 1267
-
 01:40:01,251 --> 01:40:02,252
-
 O zaman yapmayacağım.
 
-
-
 1268
-
 01:40:05,506 --> 01:40:06,965
-
 Peki, içinden
-
 çıkamıyorsan...
 
-
-
 1269
-
 01:40:08,175 --> 01:40:09,176
-
 içine gir!
 
-
-
 1270
-
 01:40:10,052 --> 01:40:12,471
-
 - Tüm ekipler istasyonlara!
-
 - Hey, dokunma.
 
-
-
 1271
-
 01:40:14,932 --> 01:40:15,599
-
 Helm, onu yukarı
-
 çıkar.
 
-
-
 1272
-
 01:40:15,724 --> 01:40:16,517
-
 Uçuş hızı.
 
-
-
 1273
-
 01:40:16,725 --> 01:40:17,976
-
 Uçuş hızı, evet.
 
-
-
 1274
-
 01:40:28,737 --> 01:40:30,030
-
 Neydi o?
 
-
-
 1275
-
 01:40:31,281 --> 01:40:32,074
-
 Neler oluyor?
 
-
-
 1276
-
 01:40:35,536 --> 01:40:37,329
-
 Tulkun geri döndü!
 
-
-
 1277
-
 01:40:37,496 --> 01:40:40,541
-
 Herkes, Kardeşlerimiz
-
 döndü.
 
-
-
 1278
-
 01:40:50,759 --> 01:40:52,970
-
 Sonsuz göç döngüsünde...
 
-
-
 1279
-
 01:40:53,262 --> 01:40:55,180
-
 tulkun eve gelmişti.
 
-
-
 1280
-
 01:41:02,521 --> 01:41:03,939
-
 Kiri, hadi. Hadi!
 
-
-
 1281
-
 01:41:04,106 --> 01:41:05,399
-
 Tuk, beni rahat bırak.
 
-
-
 1282
-
 01:41:05,524 --> 01:41:06,775
-
 -Hadi!
-
 -Ne?
 
-
-
 1283
-
 01:41:08,360 --> 01:41:09,653
-
 Ne istiyorsun?
 
-
-
 1284
-
 01:41:09,987 --> 01:41:10,863
-
 Bakmak.
 
-
-
 1285
-
 01:41:19,746 --> 01:41:20,622
-
 Hadi.
-
-
 
 1286
-
 01:41:21,665 --> 01:41:22,791
-
 Gidip onlarla tanışalım.
 
-
-
 1287
-
 01:41:23,584 --> 01:41:24,209
-
 Bakmak...
 
-
-
 1288
-
 01:41:24,334 --> 01:41:25,669
-
 o benim Ruh Kardeşim.
 
-
-
 1289
-
 01:42:48,877 --> 01:42:50,462
-
 Hikayelerin zamanıydı.
 
-
-
 1290
-
 01:42:51,672 --> 01:42:52,923
-
 Sezonları ayrı.
 
-
-
 1291
-
 01:42:53,757 --> 01:42:54,424
-
 Ölümlerin...
 
-
-
 1292
-
 01:42:54,550 --> 01:42:55,175
-
 ve doğumlar.
 
-
-
 1293
-
 01:42:57,636 --> 01:42:58,679
-
 Eski dostlardan...
 
-
-
 1294
-
 01:42:58,804 --> 01:42:59,721
-
 ve yeni aşklar
 
-
-
 1295
-
 01:43:19,867 --> 01:43:20,826
-
 Çocuklar.
 
-
-
 1296
-
 01:43:23,620 --> 01:43:24,496
-
 Sakin ol...
 
-
-
 1297
-
 01:43:24,621 --> 01:43:25,664
-
 halkım.
 
-
-
 1298
-
 01:43:26,123 --> 01:43:27,499
-
 Silah arıyoruz...
 
-
-
 1299
-
 01:43:27,624 --> 01:43:29,585
-
 iletişim Her türlü teknoloji.
 
-
-
 1300
-
 01:43:30,085 --> 01:43:30,752
-
 Eğil.
 
-
-
 1301
-
 01:43:30,919 --> 01:43:31,712
-
 Sen de.
 
-
-
 1302
-
 01:43:31,837 --> 01:43:32,671
-
 Bunu görüyor musun?
 
-
-
 1303
-
 01:43:33,630 --> 01:43:34,798
-
 Yerde kal ve çeneni kapa!
 
-
-
 1304
-
 01:43:51,648 --> 01:43:52,691
-
 Şimdi ne
-
 diyor?
 
-
-
 1305
-
 01:43:52,858 --> 01:43:53,901
-
 Onu hiç
-
 görmediler.
 
-
-
 1306
-
 01:43:54,026 --> 01:43:54,902
-
 Bunlar Deniz
-
 İnsanları.
 
-
-
 1307
-
 01:43:55,027 --> 01:43:56,570
-
 Orman İnsanları
-
 buraya gelmez.
 
-
-
 1308
-
 01:43:56,695 --> 01:43:58,238
-
 Buna inanmıyorum.
 
-
-
 1309
-
 01:44:10,125 --> 01:44:11,668
-
 Hiçbir şey
-
 bilmiyorlar.
 
-
-
 1310
-
 01:44:14,505 --> 01:44:15,506
-
 O hayvanı vur.
 
-
-
 1311
-
 01:44:19,593 --> 01:44:20,552
-
 Ne yapıyorsun lan?
 
-
-
 1312
-
 01:44:32,314 --> 01:44:33,524
-
 {\an8}Kulakların şimdi
-
 çalışıyor mu?
 
-
-
 1313
-
 01:44:34,566 --> 01:44:36,318
-
 Bunların neler yapabileceğini
-
 görüyorsun, ha?
 
-
-
 1314
-
 01:44:38,612 --> 01:44:39,780
-
 Jake Sully.
 
-
-
 1315
-
 01:44:40,822 --> 01:44:43,367
-
 Toruk Makto!
 
-
-
 1316
-
 01:44:45,077 --> 01:44:45,994
-
 İndir onu!
 
-
-
 1317
-
 01:44:46,161 --> 01:44:46,995
-
 Eğil!
-
-
 
 1318
-
 01:44:48,872 --> 01:44:49,748
-
 Eğil!
-
-
 
 1319
-
 01:44:50,082 --> 01:44:50,958
-
 Durmak!
-
-
 
 1320
-
 01:44:51,083 --> 01:44:51,750
-
 Durmak!
-
-
 
 1321
-
 01:44:51,875 --> 01:44:53,627
-
 Bunu ona çok açık bir şekilde
-
 ifade ediyorsun.
 
-
-
 1322
-
 01:44:54,211 --> 01:44:55,337
-
 Sully'den
-
 vazgeçmiyor...
 
-
-
 1323
-
 01:44:56,088 --> 01:44:57,381
-
 Tsahik'i öldürürüz.
 
-
-
 1324
-
 01:44:57,548 --> 01:44:58,882
-
 Hayır, bunu
-
 yapmıyorum.
 
-
-
 1325
-
 01:44:59,049 --> 01:45:00,008
-
 Bu doğru mu?
 
-
-
 1326
-
 01:45:00,634 --> 01:45:02,302
-
 Bunun bir parçası olmayacağım!
 
-
-
 1327
-
 01:45:03,011 --> 01:45:03,637
-
 Eğil!
-
-
 
 1328
-
 01:45:03,804 --> 01:45:05,222
-
 Bu insanlar hiçbir
-
 şey bilmiyor!
 
-
-
 1329
-
 01:45:05,389 --> 01:45:06,598
-
 Hiçbir şey bilmiyorlar!
 
-
-
 1330
-
 01:45:06,765 --> 01:45:07,933
-
 Kıpırdama!
-
-
 
 1331
-
 01:45:12,396 --> 01:45:13,355
-
 Onu gerçekten harcayacak
-
 mıyız?
 
-
-
 1332
-
 01:45:14,690 --> 01:45:15,524
-
 Lütfen.
-
-
 
 1333
-
 01:45:15,691 --> 01:45:17,067
-
 Lütfen bunu yapma.
 
-
-
 1334
-
 01:45:17,192 --> 01:45:18,026
-
 Bu yanlış.
 
-
-
 1335
-
 01:45:18,193 --> 01:45:20,279
-
 Burada yaptığın
-
 şey yanlış.
 
-
-
 1336
-
 01:45:21,530 --> 01:45:22,364
-
 Lütfen.
-
-
 
 1337
-
 01:45:27,578 --> 01:45:28,787
-
 Ahtapotları yak.
 
-
-
 1338
-
 01:45:29,788 --> 01:45:31,290
-
 Hey, yak onları.
 
-
-
 1339
-
 01:45:31,456 --> 01:45:32,916
-
 Yak. Hepsi!
 
-
-
 1340
-
 01:45:33,417 --> 01:45:34,543
-
 Ateşleyiciler yukarı!
 
-
-
 1341
-
 01:45:52,019 --> 01:45:53,395
-
 Üzgünüm.
-
-
 
 1342
-
 01:45:53,562 --> 01:45:54,730
-
 Buradan gidiyoruz.
 
-
-
 1343
-
 01:45:56,481 --> 01:45:57,608
-
 bana dokunma!
 
-
-
 1344
-
 01:45:58,317 --> 01:45:58,942
-
 Üzgünüm.
-
-
 
 1345
-
 01:45:59,109 --> 01:46:00,110
-
 Hadi gidelim.
-
-
 
 1346
-
 01:46:00,485 --> 01:46:01,153
-
 Eyerlemek.
-
-
 
 1347
-
 01:46:01,278 --> 01:46:02,029
-
 Elbette. Hadi gidelim.
 
-
-
 1348
-
 01:46:26,970 --> 01:46:27,971
-
 Sorun nedir?
 
-
-
 1349
-
 01:46:28,138 --> 01:46:29,348
-
 Gökyüzü İnsanları.
 
-
-
 1350
-
 01:46:30,974 --> 01:46:32,809
-
 Seni arıyorlar,
-
 Jakesully.
 
-
-
 1351
-
 01:46:33,352 --> 01:46:34,186
-
 Güney.
 
-
-
 1352
-
 01:46:34,436 --> 01:46:35,187
-
 İnsanları var...
 
-
-
 1353
-
 01:46:35,312 --> 01:46:37,231
-
 Na'vi konuşan çocuk.
 
-
-
 1354
-
 01:46:41,235 --> 01:46:42,736
-
 Kimseyi öldürdüler mi?
 
-
-
 1355
-
 01:46:43,445 --> 01:46:44,821
-
 Henüz değil.
 
-
-
 1356
-
 01:46:46,114 --> 01:46:47,199
-
 Tehdit ediyorlar.
 
-
-
 1357
-
 01:46:47,616 --> 01:46:50,077
-
 Ama köylüler onlara nerede
-
 olduğunuzu söylemeyecek.
 
-
-
 1358
-
 01:46:50,410 --> 01:46:51,495
-
 benim emrimle
 
-
-
 1359
-
 01:46:59,461 --> 01:47:01,880
-
 Bu iblisi
-
 avlamalıyız.
 
-
-
 1360
-
 01:47:02,047 --> 01:47:03,090
-
 Onu tuzağa düşür.
 
-
-
 1361
-
 01:47:03,257 --> 01:47:04,174
-
 Öldür onu.
 
-
-
 1362
-
 01:47:05,884 --> 01:47:06,969
-
 Akıllı olmalıyız.
-
-
 
 1363
-
 01:47:07,761 --> 01:47:08,762
-
 Akıllı olmalıyız.
 
-
-
 1364
-
 01:47:08,929 --> 01:47:09,763
-
 Quaritch'i vurursak...
 
-
-
 1365
-
 01:47:09,888 --> 01:47:11,849
-
 nerede olduğumuzu
-
 bilecekler...
 
-
-
 1366
-
 01:47:12,015 --> 01:47:14,226
-
 ve sahip oldukları her şeyle
-
 buraya gelecekler.
 
-
-
 1367
-
 01:47:15,644 --> 01:47:16,979
-
 O zaman planımız nedir?
 
-
-
 1368
-
 01:47:18,689 --> 01:47:19,940
-
 Bu Toruk
-
 Makto!
 
-
-
 1369
-
 01:47:20,190 --> 01:47:20,941
-
 Baş aşağı.
 
-
-
 1370
-
 01:47:21,817 --> 01:47:23,026
-
 O burada mıydı?
 
-
-
 1371
-
 01:47:27,823 --> 01:47:29,032
-
 Bu bok çalışmıyor.
 
-
-
 1372
-
 01:47:29,867 --> 01:47:31,159
-
 Hayır, bizi
-
 engelliyorlar.
 
-
-
 1373
-
 01:47:31,910 --> 01:47:33,370
-
 Isıyı yükseltirsek...
 
-
-
 1374
-
 01:47:33,495 --> 01:47:34,955
-
 sadece koşmaya devam edecek.
 
-
-
 1375
-
 01:47:35,247 --> 01:47:36,748
-
 Onu dışarı
-
 çıkarmalıyız.
 
-
-
 1376
-
 01:47:46,175 --> 01:47:47,259
-
 Aştım.
 
-
-
 1377
-
 01:47:48,468 --> 01:47:50,637
-
 Karşılamam gereken kotalarım var.
 
-
-
 1378
-
 01:47:50,804 --> 01:47:52,389
-
 Avlanmak ister misin?
 
-
-
 1379
-
 01:47:52,764 --> 01:47:54,016
-
 Avlanalım.
 
-
-
 1380
-
 01:47:55,475 --> 01:47:56,310
-
 Burada? Burada değil.
 
-
-
 1381
-
 01:47:56,435 --> 01:47:57,728
-
 Çok fazla köy var.
 
-
-
 1382
-
 01:47:57,853 --> 01:47:59,313
-
 Hayır, hayır,
-
 hayır, hayır.
 
-
-
 1383
-
 01:48:00,606 --> 01:48:01,815
-
 Saygılarımla efendim...
 
-
-
 1384
-
 01:48:02,482 --> 01:48:03,442
-
 anlamıyorsun...
 
-
-
 1385
-
 01:48:03,609 --> 01:48:04,484
-
 akrabalık bağları...
 
-
-
 1386
-
 01:48:04,610 --> 01:48:06,361
-
 tulkun ve okyanus
-
 arasında Na'vi.
 
-
-
 1387
-
 01:48:06,528 --> 01:48:08,697
-
 Bu, ailelerinden birini
-
 öldürmek gibi olurdu.
 
-
-
 1388
-
 01:48:08,864 --> 01:48:10,157
-
 Burada avlanmaya
-
 başlarsak...
 
-
-
 1389
-
 01:48:10,282 --> 01:48:12,409
-
 düşmanlar peşimize
-
 düşecek.
 
-
-
 1390
-
 01:48:12,576 --> 01:48:13,702
-
 Kesinlikle.
 
-
-
 1391
-
 01:48:14,620 --> 01:48:15,329
-
 Bir düşman...
 
-
-
 1392
-
 01:48:15,454 --> 01:48:16,538
-
 özellikle.
 
-
-
 1393
-
 01:48:26,798 --> 01:48:28,467
-
 Ben nasıl hissettiğini biliyorum.
 
-
-
 1394
-
 01:48:31,220 --> 01:48:34,181
-
 Ben de yapayalnız hissediyorum.
 
-
-
 1395
-
 01:48:36,141 --> 01:48:37,434
-
 Söyle bana.
 
-
-
 1396
-
 01:48:37,601 --> 01:48:39,228
-
 Neden dışlandın?
 
-
-
 1397
-
 01:51:02,621 --> 01:51:03,956
-
 Üzgünüm.
 
-
-
 1398
-
 01:51:04,122 --> 01:51:05,582
-
 Ben çok üzgünüm.
 
-
-
 1399
-
 01:51:09,586 --> 01:51:10,587
-
 Sorun değil.
-
-
 
 1400
-
 01:51:11,255 --> 01:51:12,047
-
 Sorun değil.
-
-
 
 1401
-
 01:51:26,728 --> 01:51:28,313
-
 Buna izin verdin.
 
-
-
 1402
-
 01:51:29,731 --> 01:51:33,110
-
 Dışlananla bağ kurmasına
-
 izin verdin!
 
-
-
 1403
-
 01:51:35,863 --> 01:51:36,864
-
 Tsireya.
 
-
-
 1404
-
 01:51:38,657 --> 01:51:40,284
-
 Beni hayal kırıklığına
-
 uğrattın kızım.
 
-
-
 1405
-
 01:51:41,577 --> 01:51:42,828
-
 Peki sen...
 
-
-
 1406
-
 01:51:42,995 --> 01:51:44,329
-
 büyük bir savaşçının
-
 oğlu...
 
-
-
 1407
-
 01:51:44,454 --> 01:51:45,956
-
 kime daha iyi
-
 öğretildi.
 
-
-
 1408
-
 01:51:46,123 --> 01:51:47,708
-
 Payakan hayatımı kurtardı,
-
 efendim.
 
-
-
 1409
-
 01:51:47,875 --> 01:51:48,792
-
 Onu
-
 tanımıyorsun.
 
-
-
 1410
-
 01:51:48,959 --> 01:51:50,294
-
 Hayır, Lo'ak.
 
-
-
 1411
-
 01:51:51,378 --> 01:51:52,379
-
 Oturmak.
-
-
 
 1412
-
 01:51:53,797 --> 01:51:55,048
-
 Oturmak.
 
-
-
 1413
-
 01:51:57,926 --> 01:51:59,303
-
 Oturmak!
 
-
-
 1414
-
 01:52:03,390 --> 01:52:04,892
-
 Sözlerimi duy
-
 evlat.
-
-
 
 1415
-
 01:52:06,810 --> 01:52:09,188
-
 İlk Şarkıların
-
 günlerinde...
 
-
-
 1416
-
 01:52:09,563 --> 01:52:11,982
-
 tulkun kendi aralarında
-
 savaştı...
 
-
-
 1417
-
 01:52:12,107 --> 01:52:14,151
-
 bölge için...
 
-
-
 1418
-
 01:52:14,318 --> 01:52:15,652
-
 ve intikam için.
 
-
-
 1419
-
 01:52:16,653 --> 01:52:18,530
-
 Ama
-
 inandılar...
 
-
-
 1420
-
 01:52:18,697 --> 01:52:21,283
-
 Bu öldürme, ne kadar haklı
-
 olursa olsun...
 
-
-
 1421
-
 01:52:21,450 --> 01:52:24,119
-
 sadece daha fazla
-
 öldürme getirir.
 
-
-
 1422
-
 01:52:25,954 --> 01:52:29,249
-
 Yani her türlü öldürme
-
 yasaktı.
 
-
-
 1423
-
 01:52:29,416 --> 01:52:32,211
-
 Burası Tulkun
-
 Yolu.
 
-
-
 1424
-
 01:52:33,462 --> 01:52:34,463
-
 Payakan...
 
-
-
 1425
-
 01:52:35,339 --> 01:52:37,508
-
 bir katil, yani...
 
-
-
 1426
-
 01:52:37,591 --> 01:52:39,551
-
 o dışlanmış.
 
-
-
 1427
-
 01:52:39,718 --> 01:52:40,719
-
 Üzgünüm efendim.
-
-
 
 1428
-
 01:52:40,844 --> 01:52:41,637
-
 Ama yanılıyorsun.
 
-
-
 1429
-
 01:52:41,803 --> 01:52:42,554
-
 Lo'ak.
-
-
 
 1430
-
 01:52:43,639 --> 01:52:44,681
-
 Olo'eyktan
-
 ile konuş!
 
-
-
 1431
-
 01:52:44,848 --> 01:52:45,641
-
 Ne yaptığımı
-
 biliyorum...
 
-
-
 1432
-
 01:52:45,724 --> 01:52:46,725
-
 Bu
-
 yeterli!
 
-
-
 1433
-
 01:52:51,063 --> 01:52:52,147
-
 Ne bildiğimi biliyorum.
 
-
-
 1434
-
 01:52:55,651 --> 01:52:56,902
-
 Bu yeterli.
 
-
-
 1435
-
 01:52:58,695 --> 01:53:00,447
-
 Bununla
-
 ilgileneceğim.
 
-
-
 1436
-
 01:53:06,620 --> 01:53:08,080
-
 Bu fırtına geçecek.
 
-
-
 1437
-
 01:53:09,623 --> 01:53:13,669
-
 Lo'ak, bugün bir
-
 şey gördüm.
 
-
-
 1438
-
 01:53:13,836 --> 01:53:15,462
-
 Bir Orman Çocuğu
-
 gördüm...
 
-
-
 1439
-
 01:53:15,587 --> 01:53:16,880
-
 tulkun tarafından
-
 seçildi.
 
-
-
 1440
-
 01:53:17,798 --> 01:53:20,342
-
 Seninle gurur
-
 duyuyorum.
 
-
-
 1441
-
 01:53:20,509 --> 01:53:22,302
-
 O çocukları Payakan
-
 öldürmedi.
 
-
-
 1442
-
 01:53:23,095 --> 01:53:24,096
-
 Hepsini gördüm.
 
-
-
 1443
-
 01:53:24,263 --> 01:53:26,974
-
 İblis gemisi, annesini gözünün
-
 önünde öldürdü.
 
-
-
 1444
-
 01:53:27,140 --> 01:53:29,184
-
 Genç boğaları ve resif çocuklarını
-
 bir araya topladı.
 
-
-
 1445
-
 01:53:29,309 --> 01:53:30,519
-
 gemiye saldırmak için.
 
-
-
 1446
-
 01:53:31,186 --> 01:53:33,105
-
 Ve hepsi
-
 öldürüldü...
 
-
-
 1447
-
 01:53:33,564 --> 01:53:35,482
-
 ama Gökyüzü İnsanları tarafından.
-
 Onun tarafından değil.
 
-
-
 1448
-
 01:53:35,649 --> 01:53:37,484
-
 - O bir katil değil.
-
 -Hayır, Lo'ak.
 
-
-
 1449
-
 01:53:37,651 --> 01:53:39,987
-
 Tulkun Yoluyla,
-
 öyle.
 
-
-
 1450
-
 01:53:40,153 --> 01:53:41,238
-
 O ölümleri
-
 taşıyor.
 
-
-
 1451
-
 01:53:41,405 --> 01:53:43,782
-
 Hayatının geri kalanında bunun
-
 bedelini ödemek zorunda mı?
 
-
-
 1452
-
 01:53:43,949 --> 01:53:46,326
-
 Yaptığının yanlış olduğunu biliyor.
-
 Bir daha asla yapmazdı.
 
-
-
 1453
-
 01:53:48,078 --> 01:53:49,162
-
 Babama
-
 söylemeliyiz...
 
-
-
 1454
-
 01:53:49,246 --> 01:53:50,163
-
 Hayır hayır.
-
-
 
 1455
-
 01:53:50,247 --> 01:53:51,498
-
 Zaten babamla yeterince
-
 başım dertte.
 
-
-
 1456
-
 01:53:51,665 --> 01:53:52,875
-
 Baban bunu
-
 anlayacaktır.
 
-
-
 1457
-
 01:53:53,041 --> 01:53:53,959
-
 Hayır, yapmayacak.
 
-
-
 1458
-
 01:53:54,543 --> 01:53:56,461
-
 Hiçbir şey
-
 anlamıyor.
 
-
-
 1459
-
 01:53:56,628 --> 01:53:58,255
-
 Bütün klan benden
-
 nefret ediyor.
 
-
-
 1460
-
 01:53:58,422 --> 01:53:59,631
-
 İblis
-
 kanı.
 
-
-
 1461
-
 01:53:59,798 --> 01:54:01,633
-
 Yabancı. Tüm gördükleri
-
 bu.
 
-
-
 1462
-
 01:54:07,890 --> 01:54:09,641
-
 Seni görüyorum.
 
-
-
 1463
-
 01:54:13,896 --> 01:54:16,481
-
 Sen Tulkun'un
-
 Kardeşisin.
 
-
-
 1464
-
 01:54:18,734 --> 01:54:20,694
-
 Artık bizden
-
 birisin.
 
-
-
 1465
-
 01:54:37,878 --> 01:54:38,879
-
 Annemi aldın mı?
 
-
-
 1466
-
 01:54:39,046 --> 01:54:41,840
-
 Anne ve buzağı. Güçlü
-
 sinyal. Menzil 4.000.
 
-
-
 1467
-
 01:54:42,007 --> 01:54:42,799
-
 Onu aşağıya indir...
 
-
-
 1468
-
 01:54:42,925 --> 01:54:43,634
-
 gövde üzerinde.
 
-
-
 1469
-
 01:54:43,800 --> 01:54:45,260
-
 Aşağı geliyor,
-
 evet.
 
-
-
 1470
-
 01:54:45,427 --> 01:54:46,428
-
 Folyolar yerleştirildi.
 
-
-
 1471
-
 01:55:08,742 --> 01:55:09,535
-
 Alt takımlar...
 
-
-
 1472
-
 01:55:09,660 --> 01:55:10,327
-
 iki dakika!
 
-
-
 1473
-
 01:55:10,410 --> 01:55:11,912
-
 Hadi içeri girelim!
 
-
-
 1474
-
 01:55:12,079 --> 01:55:14,081
-
 Kapaklar kapandı!
 
-
-
 1475
-
 01:55:14,248 --> 01:55:15,123
-
 Hadi,
-
 koş!
 
-
-
 1476
-
 01:55:15,249 --> 01:55:16,166
-
 Acele!
 
-
-
 1477
-
 01:55:16,333 --> 01:55:18,210
-
 Mürettebat teknelerine.
-
 İki dakika.
 
-
-
 1478
-
 01:55:18,377 --> 01:55:19,628
-
 Biraz banka
-
 yapalım.
 
-
-
 1479
-
 01:55:20,796 --> 01:55:22,089
-
 Tekne ekipleri!
 
-
-
 1480
-
 01:55:22,256 --> 01:55:24,842
-
 Şu kravatları çıkaralım!
-
 Bağları çıkarın!
 
-
-
 1481
-
 01:55:30,138 --> 01:55:31,974
-
 Tüm tekneler içeri! Tekneler içeri!
 
-
-
 1482
-
 01:55:36,603 --> 01:55:38,063
-
 Hadi gidelim
-
 bebek!
 
-
-
 1483
-
 01:55:48,949 --> 01:55:50,158
-
 Yuvarlanıyoruz!
-
-
 
 1484
-
 01:56:16,518 --> 01:56:17,978
-
 Derinlik bombalarına
-
 hazır ol...
 
-
-
 1485
-
 01:56:18,145 --> 01:56:20,147
-
 ve ateş, ateş, ateş!
 
-
-
 1486
-
 01:56:42,544 --> 01:56:43,420
-
 Bu da ne?
 
-
-
 1487
-
 01:56:43,504 --> 01:56:44,421
-
 Ne
-
 yapıyorlar?
 
-
-
 1488
-
 01:56:45,714 --> 01:56:47,424
-
 Bunlar ekolokasyon
-
 sensörleri.
 
-
-
 1489
-
 01:56:47,591 --> 01:56:48,926
-
 Nasıl geziniyorlar?
 
-
-
 1490
-
 01:56:49,092 --> 01:56:50,093
-
 Tutmak zorundalar...
 
-
-
 1491
-
 01:56:50,219 --> 01:56:50,844
-
 sudan
-
 çıkardılar...
 
-
-
 1492
-
 01:56:51,011 --> 01:56:52,095
-
 yoksa sağır
-
 olurlar.
 
-
-
 1493
-
 01:56:53,096 --> 01:56:54,097
-
 Pikadorlar!
 
-
-
 1494
-
 01:56:54,473 --> 01:56:55,182
-
 İçeri gir!
 
-
-
 1495
-
 01:56:55,265 --> 01:56:55,891
-
 Devam et.
 
-
-
 1496
-
 01:56:55,974 --> 01:56:56,600
-
 İçeri gir.
-
-
 
 1497
-
 01:56:56,683 --> 01:56:57,643
-
 Ayağa kalk!
 
-
-
 1498
-
 01:57:13,659 --> 01:57:15,911
-
 İneği bölmenin geri kalanından
-
 kesecekler...
 
-
-
 1499
-
 01:57:16,078 --> 01:57:17,746
-
 ses topunu
-
 kullanarak.
 
-
-
 1500
-
 01:57:17,913 --> 01:57:19,831
-
 Buzağı yavaş yüzdüğü için
-
 anneyi hedef alıyorlar...
 
-
-
 1501
-
 01:57:20,040 --> 01:57:22,918
-
 ve buzağıyı
-
 bırakmayacak.
 
-
-
 1502
-
 01:57:23,335 --> 01:57:24,962
-
 Hiç karşılık
-
 verirler mi?
 
-
-
 1503
-
 01:57:25,128 --> 01:57:27,506
-
 Hayır, onları hiç kanat kaldırırken
-
 görmemiştim.
 
-
-
 1504
-
 01:57:28,131 --> 01:57:30,050
-
 Yine de öldürmesi
-
 zor piçler.
 
-
-
 1505
-
 01:57:31,343 --> 01:57:32,928
-
 Alt ekipler, gidin!
 
-
-
 1506
-
 01:57:33,470 --> 01:57:34,304
-
 Ve bırakın.
 
-
-
 1507
-
 01:57:38,475 --> 01:57:40,185
-
 Bırak,
-
 bırak.
 
-
-
 1508
-
 01:57:44,982 --> 01:57:45,983
-
 İşte bizim
-
 kız.
 
-
-
 1509
-
 01:57:46,149 --> 01:57:47,150
-
 Hedef görüş
-
 alanında.
 
-
-
 1510
-
 01:57:47,651 --> 01:57:49,111
-
 3-6 zıpkınlarla
-
 sıcakta.
 
-
-
 1511
-
 01:57:49,278 --> 01:57:50,445
-
 Başlıyoruz
-
 bebeğim.
 
-
-
 1512
-
 01:57:51,905 --> 01:57:53,866
-
 Bak, aşağıdan
-
 giriyoruz...
 
-
-
 1513
-
 01:57:53,991 --> 01:57:55,826
-
 Zırhta boşlukların
-
 olduğu yerde.
 
-
-
 1514
-
 01:57:59,705 --> 01:58:01,290
-
 Pekala hadi gidelim.
-
 İçeri gir.
 
-
-
 1515
-
 01:58:01,456 --> 01:58:02,457
-
 İçeri
-
 giriyorum.
 
-
-
 1516
-
 01:58:02,624 --> 01:58:03,917
-
 Beni
-
 yakınlaştır.
 
-
-
 1517
-
 01:58:07,462 --> 01:58:08,463
-
 Onu sabit tut.
 
-
-
 1518
-
 01:58:08,630 --> 01:58:10,174
-
 menzil içinde.
-
 Birinci kol.
 
-
-
 1519
-
 01:58:10,340 --> 01:58:12,009
-
 Kurma, hedef
-
 kilidi.
 
-
-
 1520
-
 01:58:12,176 --> 01:58:13,302
-
 Ve bir
-
 uzakta.
 
-
-
 1521
-
 01:58:19,641 --> 01:58:21,059
-
 İki sıcak.
 
-
-
 1522
-
 01:58:21,226 --> 01:58:22,227
-
 -Birinci kol.
-
 - Kurma.
 
-
-
 1523
-
 01:58:22,394 --> 01:58:23,437
-
 Ateş.
-
-
 
 1524
-
 01:58:27,608 --> 01:58:28,567
-
 İyi vuruş.
-
 Kol iki.
 
-
-
 1525
-
 01:58:28,650 --> 01:58:29,276
-
 Kurma
 
-
-
 1526
-
 01:58:29,359 --> 01:58:30,402
-
 İki uzakta.
-
-
 
 1527
-
 01:58:31,695 --> 01:58:32,696
-
 Booyah!
 
-
-
 1528
-
 01:58:32,863 --> 01:58:33,780
-
 Güzel.
-
-
 
 1529
-
 01:58:33,947 --> 01:58:35,574
-
 3-6, bize bir bira
-
 borçlusun.
 
-
-
 1530
-
 01:58:40,370 --> 01:58:42,414
-
 Görüyorsun, çantalar
-
 onu yavaşlatıyor...
 
-
-
 1531
-
 01:58:42,539 --> 01:58:43,790
-
 ve onu yüzeyde
-
 tut.
 
-
-
 1532
-
 01:58:43,957 --> 01:58:44,958
-
 Evet.
-
-
 
 1533
-
 01:58:45,125 --> 01:58:46,251
-
 Bin ona!
 
-
-
 1534
-
 01:58:46,418 --> 01:58:47,711
-
 Beni oraya götür.
 
-
-
 1535
-
 01:58:47,878 --> 01:58:49,254
-
 Doğruca ona.
 
-
-
 1536
-
 01:58:49,505 --> 01:58:50,506
-
 30 metre.
 
-
-
 1537
-
 01:58:51,381 --> 01:58:52,966
-
 Patlayıcı uçlu
-
 zıpkın.
 
-
-
 1538
-
 01:58:53,509 --> 01:58:56,178
-
 On metre. Beni oraya götür.
-
 Beni cebine koy.
 
-
-
 1539
-
 01:58:56,678 --> 01:58:57,846
-
 Şimdi sabit,
-
 sabit.
 
-
-
 1540
-
 01:58:57,930 --> 01:58:58,972
-
 Onunla
-
 kal.
-
-
 
 1541
-
 01:58:59,306 --> 01:59:00,891
-
 Tutmak. Tutmak.
 
-
-
 1542
-
 01:59:03,060 --> 01:59:04,269
-
 Hat çalışıyor!
 
-
-
 1543
-
 01:59:11,109 --> 01:59:13,237
-
 Atkuyruğuna sahip
-
 çık Albay!
 
-
-
 1544
-
 01:59:24,164 --> 01:59:25,249
-
 Tam geri çekil!
 
-
-
 1545
-
 01:59:25,415 --> 01:59:26,750
-
 Geri dolu, evet.
 
-
-
 1546
-
 01:59:33,423 --> 01:59:34,591
-
 Onu tut.
-
-
 
 1547
-
 01:59:34,758 --> 01:59:35,884
-
 Onu tut.
 
-
-
 1548
-
 01:59:39,179 --> 01:59:41,849
-
 Patlayıcı bir zıpkını
-
 göğsüne dayadı...
 
-
-
 1549
-
 01:59:41,974 --> 01:59:43,392
-
 ve hala
-
 koşuyor.
 
-
-
 1550
-
 01:59:44,309 --> 01:59:45,936
-
 Güzel.
 
-
-
 1551
-
 02:00:59,801 --> 02:01:02,596
-
 Beze ulaşmanın tek
-
 yolu aşağıdandır.
 
-
-
 1552
-
 02:01:02,763 --> 02:01:04,973
-
 Sert damaktan
-
 deliyoruz...
 
-
-
 1553
-
 02:01:05,891 --> 02:01:07,893
-
 beyne. Ve...
 
-
-
 1554
-
 02:01:11,688 --> 02:01:13,941
-
 Bunlar son derece zeki
-
 varlıklardır.
 
-
-
 1555
-
 02:01:14,107 --> 02:01:15,067
-
 Muhtemelen bizden
-
 daha akıllı.
 
-
-
 1556
-
 02:01:15,234 --> 02:01:16,485
-
 Benden daha akıllı değil.
 
-
-
 1557
-
 02:01:16,652 --> 02:01:18,111
-
 Bu çıtayı çok düşük
-
 tutuyor.
 
-
-
 1558
-
 02:01:18,278 --> 02:01:19,821
-
 Hey, zıpkınlı
-
 olan benim.
 
-
-
 1559
-
 02:01:21,406 --> 02:01:22,407
-
 Evet.
-
-
 
 1560
-
 02:01:33,502 --> 02:01:34,503
-
 Nereden
-
 biliyorsunuz?
 
-
-
 1561
-
 02:01:34,670 --> 02:01:35,921
-
 Bizden daha akıllı
-
 olduklarını mı?
 
-
-
 1562
-
 02:01:36,755 --> 02:01:38,423
-
 Daha fazla nöron, daha fazla yol.
 
-
-
 1563
-
 02:01:39,299 --> 02:01:41,468
-
 Sadece daha akıllı değiller,
-
 aynı zamanda...
 
-
-
 1564
-
 02:01:41,593 --> 02:01:42,845
-
 derinden
-
 duygusal
 
-
-
 1565
-
 02:01:43,762 --> 02:01:45,013
-
 Daha manevi.
 
-
-
 1566
-
 02:01:49,351 --> 02:01:52,271
-
 Bakın bu bölge bizim duygu merkezlerimize
-
 denk geliyor...
 
-
-
 1567
-
 02:01:52,437 --> 02:01:54,898
-
 ama orantılı olarak
-
 çok daha büyük.
 
-
-
 1568
-
 02:01:56,275 --> 02:01:57,818
-
 Müzikleri var...
 
-
-
 1569
-
 02:01:57,985 --> 02:01:59,528
-
 Felsefe...
 
-
-
 1570
-
 02:01:59,695 --> 02:02:01,280
-
 matematik...
 
-
-
 1571
-
 02:02:01,780 --> 02:02:03,115
-
 karmaşık dil
 
-
-
 1572
-
 02:02:03,699 --> 02:02:04,324
-
 Tamam aşkım.
-
-
 
 1573
-
 02:02:05,117 --> 02:02:06,243
-
 İşte başlıyoruz.
 
-
-
 1574
-
 02:02:07,035 --> 02:02:08,412
-
 Bana parayı
-
 göster.
 
-
-
 1575
-
 02:02:13,125 --> 02:02:15,127
-
 Yani tüm mesele bu mu?
 
-
-
 1576
-
 02:02:15,752 --> 02:02:17,087
-
 Bu kadar.
 
-
-
 1577
-
 02:02:17,254 --> 02:02:18,255
-
 Amrita.
 
-
-
 1578
-
 02:02:21,175 --> 02:02:23,093
-
 Büyükler için şanssızlık.
 
-
-
 1579
-
 02:02:23,260 --> 02:02:26,513
-
 Bu şey sadece insanın yaşlanmasını
-
 durdurmak için olur. Beğenmek...
 
-
-
 1580
-
 02:02:27,097 --> 02:02:28,473
-
 durdurur.
 
-
-
 1581
-
 02:02:30,976 --> 02:02:33,187
-
 Ons ons tek en
-
 değerli...
 
-
-
 1582
-
 02:02:33,312 --> 02:02:35,272
-
 insan tarafından bilinen madde.
 
-
-
 1583
-
 02:02:36,982 --> 02:02:38,984
-
 Buradaki küçük şişenin
-
 değeri...
 
-
-
 1584
-
 02:02:40,152 --> 02:02:41,403
-
 80 milyon.
 
-
-
 1585
-
 02:02:42,446 --> 02:02:43,322
-
 Hızlı düşün!
 
-
-
 1586
-
 02:02:44,656 --> 02:02:45,824
-
 Lütfen yapma.
 
-
-
 1587
-
 02:02:47,075 --> 02:02:47,951
-
 Asla komik değil.
 
-
-
 1588
-
 02:02:48,994 --> 02:02:52,164
-
 Amrita, şimdi Pandora'daki
-
 her şeyin parasını ödüyor.
 
-
-
 1589
-
 02:02:53,123 --> 02:02:55,542
-
 Araştırmanız bile.
-
 Değil mi Dr. G?
 
-
-
 1590
-
 02:02:55,709 --> 02:02:57,002
-
 Bu yüzden içiyorum.
 
-
-
 1591
-
 02:02:59,421 --> 02:03:00,506
-
 Tek alacağın bu mu?
 
-
-
 1592
-
 02:03:01,798 --> 02:03:03,842
-
 Yani, geri kalanını boşa
-
 mı harcıyorsun?
 
-
-
 1593
-
 02:03:05,385 --> 02:03:06,970
-
 Çantaları bırak.
 
-
-
 1594
-
 02:03:07,554 --> 02:03:08,722
-
 Hadi onu batıralım!
 
-
-
 1595
-
 02:03:08,889 --> 02:03:10,974
-
 Hayır. Çantaları
-
 bırakın.
 
-
-
 1596
-
 02:03:11,350 --> 02:03:13,143
-
 Biz olduğumuzu bilmelerini istiyorum.
 
-
-
 1597
-
 02:03:13,810 --> 02:03:17,189
-
 Yem olarak kullanıldığım için
-
 ekstra ücret alıyorum.
 
-
-
 1598
-
 02:03:51,473 --> 02:03:53,976
-
 Adı Ro'a.
 
-
-
 1599
-
 02:03:56,353 --> 02:03:59,189
-
 O benim Ruh Kardeşimdi.
 
-
-
 1600
-
 02:04:01,567 --> 02:04:04,319
-
 Şarkıların
-
 bestecisiydi.
 
-
-
 1601
-
 02:04:04,486 --> 02:04:05,779
-
 Çok saygı duyulur.
 
-
-
 1602
-
 02:04:05,946 --> 02:04:07,197
-
 Birlikte şarkı
-
 söylerdik.
 
-
-
 1603
-
 02:04:08,866 --> 02:04:12,536
-
 Bu buzağıya sahip olmak için birçok
-
 üreme döngüsü bekledi.
 
-
-
 1604
-
 02:04:13,036 --> 02:04:15,289
-
 Klan onun için
-
 çok mutluydu.
 
-
-
 1605
-
 02:04:18,417 --> 02:04:20,335
-
 Nedir bu, Tonowari?
 
-
-
 1606
-
 02:04:23,088 --> 02:04:24,756
-
 Bu nedir?
 
-
-
 1607
-
 02:04:44,318 --> 02:04:47,237
-
 Ruh Kızım ve
-
 bebeği...
 
-
-
 1608
-
 02:04:47,404 --> 02:04:49,948
-
 Gökyüzü İnsanları tarafından
-
 öldürüldü!
 
-
-
 1609
-
 02:04:51,283 --> 02:04:53,493
-
 Bu savaş bize geldi.
 
-
-
 1610
-
 02:04:54,328 --> 02:04:55,871
-
 Bu avı
-
 biliyorduk...
 
-
-
 1611
-
 02:04:55,996 --> 02:04:57,748
-
 tulkun
-
 insanımızın.
 
-
-
 1612
-
 02:04:57,915 --> 02:04:59,291
-
 Ama ufkun
-
 ötesindeydi...
 
-
-
 1613
-
 02:04:59,708 --> 02:05:00,834
-
 uzak.
 
-
-
 1614
-
 02:05:01,001 --> 02:05:02,794
-
 Şimdi
-
 burada!
 
-
-
 1615
-
 02:05:06,548 --> 02:05:07,549
-
 Hayır, sen...
 
-
-
 1616
-
 02:05:07,716 --> 02:05:09,843
-
 Sky People'ın nasıl düşündüğünü
-
 anlamalısın.
 
-
-
 1617
-
 02:05:10,010 --> 02:05:11,720
-
 Büyük Denge umurlarında
-
 değil.
 
-
-
 1618
-
 02:05:11,887 --> 02:05:13,430
-
 Sky People'a cevap
-
 vermiyoruz!
 
-
-
 1619
-
 02:05:13,597 --> 02:05:15,432
-
 Dinlemek. Onu dinle.
 
-
-
 1620
-
 02:05:15,599 --> 02:05:16,725
-
 Gökyüzü İnsanları
-
 durmayacak.
 
-
-
 1621
-
 02:05:16,892 --> 02:05:17,809
-
 Bu sadece
-
 başlangıç.
 
-
-
 1622
-
 02:05:17,976 --> 02:05:20,020
-
 Tulkun'una gitmesini
-
 söylemelisin.
 
-
-
 1623
-
 02:05:21,188 --> 02:05:23,190
-
 Onlara uzaklara gitmelerini
-
 söylemelisin!
 
-
-
 1624
-
 02:05:23,524 --> 02:05:24,274
-
 Ayrılmak?
 
-
-
 1625
-
 02:05:25,943 --> 02:05:27,152
-
 aramızda
-
 yaşıyorsun...
 
-
-
 1626
-
 02:05:28,278 --> 02:05:30,072
-
 ve hiçbir şey
-
 öğrenmezsin!
 
-
-
 1627
-
 02:05:30,197 --> 02:05:33,367
-
 Kardeşlerimizi korumak
-
 için savaşacağız!
 
-
-
 1628
-
 02:05:33,534 --> 02:05:34,701
-
 Hayır hayır hayır.
-
-
 
 1629
-
 02:05:36,328 --> 02:05:37,412
-
 Eğer saldırırsan...
 
-
-
 1630
-
 02:05:37,579 --> 02:05:39,289
-
 eğer savaşırsan...
 
-
-
 1631
-
 02:05:39,456 --> 02:05:40,791
-
 o zaman seni yok
-
 edecekler!
 
-
-
 1632
-
 02:05:40,958 --> 02:05:41,750
-
 yok edecekler...
 
-
-
 1633
-
 02:05:41,875 --> 02:05:42,918
-
 sevdiğin
-
 her şey
 
-
-
 1634
-
 02:05:43,877 --> 02:05:44,545
-
 HAYIR!
-
-
 
 1635
-
 02:05:44,670 --> 02:05:45,838
-
 Sözlerimi
-
 duyuyorsun!
 
-
-
 1636
-
 02:05:46,463 --> 02:05:47,464
-
 Sözlerimi duy!
 
-
-
 1637
-
 02:05:47,631 --> 02:05:48,632
-
 Sakin ol.
-
-
 
 1638
-
 02:05:48,799 --> 02:05:49,633
-
 Sakin
-
 ol!
 
-
-
 1639
-
 02:05:50,342 --> 02:05:51,343
-
 Babamı dinle.
 
-
-
 1640
-
 02:05:51,510 --> 02:05:52,344
-
 Kahretsin!
-
-
 
 1641
-
 02:05:52,511 --> 02:05:53,762
-
 Doğruyu konuşuyor.
 
-
-
 1642
-
 02:06:03,772 --> 02:06:05,107
-
 Tulkuna söyle...
 
-
-
 1643
-
 02:06:06,900 --> 02:06:08,360
-
 eğer bunlardan biri
-
 onlara çarparsa...
 
-
-
 1644
-
 02:06:08,485 --> 02:06:09,653
-
 ölüm için işaretlendiler.
 
-
-
 1645
-
 02:06:12,739 --> 02:06:13,615
-
 Ve beni ara...
 
-
-
 1646
-
 02:06:13,740 --> 02:06:14,950
-
 susturacağım.
 
-
-
 1647
-
 02:06:17,619 --> 02:06:19,538
-
 Hayatlarını kurtarmak, önemli
-
 olan tek şey bu.
 
-
-
 1648
-
 02:06:20,581 --> 02:06:21,915
-
 Sağ?
 
-
-
 1649
-
 02:06:24,418 --> 02:06:26,128
-
 Aileni kurtarmak.
 
-
-
 1650
-
 02:06:38,974 --> 02:06:40,184
-
 Tulkuna söyle.
 
-
-
 1651
-
 02:06:41,476 --> 02:06:42,477
-
 Gitmek.
-
-
 
 1652
-
 02:06:42,895 --> 02:06:43,979
-
 Gitmek!
-
-
 
 1653
-
 02:06:47,608 --> 02:06:49,276
-
 Savaşmalıyız.
 
-
-
 1654
-
 02:06:50,402 --> 02:06:51,987
-
 MaJake.
-
-
 
 1655
-
 02:06:52,154 --> 02:06:53,739
-
 Ayakta durmayacağım ve hiçbir
-
 şey yapmayacağım!
 
-
-
 1656
-
 02:06:54,573 --> 02:06:56,783
-
 Bu bir tuzak. Karşılık
-
 vermemizi istiyorlar.
 
-
-
 1657
-
 02:06:57,534 --> 02:06:59,119
-
 Tulkun avlamıyorlar.
 
-
-
 1658
-
 02:06:59,286 --> 02:07:00,787
-
 Bizi avlıyorlar.
 
-
-
 1659
-
 02:07:15,344 --> 02:07:17,262
-
 Buradan kaçmana imkan
-
 yok, küçük kardeşim.
 
-
-
 1660
-
 02:07:17,429 --> 02:07:19,014
-
 Payakan'ı pinger'lar konusunda
-
 uyarmalıyım.
 
-
-
 1661
-
 02:07:19,681 --> 02:07:20,390
-
 HAYIR.
-
-
 
 1662
-
 02:07:20,557 --> 02:07:22,476
-
 Skxawng kıçını burada
-
 tutmalısın.
 
-
-
 1663
-
 02:07:22,643 --> 02:07:23,685
-
 O dışlanmış.
 
-
-
 1664
-
 02:07:23,852 --> 02:07:25,604
-
 Onu benden başka uyaracak
-
 kimse yok.
 
-
-
 1665
-
 02:07:25,771 --> 02:07:26,563
-
 Kardeş...
 
-
-
 1666
-
 02:07:27,814 --> 02:07:29,858
-
 neden her zaman işleri bu kadar
-
 zorlaştırmak zorundasın?
 
-
-
 1667
-
 02:07:31,443 --> 02:07:32,486
-
 HAYIR.
-
-
 
 1668
-
 02:07:32,653 --> 02:07:35,239
-
 Neden senin gibi mükemmel bir evlat
-
 olamıyorum demek istiyorsun?
 
-
-
 1669
-
 02:07:36,615 --> 02:07:38,075
-
 Mükemmel küçük
-
 asker.
 
-
-
 1670
-
 02:07:38,867 --> 02:07:40,118
-
 Ben sen
-
 değilim!
 
-
-
 1671
-
 02:07:40,786 --> 02:07:41,620
-
 Tamam aşkım?
 
-
-
 1672
-
 02:07:42,287 --> 02:07:43,038
-
 Ben sen değilim.
 
-
-
 1673
-
 02:07:44,456 --> 02:07:45,791
-
 O benim erkek kardeşim.
 
-
-
 1674
-
 02:07:45,958 --> 02:07:47,000
-
 Ben gidiyorum.
 
-
-
 1675
-
 02:07:47,167 --> 02:07:48,544
-
 O senin kardeşin
-
 mi?
 
-
-
 1676
-
 02:07:49,711 --> 02:07:51,630
-
 Hayır, ben senin
-
 kardeşinim.
 
-
-
 1677
-
 02:07:51,797 --> 02:07:52,631
-
 Bak!
-
-
 
 1678
-
 02:07:53,215 --> 02:07:54,299
-
 Bırak beni.
 
-
-
 1679
-
 02:07:55,509 --> 02:07:56,343
-
 Bak!
-
-
 
 1680
-
 02:07:56,510 --> 02:07:57,177
-
 Geri gelmek!
-
-
 
 1681
-
 02:07:57,302 --> 02:07:57,928
-
 Hadi.
-
-
 
 1682
-
 02:07:58,053 --> 02:07:59,096
-
 Payakan'a gidiyor.
 
-
-
 1683
-
 02:08:11,191 --> 02:08:12,317
-
 Geri gelmek!
 
-
-
 1684
-
 02:08:13,485 --> 02:08:14,945
-
 İşte Lo'ak!
-
 Lo'ak.
-
-
 
 1685
-
 02:08:15,320 --> 02:08:16,363
-
 Bak!
-
-
 
 1686
-
 02:08:16,530 --> 02:08:18,073
-
 Lo'ak, Payakan'ı
-
 bulacak!
 
-
-
 1687
-
 02:08:18,532 --> 02:08:19,366
-
 Bekle!
 
-
-
 1688
-
 02:08:21,034 --> 02:08:21,785
-
 Devam etmek!
-
-
 
 1689
-
 02:08:31,128 --> 02:08:32,880
-
 - Tüm ekipler istasyonlara.
-
 -Sesli genel arama.
 
-
-
 1690
-
 02:08:33,046 --> 02:08:35,215
-
 Pekala millet. Hadi. Hadi
-
 biraz para kazanalım!
 
-
-
 1691
-
 02:08:44,099 --> 02:08:45,100
-
 Erkek kardeş!
-
-
 
 1692
-
 02:08:45,517 --> 02:08:46,143
-
 Bak!
-
-
 
 1693
-
 02:08:48,645 --> 02:08:49,271
-
 Bak!
-
-
 
 1694
-
 02:08:49,354 --> 02:08:49,980
-
 Beklemek!
 
-
-
 1695
-
 02:08:53,275 --> 02:08:54,568
-
 Nedir? Sorun
-
 nedir?
 
-
-
 1696
-
 02:08:56,570 --> 02:08:57,738
-
 Bok!
-
-
 
 1697
-
 02:08:58,405 --> 02:09:00,324
-
 Sakin ol.
 
-
-
 1698
-
 02:09:01,074 --> 02:09:02,326
-
 Bunu anladım.
 
-
-
 1699
-
 02:09:08,790 --> 02:09:09,750
-
 Bok!
-
-
 
 1700
-
 02:09:13,962 --> 02:09:15,130
-
 Kardeşim, hadi!
-
 Bana yardım et!
-
-
 
 1701
-
 02:09:15,797 --> 02:09:16,757
-
 Acele edin, gemi
-
 geliyor!
 
-
-
 1702
-
 02:09:16,882 --> 02:09:17,716
-
 Oradalar!
 
-
-
 1703
-
 02:09:20,135 --> 02:09:21,386
-
 Kardeşim, hadi!
 
-
-
 1704
-
 02:09:22,346 --> 02:09:23,639
-
 Kardeş.
 
-
-
 1705
-
 02:09:23,805 --> 02:09:24,515
-
 Hadi ama kardeşim.
-
-
 
 1706
-
 02:09:24,640 --> 02:09:25,265
-
 Acele etmek!
-
-
 
 1707
-
 02:09:25,641 --> 02:09:26,683
-
 Çağırın!
 
-
-
 1708
-
 02:09:26,808 --> 02:09:27,726
-
 Babamı ara!
 
-
-
 1709
-
 02:09:28,268 --> 02:09:29,436
-
 Babamı ara! Sadece
-
 git! Yap!
 
-
-
 1710
-
 02:09:29,603 --> 02:09:30,687
-
 Sadece yap.
 
-
-
 1711
-
 02:09:31,522 --> 02:09:33,482
-
 Baba. Yani Şeytan Köpek.
-
 Beni okuyor musun?
 
-
-
 1712
-
 02:09:33,649 --> 02:09:34,816
-
 Nereye gittiklerini
-
 gördün mü?
 
-
-
 1713
-
 02:09:34,942 --> 02:09:35,859
-
 Eagle Eye, anlıyor
-
 musun?
 
-
-
 1714
-
 02:09:35,984 --> 02:09:37,402
-
 -Resifin dışına çıktılar.
-
 -Evet, Lo'ak.
 
-
-
 1715
-
 02:09:37,569 --> 02:09:38,195
-
 Baba!
-
-
 
 1716
-
 02:09:39,655 --> 02:09:41,949
-
 Saldırı altındaki bir
-
 tulkun ile beraberiz.
 
-
-
 1717
-
 02:09:42,115 --> 02:09:43,200
-
 Katil gemi geliyor.
 
-
-
 1718
-
 02:09:43,367 --> 02:09:44,743
-
 Yaklaşık iki
-
 klik ötede.
 
-
-
 1719
-
 02:09:45,369 --> 02:09:46,036
-
 Yanında kim var?
 
-
-
 1720
-
 02:09:46,119 --> 02:09:46,745
-
 Hepimiziz.
 
-
-
 1721
-
 02:09:46,954 --> 02:09:48,288
-
 Aonung ve Tsireya da.
 
-
-
 1722
-
 02:09:48,455 --> 02:09:49,831
-
 Three Brothers
-
 Rocks'tayız.
 
-
-
 1723
-
 02:09:49,998 --> 02:09:51,875
-
 Koruyacaksın ve meşgul
-
 olmayacaksın.
 
-
-
 1724
-
 02:09:52,042 --> 02:09:52,918
-
 Elbette? Beni anlıyor musun?
 
-
-
 1725
-
 02:09:53,085 --> 02:09:54,127
-
 meşgul etmeyin.
-
 geliyoruz
 
-
-
 1726
-
 02:09:54,294 --> 02:09:55,128
-
 Evet efendim.
 
-
-
 1727
-
 02:09:55,295 --> 02:09:56,421
-
 Yaklaşıyor!
 
-
-
 1728
-
 02:09:56,547 --> 02:09:58,674
-
 -Üç, iki, çek!
-
 -Çekmek!
-
-
 
 1729
-
 02:09:59,633 --> 02:10:01,009
-
 Çocuklar saldırı altında!
 
-
-
 1730
-
 02:10:01,552 --> 02:10:03,470
-
 Çocuklar saldırı altında. Bir
-
 tulkunu savunuyorlardı.
 
-
-
 1731
-
 02:10:03,637 --> 02:10:04,888
-
 Sizin de çocuklarınız.
 
-
-
 1732
-
 02:10:05,055 --> 02:10:06,098
-
 İblis gemisi mi?
 
-
-
 1733
-
 02:10:06,265 --> 02:10:06,890
-
 Evet!
 
-
-
 1734
-
 02:10:06,974 --> 02:10:07,599
-
 Gitmeliyiz!
-
-
 
 1735
-
 02:10:07,724 --> 02:10:09,434
-
 Silahlar. Alarmı
-
 çal!
 
-
-
 1736
-
 02:10:13,647 --> 02:10:14,731
-
 Geride kalmalısın.
 
-
-
 1737
-
 02:10:15,065 --> 02:10:15,941
-
 biniyorum!
 
-
-
 1738
-
 02:10:16,275 --> 02:10:16,900
-
 Gelmek!
 
-
-
 1739
-
 02:11:06,366 --> 02:11:08,202
-
 Alt ekipler, kapaklar kapandı.
 
-
-
 1740
-
 02:11:08,368 --> 02:11:09,828
-
 İki dakika uyarısı.
 
-
-
 1741
-
 02:11:16,793 --> 02:11:17,794
-
 Aonung!
 
-
-
 1742
-
 02:11:18,754 --> 02:11:19,796
-
 Acele etmek! Hadi!
 
-
-
 1743
-
 02:11:19,963 --> 02:11:21,131
-
 Kardeşim, acele et!
 
-
-
 1744
-
 02:11:23,592 --> 02:11:24,343
-
 Yürü! Yürü! Yürü!
-
-
 
 1745
-
 02:11:28,514 --> 02:11:29,681
-
 Çekmek! Şimdi!
 
-
-
 1746
-
 02:11:31,642 --> 02:11:33,352
-
 -Herkes! Birlikte!
-
 -Çekmek!
 
-
-
 1747
-
 02:11:37,189 --> 02:11:38,565
-
 lanetleneceğim
 
-
-
 1748
-
 02:11:39,816 --> 02:11:41,026
-
 Sully'nin çocukları.
 
-
-
 1749
-
 02:11:41,485 --> 02:11:43,153
-
 Hadi yuvarlanalım.
-
 Sen değil.
 
-
-
 1750
-
 02:11:43,737 --> 02:11:44,738
-
 Eyerlemek.
 
-
-
 1751
-
 02:11:56,500 --> 02:11:58,126
-
 Menzil 700 metredir.
 
-
-
 1752
-
 02:11:58,293 --> 02:11:59,878
-
 Pinger sinyali iyi.
 
-
-
 1753
-
 02:12:01,755 --> 02:12:03,131
-
 Daha sert çek!
-
-
 
 1754
-
 02:12:03,298 --> 02:12:04,508
-
 Çekmek!
-
-
 
 1755
-
 02:12:05,259 --> 02:12:06,593
-
 Daha sert çek!
 
-
-
 1756
-
 02:12:06,760 --> 02:12:07,719
-
 Gitmek!
-
-
 
 1757
-
 02:12:08,178 --> 02:12:09,805
-
 çıktı! Kiri,
-
 çıktı!
 
-
-
 1758
-
 02:12:09,930 --> 02:12:10,931
-
 Gitmek. Tuk,
-
 git.
 
-
-
 1759
-
 02:12:11,390 --> 02:12:13,058
-
 Hadi. Defol buradan!
 
-
-
 1760
-
 02:12:13,225 --> 02:12:14,226
-
 O tarafa git!
 
-
-
 1761
-
 02:12:14,351 --> 02:12:14,977
-
 Onları
-
 çıkaracağım.
 
-
-
 1762
-
 02:12:15,102 --> 02:12:16,436
-
 -Tamam aşkım.
-
 -Lo'ak, gel.
 
-
-
 1763
-
 02:12:18,105 --> 02:12:19,481
-
 Git, git, dal!
 
-
-
 1764
-
 02:12:19,648 --> 02:12:21,066
-
 Şimdi dalın!
 
-
-
 1765
-
 02:12:21,191 --> 02:12:21,859
-
 Tutun.
-
-
 
 1766
-
 02:12:31,869 --> 02:12:32,953
-
 Aralık 300.
 
-
-
 1767
-
 02:12:33,120 --> 02:12:34,830
-
 Derinlik bombaları hazır...
 
-
-
 1768
-
 02:12:34,997 --> 02:12:37,332
-
 ve ateş, ateş, ateş.
 
-
-
 1769
-
 02:12:43,255 --> 02:12:44,631
-
 Derinlik ücreti yok.
 
-
-
 1770
-
 02:12:44,756 --> 02:12:46,008
-
 Scoresby, anladın
-
 mı?
 
-
-
 1771
-
 02:12:46,133 --> 02:12:47,759
-
 Bu çocukların ölüleri
-
 benim için değersiz.
 
-
-
 1772
-
 02:12:48,343 --> 02:12:49,761
-
 Ateş etmeyin.
-
-
 
 1773
-
 02:12:54,349 --> 02:12:57,102
-
 Daire içine alın. Etrafını kordonla çevirin.
 
-
-
 1774
-
 02:12:57,269 --> 02:12:58,604
-
 Denizaltılarınızı suya indirin.
 
-
-
 1775
-
 02:12:59,521 --> 02:13:01,440
-
 Alt ekipler, ıslanın.
 
-
-
 1776
-
 02:13:50,989 --> 02:13:52,991
-
 Yengeçler sağ tarafta.
-
 Etrafta dolan.
 
-
-
 1777
-
 02:13:56,787 --> 02:13:58,080
-
 Onları kaybetme. Şimdi
-
 üzerlerinde kalın.
 
-
-
 1778
-
 02:13:58,580 --> 02:13:59,665
-
 Uçaklar kalktı. İçeri giriyoruz!
 
-
-
 1779
-
 02:13:59,831 --> 02:14:01,124
-
 Ah, evet!
 
-
-
 1780
-
 02:14:32,948 --> 02:14:34,700
-
 Kilit sesi.
-
 İki uzakta.
 
-
-
 1781
-
 02:15:04,313 --> 02:15:05,272
-
 Tuk nerede?
 
-
-
 1782
-
 02:15:05,397 --> 02:15:06,231
-
 Onu gördün mü?
 
-
-
 1783
-
 02:15:22,915 --> 02:15:23,916
-
 Tuk!
-
-
 
 1784
-
 02:15:26,543 --> 02:15:27,461
-
 Hedef görüş alanında.
 
-
-
 1785
-
 02:15:32,049 --> 02:15:33,258
-
 O geliyor.
-
-
 
 1786
-
 02:15:33,425 --> 02:15:34,718
-
 Gitmeliyiz!
 
-
-
 1787
-
 02:15:51,109 --> 02:15:52,152
-
 -Ağı değiştir.
-
 -Değişim.
 
-
-
 1788
-
 02:15:52,277 --> 02:15:53,028
-
 Ateş.
 
-
-
 1789
-
 02:16:13,507 --> 02:16:14,258
-
 Devam etmek!
-
-
 
 1790
-
 02:16:14,633 --> 02:16:15,509
-
 Bırak çıkayım!
 
-
-
 1791
-
 02:16:16,134 --> 02:16:17,135
-
 -Dikkat! -Tuk,
-
 yürü!
 
-
-
 1792
-
 02:16:17,302 --> 02:16:18,220
-
 Elini oynat! Elini oynat!
 
-
-
 1793
-
 02:16:18,387 --> 02:16:20,138
-
 -Kes onu! -Acele
-
 acele!
 
-
-
 1794
-
 02:16:24,601 --> 02:16:26,186
-
 Hey evlat, buraya geri dön!
 
-
-
 1795
-
 02:16:31,942 --> 02:16:32,567
-
 Silahı bırak.
 
-
-
 1796
-
 02:16:32,692 --> 02:16:33,568
-
 - Silahı indir!
-
 -Bırak onu.
 
-
-
 1797
-
 02:16:34,027 --> 02:16:34,861
-
 Yere koy!
 
-
-
 1798
-
 02:16:37,072 --> 02:16:37,781
-
 Yerde kal.
 
-
-
 1799
-
 02:16:38,699 --> 02:16:40,575
-
 -Hey evlat, buraya dön! -Onu
-
 elde etmek! Onu elde etmek!
 
-
-
 1800
-
 02:16:40,825 --> 02:16:42,076
-
 İndir silahını!
 
-
-
 1801
-
 02:16:42,494 --> 02:16:43,412
-
 Bırak onu, şimdi!
 
-
-
 1802
-
 02:16:43,620 --> 02:16:44,996
-
 -Bırak onu! -
-
 Bıçağı bırak.
 
-
-
 1803
-
 02:16:45,163 --> 02:16:46,164
-
 Bırak.
 
-
-
 1804
-
 02:16:46,748 --> 02:16:48,666
-
 Hey! Hey ne yapıyorsun?
-
 Durmak!
-
-
 
 1805
-
 02:16:48,834 --> 02:16:49,959
-
 Durmak. Onlara
-
 zarar verme.
 
-
-
 1806
-
 02:16:51,545 --> 02:16:52,212
-
 Hareket etmeyi kes.
 
-
-
 1807
-
 02:16:52,421 --> 02:16:54,423
-
 -Örümcek! -Abi,
-
 iyi misin?
 
-
-
 1808
-
 02:16:54,923 --> 02:16:56,174
-
 Evet. Harika, kuzen.
 
-
-
 1809
-
 02:16:56,341 --> 02:16:57,384
-
 Asla daha iyi değil.
 
-
-
 1810
-
 02:17:00,219 --> 02:17:01,221
-
 Kes şunu. Sabit
-
 kal.
-
-
 
 1811
-
 02:17:04,183 --> 02:17:05,183
-
 Köprüye geri
-
 dön.
 
-
-
 1812
-
 02:17:06,809 --> 02:17:07,811
-
 Onu orada tut!
 
-
-
 1813
-
 02:17:07,977 --> 02:17:09,396
-
 Gidiyorum,
-
 gidiyorum.
 
-
-
 1814
-
 02:17:10,564 --> 02:17:11,690
-
 Evet.
-
-
 
 1815
-
 02:17:11,857 --> 02:17:12,983
-
 Seni hatırlıyorum.
 
-
-
 1816
-
 02:17:14,151 --> 02:17:15,777
-
 Raylara kelepçeleyin.
-
 Hepsi.
 
-
-
 1817
-
 02:17:15,903 --> 02:17:16,611
-
 Hadi gidelim.
-
-
 
 1818
-
 02:17:17,571 --> 02:17:18,822
-
 Hadi gidelim. Taşınmak!
 
-
-
 1819
-
 02:17:18,906 --> 02:17:19,615
-
 Buraya.
 
-
-
 1820
-
 02:17:19,698 --> 02:17:20,699
-
 İzle onları. Onlar
-
 ısırır.
 
-
-
 1821
-
 02:17:21,867 --> 02:17:22,534
-
 Diz çök.
 
-
-
 1822
-
 02:17:22,618 --> 02:17:23,243
-
 Onlara.
 
-
-
 1823
-
 02:17:23,326 --> 02:17:23,951
-
 Bana elini Ver.
 
-
-
 1824
-
 02:17:24,036 --> 02:17:24,702
-
 HAYIR!
-
-
 
 1825
-
 02:17:25,995 --> 02:17:26,621
-
 Şimdi diğeri.
 
-
-
 1826
-
 02:17:26,746 --> 02:17:27,748
-
 HAYIR.
-
-
 
 1827
-
 02:17:31,709 --> 02:17:32,710
-
 Cesur ol.
 
-
-
 1828
-
 02:17:37,382 --> 02:17:38,467
-
 Na'vi gelen!
 
-
-
 1829
-
 02:17:40,928 --> 02:17:41,929
-
 Yayılmak. Silahlar
-
 kalktı.
 
-
-
 1830
-
 02:17:42,012 --> 02:17:42,638
-
 Baba!
-
-
 
 1831
-
 02:17:42,763 --> 02:17:44,348
-
 Sola itin.
-
 Yayılmak.
 
-
-
 1832
-
 02:17:46,767 --> 02:17:47,768
-
 Durmak. Durdur
-
 onları.
 
-
-
 1833
-
 02:17:51,897 --> 02:17:53,232
-
 Bu Sully.
 
-
-
 1834
-
 02:17:55,484 --> 02:17:56,485
-
 300 yarda.
 
-
-
 1835
-
 02:18:02,491 --> 02:18:03,825
-
 Çocuklarımızı aldılar.
 
-
-
 1836
-
 02:18:03,992 --> 02:18:05,285
-
 Senin kızın.
 
-
-
 1837
-
 02:18:05,451 --> 02:18:06,452
-
 Tuk. Lo'ak.
 
-
-
 1838
-
 02:18:09,456 --> 02:18:10,082
-
 Jake...
 
-
-
 1839
-
 02:18:10,665 --> 02:18:12,793
-
 arkadaşlarına geri çekilmelerini
-
 söyle.
 
-
-
 1840
-
 02:18:13,919 --> 02:18:15,879
-
 Çocuklarını geri istiyorsun...
 
-
-
 1841
-
 02:18:16,046 --> 02:18:17,589
-
 tek başına çıkıyorsun
 
-
-
 1842
-
 02:18:20,384 --> 02:18:22,511
-
 Kararımı test etmekten daha
-
 iyisini biliyorsun.
 
-
-
 1843
-
 02:18:23,846 --> 02:18:24,972
-
 Bak!
-
 HAYIR!
-
-
 
 1844
-
 02:18:28,058 --> 02:18:30,018
-
 Seni kanatlarım altına aldım, Jake.
 
-
-
 1845
-
 02:18:30,561 --> 02:18:32,478
-
 Bana ihanet ettin.
 
-
-
 1846
-
 02:18:32,646 --> 02:18:34,022
-
 Sen kendininkini öldürdün.
 
-
-
 1847
-
 02:18:34,189 --> 02:18:36,023
-
 İyi adamlar. İyi
-
 kadınlar.
 
-
-
 1848
-
 02:18:36,191 --> 02:18:39,278
-
 Çocuğunuzu idam etmekten
-
 çekinmeyeceğim.
 
-
-
 1849
-
 02:18:40,779 --> 02:18:41,780
-
 Sadece bir tane bekle.
 
-
-
 1850
-
 02:18:53,125 --> 02:18:54,251
-
 Burada tutun.
 
-
-
 1851
-
 02:18:55,252 --> 02:18:57,129
-
 Onlar tulkun
-
 katilleridir.
 
-
-
 1852
-
 02:18:57,754 --> 02:18:58,964
-
 Ölmeliler.
 
-
-
 1853
-
 02:18:59,130 --> 02:19:00,924
-
 Burada. Bugün.
 
-
-
 1854
-
 02:19:01,091 --> 02:19:02,718
-
 İstedikleri benim.
 
-
-
 1855
-
 02:19:02,885 --> 02:19:04,386
-
 Bütün bunlar bununla
-
 ilgiliydi, tamam mı?
 
-
-
 1856
-
 02:19:04,553 --> 02:19:06,972
-
 Tulkun'umuzun avı. Çocuklarımızın
-
 alınması.
 
-
-
 1857
-
 02:19:10,100 --> 02:19:12,019
-
 Bunu başımıza
-
 sen getirdin!
 
-
-
 1858
-
 02:19:12,477 --> 02:19:13,562
-
 Sen!
 
-
-
 1859
-
 02:19:17,398 --> 02:19:19,151
-
 O zaman bunu yapması
-
 gereken benim.
 
-
-
 1860
-
 02:19:25,406 --> 02:19:27,242
-
 Teklifin süresi dolacak.
 
-
-
 1861
-
 02:19:27,409 --> 02:19:28,951
-
 O ne olacak?
 
-
-
 1862
-
 02:19:29,702 --> 02:19:31,163
-
 Ateşinizi kontrol edin.
 
-
-
 1863
-
 02:19:31,330 --> 02:19:32,496
-
 ben çıkıyorum
 
-
-
 1864
-
 02:19:43,592 --> 02:19:44,300
-
 MaJake...
 
-
-
 1865
-
 02:19:44,425 --> 02:19:45,218
-
 ne oluyor?
 
-
-
 1866
-
 02:19:46,136 --> 02:19:47,221
-
 MaJake?
 
-
-
 1867
-
 02:19:49,890 --> 02:19:52,601
-
 Herkes gergin kalsın.
-
 Bütün silahlar.
 
-
-
 1868
-
 02:20:09,952 --> 02:20:11,537
-
 Kolay atış.
 
-
-
 1869
-
 02:20:12,120 --> 02:20:14,206
-
 Şimdi ona vurursun,
-
 saldırırlar.
 
-
-
 1870
-
 02:20:15,499 --> 02:20:17,459
-
 Gemiye binene kadar
-
 bekleyin.
 
-
-
 1871
-
 02:20:44,278 --> 02:20:45,654
-
 Payakan!
 
-
-
 1872
-
 02:20:57,332 --> 02:20:58,292
-
 Ateş aç. Ateş
-
 açın!
 
-
-
 1873
-
 02:21:00,878 --> 02:21:01,628
-
 Erkek kardeş!
 
-
-
 1874
-
 02:21:06,633 --> 02:21:08,260
-
 -Haydi!
-
 -Geliyorum!
 
-
-
 1875
-
 02:21:08,385 --> 02:21:09,720
-
 Beni dolaştır!
-
-
 
 1876
-
 02:21:10,512 --> 02:21:11,346
-
 Bana bir iğne yap!
-
-
 
 1877
-
 02:21:12,472 --> 02:21:14,308
-
 Git git!
 
-
-
 1878
-
 02:21:32,993 --> 02:21:34,119
-
 Beni dolaştır!
 
-
-
 1879
-
 02:21:34,286 --> 02:21:35,704
-
 Yürü! Yürü! Yürü!
-
-
 
 1880
-
 02:21:37,497 --> 02:21:38,123
-
 İçeri gir...
 
-
-
 1881
-
 02:21:38,290 --> 02:21:40,125
-
 beni menzile alın.
-
 Yürü! Yürü! Yürü.
 
-
-
 1882
-
 02:21:49,259 --> 02:21:49,968
-
 Aşağı!
-
-
 
 1883
-
 02:21:53,347 --> 02:21:54,848
-
 Lanet olsun!
 
-
-
 1884
-
 02:21:59,019 --> 02:21:59,811
-
 Ateş açın!
-
-
 
 1885
-
 02:22:00,646 --> 02:22:01,438
-
 Ateş açın!
-
-
 
 1886
-
 02:22:05,734 --> 02:22:06,944
-
 Sully geliyor.
 
-
-
 1887
-
 02:22:07,110 --> 02:22:08,320
-
 Göz istiyorum!
 
-
-
 1888
-
 02:22:08,612 --> 02:22:10,531
-
 Pekala hadi gidelim.
-
 Eyerlemek. Kalktık!
 
-
-
 1889
-
 02:22:52,489 --> 02:22:54,575
-
 Biri bir şey
-
 vursun!
 
-
-
 1890
-
 02:23:10,299 --> 02:23:10,924
-
 Durmak!
 
-
-
 1891
-
 02:24:06,730 --> 02:24:07,981
-
 Onların peşine düş. Gitmek!
 
-
-
 1892
-
 02:24:25,207 --> 02:24:27,125
-
 Çiğneme! Maskeler
-
 takılı!
 
-
-
 1893
-
 02:24:27,459 --> 02:24:28,877
-
 Maskeler takılı!
-
 Gitmek!
-
-
 
 1894
-
 02:25:08,625 --> 02:25:09,960
-
 Çıkarın onu
-
 buradan!
 
-
-
 1895
-
 02:25:15,007 --> 02:25:16,008
-
 Sakin ol!
 
-
-
 1896
-
 02:25:30,230 --> 02:25:31,356
-
 Yürü! Yürü! Yürü!
-
-
 
 1897
-
 02:25:44,912 --> 02:25:46,163
-
 Hasar raporu!
 
-
-
 1898
-
 02:25:46,330 --> 02:25:47,080
-
 Su baskını.
 
-
-
 1899
-
 02:25:47,206 --> 02:25:48,123
-
 İkinci ve üçüncü
-
 kompartıman.
 
-
-
 1900
-
 02:25:48,707 --> 02:25:49,458
-
 İyi misin?
 
-
-
 1901
-
 02:26:19,196 --> 02:26:20,197
-
 İskele pruvası!
 
-
-
 1902
-
 02:26:21,323 --> 02:26:22,407
-
 Sert bağlantı noktası!
 
-
-
 1903
-
 02:26:22,533 --> 02:26:23,200
-
 Ateş açın!
 
-
-
 1904
-
 02:26:24,243 --> 02:26:25,452
-
 Bana bir iğne yap!
 
-
-
 1905
-
 02:26:26,495 --> 02:26:27,162
-
 Anladım!
 
-
-
 1906
-
 02:26:45,013 --> 02:26:46,598
-
 Kes bizi!
 
-
-
 1907
-
 02:26:46,765 --> 02:26:47,850
-
 Cevap vermiyor!
 
-
-
 1908
-
 02:26:48,225 --> 02:26:50,018
-
 Bizi kablodan çekin!
 
-
-
 1909
-
 02:26:50,185 --> 02:26:52,104
-
 Zıpkın şimdi
-
 kimde?
 
-
-
 1910
-
 02:26:56,567 --> 02:26:57,776
-
 Geri dolu!
 
-
-
 1911
-
 02:27:09,371 --> 02:27:10,497
-
 Tekrar yükle!
 
-
-
 1912
-
 02:27:13,750 --> 02:27:15,586
-
 Kablo değil,
-
 seni salak!
 
-
-
 1913
-
 02:27:16,837 --> 02:27:18,046
-
 Suda
-
 öldük.
 
-
-
 1914
-
 02:27:19,381 --> 02:27:20,966
-
 Su almak. Pompalar açık.
 
-
-
 1915
-
 02:27:21,717 --> 02:27:23,010
-
 Silahlarınızı
-
 kullanın!
 
-
-
 1916
-
 02:27:23,177 --> 02:27:25,554
-
 Buradaki zeki türün sen olduğunu
-
 sanıyordum, Scoresby.
 
-
-
 1917
-
 02:27:25,804 --> 02:27:27,264
-
 Kapa çeneni,
-
 Garvin.
 
-
-
 1918
-
 02:27:29,433 --> 02:27:30,642
-
 Neredesin?
 
-
-
 1919
-
 02:27:31,310 --> 02:27:32,644
-
 Arsız adamcağız.
 
-
-
 1920
-
 02:27:32,811 --> 02:27:34,730
-
 Oldukça zeki olduğunu düşünüyorsun,
-
 değil mi?
 
-
-
 1921
-
 02:27:49,995 --> 02:27:51,079
-
 Eğil!
-
-
 
 1922
-
 02:28:03,217 --> 02:28:04,218
-
 Pompalar çalışmıyor.
 
-
-
 1923
-
 02:28:04,384 --> 02:28:05,177
-
 Terkedilmiş gemi!
-
-
 
 1924
-
 02:28:05,302 --> 02:28:06,178
-
 Terkedilmiş gemi!
 
-
-
 1925
-
 02:28:06,345 --> 02:28:07,638
-
 - Onu bir tekneye bindirin!
-
 - Tüm ekip teknelere.
 
-
-
 1926
-
 02:28:07,804 --> 02:28:09,681
-
 Hadi gidelim millet! Haydi
-
 gidelim! Maskeni tak!
 
-
-
 1927
-
 02:28:15,145 --> 02:28:16,438
-
 Neteyam!
-
-
 
 1928
-
 02:28:16,980 --> 02:28:18,065
-
 Merhaba küçük
-
 kardeşim.
 
-
-
 1929
-
 02:28:18,232 --> 02:28:19,316
-
 Yardıma ihtiyacım var?
 
-
-
 1930
-
 02:28:19,816 --> 02:28:20,859
-
 Kapa çeneni. Hadi.
 
-
-
 1931
-
 02:28:20,984 --> 02:28:21,777
-
 Bizi serbest bırakın.
 
-
-
 1932
-
 02:28:24,863 --> 02:28:27,032
-
 - Tamam, Tuk'u buradan
-
 çıkar. -Abi acele et!
 
-
-
 1933
-
 02:28:28,825 --> 02:28:30,410
-
 Güçlü Savaşçı
-
 kim? Hadi.
 
-
-
 1934
-
 02:28:30,536 --> 02:28:31,328
-
 Söyle.
 
-
-
 1935
-
 02:28:31,954 --> 02:28:33,330
-
 -Kardeş! -Hadi.
-
 Hadi gidelim.
-
-
 
 1936
-
 02:28:35,123 --> 02:28:36,166
-
 Bak!
 
-
-
 1937
-
 02:28:37,042 --> 02:28:38,043
-
 Örümcekleri
-
 var.
 
-
-
 1938
-
 02:28:38,210 --> 02:28:39,920
-
 Onu yakalamalıyız.
-
 Hadi.
-
-
 
 1939
-
 02:28:40,295 --> 02:28:41,296
-
 Hadi ama kardeşim.
 
-
-
 1940
-
 02:28:41,505 --> 02:28:42,714
-
 Onu
-
 bırakamayız.
 
-
-
 1941
-
 02:28:50,848 --> 02:28:51,890
-
 Gitmeme izin ver!
 
-
-
 1942
-
 02:28:54,101 --> 02:28:55,310
-
 HAYIR!
-
-
 
 1943
-
 02:28:57,479 --> 02:28:58,313
-
 Bakmak!
 
-
-
 1944
-
 02:29:05,153 --> 02:29:06,822
-
 Hadi gidelim, düğün
-
 çiçeği. Uyanmak.
 
-
-
 1945
-
 02:29:06,989 --> 02:29:09,157
-
 Ben senin düğün çiçeğin
-
 değilim sapık!
 
-
-
 1946
-
 02:29:09,324 --> 02:29:10,576
-
 Onun için geri
-
 dönmeliyiz.
 
-
-
 1947
-
 02:29:11,702 --> 02:29:12,703
-
 Tuk, bekle!
 
-
-
 1948
-
 02:29:12,870 --> 02:29:14,413
-
 Sully'ler birbirine
-
 yapışır.
-
-
 
 1949
-
 02:29:26,133 --> 02:29:27,676
-
 Orada bekleyin çocuklar. Beklemek.
 
-
-
 1950
-
 02:29:28,677 --> 02:29:29,761
-
 Bırakmak için açık!
 
-
-
 1951
-
 02:29:31,138 --> 02:29:32,389
-
 Maskeni kontrol et. Sıkı
-
 olduğundan emin olun.
 
-
-
 1952
-
 02:29:32,556 --> 02:29:33,682
-
 Ben iyiyim,
-
 aptal.
 
-
-
 1953
-
 02:29:36,852 --> 02:29:37,853
-
 Hareket, hareket!
 
-
-
 1954
-
 02:29:38,020 --> 02:29:39,188
-
 Tahliye,
-
 millet.
 
-
-
 1955
-
 02:29:43,442 --> 02:29:44,193
-
 Tuk...
 
-
-
 1956
-
 02:29:44,443 --> 02:29:45,986
-
 Bu iyi bir fikir değil.
 
-
-
 1957
-
 02:29:46,153 --> 02:29:47,112
-
 Tuk!
-
-
 
 1958
-
 02:30:07,382 --> 02:30:08,258
-
 Kes şunu.
 
-
-
 1959
-
 02:30:11,512 --> 02:30:12,137
-
 HAYIR!
-
-
 
 1960
-
 02:30:18,519 --> 02:30:19,520
-
 Onu aldım.
 
-
-
 1961
-
 02:30:26,151 --> 02:30:27,319
-
 Bunu hâlâ
-
 başarabiliriz.
 
-
-
 1962
-
 02:30:27,486 --> 02:30:28,445
-
 Cehennem evet.
 
-
-
 1963
-
 02:30:29,321 --> 02:30:31,782
-
 Tekrar bağlı olduğuma
-
 inanamıyorum!
 
-
-
 1964
-
 02:30:57,975 --> 02:30:58,934
-
 Kardeşim, hadi.
-
-
 
 1965
-
 02:30:59,059 --> 02:30:59,685
-
 Hadi gidelim.
-
-
 
 1966
-
 02:31:03,397 --> 02:31:04,231
-
 Teşekkürler beyler.
 
-
-
 1967
-
 02:31:06,859 --> 02:31:07,484
-
 Gitmek!
-
-
 
 1968
-
 02:31:07,609 --> 02:31:08,277
-
 HAYIR!
-
-
 
 1969
-
 02:31:08,443 --> 02:31:09,486
-
 -Kardeşim, hadi! -Yürü!
-
 Yürü! Yürü!
 
-
-
 1970
-
 02:31:10,737 --> 02:31:12,114
-
 Yürü! Yürü! Yürü!
-
-
 
 1971
-
 02:31:14,825 --> 02:31:15,826
-
 Bana ver!
 
-
-
 1972
-
 02:31:19,913 --> 02:31:20,998
-
 Yürü! Yürü! Yürü!
-
-
 
 1973
-
 02:31:21,707 --> 02:31:22,708
-
 Bu taraftan.
-
-
 
 1974
-
 02:31:30,257 --> 02:31:31,258
-
 Koru, koru!
 
-
-
 1975
-
 02:31:37,347 --> 02:31:38,348
-
 Onları görüyor musun?
 
-
-
 1976
-
 02:31:49,276 --> 02:31:50,277
-
 Kardeş!
-
-
 
 1977
-
 02:31:50,444 --> 02:31:51,570
-
 Bu çılgıncaydı, kuzen.
 
-
-
 1978
-
 02:31:51,653 --> 02:31:52,279
-
 Evet.
-
-
 
 1979
-
 02:31:57,159 --> 02:31:58,160
-
 Binmek!
 
-
-
 1980
-
 02:31:58,327 --> 02:31:59,328
-
 Hadi ama kardeşim!
 
-
-
 1981
-
 02:31:59,661 --> 02:32:00,746
-
 Sen skxawng.
 
-
-
 1982
-
 02:32:01,455 --> 02:32:02,456
-
 vuruldum
 
-
-
 1983
-
 02:32:06,251 --> 02:32:07,252
-
 Bok!
 
-
-
 1984
-
 02:32:08,128 --> 02:32:09,129
-
 Bana yardım et!
 
-
-
 1985
-
 02:32:12,174 --> 02:32:13,550
-
 -Yukarıda tut! -Onu
-
 yakaladım.
 
-
-
 1986
-
 02:32:13,675 --> 02:32:14,301
-
 Hadi.
-
-
 
 1987
-
 02:32:18,138 --> 02:32:19,389
-
 -Yakala onu. -Kardeşim,
-
 onu yakaladım.
 
-
-
 1988
-
 02:32:21,058 --> 02:32:22,059
-
 Vay be.
 
-
-
 1989
-
 02:32:22,226 --> 02:32:23,227
-
 Tut onu!
 
-
-
 1990
-
 02:32:25,854 --> 02:32:26,855
-
 Kardeşim, hadi.
 
-
-
 1991
-
 02:32:27,564 --> 02:32:28,899
-
 Sorun değil kardeşim. Anladım.
 
-
-
 1992
-
 02:32:29,066 --> 02:32:30,150
-
 Acele etmek. Yürü! Yürü! Yürü!
 
-
-
 1993
-
 02:32:31,193 --> 02:32:32,528
-
 Kiri ve Tuk'ları var.
 
-
-
 1994
-
 02:32:33,904 --> 02:32:34,905
-
 geri dönemem
 
-
-
 1995
-
 02:32:42,454 --> 02:32:43,455
-
 Baba!
-
-
 
 1996
-
 02:32:44,331 --> 02:32:45,666
-
 Baba, yardım et!
-
 Ben Neteyam!
 
-
-
 1997
-
 02:32:45,832 --> 02:32:46,875
-
 Acele etmek!
 
-
-
 1998
-
 02:32:47,042 --> 02:32:48,377
-
 Burada! Onu almak.
 
-
-
 1999
-
 02:32:50,462 --> 02:32:52,172
-
 -Oh hayır. -Ben Neteyam!
-
 O yaralandı!
 
-
-
 2000
-
 02:32:52,339 --> 02:32:53,549
-
 -Jake. -Hadi.
-
 Hadi!
-
-
 
 2001
-
 02:32:53,715 --> 02:32:54,758
-
 Acele lütfen!
 
-
-
 2002
-
 02:32:55,592 --> 02:32:56,260
-
 Çekmek!
-
-
 
 2003
-
 02:32:59,012 --> 02:33:00,180
-
 Kardeşim, kafasına dikkat et.
 
-
-
 2004
-
 02:33:00,347 --> 02:33:01,598
-
 Çekmek!
 
-
-
 2005
-
 02:33:02,057 --> 02:33:03,016
-
 Hadi!
-
-
 
 2006
-
 02:33:06,395 --> 02:33:07,729
-
 Sadece kafasına dikkat et.
 
-
-
 2007
-
 02:33:08,313 --> 02:33:08,939
-
 Tamam aşkım.
-
-
 
 2008
-
 02:33:09,982 --> 02:33:10,732
-
 Sorun değil kardeşim.
 
-
-
 2009
-
 02:33:10,858 --> 02:33:11,525
-
 Seni yakaladık.
 
-
-
 2010
-
 02:33:12,276 --> 02:33:13,026
-
 Oh hayır.
 
-
-
 2011
-
 02:33:15,237 --> 02:33:16,196
-
 Baskı yapmak.
 
-
-
 2012
-
 02:33:16,321 --> 02:33:17,114
-
 Üzerine baskı
-
 yap.
 
-
-
 2013
-
 02:33:19,241 --> 02:33:20,367
-
 Baba, ben...
-
-
 
 2014
-
 02:33:20,492 --> 02:33:21,368
-
 Sorun değil.
-
 Buradayım.
 
-
-
 2015
-
 02:33:23,871 --> 02:33:25,122
-
 Hayır hayır hayır.
 
-
-
 2016
-
 02:33:25,289 --> 02:33:26,331
-
 Sorun yok oğlum.
-
 Yakaladım.
 
-
-
 2017
-
 02:33:32,254 --> 02:33:33,255
-
 Eve gitmek istiyorum.
 
-
-
 2018
-
 02:33:36,175 --> 02:33:37,259
-
 Biliyorum. Biliyorum.
 
-
-
 2019
-
 02:33:37,384 --> 02:33:38,302
-
 Sorun değil, eve gidiyoruz.
 
-
-
 2020
-
 02:33:39,011 --> 02:33:40,095
-
 Eve gidiyoruz.
 
-
-
 2021
-
 02:33:43,557 --> 02:33:44,808
-
 Sorun değil. Sorun değil.
 
-
-
 2022
-
 02:33:44,975 --> 02:33:45,976
-
 Baba, ben...
 
-
-
 2023
-
 02:33:53,066 --> 02:33:54,067
-
 Neteyam...
 
-
-
 2024
-
 02:33:59,281 --> 02:34:03,285
-
 Hayır, hayır, hayır,
-
 hayır. Neteyam!
 
-
-
 2025
-
 02:34:11,001 --> 02:34:12,503
-
 Ey Büyük Anne.
 
-
-
 2026
-
 02:34:12,669 --> 02:34:13,754
-
 Hayır, Büyük Anne.
 
-
-
 2027
-
 02:34:14,588 --> 02:34:16,173
-
 Lütfen.
-
-
 
 2028
-
 02:34:17,758 --> 02:34:19,218
-
 Ah oğlum.
 
-
-
 2029
-
 02:34:19,343 --> 02:34:20,844
-
 Oğlum.
 
-
-
 2030
-
 02:34:20,969 --> 02:34:21,929
-
 HAYIR!
-
-
 
 2031
-
 02:34:27,851 --> 02:34:29,353
-
 Oğlum!
 
-
-
 2032
-
 02:34:32,856 --> 02:34:34,274
-
 HAYIR!
-
-
 
 2033
-
 02:34:36,026 --> 02:34:37,611
-
 HAYIR!
-
-
 
 2034
-
 02:34:38,278 --> 02:34:40,489
-
 Beni duyabiliyor
-
 musun, Onbaşı?
 
-
-
 2035
-
 02:34:42,658 --> 02:34:45,369
-
 Evet, evet, bence
-
 yapabilirsin.
 
-
-
 2036
-
 02:34:46,328 --> 02:34:47,579
-
 Kızlarını aldım.
 
-
-
 2037
-
 02:34:50,290 --> 02:34:51,708
-
 Daha önce olduğu gibi aynı anlaşma.
 
-
-
 2038
-
 02:34:53,335 --> 02:34:54,336
-
 Sen onlar için
 
-
-
 2039
-
 02:34:55,546 --> 02:34:57,297
-
 HAYIR!
-
-
 
 2040
-
 02:34:59,675 --> 02:35:01,134
-
 Kız kardeşlerin nerede?
 
-
-
 2041
-
 02:35:03,095 --> 02:35:04,596
-
 Kız kardeşlerin.
-
 Neredeler?
-
-
 
 2042
-
 02:35:05,514 --> 02:35:06,515
-
 Bilmiyorum.
 
-
-
 2043
-
 02:35:06,682 --> 02:35:07,850
-
 -Neredeler?
-
 -Gemideler.
 
-
-
 2044
-
 02:35:08,016 --> 02:35:09,810
-
 Gemide bağlılar.
 
-
-
 2045
-
 02:35:09,977 --> 02:35:11,186
-
 Ay havuzundalar.
 
-
-
 2046
-
 02:35:11,812 --> 02:35:13,939
-
 Kuyu güvertesinde. Gemi ortası.
 
-
-
 2047
-
 02:35:14,064 --> 02:35:14,940
-
 Ne?
 
-
-
 2048
-
 02:35:15,399 --> 02:35:16,567
-
 Hadi. Sana göstereceğim.
 
-
-
 2049
-
 02:35:17,192 --> 02:35:18,110
-
 Hadi.
-
-
 
 2050
-
 02:35:18,193 --> 02:35:18,819
-
 Sana göstereceğim.
 
-
-
 2051
-
 02:35:18,902 --> 02:35:20,237
-
 Konuş benimle
-
 Onbaşı.
-
-
 
 2052
-
 02:35:20,404 --> 02:35:21,947
-
 -Z, yukarı. -Bir şeye ihtiyacım
-
 var, Jake...
 
-
-
 2053
-
 02:35:22,114 --> 02:35:23,657
-
 yoksa sonuçları
-
 olacak.
 
-
-
 2054
-
 02:35:24,658 --> 02:35:25,659
-
 Evet, seni duyuyorum.
 
-
-
 2055
-
 02:35:26,785 --> 02:35:27,786
-
 -Hadi.
-
 -Hadi!
 
-
-
 2056
-
 02:35:27,953 --> 02:35:30,205
-
 Hadi gidelim. Gitmeliyiz.
-
 Hadi gidelim.
-
-
 
 2057
-
 02:35:30,581 --> 02:35:31,915
-
 -HAYIR! -Hadi
-
 gidelim.
 
-
-
 2058
-
 02:35:32,082 --> 02:35:34,877
-
 Dinlemek. Dinlemek. Beni dinle.
 
-
-
 2059
-
 02:35:37,880 --> 02:35:38,672
-
 Beni dinle. Beni dinle.
 
-
-
 2060
-
 02:35:38,755 --> 02:35:40,007
-
 Kızlarımız onlarda.
-
-
 
 2061
-
 02:35:40,174 --> 02:35:41,425
-
 Kızlarımız onlarda.
 
-
-
 2062
-
 02:35:44,678 --> 02:35:46,889
-
 Benimle olmana
-
 ihtiyacım var.
-
-
 
 2063
-
 02:35:48,098 --> 02:35:49,641
-
 Ve senin güçlü olmana
-
 ihtiyacım var.
 
-
-
 2064
-
 02:35:50,184 --> 02:35:51,602
-
 Şu anda.
 
-
-
 2065
-
 02:35:51,768 --> 02:35:52,978
-
 Güçlü kalp.
-
-
 
 2066
-
 02:35:54,396 --> 02:35:55,647
-
 Güçlü kalp.
 
-
-
 2067
-
 02:36:09,286 --> 02:36:10,621
-
 Gidip kızlarımızı alalım.
 
-
-
 2068
-
 02:36:25,594 --> 02:36:27,095
-
 Sen kardeşinle kal.
 
-
-
 2069
-
 02:36:27,638 --> 02:36:29,056
-
 Baba, seninle gelmek
-
 istiyorum.
 
-
-
 2070
-
 02:36:32,059 --> 02:36:33,060
-
 Yeterince şey yaptın.
 
-
-
 2071
-
 02:36:33,227 --> 02:36:34,269
-
 Baba...
-
-
 
 2072
-
 02:36:39,066 --> 02:36:40,067
-
 Ateş etmeyin.
 
-
-
 2073
-
 02:36:41,360 --> 02:36:42,361
-
 Hadi gidelim.
 
-
-
 2074
-
 02:36:43,403 --> 02:36:44,404
-
 O geliyor.
 
-
-
 2075
-
 02:36:46,281 --> 02:36:47,199
-
 İyiyim. Git git!
 
-
-
 2076
-
 02:36:49,660 --> 02:36:50,786
-
 Bu adamı
-
 yakalayalım.
 
-
-
 2077
-
 02:36:50,911 --> 02:36:52,120
-
 Buraya bunun
-
 için geldik.
 
-
-
 2078
-
 02:36:57,334 --> 02:36:58,335
-
 Onunla kal.
 
-
-
 2079
-
 02:36:58,877 --> 02:36:59,962
-
 HAYIR...
 
-
-
 2080
-
 02:37:00,796 --> 02:37:02,130
-
 Başınız dönsün çocuklar.
 
-
-
 2081
-
 02:37:23,527 --> 02:37:24,152
-
 Gitmek.
 
-
-
 2082
-
 02:37:32,619 --> 02:37:33,620
-
 Neredeler?
 
-
-
 2083
-
 02:37:33,787 --> 02:37:34,496
-
 Orta güverte.
 
-
-
 2084
-
 02:37:34,621 --> 02:37:35,539
-
 Denizaltıları fırlattıkları
-
 yer.
 
-
-
 2085
-
 02:37:35,706 --> 02:37:37,124
-
 Merkezde bir havuz
-
 falan var.
 
-
-
 2086
-
 02:37:38,083 --> 02:37:39,209
-
 Ön korkuluktalar.
 
-
-
 2087
-
 02:37:41,795 --> 02:37:42,796
-
 Hayır hayır.
-
 Burada kal.
 
-
-
 2088
-
 02:37:45,966 --> 02:37:47,134
-
 Konuş benimle
-
 Onbaşı.
 
-
-
 2089
-
 02:37:48,093 --> 02:37:49,178
-
 Bu gemi
-
 batıyor...
 
-
-
 2090
-
 02:37:49,344 --> 02:37:50,512
-
 ve kızların onunla.
 
-
-
 2091
-
 02:37:52,264 --> 02:37:53,849
-
 Oğlunun ölmesi
-
 gerekmiyordu.
 
-
-
 2092
-
 02:37:54,266 --> 02:37:55,934
-
 Bunu kendi başına
-
 getirdin.
 
-
-
 2093
-
 02:38:03,108 --> 02:38:05,944
-
 Ailenizi güvende tutabileceğinizi
-
 düşündünüz, ama yapamazsınız.
 
-
-
 2094
-
 02:38:08,322 --> 02:38:10,032
-
 Onları güvende tutmanın
-
 tek bir yolu var.
 
-
-
 2095
-
 02:38:13,911 --> 02:38:15,913
-
 O zaman önce bunu
-
 bitirelim
 
-
-
 2096
-
 02:38:16,038 --> 02:38:16,955
-
 bir çocuğu daha kaybedersin.
 
-
-
 2097
-
 02:38:28,717 --> 02:38:29,843
-
 Eğil!
 
-
-
 2098
-
 02:39:12,261 --> 02:39:13,345
-
 -Kim düştü? -Zdinarsik,
-
 anladın mı?
 
-
-
 2099
-
 02:39:13,470 --> 02:39:14,513
-
 Sesi kapamak!
 
-
-
 2100
-
 02:39:14,680 --> 02:39:15,430
-
 Temizlemek!
 
-
-
 2101
-
 02:39:16,723 --> 02:39:18,100
-
 Prager. Sen
-
 okumak?
 
-
-
 2102
-
 02:39:20,143 --> 02:39:21,144
-
 Gözler yukarıda.
-
 Gözler yukarı!
 
-
-
 2103
-
 02:39:30,404 --> 02:39:31,405
-
 Yukarı çık!
 
-
-
 2104
-
 02:39:33,949 --> 02:39:34,950
-
 Sola itin. Gitmek!
 
-
-
 2105
-
 02:39:35,659 --> 02:39:36,827
-
 Sağa itin. Onunla ilgilen.
 
-
-
 2106
-
 02:39:37,286 --> 02:39:38,161
-
 Kimin gözleri var?
 
-
-
 2107
-
 02:40:23,665 --> 02:40:24,416
-
 MaJake.
 
-
-
 2108
-
 02:40:31,089 --> 02:40:32,216
-
 Bu anne!
 
-
-
 2109
-
 02:40:38,680 --> 02:40:39,806
-
 Bu doğru.
 
-
-
 2110
-
 02:40:40,182 --> 02:40:42,100
-
 Senin için geliyorlar.
 
-
-
 2111
-
 02:41:32,943 --> 02:41:33,944
-
 Baba! Baba.
 
-
-
 2112
-
 02:41:37,322 --> 02:41:38,574
-
 Tamam aşkım.
-
 Ablan nerde?
 
-
-
 2113
-
 02:41:38,699 --> 02:41:39,366
-
 O nerede?
 
-
-
 2114
-
 02:41:39,533 --> 02:41:40,993
-
 Bu taraftan.
 
-
-
 2115
-
 02:41:41,451 --> 02:41:42,452
-
 Tamam, arkamda kal.
 
-
-
 2116
-
 02:41:47,749 --> 02:41:48,709
-
 Kiri!
-
-
 
 2117
-
 02:41:49,960 --> 02:41:51,461
-
 Burada zaman tükeniyor, Onbaşı.
 
-
-
 2118
-
 02:41:53,255 --> 02:41:56,216
-
 Bugün zaten bir çocuğu kaybettin. Gerçekten
-
 bir tane daha kaybetmek istiyor musun?
 
-
-
 2119
-
 02:41:57,092 --> 02:41:58,427
-
 Beni test etme!
 
-
-
 2120
-
 02:42:00,220 --> 02:42:01,680
-
 Öldür onu, baba!
 
-
-
 2121
-
 02:42:04,516 --> 02:42:05,517
-
 Silahlar indir.
 
-
-
 2122
-
 02:42:05,601 --> 02:42:06,226
-
 yapma
-
-
 
 2123
-
 02:42:06,351 --> 02:42:06,977
-
 yapma
 
-
-
 2124
-
 02:42:07,060 --> 02:42:07,895
-
 Aşağı!
 
-
-
 2125
-
 02:42:10,314 --> 02:42:11,315
-
 Onları uzaklaştır.
 
-
-
 2126
-
 02:42:13,525 --> 02:42:14,193
-
 Yap!
 
-
-
 2127
-
 02:42:17,362 --> 02:42:18,405
-
 HAYIR.
-
-
 
 2128
-
 02:42:20,240 --> 02:42:21,241
-
 Kendini kelepçele.
 
-
-
 2129
-
 02:42:21,408 --> 02:42:22,826
-
 HAYIR! Hayır, ona zarar
-
 verme, tamam mı?
 
-
-
 2130
-
 02:42:22,993 --> 02:42:23,994
-
 Orada dur!
 
-
-
 2131
-
 02:42:24,828 --> 02:42:26,413
-
 -Yapma! -
-
 Kıpırdama!
 
-
-
 2132
-
 02:42:26,496 --> 02:42:27,372
-
 Bir adım değil.
 
-
-
 2133
-
 02:42:28,165 --> 02:42:29,875
-
 Kelepçeler. Şimdi.
 
-
-
 2134
-
 02:42:30,083 --> 02:42:32,127
-
 Seni orospu
-
 çocuğu.
 
-
-
 2135
-
 02:42:32,294 --> 02:42:33,795
-
 Lütfen, ona zarar
-
 verme.
 
-
-
 2136
-
 02:42:37,007 --> 02:42:38,217
-
 Serbest bırakmak.
 
-
-
 2137
-
 02:42:39,176 --> 02:42:40,177
-
 ya da keserim.
 
-
-
 2138
-
 02:42:42,763 --> 02:42:44,890
-
 Ne yani, bir çocuğu umursadığımı
-
 mı düşünüyorsun?
 
-
-
 2139
-
 02:42:46,225 --> 02:42:47,226
-
 O benim değil.
 
-
-
 2140
-
 02:42:48,060 --> 02:42:49,853
-
 Aynı türden bile değiliz.
 
-
-
 2141
-
 02:42:50,646 --> 02:42:52,147
-
 Sadece lütfen yapma...
 
-
-
 2142
-
 02:42:52,272 --> 02:42:53,023
-
 ona zarar verme
 
-
-
 2143
-
 02:42:53,190 --> 02:42:54,691
-
 Lütfen gitmesine
-
 izin ver.
 
-
-
 2144
-
 02:42:54,858 --> 02:42:55,859
-
 -Yapma.
-
 -Lütfen!
 
-
-
 2145
-
 02:42:56,026 --> 02:42:56,652
-
 Onu öldürme.
 
-
-
 2146
-
 02:42:56,777 --> 02:42:57,569
-
 Beni dinle!
 
-
-
 2147
-
 02:42:57,736 --> 02:42:59,196
-
 Gitmesine izin ver. Onu incitme.
 
-
-
 2148
-
 02:42:59,404 --> 02:43:00,864
-
 Anne, onu öldürme.
 
-
-
 2149
-
 02:43:01,615 --> 02:43:03,909
-
 Bir oğul için bir oğul.
-
-
 
 2150
-
 02:43:06,119 --> 02:43:07,371
-
 Lütfen ona zarar verme.
 
-
-
 2151
-
 02:43:09,706 --> 02:43:10,916
-
 Kestim.
 
-
-
 2152
-
 02:43:11,083 --> 02:43:12,334
-
 Lütfen gitmesine izin ver...
 
-
-
 2153
-
 02:43:12,417 --> 02:43:13,043
-
 Tamam?
 
-
-
 2154
-
 02:43:13,126 --> 02:43:13,836
-
 Bırak gitsin.
 
-
-
 2155
-
 02:43:16,046 --> 02:43:16,880
-
 HAYIR!
-
-
 
 2156
-
 02:43:26,181 --> 02:43:28,433
-
 Kiri... Kiri.
 
-
-
 2157
-
 02:43:35,274 --> 02:43:36,275
-
 Örümcek.
-
-
 
 2158
-
 02:43:37,150 --> 02:43:37,776
-
 Örümcek...
 
-
-
 2159
-
 02:43:37,901 --> 02:43:38,986
-
 onları buradan çıkar.
 
-
-
 2160
-
 02:43:39,444 --> 02:43:40,070
-
 Hadi.
-
-
 
 2161
-
 02:43:40,571 --> 02:43:41,446
-
 Çocuklar. Tuk.
 
-
-
 2162
-
 02:43:41,572 --> 02:43:43,365
-
 Sana bir ölüm
-
 borçluyum.
 
-
-
 2163
-
 02:43:44,992 --> 02:43:45,617
-
 Anne.
-
-
 
 2164
-
 02:43:45,701 --> 02:43:46,618
-
 -Anne.
-
 -Gelmek.
 
-
-
 2165
-
 02:43:46,785 --> 02:43:47,744
-
 Hadi.
-
-
 
 2166
-
 02:43:47,828 --> 02:43:48,620
-
 Lütfen...
 
-
-
 2167
-
 02:43:48,745 --> 02:43:49,371
-
 Anne.
 
-
-
 2168
-
 02:43:49,872 --> 02:43:51,373
-
 Gitmiyorsun, değil
-
 mi Jake?
 
-
-
 2169
-
 02:43:52,165 --> 02:43:53,166
-
 Orada olduğumu
-
 bilmek.
 
-
-
 2170
-
 02:43:54,418 --> 02:43:56,503
-
 Asla durmayacağımı
-
 bilerek.
 
-
-
 2171
-
 02:43:56,879 --> 02:43:58,172
-
 Senin için geliyorum.
 
-
-
 2172
-
 02:43:58,338 --> 02:44:01,049
-
 Ve bunu yaptığımda, bütün
-
 aileni öldüreceğim.
 
-
-
 2173
-
 02:44:02,092 --> 02:44:03,010
-
 Baba...
 
-
-
 2174
-
 02:44:05,220 --> 02:44:06,138
-
 O zaman bitirelim.
 
-
-
 2175
-
 02:44:16,899 --> 02:44:17,900
-
 Jake!
-
-
 
 2176
-
 02:44:22,196 --> 02:44:23,280
-
 -O geliyor! -Geri.
-
 Geri.
 
-
-
 2177
-
 02:44:23,447 --> 02:44:24,656
-
 Gemiye geri dön. Gitmek!
 
-
-
 2178
-
 02:44:24,823 --> 02:44:25,824
-
 Tuk, yüz, yüz.
 
-
-
 2179
-
 02:44:28,994 --> 02:44:29,953
-
 Yakın dur.
 
-
-
 2180
-
 02:44:30,204 --> 02:44:31,205
-
 -Devam et. -Yakın
-
 dur.
 
-
-
 2181
-
 02:44:33,832 --> 02:44:34,458
-
 Tuk!
-
-
 
 2182
-
 02:44:35,792 --> 02:44:36,668
-
 Anne, elimi
-
 tut!
 
-
-
 2183
-
 02:44:36,793 --> 02:44:37,461
-
 Devam etmek!
-
-
 
 2184
-
 02:44:40,797 --> 02:44:41,882
-
 Anne!
-
-
 
 2185
-
 02:44:43,550 --> 02:44:44,426
-
 - Kiri, hadi.
-
 -HAYIR...
 
-
-
 2186
-
 02:44:44,593 --> 02:44:45,469
-
 Kiri, gitmemiz
-
 gerek, hadi.
 
-
-
 2187
-
 02:44:45,594 --> 02:44:46,220
-
 HAYIR!
-
-
 
 2188
-
 02:44:49,473 --> 02:44:50,933
-
 Gitmek! Tırmanmak.
-
 Tırmanmak!
-
-
 
 2189
-
 02:44:51,391 --> 02:44:52,392
-
 Kiri,
-
 hadi!
 
-
-
 2190
-
 02:44:53,560 --> 02:44:54,603
-
 Hadi
-
 gidelim!
 
-
-
 2191
-
 02:44:55,354 --> 02:44:55,979
-
 Anne!
-
-
 
 2192
-
 02:44:56,104 --> 02:44:56,813
-
 yüzün! yüzün
 
-
-
 2193
-
 02:44:57,189 --> 02:44:57,856
-
 Git Tuk.
 
-
-
 2194
-
 02:44:57,981 --> 02:44:58,607
-
 Tırmanmak.
 
-
-
 2195
-
 02:45:06,323 --> 02:45:06,990
-
 Anne...
-
-
 
 2196
-
 02:45:08,116 --> 02:45:09,117
-
 Gitmek!
-
-
 
 2197
-
 02:45:09,660 --> 02:45:10,661
-
 Yürü! Yürü! Yürü!
 
-
-
 2198
-
 02:45:18,126 --> 02:45:19,294
-
 Tırmanmaya devam
-
 et! Gitmek!
 
-
-
 2199
-
 02:45:23,841 --> 02:45:24,842
-
 Anladım.
 
-
-
 2200
-
 02:45:27,177 --> 02:45:28,011
-
 Bana elini Ver!
 
-
-
 2201
-
 02:45:28,136 --> 02:45:28,804
-
 Hadi!
-
-
 
 2202
-
 02:45:31,431 --> 02:45:32,224
-
 Aç onu!
-
-
 
 2203
-
 02:45:40,899 --> 02:45:41,525
-
 Aç onu!
-
-
 
 2204
-
 02:45:41,608 --> 02:45:42,234
-
 Geri çekilmek.
-
-
 
 2205
-
 02:45:42,317 --> 02:45:42,943
-
 Geri çekilmek.
 
-
-
 2206
-
 02:45:43,652 --> 02:45:44,653
-
 Gelmek.
 
-
-
 2207
-
 02:45:46,154 --> 02:45:46,864
-
 Tuk!
 
-
-
 2208
-
 02:45:56,957 --> 02:45:57,875
-
 Tırmanmak!
-
-
 
 2209
-
 02:45:58,166 --> 02:45:59,126
-
 Gitmek!
-
-
 
 2210
-
 02:46:01,378 --> 02:46:02,087
-
 Tırmanmak!
 
-
-
 2211
-
 02:46:02,462 --> 02:46:03,088
-
 Gitmek!
-
-
 
 2212
-
 02:46:03,922 --> 02:46:04,715
-
 Yukarı git!
 
-
-
 2213
-
 02:46:10,512 --> 02:46:11,513
-
 Yuvarlanıyoruz!
 
-
-
 2214
-
 02:46:11,889 --> 02:46:12,514
-
 Git git git
-
 git!
 
-
-
 2215
-
 02:46:12,598 --> 02:46:13,348
-
 Tamam aşkım...
 
-
-
 2216
-
 02:46:15,893 --> 02:46:16,977
-
 HAYIR!
 
-
-
 2217
-
 02:46:17,436 --> 02:46:18,562
-
 Anne!
-
-
 
 2218
-
 02:46:26,695 --> 02:46:27,696
-
 Kiri!
-
-
 
 2219
-
 02:46:27,821 --> 02:46:28,530
-
 Devam etmek!
 
-
-
 2220
-
 02:46:32,242 --> 02:46:33,243
-
 Bu taraftan,
-
 bu taraftan!
 
-
-
 2221
-
 02:46:33,744 --> 02:46:34,411
-
 Tamam aşkım.
-
-
 
 2222
-
 02:46:34,578 --> 02:46:35,204
-
 Gitmek!
-
-
 
 2223
-
 02:46:39,333 --> 02:46:41,335
-
 Aç onu!
 
-
-
 2224
-
 02:46:43,295 --> 02:46:44,379
-
 Anne!
-
-
 
 2225
-
 02:46:47,424 --> 02:46:48,425
-
 Hadi!
 
-
-
 2226
-
 02:46:57,976 --> 02:46:58,977
-
 Git Tuk!
 
-
-
 2227
-
 02:47:01,063 --> 02:47:02,064
-
 Buradan çıkış yok!
 
-
-
 2228
-
 02:47:04,358 --> 02:47:05,442
-
 Birlikte kalın,
-
 tamam mı?
 
-
-
 2229
-
 02:47:05,609 --> 02:47:06,985
-
 -Evet. -Birlikte
-
 kal.
 
-
-
 2230
-
 02:47:07,152 --> 02:47:08,153
-
 Evet.
 
-
-
 2231
-
 02:47:37,099 --> 02:47:38,308
-
 Ey Büyük
-
 Anne!
 
-
-
 2232
-
 02:47:38,433 --> 02:47:39,810
-
 Ah, Büyük Anne,
-
 bize yardım et!
 
-
-
 2233
-
 02:48:22,644 --> 02:48:23,645
-
 Kiri!
 
-
-
 2234
-
 02:48:44,208 --> 02:48:44,833
-
 Kardeş!
 
-
-
 2235
-
 02:48:45,792 --> 02:48:46,710
-
 Anne ve baba...
 
-
-
 2236
-
 02:48:46,835 --> 02:48:47,544
-
 oradalar.
 
-
-
 2237
-
 02:48:47,669 --> 02:48:48,295
-
 gemide.
 
-
-
 2238
-
 02:48:48,462 --> 02:48:49,505
-
 Tutun.
 
-
-
 2239
-
 02:48:50,297 --> 02:48:51,298
-
 Abi ben iyiyim
-
 Gitmek!
 
-
-
 2240
-
 02:49:19,034 --> 02:49:20,035
-
 Tamam aşkım.
-
-
 
 2241
-
 02:49:47,855 --> 02:49:48,856
-
 Jake!
 
-
-
 2242
-
 02:50:25,601 --> 02:50:26,268
-
 Baba.
 
-
-
 2243
-
 02:50:31,440 --> 02:50:32,441
-
 Kahretsin!
 
-
-
 2244
-
 02:50:47,206 --> 02:50:48,957
-
 Hadi, seni orospu çocuğu!
 
-
-
 2245
-
 02:50:49,166 --> 02:50:50,083
-
 Baba, sadece nefes al.
 
-
-
 2246
-
 02:50:50,292 --> 02:50:51,126
-
 Neteyam?
 
-
-
 2247
-
 02:50:51,919 --> 02:50:52,920
-
 Hayır, baba.
-
 Ben Lo'ak.
 
-
-
 2248
-
 02:50:54,338 --> 02:50:55,339
-
 Lo'ak.
 
-
-
 2249
-
 02:50:56,632 --> 02:50:57,633
-
 Üzgünüm efendim.
 
-
-
 2250
-
 02:50:58,133 --> 02:50:59,843
-
 Neteyam için üzgünüm.
-
 Hepsi benim suçum.
 
-
-
 2251
-
 02:51:00,052 --> 02:51:01,053
-
 Sadece odaklan.
 
-
-
 2252
-
 02:51:01,178 --> 02:51:02,262
-
 Şimdi odaklan.
 
-
-
 2253
-
 02:51:21,532 --> 02:51:22,658
-
 Hava cebini
-
 kaybediyoruz.
 
-
-
 2254
-
 02:51:22,824 --> 02:51:23,825
-
 Hadi. Hareket
-
 etmeliyiz.
 
-
-
 2255
-
 02:51:23,992 --> 02:51:25,077
-
 Hadi baba.
 
-
-
 2256
-
 02:51:32,793 --> 02:51:34,336
-
 Çıkış yolunu biliyor musun?
 
-
-
 2257
-
 02:51:34,753 --> 02:51:37,464
-
 Bence de. Ama baba, uzun
-
 bir nefes tutma olacak.
 
-
-
 2258
-
 02:51:37,631 --> 02:51:39,174
-
 Yapamam.
 
-
-
 2259
-
 02:51:39,716 --> 02:51:41,093
-
 Yapabilirsiniz. Yapabilirsiniz.
 
-
-
 2260
-
 02:51:41,218 --> 02:51:41,844
-
 HAYIR.
 
-
-
 2261
-
 02:51:41,969 --> 02:51:43,011
-
 O yüzden hemen gitmelisin.
 
-
-
 2262
-
 02:51:43,512 --> 02:51:45,055
-
 Ben de seni kaybedemem
-
 baba.
 
-
-
 2263
-
 02:51:45,222 --> 02:51:45,889
-
 Lütfen.
 
-
-
 2264
-
 02:51:50,394 --> 02:51:51,979
-
 Anne,
-
 korkuyorum.
 
-
-
 2265
-
 02:51:53,480 --> 02:51:54,481
-
 Her şey yolunda.
 
-
-
 2266
-
 02:51:55,315 --> 02:51:56,358
-
 Bana yakın kal.
 
-
-
 2267
-
 02:51:57,317 --> 02:51:58,360
-
 Anneme yakın ol.
 
-
-
 2268
-
 02:52:00,946 --> 02:52:01,947
-
 Sorun değil.
 
-
-
 2269
-
 02:52:18,630 --> 02:52:20,465
-
 Sadece kalbini
-
 yavaşlatmalısın.
 
-
-
 2270
-
 02:52:20,924 --> 02:52:22,092
-
 Gerçekten sakin ol.
 
-
-
 2271
-
 02:52:23,427 --> 02:52:24,678
-
 Buradan nefes
-
 al.
 
-
-
 2272
-
 02:52:24,845 --> 02:52:26,430
-
 Hey, buradan nefes al.
 
-
-
 2273
-
 02:52:39,985 --> 02:52:41,320
-
 Suyun yolu yoktur...
 
-
-
 2274
-
 02:52:41,445 --> 02:52:42,738
-
 başlangıç ​​ve bitiş yok.
 
-
-
 2275
-
 02:52:45,449 --> 02:52:47,492
-
 Deniz etrafınızda
-
 ve içinizde.
 
-
-
 2276
-
 02:52:49,119 --> 02:52:50,329
-
 Deniz sizin eviniz...
 
-
-
 2277
-
 02:52:50,454 --> 02:52:52,789
-
 doğumundan önce ve
-
 ölümünden sonra.
 
-
-
 2278
-
 02:52:58,003 --> 02:53:00,881
-
 Deniz verir ve
-
 deniz alır.
 
-
-
 2279
-
 02:53:02,132 --> 02:53:04,176
-
 Su her şeyi birbirine
-
 bağlar.
 
-
-
 2280
-
 02:53:06,345 --> 02:53:07,888
-
 Yaşamdan ölüme.
 
-
-
 2281
-
 02:53:09,723 --> 02:53:12,017
-
 Karanlıktan aydınlığa.
 
-
-
 2282
-
 02:53:35,290 --> 02:53:36,124
-
 -MERHABA.
-
 -Kiri!
 
-
-
 2283
-
 02:53:36,291 --> 02:53:37,251
-
 Kiri.
 
-
-
 2284
-
 02:53:37,417 --> 02:53:39,419
-
 Her şey yoluna girecek
-
 küçük kız kardeşim.
 
-
-
 2285
-
 02:53:39,753 --> 02:53:40,587
-
 Anne...
 
-
-
 2286
-
 02:53:40,712 --> 02:53:42,089
-
 Bunu sana
-
 vereceğim.
 
-
-
 2287
-
 02:53:47,135 --> 02:53:48,011
-
 Sana yardım edecek.
 
-
-
 2288
-
 02:53:49,596 --> 02:53:50,556
-
 Baba, bunu yapabilirsin.
 
-
-
 2289
-
 02:53:52,391 --> 02:53:53,600
-
 Güven bana.
 
-
-
 2290
-
 02:53:54,226 --> 02:53:55,185
-
 Kalbini sakinleştir.
 
-
-
 2291
-
 02:53:57,563 --> 02:53:58,564
-
 Büyük nefesler.
 
-
-
 2292
-
 02:54:02,568 --> 02:54:03,569
-
 Son Nefes.
 
-
-
 2293
-
 02:54:08,615 --> 02:54:09,616
-
 Beni takip et.
 
-
-
 2294
-
 02:55:25,943 --> 02:55:27,194
-
 Devam etmek.
 
-
-
 2295
-
 02:55:27,319 --> 02:55:28,237
-
 Sadece nefes al.
-
-
 
 2296
-
 02:55:28,904 --> 02:55:29,738
-
 Sadece nefes al.
 
-
-
 2297
-
 02:55:34,326 --> 02:55:35,327
-
 Teşekkür ederim.
-
-
 
 2298
-
 02:55:44,336 --> 02:55:45,838
-
 Seni görüyorum...
 
-
-
 2299
-
 02:55:46,004 --> 02:55:46,797
-
 oğul.
 
-
-
 2300
-
 02:55:49,466 --> 02:55:50,300
-
 MaJake!
 
-
-
 2301
-
 02:55:51,718 --> 02:55:52,845
-
 -Baba!
-
 -Anne!
 
-
-
 2302
-
 02:55:53,011 --> 02:55:54,221
-
 Baba. Baba.
 
-
-
 2303
-
 02:55:55,722 --> 02:55:56,390
-
 Hadi.
 
-
-
 2304
-
 02:55:58,934 --> 02:56:00,102
-
 Burada.
-
-
 
 2305
-
 02:56:06,441 --> 02:56:07,442
-
 Erkek kardeş.
 
-
-
 2306
-
 02:56:16,869 --> 02:56:18,787
-
 Sully'ler birbirine
-
 yapışır.
 
-
-
 2307
-
 02:56:21,123 --> 02:56:22,666
-
 En büyük
-
 zayıflığımızdı...
 
-
-
 2308
-
 02:56:24,042 --> 02:56:25,502
-
 ve büyük
-
 gücümüz.
 
-
-
 2309
-
 02:56:27,504 --> 02:56:29,256
-
 Teşekkürler, Büyük Anne.
 
-
-
 2310
-
 02:56:29,965 --> 02:56:30,966
-
 Teşekkür ederim.
 
-
-
 2311
-
 02:57:10,297 --> 02:57:11,298
-
 Hadi dışarı çıkalım.
 
-
-
 2312
-
 02:57:17,930 --> 02:57:18,931
-
 Oğul.
 
-
-
 2313
-
 02:57:21,183 --> 02:57:22,184
-
 Benimle gel.
 
-
-
 2314
-
 02:57:26,939 --> 02:57:27,940
-
 Örümcek!
 
-
-
 2315
-
 02:58:02,266 --> 02:58:03,183
-
 Maymun çocuk!
 
-
-
 2316
-
 02:58:07,855 --> 02:58:09,064
-
 Örümcek.
 
-
-
 2317
-
 02:58:16,405 --> 02:58:17,573
-
 -İyi misin?
-
 -Evet.
 
-
-
 2318
-
 02:58:21,785 --> 02:58:22,786
-
 Buraya gel.
 
-
-
 2319
-
 02:58:25,789 --> 02:58:27,958
-
 Bir oğul için bir oğul.
 
-
-
 2320
-
 02:58:44,725 --> 02:58:46,977
-
 Her şarkı kordonunun son bir boncuğu olmalıdır.
 
-
-
 2321
-
 02:59:12,169 --> 02:59:14,004
-
 Bir baba korur.
 
-
-
 2322
-
 02:59:15,339 --> 02:59:16,840
-
 Ona anlam veren budur.
 
-
-
 2323
-
 02:59:45,202 --> 02:59:47,663
-
 Halk, tüm enerjinin yalnızca
-
 ödünç alındığını söylüyor.
 
-
-
 2324
-
 02:59:50,499 --> 02:59:52,376
-
 Ve bir gün onu geri
-
 vermek zorundasın.
 
-
-
 2325
-
 03:00:06,223 --> 03:00:07,891
-
 Eyva tutar...
 
-
-
 2326
-
 03:00:08,100 --> 03:00:09,518
-
 tüm çocukları kalbinde.
 
-
-
 2327
-
 03:00:11,478 --> 03:00:12,771
-
 Hiçbir şey asla kaybolmaz.
 
-
-
 2328
-
 03:00:16,108 --> 03:00:17,109
-
 Neteyam!
-
-
 
 2329
-
 03:00:17,734 --> 03:00:18,944
-
 Neteyam!
 
-
-
 2330
-
 03:00:39,006 --> 03:00:40,257
-
 Ailem ve ben...
 
-
-
 2331
-
 03:00:41,383 --> 03:00:42,426
-
 yarın devam edeceğiz
 
-
-
 2332
-
 03:00:43,177 --> 03:00:44,303
-
 Buradan çok uzakta.
 
-
-
 2333
-
 03:00:45,721 --> 03:00:47,431
-
 Oğlun atalarımızın
-
 yanında yatıyor.
 
-
-
 2334
-
 03:00:48,724 --> 03:00:51,393
-
 Artık
-
 Metkayina'sın.
 
-
-
 2335
-
 03:00:57,107 --> 03:00:58,525
-
 Ve işte oradaydı.
 
-
-
 2336
-
 03:01:00,527 --> 03:01:01,945
-
 Biz artık Deniz İnsanlarıyız.
 
-
-
 2337
-
 03:01:04,489 --> 03:01:06,408
-
 Burası bizim evimiz.
-
-
 
 2338
-
 03:02:06,969 --> 03:02:07,970
-
 Baba!
 
-
-
 2339
-
 03:02:08,846 --> 03:02:09,847
-
 Bak ne
-
 yakaladım!
 
-
-
 2340
-
 03:02:10,639 --> 03:02:11,640
-
 Vay.
 
-
-
 2341
-
 03:02:12,933 --> 03:02:13,976
-
 Oh, bu büyük bir tane.
 
-
-
 2342
-
 03:02:14,643 --> 03:02:16,311
-
 O havuzdaydı.
 
-
-
 2343
-
 03:02:16,436 --> 03:02:17,062
-
 Kayaların yanında.
 
-
-
 2344
-
 03:02:19,273 --> 03:02:20,524
-
 Dediğin yerde.
 
-
-
 2345
-
 03:02:24,403 --> 03:02:25,529
-
 Ne var baba?
 
-
-
 2346
-
 03:02:27,072 --> 03:02:28,073
-
 Neden ağlıyorsun?
 
-
-
 2347
-
 03:02:30,367 --> 03:02:32,953
-
 Seni gördüğüme sevindim,
-
 evlat.
 
-
-
 2348
-
 03:02:34,580 --> 03:02:35,914
-
 Ben de seni gördüğüme
-
 sevindim.
 
-
-
 2349
-
 03:02:38,667 --> 03:02:39,293
-
 Burada.
 
-
-
 2350
-
 03:02:39,418 --> 03:02:40,169
-
 Sen dene.
 
-
-
 2351
-
 03:02:42,671 --> 03:02:43,672
-
 Tamam aşkım.
 
-
-
 2352
-
 03:02:45,424 --> 03:02:46,758
-
 Bana bir şey bırakır mısın?
 
-
-
 2353
-
 03:02:46,925 --> 03:02:47,926
-
 Belki.
 
-
-
 2354
-
 03:02:54,600 --> 03:02:56,351
-
 Evet! Kontrol et. Görmek?
 
-
-
 2355
-
 03:03:03,984 --> 03:03:05,277
-
 Şimdi görüyorum.
 
-
-
 2356
-
 03:03:06,236 --> 03:03:08,238
-
 Kaçarak ailemi kurtaramam.
 
-
-
 2357
-
 03:03:09,406 --> 03:03:10,449
-
 Burası bizim evimiz.
 
-
-
 2358
-
 03:03:11,450 --> 03:03:13,035
-
 Bu bizim kalemiz.
 
-
-
 2359
-
 03:03:14,411 --> 03:03:16,496
-
 Biz burada tavrımızı
-
 ortaya koyuyoruz.
