@@ -3,7 +3,7 @@
    Version: 1.3.0
    ============================================================== */
 
-const CACHE_NAME = 'bogazici-sinema-v18';
+const CACHE_NAME = 'bogazici-sinema-v20';
 
 // Uygulamanın çevrimdışı çekirdek dosyaları (App Shell)
 const PRECACHE_ASSETS = [
