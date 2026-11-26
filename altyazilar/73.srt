@@ -1,39 +1,39 @@
 1
 00:00:00,900 --> 00:00:05,900
-Çeviri:honestly=hasan
+Ã‡eviri:honestly=hasan
 Keyifli seyirler dilerim.
 
 2
 00:00:32,086 --> 00:00:37,086
-Europa 1 görevi, derin uzaya
-ilk insan gönderme denemesiydi.
+Europa 1 gÃ¶revi, derin uzaya
+ilk insan gÃ¶nderme denemesiydi.
 
 3
 00:00:55,087 --> 00:00:59,825
 <i>Selam dostum.</i>
-Uzay çok güzel.
+Uzay Ã§ok gÃ¼zel.
 
 4
 00:01:01,527 --> 00:01:05,464
-Sizi çok özledim. Artık iyice uzaklaştık,
-şey görünmüyor bile...
+Sizi Ã§ok Ã¶zledim. ArtÄ±k iyice uzaklaÅŸtÄ±k,
+ÅŸey gÃ¶rÃ¼nmÃ¼yor bile...
 
 5
 00:01:05,466 --> 00:01:08,032
-Artık Dünya'yı göremiyorum bile.
+ArtÄ±k DÃ¼nya'yÄ± gÃ¶remiyorum bile.
 
 6
 00:01:10,871 --> 00:01:14,806
-Ve burası çok sakin...
+Ve burasÄ± Ã§ok sakin...
 
 7
 00:01:16,209 --> 00:01:19,911
-Annene sakın bunu söyleme
-ama sanırım burada...
+Annene sakÄ±n bunu sÃ¶yleme
+ama sanÄ±rÄ±m burada...
 
 8
 00:01:19,913 --> 00:01:22,647
-...horlamasından uzakta,
+...horlamasÄ±ndan uzakta,
 daha iyi uyuyorum.
 
 9
@@ -42,60 +42,60 @@ daha iyi uyuyorum.
 
 10
 00:01:27,087 --> 00:01:31,123
-<i>B-7 ve B-9 tankları, donma
-belirtileri gösteriyor. Tamam.</i>
+<i>B-7 ve B-9 tanklarÄ±, donma
+belirtileri gÃ¶steriyor. Tamam.</i>
 
 11
 00:01:31,148 --> 00:01:34,048
-Altı ayı aşkın bir süre bütün
-dünya görevin her anını izledi.
+AltÄ± ayÄ± aÅŸkÄ±n bir sÃ¼re bÃ¼tÃ¼n
+dÃ¼nya gÃ¶revin her anÄ±nÄ± izledi.
 
 12
 00:01:34,060 --> 00:01:36,928
-<i>Oraya gittiğin zaman hiçbir
-şey bulamazsan, ne yaparsın?</i>
+<i>Oraya gittiÄŸin zaman hiÃ§bir
+ÅŸey bulamazsan, ne yaparsÄ±n?</i>
 
 13
 00:01:38,698 --> 00:01:42,133
-Hiçbir şey bulamasak bile,
-yararlı bir keşif yapmış oluruz.
+HiÃ§bir ÅŸey bulamasak bile,
+yararlÄ± bir keÅŸif yapmÄ±ÅŸ oluruz.
 
 14
 00:01:43,135 --> 00:01:47,506
-- Çok hayal kırıklığına uğrarım.
-<i>- Orada bir şey olduğunu biliyorum</i>
+- Ã‡ok hayal kÄ±rÄ±klÄ±ÄŸÄ±na uÄŸrarÄ±m.
+<i>- Orada bir ÅŸey olduÄŸunu biliyorum</i>
 
 15
 00:01:47,508 --> 00:01:49,808
 <i>3. ve 4. navigasyon
-göstergesini kontrol edin.</i>
+gÃ¶stergesini kontrol edin.</i>
 
 16
 00:01:49,810 --> 00:01:55,614
-<i>- Değiştirseniz iyi olur...</i>
-- Görev Kontrol, tekrar et lütfen. Tamam.
+<i>- DeÄŸiÅŸtirseniz iyi olur...</i>
+- GÃ¶rev Kontrol, tekrar et lÃ¼tfen. Tamam.
 
 17
 00:01:56,216 --> 00:02:00,151
 <i>- Cevap ver, Europa 1
-- Onları nasıl yenersin, göstereyim mi?</i>
+- OnlarÄ± nasÄ±l yenersin, gÃ¶stereyim mi?</i>
 
 18
 00:02:00,153 --> 00:02:03,188
-William, haberleşme yayınında
-biraz parazit olmaya başladı.
+William, haberleÅŸme yayÄ±nÄ±nda
+biraz parazit olmaya baÅŸladÄ±.
 
 19
 00:02:03,190 --> 00:02:05,991
-<i>Radyasyon dalgası gibi gözüküyor.</i>
+<i>Radyasyon dalgasÄ± gibi gÃ¶zÃ¼kÃ¼yor.</i>
 
 20
 00:02:05,993 --> 00:02:09,027
-<i>Sistemi yeniden başlatmayı denedin mi?</i>
+<i>Sistemi yeniden baÅŸlatmayÄ± denedin mi?</i>
 
 21
 00:02:09,029 --> 00:02:14,232
-<i>Rosa, yayınınızı kaybettik.
+<i>Rosa, yayÄ±nÄ±nÄ±zÄ± kaybettik.
 Europa 1, cevap ver.</i>
 
 22
@@ -104,56 +104,56 @@ Europa 1, cevap ver.</i>
 
 23
 00:02:38,925 --> 00:02:43,194
-<i>Bunlar Europa 1 aracından
-bize ulaşan son görüntülerdi.</i>
+<i>Bunlar Europa 1 aracÄ±ndan
+bize ulaÅŸan son gÃ¶rÃ¼ntÃ¼lerdi.</i>
 
 24
 00:02:43,196 --> 00:02:48,992
-O anda, herhangi bir insanın gittiği
-en uzak mesafeyi çoktan aşmışlardı bile.
+O anda, herhangi bir insanÄ±n gittiÄŸi
+en uzak mesafeyi Ã§oktan aÅŸmÄ±ÅŸlardÄ± bile.
 
 25
 00:02:51,805 --> 00:02:57,609
-16 uzun aydır, basit ama kafa karıştırıcı
-şu soruyu sordum durdum: "Ne oldu?"
+16 uzun aydÄ±r, basit ama kafa karÄ±ÅŸtÄ±rÄ±cÄ±
+ÅŸu soruyu sordum durdum: "Ne oldu?"
 
 26
 00:02:59,111 --> 00:03:01,246
 Hepsi...
-Üzgünüm.
+ÃœzgÃ¼nÃ¼m.
 
 27
 00:03:03,971 --> 00:03:07,471
-Dr. Samantha Unger, Europa Girişimcilik
-Ceo'su, Baş Görev Planlayıcı.
+Dr. Samantha Unger, Europa GiriÅŸimcilik
+Ceo'su, BaÅŸ GÃ¶rev PlanlayÄ±cÄ±.
 
 28
 00:03:07,496 --> 00:03:11,056
-Yeni ele geçirilen binlerce
-saatlik görüntüyle...
+Yeni ele geÃ§irilen binlerce
+saatlik gÃ¶rÃ¼ntÃ¼yle...
 
 29
 00:03:11,082 --> 00:03:14,921
-...Europa Girişimcilik artık
+...Europa GiriÅŸimcilik artÄ±k
 hikayelerini tamamlayabilir.
 
 30
 00:03:26,105 --> 00:03:28,139
-Ailesine söylememiz gerek.
+Ailesine sÃ¶ylememiz gerek.
 
 31
 00:03:29,342 --> 00:03:34,012
-Söyleyemeyiz. Haberleşme kanalını
-onarma işlemi bitmemişti daha.
+SÃ¶yleyemeyiz. HaberleÅŸme kanalÄ±nÄ±
+onarma iÅŸlemi bitmemiÅŸti daha.
 
 32
 00:03:34,014 --> 00:03:38,883
-- Sistem yandı. - Görev Kontrolle en son
-son bağlantıyı 19 saat önce kurduk.
+- Sistem yandÄ±. - GÃ¶rev Kontrolle en son
+son baÄŸlantÄ±yÄ± 19 saat Ã¶nce kurduk.
 
 33
 00:03:38,885 --> 00:03:40,885
-Artık yalnızız.
+ArtÄ±k yalnÄ±zÄ±z.
 
 34
 00:03:43,189 --> 00:03:45,963
@@ -165,35 +165,35 @@ Devam edecek miyiz?
 
 36
 00:04:03,709 --> 00:04:07,471
-Görevin yayını kesildiği
-zaman uçaktaydım.
+GÃ¶revin yayÄ±nÄ± kesildiÄŸi
+zaman uÃ§aktaydÄ±m.
 
 37
 00:04:07,497 --> 00:04:10,707
-Transatlantik bir uçuştu.
+Transatlantik bir uÃ§uÅŸtu.
 
 38
 00:04:11,684 --> 00:04:14,319
-İndiğim zaman, Görev Kontrol hâlâ...
+Ä°ndiÄŸim zaman, GÃ¶rev Kontrol hÃ¢lÃ¢...
 
 39
 00:04:14,321 --> 00:04:17,422
 ..."Belki de sadece iletimdeki bir
-gecikmeden kaynaklanıyordur." diyordu.
+gecikmeden kaynaklanÄ±yordur." diyordu.
 
 40
 00:04:17,424 --> 00:04:20,291
-Ama Görev Kontrol'ün olduğu
-yere vardığım zaman...
+Ama GÃ¶rev Kontrol'Ã¼n olduÄŸu
+yere vardÄ±ÄŸÄ±m zaman...
 
 41
 00:04:20,293 --> 00:04:23,795
-...yayın kesileli 15 saat olmuştu bile.
+...yayÄ±n kesileli 15 saat olmuÅŸtu bile.
 
 42
 00:04:33,439 --> 00:04:37,796
 James kaybolduktan sonra,
-görevin verdiği zevk ve...
+gÃ¶revin verdiÄŸi zevk ve...
 
 43
 00:04:37,822 --> 00:04:42,439
@@ -201,99 +201,99 @@ görevin verdiği zevk ve...
 
 44
 00:04:44,283 --> 00:04:46,984
-<i>Ailesiyle geziye çıkmış bir
-çocuk gibi hissetmeyi bıraktım.</i>
+<i>Ailesiyle geziye Ã§Ä±kmÄ±ÅŸ bir
+Ã§ocuk gibi hissetmeyi bÄ±raktÄ±m.</i>
 
 45
 00:04:49,321 --> 00:04:53,391
-Görev daha da uzun gözükmeye
-başladı gözümüze.
+GÃ¶rev daha da uzun gÃ¶zÃ¼kmeye
+baÅŸladÄ± gÃ¶zÃ¼mÃ¼ze.
 
 46
 00:04:57,730 --> 00:05:00,198
-Evdeki hiç kimse hayatta
-olduğumuzu bilmiyor.
+Evdeki hiÃ§ kimse hayatta
+olduÄŸumuzu bilmiyor.
 
 47
 00:05:08,441 --> 00:05:13,078
-- Doğru şeyi yapıyoruz, değil mi?
+- DoÄŸru ÅŸeyi yapÄ±yoruz, deÄŸil mi?
 - Kesinlikle.
 
 48
 00:05:18,903 --> 00:05:21,903
-06 Ay, 27 Gün, 22 Saat, 17 Dakika.
+06 Ay, 27 GÃ¼n, 22 Saat, 17 Dakika.
 
 49
 00:05:22,354 --> 00:05:26,057
-<i>Andrei, Jüpiter'e baktın mı?</i>
+<i>Andrei, JÃ¼piter'e baktÄ±n mÄ±?</i>
 
 50
 00:05:26,138 --> 00:05:29,138
-07 Ay, 18 Gün, 00 Saat, 05 Dakika.
+07 Ay, 18 GÃ¼n, 00 Saat, 05 Dakika.
 
 51
 00:05:33,332 --> 00:05:35,433
-<i>Kalbinin küt küt atmasını
-sağlayabilecek bir şey.</i>
+<i>Kalbinin kÃ¼t kÃ¼t atmasÄ±nÄ±
+saÄŸlayabilecek bir ÅŸey.</i>
 
 52
 00:05:39,272 --> 00:05:41,940
-İyi misin?
+Ä°yi misin?
 
 53
 00:05:43,375 --> 00:05:46,410
-Bir haftadır ağzını açıp da
+Bir haftadÄ±r aÄŸzÄ±nÄ± aÃ§Ä±p da
 tek kelime etmedin bana.
 
 54
 00:05:59,359 --> 00:06:01,959
-<i>- Bir sabah uyandım...
+<i>- Bir sabah uyandÄ±m...
 - Tamam.</i>
 
 55
 00:06:03,263 --> 00:06:07,832
-Bir zaman uyandım işte.
-Ve kendimi tanıyamadım.
+Bir zaman uyandÄ±m iÅŸte.
+Ve kendimi tanÄ±yamadÄ±m.
 
 56
 00:06:11,070 --> 00:06:15,999
-<i>Aslında insanı değiştirenin sıfır yerçekimi
-ve izolasyon olduğunu biliyorum.</i>
+<i>AslÄ±nda insanÄ± deÄŸiÅŸtirenin sÄ±fÄ±r yerÃ§ekimi
+ve izolasyon olduÄŸunu biliyorum.</i>
 
 57
 00:06:16,376 --> 00:06:19,143
-<i>Ama bilmek, garipliğini azaltmıyor.</i>
+<i>Ama bilmek, garipliÄŸini azaltmÄ±yor.</i>
 
 58
 00:06:21,147 --> 00:06:23,481
-<i>Yavaş yavaş dağılmanızı engellemiyor.</i>
+<i>YavaÅŸ yavaÅŸ daÄŸÄ±lmanÄ±zÄ± engellemiyor.</i>
 
 59
 00:06:30,506 --> 00:06:33,506
-08 Ay, 25 Gün, 06 Saat, 59 Dakika.
+08 Ay, 25 GÃ¼n, 06 Saat, 59 Dakika.
 
 60
 00:06:39,265 --> 00:06:44,469
-<i>Hayatımı, görevin hâlâ devam ettiğini
-umarak; göreve göre yaşamaya başlamıştım.</i>
+<i>HayatÄ±mÄ±, gÃ¶revin hÃ¢lÃ¢ devam ettiÄŸini
+umarak; gÃ¶reve gÃ¶re yaÅŸamaya baÅŸlamÄ±ÅŸtÄ±m.</i>
 
 61
 00:06:51,143 --> 00:06:56,815
-- Güzel. - Tamam.
-- İştahın nasıl? - İyiyim ben.
+- GÃ¼zel. - Tamam.
+- Ä°ÅŸtahÄ±n nasÄ±l? - Ä°yiyim ben.
 
 62
 00:06:56,817 --> 00:06:59,884
-- Ve biraz değişik uyuyor...
-- Yok öyle bir şey.
+- Ve biraz deÄŸiÅŸik uyuyor...
+- Yok Ã¶yle bir ÅŸey.
 
 63
 00:07:02,154 --> 00:07:04,522
-Onu kaybedeli bir yıl oluyor.
+Onu kaybedeli bir yÄ±l oluyor.
 
 64
 00:07:20,340 --> 00:07:22,373
-Bana hâlâ...
+Bana hÃ¢lÃ¢...
 
 65
 00:07:23,998 --> 00:07:27,998
@@ -301,72 +301,72 @@ EUROPA RAPORU
 
 66
 00:07:29,723 --> 00:07:34,723
-19 ay, 10 gün, 14 saat önce...
+19 ay, 10 gÃ¼n, 14 saat Ã¶nce...
 
 67
 00:07:40,548 --> 00:07:44,548
-<font color="#ffff80">Europa 1 uzay aracı bugün fırlatılıyor.</font>
+<font color="#ffff80">Europa 1 uzay aracÄ± bugÃ¼n fÄ±rlatÄ±lÄ±yor.</font>
 
 68
 00:07:53,340 --> 00:07:58,409
-<font color="#ffff80"><i>İyi sabahlar. Bugün, burada olduğum...
-olduğumuz için hepimiz çok heyecanlıyız.</i></font>
+<font color="#ffff80"><i>Ä°yi sabahlar. BugÃ¼n, burada olduÄŸum...
+olduÄŸumuz iÃ§in hepimiz Ã§ok heyecanlÄ±yÄ±z.</i></font>
 
 69
 00:07:58,411 --> 00:08:01,880
-<font color="#ffff80"><i>Kesinlikle çok uzun bir süreçti.</i></font>
+<font color="#ffff80"><i>Kesinlikle Ã§ok uzun bir sÃ¼reÃ§ti.</i></font>
 
 70
 00:08:01,882 --> 00:08:04,412
-<font color="#ffff80">Ve buradaki herkes, bu işe...</font>
+<font color="#ffff80">Ve buradaki herkes, bu iÅŸe...</font>
 
 71
 00:08:04,438 --> 00:08:09,020
 <font color="#ffff80">...ortak bir uzay ve
-olasılık hayaliyle başladı.</font>
+olasÄ±lÄ±k hayaliyle baÅŸladÄ±.</font>
 
 72
 00:08:09,022 --> 00:08:12,924
-<font color="#ffff80">Ve bu gerçekten insanoğlu
-için yeni bir adım.</font>
+<font color="#ffff80">Ve bu gerÃ§ekten insanoÄŸlu
+iÃ§in yeni bir adÄ±m.</font>
 
 73
 00:08:12,926 --> 00:08:15,701
-<font color="#ffff80">Bir açıdan bakarsanız,
-bizim görevimiz aslında...</font>
+<font color="#ffff80">Bir aÃ§Ä±dan bakarsanÄ±z,
+bizim gÃ¶revimiz aslÄ±nda...</font>
 
 74
 00:08:15,727 --> 00:08:18,062
-<font color="#ffff80">...400 yıl önce başladı da diyebilirsiniz.</font>
+<font color="#ffff80">...400 yÄ±l Ã¶nce baÅŸladÄ± da diyebilirsiniz.</font>
 
 75
 00:08:18,064 --> 00:08:23,368
-<font color="#ffff80">Galileo, Jüpiter'i ve uydularını
-teleskopundan ilk o zaman görmüştü.</font>
+<font color="#ffff80">Galileo, JÃ¼piter'i ve uydularÄ±nÄ±
+teleskopundan ilk o zaman gÃ¶rmÃ¼ÅŸtÃ¼.</font>
 
 76
 00:08:23,370 --> 00:08:26,237
-<font color="#ffff80"><i>Bu kadar büyük bir şeyde,
-yalnızca bir şansınız vardır.</i></font>
+<font color="#ffff80"><i>Bu kadar bÃ¼yÃ¼k bir ÅŸeyde,
+yalnÄ±zca bir ÅŸansÄ±nÄ±z vardÄ±r.</i></font>
 
 77
 00:08:26,239 --> 00:08:29,374
-<font color="#ffff80">O yüzden insansız bir
-görev bize yetmeyecekti.</font>
+<font color="#ffff80">O yÃ¼zden insansÄ±z bir
+gÃ¶rev bize yetmeyecekti.</font>
 
 78
 00:08:29,376 --> 00:08:32,096
 <font color="#ffff80">Uzaya erkekleri ve
-kadınları gönderiyorsunuz...</font>
+kadÄ±nlarÄ± gÃ¶nderiyorsunuz...</font>
 
 79
 00:08:32,122 --> 00:08:34,579
 <font color="#ffff80">...uzaydaki tehlikelere
-karşı koyabilecek güçleri var.</font>
+karÅŸÄ± koyabilecek gÃ¼Ã§leri var.</font>
 
 80
 00:08:34,581 --> 00:08:36,847
-<i>Europa 1 fırlatılmaya hazır.</i>
+<i>Europa 1 fÄ±rlatÄ±lmaya hazÄ±r.</i>
 
 81
 00:08:43,188 --> 00:08:46,591
@@ -376,22 +376,22 @@ karşı koyabilecek güçleri var.</font>
 82
 00:08:46,593 --> 00:08:50,929
 <i>...7, 6, 5, 4...
-- Ana motor hazır.</i>
+- Ana motor hazÄ±r.</i>
 
 83
 00:08:50,931 --> 00:08:55,099
 <i>- 3, 2, 1.
-- Roketleri yakın.</i>
+- Roketleri yakÄ±n.</i>
 
 84
 00:08:57,102 --> 00:09:00,204
-<i>Kalkış!
-Europa'ya doğru.</i>
+<i>KalkÄ±ÅŸ!
+Europa'ya doÄŸru.</i>
 
 85
 00:09:00,206 --> 00:09:04,575
-<font color="#ffff80"><i>Motorlarımız %98 oranında çalışıyor.
-Yakıt oranı normal.</i></font>
+<font color="#ffff80"><i>MotorlarÄ±mÄ±z %98 oranÄ±nda Ã§alÄ±ÅŸÄ±yor.
+YakÄ±t oranÄ± normal.</i></font>
 
 86
 00:09:04,577 --> 00:09:09,213
@@ -400,8 +400,8 @@ Telemetri normal.</i></font>
 
 87
 00:09:12,651 --> 00:09:17,422
-<font color="#ffff80"><i>225 m/s ile kalktı.
-Yükseklik: 4,3 km.</i></font>
+<font color="#ffff80"><i>225 m/s ile kalktÄ±.
+YÃ¼kseklik: 4,3 km.</i></font>
 
 88
 00:09:17,424 --> 00:09:20,391
@@ -409,127 +409,127 @@ Yükseklik: 4,3 km.</i></font>
 
 89
 00:09:22,428 --> 00:09:26,364
-<font color="#ffff80"><i>- Yardımcı roketlerin ayrımında sorun yok.</i>
-- Araç ses hızını aştı.</font>
+<font color="#ffff80"><i>- YardÄ±mcÄ± roketlerin ayrÄ±mÄ±nda sorun yok.</i>
+- AraÃ§ ses hÄ±zÄ±nÄ± aÅŸtÄ±.</font>
 
 90
 00:09:26,366 --> 00:09:31,069
-<font color="#ffff80">Komuta modülündeki fazla
-ağırlık bırakılıyor. 3, 2, 1.</font>
+<font color="#ffff80">Komuta modÃ¼lÃ¼ndeki fazla
+aÄŸÄ±rlÄ±k bÄ±rakÄ±lÄ±yor. 3, 2, 1.</font>
 
 91
 00:09:36,141 --> 00:09:40,645
-- Kabuk ayrılması güzel geçti.
-- Başlangıç ateşlenmesi tamamlandı.
+- Kabuk ayrÄ±lmasÄ± gÃ¼zel geÃ§ti.
+- BaÅŸlangÄ±Ã§ ateÅŸlenmesi tamamlandÄ±.
 
 92
 00:09:40,647 --> 00:09:44,449
-Bırakılıyor...
+BÄ±rakÄ±lÄ±yor...
 3, 2, 1.
 
 93
 00:09:47,586 --> 00:09:51,990
-<i>- Tamam. Bırakma sorunsuz geçti.
-- Komuta modülüyle görüntü sağlandı.</i>
+<i>- Tamam. BÄ±rakma sorunsuz geÃ§ti.
+- Komuta modÃ¼lÃ¼yle gÃ¶rÃ¼ntÃ¼ saÄŸlandÄ±.</i>
 
 94
 00:09:53,092 --> 00:09:59,064
-<i>- Kenetlenme için dönmeye başlanıyor.
-- Rotada ve motor gücünde sorun yok.</i>
+<i>- Kenetlenme iÃ§in dÃ¶nmeye baÅŸlanÄ±yor.
+- Rotada ve motor gÃ¼cÃ¼nde sorun yok.</i>
 
 95
 00:09:59,366 --> 00:10:02,633
-<i>1972'den beri Dünya'nın
-yörüngesinden dışarıya çıkmadık.</i>
+<i>1972'den beri DÃ¼nya'nÄ±n
+yÃ¶rÃ¼ngesinden dÄ±ÅŸarÄ±ya Ã§Ä±kmadÄ±k.</i>
 
 96
 00:10:02,635 --> 00:10:05,724
-Şirketimiz, 20. yüzyıl
-uzay programlarının...
+Åirketimiz, 20. yÃ¼zyÄ±l
+uzay programlarÄ±nÄ±n...
 
 97
 00:10:05,750 --> 00:10:09,173
-...bıraktığı yerden devam
-etmeyi kendine görev edinmiştir.
+...bÄ±raktÄ±ÄŸÄ± yerden devam
+etmeyi kendine gÃ¶rev edinmiÅŸtir.
 
 98
 00:10:09,175 --> 00:10:12,849
-<i>- Kenetlemeye 10 metre.</i> - Böylesine
-büyük bir keşfin kokusunu almışsanız...
+<i>- Kenetlemeye 10 metre.</i> - BÃ¶ylesine
+bÃ¼yÃ¼k bir keÅŸfin kokusunu almÄ±ÅŸsanÄ±z...
 
 99
 00:10:12,875 --> 00:10:16,414
-<i>- Beş metre</i>. - ...oturup, sonra olacak
-şeyi beklemezsiniz diye düşünüyorum.
+<i>- BeÅŸ metre</i>. - ...oturup, sonra olacak
+ÅŸeyi beklemezsiniz diye dÃ¼ÅŸÃ¼nÃ¼yorum.
 
 100
 00:10:16,416 --> 00:10:20,151
 <i>- Kenetlendi.
-- Peşinden gidersiniz.</i>
+- PeÅŸinden gidersiniz.</i>
 
 101
 00:10:20,153 --> 00:10:24,188
-<i>Anlaşıldı. Kenetlenme başarılı.
-B, C, D kilitleri kapandı.</i>
+<i>AnlaÅŸÄ±ldÄ±. Kenetlenme baÅŸarÄ±lÄ±.
+B, C, D kilitleri kapandÄ±.</i>
 
 102
 00:10:24,190 --> 00:10:27,057
-<i>Bağlantılar stabil. Tekrar ediyorum.
-Kenetlenme başarılı.</i>
+<i>BaÄŸlantÄ±lar stabil. Tekrar ediyorum.
+Kenetlenme baÅŸarÄ±lÄ±.</i>
 
 103
 00:10:29,329 --> 00:10:34,465
-Görev Kontrol, resmen yola çıktığımızı
-söylemekten gurur duyarız.
+GÃ¶rev Kontrol, resmen yola Ã§Ä±ktÄ±ÄŸÄ±mÄ±zÄ±
+sÃ¶ylemekten gurur duyarÄ±z.
 
 104
 00:10:34,467 --> 00:10:36,695
-<i>Anlaşıldı.</i>
+<i>AnlaÅŸÄ±ldÄ±.</i>
 
 105
 00:10:36,721 --> 00:10:39,529
-<i>Döndüğünüzde sizi
-bekliyor olacağız.</i>
+<i>DÃ¶ndÃ¼ÄŸÃ¼nÃ¼zde sizi
+bekliyor olacaÄŸÄ±z.</i>
 
 106
 00:10:41,640 --> 00:10:44,675
-<i>Sizin için hafif bir
-seyahat müziği ayarladık.</i>
+<i>Sizin iÃ§in hafif bir
+seyahat mÃ¼ziÄŸi ayarladÄ±k.</i>
 
 107
 00:11:04,373 --> 00:11:07,347
-00 Ay, 02 Gün, 3 Saat, 27 Dakika.
+00 Ay, 02 GÃ¼n, 3 Saat, 27 Dakika.
 
 108
 00:11:07,666 --> 00:11:10,301
-<i>İç kameralar kontrol ediliyor.</i>
+<i>Ä°Ã§ kameralar kontrol ediliyor.</i>
 
 109
 00:11:12,171 --> 00:11:14,772
-<i>Herhalde çok sakindir orası.</i>
+<i>Herhalde Ã§ok sakindir orasÄ±.</i>
 
 110
 00:11:14,797 --> 00:11:17,797
-00 Ay, 02 Gün, 3 Saat, 27 Dakika.
+00 Ay, 02 GÃ¼n, 3 Saat, 27 Dakika.
 
 111
 00:11:25,651 --> 00:11:27,852
-<i>Dış kameralar kontrol ediliyor.</i>
+<i>DÄ±ÅŸ kameralar kontrol ediliyor.</i>
 
 112
 00:11:37,230 --> 00:11:40,598
-Merhaba. Lütfen beni halk
-oylamasında elemeyin.
+Merhaba. LÃ¼tfen beni halk
+oylamasÄ±nda elemeyin.
 
 113
 00:11:40,600 --> 00:11:44,469
-Kamera var. Şu işe bak!
-Reality şov.
+Kamera var. Åu iÅŸe bak!
+Reality ÅŸov.
 
 114
 00:11:44,471 --> 00:11:49,407
 Tamam, Jamie, bu sadece
-sana özel Europa 1 turu.
+sana Ã¶zel Europa 1 turu.
 
 115
 00:11:49,409 --> 00:11:53,311
@@ -538,143 +538,143 @@ Bak sensin Jamie. Selam Jamie.
 
 116
 00:11:53,313 --> 00:11:55,746
-Dan, alt kat sana kaldı
-diye hâlâ üzgün müsün?
+Dan, alt kat sana kaldÄ±
+diye hÃ¢lÃ¢ Ã¼zgÃ¼n mÃ¼sÃ¼n?
 
 117
 00:11:55,748 --> 00:11:58,068
-Onu düşündüğümü nasıl anladın?
-Gerçekten onu düşünüyordum.
+Onu dÃ¼ÅŸÃ¼ndÃ¼ÄŸÃ¼mÃ¼ nasÄ±l anladÄ±n?
+GerÃ§ekten onu dÃ¼ÅŸÃ¼nÃ¼yordum.
 
 118
 00:11:58,088 --> 00:12:00,624
-- Üst kat bin kat daha iyi.
-- Öyle olması lazım zaten.
+- Ãœst kat bin kat daha iyi.
+- Ã–yle olmasÄ± lazÄ±m zaten.
 
 119
 00:12:00,650 --> 00:12:05,173
-Daniel ise aşağıda şöyle; "Çok sıkışık. Çok
-sıkışık." Bir de benim geniş yatağıma bak.
+Daniel ise aÅŸaÄŸÄ±da ÅŸÃ¶yle; "Ã‡ok sÄ±kÄ±ÅŸÄ±k. Ã‡ok
+sÄ±kÄ±ÅŸÄ±k." Bir de benim geniÅŸ yataÄŸÄ±ma bak.
 
 120
 00:12:05,625 --> 00:12:07,658
-- Tutar mısın bir saniye?
+- Tutar mÄ±sÄ±n bir saniye?
 - Tabii.
 
 121
 00:12:07,660 --> 00:12:11,863
-Peki, aslında bu,
-iki canlı köşeden sadece biri.
+Peki, aslÄ±nda bu,
+iki canlÄ± kÃ¶ÅŸeden sadece biri.
 
 122
 00:12:11,865 --> 00:12:15,278
-Yaptıkları şey; çekirdek
-modülünün etrafında...
+YaptÄ±klarÄ± ÅŸey; Ã§ekirdek
+modÃ¼lÃ¼nÃ¼n etrafÄ±nda...
 
 123
 00:12:15,304 --> 00:12:18,336
-...dönerek bize yapay yerçekimi sağlamak.
+...dÃ¶nerek bize yapay yerÃ§ekimi saÄŸlamak.
 
 124
 00:12:18,338 --> 00:12:19,871
-Ama bir de şunu izle.
+Ama bir de ÅŸunu izle.
 
 125
 00:12:19,873 --> 00:12:22,507
-Ayrıca gerçek...
+AyrÄ±ca gerÃ§ek...
 
 126
 00:12:22,509 --> 00:12:27,478
-...yerçekimsiz ortam,
-uzay eğlencesini de tadıyoruz.
+...yerÃ§ekimsiz ortam,
+uzay eÄŸlencesini de tadÄ±yoruz.
 
 127
 00:12:29,215 --> 00:12:31,201
-Tabii beynimize kan da sıçrıyor o ayrı.
+Tabii beynimize kan da sÄ±Ã§rÄ±yor o ayrÄ±.
 
 128
 00:12:31,227 --> 00:12:33,684
-- Bir saat içinde toplantı var.
+- Bir saat iÃ§inde toplantÄ± var.
 - Tamam.
 
 129
 00:12:33,686 --> 00:12:38,556
-Sıfır yerçekiminin olayı; kemiklerimizi
-ve kaslarımızı zayıflatması.
+SÄ±fÄ±r yerÃ§ekiminin olayÄ±; kemiklerimizi
+ve kaslarÄ±mÄ±zÄ± zayÄ±flatmasÄ±.
 
 130
 00:12:38,558 --> 00:12:42,593
-Bu yüzden bu yaşam modüllerinde mümkün
-oldukça fazla zaman harcamaya çalışıyoruz.
+Bu yÃ¼zden bu yaÅŸam modÃ¼llerinde mÃ¼mkÃ¼n
+oldukÃ§a fazla zaman harcamaya Ã§alÄ±ÅŸÄ±yoruz.
 
 131
 00:12:42,595 --> 00:12:45,296
-Evet, fırlat gitsin.
-Tamam, aldım.
+Evet, fÄ±rlat gitsin.
+Tamam, aldÄ±m.
 
 132
 00:12:45,298 --> 00:12:48,766
-Evet. İşte burada da sevgili Katya var.
+Evet. Ä°ÅŸte burada da sevgili Katya var.
 
 133
 00:12:48,768 --> 00:12:51,349
 Bunlar da Europa'da hayat
-olup olmadığını anlamak...
+olup olmadÄ±ÄŸÄ±nÄ± anlamak...
 
 134
 00:12:51,375 --> 00:12:53,638
-...için kullanacağımız bazı
-bilim araç gereçleri.
+...iÃ§in kullanacaÄŸÄ±mÄ±z bazÄ±
+bilim araÃ§ gereÃ§leri.
 
 135
 00:12:53,640 --> 00:12:55,940
-Baban da, bozuldukları zaman
-tamir etmek için burada.
+Baban da, bozulduklarÄ± zaman
+tamir etmek iÃ§in burada.
 
 136
 00:12:55,942 --> 00:12:58,809
 Turistlik oyunun bittiyse buraya
-gelip bana yardım edebilir misin?
+gelip bana yardÄ±m edebilir misin?
 
 137
 00:12:58,811 --> 00:13:01,512
-Tırnağın kırılır diye korkmuyorsan tabii.
+TÄ±rnaÄŸÄ±n kÄ±rÄ±lÄ±r diye korkmuyorsan tabii.
 
 138
 00:13:01,514 --> 00:13:03,948
-Şimdi...
+Åimdi...
 
 139
 00:13:03,950 --> 00:13:08,219
-...burası da kokpit.
-- Görev Kontrol, senkron.
+...burasÄ± da kokpit.
+- GÃ¶rev Kontrol, senkron.
 
 140
 00:13:08,221 --> 00:13:12,924
 - Tamam. Rosa. Senkron tamam.
-- Ve pilotumuz Rosa bizi uçurmaya...
+- Ve pilotumuz Rosa bizi uÃ§urmaya...
 
 141
 00:13:12,926 --> 00:13:15,493
-...başlamadan önce jet uçururdu.
+...baÅŸlamadan Ã¶nce jet uÃ§ururdu.
 
 142
 00:13:15,495 --> 00:13:17,895
-Şimdi mi ne yapıyor?
-Gemide olan her şeyi...
+Åimdi mi ne yapÄ±yor?
+Gemide olan her ÅŸeyi...
 
 143
 00:13:17,897 --> 00:13:22,667
-...gözlemlemeye yarayan kamera sistemini
-kuruyor. Jamie'ye bir gülücük at Rosa.
+...gÃ¶zlemlemeye yarayan kamera sistemini
+kuruyor. Jamie'ye bir gÃ¼lÃ¼cÃ¼k at Rosa.
 
 144
 00:13:24,971 --> 00:13:27,538
-Şimdi, sana göstermek istediğim son şey...
+Åimdi, sana gÃ¶stermek istediÄŸim son ÅŸey...
 
 145
 00:13:27,540 --> 00:13:28,940
-Şuraya bir bak.
+Åuraya bir bak.
 
 146
 00:13:30,375 --> 00:13:32,210
@@ -682,155 +682,155 @@ Manzara.
 
 147
 00:13:33,947 --> 00:13:38,583
-Ne kadar ironik değil mi?
-Burada çok az yer var...
+Ne kadar ironik deÄŸil mi?
+Burada Ã§ok az yer var...
 
 148
 00:13:38,585 --> 00:13:40,952
-...orada ise çok fazla.
+...orada ise Ã§ok fazla.
 
 149
 00:13:46,825 --> 00:13:50,178
-Gemi, Ay'ı geçtiği
-zaman, daha önce...
+Gemi, Ay'Ä± geÃ§tiÄŸi
+zaman, daha Ã¶nce...
 
 150
 00:13:50,204 --> 00:13:53,764
-...hiçbir insanın gitmediği bir
-mesafeye gitmişti bile.
+...hiÃ§bir insanÄ±n gitmediÄŸi bir
+mesafeye gitmiÅŸti bile.
 
 151
 00:13:53,766 --> 00:13:55,700
-Bunu bir düşününce.
+Bunu bir dÃ¼ÅŸÃ¼nÃ¼nce.
 
 152
 00:13:56,802 --> 00:14:02,673
-Koca insanlık tarihi boyunca,
-gidilmiş en uzak yere o anda ulaşılmıştı.
+Koca insanlÄ±k tarihi boyunca,
+gidilmiÅŸ en uzak yere o anda ulaÅŸÄ±lmÄ±ÅŸtÄ±.
 
 153
 00:14:02,675 --> 00:14:05,743
 Ama daha gidecekleri
-kilometrelerce yolları var.
+kilometrelerce yollarÄ± var.
 
 154
 00:14:05,745 --> 00:14:10,881
-Aracımız Jüpiter'in bir ayı olan
-Europa'ya doğru yol alıyor.
+AracÄ±mÄ±z JÃ¼piter'in bir ayÄ± olan
+Europa'ya doÄŸru yol alÄ±yor.
 
 155
 00:14:12,517 --> 00:14:17,655
-Bu görev bir sürü mükemmel kadın ve erkeğin
-fedakarlıkları sayesinde gerçekleşiyor.
+Bu gÃ¶rev bir sÃ¼rÃ¼ mÃ¼kemmel kadÄ±n ve erkeÄŸin
+fedakarlÄ±klarÄ± sayesinde gerÃ§ekleÅŸiyor.
 
 156
 00:14:17,657 --> 00:14:19,657
-Eğer herhangi bir miras bırakacaksak...
+EÄŸer herhangi bir miras bÄ±rakacaksak...
 
 157
 00:14:19,659 --> 00:14:25,435
-Umarım bu miras, bizden sonra gelenlerin;
-keşfetmeleri, sorular sormaları...
+UmarÄ±m bu miras, bizden sonra gelenlerin;
+keÅŸfetmeleri, sorular sormalarÄ±...
 
 158
 00:14:25,461 --> 00:14:29,517
-...sınırları zorlamaları, gerçekten zor
-soruların cevaplarını aramaları...
+...sÄ±nÄ±rlarÄ± zorlamalarÄ±, gerÃ§ekten zor
+sorularÄ±n cevaplarÄ±nÄ± aramalarÄ±...
 
 159
 00:14:29,543 --> 00:14:33,304
-...için ilham kaynağı olmamız olur.
+...iÃ§in ilham kaynaÄŸÄ± olmamÄ±z olur.
 
 160
 00:14:33,306 --> 00:14:35,706
-Kimiz biz? Neden buradayız?
+Kimiz biz? Neden buradayÄ±z?
 
 161
 00:14:35,708 --> 00:14:39,744
 Nereden geldik?
-Ve evrende yalnız mıyız?
+Ve evrende yalnÄ±z mÄ±yÄ±z?
 
 162
 00:14:40,946 --> 00:14:43,814
-Çok uzun bir süre boyunca...
+Ã‡ok uzun bir sÃ¼re boyunca...
 
 163
 00:14:43,816 --> 00:14:47,051
-...Europa sadece katı bir
-buz kütlesi olarak görüldü.
+...Europa sadece katÄ± bir
+buz kÃ¼tlesi olarak gÃ¶rÃ¼ldÃ¼.
 
 164
 00:14:47,053 --> 00:14:51,289
-Ama sadece yüzeyine bakınca
-bile bazı ipuçları görüyoruz.
+Ama sadece yÃ¼zeyine bakÄ±nca
+bile bazÄ± ipuÃ§larÄ± gÃ¶rÃ¼yoruz.
 
 165
 00:14:51,291 --> 00:14:53,824
-Buzun altında su olabileceğine dair.
+Buzun altÄ±nda su olabileceÄŸine dair.
 
 166
 00:14:53,826 --> 00:14:59,480
-Sonra 2011 sonbaharında, bilim
-insanları Europa'da sıvı halde...
+Sonra 2011 sonbaharÄ±nda, bilim
+insanlarÄ± Europa'da sÄ±vÄ± halde...
 
 167
 00:14:59,506 --> 00:15:04,635
-...yüzey altı gölleri olduğuna dair rapor
-yayınladılar. Ve vay canına!
+...yÃ¼zey altÄ± gÃ¶lleri olduÄŸuna dair rapor
+yayÄ±nladÄ±lar. Ve vay canÄ±na!
 
 168
 00:15:04,637 --> 00:15:08,406
-Şu ana kadar nerede su
+Åu ana kadar nerede su
 bulduysak, hayat da bulduk.
 
 169
 00:15:08,408 --> 00:15:12,777
-Ama sonra olan şey
-çok daha şaşırtıcıydı.
+Ama sonra olan ÅŸey
+Ã§ok daha ÅŸaÅŸÄ±rtÄ±cÄ±ydÄ±.
 
 170
 00:15:12,779 --> 00:15:18,683
-NASA, Conamara Kaosu denen bölgenin
-altında ısı izlerine rastladı.
+NASA, Conamara Kaosu denen bÃ¶lgenin
+altÄ±nda Ä±sÄ± izlerine rastladÄ±.
 
 171
 00:15:18,685 --> 00:15:23,695
-Güneş sistemimizde basit tek
-hücreli canlıların bulunmasının...
+GÃ¼neÅŸ sistemimizde basit tek
+hÃ¼creli canlÄ±larÄ±n bulunmasÄ±nÄ±n...
 
 172
 00:15:23,721 --> 00:15:28,459
-...sadece mümkün değil, olası
-olduğunu düşünmeye başladılar.
+...sadece mÃ¼mkÃ¼n deÄŸil, olasÄ±
+olduÄŸunu dÃ¼ÅŸÃ¼nmeye baÅŸladÄ±lar.
 
 173
 00:15:28,461 --> 00:15:31,062
 Europa'ya gidip, buzda
-balık avlamak istiyorum.
+balÄ±k avlamak istiyorum.
 
 174
 00:15:31,064 --> 00:15:34,765
-Buzu kesip, suyun içinde ne
-olduğuna bakmak istiyorum.
+Buzu kesip, suyun iÃ§inde ne
+olduÄŸuna bakmak istiyorum.
 
 175
 00:15:34,767 --> 00:15:38,202
-Kamera lensine doğru yüzerek gelip, lensi
-yalayan şeyin ne olduğun bilmek istiyorum.
+Kamera lensine doÄŸru yÃ¼zerek gelip, lensi
+yalayan ÅŸeyin ne olduÄŸun bilmek istiyorum.
 
 176
 00:15:38,204 --> 00:15:42,188
-Eğer Europa'da hayat
-olduğunu bulursak...
+EÄŸer Europa'da hayat
+olduÄŸunu bulursak...
 
 177
 00:15:42,214 --> 00:15:46,135
-...insanlık tarihindeki en önemli
-keşfi yapmış olacağız.
+...insanlÄ±k tarihindeki en Ã¶nemli
+keÅŸfi yapmÄ±ÅŸ olacaÄŸÄ±z.
 
 178
 00:15:50,982 --> 00:15:53,651
-Dasque'den Görev Kontrole.
+Dasque'den GÃ¶rev Kontrole.
 Tamam.
 
 179
@@ -839,46 +839,46 @@ Duyuyoruz Rosa. Tamam.
 
 180
 00:15:56,989 --> 00:16:00,391
-- Bilgi senkronizasyonu başladı.
-- Nasıl gidiyor?
+- Bilgi senkronizasyonu baÅŸladÄ±.
+- NasÄ±l gidiyor?
 
 181
 00:16:00,393 --> 00:16:03,227
-- Sanırım patates çorbası bu.
-- İçecek bir şey alayım.
+- SanÄ±rÄ±m patates Ã§orbasÄ± bu.
+- Ä°Ã§ecek bir ÅŸey alayÄ±m.
 
 182
 00:16:03,629 --> 00:16:06,364
-Dostum, neden uzay yemeğinin
-içine sarımsak konur ki?
+Dostum, neden uzay yemeÄŸinin
+iÃ§ine sarÄ±msak konur ki?
 
 183
 00:16:06,366 --> 00:16:10,868
-- Çok ağır olmuş. - Çok lezzetli.
-- Ben sadece söylüyorum...
+- Ã‡ok aÄŸÄ±r olmuÅŸ. - Ã‡ok lezzetli.
+- Ben sadece sÃ¶ylÃ¼yorum...
 
 184
 00:16:15,541 --> 00:16:17,875
-Tamam, bakın, bakın.
+Tamam, bakÄ±n, bakÄ±n.
 Daha bir kilometre daha yolum var.
 
 185
 00:16:17,877 --> 00:16:22,380
-- Çok kötü değil.
-- Peki koştuktan sonra?
+- Ã‡ok kÃ¶tÃ¼ deÄŸil.
+- Peki koÅŸtuktan sonra?
 
 186
 00:16:22,382 --> 00:16:26,684
-- Ne zaman birini arayacaksın?
+- Ne zaman birini arayacaksÄ±n?
 - Seni ilgilendirmez.
 
 187
 00:16:28,086 --> 00:16:30,888
-Zamanı geldi.
+ZamanÄ± geldi.
 
 188
 00:16:30,890 --> 00:16:34,759
-Ayrılmadan önce Çince öğrenmeliydim.
+AyrÄ±lmadan Ã¶nce Ã‡ince Ã¶ÄŸrenmeliydim.
 Neden bahsediyorsun?
 
 189
@@ -887,109 +887,109 @@ Bir, iki, bir, iki, bir, iki.
 
 190
 00:16:44,169 --> 00:16:47,571
-- Nasıl hissediyordun? - Ben evet
-dediğimde hâlâ soruyu soruyorlardı.
+- NasÄ±l hissediyordun? - Ben evet
+dediÄŸimde hÃ¢lÃ¢ soruyu soruyorlardÄ±.
 
 191
 00:16:49,542 --> 00:16:52,943
-Ben ancak dördüncü kez
-sorduklarında cevap verebildim.
+Ben ancak dÃ¶rdÃ¼ncÃ¼ kez
+sorduklarÄ±nda cevap verebildim.
 
 192
 00:16:55,047 --> 00:16:57,114
-İletim denetiminde sorun yok.
+Ä°letim denetiminde sorun yok.
 
 193
 00:16:57,116 --> 00:17:00,784
-Motorun valfında bir sızıntı görüyoruz.
-Siz de görüyor musunuz? Tamam.
+Motorun valfÄ±nda bir sÄ±zÄ±ntÄ± gÃ¶rÃ¼yoruz.
+Siz de gÃ¶rÃ¼yor musunuz? Tamam.
 
 194
 00:17:01,186 --> 00:17:06,657
-Andrei şu anda düzeltmeye çalışıyor. Eğer
-daha fazla sızdırırsa manifoldu ayıracağız.
+Andrei ÅŸu anda dÃ¼zeltmeye Ã§alÄ±ÅŸÄ±yor. EÄŸer
+daha fazla sÄ±zdÄ±rÄ±rsa manifoldu ayÄ±racaÄŸÄ±z.
 
 195
 00:17:09,127 --> 00:17:13,431
-Bir de Rosa'nın istasyonunda bazı
-teknik aksaklıklar yaşanıyor.
+Bir de Rosa'nÄ±n istasyonunda bazÄ±
+teknik aksaklÄ±klar yaÅŸanÄ±yor.
 
 196
 00:17:13,433 --> 00:17:16,167
-Görevdeki ekibin incelemesini
-sağlar mısınız? Tamam.
+GÃ¶revdeki ekibin incelemesini
+saÄŸlar mÄ±sÄ±nÄ±z? Tamam.
 
 197
 00:17:18,069 --> 00:17:21,705
 Tamam. Ama biz daha incelemeyi
-yapmadan tamir etmiş olabilirsiniz.
+yapmadan tamir etmiÅŸ olabilirsiniz.
 
 198
 00:17:21,707 --> 00:17:25,176
-Bize sanki sizi geriden takip ediyormuşuz
+Bize sanki sizi geriden takip ediyormuÅŸuz
 gibi hissettiriyorsunuz. Tamam.
 
 199
 00:17:25,178 --> 00:17:28,078
-Utandıracaksın adamı. Tamam.
+UtandÄ±racaksÄ±n adamÄ±. Tamam.
 
 200
 00:17:41,560 --> 00:17:43,461
-Görev Kontrol, beni duyabiliyor musun?
+GÃ¶rev Kontrol, beni duyabiliyor musun?
 
 201
 00:17:44,463 --> 00:17:47,737
-Andrei şu an duşta. Ben de bu
-fırsattan istifade edip...
+Andrei ÅŸu an duÅŸta. Ben de bu
+fÄ±rsattan istifade edip...
 
 202
 00:17:47,763 --> 00:17:50,734
-...duş sisteminizin yetersiz olduğunu
-size söylemek istedim.
+...duÅŸ sisteminizin yetersiz olduÄŸunu
+size sÃ¶ylemek istedim.
 
 203
 00:17:50,736 --> 00:17:54,038
-Ve vücudun yeni hijyen döngüsüne
-alışması teorilerinizi yemiyorum.
+Ve vÃ¼cudun yeni hijyen dÃ¶ngÃ¼sÃ¼ne
+alÄ±ÅŸmasÄ± teorilerinizi yemiyorum.
 
 204
 00:17:54,040 --> 00:17:55,673
-Neye hiç alışamayacağım biliyor musun?
+Neye hiÃ§ alÄ±ÅŸamayacaÄŸÄ±m biliyor musun?
 
 205
 00:17:55,675 --> 00:17:59,944
-- Damıtılmış idrar içmeye.
+- DamÄ±tÄ±lmÄ±ÅŸ idrar iÃ§meye.
 - James.
 
 206
 00:17:59,946 --> 00:18:04,215
-Yani ne bileyim, kokum hakkında
-endişeleniyorsun ama idrarımı içiyorsun?
+Yani ne bileyim, kokum hakkÄ±nda
+endiÅŸeleniyorsun ama idrarÄ±mÄ± iÃ§iyorsun?
 
 207
 00:18:04,217 --> 00:18:06,984
-Aslında niye sinirlendiler
-söyleyeyim mi?
+AslÄ±nda niye sinirlendiler
+sÃ¶yleyeyim mi?
 
 208
 00:18:06,986 --> 00:18:11,155
-Onlara sadece dört kıyafet verdiniz.
-Bazen sabahları uyanınca...
+Onlara sadece dÃ¶rt kÄ±yafet verdiniz.
+Bazen sabahlarÄ± uyanÄ±nca...
 
 209
 00:18:11,157 --> 00:18:14,158
-...tüm gün boyunca aynı kıyafeti
-giyecekleri akıllarına geliyor.
+...tÃ¼m gÃ¼n boyunca aynÄ± kÄ±yafeti
+giyecekleri akÄ±llarÄ±na geliyor.
 
 210
 00:18:15,160 --> 00:18:18,229
-Çok pis sinirleniyorlar.
-Bir de ayakkabılar var tabii.
+Ã‡ok pis sinirleniyorlar.
+Bir de ayakkabÄ±lar var tabii.
 
 211
 00:18:18,231 --> 00:18:23,100
-Kadınlara sadece iki çift ayakkabı
-verdiniz. Benden söylemesi.
+KadÄ±nlara sadece iki Ã§ift ayakkabÄ±
+verdiniz. Benden sÃ¶ylemesi.
 
 212
 00:18:23,102 --> 00:18:25,269
@@ -1008,18 +1008,18 @@ Nerede ki?
 
 215
 00:18:29,075 --> 00:18:31,609
-<i>- Tanrım.
-- Fırında makarnamsı şey kimin?</i>
+<i>- TanrÄ±m.
+- FÄ±rÄ±nda makarnamsÄ± ÅŸey kimin?</i>
 
 216
 00:18:31,611 --> 00:18:33,978
 - Benim olsa gerek.
-- Altıncı aya!
+- AltÄ±ncÄ± aya!
 
 217
 00:18:33,980 --> 00:18:38,082
-- Şerefe. - Şerefe. - Tamam, gözler.
-- Bekle, gözlerime bakmıyorsun.
+- Åerefe. - Åerefe. - Tamam, gÃ¶zler.
+- Bekle, gÃ¶zlerime bakmÄ±yorsun.
 
 218
 00:18:38,084 --> 00:18:39,250
@@ -1027,34 +1027,34 @@ Pardon.
 
 219
 00:18:41,287 --> 00:18:44,221
-- Görebilir miyim?
-- Hiç kutup ayısı gördün mü?
+- GÃ¶rebilir miyim?
+- HiÃ§ kutup ayÄ±sÄ± gÃ¶rdÃ¼n mÃ¼?
 
 220
 00:18:44,223 --> 00:18:46,857
-Pek sayılmaz.
+Pek sayÄ±lmaz.
 
 221
 00:18:51,197 --> 00:18:55,064
-<font color="#ffff80">Astronotlarımızı dünyanın en iyi...</font>
+<font color="#ffff80">AstronotlarÄ±mÄ±zÄ± dÃ¼nyanÄ±n en iyi...</font>
 
 222
 00:18:55,090 --> 00:18:58,569
-<font color="#ffff80">...uzay programlarından seçtik.</font>
+<font color="#ffff80">...uzay programlarÄ±ndan seÃ§tik.</font>
 
 223
 00:18:58,571 --> 00:19:01,238
-<font color="#ffff80">Kaptanımız William Xu.</font>
+<font color="#ffff80">KaptanÄ±mÄ±z William Xu.</font>
 
 224
 00:19:01,240 --> 00:19:03,592
-<font color="#ffff80">Bence bu görev insanlara,
-hâlâ imkansız şeyler...</font>
+<font color="#ffff80">Bence bu gÃ¶rev insanlara,
+hÃ¢lÃ¢ imkansÄ±z ÅŸeyler...</font>
 
 225
 00:19:03,618 --> 00:19:05,643
-<font color="#ffff80">...başarabilme gücümüz
-olduğunu gösterecek.</font>
+<font color="#ffff80">...baÅŸarabilme gÃ¼cÃ¼mÃ¼z
+olduÄŸunu gÃ¶sterecek.</font>
 
 226
 00:19:05,645 --> 00:19:07,211
@@ -1062,13 +1062,13 @@ olduğunu gösterecek.</font>
 
 227
 00:19:07,213 --> 00:19:10,648
-<font color="#ffff80">Çocukluğum dışında tüm hayatımı
-ekstrem çevreleri araştırmaya adadım.</font>
+<font color="#ffff80">Ã‡ocukluÄŸum dÄ±ÅŸÄ±nda tÃ¼m hayatÄ±mÄ±
+ekstrem Ã§evreleri araÅŸtÄ±rmaya adadÄ±m.</font>
 
 228
 00:19:10,650 --> 00:19:14,318
-<font color="#ffff80">Özellikle böyle şeyler yapabilme
-şansı sunduğu için astronot oldum.</font>
+<font color="#ffff80">Ã–zellikle bÃ¶yle ÅŸeyler yapabilme
+ÅŸansÄ± sunduÄŸu iÃ§in astronot oldum.</font>
 
 229
 00:19:14,320 --> 00:19:15,953
@@ -1076,13 +1076,13 @@ ekstrem çevreleri araştırmaya adadım.</font>
 
 230
 00:19:15,955 --> 00:19:18,645
-<font color="#ffff80">Dünyadaki hayat okyanuslarda
-başladı, yani bu görev...</font>
+<font color="#ffff80">DÃ¼nyadaki hayat okyanuslarda
+baÅŸladÄ±, yani bu gÃ¶rev...</font>
 
 231
 00:19:18,671 --> 00:19:21,025
-<font color="#ffff80">...bir bakıma zamanda geriye
-gitmek gibi bir şey.</font>
+<font color="#ffff80">...bir bakÄ±ma zamanda geriye
+gitmek gibi bir ÅŸey.</font>
 
 232
 00:19:21,027 --> 00:19:24,295
@@ -1090,8 +1090,8 @@ gitmek gibi bir şey.</font>
 
 233
 00:19:24,297 --> 00:19:28,265
-<font color="#ffff80">Doğruyu söylemek gerekirse,
-bazen uçmaktan korkuyorum.</font>
+<font color="#ffff80">DoÄŸruyu sÃ¶ylemek gerekirse,
+bazen uÃ§maktan korkuyorum.</font>
 
 234
 00:19:28,267 --> 00:19:29,767
@@ -1099,15 +1099,15 @@ bazen uçmaktan korkuyorum.</font>
 
 235
 00:19:29,769 --> 00:19:34,071
-<font color="#ffff80">Sanırım dış uzayda 349 gün bulundum.</font>
+<font color="#ffff80">SanÄ±rÄ±m dÄ±ÅŸ uzayda 349 gÃ¼n bulundum.</font>
 
 236
 00:19:34,073 --> 00:19:36,240
-<font color="#ffff80">Yani tabiri caizse bir emektarım.</font>
+<font color="#ffff80">Yani tabiri caizse bir emektarÄ±m.</font>
 
 237
 00:19:36,242 --> 00:19:38,809
-<font color="#ffff80">Katlanamayacağım tek şey...</font>
+<font color="#ffff80">KatlanamayacaÄŸÄ±m tek ÅŸey...</font>
 
 238
 00:19:40,779 --> 00:19:43,581
@@ -1120,68 +1120,68 @@ bazen uçmaktan korkuyorum.</font>
 240
 00:19:44,784 --> 00:19:49,753
 <font color="#ffff80">Okulda Neil Armstrong'un Ay'daki
-görüntülerini izlediğimi hatırlıyorum.</font>
+gÃ¶rÃ¼ntÃ¼lerini izlediÄŸimi hatÄ±rlÄ±yorum.</font>
 
 241
 00:19:49,755 --> 00:19:53,123
-<font color="#ffff80">Ve şunu diyordum içimden:
+<font color="#ffff80">Ve ÅŸunu diyordum iÃ§imden:
 "Bunu yapmak istiyorum."</font>
 
 242
 00:19:53,125 --> 00:19:56,594
-<font color="#ffff80"><i>- Rosa Dasque. - Bana isterseniz çocuk,
-isterseniz küstah deyin ama... </i></font>
+<font color="#ffff80"><i>- Rosa Dasque. - Bana isterseniz Ã§ocuk,
+isterseniz kÃ¼stah deyin ama... </i></font>
 
 243
 00:19:56,596 --> 00:20:00,731
-<font color="#ffff80">Ben sadece daha önce hiç kimsenin gitmediği
-kadar hızlı ve uzağa gitmek istiyorum</font>
+<font color="#ffff80">Ben sadece daha Ã¶nce hiÃ§ kimsenin gitmediÄŸi
+kadar hÄ±zlÄ± ve uzaÄŸa gitmek istiyorum</font>
 
 244
 00:20:00,733 --> 00:20:04,602
-<font color="#ffff80">Daha önceki uzay araçlarına benzemeyen
-bir araç tasarlamak zorundaydık.</font>
+<font color="#ffff80">Daha Ã¶nceki uzay araÃ§larÄ±na benzemeyen
+bir araÃ§ tasarlamak zorundaydÄ±k.</font>
 
 245
 00:20:04,604 --> 00:20:10,240
-<font color="#ffff80">Tabii, görevde insanlar da olacak kararı
-alındıktan sonra gereksinimler arttı.</font>
+<font color="#ffff80">Tabii, gÃ¶revde insanlar da olacak kararÄ±
+alÄ±ndÄ±ktan sonra gereksinimler arttÄ±.</font>
 
 246
 00:20:10,242 --> 00:20:13,243
-<font color="#ffff80">İnsanların yiyeceğe, sığınacak
-yere ihtiyaçları vardır.</font>
+<font color="#ffff80">Ä°nsanlarÄ±n yiyeceÄŸe, sÄ±ÄŸÄ±nacak
+yere ihtiyaÃ§larÄ± vardÄ±r.</font>
 
 247
 00:20:13,245 --> 00:20:15,780
-<font color="#ffff80">Onları hayatta tutabilecek
-ve biraz da rahatlık...</font>
+<font color="#ffff80">OnlarÄ± hayatta tutabilecek
+ve biraz da rahatlÄ±k...</font>
 
 248
 00:20:15,806 --> 00:20:18,340
-<font color="#ffff80">...sağlayabilecek bir çevreye
-ihtiyaçları vardır.</font>
+<font color="#ffff80">...saÄŸlayabilecek bir Ã§evreye
+ihtiyaÃ§larÄ± vardÄ±r.</font>
 
 249
 00:20:21,887 --> 00:20:23,621
-<i>Buzu kırıyor.</i>
+<i>Buzu kÄ±rÄ±yor.</i>
 
 250
 00:20:23,646 --> 00:20:25,646
-12 Ay, 27 Gün, 10 Saat, 51 Dakika.
+12 Ay, 27 GÃ¼n, 10 Saat, 51 Dakika.
 
 251
 00:20:37,681 --> 00:20:41,081
-19 Ay, 14 Gün, 16 Saat, 29 Dakika.
+19 Ay, 14 GÃ¼n, 16 Saat, 29 Dakika.
 
 252
 00:20:42,307 --> 00:20:47,144
-<i>Bir ay geçti Andrei.
-Hâlâ iyileşmen hakkında endişelerimiz var.</i>
+<i>Bir ay geÃ§ti Andrei.
+HÃ¢lÃ¢ iyileÅŸmen hakkÄ±nda endiÅŸelerimiz var.</i>
 
 253
 00:20:53,418 --> 00:20:57,287
-Tam olarak nasıl iyileşmeliyim?
+Tam olarak nasÄ±l iyileÅŸmeliyim?
 
 254
 00:21:07,966 --> 00:21:09,733
@@ -1189,21 +1189,21 @@ Affedersin.
 
 255
 00:21:23,782 --> 00:21:25,382
-Ee, ne düşünüyorsun?
+Ee, ne dÃ¼ÅŸÃ¼nÃ¼yorsun?
 
 256
 00:21:28,720 --> 00:21:32,690
-Ben yine de üç hafta boyunca yörüngede
-bir başına kalmasını tavsiye etmem.
+Ben yine de Ã¼Ã§ hafta boyunca yÃ¶rÃ¼ngede
+bir baÅŸÄ±na kalmasÄ±nÄ± tavsiye etmem.
 
 257
 00:21:32,692 --> 00:21:35,726
-Ben de tek mühendisimizi
-geride bırakmak istemem.
+Ben de tek mÃ¼hendisimizi
+geride bÄ±rakmak istemem.
 
 258
 00:21:39,097 --> 00:21:40,731
-Yani onu da aşağıya götürüyoruz?
+Yani onu da aÅŸaÄŸÄ±ya gÃ¶tÃ¼rÃ¼yoruz?
 
 259
 00:21:42,734 --> 00:21:44,268
@@ -1211,112 +1211,112 @@ Evet.
 
 260
 00:21:45,970 --> 00:21:48,205
-<i>Jüpiter.</i>
+<i>JÃ¼piter.</i>
 
 261
 00:21:48,207 --> 00:21:51,275
-<i>Hedefimize bu kadar yakın olmak
-keyfimizi yerine getirmişti.</i>
+<i>Hedefimize bu kadar yakÄ±n olmak
+keyfimizi yerine getirmiÅŸti.</i>
 
 262
 00:21:51,277 --> 00:21:53,844
-<i>Her şeyin tekrardan anlam
-kazanmasını sağladı.</i>
+<i>Her ÅŸeyin tekrardan anlam
+kazanmasÄ±nÄ± saÄŸladÄ±.</i>
 
 263
 00:21:55,146 --> 00:21:57,347
-Havadaki katman dağılmıştı.
+Havadaki katman daÄŸÄ±lmÄ±ÅŸtÄ±.
 
 264
 00:21:59,384 --> 00:22:02,753
-Ama dağıtan şey saf adrenalindi.
+Ama daÄŸÄ±tan ÅŸey saf adrenalindi.
 
 265
 00:22:05,757 --> 00:22:09,727
-<i>Yörünge transferi hazırlıkları.
-Biraz G Kuvveti hissedeceğiz.</i>
+<i>YÃ¶rÃ¼nge transferi hazÄ±rlÄ±klarÄ±.
+Biraz G Kuvveti hissedeceÄŸiz.</i>
 
 266
 00:22:35,852 --> 00:22:38,852
-21 Ay, 16 Gün, 23 Saat, 38 Dakika.
+21 Ay, 16 GÃ¼n, 23 Saat, 38 Dakika.
 
 267
 00:22:59,344 --> 00:23:03,814
-<i>- Rotamızı aşağıya çevirdik.
-- Jüpiter'in yörüngesinden kurtulduk.</i>
+<i>- RotamÄ±zÄ± aÅŸaÄŸÄ±ya Ã§evirdik.
+- JÃ¼piter'in yÃ¶rÃ¼ngesinden kurtulduk.</i>
 
 268
 00:23:03,816 --> 00:23:05,415
-<i>Yörünge transferi başlıyor.</i>
+<i>YÃ¶rÃ¼nge transferi baÅŸlÄ±yor.</i>
 
 269
 00:23:07,218 --> 00:23:08,886
-<i>İnişe başlıyoruz.</i>
+<i>Ä°niÅŸe baÅŸlÄ±yoruz.</i>
 
 270
 00:23:14,425 --> 00:23:18,295
 <i>Daniel, Andrei'yi okumalardaki herhangi
-bir değişimde bilgilendirir misin lütfen?</i>
+bir deÄŸiÅŸimde bilgilendirir misin lÃ¼tfen?</i>
 
 271
 00:23:18,297 --> 00:23:20,898
-<i>- Anlaşıldı.
-- Rotamız açık.</i>
+<i>- AnlaÅŸÄ±ldÄ±.
+- RotamÄ±z aÃ§Ä±k.</i>
 
 272
 00:23:20,900 --> 00:23:23,567
-<i>Şu anki hızımız saniyede 60 kilometre.</i>
+<i>Åu anki hÄ±zÄ±mÄ±z saniyede 60 kilometre.</i>
 
 273
 00:23:24,869 --> 00:23:27,104
-<i>- Hazır mısın?
+<i>- HazÄ±r mÄ±sÄ±n?
 - Evet.</i>
 
 274
 00:23:27,106 --> 00:23:29,439
-<i>Yüzey koşulları nasıl?</i>
+<i>YÃ¼zey koÅŸullarÄ± nasÄ±l?</i>
 
 275
 00:23:29,441 --> 00:23:32,043
-<i>Radyasyon ve ısı değerleri
-testi yapıyorum ama...</i>
+<i>Radyasyon ve Ä±sÄ± deÄŸerleri
+testi yapÄ±yorum ama...</i>
 
 276
 00:23:32,069 --> 00:23:34,812
-<i>...veriler değişkenlik gösteriyor.
-Sıcaklık sürekli değişiyor.</i>
+<i>...veriler deÄŸiÅŸkenlik gÃ¶steriyor.
+SÄ±caklÄ±k sÃ¼rekli deÄŸiÅŸiyor.</i>
 
 277
 00:23:34,814 --> 00:23:36,213
-<i>Az kaldı.</i>
+<i>Az kaldÄ±.</i>
 
 278
 00:23:38,817 --> 00:23:41,985
-<i>Tüm sistemler düzgün bir şekilde çalışıyor.</i>
+<i>TÃ¼m sistemler dÃ¼zgÃ¼n bir ÅŸekilde Ã§alÄ±ÅŸÄ±yor.</i>
 
 279
 00:23:44,355 --> 00:23:46,824
-<i>İniş takımları hazır. İnişe hazırlar.</i>
+<i>Ä°niÅŸ takÄ±mlarÄ± hazÄ±r. Ä°niÅŸe hazÄ±rlar.</i>
 
 280
 00:23:48,359 --> 00:23:51,395
-<i>Bayanlar ve baylar sıkı tutunun.
-İşte başlıyoruz.</i>
+<i>Bayanlar ve baylar sÄ±kÄ± tutunun.
+Ä°ÅŸte baÅŸlÄ±yoruz.</i>
 
 281
 00:23:52,564 --> 00:23:56,934
-<i>- Yörünge ve hız?
-- 270,3'ye çıkıyor.</i>
+<i>- YÃ¶rÃ¼nge ve hÄ±z?
+- 270,3'ye Ã§Ä±kÄ±yor.</i>
 
 282
 00:23:56,936 --> 00:24:01,972
-<i>Thera Macula'ya doğru saniyede
-458,4 metre hızla alçalıyoruz.</i>
+<i>Thera Macula'ya doÄŸru saniyede
+458,4 metre hÄ±zla alÃ§alÄ±yoruz.</i>
 
 283
 00:24:03,007 --> 00:24:06,977
-<i>Hedef bölgeye yaklaşılıyor.
-İniş takımları açıldı.</i>
+<i>Hedef bÃ¶lgeye yaklaÅŸÄ±lÄ±yor.
+Ä°niÅŸ takÄ±mlarÄ± aÃ§Ä±ldÄ±.</i>
 
 284
 00:24:06,979 --> 00:24:08,512
@@ -1324,196 +1324,196 @@ Sıcaklık sürekli değişiyor.</i>
 
 285
 00:24:10,349 --> 00:24:14,051
-- O neydi? - Termal hava akımı.
-Bir tür püskürtme özelliği.
+- O neydi? - Termal hava akÄ±mÄ±.
+Bir tÃ¼r pÃ¼skÃ¼rtme Ã¶zelliÄŸi.
 
 286
 00:24:14,053 --> 00:24:15,586
-- Bizi düzeltebilir misin?
+- Bizi dÃ¼zeltebilir misin?
 - Deniyorum.
 
 287
 00:24:15,588 --> 00:24:17,850
-Andrei, acil iniş için bir
-seçeneğe ihtiyacım var.
+Andrei, acil iniÅŸ iÃ§in bir
+seÃ§eneÄŸe ihtiyacÄ±m var.
 
 288
 00:24:17,876 --> 00:24:19,890
-Hava akımı hedefimizin
-olduğu bölgeden geliyor.
+Hava akÄ±mÄ± hedefimizin
+olduÄŸu bÃ¶lgeden geliyor.
 
 289
 00:24:19,892 --> 00:24:22,960
 Thrace Macula boyunca buzun
-ince olduğu bir alan var.
+ince olduÄŸu bir alan var.
 
 290
 00:24:22,962 --> 00:24:25,095
-Tamam, bizi ağzın olduğu bölgeden çıkar.
+Tamam, bizi aÄŸzÄ±n olduÄŸu bÃ¶lgeden Ã§Ä±kar.
 
 291
 00:24:26,598 --> 00:24:28,932
-- İnişe 100 metre var.
+- Ä°niÅŸe 100 metre var.
 - Durmaya 10 saniye.
 
 292
 00:24:28,934 --> 00:24:31,468
-En dipteki motorları kapat yoksa
-iniş bölgemizi eriteceğiz.
+En dipteki motorlarÄ± kapat yoksa
+iniÅŸ bÃ¶lgemizi eriteceÄŸiz.
 
 293
 00:24:31,470 --> 00:24:33,303
-<i>Anlaşıldı. 10 metre.</i>
+<i>AnlaÅŸÄ±ldÄ±. 10 metre.</i>
 
 294
 00:24:33,305 --> 00:24:36,173
-<i>- Beş metre.
-- Temas ışıkları. - Motorlar kapanıyor.</i>
+<i>- BeÅŸ metre.
+- Temas Ä±ÅŸÄ±klarÄ±. - Motorlar kapanÄ±yor.</i>
 
 295
 00:24:37,175 --> 00:24:38,308
-Sanırım başardık.
+SanÄ±rÄ±m baÅŸardÄ±k.
 
 296
 00:25:31,297 --> 00:25:33,196
-Bir sorun var mı?
+Bir sorun var mÄ±?
 
 297
 00:25:33,198 --> 00:25:36,533
 Pardon.
-Gözlerimi ayıramıyorum.
+GÃ¶zlerimi ayÄ±ramÄ±yorum.
 
 298
 00:25:39,304 --> 00:25:41,138
-İnsanın nefesini kesiyor.
+Ä°nsanÄ±n nefesini kesiyor.
 
 299
 00:25:49,715 --> 00:25:55,319
-O gece dışarı çıktım ve
-gökyüzünde Jüpiter'i buldum.
+O gece dÄ±ÅŸarÄ± Ã§Ä±ktÄ±m ve
+gÃ¶kyÃ¼zÃ¼nde JÃ¼piter'i buldum.
 
 300
 00:25:55,321 --> 00:25:59,623
-Çok uzun bir süre öylece baktım,
+Ã‡ok uzun bir sÃ¼re Ã¶ylece baktÄ±m,
 sadece umut ederek...
 
 301
 00:26:03,848 --> 00:26:06,848
-22 Ay, 00 Gün, 15 Saat, 22 Dakika.
+22 Ay, 00 GÃ¼n, 15 Saat, 22 Dakika.
 
 302
 00:26:12,602 --> 00:26:15,706
-Yüzey sıcaklığı şu an mutlak sıfırda.
+YÃ¼zey sÄ±caklÄ±ÄŸÄ± ÅŸu an mutlak sÄ±fÄ±rda.
 
 303
 00:26:15,708 --> 00:26:19,343
-Ön bilgiler Buz 11'in kaynağında
-olduğumuzu gösteriyor.
+Ã–n bilgiler Buz 11'in kaynaÄŸÄ±nda
+olduÄŸumuzu gÃ¶steriyor.
 
 304
 00:26:19,345 --> 00:26:23,981
-Şurada olmamız gerekirdi
-ama buradayız.
+Åurada olmamÄ±z gerekirdi
+ama buradayÄ±z.
 
 305
 00:26:23,983 --> 00:26:29,286
-590 milyon kilometre uçtuk ama hedefimizden
-100 metre uzakta iniş yaptık.
+590 milyon kilometre uÃ§tuk ama hedefimizden
+100 metre uzakta iniÅŸ yaptÄ±k.
 
 306
 00:26:29,288 --> 00:26:33,623
-Önemsizmiş gibi geliyor kulağa ama yararlı
-bir yüzey analizi yapmamız çok zor olacak.
+Ã–nemsizmiÅŸ gibi geliyor kulaÄŸa ama yararlÄ±
+bir yÃ¼zey analizi yapmamÄ±z Ã§ok zor olacak.
 
 307
 00:26:33,625 --> 00:26:37,119
-Tabii geminin yörüngesini
-saptıran şey, aslında...
+Tabii geminin yÃ¶rÃ¼ngesini
+saptÄ±ran ÅŸey, aslÄ±nda...
 
 308
 00:26:37,145 --> 00:26:40,030
-...olmasını umduğumuz
-şeyin bir teyidiydi.
+...olmasÄ±nÄ± umduÄŸumuz
+ÅŸeyin bir teyidiydi.
 
 309
 00:26:40,032 --> 00:26:43,575
-Buzdaki kırıklardan böyle ısı bulutlarının
-çıkması su altında güçlü...
+Buzdaki kÄ±rÄ±klardan bÃ¶yle Ä±sÄ± bulutlarÄ±nÄ±n
+Ã§Ä±kmasÄ± su altÄ±nda gÃ¼Ã§lÃ¼...
 
 310
 00:26:43,601 --> 00:26:47,170
-...termal aktivitelerin ve yaşam bulunma
-olasılığı olduğunu gösteriyor.
+...termal aktivitelerin ve yaÅŸam bulunma
+olasÄ±lÄ±ÄŸÄ± olduÄŸunu gÃ¶steriyor.
 
 311
 00:26:47,172 --> 00:26:51,927
-Eğer hedeflenen bölgeye inebilselerdi;
-ki bu alan yüzey analizi için oldukça...
+EÄŸer hedeflenen bÃ¶lgeye inebilselerdi;
+ki bu alan yÃ¼zey analizi iÃ§in oldukÃ§a...
 
 312
 00:26:51,953 --> 00:26:56,614
 ...uygundu, geminin robot kolunu kullanarak
-büyük çaplı yüzey testleri yapabilirlerdi.
+bÃ¼yÃ¼k Ã§aplÄ± yÃ¼zey testleri yapabilirlerdi.
 
 313
 00:26:56,616 --> 00:26:59,112
-Sonra da sualtını incelemek
-için, kolla birkaç saatlik delme...
+Sonra da sualtÄ±nÄ± incelemek
+iÃ§in, kolla birkaÃ§ saatlik delme...
 
 314
 00:26:59,138 --> 00:27:01,793
-...işlemi yapıp, uzaktan kontrol
-edilen bir sonda göndereceklerdi.
+...iÅŸlemi yapÄ±p, uzaktan kontrol
+edilen bir sonda gÃ¶ndereceklerdi.
 
 315
 00:27:03,021 --> 00:27:05,122
-Bu görevimizi nasıl etkileyecek?
+Bu gÃ¶revimizi nasÄ±l etkileyecek?
 
 316
 00:27:05,124 --> 00:27:07,624
-Bu istediğimiz verileri öyle
-kolay kolay alamayacağız demek.
+Bu istediÄŸimiz verileri Ã¶yle
+kolay kolay alamayacaÄŸÄ±z demek.
 
 317
 00:27:07,626 --> 00:27:11,109
-İşte bu yüzden Daniel'in yüzey testlerini
-erteleyip hemen delmeye başlamamız...
+Ä°ÅŸte bu yÃ¼zden Daniel'in yÃ¼zey testlerini
+erteleyip hemen delmeye baÅŸlamamÄ±z...
 
 318
 00:27:11,135 --> 00:27:14,231
-...gerektiğini söylüyorum. Başarı için
-en büyük umudumuz buzun altında.
+...gerektiÄŸini sÃ¶ylÃ¼yorum. BaÅŸarÄ± iÃ§in
+en bÃ¼yÃ¼k umudumuz buzun altÄ±nda.
 
 319
 00:27:14,233 --> 00:27:16,133
-Daniel, sen ne düşünüyorsun?
+Daniel, sen ne dÃ¼ÅŸÃ¼nÃ¼yorsun?
 
 320
 00:27:16,135 --> 00:27:18,735
-- Tartışmak istiyorum...
+- TartÄ±ÅŸmak istiyorum...
 - Eminim istiyorsundur.
 
 321
 00:27:18,737 --> 00:27:23,173
-Ama şu an bulunduğumuz yerde
-anahtar verilere ulaşamayız.
+Ama ÅŸu an bulunduÄŸumuz yerde
+anahtar verilere ulaÅŸamayÄ±z.
 
 322
 00:27:23,175 --> 00:27:25,208
-Hadi yüzmeye gidelim.
+Hadi yÃ¼zmeye gidelim.
 
 323
 00:27:39,291 --> 00:27:43,460
-- Matkap ucu kilitlendi ve hazır.
-- Delmeye başlıyor.
+- Matkap ucu kilitlendi ve hazÄ±r.
+- Delmeye baÅŸlÄ±yor.
 
 324
 00:27:43,462 --> 00:27:45,462
-Termal göstergeler çalışıyor.
+Termal gÃ¶stergeler Ã§alÄ±ÅŸÄ±yor.
 
 325
 00:27:47,533 --> 00:27:49,566
-Katmana girmeye başlıyorum.
+Katmana girmeye baÅŸlÄ±yorum.
 
 326
 00:28:07,418 --> 00:28:09,453
@@ -1521,93 +1521,93 @@ Duydun mu?
 
 327
 00:28:16,561 --> 00:28:19,162
-- Verileri görüyor musun?
+- Verileri gÃ¶rÃ¼yor musun?
 - Evet.
 
 328
 00:28:19,164 --> 00:28:21,898
-Sanırım sadece bir buz kaymasıydı.
-Her şey yolunda.
+SanÄ±rÄ±m sadece bir buz kaymasÄ±ydÄ±.
+Her ÅŸey yolunda.
 
 329
 00:28:22,200 --> 00:28:26,135
-Sıcaklık düştükçe daha fazla
+SÄ±caklÄ±k dÃ¼ÅŸtÃ¼kÃ§e daha fazla
 kayma olabilir.
 
 330
 00:28:40,281 --> 00:28:43,181
-22 Ay, 01 Gün, 01 Saat, 07 Dakika.
+22 Ay, 01 GÃ¼n, 01 Saat, 07 Dakika.
 
 331
 00:28:58,837 --> 00:29:00,871
-Bu tahmin ettiğimizden daha güçlüydü.
+Bu tahmin ettiÄŸimizden daha gÃ¼Ã§lÃ¼ydÃ¼.
 
 332
 00:29:00,873 --> 00:29:03,707
 <i>- Stabil miyiz?
-- Tekrar analiz etmeye başlıyorum.</i>
+- Tekrar analiz etmeye baÅŸlÄ±yorum.</i>
 
 333
 00:29:05,143 --> 00:29:07,811
-Katya, bu sarsıntıların
-sıklıklarını kontrol eder misin?
+Katya, bu sarsÄ±ntÄ±larÄ±n
+sÄ±klÄ±klarÄ±nÄ± kontrol eder misin?
 
 334
 00:29:07,813 --> 00:29:09,946
-Sarsıntılardaki artış,
-buzun altındaki ısının...
+SarsÄ±ntÄ±lardaki artÄ±ÅŸ,
+buzun altÄ±ndaki Ä±sÄ±nÄ±n...
 
 335
 00:29:09,972 --> 00:29:12,707
-...düşündüğümüzden daha fazla
-olduğunun göstergesi olabilir.
+...dÃ¼ÅŸÃ¼ndÃ¼ÄŸÃ¼mÃ¼zden daha fazla
+olduÄŸunun gÃ¶stergesi olabilir.
 
 336
 00:29:15,920 --> 00:29:17,888
-- Kaydediyorsun değil mi?
+- Kaydediyorsun deÄŸil mi?
 - Evet.
 
 337
 00:29:25,830 --> 00:29:29,507
-Tamam, ne olduğuna dair fikir yürütmeye
-başlayalım çünkü şiddetinde artış var.
+Tamam, ne olduÄŸuna dair fikir yÃ¼rÃ¼tmeye
+baÅŸlayalÄ±m Ã§Ã¼nkÃ¼ ÅŸiddetinde artÄ±ÅŸ var.
 
 338
 00:29:34,605 --> 00:29:37,340
-Yüzey altı artçı depremleri olabilir...
+YÃ¼zey altÄ± artÃ§Ä± depremleri olabilir...
 
 339
 00:29:46,351 --> 00:29:48,484
-Gördün.
+GÃ¶rdÃ¼n.
 
 340
 00:30:04,369 --> 00:30:07,002
-Şu faaliyetlere bir bakman lazım.
-İnanılmaz bir şey.
+Åu faaliyetlere bir bakman lazÄ±m.
+Ä°nanÄ±lmaz bir ÅŸey.
 
 341
 00:30:07,039 --> 00:30:09,072
-Burada her şey yolunda.
+Burada her ÅŸey yolunda.
 E.C.S. ne durumda?
 
 342
 00:30:10,976 --> 00:30:14,477
-- Sorun yok. Gövde ve iniş takımlarının
-durumu nasıl? - Şunu gördün mü?
+- Sorun yok. GÃ¶vde ve iniÅŸ takÄ±mlarÄ±nÄ±n
+durumu nasÄ±l? - Åunu gÃ¶rdÃ¼n mÃ¼?
 
 343
 00:30:14,479 --> 00:30:17,679
-- Şu faaliyete baksana. İnanılmaz bir şey.
-- Evet, hiç sapma yok. E.C.S. nasıl?
+- Åu faaliyete baksana. Ä°nanÄ±lmaz bir ÅŸey.
+- Evet, hiÃ§ sapma yok. E.C.S. nasÄ±l?
 
 344
 00:30:18,181 --> 00:30:21,585
 E.C.S.'de sorun yok.
-Burada hiçbir sorun yok.
+Burada hiÃ§bir sorun yok.
 
 345
 00:30:21,587 --> 00:30:23,554
-Çocuklar, bir şey gördüm.
+Ã‡ocuklar, bir ÅŸey gÃ¶rdÃ¼m.
 
 346
 00:30:24,356 --> 00:30:26,223
@@ -1615,52 +1615,52 @@ Ne demek istiyorsun?
 
 347
 00:30:30,628 --> 00:30:32,929
-Geminin dışında bir şey gördüm.
+Geminin dÄ±ÅŸÄ±nda bir ÅŸey gÃ¶rdÃ¼m.
 
 348
 00:30:32,931 --> 00:30:37,234
-Yukarıdaki pencereden.
-Yaklaşık 100 metre uzakta.
+YukarÄ±daki pencereden.
+YaklaÅŸÄ±k 100 metre uzakta.
 
 349
 00:30:37,236 --> 00:30:40,003
-Videosunu çekmeye çalıştım ama kaçırdım.
+Videosunu Ã§ekmeye Ã§alÄ±ÅŸtÄ±m ama kaÃ§Ä±rdÄ±m.
 
 350
 00:30:40,005 --> 00:30:42,772
-Lineanın aşağısındaki bir ışıktı.
+LineanÄ±n aÅŸaÄŸÄ±sÄ±ndaki bir Ä±ÅŸÄ±ktÄ±.
 
 351
 00:30:42,774 --> 00:30:45,642
-Buz kaydığında sunuculardan
+Buz kaydÄ±ÄŸÄ±nda sunuculardan
 birini tamir ediyordum.
 
 352
 00:30:45,644 --> 00:30:47,777
-Ve oradaydı.
+Ve oradaydÄ±.
 
 353
 00:30:47,779 --> 00:30:51,481
-- Geminin dışında bir ışık kaynağı mı?
-- Gördüğümü biliyorum.
+- Geminin dÄ±ÅŸÄ±nda bir Ä±ÅŸÄ±k kaynaÄŸÄ± mÄ±?
+- GÃ¶rdÃ¼ÄŸÃ¼mÃ¼ biliyorum.
 
 354
 00:30:51,483 --> 00:30:53,950
 - Titriyordu.
-- Işık ne kadar güçlüydü?
+- IÅŸÄ±k ne kadar gÃ¼Ã§lÃ¼ydÃ¼?
 
 355
 00:30:55,587 --> 00:30:58,989
-Kırılma dışında LED'e benziyordu.
+KÄ±rÄ±lma dÄ±ÅŸÄ±nda LED'e benziyordu.
 
 356
 00:30:58,991 --> 00:31:01,891
-Ama her şey çok hızlı gelişti.
+Ama her ÅŸey Ã§ok hÄ±zlÄ± geliÅŸti.
 
 357
 00:31:01,893 --> 00:31:04,861
-- Bir an için oradaydı arkamı döndüm
-kaybolmuştu. - Hareket mi etti yani?
+- Bir an iÃ§in oradaydÄ± arkamÄ± dÃ¶ndÃ¼m
+kaybolmuÅŸtu. - Hareket mi etti yani?
 
 358
 00:31:04,863 --> 00:31:07,597
@@ -1668,63 +1668,63 @@ Evet, hareket etti.
 
 359
 00:31:07,599 --> 00:31:10,033
-Sıcaklık izlerini kontrol edebilirim.
+SÄ±caklÄ±k izlerini kontrol edebilirim.
 
 360
 00:31:22,046 --> 00:31:24,648
-Bir şey görüyor musun?
+Bir ÅŸey gÃ¶rÃ¼yor musun?
 
 361
 00:31:25,916 --> 00:31:29,019
-Görüntüleri üç defa kontrol ettim.
-Görülecek hiçbir şey yok.
+GÃ¶rÃ¼ntÃ¼leri Ã¼Ã§ defa kontrol ettim.
+GÃ¶rÃ¼lecek hiÃ§bir ÅŸey yok.
 
 362
 00:31:29,021 --> 00:31:31,554
-Evet ama bu orada hiçbir şey
-olmadığı manasına gelmiyor.
+Evet ama bu orada hiÃ§bir ÅŸey
+olmadÄ±ÄŸÄ± manasÄ±na gelmiyor.
 
 363
 00:31:31,580 --> 00:31:33,990
-Eğer ışık çok sönükse bu kameraların
-yakalamasına imkan yok.
+EÄŸer Ä±ÅŸÄ±k Ã§ok sÃ¶nÃ¼kse bu kameralarÄ±n
+yakalamasÄ±na imkan yok.
 
 364
 00:31:33,992 --> 00:31:36,893
-Haklı. Belki zayıf bir kimyasal ışımadır.
+HaklÄ±. Belki zayÄ±f bir kimyasal Ä±ÅŸÄ±madÄ±r.
 
 365
 00:31:36,895 --> 00:31:39,663
-Buzdaki kaymalar yüzünden olmuş olabilir.
+Buzdaki kaymalar yÃ¼zÃ¼nden olmuÅŸ olabilir.
 
 366
 00:31:39,665 --> 00:31:42,065
-Kimyasal ışıma bu tanıma uymuyor.
+Kimyasal Ä±ÅŸÄ±ma bu tanÄ±ma uymuyor.
 
 367
 00:31:42,067 --> 00:31:45,302
-Belki. Yüzey testini
-yaptığımız zaman öğreniriz.
+Belki. YÃ¼zey testini
+yaptÄ±ÄŸÄ±mÄ±z zaman Ã¶ÄŸreniriz.
 
 368
 00:31:45,304 --> 00:31:48,905
-Bence buzun altındaki bir bakteri
-olma olasılığı daha yüksek.
+Bence buzun altÄ±ndaki bir bakteri
+olma olasÄ±lÄ±ÄŸÄ± daha yÃ¼ksek.
 
 369
 00:31:48,907 --> 00:31:52,409
-Radyasyona ışıldayarak tepki
-verebilen bir canlı olabilir.
+Radyasyona Ä±ÅŸÄ±ldayarak tepki
+verebilen bir canlÄ± olabilir.
 
 370
 00:31:52,411 --> 00:31:54,444
-Tamam ama sence gerçekten de
-hareket etmiş midir?
+Tamam ama sence gerÃ§ekten de
+hareket etmiÅŸ midir?
 
 371
 00:31:54,446 --> 00:31:57,613
-Bilimsel olarak şüpheliyim.
-Kişisel olaraksa umuyorum ki etmiştir.
+Bilimsel olarak ÅŸÃ¼pheliyim.
+KiÅŸisel olaraksa umuyorum ki etmiÅŸtir.
 
 372
 00:31:59,315 --> 00:32:02,385
@@ -1737,55 +1737,55 @@ Radyasyondan kaynaklanan parazit.
 
 374
 00:32:07,626 --> 00:32:09,492
-Tüm kameralarda var.
+TÃ¼m kameralarda var.
 
 375
 00:32:13,565 --> 00:32:15,747
-Tamam. Birkaç adım geri gidelim.
+Tamam. BirkaÃ§ adÄ±m geri gidelim.
 Bence bu hikayenin...
 
 376
 00:32:15,773 --> 00:32:18,367
-...göz önünde bulundurmamız gereken
-başka bir versiyonu daha var.
+...gÃ¶z Ã¶nÃ¼nde bulundurmamÄ±z gereken
+baÅŸka bir versiyonu daha var.
 
 377
 00:32:18,369 --> 00:32:20,269
-Belki de Andrei hiçbir
-şey görmemiş olabilir.
+Belki de Andrei hiÃ§bir
+ÅŸey gÃ¶rmemiÅŸ olabilir.
 
 378
 00:32:20,271 --> 00:32:23,840
-Dışarısı çok karanlık ve beyni
-boşlukları dolduruyor olabilir.
+DÄ±ÅŸarÄ±sÄ± Ã§ok karanlÄ±k ve beyni
+boÅŸluklarÄ± dolduruyor olabilir.
 
 379
 00:32:23,842 --> 00:32:28,578
-Belki de bulmak için geldiğimiz
-şeyin ilk belirtisidir.
+Belki de bulmak iÃ§in geldiÄŸimiz
+ÅŸeyin ilk belirtisidir.
 
 380
 00:32:35,753 --> 00:32:38,755
 - Andrei uyudu mu?
-- Hayır.
+- HayÄ±r.
 
 381
 00:32:53,071 --> 00:32:55,472
-O günlerde ortada...
+O gÃ¼nlerde ortada...
 
 382
 00:32:55,474 --> 00:32:57,640
-...bir duygu karmaşası vardı.
+...bir duygu karmaÅŸasÄ± vardÄ±.
 
 383
 00:32:58,876 --> 00:33:01,077
 O kadar yol kat ettik ve
-kat ederken de yıprandık.
+kat ederken de yÄ±prandÄ±k.
 
 384
 00:33:07,017 --> 00:33:12,389
-Bence hepimiz şu anda heyecanın
-havf ile karıştığı bir yerdeyiz.
+Bence hepimiz ÅŸu anda heyecanÄ±n
+havf ile karÄ±ÅŸtÄ±ÄŸÄ± bir yerdeyiz.
 
 385
 00:33:12,391 --> 00:33:13,823
@@ -1793,63 +1793,63 @@ Korkuyla.
 
 386
 00:33:37,025 --> 00:33:39,525
-00 Ay, 03 Gün, 08 Saat, 38 Dakika.
+00 Ay, 03 GÃ¼n, 08 Saat, 38 Dakika.
 
 387
 00:33:39,551 --> 00:33:43,953
-Tamam, Daniel şahit. Orada bir tane
-bile mikrop bulursak ben kazanıyorum.
+Tamam, Daniel ÅŸahit. Orada bir tane
+bile mikrop bulursak ben kazanÄ±yorum.
 
 388
 00:33:43,955 --> 00:33:47,157
-Hâlâ canlı bir mikrop bulursan kazanırsın.
+HÃ¢lÃ¢ canlÄ± bir mikrop bulursan kazanÄ±rsÄ±n.
 
 389
 00:33:47,159 --> 00:33:50,193
-Ne? Bir zamanlar var olmaları bana
-iddiayı kazandırmaya yetmiyor mu?
+Ne? Bir zamanlar var olmalarÄ± bana
+iddiayÄ± kazandÄ±rmaya yetmiyor mu?
 
 390
 00:33:50,195 --> 00:33:53,062
-Her zaman böyle bir teknik ayrıntı çıkar.
+Her zaman bÃ¶yle bir teknik ayrÄ±ntÄ± Ã§Ä±kar.
 
 391
 00:33:53,064 --> 00:33:56,099
-Hayır, hayır, teknik ayrıntı falan değil.
+HayÄ±r, hayÄ±r, teknik ayrÄ±ntÄ± falan deÄŸil.
 
 392
 00:33:56,101 --> 00:33:58,468
-Bir zamanlar evrende yalnız
-olmadığımız manasına geliyor.
+Bir zamanlar evrende yalnÄ±z
+olmadÄ±ÄŸÄ±mÄ±z manasÄ±na geliyor.
 
 393
 00:33:58,470 --> 00:34:02,071
-- Teknik bir ayrıntı işte.
+- Teknik bir ayrÄ±ntÄ± iÅŸte.
 - Daniel. - Ne?
 
 394
 00:34:02,073 --> 00:34:04,374
-- Ne yapıyorsun dostum? Ne oluyor?
-- Bir şey mi kaybettin?
+- Ne yapÄ±yorsun dostum? Ne oluyor?
+- Bir ÅŸey mi kaybettin?
 
 395
 00:34:04,376 --> 00:34:07,210
-- Diş fırçamı kaybettim. - Ne?
-- Tüm bölmesini boşaltıyor.
+- DiÅŸ fÄ±rÃ§amÄ± kaybettim. - Ne?
+- TÃ¼m bÃ¶lmesini boÅŸaltÄ±yor.
 
 396
 00:34:07,212 --> 00:34:09,769
-- Diş fırçanı mı kaybettin?
-- Ne renkti? Koyduğuna emin misin?
+- DiÅŸ fÄ±rÃ§anÄ± mÄ± kaybettin?
+- Ne renkti? KoyduÄŸuna emin misin?
 
 397
 00:34:09,795 --> 00:34:12,443
-- Tamam, diş fırçam nerede?
-- Hemen, Dünya'ya geri dönmemiz gerek.
+- Tamam, diÅŸ fÄ±rÃ§am nerede?
+- Hemen, DÃ¼nya'ya geri dÃ¶nmemiz gerek.
 
 398
 00:34:12,469 --> 00:34:13,824
-Görevliyi çağıralım
+GÃ¶revliyi Ã§aÄŸÄ±ralÄ±m
 en iyisi...
 
 399
@@ -1858,21 +1858,21 @@ Biraz dinlensen iyi olacak.
 
 400
 00:34:18,923 --> 00:34:23,159
-Orada gördüğüm şeyin ne
-olduğunu anlamadan olmaz.
+Orada gÃ¶rdÃ¼ÄŸÃ¼m ÅŸeyin ne
+olduÄŸunu anlamadan olmaz.
 
 401
 00:34:23,161 --> 00:34:25,128
-Araştırıyoruz.
+AraÅŸtÄ±rÄ±yoruz.
 
 402
 00:34:25,130 --> 00:34:27,197
-Bulacağız ne olduğunu.
+BulacaÄŸÄ±z ne olduÄŸunu.
 
 403
 00:34:29,233 --> 00:34:33,036
-Ya kendi gözlerime inanamıyor
-veya güvenemiyorsam?
+Ya kendi gÃ¶zlerime inanamÄ±yor
+veya gÃ¼venemiyorsam?
 
 404
 00:34:37,542 --> 00:34:39,175
@@ -1880,29 +1880,29 @@ Uyuman gerek.
 
 405
 00:34:39,177 --> 00:34:41,244
-Uyumana ihtiyacımız var.
+Uyumana ihtiyacÄ±mÄ±z var.
 
 406
 00:34:42,947 --> 00:34:44,681
-Yatıştırıcı ilaçlar var.
+YatÄ±ÅŸtÄ±rÄ±cÄ± ilaÃ§lar var.
 
 407
 00:34:46,250 --> 00:34:51,187
-İlaç yok. Tetikte olmalıyım.
-Dikkatimin dağılmaması lazım.
+Ä°laÃ§ yok. Tetikte olmalÄ±yÄ±m.
+Dikkatimin daÄŸÄ±lmamasÄ± lazÄ±m.
 
 408
 00:34:53,212 --> 00:34:56,212
-22 Ay, 03 Gün, 00 Saat, 43 Dakika.
+22 Ay, 03 GÃ¼n, 00 Saat, 43 Dakika.
 
 409
 00:35:08,973 --> 00:35:12,509
-- Nasıl gidiyor?
-- Güzel.
+- NasÄ±l gidiyor?
+- GÃ¼zel.
 
 410
 00:35:20,519 --> 00:35:23,286
-Buzu geçtik.
+Buzu geÃ§tik.
 
 411
 00:35:23,288 --> 00:35:25,088
@@ -1910,12 +1910,12 @@ Su.
 
 412
 00:35:34,199 --> 00:35:38,201
-Sondanın mikrofonu açık.
+SondanÄ±n mikrofonu aÃ§Ä±k.
 
 413
 00:35:52,283 --> 00:35:55,685
-Vay canına. Burası daha önce
-hiç el değmemiş bir ortam.
+Vay canÄ±na. BurasÄ± daha Ã¶nce
+hiÃ§ el deÄŸmemiÅŸ bir ortam.
 
 414
 00:35:56,720 --> 00:35:58,288
@@ -1923,61 +1923,61 @@ Sadece bekliyor.
 
 415
 00:36:12,736 --> 00:36:15,004
-Evden çok uzaktayız ama...
+Evden Ã§ok uzaktayÄ±z ama...
 
 416
 00:36:15,006 --> 00:36:17,607
-...şu an Vostok Gölü'ne
-bakıyormuşum gibi hissediyorum.
+...ÅŸu an Vostok GÃ¶lÃ¼'ne
+bakÄ±yormuÅŸum gibi hissediyorum.
 
 417
 00:36:23,347 --> 00:36:26,783
-Radyasyon değerleri normal.
+Radyasyon deÄŸerleri normal.
 
 418
 00:36:26,785 --> 00:36:30,186
-Ve hedef bölgemizin bir yerinde
-kesinlikle bir ısı kaynağı var.
+Ve hedef bÃ¶lgemizin bir yerinde
+kesinlikle bir Ä±sÄ± kaynaÄŸÄ± var.
 
 419
 00:36:37,294 --> 00:36:40,063
-Hava akımının kaynağına 122 metre.
+Hava akÄ±mÄ±nÄ±n kaynaÄŸÄ±na 122 metre.
 
 420
 00:36:41,298 --> 00:36:43,866
-Burada yüzlerce kilometre boyunca su var.
+Burada yÃ¼zlerce kilometre boyunca su var.
 
 421
 00:36:43,868 --> 00:36:46,302
-Dünya'yla su havzası konusunda
-resmen dalga geçiyor.
+DÃ¼nya'yla su havzasÄ± konusunda
+resmen dalga geÃ§iyor.
 
 422
 00:36:46,304 --> 00:36:48,638
-Sanırım şurada tektonik plakalar var.
+SanÄ±rÄ±m ÅŸurada tektonik plakalar var.
 
 423
 00:36:48,640 --> 00:36:51,363
-Sülfür yoğunluğu termal
-ağzın beklediğimizden...
+SÃ¼lfÃ¼r yoÄŸunluÄŸu termal
+aÄŸzÄ±n beklediÄŸimizden...
 
 424
 00:36:51,389 --> 00:36:53,376
-...daha yakında
-olduğunu gösteriyor.
+...daha yakÄ±nda
+olduÄŸunu gÃ¶steriyor.
 
 425
 00:36:53,378 --> 00:36:55,979
-Ürkütücü.
+ÃœrkÃ¼tÃ¼cÃ¼.
 
 426
 00:36:55,981 --> 00:36:59,382
-- Bilimsel değerlendirmen bu mu?
-- Evet. - "Ürkütücü" mü?
+- Bilimsel deÄŸerlendirmen bu mu?
+- Evet. - "ÃœrkÃ¼tÃ¼cÃ¼" mÃ¼?
 
 427
 00:36:59,384 --> 00:37:03,386
-- Şunlar buzlar kırıldığı için mi oluşmuş?
+- Åunlar buzlar kÄ±rÄ±ldÄ±ÄŸÄ± iÃ§in mi oluÅŸmuÅŸ?
 - Belki.
 
 428
@@ -1986,7 +1986,7 @@ Bakteri de olabilir.
 
 429
 00:37:06,757 --> 00:37:09,092
-Örnekler topluyoruz...
+Ã–rnekler topluyoruz...
 
 430
 00:37:09,094 --> 00:37:12,161
@@ -1994,16 +1994,16 @@ Bakteri de olabilir.
 
 431
 00:37:12,163 --> 00:37:14,364
-Hedef bölgeye 20 metre kaldı.
+Hedef bÃ¶lgeye 20 metre kaldÄ±.
 
 432
 00:37:18,335 --> 00:37:21,104
-Buzun güneş ışığını nasıl
-geçirdiğine bir baksana.
+Buzun gÃ¼neÅŸ Ä±ÅŸÄ±ÄŸÄ±nÄ± nasÄ±l
+geÃ§irdiÄŸine bir baksana.
 
 433
 00:37:21,106 --> 00:37:23,072
-Düşündüğümüzden daha ince olmalı.
+DÃ¼ÅŸÃ¼ndÃ¼ÄŸÃ¼mÃ¼zden daha ince olmalÄ±.
 
 434
 00:37:25,944 --> 00:37:27,243
@@ -2011,8 +2011,8 @@ Duydun mu?
 
 435
 00:37:29,413 --> 00:37:34,250
-Derin mağaralardaki akımların
-yankısı olabilir.
+Derin maÄŸaralardaki akÄ±mlarÄ±n
+yankÄ±sÄ± olabilir.
 
 436
 00:37:34,252 --> 00:37:35,785
@@ -2020,17 +2020,17 @@ Bana erkek balina sesi gibi geldi.
 
 437
 00:37:35,787 --> 00:37:39,857
-- Biraz abartı olmadı mı?
+- Biraz abartÄ± olmadÄ± mÄ±?
 - Belki.
 
 438
 00:37:40,759 --> 00:37:43,092
-Buradaki verilerde bazı tutarsızlıklar var.
+Buradaki verilerde bazÄ± tutarsÄ±zlÄ±klar var.
 
 439
 00:37:43,094 --> 00:37:46,996
-- Radyasyon artıyor.
-- Rosa, görüyor musun bu verileri?
+- Radyasyon artÄ±yor.
+- Rosa, gÃ¶rÃ¼yor musun bu verileri?
 
 440
 00:37:46,998 --> 00:37:49,265
@@ -2038,33 +2038,33 @@ Kameralarda da bir sorun var.
 
 441
 00:37:49,267 --> 00:37:51,868
-Son buz kaymasında
-gördüğümüz şeye benziyor.
+Son buz kaymasÄ±nda
+gÃ¶rdÃ¼ÄŸÃ¼mÃ¼z ÅŸeye benziyor.
 
 442
 00:37:53,337 --> 00:37:58,307
-Hiç mantıklı değil. Buzun, sondayı
-radyasyondan koruması gerekirdi.
+HiÃ§ mantÄ±klÄ± deÄŸil. Buzun, sondayÄ±
+radyasyondan korumasÄ± gerekirdi.
 
 443
 00:37:58,309 --> 00:38:02,311
-Yukarıdan gelmiyor. Hedef
-bölgenin altından geliyor.
+YukarÄ±dan gelmiyor. Hedef
+bÃ¶lgenin altÄ±ndan geliyor.
 
 444
 00:38:03,982 --> 00:38:07,850
-- Araştırmak için rotayı ve
-derinliği ayarla. - Aşağıya iniyoruz.
+- AraÅŸtÄ±rmak iÃ§in rotayÄ± ve
+derinliÄŸi ayarla. - AÅŸaÄŸÄ±ya iniyoruz.
 
 445
 00:38:15,092 --> 00:38:18,728
 - O neydi?
-- Şu an sıcaklık kaç derece?
+- Åu an sÄ±caklÄ±k kaÃ§ derece?
 
 446
 00:38:27,938 --> 00:38:31,941
-Sondanın kolunu örnek toplamak
-için açmaya hazır ol.
+SondanÄ±n kolunu Ã¶rnek toplamak
+iÃ§in aÃ§maya hazÄ±r ol.
 
 447
 00:38:31,943 --> 00:38:35,712
@@ -2073,118 +2073,118 @@ Siktir.
 
 448
 00:38:40,984 --> 00:38:44,053
-- Yeniden başlat.
-- Tamam, hadi analize başlayalım.
+- Yeniden baÅŸlat.
+- Tamam, hadi analize baÅŸlayalÄ±m.
 
 449
 00:38:44,055 --> 00:38:47,156
-Akım hızında anormal bir değişim yaşandı.
+AkÄ±m hÄ±zÄ±nda anormal bir deÄŸiÅŸim yaÅŸandÄ±.
 
 450
 00:38:47,158 --> 00:38:49,358
 <i>- Tepki vermiyor.
-- Kontrol mü edemiyorsun?</i>
+- Kontrol mÃ¼ edemiyorsun?</i>
 
 451
 00:38:49,360 --> 00:38:52,261
-- Kontrolünü kaybettim.
+- KontrolÃ¼nÃ¼ kaybettim.
 - Siktir.
 
 452
 00:38:54,032 --> 00:38:55,298
-Videoyu tekrar oynatır mısın?
+Videoyu tekrar oynatÄ±r mÄ±sÄ±n?
 
 453
 00:39:11,249 --> 00:39:13,516
-Sondaya bir şey mi çarptı?
+Sondaya bir ÅŸey mi Ã§arptÄ±?
 
 454
 00:39:13,518 --> 00:39:16,218
 - Elimizde ne gibi veriler var?
-- İşlenmesi biraz zaman alır ama...
+- Ä°ÅŸlenmesi biraz zaman alÄ±r ama...
 
 455
 00:39:16,220 --> 00:39:17,888
-...şimdiden söyleyeyim çok bir şey yok.
+...ÅŸimdiden sÃ¶yleyeyim Ã§ok bir ÅŸey yok.
 
 456
 00:39:18,490 --> 00:39:20,523
-Sondanın direk altında gibiydi.
+SondanÄ±n direk altÄ±nda gibiydi.
 
 457
 00:39:20,525 --> 00:39:22,925
-En son ne zaman veri gönderdi?
+En son ne zaman veri gÃ¶nderdi?
 
 458
 00:39:22,927 --> 00:39:27,396
-Sıcaklık düştü ama bunun kritik bir...
+SÄ±caklÄ±k dÃ¼ÅŸtÃ¼ ama bunun kritik bir...
 
 459
 00:39:37,141 --> 00:39:42,779
-Yüzey yürüyüşü görev planlanırken
-her aşamada tartışıldı.
+YÃ¼zey yÃ¼rÃ¼yÃ¼ÅŸÃ¼ gÃ¶rev planlanÄ±rken
+her aÅŸamada tartÄ±ÅŸÄ±ldÄ±.
 
 460
 00:39:42,781 --> 00:39:46,783
-Ve o zamanki asıl endişemiz
-Jüpiter'den gelen radyasyondu.
+Ve o zamanki asÄ±l endiÅŸemiz
+JÃ¼piter'den gelen radyasyondu.
 
 461
 00:39:46,785 --> 00:39:51,788
-Hedef bölgeye doğru yürürüm ve
-ihtiyacımız olan örnekleri toplarım.
+Hedef bÃ¶lgeye doÄŸru yÃ¼rÃ¼rÃ¼m ve
+ihtiyacÄ±mÄ±z olan Ã¶rnekleri toplarÄ±m.
 
 462
 00:39:51,790 --> 00:39:55,057
 - Katya, sadece radyasyon bile...
-- Radyasyon değerleri sürekli değişiyor.
+- Radyasyon deÄŸerleri sÃ¼rekli deÄŸiÅŸiyor.
 
 463
 00:39:55,059 --> 00:39:58,528
-En son baktığımda 200 ram'dı.
-Bu riski almaya razıyım.
+En son baktÄ±ÄŸÄ±mda 200 ram'dÄ±.
+Bu riski almaya razÄ±yÄ±m.
 
 464
 00:39:58,530 --> 00:40:01,464
-- Ya başka bir şey ters giderse?
+- Ya baÅŸka bir ÅŸey ters giderse?
 - 100 metre ya.
 
 465
 00:40:01,466 --> 00:40:05,063
-Sonda kaybolduğu için istediğimiz veriyi
-elde etmenin tek yolu kaos bölgelerini...
+Sonda kaybolduÄŸu iÃ§in istediÄŸimiz veriyi
+elde etmenin tek yolu kaos bÃ¶lgelerini...
 
 466
 00:40:05,089 --> 00:40:08,437
-...yani buzun çatlayıp, sonra yeniden
-çatladığı bölgeleri keşfetmekten geçiyor.
+...yani buzun Ã§atlayÄ±p, sonra yeniden
+Ã§atladÄ±ÄŸÄ± bÃ¶lgeleri keÅŸfetmekten geÃ§iyor.
 
 467
 00:40:08,439 --> 00:40:10,707
-Bu işlem buzun içinde sıkışmış...
+Bu iÅŸlem buzun iÃ§inde sÄ±kÄ±ÅŸmÄ±ÅŸ...
 
 468
 00:40:10,733 --> 00:40:14,436
-...mikroorganizmaların serbest
-kalmasını sağlıyor.
+...mikroorganizmalarÄ±n serbest
+kalmasÄ±nÄ± saÄŸlÄ±yor.
 
 469
 00:40:14,813 --> 00:40:16,412
-Birinin gitmesi lazım.
+Birinin gitmesi lazÄ±m.
 
 470
 00:40:16,414 --> 00:40:20,216
-- Çok riskli.
+- Ã‡ok riskli.
 - Yeter! Yeter!
 
 471
 00:40:22,363 --> 00:40:25,363
-06 Ay, 16 Gün, 23 Saat, 38 Dakika.
+06 Ay, 16 GÃ¼n, 23 Saat, 38 Dakika.
 
 472
 00:40:25,389 --> 00:40:28,457
-Sanırım çok kritik bir dönemden
-geçiyor ve ben yanında değilim.
+SanÄ±rÄ±m Ã§ok kritik bir dÃ¶nemden
+geÃ§iyor ve ben yanÄ±nda deÄŸilim.
 
 473
 00:40:28,459 --> 00:40:30,459
@@ -2192,7 +2192,7 @@ Ben sadece...
 
 474
 00:40:30,461 --> 00:40:32,929
-Bu kadar zor olacağını tahmin edememiştim.
+Bu kadar zor olacaÄŸÄ±nÄ± tahmin edememiÅŸtim.
 
 475
 00:40:34,498 --> 00:40:37,133
@@ -2200,12 +2200,12 @@ Tamam.
 
 476
 00:40:46,377 --> 00:40:49,111
-Bir maça filan götür istersen.
+Bir maÃ§a filan gÃ¶tÃ¼r istersen.
 
 477
 00:40:52,583 --> 00:40:55,585
-Sizi çok özledim çocuklar.
-Sizi çok seviyorum.
+Sizi Ã§ok Ã¶zledim Ã§ocuklar.
+Sizi Ã§ok seviyorum.
 
 478
 00:40:55,587 --> 00:40:57,320
@@ -2213,29 +2213,29 @@ Tamam.
 
 479
 00:41:00,758 --> 00:41:04,861
-- İyi misin?
+- Ä°yi misin?
 - Evet, iyiyim.
 
 480
 00:41:04,863 --> 00:41:07,096
-İyiyim.
+Ä°yiyim.
 
 481
 00:41:07,098 --> 00:41:08,931
-O kadar da kolay değilmiş, değil mi?
+O kadar da kolay deÄŸilmiÅŸ, deÄŸil mi?
 
 482
 00:41:09,867 --> 00:41:12,034
-Hayır.
+HayÄ±r.
 
 483
 00:41:12,036 --> 00:41:13,269
-Hayır, değilmiş.
+HayÄ±r, deÄŸilmiÅŸ.
 
 484
 00:41:17,207 --> 00:41:20,610
-Çocuklarımı bir daha gördüğümde,
-altı yaşında olacaklar.
+Ã‡ocuklarÄ±mÄ± bir daha gÃ¶rdÃ¼ÄŸÃ¼mde,
+altÄ± yaÅŸÄ±nda olacaklar.
 
 485
 00:41:23,381 --> 00:41:25,248
@@ -2243,46 +2243,46 @@ Seninle gurur duyacaklar.
 
 486
 00:41:30,520 --> 00:41:33,630
-<i>Oraya gittiğin zaman hiçbir
-şey bulamazsan, ne yaparsın?</i>
+<i>Oraya gittiÄŸin zaman hiÃ§bir
+ÅŸey bulamazsan, ne yaparsÄ±n?</i>
 
 487
 00:41:34,926 --> 00:41:38,394
-Hiçbir şey bulamasak bile, yararlı
-bir keşif yapmış oluruz.
+HiÃ§bir ÅŸey bulamasak bile, yararlÄ±
+bir keÅŸif yapmÄ±ÅŸ oluruz.
 
 488
 00:41:38,696 --> 00:41:43,633
-- Çok hayal kırıklığına uğrarım.
-<i>- Orada bir şey olduğunu biliyorum.</i>
+- Ã‡ok hayal kÄ±rÄ±klÄ±ÄŸÄ±na uÄŸrarÄ±m.
+<i>- Orada bir ÅŸey olduÄŸunu biliyorum.</i>
 
 489
 00:41:43,635 --> 00:41:45,935
 <i>3. ve 4. navigasyon
-göstergesini kontrol edin.</i>
+gÃ¶stergesini kontrol edin.</i>
 
 490
 00:41:48,673 --> 00:41:50,907
-Görev Kontrol, tekrar et lütfen. Tamam.
+GÃ¶rev Kontrol, tekrar et lÃ¼tfen. Tamam.
 
 491
 00:41:50,908 --> 00:41:53,308
 <i>- Cevap ver, Europa 1
-- Onları nasıl yenersin, göstereyim mi?</i>
+- OnlarÄ± nasÄ±l yenersin, gÃ¶stereyim mi?</i>
 
 492
 00:41:53,309 --> 00:41:55,648
-William, haberleşme yayınında
-biraz parazit olmaya başladı.
+William, haberleÅŸme yayÄ±nÄ±nda
+biraz parazit olmaya baÅŸladÄ±.
 
 493
 00:41:55,674 --> 00:41:57,679
-Radyasyon dalgası gibi gözüküyor.
+Radyasyon dalgasÄ± gibi gÃ¶zÃ¼kÃ¼yor.
 
 494
 00:41:57,681 --> 00:42:03,185
-<i>- Sistemi yeniden başlatmayı denedin mi?
-- Europa 1. Rosa, yayınınızı kaybettik.</i>
+<i>- Sistemi yeniden baÅŸlatmayÄ± denedin mi?
+- Europa 1. Rosa, yayÄ±nÄ±nÄ±zÄ± kaybettik.</i>
 
 495
 00:42:03,187 --> 00:42:07,256
@@ -2305,82 +2305,82 @@ duyuyor musun...</i>
 
 499
 00:42:42,192 --> 00:42:44,667
-İstediğiniz kadar her
-şeye hazırlıklı olmaya çalışın...
+Ä°stediÄŸiniz kadar her
+ÅŸeye hazÄ±rlÄ±klÄ± olmaya Ã§alÄ±ÅŸÄ±n...
 
 500
 00:42:44,693 --> 00:42:47,221
 ...her zaman bilinmeyen
-bir faktör çıkar.
+bir faktÃ¶r Ã§Ä±kar.
 
 501
 00:42:49,600 --> 00:42:53,264
-Bu durumda ise bir Güneş fırtınası gemiyi
+Bu durumda ise bir GÃ¼neÅŸ fÄ±rtÄ±nasÄ± gemiyi
 vurdu, anahtar sistemlere zarar verdi.
 
 502
 00:42:53,290 --> 00:42:55,596
-Görev Kontrolle haberleşmeyi
-sağlayan sistem de dahil.
+GÃ¶rev Kontrolle haberleÅŸmeyi
+saÄŸlayan sistem de dahil.
 
 503
 00:42:55,621 --> 00:42:57,621
-Hazır mısın?
+HazÄ±r mÄ±sÄ±n?
 
 504
 00:43:00,411 --> 00:43:03,746
-Tamam, oksijen akışı başladı.
+Tamam, oksijen akÄ±ÅŸÄ± baÅŸladÄ±.
 Sorun yok.
 
 505
 00:43:12,990 --> 00:43:15,224
-Bunun modası hiç geçmez.
+Bunun modasÄ± hiÃ§ geÃ§mez.
 
 506
 00:43:16,728 --> 00:43:18,995
-Tamam, çıkıyoruz.
+Tamam, Ã§Ä±kÄ±yoruz.
 
 507
 00:43:21,065 --> 00:43:25,267
-<i>William, gövdeye vardığımızda
-giysilerimizi bir kez daha bağlayacağım.</i>
+<i>William, gÃ¶vdeye vardÄ±ÄŸÄ±mÄ±zda
+giysilerimizi bir kez daha baÄŸlayacaÄŸÄ±m.</i>
 
 508
 00:43:25,269 --> 00:43:27,069
-<i>Anlaşıldı.</i>
+<i>AnlaÅŸÄ±ldÄ±.</i>
 
 509
 00:43:27,071 --> 00:43:31,340
 <i>Andrei ve James'in sistemi tamir etmek
-için uzay yürüyüşü yapması gerekiyordu.</i>
+iÃ§in uzay yÃ¼rÃ¼yÃ¼ÅŸÃ¼ yapmasÄ± gerekiyordu.</i>
 
 510
 00:43:31,342 --> 00:43:34,084
-<i>Bir bakıma saatte 200 bin
-kilometre hızla giderken, aynı anda...</i>
+<i>Bir bakÄ±ma saatte 200 bin
+kilometre hÄ±zla giderken, aynÄ± anda...</i>
 
 511
 00:43:34,110 --> 00:43:36,679
-<i>...bale ve roket mühendisliği
-yapmak gibi bir şey.</i>
+<i>...bale ve roket mÃ¼hendisliÄŸi
+yapmak gibi bir ÅŸey.</i>
 
 512
 00:43:36,681 --> 00:43:40,649
-Aynı Uzay İstasyonundaki motor
+AynÄ± Uzay Ä°stasyonundaki motor
 tamiri gibi.
 
 513
 00:43:40,651 --> 00:43:43,753
-<i>5 saat, 13 dakikanız kaldı
-yürüyüşün bitmesine.</i>
+<i>5 saat, 13 dakikanÄ±z kaldÄ±
+yÃ¼rÃ¼yÃ¼ÅŸÃ¼n bitmesine.</i>
 
 514
 00:43:43,755 --> 00:43:47,123
-Şu an Dünya'da saat kaç biliyor musun?
+Åu an DÃ¼nya'da saat kaÃ§ biliyor musun?
 
 515
 00:43:47,125 --> 00:43:50,493
-Batarya bloğu D çalışamaz halde.
+Batarya bloÄŸu D Ã§alÄ±ÅŸamaz halde.
 
 516
 00:43:52,763 --> 00:43:54,697
@@ -2388,63 +2388,63 @@ Batarya bloğu D çalışamaz halde.
 
 517
 00:43:56,133 --> 00:44:00,136
-Tamam, havalandırmada düzelme var.
-Haberleşme bataryasında durum nasıl?
+Tamam, havalandÄ±rmada dÃ¼zelme var.
+HaberleÅŸme bataryasÄ±nda durum nasÄ±l?
 
 518
 00:44:00,138 --> 00:44:03,806
 Ben de adama dedim ki;
-oraya gelip, istediğin kadar kalamam ki...
+oraya gelip, istediÄŸin kadar kalamam ki...
 
 519
 00:44:03,808 --> 00:44:05,674
-...bana ne kadar süreceğini söylemen gerek.
+...bana ne kadar sÃ¼receÄŸini sÃ¶ylemen gerek.
 
 520
 00:44:05,676 --> 00:44:10,813
-Tamam, çocuklar sadece 50 dakikanız kaldı.
+Tamam, Ã§ocuklar sadece 50 dakikanÄ±z kaldÄ±.
 Sizi orada daha fazla tutamam.
 
 521
 00:44:10,815 --> 00:44:15,251
-Birden altıya kadar olan panellerde
-sorun yok. Yedinciye doğru gidiyorum.
+Birden altÄ±ya kadar olan panellerde
+sorun yok. Yedinciye doÄŸru gidiyorum.
 
 522
 00:44:16,787 --> 00:44:18,621
-<i>Biraz daha zamana ihtiyacımız var William.</i>
+<i>Biraz daha zamana ihtiyacÄ±mÄ±z var William.</i>
 
 523
 00:44:18,623 --> 00:44:21,557
-<i>Sanırım haberleşme panelindeki bir
-sigortanın yanmasından kaynaklanıyor.</i>
+<i>SanÄ±rÄ±m haberleÅŸme panelindeki bir
+sigortanÄ±n yanmasÄ±ndan kaynaklanÄ±yor.</i>
 
 524
 00:44:21,559 --> 00:44:25,561
-<i>37 dakikanız var. Eğer sorunu
-bulamazsanız geri döneceksiniz.</i>
+<i>37 dakikanÄ±z var. EÄŸer sorunu
+bulamazsanÄ±z geri dÃ¶neceksiniz.</i>
 
 525
 00:44:25,563 --> 00:44:30,199
-<i>Tamam, haberleşme paneline geldik.
-Kapağı açıyoruz.
+<i>Tamam, haberleÅŸme paneline geldik.
+KapaÄŸÄ± aÃ§Ä±yoruz.
 
 526
 00:44:34,071 --> 00:44:37,706
 - Ne buldun Andrei?
-- James, şuna bir baksana.
+- James, ÅŸuna bir baksana.
 
 527
 00:44:39,343 --> 00:44:40,810
-Reseptörler yanmış.
+ReseptÃ¶rler yanmÄ±ÅŸ.
 
 528
 00:44:40,812 --> 00:44:44,180
-Evet, William, tüm panel yanmış.
+Evet, William, tÃ¼m panel yanmÄ±ÅŸ.
 
 529
 00:44:44,182 --> 00:44:45,581
-Vidaları çıkarmam gerek.
+VidalarÄ± Ã§Ä±karmam gerek.
 
 530
 00:44:45,583 --> 00:44:47,783
@@ -2452,49 +2452,49 @@ Peki.
 
 531
 00:44:51,321 --> 00:44:52,555
-İlk vidayı çıkartıyorum.
+Ä°lk vidayÄ± Ã§Ä±kartÄ±yorum.
 
 532
 00:44:53,757 --> 00:44:56,659
 Hadi ama.
-Ve ilk vida çıktı.
+Ve ilk vida Ã§Ä±ktÄ±.
 
 533
 00:44:56,661 --> 00:45:00,729
-- İkinci vidaya geçiyorum.
+- Ä°kinci vidaya geÃ§iyorum.
 - Devam et.
 
 534
 00:45:01,665 --> 00:45:05,234
-Hadi ama. Hay sıçayım.
+Hadi ama. Hay sÄ±Ã§ayÄ±m.
 
 535
 00:45:05,236 --> 00:45:06,669
-Çıkmıyor.
+Ã‡Ä±kmÄ±yor.
 
 536
 00:45:07,737 --> 00:45:13,476
-- William, donmuş bir vida var. - Tamam,
-çocuklar. O paneli şimdilik boş verin.
+- William, donmuÅŸ bir vida var. - Tamam,
+Ã§ocuklar. O paneli ÅŸimdilik boÅŸ verin.
 
 537
 00:45:13,778 --> 00:45:15,744
-Ne düşünüyorsun?
+Ne dÃ¼ÅŸÃ¼nÃ¼yorsun?
 
 538
 00:45:15,746 --> 00:45:18,848
-İçine girene kadar durumun ne
-kadar kötü olduğunu söyleyemeyiz.
+Ä°Ã§ine girene kadar durumun ne
+kadar kÃ¶tÃ¼ olduÄŸunu sÃ¶yleyemeyiz.
 
 539
 00:45:20,817 --> 00:45:22,851
 Emin misin dostum?
-Önce ısıtsak daha iyi olmaz mı?
+Ã–nce Ä±sÄ±tsak daha iyi olmaz mÄ±?
 
 540
 00:45:22,853 --> 00:45:24,753
 - Sanki...
-- Hasar yayılabilir.
+- Hasar yayÄ±labilir.
 
 541
 00:45:27,758 --> 00:45:30,826
@@ -2503,12 +2503,12 @@ Emin misin dostum?
 
 542
 00:45:34,297 --> 00:45:37,566
-Tamam. Hazırım.
+Tamam. HazÄ±rÄ±m.
 Hadi.
 
 543
 00:45:37,568 --> 00:45:39,902
-Koyayım!
+KoyayÄ±m!
 Koptu.
 
 544
@@ -2517,7 +2517,7 @@ Panel koptu.
 
 545
 00:45:42,306 --> 00:45:45,241
-Eldivenimi yırttım.
+Eldivenimi yÄ±rttÄ±m.
 
 546
 00:45:45,243 --> 00:45:46,342
@@ -2529,48 +2529,48 @@ Eldivenimi...
 
 548
 00:45:49,213 --> 00:45:51,814
-<i>- Birbirimize bağlıyız.
-- İki santim derine inmiş. Derimi kestim.</i>
+<i>- Birbirimize baÄŸlÄ±yÄ±z.
+- Ä°ki santim derine inmiÅŸ. Derimi kestim.</i>
 
 549
 00:45:51,815 --> 00:45:53,815
-- Andrei'yi kendime bağladım.
-- İçeri geliyoruz.
+- Andrei'yi kendime baÄŸladÄ±m.
+- Ä°Ã§eri geliyoruz.
 
 550
 00:45:53,816 --> 00:45:57,118
-Andrei, sakın kapağa tek başına
-geri dönmeye çalışma. James?
+Andrei, sakÄ±n kapaÄŸa tek baÅŸÄ±na
+geri dÃ¶nmeye Ã§alÄ±ÅŸma. James?
 
 551
 00:45:57,121 --> 00:45:59,622
-Görüyorum. Tamam.
-Yanına gidiyorum. Dayan biraz.
+GÃ¶rÃ¼yorum. Tamam.
+YanÄ±na gidiyorum. Dayan biraz.
 
 552
 00:45:59,924 --> 00:46:03,926
-- Ufak bir yırtık. - Sakin ol.
-<i>Sakin ol koca oğlan. - Sakin ol, Andrei.</i>
+- Ufak bir yÄ±rtÄ±k. - Sakin ol.
+<i>Sakin ol koca oÄŸlan. - Sakin ol, Andrei.</i>
 
 553
 00:46:03,928 --> 00:46:05,794
 <i>- Kan kaybediyorum.
-- Oksijenini boşa harcama.</i>
+- Oksijenini boÅŸa harcama.</i>
 
 554
 00:46:05,796 --> 00:46:08,864
 Hava kaybediyor ama
-eli yırtığın üstünde.
+eli yÄ±rtÄ±ÄŸÄ±n Ã¼stÃ¼nde.
 
 555
 00:46:08,866 --> 00:46:11,834
-<i>İçeri getiriyorum.
-Tamamdır.</i>
+<i>Ä°Ã§eri getiriyorum.
+TamamdÄ±r.</i>
 
 556
 00:46:11,836 --> 00:46:15,237
-- Hadi yavaşça, rahatla koca oğlan.
-- Oksijen değerleri düşüyor.
+- Hadi yavaÅŸÃ§a, rahatla koca oÄŸlan.
+- Oksijen deÄŸerleri dÃ¼ÅŸÃ¼yor.
 
 557
 00:46:15,239 --> 00:46:17,339
@@ -2578,8 +2578,8 @@ Fazla vaktiniz yok.
 
 558
 00:46:25,649 --> 00:46:28,951
-<i>James, beni dinle. Oksijen değeri
-tehlikeli seviyeye ulaştı.</i>
+<i>James, beni dinle. Oksijen deÄŸeri
+tehlikeli seviyeye ulaÅŸtÄ±.</i>
 
 559
 00:46:28,953 --> 00:46:31,187
@@ -2591,17 +2591,17 @@ Tamam.
 
 561
 00:46:35,325 --> 00:46:38,527
-Kapağa geldik.
-İçeri giriyoruz.
+KapaÄŸa geldik.
+Ä°Ã§eri giriyoruz.
 
 562
 00:46:38,529 --> 00:46:39,895
-Bekle, içeri girme.
+Bekle, iÃ§eri girme.
 
 563
 00:46:39,897 --> 00:46:43,899
 - Neden?
-- Kıyafetinde bir şey var.
+- KÄ±yafetinde bir ÅŸey var.
 
 564
 00:46:43,901 --> 00:46:45,834
@@ -2609,26 +2609,26 @@ Hidrazin.
 
 565
 00:46:45,836 --> 00:46:49,271
-Çocuklar, bir sorunumuz var.
+Ã‡ocuklar, bir sorunumuz var.
 
 566
 00:46:49,273 --> 00:46:53,642
-Kıyafetime hidrazin bulaşmış.
-Panel koptuğu sırada sıçradı herhalde.
+KÄ±yafetime hidrazin bulaÅŸmÄ±ÅŸ.
+Panel koptuÄŸu sÄ±rada sÄ±Ã§radÄ± herhalde.
 
 567
 00:46:53,644 --> 00:46:56,979
-- Her tarafında var.
+- Her tarafÄ±nda var.
 - Her yerimde var. Her yerimde.
 
 568
 00:46:56,981 --> 00:47:00,349
-- Temizlemek için ne yapabiliriz?
-- Hiçbir şey.
+- Temizlemek iÃ§in ne yapabiliriz?
+- HiÃ§bir ÅŸey.
 
 569
 00:47:00,351 --> 00:47:03,219
-Eğer onu içeriye alırsak,
+EÄŸer onu iÃ§eriye alÄ±rsak,
 gemideki hava zehirlenir.
 
 570
@@ -2638,18 +2638,18 @@ Siktir.
 
 571
 00:47:05,489 --> 00:47:07,553
-Onu bölmeye alıp, VCAM
-taraması yapmalıyız.
+Onu bÃ¶lmeye alÄ±p, VCAM
+taramasÄ± yapmalÄ±yÄ±z.
 
 572
 00:47:07,579 --> 00:47:09,758
-Yapamayız. Etrafa
-bulaşma riski çok fazla.
+YapamayÄ±z. Etrafa
+bulaÅŸma riski Ã§ok fazla.
 
 573
 00:47:09,760 --> 00:47:13,596
-Kıyafeti temizlemek için bir
-yol bulmalıyız. Çıkmıyor.
+KÄ±yafeti temizlemek iÃ§in bir
+yol bulmalÄ±yÄ±z. Ã‡Ä±kmÄ±yor.
 
 574
 00:47:13,598 --> 00:47:14,863
@@ -2657,65 +2657,65 @@ Bittim ben.
 
 575
 00:47:14,865 --> 00:47:17,766
-Andrei, içeri gir. Kıyafetindeki
-basıncı hemen azaltmamız lazım.
+Andrei, iÃ§eri gir. KÄ±yafetindeki
+basÄ±ncÄ± hemen azaltmamÄ±z lazÄ±m.
 
 576
 00:47:17,768 --> 00:47:20,836
-- Sonra da James'i içeri nasıl
-alacağımızı buluruz. - Ciddi misin?
+- Sonra da James'i iÃ§eri nasÄ±l
+alacaÄŸÄ±mÄ±zÄ± buluruz. - Ciddi misin?
 
 577
 00:47:20,838 --> 00:47:23,739
 Hadi ama dostum, 20
-dakikalık oksijenim kaldı.
+dakikalÄ±k oksijenim kaldÄ±.
 
 578
 00:47:23,741 --> 00:47:25,708
-Kıyafeti temizlemenin bir yolu yok mu?
+KÄ±yafeti temizlemenin bir yolu yok mu?
 
 579
 00:47:28,379 --> 00:47:30,846
 - Andrei.
-- İçeri girmiyorum.
+- Ä°Ã§eri girmiyorum.
 
 580
 00:47:30,848 --> 00:47:32,381
-Seni o kıyafetten çıkaracağım...
+Seni o kÄ±yafetten Ã§Ä±karacaÄŸÄ±m...
 
 581
 00:47:32,383 --> 00:47:34,350
 <i>- Ne?
-- ...ve bölmeye atacağım.</i>
+- ...ve bÃ¶lmeye atacaÄŸÄ±m.</i>
 
 582
 00:47:34,352 --> 00:47:36,252
-Kıyafetin dışında sadece
-iki dakika duracaksın.
+KÄ±yafetin dÄ±ÅŸÄ±nda sadece
+iki dakika duracaksÄ±n.
 
 583
 00:47:36,254 --> 00:47:38,520
-<i>- Başarabilirsin.
-- Mümkün mü böyle bir şey?</i>
+<i>- BaÅŸarabilirsin.
+- MÃ¼mkÃ¼n mÃ¼ bÃ¶yle bir ÅŸey?</i>
 
 584
 00:47:38,522 --> 00:47:42,291
-- Seni kıyafetten çıkaracağım. Düzelteceğim
-bu işi. - Hayır. Andrei, bayılmak üzeresin.
+- Seni kÄ±yafetten Ã§Ä±karacaÄŸÄ±m. DÃ¼zelteceÄŸim
+bu iÅŸi. - HayÄ±r. Andrei, bayÄ±lmak Ã¼zeresin.
 
 585
 00:47:42,293 --> 00:47:43,959
-<i>- Hayır, değilim.
-- Bu işe yaramayacak.</i>
+<i>- HayÄ±r, deÄŸilim.
+- Bu iÅŸe yaramayacak.</i>
 
 586
 00:47:43,961 --> 00:47:48,664
-<i>- İkisini de kaybedeceğiz.
-- James, Andrei bayılmak üzere.</i>
+<i>- Ä°kisini de kaybedeceÄŸiz.
+- James, Andrei bayÄ±lmak Ã¼zere.</i>
 
 587
 00:47:48,666 --> 00:47:49,932
-<i>Onu bölmeye sokmak zorundasın.</i>
+<i>Onu bÃ¶lmeye sokmak zorundasÄ±n.</i>
 
 588
 00:47:56,507 --> 00:47:58,307
@@ -2724,11 +2724,11 @@ Siktir.
 
 589
 00:47:59,909 --> 00:48:01,777
-<i>Rosa, hemen kapağı kapa.</i>
+<i>Rosa, hemen kapaÄŸÄ± kapa.</i>
 
 590
 00:48:01,779 --> 00:48:04,046
-James'in gemiyle hiçbir bağı yok.
+James'in gemiyle hiÃ§bir baÄŸÄ± yok.
 
 591
 00:48:04,048 --> 00:48:06,315
@@ -2737,22 +2737,22 @@ James'in gemiyle hiçbir bağı yok.
 
 592
 00:48:11,689 --> 00:48:13,922
-<i>Kapak kapandı.</i>
+<i>Kapak kapandÄ±.</i>
 
 593
 00:48:13,924 --> 00:48:17,059
-Oksijen verilmeye başlandı.
-On dakika içinde basınç normale dönecek.
+Oksijen verilmeye baÅŸlandÄ±.
+On dakika iÃ§inde basÄ±nÃ§ normale dÃ¶necek.
 
 594
 00:48:17,061 --> 00:48:19,428
 Delilik bu.
-Onu kurtarmanız lazım.
+Onu kurtarmanÄ±z lazÄ±m.
 
 595
 00:48:19,430 --> 00:48:23,299
-Kurtaramayız.
-Yanına vardığımız zaman çoktan...
+KurtaramayÄ±z.
+YanÄ±na vardÄ±ÄŸÄ±mÄ±z zaman Ã§oktan...
 
 596
 00:48:26,936 --> 00:48:28,470
@@ -2761,11 +2761,11 @@ James?
 597
 00:48:29,506 --> 00:48:32,308
 Evet. Evet.
-Buradayım.
+BuradayÄ±m.
 
 598
 00:48:33,076 --> 00:48:34,943
-Tanrım. Ben...
+TanrÄ±m. Ben...
 
 599
 00:48:34,945 --> 00:48:38,080
@@ -2785,33 +2785,33 @@ Andrei iyi mi?
 
 603
 00:48:50,593 --> 00:48:51,927
-<i>Üzgünüm James.</i>
+<i>ÃœzgÃ¼nÃ¼m James.</i>
 
 604
 00:48:54,964 --> 00:48:56,965
-Üzülme.
+ÃœzÃ¼lme.
 
 605
 00:48:58,668 --> 00:49:00,569
-Yani, bir kazaydı.
+Yani, bir kazaydÄ±.
 
 606
 00:49:05,475 --> 00:49:10,112
-Çok vaktim yok.
-Andrei'ye söyle...
+Ã‡ok vaktim yok.
+Andrei'ye sÃ¶yle...
 
 607
 00:49:12,949 --> 00:49:15,017
-Söyle Andrei'ye...
+SÃ¶yle Andrei'ye...
 
 608
 00:49:15,019 --> 00:49:17,486
-Tam bir orospu çocuğunun teki.
+Tam bir orospu Ã§ocuÄŸunun teki.
 
 609
 00:49:17,488 --> 00:49:19,788
-<i>Ve hayatımı kurtarmaya çalıştığı
-için onu seviyorum...</i>
+<i>Ve hayatÄ±mÄ± kurtarmaya Ã§alÄ±ÅŸtÄ±ÄŸÄ±
+iÃ§in onu seviyorum...</i>
 
 610
 00:49:23,827 --> 00:49:27,062
@@ -2819,7 +2819,7 @@ Deb ve Jamie, sizi...
 
 611
 00:49:28,531 --> 00:49:30,366
-Sizi çok seviyorum.
+Sizi Ã§ok seviyorum.
 
 612
 00:49:35,004 --> 00:49:36,472
@@ -2827,40 +2827,40 @@ Sizi çok seviyorum.
 
 613
 00:49:39,609 --> 00:49:42,945
-İnsanlık için harika bir
-şey yaptığımı sanmıştım.
+Ä°nsanlÄ±k iÃ§in harika bir
+ÅŸey yaptÄ±ÄŸÄ±mÄ± sanmÄ±ÅŸtÄ±m.
 
 614
 00:49:46,716 --> 00:49:49,485
 Her zaman, bu riski almaya
-değer dedim ama...
+deÄŸer dedim ama...
 
 615
 00:50:01,097 --> 00:50:04,166
-Sizi incittiğim için beni affedin.
+Sizi incittiÄŸim iÃ§in beni affedin.
 
 616
 00:50:12,041 --> 00:50:16,412
-Bir parçam keşke burada sonsuza
-kadar süzülebilsem diyor.
+Bir parÃ§am keÅŸke burada sonsuza
+kadar sÃ¼zÃ¼lebilsem diyor.
 
 617
 00:50:23,052 --> 00:50:26,054
-<i>Göremiyorum...
-Hiçbir şey göremiyorum...</i>
+<i>GÃ¶remiyorum...
+HiÃ§bir ÅŸey gÃ¶remiyorum...</i>
 
 618
 00:50:26,056 --> 00:50:28,157
-Hiçbir şey göremiyorum.
+HiÃ§bir ÅŸey gÃ¶remiyorum.
 
 619
 00:51:26,517 --> 00:51:28,750
-Bu şekilde tartışmak çok saçma.
+Bu ÅŸekilde tartÄ±ÅŸmak Ã§ok saÃ§ma.
 
 620
 00:51:30,220 --> 00:51:33,755
-Katya, biz seni desteklemediğimiz
-sürece oraya gitmen imkansız.
+Katya, biz seni desteklemediÄŸimiz
+sÃ¼rece oraya gitmen imkansÄ±z.
 
 621
 00:51:35,191 --> 00:51:38,026
@@ -2868,12 +2868,12 @@ Ve William, kusura bakma ama...
 
 622
 00:51:38,028 --> 00:51:41,797
-...bence bu işi nasıl yapacağımıza
+...bence bu iÅŸi nasÄ±l yapacaÄŸÄ±mÄ±za
 hep beraber karar vermeliyiz.
 
 623
 00:51:45,502 --> 00:51:47,202
-Senin ne düşündüğünü biliyorum William.
+Senin ne dÃ¼ÅŸÃ¼ndÃ¼ÄŸÃ¼nÃ¼ biliyorum William.
 
 624
 00:51:48,805 --> 00:51:50,172
@@ -2881,49 +2881,49 @@ Peki sen Daniel?
 
 625
 00:51:51,741 --> 00:51:53,675
-Çok sakıncalı.
+Ã‡ok sakÄ±ncalÄ±.
 
 626
 00:51:53,677 --> 00:51:56,445
-Yüzey yürüyüşü konusunda kafalarda
-her zaman soru işaretleri vardı.
+YÃ¼zey yÃ¼rÃ¼yÃ¼ÅŸÃ¼ konusunda kafalarda
+her zaman soru iÅŸaretleri vardÄ±.
 
 627
 00:51:56,447 --> 00:52:00,649
-Başarabiliriz. Ben ekipmanı dışarıya
-taşırım sen de buradan analiz edersin.
+BaÅŸarabiliriz. Ben ekipmanÄ± dÄ±ÅŸarÄ±ya
+taÅŸÄ±rÄ±m sen de buradan analiz edersin.
 
 628
 00:52:00,651 --> 00:52:02,284
-Aradığımız şeyi bulabiliriz.
+AradÄ±ÄŸÄ±mÄ±z ÅŸeyi bulabiliriz.
 
 629
 00:52:02,286 --> 00:52:06,221
-Ya dışarı çıkınca bir daha geri dönemezse?
-İyice düşün.
+Ya dÄ±ÅŸarÄ± Ã§Ä±kÄ±nca bir daha geri dÃ¶nemezse?
+Ä°yice dÃ¼ÅŸÃ¼n.
 
 630
 00:52:08,291 --> 00:52:09,925
-Bence yapmalı.
-Üzgünüm William.
+Bence yapmalÄ±.
+ÃœzgÃ¼nÃ¼m William.
 
 631
 00:52:09,927 --> 00:52:12,294
-Sağ ol.
+SaÄŸ ol.
 
 632
 00:52:13,930 --> 00:52:16,532
 - Andrei?
-- Çok tehlikeli.
+- Ã‡ok tehlikeli.
 
 633
 00:52:17,267 --> 00:52:21,203
-Ben hayır diyorum.
+Ben hayÄ±r diyorum.
 Kesinlikle.
 
 634
 00:52:22,205 --> 00:52:24,273
-Eşitlik oldu.
+EÅŸitlik oldu.
 
 635
 00:52:25,208 --> 00:52:26,942
@@ -2931,8 +2931,8 @@ Rosa?
 
 636
 00:52:26,944 --> 00:52:31,613
-Katya evrendeki önemsizliğimizi
-bize hatırlatmıştı.
+Katya evrendeki Ã¶nemsizliÄŸimizi
+bize hatÄ±rlatmÄ±ÅŸtÄ±.
 
 637
 00:52:33,917 --> 00:52:35,651
@@ -2940,25 +2940,25 @@ bize hatırlatmıştı.
 
 638
 00:52:35,653 --> 00:52:37,619
-<i>Haklıydı.</i>
+<i>HaklÄ±ydÄ±.</i>
 
 639
 00:52:40,557 --> 00:52:42,257
-<i>Hâlâ da haklı.</i>
+<i>HÃ¢lÃ¢ da haklÄ±.</i>
 
 640
 00:52:42,259 --> 00:52:45,561
-<i>2 saatlik bir yürüyüş.
+<i>2 saatlik bir yÃ¼rÃ¼yÃ¼ÅŸ.
 210 metre uzakta.</i>
 
 641
 00:52:45,563 --> 00:52:48,597
-Sen buzun üst katmanını incelerken
+Sen buzun Ã¼st katmanÄ±nÄ± incelerken
 Daniel de analiz yapacak.
 
 642
 00:52:48,599 --> 00:52:49,831
-Anlaşıldı.
+AnlaÅŸÄ±ldÄ±.
 
 643
 00:53:22,266 --> 00:53:23,298
@@ -2966,49 +2966,49 @@ Dikkatli ol.
 
 644
 00:53:25,636 --> 00:53:30,606
-Öğreneceğimiz bilginin büyüklüğünü göze
-alırsak, hayatın aslında ne önemi var ki?
+Ã–ÄŸreneceÄŸimiz bilginin bÃ¼yÃ¼klÃ¼ÄŸÃ¼nÃ¼ gÃ¶ze
+alÄ±rsak, hayatÄ±n aslÄ±nda ne Ã¶nemi var ki?
 
 645
 00:53:53,664 --> 00:53:57,199
-<i>Basınçsızlaştırma için 30 dakika.</i>
+<i>BasÄ±nÃ§sÄ±zlaÅŸtÄ±rma iÃ§in 30 dakika.</i>
 
 646
 00:54:04,106 --> 00:54:06,641
-Bataryalar çalışmaya başladı.
+Bataryalar Ã§alÄ±ÅŸmaya baÅŸladÄ±.
 
 647
 00:54:08,711 --> 00:54:12,114
-<i>Batarya gücüne geçiyoruz.
-Basınç 30 kpa.</i>
+<i>Batarya gÃ¼cÃ¼ne geÃ§iyoruz.
+BasÄ±nÃ§ 30 kpa.</i>
 
 648
 00:54:12,116 --> 00:54:14,149
-Hazırlıkların bitti mi?
+HazÄ±rlÄ±klarÄ±n bitti mi?
 
 649
 00:54:18,688 --> 00:54:21,289
-Dışarı çıkmaya 30 saniye.
+DÄ±ÅŸarÄ± Ã§Ä±kmaya 30 saniye.
 
 650
 00:54:21,291 --> 00:54:23,125
-İyi şanslar.
+Ä°yi ÅŸanslar.
 
 651
 00:54:24,994 --> 00:54:27,396
-Hazırım.
+HazÄ±rÄ±m.
 
 652
 00:54:59,962 --> 00:55:01,897
-Burada olduğuma inanamıyorum.
+Burada olduÄŸuma inanamÄ±yorum.
 
 653
 00:55:08,204 --> 00:55:10,405
-Buradayız.
+BuradayÄ±z.
 
 654
 00:55:10,407 --> 00:55:12,407
-İnanılmaz bir şey.
+Ä°nanÄ±lmaz bir ÅŸey.
 
 655
 00:55:13,810 --> 00:55:15,243
@@ -3017,25 +3017,25 @@ Radyasyon sabit.
 656
 00:55:15,745 --> 00:55:19,492
 Saatte 50 millisievert.
-Kabul edilebilir sınırlar içinde.
+Kabul edilebilir sÄ±nÄ±rlar iÃ§inde.
 
 657
 00:55:19,518 --> 00:55:21,775
-Ben gidip, yukarıdan onu
-görebilecek miyim bir bakayım.
+Ben gidip, yukarÄ±dan onu
+gÃ¶rebilecek miyim bir bakayÄ±m.
 
 658
 00:55:26,189 --> 00:55:28,757
-Burası çok sakin.
+BurasÄ± Ã§ok sakin.
 
 659
 00:55:30,993 --> 00:55:33,862
-Çok...
+Ã‡ok...
 Hangi kelime tarif eder bilemiyorum.
 
 660
 00:55:36,099 --> 00:55:38,366
-Ürkütücü nasıl?
+ÃœrkÃ¼tÃ¼cÃ¼ nasÄ±l?
 
 661
 00:55:38,368 --> 00:55:41,236
@@ -3043,144 +3043,144 @@ Ben "Kozmik harika" diyecektim.
 
 662
 00:55:51,481 --> 00:55:55,317
-Eldivenlerimden birini çıkarıp
+Eldivenlerimden birini Ã§Ä±karÄ±p
 buza dokunmak isterdim.
 
 663
 00:55:56,486 --> 00:55:59,387
-- Gerçekten hissetmek.
-- Lütfen yapma.
+- GerÃ§ekten hissetmek.
+- LÃ¼tfen yapma.
 
 664
 00:56:01,858 --> 00:56:03,859
-Onu buradan görebiliyorum.
+Onu buradan gÃ¶rebiliyorum.
 
 665
 00:56:32,488 --> 00:56:34,923
-Hedef bölgeye doğru gidiyorum.
+Hedef bÃ¶lgeye doÄŸru gidiyorum.
 
 666
 00:56:34,925 --> 00:56:39,828
-Arkandayız. Yaşam destek
-sistemleri iyi görünüyor.
+ArkandayÄ±z. YaÅŸam destek
+sistemleri iyi gÃ¶rÃ¼nÃ¼yor.
 
 667
 00:56:46,536 --> 00:56:50,505
 Pekala Katya, hedef
-bölgeye girmek üzeresin.
+bÃ¶lgeye girmek Ã¼zeresin.
 
 668
 00:56:51,507 --> 00:56:53,041
-Gördün mü?
+GÃ¶rdÃ¼n mÃ¼?
 
 669
 00:56:54,944 --> 00:56:58,280
-Buzun daha az bozulduğu bölgeyi?
-Oranın tam ortasına kur.
+Buzun daha az bozulduÄŸu bÃ¶lgeyi?
+OranÄ±n tam ortasÄ±na kur.
 
 670
 00:56:58,282 --> 00:57:00,515
-- Buraya mı?
+- Buraya mÄ±?
 - Aynen.
 
 671
 00:57:01,584 --> 00:57:03,518
-Muhtemelen dışarı çıkalı bir saat olmuştu.
+Muhtemelen dÄ±ÅŸarÄ± Ã§Ä±kalÄ± bir saat olmuÅŸtu.
 
 672
 00:57:06,589 --> 00:57:08,957
-Ama sonsuzlukmuş gibi hissettirdi.
+Ama sonsuzlukmuÅŸ gibi hissettirdi.
 
 673
 00:57:10,159 --> 00:57:16,064
 Her dakika, tekrar tekrar sonsuz
-anlara bölünüyor gibiydi.
+anlara bÃ¶lÃ¼nÃ¼yor gibiydi.
 
 674
 00:57:16,266 --> 00:57:17,833
-İlk örnek tarama için hazır.
+Ä°lk Ã¶rnek tarama iÃ§in hazÄ±r.
 
 675
 00:57:19,403 --> 00:57:21,903
-Veriyi şimdi size yolluyorum.
+Veriyi ÅŸimdi size yolluyorum.
 
 676
 00:57:23,372 --> 00:57:24,973
-Görüyor musun?
+GÃ¶rÃ¼yor musun?
 
 677
 00:57:26,108 --> 00:57:27,976
-Analiz yapılıyor.
+Analiz yapÄ±lÄ±yor.
 Beklemede kal.
 
 678
 00:57:35,117 --> 00:57:37,919
-Karbon veya kemotrof işlemi
-izlerine rastlanmadı.
+Karbon veya kemotrof iÅŸlemi
+izlerine rastlanmadÄ±.
 
 679
 00:57:40,456 --> 00:57:42,424
-Başka bir buz örneği gönderebilir misin?
+BaÅŸka bir buz Ã¶rneÄŸi gÃ¶nderebilir misin?
 
 680
 00:57:42,426 --> 00:57:46,028
-Her dakikayı hissedebilirsiniz.
+Her dakikayÄ± hissedebilirsiniz.
 
 681
 00:57:46,030 --> 00:57:48,296
-Dakikalar daha önce hiç
-olmadıkları kadar uzundu.
+Dakikalar daha Ã¶nce hiÃ§
+olmadÄ±klarÄ± kadar uzundu.
 
 682
 00:57:51,534 --> 00:57:54,202
 - Hadi bir kere daha deneyelim.
-- Neden ekipmanını alıp...
+- Neden ekipmanÄ±nÄ± alÄ±p...
 
 683
 00:57:54,204 --> 00:57:55,904
-...lineaya, üçüncü bölgeye gitmiyorsun?
+...lineaya, Ã¼Ã§Ã¼ncÃ¼ bÃ¶lgeye gitmiyorsun?
 
 684
 00:57:57,507 --> 00:58:01,142
-Radyasyon artıyor Katya.
-70 dakikadır dışarıdasın.
+Radyasyon artÄ±yor Katya.
+70 dakikadÄ±r dÄ±ÅŸarÄ±dasÄ±n.
 
 685
 00:58:01,144 --> 00:58:04,646
-Çok yaklaştık. Bana kaç dakika
+Ã‡ok yaklaÅŸtÄ±k. Bana kaÃ§ dakika
 daha verebilirsin William?
 
 686
 00:58:04,648 --> 00:58:07,382
-Sadece birkaç örnek daha
-alacak vaktin kaldı.
+Sadece birkaÃ§ Ã¶rnek daha
+alacak vaktin kaldÄ±.
 
 687
 00:58:19,529 --> 00:58:24,032
-<i>- Pekala Katya, dönme vaktin geldi.
+<i>- Pekala Katya, dÃ¶nme vaktin geldi.
 - Tamam.</i>
 
 688
 00:58:24,034 --> 00:58:28,270
-Yer altından radyasyondan
-etkilenmemiş bir örnek alıyorum.
+Yer altÄ±ndan radyasyondan
+etkilenmemiÅŸ bir Ã¶rnek alÄ±yorum.
 
 689
 00:58:30,106 --> 00:58:32,140
-Görüyor musunuz çocuklar?
+GÃ¶rÃ¼yor musunuz Ã§ocuklar?
 
 690
 00:58:38,214 --> 00:58:39,915
-İşte.
+Ä°ÅŸte.
 
 691
 00:58:39,917 --> 00:58:43,585
-Şimdi resmi alıyorum.
+Åimdi resmi alÄ±yorum.
 
 692
 00:58:50,527 --> 00:58:55,297
-Tek hücreli bir organizma,
-alge benzer bir şey.
+Tek hÃ¼creli bir organizma,
+alge benzer bir ÅŸey.
 
 693
 00:59:00,536 --> 00:59:02,070
@@ -3189,7 +3189,7 @@ Biliyordum.
 694
 00:59:07,711 --> 00:59:11,413
 - Ne peki?
-- Pek emin değilim...
+- Pek emin deÄŸilim...
 
 695
 00:59:11,415 --> 00:59:13,214
@@ -3197,54 +3197,54 @@ Yani, ismi olacak hali yok.
 
 696
 00:59:13,216 --> 00:59:15,517
-Bana prekambriyen döneminden
-bir şey gibi geldi.
+Bana prekambriyen dÃ¶neminden
+bir ÅŸey gibi geldi.
 
 697
 00:59:15,519 --> 00:59:18,987
-Dünya benzeri bir çevre için
+DÃ¼nya benzeri bir Ã§evre iÃ§in
 benim de ilk tahminim buydu.
 
 698
 00:59:18,989 --> 00:59:21,289
-İnanamıyorum.
+Ä°nanamÄ±yorum.
 
 699
 00:59:21,291 --> 00:59:23,024
-Başardık.
+BaÅŸardÄ±k.
 
 700
 00:59:47,116 --> 00:59:49,684
-Tamam, Katya, hadi gemiye geri dön de...
+Tamam, Katya, hadi gemiye geri dÃ¶n de...
 
 701
 00:59:49,686 --> 00:59:53,054
-...bu verileri çözümlemeye başlayalım.
-- Toplanıyorum.
+...bu verileri Ã§Ã¶zÃ¼mlemeye baÅŸlayalÄ±m.
+- ToplanÄ±yorum.
 
 702
 00:59:53,056 --> 00:59:55,323
-Umarım şampanya hazırdır.
+UmarÄ±m ÅŸampanya hazÄ±rdÄ±r.
 
 703
 00:59:59,261 --> 01:00:00,528
-Şuna bakın.
+Åuna bakÄ±n.
 
 704
 01:00:01,998 --> 01:00:04,099
-Şu uzaktaki ışığı görebiliyor musunuz?
+Åu uzaktaki Ä±ÅŸÄ±ÄŸÄ± gÃ¶rebiliyor musunuz?
 
 705
 01:00:06,002 --> 01:00:07,335
-Hiçbir şey görmüyoruz.
+HiÃ§bir ÅŸey gÃ¶rmÃ¼yoruz.
 
 706
 01:00:07,337 --> 01:00:09,671
-Bir çeşit kimyasal ışıma gibi görünüyor.
+Bir Ã§eÅŸit kimyasal Ä±ÅŸÄ±ma gibi gÃ¶rÃ¼nÃ¼yor.
 
 707
 01:00:09,673 --> 01:00:13,441
-İncelemek için yanına gidiyorum.
+Ä°ncelemek iÃ§in yanÄ±na gidiyorum.
 
 708
 01:00:14,677 --> 01:00:17,779
@@ -3261,29 +3261,29 @@ Dikkatli ol.
 
 711
 01:00:22,185 --> 01:00:26,321
-Onu göremiyorum.
-Görüş alanımdan çıkıyor.
+Onu gÃ¶remiyorum.
+GÃ¶rÃ¼ÅŸ alanÄ±mdan Ã§Ä±kÄ±yor.
 
 712
 01:00:38,100 --> 01:00:39,200
-Çok güzel.
+Ã‡ok gÃ¼zel.
 
 713
 01:00:40,770 --> 01:00:45,273
-Andrei. Bu sözünü ettiğin ışık olabilir.
+Andrei. Bu sÃ¶zÃ¼nÃ¼ ettiÄŸin Ä±ÅŸÄ±k olabilir.
 
 714
 01:00:48,811 --> 01:00:51,212
-Yine görebiliyorum.
+Yine gÃ¶rebiliyorum.
 
 715
 01:00:51,214 --> 01:00:53,214
-Gönderdiğim verilere bakabilir misin?
+GÃ¶nderdiÄŸim verilere bakabilir misin?
 
 716
 01:00:54,350 --> 01:00:57,552
-Söylemesi...
-Söylemesi zor.
+SÃ¶ylemesi...
+SÃ¶ylemesi zor.
 
 717
 01:00:57,554 --> 01:01:02,624
@@ -3292,20 +3292,20 @@ mikrobik organizmalar da olabilir.
 
 718
 01:01:02,626 --> 01:01:07,662
-Burası sandığımızdan çok daha
-karmaşık bir ekosistemmiş.
+BurasÄ± sandÄ±ÄŸÄ±mÄ±zdan Ã§ok daha
+karmaÅŸÄ±k bir ekosistemmiÅŸ.
 
 719
 01:01:09,833 --> 01:01:11,800
-Işığıma tepki veriyor mu diye bakacağım.
+IÅŸÄ±ÄŸÄ±ma tepki veriyor mu diye bakacaÄŸÄ±m.
 
 720
 01:01:12,768 --> 01:01:14,803
-Işığımı kapıyorum.
+IÅŸÄ±ÄŸÄ±mÄ± kapÄ±yorum.
 
 721
 01:01:20,444 --> 01:01:23,845
-- Yaklaşıyorum.
+- YaklaÅŸÄ±yorum.
 - Dur, yapma Katya.
 
 722
@@ -3314,66 +3314,66 @@ Işığımı kapıyorum.
 
 723
 01:01:31,121 --> 01:01:33,354
-Çok fazla elektromanyetik parazit var.
+Ã‡ok fazla elektromanyetik parazit var.
 
 724
 01:01:33,356 --> 01:01:36,424
-- Şunu gördün mü?
-- Geri dönmesi lazım.
+- Åunu gÃ¶rdÃ¼n mÃ¼?
+- Geri dÃ¶nmesi lazÄ±m.
 
 725
 01:01:36,426 --> 01:01:39,861
-Bir şey gördüm.
-Geri getirmeye çalışacağım.
+Bir ÅŸey gÃ¶rdÃ¼m.
+Geri getirmeye Ã§alÄ±ÅŸacaÄŸÄ±m.
 
 726
 01:01:43,866 --> 01:01:45,733
-Buzun altında.
+Buzun altÄ±nda.
 
 727
 01:01:45,735 --> 01:01:49,104
-Sanırım bir çeşit biyoluminesens.
+SanÄ±rÄ±m bir Ã§eÅŸit biyoluminesens.
 
 728
 01:01:49,106 --> 01:01:52,774
-<i>Veriyi aldık Katya.
-Yaklaştıkça ısı radyasyonu da artıyor.</i>
+<i>Veriyi aldÄ±k Katya.
+YaklaÅŸtÄ±kÃ§a Ä±sÄ± radyasyonu da artÄ±yor.</i>
 
 729
 01:01:52,776 --> 01:01:55,276
-<i>Neler olduğunu anlayamıyorum.</i>
+<i>Neler olduÄŸunu anlayamÄ±yorum.</i>
 
 730
 01:01:56,713 --> 01:02:00,548
-<i>Tamam, buradaki buz ince ama sağlam
-gibi duruyor. Biraz daha yaklaşırsam...</i>
+<i>Tamam, buradaki buz ince ama saÄŸlam
+gibi duruyor. Biraz daha yaklaÅŸÄ±rsam...</i>
 
 731
 01:02:00,550 --> 01:02:03,318
-<i>...daha iyi görebilirim.
-- Kameranı açık tut.</i>
+<i>...daha iyi gÃ¶rebilirim.
+- KameranÄ± aÃ§Ä±k tut.</i>
 
 732
 01:02:03,320 --> 01:02:06,321
-- Orada neler olduğunu bilmek istiyorum.
-- Zemin sağlam değilmiş.
+- Orada neler olduÄŸunu bilmek istiyorum.
+- Zemin saÄŸlam deÄŸilmiÅŸ.
 
 733
 01:02:06,323 --> 01:02:08,790
-Buz kırılıyor.
+Buz kÄ±rÄ±lÄ±yor.
 
 734
 01:02:08,792 --> 01:02:11,893
 Katya, beni buyuyor musun?
-Hemen gemiye geri dön.
+Hemen gemiye geri dÃ¶n.
 
 735
 01:02:11,895 --> 01:02:14,596
-Buzu kırıyor.
+Buzu kÄ±rÄ±yor.
 
 736
 01:02:14,598 --> 01:02:17,632
-Ayağım...
+AyaÄŸÄ±m...
 
 737
 01:02:23,806 --> 01:02:26,773
@@ -3383,65 +3383,65 @@ Ayağım...
 738
 01:02:26,775 --> 01:02:29,644
 - Katya cevap ver. - Dinlemiyor.
-- Rosa, bir şey görebiliyor musun?
+- Rosa, bir ÅŸey gÃ¶rebiliyor musun?
 
 739
 01:02:29,646 --> 01:02:31,779
-Hayır, sadece buz.
+HayÄ±r, sadece buz.
 
 740
 01:02:36,752 --> 01:02:38,920
-- Buzun altında.
+- Buzun altÄ±nda.
 - Ne?
 
 741
 01:02:41,524 --> 01:02:44,359
-Suyun altında.
+Suyun altÄ±nda.
 
 742
 01:02:50,333 --> 01:02:52,367
-Kask kamerası hâlâ çalışıyor.
+Kask kamerasÄ± hÃ¢lÃ¢ Ã§alÄ±ÅŸÄ±yor.
 
 743
 01:03:52,861 --> 01:03:56,965
-O şey her neyse, kaskındaki
-ışığa tepki gösteriyordu.
+O ÅŸey her neyse, kaskÄ±ndaki
+Ä±ÅŸÄ±ÄŸa tepki gÃ¶steriyordu.
 
 744
 01:03:56,967 --> 01:03:59,968
 Bu kompleks bir
-organizmanın davranış biçimidir.
+organizmanÄ±n davranÄ±ÅŸ biÃ§imidir.
 
 745
 01:04:01,837 --> 01:04:06,241
-Verilerin hiçbiri kompleks bir
-organizmanın olduğunu göstermiyor.
+Verilerin hiÃ§biri kompleks bir
+organizmanÄ±n olduÄŸunu gÃ¶stermiyor.
 
 746
 01:04:06,243 --> 01:04:08,009
-Bir kanıt bulmadan buradan gidemeyiz.
+Bir kanÄ±t bulmadan buradan gidemeyiz.
 
 747
 01:04:09,445 --> 01:04:11,713
-Bu zemin daha ne kadar dayanır bilmiyoruz.
+Bu zemin daha ne kadar dayanÄ±r bilmiyoruz.
 
 748
 01:04:11,715 --> 01:04:14,716
-Ve iki mürettebatımızı kaybettik.
+Ve iki mÃ¼rettebatÄ±mÄ±zÄ± kaybettik.
 
 749
 01:04:14,718 --> 01:04:17,555
-Eğer buradan ayrılmazsak
-dünyadaki hiç kimse...
+EÄŸer buradan ayrÄ±lmazsak
+dÃ¼nyadaki hiÃ§ kimse...
 
 750
 01:04:17,581 --> 01:04:20,038
-...keşfettiğimiz şeyi
-asla öğrenemeyecek.
+...keÅŸfettiÄŸimiz ÅŸeyi
+asla Ã¶ÄŸrenemeyecek.
 
 751
 01:04:21,924 --> 01:04:23,591
-Katılıyorum.
+KatÄ±lÄ±yorum.
 
 752
 01:04:23,593 --> 01:04:25,660
@@ -3449,42 +3449,42 @@ Hemen gitmemiz gerek.
 
 753
 01:04:28,030 --> 01:04:30,698
-Sonraki kalkış penceresi
-açıldığında gidiyoruz.
+Sonraki kalkÄ±ÅŸ penceresi
+aÃ§Ä±ldÄ±ÄŸÄ±nda gidiyoruz.
 
 754
 01:04:33,003 --> 01:04:36,471
-Tüm verilerin kaydedilmesini ve
+TÃ¼m verilerin kaydedilmesini ve
 kontrol edilmesini istiyorum.
 
 755
 01:04:36,473 --> 01:04:39,674
-Özellikle Katya'nın bulduklarını.
+Ã–zellikle Katya'nÄ±n bulduklarÄ±nÄ±.
 
 756
 01:04:47,499 --> 01:04:50,499
-22 Ay, 12 Gün, 06 Saat, 04 Dakika.
+22 Ay, 12 GÃ¼n, 06 Saat, 04 Dakika.
 
 757
 01:04:51,787 --> 01:04:55,556
-Kalkış için 32 saniye.
+KalkÄ±ÅŸ iÃ§in 32 saniye.
 
 758
 01:04:55,558 --> 01:04:57,492
-Kalkış motorları hazırlanıyor.
+KalkÄ±ÅŸ motorlarÄ± hazÄ±rlanÄ±yor.
 
 759
 01:04:58,828 --> 01:05:00,495
-Yörünge ayarlayıcı çalışır durumda.
+YÃ¶rÃ¼nge ayarlayÄ±cÄ± Ã§alÄ±ÅŸÄ±r durumda.
 
 760
 01:05:00,497 --> 01:05:03,898
-<i>Kalkış için son sekiz dakika.</i>
+<i>KalkÄ±ÅŸ iÃ§in son sekiz dakika.</i>
 
 761
 01:05:11,740 --> 01:05:14,509
 <i>- Sistem raporu ver.
-- Motor ısısı yükseliyor.</i>
+- Motor Ä±sÄ±sÄ± yÃ¼kseliyor.</i>
 
 762
 01:05:14,511 --> 01:05:18,046
@@ -3492,55 +3492,55 @@ Yörünge ayarlayıcı çalışır durumda.
 
 763
 01:05:18,048 --> 01:05:19,947
-<i>3. yardımcı roket %30'da kaldı.</i>
+<i>3. yardÄ±mcÄ± roket %30'da kaldÄ±.</i>
 
 764
 01:05:19,949 --> 01:05:22,617
-<i>Şimdi kalkmamız gerek.</i>
+<i>Åimdi kalkmamÄ±z gerek.</i>
 
 765
 01:05:34,798 --> 01:05:37,899
-Kalkış için son 3, 2, 1.
+KalkÄ±ÅŸ iÃ§in son 3, 2, 1.
 
 766
 01:05:44,606 --> 01:05:47,008
 <i>Neler oluyor? Gemiyi
-sabit tutamıyorum.</i>
+sabit tutamÄ±yorum.</i>
 
 767
 01:05:47,010 --> 01:05:49,377
-<i>Rotamızdan sapmaya başladık.</i>
+<i>RotamÄ±zdan sapmaya baÅŸladÄ±k.</i>
 
 768
 01:05:53,382 --> 01:05:56,818
-Enjektörler eriyor.
+EnjektÃ¶rler eriyor.
 
 769
 01:05:56,820 --> 01:06:00,822
 2. ve 3. motorda,
-motor karışım oranı hataları var.
+motor karÄ±ÅŸÄ±m oranÄ± hatalarÄ± var.
 
 770
 01:06:00,824 --> 01:06:04,025
-Yörüngesel transfere çok uzağız.
+YÃ¶rÃ¼ngesel transfere Ã§ok uzaÄŸÄ±z.
 
 771
 01:06:04,027 --> 01:06:06,994
-Rotayı zirvedeyken düzeltmeye çalışacağım.
+RotayÄ± zirvedeyken dÃ¼zeltmeye Ã§alÄ±ÅŸacaÄŸÄ±m.
 
 772
 01:06:06,996 --> 01:06:09,832
-- Yardımcı iticilerle başarabilirim.
-- Valfları kapamamız gerek.
+- YardÄ±mcÄ± iticilerle baÅŸarabilirim.
+- ValflarÄ± kapamamÄ±z gerek.
 
 773
 01:06:09,834 --> 01:06:12,201
 - Bizi yere indir. - Ne?
-- İkinci ateşlemeyi yapma.
+- Ä°kinci ateÅŸlemeyi yapma.
 
 774
 01:06:13,403 --> 01:06:15,036
-Yere çarpmamı mı istiyorsun?
+Yere Ã§arpmamÄ± mÄ± istiyorsun?
 
 775
 01:06:15,038 --> 01:06:18,039
@@ -3557,29 +3557,29 @@ Valflar...
 778
 01:06:39,095 --> 01:06:42,029
 - 1900.
-- Sabit tutamıyorum.
+- Sabit tutamÄ±yorum.
 
 779
 01:06:42,031 --> 01:06:46,868
 Bilgisayarla olmuyor.
-Çok hızlı çakılıyoruz.
+Ã‡ok hÄ±zlÄ± Ã§akÄ±lÄ±yoruz.
 
 780
 01:06:51,774 --> 01:06:55,877
-- Ne yapıyorsun? William! William!
-- Gemiyi yavaşlatacağım.
+- Ne yapÄ±yorsun? William! William!
+- Gemiyi yavaÅŸlatacaÄŸÄ±m.
 
 781
 01:06:58,081 --> 01:07:01,416
-Su kalkanını patlatacağım.
+Su kalkanÄ±nÄ± patlatacaÄŸÄ±m.
 
 782
 01:07:03,085 --> 01:07:05,686
-Böylece çarpmanın etkisi azalacak.
+BÃ¶ylece Ã§arpmanÄ±n etkisi azalacak.
 
 783
 01:07:05,688 --> 01:07:08,122
-- Çarpma için hazırlanın.
+- Ã‡arpma iÃ§in hazÄ±rlanÄ±n.
 - 200 metre.
 
 784
@@ -3600,71 +3600,71 @@ Tamam.
 
 788
 01:08:48,590 --> 01:08:50,157
-Ölmüş.
+Ã–lmÃ¼ÅŸ.
 
 789
 01:08:50,159 --> 01:08:52,026
-Hayatımızı kurtardı.
+HayatÄ±mÄ±zÄ± kurtardÄ±.
 
 790
 01:08:58,200 --> 01:09:00,234
-Europa bizi bırakmaya hazır değildi.
+Europa bizi bÄ±rakmaya hazÄ±r deÄŸildi.
 
 791
 01:09:03,272 --> 01:09:07,575
-En başta hedeflenen bölgeye indiğimizi
-çok geçmeden anladık.
+En baÅŸta hedeflenen bÃ¶lgeye indiÄŸimizi
+Ã§ok geÃ§meden anladÄ±k.
 
 792
 01:09:08,677 --> 01:09:10,845
-Sanırım ironik biraz.
+SanÄ±rÄ±m ironik biraz.
 
 793
 01:09:13,849 --> 01:09:19,821
-Bu bölge önceki verilerin söylediğinden
-çok daha sıcak ve aktifti.
+Bu bÃ¶lge Ã¶nceki verilerin sÃ¶ylediÄŸinden
+Ã§ok daha sÄ±cak ve aktifti.
 
 794
 01:09:20,223 --> 01:09:24,366
-Sualtı hava akımları buzların
-zayıflamasına, dengesizleşmesine...
+SualtÄ± hava akÄ±mlarÄ± buzlarÄ±n
+zayÄ±flamasÄ±na, dengesizleÅŸmesine...
 
 795
 01:09:24,392 --> 01:09:27,194
-...ve sürekli yer
-değiştirmesine neden oluyor.
+...ve sÃ¼rekli yer
+deÄŸiÅŸtirmesine neden oluyor.
 
 796
 01:09:27,196 --> 01:09:33,081
-William su kalkanlarını patlatarak
-hayatlarını kurtardı ama...
+William su kalkanlarÄ±nÄ± patlatarak
+hayatlarÄ±nÄ± kurtardÄ± ama...
 
 797
 01:09:33,107 --> 01:09:38,573
-...bu davranışı onları radyasyona
-karşı korumasız bıraktı.
+...bu davranÄ±ÅŸÄ± onlarÄ± radyasyona
+karÅŸÄ± korumasÄ±z bÄ±raktÄ±.
 
 798
 01:09:38,575 --> 01:09:41,776
-Oksijen sızdırıyoruz.
+Oksijen sÄ±zdÄ±rÄ±yoruz.
 
 799
 01:09:41,778 --> 01:09:44,045
-Ayrıca ısı kaybediyoruz...
+AyrÄ±ca Ä±sÄ± kaybediyoruz...
 
 800
 01:09:44,047 --> 01:09:46,847
-Kontrol etmeye başladığımdan
-beri 1,5 derece düştü.
+Kontrol etmeye baÅŸladÄ±ÄŸÄ±mdan
+beri 1,5 derece dÃ¼ÅŸtÃ¼.
 
 801
 01:09:46,849 --> 01:09:51,018
-İddiaya girecek olsam, havasızlıktan ölmek
-yerine donmaya yatırırdım paramı.
+Ä°ddiaya girecek olsam, havasÄ±zlÄ±ktan Ã¶lmek
+yerine donmaya yatÄ±rÄ±rdÄ±m paramÄ±.
 
 802
 01:09:52,220 --> 01:09:55,289
-Dış ışıklar çalışıyordur herhalde.
+DÄ±ÅŸ Ä±ÅŸÄ±klar Ã§alÄ±ÅŸÄ±yordur herhalde.
 
 803
 01:09:55,291 --> 01:09:58,059
@@ -3677,59 +3677,59 @@ Daniel, kontrol eder misin?
 
 805
 01:10:01,030 --> 01:10:02,797
-Durumumuz hiç iyi değil.
+Durumumuz hiÃ§ iyi deÄŸil.
 
 806
 01:10:03,732 --> 01:10:07,101
-Geminin altındaki buz kırılıyor.
+Geminin altÄ±ndaki buz kÄ±rÄ±lÄ±yor.
 
 807
 01:10:07,103 --> 01:10:11,606
-Neredeyse buzun suyla buluştuğu
-yeri görebiliyorsun.
+Neredeyse buzun suyla buluÅŸtuÄŸu
+yeri gÃ¶rebiliyorsun.
 
 808
 01:10:12,841 --> 01:10:14,976
-Birkaç saate kalmadan buzun
-içine gömülmüş olacağız.
+BirkaÃ§ saate kalmadan buzun
+iÃ§ine gÃ¶mÃ¼lmÃ¼ÅŸ olacaÄŸÄ±z.
 
 809
 01:10:17,212 --> 01:10:19,180
-Son şansımız yörüngedeki
-gemiye bağlanıp...
+Son ÅŸansÄ±mÄ±z yÃ¶rÃ¼ngedeki
+gemiye baÄŸlanÄ±p...
 
 810
 01:10:20,749 --> 01:10:23,117
-...yedek yaşam destek
-ünitelerini kullanmak.
+...yedek yaÅŸam destek
+Ã¼nitelerini kullanmak.
 
 811
 01:10:23,119 --> 01:10:26,153
-Ateşleme sistemi hâlâ çalışıyorsa...
+AteÅŸleme sistemi hÃ¢lÃ¢ Ã§alÄ±ÅŸÄ±yorsa...
 
 812
 01:10:27,389 --> 01:10:29,757
-...bizi yörüngeye kadar çıkartabilirim.
+...bizi yÃ¶rÃ¼ngeye kadar Ã§Ä±kartabilirim.
 
 813
 01:10:30,726 --> 01:10:32,660
-Gelin bana yardım edin.
+Gelin bana yardÄ±m edin.
 
 814
 01:10:42,404 --> 01:10:44,171
-Anlamsız.
+AnlamsÄ±z.
 
 815
 01:10:49,622 --> 01:10:52,622
-22 Ay, 12 Gün, 10 Saat, 17 Dakika.
+22 Ay, 12 GÃ¼n, 10 Saat, 17 Dakika.
 
 816
 01:10:52,648 --> 01:10:55,216
-Aradığın şey bu mu?
+AradÄ±ÄŸÄ±n ÅŸey bu mu?
 
 817
 01:10:55,218 --> 01:10:57,685
-Evet, sağ ol.
+Evet, saÄŸ ol.
 
 818
 01:11:07,330 --> 01:11:08,729
@@ -3737,13 +3737,13 @@ Siktir.
 
 819
 01:11:13,202 --> 01:11:15,336
-- İyi misin?
-- Buz kırılmaya başladı.
+- Ä°yi misin?
+- Buz kÄ±rÄ±lmaya baÅŸladÄ±.
 
 820
 01:11:15,338 --> 01:11:17,872
 Buraya kadar.
-Başladı işte.
+BaÅŸladÄ± iÅŸte.
 
 821
 01:11:22,110 --> 01:11:23,444
@@ -3751,56 +3751,56 @@ Sona geldik.
 
 822
 01:11:31,887 --> 01:11:33,954
-Bir yolunu bulacağız.
+Bir yolunu bulacaÄŸÄ±z.
 
 823
 01:11:35,257 --> 01:11:36,857
-Bulmak zorundayız.
+Bulmak zorundayÄ±z.
 
 824
 01:11:41,797 --> 01:11:46,233
-Yakıt sistemi kısmen donmuş.
-İtme gücünü eksilten de buymuş.
+YakÄ±t sistemi kÄ±smen donmuÅŸ.
+Ä°tme gÃ¼cÃ¼nÃ¼ eksilten de buymuÅŸ.
 
 825
 01:11:46,235 --> 01:11:49,870
-Buza batmış durumdayız.
-Doğru düzgün kalkış yapabilir miyiz ki?
+Buza batmÄ±ÅŸ durumdayÄ±z.
+DoÄŸru dÃ¼zgÃ¼n kalkÄ±ÅŸ yapabilir miyiz ki?
 
 826
 01:11:49,872 --> 01:11:51,405
-Zamanlamayı tutturabilirsek belki.
+ZamanlamayÄ± tutturabilirsek belki.
 
 827
 01:11:51,407 --> 01:11:56,177
-En erken iki saat içinde tamir
-edebiliriz, tabii bunun için...
+En erken iki saat iÃ§inde tamir
+edebiliriz, tabii bunun iÃ§in...
 
 828
 01:11:56,179 --> 01:11:58,479
-...ikimizin de çalışması gerek.
+...ikimizin de Ã§alÄ±ÅŸmasÄ± gerek.
 
 829
 01:11:58,481 --> 01:12:00,715
-- Üçümüz mü demek istedin?
-- Hayır.
+- ÃœÃ§Ã¼mÃ¼z mÃ¼ demek istedin?
+- HayÄ±r.
 
 830
 01:12:00,717 --> 01:12:02,883
-Senin içeride kalıp motorları
-hazırlaman gerekiyor.
+Senin iÃ§eride kalÄ±p motorlarÄ±
+hazÄ±rlaman gerekiyor.
 
 831
 01:12:06,421 --> 01:12:09,256
-Tamiri geminin dışından yapmamız gerek.
+Tamiri geminin dÄ±ÅŸÄ±ndan yapmamÄ±z gerek.
 
 832
 01:12:11,194 --> 01:12:13,861
-İşte böyle.
+Ä°ÅŸte bÃ¶yle.
 
 833
 01:12:14,830 --> 01:12:16,897
-Hazır mısın?
+HazÄ±r mÄ±sÄ±n?
 
 834
 01:12:18,100 --> 01:12:20,134
@@ -3808,41 +3808,41 @@ Peki ya sen?
 
 835
 01:12:20,136 --> 01:12:23,838
-Daniel ve Andrei son bir basınçsızlaştırma
-işlemi için hava kilidine girdiler.
+Daniel ve Andrei son bir basÄ±nÃ§sÄ±zlaÅŸtÄ±rma
+iÅŸlemi iÃ§in hava kilidine girdiler.
 
 836
 01:12:24,773 --> 01:12:26,507
-İşte.
+Ä°ÅŸte.
 
 837
 01:12:32,180 --> 01:12:34,181
-İki saat.
+Ä°ki saat.
 
 838
 01:12:34,183 --> 01:12:36,817
 Sonra ikinizi de burada
-göreceğim, tamam mı?
+gÃ¶receÄŸim, tamam mÄ±?
 
 839
 01:12:43,424 --> 01:12:45,992
-Ve böylece...
+Ve bÃ¶ylece...
 
 840
 01:12:51,133 --> 01:12:52,500
-...şu ana geliyoruz.
+...ÅŸu ana geliyoruz.
 
 841
 01:12:56,805 --> 01:12:58,839
-Eğer başaramazsak...
+EÄŸer baÅŸaramazsak...
 
 842
 01:13:02,211 --> 01:13:03,878
-Bu kayıt...
+Bu kayÄ±t...
 
 843
 01:13:08,550 --> 01:13:10,351
-Bir gün...
+Bir gÃ¼n...
 
 844
 01:13:13,688 --> 01:13:15,589
@@ -3854,78 +3854,78 @@ Ne olur ne olmaz diye.
 
 846
 01:13:56,241 --> 01:13:59,241
-22 Ay, 12 Gün, 14 Saat, 53 Dakika.
+22 Ay, 12 GÃ¼n, 14 Saat, 53 Dakika.
 
 847
 01:13:59,267 --> 01:14:01,569
-Basınçsızlaştırma tamamlandı.
+BasÄ±nÃ§sÄ±zlaÅŸtÄ±rma tamamlandÄ±.
 
 848
 01:14:01,571 --> 01:14:04,205
-Basınç 25 kpa.
+BasÄ±nÃ§ 25 kpa.
 
 849
 01:14:05,474 --> 01:14:07,575
-İlk ben gidiyorum.
+Ä°lk ben gidiyorum.
 
 850
 01:14:08,844 --> 01:14:10,477
-Buzun sağlam olduğundan emin ol.
+Buzun saÄŸlam olduÄŸundan emin ol.
 
 851
 01:14:10,479 --> 01:14:13,881
-Dışarı çıkıyorum.
+DÄ±ÅŸarÄ± Ã§Ä±kÄ±yorum.
 
 852
 01:14:13,883 --> 01:14:15,382
-Anlaşıldı.
+AnlaÅŸÄ±ldÄ±.
 
 853
 01:14:18,187 --> 01:14:20,321
-Sistem sinyalleri güçlü.
+Sistem sinyalleri gÃ¼Ã§lÃ¼.
 
 854
 01:14:23,059 --> 01:14:25,359
-Kapak açıldı.
+Kapak aÃ§Ä±ldÄ±.
 
 855
 01:14:30,866 --> 01:14:32,466
-Koyayım.
+KoyayÄ±m.
 
 856
 01:14:34,102 --> 01:14:37,605
-Merdiven biraz yamulmuş ama
-galiba başarabilirim.
+Merdiven biraz yamulmuÅŸ ama
+galiba baÅŸarabilirim.
 
 857
 01:14:40,141 --> 01:14:42,142
-Geminin altındaki buz kırılmış ama...
+Geminin altÄ±ndaki buz kÄ±rÄ±lmÄ±ÅŸ ama...
 
 858
 01:14:42,144 --> 01:14:44,245
-...sağlam görünüyor.
+...saÄŸlam gÃ¶rÃ¼nÃ¼yor.
 
 859
 01:14:44,247 --> 01:14:47,147
-İlk adımımı atıyorum.
+Ä°lk adÄ±mÄ±mÄ± atÄ±yorum.
 
 860
 01:14:48,449 --> 01:14:51,518
 Dikkatli ol.
-Aynı radyasyon sinyalini alıyoruz.
+AynÄ± radyasyon sinyalini alÄ±yoruz.
 
 861
 01:14:51,520 --> 01:14:55,222
 Tamam.
-İlk adımımı atıyorum.
+Ä°lk adÄ±mÄ±mÄ± atÄ±yorum.
 
 862
 01:14:55,224 --> 01:14:57,291
-Buzun üstündeyim.
+Buzun Ã¼stÃ¼ndeyim.
 
 863
 01:15:00,195 --> 01:15:01,896
-Tanrım.
+TanrÄ±m.
 Hissedebiliyorum...
 
 864
@@ -3943,21 +3943,21 @@ Daniel? Andrei?
 
 867
 01:15:16,545 --> 01:15:18,412
-Konuşun benimle.
+KonuÅŸun benimle.
 
 868
 01:15:32,294 --> 01:15:35,229
-<i>Rosa, dış ışığı kapat.</i>
+<i>Rosa, dÄ±ÅŸ Ä±ÅŸÄ±ÄŸÄ± kapat.</i>
 
 869
 01:15:35,231 --> 01:15:38,465
-- Dış ışıkları kapat.
+- DÄ±ÅŸ Ä±ÅŸÄ±klarÄ± kapat.
 - Tamam.
 
 870
 01:15:40,201 --> 01:15:43,637
-Hiçbir veri alamıyorum.
-Mikrofon ve kamera bağlantısı koptu.
+HiÃ§bir veri alamÄ±yorum.
+Mikrofon ve kamera baÄŸlantÄ±sÄ± koptu.
 
 871
 01:15:43,639 --> 01:15:45,539
@@ -3983,13 +3983,13 @@ Kaybettim.
 
 876
 01:16:03,024 --> 01:16:07,628
-- Altındaki buz kırıldı.
+- AltÄ±ndaki buz kÄ±rÄ±ldÄ±.
 - Daniel? Daniel?
 
 877
 01:16:07,630 --> 01:16:11,432
-Işık etrafını sardı.
-Sonra gözden kayboldu.
+IÅŸÄ±k etrafÄ±nÄ± sardÄ±.
+Sonra gÃ¶zden kayboldu.
 
 878
 01:16:25,715 --> 01:16:27,548
@@ -3997,13 +3997,13 @@ Bana...
 
 879
 01:16:31,019 --> 01:16:33,520
-Bana yakıt sistemini tamir
-edebileceğimizi söyle.
+Bana yakÄ±t sistemini tamir
+edebileceÄŸimizi sÃ¶yle.
 
 880
 01:16:36,759 --> 01:16:39,393
 <i>Andrei?
-Bir şey söyle.</i>
+Bir ÅŸey sÃ¶yle.</i>
 
 881
 01:16:40,428 --> 01:16:42,997
@@ -4012,16 +4012,16 @@ Bir şey söyle.</i>
 
 882
 01:16:44,699 --> 01:16:46,767
-Denemeye değer tek bir şey kaldı.
+Denemeye deÄŸer tek bir ÅŸey kaldÄ±.
 
 883
 01:16:49,572 --> 01:16:52,573
-Haberleşme sistemi hâlâ kurtarılabilir.
+HaberleÅŸme sistemi hÃ¢lÃ¢ kurtarÄ±labilir.
 
 884
 01:16:55,043 --> 01:16:59,380
-Yaşam destek ünitesinden parçalar
-alırsam tamir edebilirim.
+YaÅŸam destek Ã¼nitesinden parÃ§alar
+alÄ±rsam tamir edebilirim.
 
 885
 01:17:00,882 --> 01:17:02,783
@@ -4029,25 +4029,25 @@ Bilmiyorum.
 
 886
 01:17:02,785 --> 01:17:05,219
-Veri senkronu hazırlayabilir misin?
+Veri senkronu hazÄ±rlayabilir misin?
 
 887
 01:17:12,093 --> 01:17:14,194
-<i>Rosa, bunu başarabiliriz.</i>
+<i>Rosa, bunu baÅŸarabiliriz.</i>
 
 888
 01:17:32,113 --> 01:17:33,580
-Zamanını nasıl bileceğim?
+ZamanÄ±nÄ± nasÄ±l bileceÄŸim?
 
 889
 01:17:33,582 --> 01:17:36,412
-Yaşam destek ünitesindeki
-bataryaları çıkarınca...
+YaÅŸam destek Ã¼nitesindeki
+bataryalarÄ± Ã§Ä±karÄ±nca...
 
 890
 01:17:36,438 --> 01:17:38,652
-...komuta modülündeki
-gücü kaybedeceksin
+...komuta modÃ¼lÃ¼ndeki
+gÃ¼cÃ¼ kaybedeceksin
 
 891
 01:17:38,654 --> 01:17:41,655
@@ -4055,18 +4055,18 @@ Veriler senkron...
 
 892
 01:17:44,192 --> 01:17:48,295
-Benimle konuşmaya devam et.
-Hattı açık tut.
+Benimle konuÅŸmaya devam et.
+HattÄ± aÃ§Ä±k tut.
 
 893
 01:17:52,600 --> 01:17:55,436
-Çok karanlık.
-Hiç kolay olmayacak.
+Ã‡ok karanlÄ±k.
+HiÃ§ kolay olmayacak.
 
 894
 01:17:55,438 --> 01:17:58,639
 <i>Andrei?</i>
-Kamera yine kapandı.
+Kamera yine kapandÄ±.
 
 895
 01:17:58,641 --> 01:18:01,208
@@ -4074,12 +4074,12 @@ Beni duyabiliyor musun?
 
 896
 01:18:01,210 --> 01:18:04,745
-- Çok uzak değil.
+- Ã‡ok uzak deÄŸil.
 - Kamera tekrar geldi.
 
 897
 01:18:04,747 --> 01:18:07,815
-On adım...
+On adÄ±m...
 
 898
 01:18:25,600 --> 01:18:27,334
@@ -4087,15 +4087,15 @@ Andrei?
 
 899
 01:18:42,283 --> 01:18:44,818
-<i>Andrei, arkandaki ışığı görebiliyorum.</i>
+<i>Andrei, arkandaki Ä±ÅŸÄ±ÄŸÄ± gÃ¶rebiliyorum.</i>
 
 900
 01:18:50,425 --> 01:18:52,192
-Acele et lütfen.
+Acele et lÃ¼tfen.
 
 901
 01:18:53,461 --> 01:18:55,896
-<i>Geminin altındaki suyu görebiliyorum.</i>
+<i>Geminin altÄ±ndaki suyu gÃ¶rebiliyorum.</i>
 
 902
 01:18:55,898 --> 01:18:57,831
@@ -4103,17 +4103,17 @@ Hadi, dayan biraz.
 
 903
 01:19:00,536 --> 01:19:04,271
-Bir arıza daha oldu.
-Sürücüleri kontrol etmem gerek.
+Bir arÄ±za daha oldu.
+SÃ¼rÃ¼cÃ¼leri kontrol etmem gerek.
 
 904
 01:19:07,909 --> 01:19:09,576
-Lütfen çalış.
+LÃ¼tfen Ã§alÄ±ÅŸ.
 
 905
 01:19:11,513 --> 01:19:13,847
 <i>- Son bir vida daha var,
-sonra işim bitiyor. - Andrei?</i>
+sonra iÅŸim bitiyor. - Andrei?</i>
 
 906
 01:19:13,849 --> 01:19:16,783
@@ -4122,22 +4122,22 @@ Beni duyuyor musun?</i>
 
 907
 01:19:19,154 --> 01:19:23,790
-<i>Kokpitte üstünde çalıştığım
-bir dolap vardı.</i>
+<i>Kokpitte Ã¼stÃ¼nde Ã§alÄ±ÅŸtÄ±ÄŸÄ±m
+bir dolap vardÄ±.</i>
 
 908
 01:19:23,792 --> 01:19:28,495
-Kabloları bağlarsan,
-sistem çalışmaya başlayacaktır.
+KablolarÄ± baÄŸlarsan,
+sistem Ã§alÄ±ÅŸmaya baÅŸlayacaktÄ±r.
 
 909
 01:19:28,497 --> 01:19:30,497
-Komuta modülündeki tüm güç bitmek üzere.
+Komuta modÃ¼lÃ¼ndeki tÃ¼m gÃ¼Ã§ bitmek Ã¼zere.
 
 910
 01:19:33,401 --> 01:19:36,870
-Buradaki kameralar kapanıyor.
-Şeye gidiyorum...
+Buradaki kameralar kapanÄ±yor.
+Åeye gidiyorum...
 
 911
 01:19:44,479 --> 01:19:45,846
@@ -4145,7 +4145,7 @@ Andrei?
 
 912
 01:19:47,182 --> 01:19:49,383
-Kabloları bağlıyorum.
+KablolarÄ± baÄŸlÄ±yorum.
 
 913
 01:19:50,818 --> 01:19:52,452
@@ -4154,31 +4154,31 @@ Neredeyse bitti.
 
 914
 01:19:54,722 --> 01:19:58,692
-Rosa, çalışıyor.
-Çalışıyor.
+Rosa, Ã§alÄ±ÅŸÄ±yor.
+Ã‡alÄ±ÅŸÄ±yor.
 
 915
 01:20:09,037 --> 01:20:12,072
-<i>- Tanrım.
-- Zamanımız tükeniyor.</i>
+<i>- TanrÄ±m.
+- ZamanÄ±mÄ±z tÃ¼keniyor.</i>
 
 916
 01:20:15,810 --> 01:20:17,344
-Haberleşme sistemi çalışıyor.
+HaberleÅŸme sistemi Ã§alÄ±ÅŸÄ±yor.
 
 917
 01:20:17,346 --> 01:20:20,414
-Başardın.
+BaÅŸardÄ±n.
 
 918
 01:20:20,416 --> 01:20:24,318
-Bunu görmen gerek.
+Bunu gÃ¶rmen gerek.
 Bunu kaydediyor musun?
 
 919
 01:20:25,921 --> 01:20:30,657
-- Işık geminin etrafını kapladı.
-- Dış kameralar bozuluyor.
+- IÅŸÄ±k geminin etrafÄ±nÄ± kapladÄ±.
+- DÄ±ÅŸ kameralar bozuluyor.
 
 920
 01:20:32,227 --> 01:20:33,694
@@ -4190,7 +4190,7 @@ Andrei?
 
 922
 01:20:36,565 --> 01:20:38,732
-Gemi buzun içine gömülüyor.
+Gemi buzun iÃ§ine gÃ¶mÃ¼lÃ¼yor.
 
 923
 01:20:44,372 --> 01:20:45,672
@@ -4203,21 +4203,21 @@ Andrei?
 
 925
 01:20:51,312 --> 01:20:54,281
-Andrei, duyuyor musun? Konuş benimle.
-Konuş benimle.
+Andrei, duyuyor musun? KonuÅŸ benimle.
+KonuÅŸ benimle.
 
 926
 01:20:55,016 --> 01:20:56,416
-Andrei, konuş benimle.
+Andrei, konuÅŸ benimle.
 
 927
 01:21:28,241 --> 01:21:31,241
-22 Ay, 12 Gün, 15 Saat, 35 Dakika.
+22 Ay, 12 GÃ¼n, 15 Saat, 35 Dakika.
 
 928
 01:21:38,326 --> 01:21:44,231
-Öğreneceğimiz bilginin büyüklüğünü göze
-alırsak, hayatın aslında ne önemi var ki?
+Ã–ÄŸreneceÄŸimiz bilginin bÃ¼yÃ¼klÃ¼ÄŸÃ¼nÃ¼ gÃ¶ze
+alÄ±rsak, hayatÄ±n aslÄ±nda ne Ã¶nemi var ki?
 
 929
 01:22:41,055 --> 01:22:43,357
@@ -4225,37 +4225,37 @@ alırsak, hayatın aslında ne önemi var ki?
 
 930
 01:22:43,359 --> 01:22:46,126
-<i>...Rosa iletişimin yeniden
-kurulduğunu bildiği halde...</i>
+<i>...Rosa iletiÅŸimin yeniden
+kurulduÄŸunu bildiÄŸi halde...</i>
 
 931
 01:22:46,128 --> 01:22:49,129
-<i>...hava kilidini açmayı tercih etti.</i>
+<i>...hava kilidini aÃ§mayÄ± tercih etti.</i>
 
 932
 01:22:53,835 --> 01:22:58,872
-İletişimin yeniden kurulduğunu söylemek
-için beni aradıklarında saat üçtü.
+Ä°letiÅŸimin yeniden kurulduÄŸunu sÃ¶ylemek
+iÃ§in beni aradÄ±klarÄ±nda saat Ã¼Ã§tÃ¼.
 
 933
 01:22:58,874 --> 01:23:03,844
-Görev Kontrole geldiğim zaman sunucularımız
-mürettebatımızın görüntüleriyle doluydu.
+GÃ¶rev Kontrole geldiÄŸim zaman sunucularÄ±mÄ±z
+mÃ¼rettebatÄ±mÄ±zÄ±n gÃ¶rÃ¼ntÃ¼leriyle doluydu.
 
 934
 01:23:08,583 --> 01:23:10,851
-Görevimiz en sonunda
-meyvelerini vermişti.
+GÃ¶revimiz en sonunda
+meyvelerini vermiÅŸti.
 
 935
 01:23:21,929 --> 01:23:25,366
-Birbirleri için, görevi
-devam ettirmek için ve...
+Birbirleri iÃ§in, gÃ¶revi
+devam ettirmek iÃ§in ve...
 
 936
 01:23:25,392 --> 01:23:29,194
-...bilimi ilerletmek adına
-yaptıkları fedakarlıkları gördük.
+...bilimi ilerletmek adÄ±na
+yaptÄ±klarÄ± fedakarlÄ±klarÄ± gÃ¶rdÃ¼k.
 
 937
 01:23:33,875 --> 01:23:35,976
@@ -4263,48 +4263,48 @@ Ve o son resim...
 
 938
 01:23:35,978 --> 01:23:37,778
-...çok korkutucu.
+...Ã§ok korkutucu.
 
 939
 01:23:38,980 --> 01:23:43,884
-Dehşet verici. En çılgın
-teorilerimizin bile ötesinde.
+DehÅŸet verici. En Ã§Ä±lgÄ±n
+teorilerimizin bile Ã¶tesinde.
 
 940
 01:23:45,453 --> 01:23:50,457
-Bu yaratığın keşfi tek
-kelimeyle olağanüstüdür.
+Bu yaratÄ±ÄŸÄ±n keÅŸfi tek
+kelimeyle olaÄŸanÃ¼stÃ¼dÃ¼r.
 
 941
 01:23:51,125 --> 01:23:54,600
-Artık evrenimizin
-sandığımızdan çok daha tuhaf...
+ArtÄ±k evrenimizin
+sandÄ±ÄŸÄ±mÄ±zdan Ã§ok daha tuhaf...
 
 942
 01:23:54,626 --> 01:23:58,523
-...çok daha hayat
-dolu olduğunu biliyoruz.
+...Ã§ok daha hayat
+dolu olduÄŸunu biliyoruz.
 
 943
 01:23:59,600 --> 01:24:02,930
-Europa 1'in mürettebatı...
+Europa 1'in mÃ¼rettebatÄ±...
 
 944
 01:24:02,956 --> 01:24:06,665
-...insanlığın anlayışını
-kökünden değiştirdi.
+...insanlÄ±ÄŸÄ±n anlayÄ±ÅŸÄ±nÄ±
+kÃ¶kÃ¼nden deÄŸiÅŸtirdi.
 
 945
 01:24:08,476 --> 01:24:13,213
-Daha büyük nasıl bir şey
-başarabilirlerdi hiç bilmiyorum.
+Daha bÃ¼yÃ¼k nasÄ±l bir ÅŸey
+baÅŸarabilirlerdi hiÃ§ bilmiyorum.
 
 946
 01:24:13,215 --> 01:24:15,682
-- Çekiyor mu? Çekiyor mu?
+- Ã‡ekiyor mu? Ã‡ekiyor mu?
 - Evet.
 
 947
 01:24:17,007 --> 01:24:22,007
-Çeviri:honestly=hasan
+Ã‡eviri:honestly=hasan
 twitter.com/_benefaction
